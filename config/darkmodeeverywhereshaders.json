@@ -2,17 +2,17 @@
   "shaders": [
     {
       "resourceLocation": "darkmodeeverywhere:perfect_dark",
-      "displayName": "Perfect Dark",
+      "displayName": "\u5b8c\u7f8e\u9ed1\u6697",
       "darkColorReplacement": 16777215
     },
     {
       "resourceLocation": "darkmodeeverywhere:less_perfect_dark",
-      "displayName": "Less Perfect Dark",
+      "displayName": "\u5c11\u4e00\u4e9b\u7684\u5b8c\u7f8e\u9ed1\u6697",
       "darkColorReplacement": 16777215
     },
     {
       "resourceLocation": "darkmodeeverywhere:toasted_light",
-      "displayName": "Toasted Light Mode",
+      "displayName": "\u5c11\u4e00\u4e9b\u7684\u5b8c\u7f8e\u660e\u4eae",
       "darkColorReplacement": 16777215
     }
   ],
