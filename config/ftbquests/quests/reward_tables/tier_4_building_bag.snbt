@@ -1,0 +1,45 @@
+{
+	id: "2F2834287FD80099"
+	order_index: 4
+	title: "Tier 4 Building bag"
+	loot_size: 10
+	rewards: [
+		{
+			item: {
+				id: "domum_ornamentum:shingle_slab"
+				Count: 1b
+				tag: {
+					textureData: {
+						"minecraft:block/oak_planks": "domum_ornamentum:cyan_brick_extra"
+						"minecraft:block/dark_oak_planks": "minecraft:oak_planks"
+						"minecraft:block/acacia_planks": "domum_ornamentum:cyan_brick_extra"
+					}
+				}
+			}
+			count: 16
+			only_one: true
+		}
+		{
+			item: {
+				id: "domum_ornamentum:shingle"
+				Count: 1b
+				tag: {
+					textureData: {
+						"minecraft:block/oak_planks": "minecraft:acacia_planks"
+						"minecraft:block/clay": "domum_ornamentum:cyan_brick_extra"
+					}
+				}
+			}
+			count: 64
+			only_one: true
+		}
+		{ item: "minecraft:acacia_planks", count: 16, only_one: true }
+		{ item: "minecraft:stripped_warped_stem", count: 32, only_one: true }
+		{ item: "minecraft:redstone", count: 16, only_one: true }
+		{ item: "minecraft:pumpkin", only_one: true }
+		{ item: "minecraft:polished_basalt", count: 32, only_one: true }
+		{ item: "quark:warped_bookshelf", count: 4, only_one: true }
+		{ item: "minecraft:blackstone", count: 64, only_one: true }
+		{ item: "minecraft:dark_oak_planks", count: 64, only_one: true }
+	]
+}

@@ -1,0 +1,33 @@
+{
+	id: "4382156C7397BA18"
+	order_index: 0
+	title: "Tier 1 Building Bag"
+	icon: {
+		id: "chiselsandbits:bit_bag"
+		Count: 1b
+		tag: {
+			Inventory: { }
+		}
+	}
+	loot_size: 7
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ team_reward: false, item: "minecraft:netherrack", count: 64, only_one: true }
+		{ item: "minecraft:netherrack", count: 64, only_one: true }
+		{ item: "minecraft:warped_roots", count: 16, only_one: true }
+		{ item: "minecraft:warped_fence", only_one: true }
+		{ item: "minecraft:torch", only_one: true }
+		{ item: "minecraft:warped_wart_block", count: 16, only_one: true }
+		{ item: "minecraft:basalt", count: 64, only_one: true }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "tier_1_building_bag"
+	}
+}

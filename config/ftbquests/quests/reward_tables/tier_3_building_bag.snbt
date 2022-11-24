@@ -1,0 +1,19 @@
+{
+	id: "34909CB36EDDE81D"
+	order_index: 3
+	title: "Tier 3 Building Bag"
+	loot_size: 11
+	rewards: [
+		{ item: "minecraft:lantern", count: 2, only_one: true }
+		{ item: "minecraft:brick", count: 4, only_one: true }
+		{ item: "minecraft:glass", count: 8, only_one: true }
+		{ item: "minecraft:nether_sprouts", count: 8, only_one: true }
+		{ item: "minecraft:white_wool", count: 8, only_one: true }
+		{ item: "minecraft:sand", count: 32, only_one: true }
+		{ item: "minecraft:stripped_warped_stem", count: 32, only_one: true }
+		{ item: "minecraft:polished_basalt", count: 64, only_one: true }
+		{ item: "minecraft:polished_blackstone", count: 8, only_one: true }
+		{ item: "minecraft:warped_planks", count: 64, only_one: true }
+		{ item: "minecraft:warped_planks", count: 64, only_one: true }
+	]
+}

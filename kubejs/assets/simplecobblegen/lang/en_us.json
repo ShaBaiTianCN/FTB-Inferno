@@ -1,0 +1,5 @@
+{
+  "block.simplecobblegen.cobble_generator": "Cobblestone Generator",
+  "config.simplecobblegen.cobble_generator.maxcobblepertick": "The maximum number of cobble blocks that can be generated per tick.",
+  "config.simplecobblegen.cobble_generator.rfperblock": "The RF required to generate a single cobble block."
+}

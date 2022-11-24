@@ -1,0 +1,1003 @@
+{
+	id: "1F25D8EFB8DEFD76"
+	group: "7044F2C841148E69"
+	order_index: 1
+	filename: "unnatural_aura"
+	title: "Unnatural Aura"
+	icon: "naturesaura:crimson_aura_mushroom"
+	subtitle: ["Nature's Aura"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Ritual of the Forest"
+			x: -1.0d
+			y: -2.5d
+			subtitle: "Use the Ritual of the Forest"
+			description: [
+				"I never paid much attention in these classes, but I remember the basics."
+				""
+				"The &bRitual of the Forest&r requires &6placing items atop&r &bWooden Stands&r, surrounding a ring of Gold Dust, surrounding a Sapling. &6Growing the Sapling starts the ritual.&r"
+			]
+			dependencies: ["2E715A588FA9E513"]
+			min_width: 275
+			id: "30BFD136F6B44257"
+			tasks: [{
+				id: "76596098A53D4C3F"
+				type: "item"
+				item: "naturesaura:wood_stand"
+				count: 8L
+			}]
+		}
+		{
+			title: "Bottled Frustrations"
+			icon: "naturesaura:bottle_two_the_rebottling"
+			x: -1.0d
+			y: -0.5d
+			subtitle: "Collect the essence of the Nether"
+			description: [
+				"The &bBottle and Cork&r allow me to &6bottle the local aura&r, so it can be used in rituals."
+				""
+				"Keeping my current situation in mind, &bBottled Ghosts&r is the only aura available."
+				""
+				"I should keep in mind: &cbottling aura removes it from the atmosphere&r. &6Crimson Aura Fungus&r will replenish aura when grown."
+			]
+			dependencies: ["2E715A588FA9E513"]
+			id: "3BCA3AB4E8E386B7"
+			tasks: [
+				{
+					id: "03D251829AD1B57A"
+					type: "item"
+					item: "naturesaura:bottle_two_the_rebottling"
+				}
+				{
+					id: "2D421E8C387FDB66"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:nether"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "28A740B4C0CC57CB"
+				type: "item"
+				item: "naturesaura:crimson_aura_mushroom"
+				count: 4
+			}]
+		}
+		{
+			title: "Naturaln't Altar"
+			x: 1.0d
+			y: -1.5d
+			subtitle: "Make the Natural Altar"
+			description: [
+				"The &bNatural Altar&r drains the surrounding aura to create things. "
+				""
+				"This horrid place has an equally horrid aura. As such, it corrupts into the &cCrimson Altar&r when placed."
+				""
+				"The Altar requires a structure around it to function."
+				""
+				"&oSee the \"Harnessing Aura\" category of the &6Book of Natural Aura&r to see the structure"
+			]
+			dependencies: [
+				"30BFD136F6B44257"
+				"3BCA3AB4E8E386B7"
+			]
+			min_width: 225
+			id: "0BEFED4E45E00A84"
+			tasks: [{
+				id: "4B9BF494B301639D"
+				type: "item"
+				item: "naturesaura:nature_altar"
+			}]
+			rewards: [
+				{
+					id: "2EFD5F2BDC3037E9"
+					type: "item"
+					item: "naturesaura:gold_nether_brick"
+					count: 8
+				}
+				{
+					id: "75CF2664A2232D87"
+					type: "item"
+					item: "naturesaura:crimson_aura_mushroom"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Magical Metals"
+			icon: "naturesaura:infused_iron"
+			x: 2.5d
+			y: -1.5d
+			subtitle: "Make Infused Iron and Tainted Gold"
+			description: [
+				"My mundane alloys can be &6vastly upgraded&r into &bInfused Iron&r and &bTainted Gold&r."
+				""
+				"Infused Iron in particular is very helpful, able to be used in &6Botanist's armor and tools&r."
+			]
+			dependencies: ["0BEFED4E45E00A84"]
+			id: "6A7B93DC1ACE716B"
+			tasks: [{
+				id: "38D980A4956E790C"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "naturesaura:infused_iron"
+								Count: 1b
+							}
+							{
+								id: "naturesaura:tainted_gold"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "We Still Get a Signal in Here?"
+			icon: "naturesaura:offering_table"
+			x: 4.0d
+			y: -1.5d
+			subtitle: "Make an offering to the gods"
+			description: [
+				"Contacting the gods &ohere&r sort of feels like getting called to the principal's office. Let's hope their benevolence holds up."
+				""
+				"The &bOffering Altar&r must be placed, and there must be a &6specific flower arrangement surrounding it&r."
+				""
+				"I must place my offering in the table (in any amount), and then throw down a &bSpirit of Calling&r. Gods willing, my sacrifice will be accepted, and I will receive something in return."
+			]
+			dependencies: [
+				"6A7B93DC1ACE716B"
+				"6BBA6FE9EE790FAA"
+				"571BC20E3675397C"
+			]
+			min_width: 275
+			id: "3D0F0A989EF18326"
+			tasks: [
+				{
+					id: "5DC97AF30F9BA2AE"
+					type: "item"
+					item: "naturesaura:offering_table"
+				}
+				{
+					id: "2CD4C4C9E4456AEA"
+					type: "item"
+					item: "naturesaura:calling_spirit"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			subtitle: "Collect some Ingots of the Skies"
+			description: ["&bIngot of the Skies&r is one of the most powerful metals provided from the natural arts. It is &6used in recipes for powerful items&r across multiple schools of magic."]
+			dependencies: ["3D0F0A989EF18326"]
+			id: "2708CC826E342879"
+			tasks: [{
+				id: "7748C5D278741412"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+			}]
+		}
+		{
+			title: "I Can't Believe It's Not Gold!"
+			x: -3.0d
+			y: -1.5d
+			shape: "hexagon"
+			subtitle: "Make Gold Powder"
+			description: [
+				"Gold Leaf, while very pretty, is of much more use to me as &bGold Powder&r."
+				""
+				"I can place it like Redstone!"
+			]
+			dependencies: ["0EC270EA1F87DDFD"]
+			size: 1.5d
+			id: "2E715A588FA9E513"
+			tasks: [{
+				id: "52150047B776F718"
+				type: "item"
+				item: "naturesaura:gold_powder"
+			}]
+			rewards: [{
+				id: "76B5BA616130CBB1"
+				type: "item"
+				item: "infernalexp:luminous_fungus"
+			}]
+		}
+		{
+			title: "In the Ancient Glade; The Quiet Shade"
+			x: -0.75d
+			y: -3.5d
+			shape: "square"
+			subtitle: "Make an Ancient Sapling"
+			description: [
+				"&bAncient Trees&r are a deeply magical lifeform."
+				""
+				"Normally, Ancient Leaves would &6replenish the aura&r of the surrounding area. However, they &cdo not work in this hellish place&r."
+				""
+				"As such, Ancient Trees are best used in crafting recipes, or for aesthetic purposes."
+			]
+			hide_dependency_lines: true
+			dependencies: ["30BFD136F6B44257"]
+			size: 0.5d
+			id: "5BCA38208920730E"
+			tasks: [{
+				id: "4188EC72735B8692"
+				type: "item"
+				item: "naturesaura:ancient_sapling"
+			}]
+		}
+		{
+			title: "Decay Exists as an Extant Form of Life"
+			x: 2.25d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Make a Disentangler of Mortals"
+			description: [
+				"As I use the Aura in my surroundings, &6it has to be replenished&r. Naturally, because I cannot have nice things, &cpeaceful options do not work here&r. I'll have to make something worse."
+				""
+				"The &bDisentangler of Mortals&r will &6replenish Aura whenever passive mobs are killed nearby&r."
+				""
+				"The longer-aged the mob, the more aura is replenished. This maxes out around an hour and a half old."
+				""
+				"Animals killed in this way &cdo not drop items&r."
+				""
+				"The Disentangler takes a while to work. If another animal is killed during this time, &cboth the aura and items are lost&r."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6A7B93DC1ACE716B"]
+			size: 0.5d
+			id: "48D4F9B16488D30D"
+			tasks: [{
+				id: "51B55D905ACCA099"
+				type: "item"
+				item: "naturesaura:animal_generator"
+			}]
+		}
+		{
+			title: "Crimson Decay and Other Fun Effects"
+			icon: "minecraft:skeleton_skull"
+			x: 1.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "Aura imbalance"
+			description: [
+				"As Aura is drained or added to extremes, it may create an &bAura Imbalance&r. This can have both positive and negative effects."
+				""
+				"There is an entire category on Aura Imbalance in the &6Book of Natural Aura&r."
+				""
+				"Some effects that can happen are:"
+				"• Blocks can decay or grow"
+				"• Neutral mobs can become hostile"
+				"• It can become impossible to breathe"
+				"• Mobs can breed on their own"
+				"• Your inventory may charge with aura"
+				"• Ores may replace Stone/Netherrack"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3BCA3AB4E8E386B7"]
+			optional: true
+			id: "62FD05AA44D9A2F2"
+			tasks: [{
+				id: "27EE5204B5148B41"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Flower Power"
+			icon: {
+				id: "naturesaura:infused_iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.5d
+			y: -0.5d
+			shape: "square"
+			subtitle: "Make some Botanist's tools and armor"
+			description: [
+				"Being made of &6Infused Iron&r, &bBotanist's tools and armor&r keep their &6iron-level effectiveness&r. They can also be repaired using an &6Aura Cache&r, if I sneak while standing still."
+				""
+				"Botanist's tools each have &6additional effects&r. These can be seen in the Book of Natural Aura."
+				""
+				"While wearing a full set of Botanist's armor, &6those that attack me will get Withering&r. As a bonus, I will get Regeneration I and +2 Luck"
+			]
+			dependencies: ["6A7B93DC1ACE716B"]
+			size: 0.5d
+			min_width: 275
+			id: "4FEB85BABA317308"
+			tasks: [
+				{
+					id: "3F75BEDB03632F81"
+					type: "item"
+					title: "Botanist's tools"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "naturesaura:infused_iron_sword"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:infused_iron_pickaxe"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:infused_iron_axe"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:infused_iron_shovel"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:infused_iron_hoe"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "3D64E02B74E66D55"
+					type: "item"
+					title: "Botanist's armor"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "naturesaura:infused_iron_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:infused_iron_chest"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:infused_iron_pants"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:infused_iron_shoes"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.25d
+			y: -3.5d
+			shape: "square"
+			subtitle: "Make an Environmental Eye"
+			description: [
+				"While holding the &bEnvironmental Eye&r in my hotbar (or wearing as a curio), I can &6see the level of Aura around me&r."
+				""
+				"The Aura bar being halfway up means the area has a normal amount of Aura."
+				""
+				"It will also let me &6see how much Aura is Aura-containing blocks&r. A full bar means it is full of Aura."
+			]
+			hide_dependency_lines: true
+			dependencies: ["30BFD136F6B44257"]
+			size: 0.5d
+			id: "3B2D95C045871D21"
+			tasks: [{
+				id: "64C53D701D79DC14"
+				type: "item"
+				item: "naturesaura:eye"
+			}]
+		}
+		{
+			x: 5.75d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Make an Environmental Ocular"
+			description: [
+				"The &bEnvironmental Ocular&r can show &6twice the max Aura&r as the Environmental Eye."
+				""
+				"It also shows me &6all Aura Imbalance effects&r where I am, and works from anywhere in my inventory."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2708CC826E342879"]
+			size: 0.5d
+			id: "565F3A35F03BBD89"
+			tasks: [{
+				id: "2BD74F992EA0C361"
+				type: "item"
+				item: "naturesaura:eye_improved"
+			}]
+		}
+		{
+			title: "public void looper() \\{ looper(); \\}"
+			x: 2.75d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Make an Offshoot Observer"
+			description: ["The &bOffshoot Observer&r replenishes the local aura when &6Slimes or Magma Cubes split&r."]
+			hide_dependency_lines: true
+			dependencies: ["6A7B93DC1ACE716B"]
+			size: 0.5d
+			id: "68D8D4C0636D6D2C"
+			tasks: [{
+				id: "02595EC08A173878"
+				type: "item"
+				item: "naturesaura:slime_split_generator"
+			}]
+		}
+		{
+			title: "The Joy of Creation"
+			x: 3.75d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Make a Creational Catalyst"
+			description: [
+				"Aura-creating devices &cdo not work after a certain point&r. If there's too much Aura, they can't make more."
+				""
+				"I can place the &bCreational Catalyst&r directly below those devices to remove that limit."
+			]
+			hide_dependency_lines: true
+			dependencies: ["3D0F0A989EF18326"]
+			size: 0.5d
+			id: "01F7546D35852680"
+			tasks: [{
+				id: "609414E8851ABD9C"
+				type: "item"
+				item: "naturesaura:generator_limit_remover"
+			}]
+		}
+		{
+			x: 2.25d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Make an Aura Cache"
+			description: [
+				"The &bAura Cache&r allows me to &6store a large amount of Aura&r, allowing other items to use it."
+				""
+				"I can charge it by &6standing near a Natural (or Crimson) Altar&r."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6A7B93DC1ACE716B"]
+			size: 0.5d
+			id: "064E6B97237A040E"
+			tasks: [{
+				id: "5789C1C07F03A610"
+				type: "item"
+				item: "naturesaura:aura_cache"
+			}]
+		}
+		{
+			x: 5.25d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Make an Aura Trove"
+			description: ["The &bAura Trove&r is an upgraded Aura Cache, &6holding three times the Aura&r within."]
+			hide_dependency_lines: true
+			dependencies: ["2708CC826E342879"]
+			size: 0.5d
+			id: "579097E27ADD673E"
+			tasks: [{
+				id: "0736BDD7928D4488"
+				type: "item"
+				item: "naturesaura:aura_trove"
+			}]
+		}
+		{
+			title: "Buttstomp"
+			x: 4.0d
+			y: -0.5d
+			shape: "square"
+			subtitle: "Make the Amulet of Wrath"
+			description: [
+				"The &bAmulet of Wrath&r will allow me to &6create a shockwave&r when sneaking while falling. This uses Aura from a Cache."
+				""
+				"While wearing a full set of &6Botanist's armor&r, the shockwave causes withering."
+			]
+			dependencies: ["3D0F0A989EF18326"]
+			size: 0.5d
+			id: "5177FDE229037B34"
+			tasks: [{
+				id: "428AA02D2726B62C"
+				type: "item"
+				item: "naturesaura:shockwave_creator"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Make a Mystical Magnifier"
+			description: ["The &bMystical Magnifier&r will show me the &6working range of blocks&r."]
+			hide_dependency_lines: true
+			dependencies: ["6A7B93DC1ACE716B"]
+			size: 0.5d
+			id: "07FB6D050E325B9F"
+			tasks: [{
+				id: "251F83ED10FACDC6"
+				type: "item"
+				item: "naturesaura:range_visualizer"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			shape: "square"
+			subtitle: "Make a Ring of Last Chance"
+			description: ["The &bRing of Last Chance&r is basically a &6Totem of Undying that works anywhere&r in my inventory."]
+			hide_dependency_lines: true
+			dependencies: ["2708CC826E342879"]
+			size: 0.5d
+			id: "258CFF1E4B2BB766"
+			tasks: [{
+				id: "78DCE4FCD8F65D7D"
+				type: "item"
+				item: "naturesaura:death_ring"
+			}]
+		}
+		{
+			icon: {
+				id: "naturesaura:sky_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 5.5d
+			y: -0.5d
+			shape: "square"
+			subtitle: "Make some Skyseeker's tools and armor"
+			description: [
+				"Like Botanist's tools and armors, &bSkyseeker's tools and amrmor&r have bonuses and can be repaired with aura."
+				""
+				"The tools all have &6additional effects&r, and can be seen in the Book of Natural Aura."
+				""
+				"While wearing all the armor, I will &6move faster and step up blocks&r without needing to jump."
+			]
+			dependencies: ["2708CC826E342879"]
+			size: 0.5d
+			min_width: 250
+			id: "0C37A882F7104FFD"
+			tasks: [
+				{
+					id: "2FF8166134BC5F70"
+					type: "item"
+					title: "Skyseeker's tools"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "naturesaura:sky_sword"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:sky_pickaxe"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:sky_axe"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:sky_shovel"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:sky_hoe"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "59E149C2A9267E76"
+					type: "item"
+					title: "Skyseeker's armor"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "naturesaura:sky_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:sky_chest"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:sky_pants"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:sky_shoes"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "Make a Staff of Ancient Knowledge"
+			description: ["Using a rather substantial amount of Aura, the &bStaff of Ancient Knowledge&r will point me in the direction of &6Ancient Debris&r nearby."]
+			hide_dependency_lines: true
+			dependencies: ["2708CC826E342879"]
+			size: 0.5d
+			id: "00AEF380BE2B11A4"
+			tasks: [{
+				id: "626ECD79FA0BDD80"
+				type: "item"
+				item: "naturesaura:netherite_finder"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			shape: "square"
+			subtitle: "Make a Staff of Baldur"
+			description: ["Using a bit of Aura, the &bStaff of Baldur&r will allow me to &6shoot a beam of light&r, igniting mobs and creating a light source."]
+			hide_dependency_lines: true
+			dependencies: ["2708CC826E342879"]
+			size: 0.5d
+			id: "2DCBA3039930D825"
+			tasks: [{
+				id: "60B8797530A3E46D"
+				type: "item"
+				item: "naturesaura:light_staff"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Make a Staff of Riches"
+			description: ["Using a fair amount of Aura, the &bStaff of Riches&r will &6show me the location of inventories nearby&r. Useful for finding loot chests in dungeons!"]
+			dependencies: ["3D0F0A989EF18326"]
+			size: 0.5d
+			id: "020C81CB20295443"
+			tasks: [{
+				id: "2C7A2E75E05BD336"
+				type: "item"
+				item: "naturesaura:loot_finder"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "Make a Staff of Shadows"
+			description: ["Using a bit of Aura, the &bStaff of Shadows&r will &6show me locations monsters can spawn&r, even through walls!"]
+			dependencies: ["3D0F0A989EF18326"]
+			size: 0.5d
+			id: "5BEB67F61CCFEEE3"
+			tasks: [{
+				id: "497E96EE649BF202"
+				type: "item"
+				item: "naturesaura:cave_finder"
+			}]
+		}
+		{
+			x: 4.25d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Make an Everlasting Spring"
+			description: ["The &bEverlasting Spring&r allows me to &6pull an infinite amount of water&r, even here! If only I could pour it..."]
+			hide_dependency_lines: true
+			dependencies: ["3D0F0A989EF18326"]
+			size: 0.5d
+			id: "68C30FB614FFAD97"
+			tasks: [{
+				id: "1EA471B66E1C9278"
+				type: "item"
+				item: "naturesaura:spring"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Make an Extraneous Firestarter"
+			description: [
+				"The &bExtraneous Firestarter&r can be placed on Furnaces to &6make them work faster&r, at a cost to of Aura."
+				""
+				"It could be useful to &6place these on the Smeltery's furnaces&r, I'm sure my minion would appreciate it."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6A7B93DC1ACE716B"]
+			size: 0.5d
+			id: "5FF89325AF61B7EF"
+			tasks: [{
+				id: "1650FEDDC22487C5"
+				type: "item"
+				item: "naturesaura:furnace_heater"
+			}]
+		}
+		{
+			x: 1.75d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Make an Armorer's Aid"
+			description: ["The &bArmorer's Aid&r can be placed on a Blast Furnace, and it will &6occasionally double ores&r at a cost of Aura."]
+			dependencies: ["5FF89325AF61B7EF"]
+			size: 0.5d
+			id: "0FF6C8F5F25545C9"
+			tasks: [{
+				id: "43EF47247A43FE6C"
+				type: "item"
+				item: "naturesaura:blast_furnace_booster"
+			}]
+		}
+		{
+			title: "Night Time, &oDay Time!&r"
+			icon: "naturesaura:time_changer"
+			x: 5.25d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Make a Shifting Sundial"
+			description: [
+				"One of the more unexpected annoyances here is the passage of time. While I can't sleep, my minions definitely do. The &bShifting Sundial&r finally gives me a way to &6skip time&r."
+				""
+				"I must place an Item Frame on the side, and insert the &bHand of Time&r. I must &6rotate it to match the time of day&r I want."
+				""
+				"Upright is midnight, and upside down is noon. To activate it, I must &6throw a Clock&r on the Sundial."
+				""
+				"As moving the stars (though I cannot see them) is a rather significant act, this takes a large amount of Aura. The longer the time skip, the more Aura."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2708CC826E342879"]
+			size: 0.5d
+			min_width: 275
+			id: "631ED5D368818679"
+			tasks: [
+				{
+					id: "75C520CE7F1E7B30"
+					type: "item"
+					item: "naturesaura:time_changer"
+				}
+				{
+					id: "3E0D695E6A877722"
+					type: "item"
+					item: "naturesaura:clock_hand"
+				}
+			]
+		}
+		{
+			title: "Let it Snow"
+			x: 5.75d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Make Winter's Calling"
+			description: [
+				"I have felt no climate cooler than \"&cslightly below hyperthermia&r\" since arriving here. If I don't find a way to cool down, I fear I'll go mad."
+				""
+				"&bWinter's Calling&r will &6create an area of snow&r, when given a redstone signal. Given that it even works down here, this might be the greatest thing I've made so far."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2708CC826E342879"]
+			size: 0.5d
+			id: "56FA229AB8D39083"
+			tasks: [{
+				id: "3D4D4B9B762918A6"
+				type: "item"
+				item: "naturesaura:snow_creator"
+			}]
+		}
+		{
+			title: "Aura Transportation"
+			x: 6.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "Make an Aura Attraction Cart"
+			description: [
+				"The &bAura Attraction Cart&r will allow me to &6transfer Aura&r between locations!"
+				""
+				"If the Cart passes over a &6powered Activator Rail&r, it will begin &6absorbing Aura&r."
+				""
+				"Once the cart then passes over an unpowered Activator Rail, the &6Aura will be discharged&r. There is &csome Aura loss&r in the process."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2708CC826E342879"]
+			size: 0.5d
+			id: "1F0A4472406C3AFA"
+			tasks: [{
+				id: "64C1D0F4449C2BA3"
+				type: "item"
+				item: "naturesaura:mover_cart"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Make an Aura Detector"
+			description: [
+				"The &bAura Detector&r will allow me to &6detect when the Aura is low&r automatically."
+				""
+				"A &6Comparator&r will give off a signal based on the amount of Aura in the surroundings."
+			]
+			dependencies: ["0BEFED4E45E00A84"]
+			size: 0.5d
+			id: "1028B418BF720515"
+			tasks: [{
+				id: "0797B96DB05F5653"
+				type: "item"
+				item: "naturesaura:aura_detector"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Make a Corporeal Eye"
+			description: [
+				"The &bCorporeal Eye&r will &6stop animals from exiting its range&r, at a cost of Aura."
+				""
+				"It works based on a redstone signal. The higher the strength, the larger the radius."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0BEFED4E45E00A84"]
+			size: 0.5d
+			id: "6F4EB303EC3FC9A5"
+			tasks: [{
+				id: "5221D5C28ADC1E96"
+				type: "item"
+				item: "naturesaura:animal_container"
+			}]
+		}
+		{
+			title: "10,000 Times Earth's Gravity"
+			x: 2.75d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Make an Item Grounder"
+			description: ["The &bItem Grounder&r will &6prevent me from picking up dropped items&r unless I am sneaking."]
+			hide_dependency_lines: true
+			dependencies: ["6A7B93DC1ACE716B"]
+			size: 0.5d
+			id: "22653E3335B3F393"
+			tasks: [{
+				id: "2C54D884A2137B2A"
+				type: "item"
+				item: "naturesaura:pickup_stopper"
+			}]
+		}
+		{
+			title: "Whopper"
+			icon: "naturesaura:grated_chute"
+			x: 3.25d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Make an Adept Hopper and Hopper Enhancement"
+			description: [
+				"The &bAdept Hopper&r is slightly faster, and &6can be filtered&r using Item Frames."
+				""
+				"Only items in the Item Frame will pass through the Adept Hopper. I can sneak right-click the Adept Hopper to invert this, making it a blacklist instead of a whitelist."
+				""
+				"The &bHopper Enhancement&r will make Hoppers pick up items from &6up to 7 blocks away&r. This takes some Aura, and can be filtered with the Adept Hopper."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6A7B93DC1ACE716B"]
+			size: 0.5d
+			min_width: 250
+			id: "4A62C006BB60FEFB"
+			tasks: [
+				{
+					id: "01A2E4DA75795D75"
+					type: "item"
+					item: "naturesaura:grated_chute"
+				}
+				{
+					id: "1C1E0A22AE6D311E"
+					type: "item"
+					item: "naturesaura:hopper_upgrade"
+				}
+			]
+		}
+		{
+			title: "Rannuncarpus"
+			x: 2.5d
+			y: -3.5d
+			shape: "square"
+			subtitle: "Make an Imperceptible Builder"
+			description: [
+				"The &bImperceptible Builder&r will use Aura to &6automatically place blocks in the world&r."
+				""
+				"I must place the blocks to place in a Chest above the Builder."
+				""
+				"The Builder has a range of 5 blocks. In order to specify where to place blocks, I have to use an &6Item Frame&r. It will only place blocks on the block in the Item Frame."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6A7B93DC1ACE716B"]
+			size: 0.5d
+			id: "4A2B44E6A8E56D3E"
+			tasks: [{
+				id: "01E678602D3F827C"
+				type: "item"
+				item: "naturesaura:placer"
+			}]
+			rewards: [{
+				id: "6F28AAC122BA64B3"
+				type: "item"
+				item: "naturesaura:farming_stencil"
+			}]
+		}
+	]
+}

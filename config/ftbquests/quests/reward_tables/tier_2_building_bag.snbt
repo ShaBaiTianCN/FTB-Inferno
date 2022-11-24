@@ -1,0 +1,23 @@
+{
+	id: "2A7647CAF58D66F9"
+	order_index: 2
+	title: "Tier 2 Building Bag"
+	icon: {
+		id: "chiselsandbits:bit_bag"
+		Count: 1b
+		tag: {
+			Inventory: { }
+		}
+	}
+	loot_size: 8
+	rewards: [
+		{ item: "minecraft:shroomlight", count: 8, only_one: true }
+		{ item: "minecraft:nether_brick_slab", count: 8, only_one: true }
+		{ item: "minecraft:granite", count: 4, only_one: true }
+		{ item: "minecraft:basalt", count: 64, only_one: true }
+		{ item: "minecraft:warped_wart_block", count: 32, only_one: true }
+		{ item: "minecraft:soul_sand", count: 8, only_one: true }
+		{ item: "minecraft:soul_soil", count: 2, only_one: true }
+		{ item: "minecraft:blackstone", count: 32, only_one: true }
+	]
+}

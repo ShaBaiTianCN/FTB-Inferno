@@ -1,0 +1,546 @@
+{
+	id: "26D2671701668983"
+	group: "793D4C72FD32064E"
+	order_index: 1
+	filename: "to_reach_beyond"
+	title: "The Angry Earth"
+	icon: "biomesoplenty:origin_grass_block"
+	subtitle: ["The Overworld"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "My Infinite Power"
+			x: 0.0d
+			y: -1.5d
+			shape: "hexagon"
+			subtitle: "Make a Neutron Collector"
+			description: [
+				"The &5Wither Storm&r is a &cnearly insurmountable foe&r, but I am confident I can defeat him by &6pushing beyond the limits of technological and magical innovations&r."
+				""
+				"I've dubbed this aim: &eProject Avaritia&r, unbound greed. Not power for the sake of it, but to rid the world of the unspeakable horror I've unleashed."
+				""
+				"The &bNeutron Collector&r will collect a small &6Pile of Neutrons&r every 3 minutes. If I want to progress with any speed, I should make several."
+			]
+			dependencies: ["652CA912545038EA"]
+			min_width: 250
+			id: "5B3149FF5299AC95"
+			tasks: [{
+				id: "328A8A25CB1E0FCB"
+				type: "item"
+				item: "avaritia:neutron_collector"
+			}]
+			rewards: [{
+				id: "62A997D99A98B7C2"
+				type: "item"
+				item: "avaritia:neutron_nugget"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "Make an Infinity Catalyst"
+			description: ["The &bInfinity Catalyst&r holds within it the energy of a thousand stars."]
+			dependencies: ["5B3149FF5299AC95"]
+			id: "726232DDB1A6AD5A"
+			tasks: [{
+				id: "6C87CE34EA8FCECB"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "Make an Infinity Ingot"
+			description: ["The &bInfinity Ingot&r contains the power of infinity, but can be more easily shaped."]
+			dependencies: [
+				"726232DDB1A6AD5A"
+				"513E078F2B82A9D2"
+				"652CA912545038EA"
+			]
+			id: "4AF929F772D28E2C"
+			tasks: [{
+				id: "0F400A016174EC39"
+				type: "item"
+				item: "avaritia:infinity_ingot"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["4AF929F772D28E2C"]
+			id: "6305B598AD7D3A09"
+			tasks: [{
+				id: "79D6758D7F780492"
+				type: "item"
+				item: "avaritia:infinity_sword"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "Make a Psuedo Command Block"
+			description: [
+				"Travesty. It appears my original summoning did work and this entire time a great evil darkness has been spreading across my homeworld. The enemies are vasty and powerful. So many have died while I was gone but not longer. I. Will. Fix. THIS. For now the evil is ethereal and spread across the realm but I will continue my original summoning and force it into a corporeal form. I devised a &bPseudo Command Block&r that when placed under my summoning altar will have the strength of will to command the entity into a suitable host, in the case, a wither should suffice."
+				""
+				"With the Pseudo Command Block, I can summon the Wither Storm using the &6Summoning Altar&r. I'll have to do it at night during a thunder storm, and a Wither has to be nearby."
+				""
+				"{image:inferno:textures/quest/witherstorm_pseudo.png width:150 height:150 align:1}"
+			]
+			min_required_dependencies: 1
+			dependencies: ["726232DDB1A6AD5A"]
+			dependency_requirement: "one_completed"
+			size: 2.0d
+			optional: true
+			min_width: 300
+			id: "3E80A12ECFAC35B2"
+			tasks: [{
+				id: "1B69C7792056D551"
+				type: "item"
+				item: "inferno:pseudo_command_block"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.125d
+			shape: "square"
+			dependencies: ["4AF929F772D28E2C"]
+			size: 0.75d
+			id: "1E1B7AA678E3E610"
+			tasks: [{
+				id: "31AD5083A38E0433"
+				type: "item"
+				item: "avaritia:infinity_helmet"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -1.125d
+			shape: "square"
+			dependencies: ["4AF929F772D28E2C"]
+			size: 0.75d
+			id: "3A6DD27C65E2DB31"
+			tasks: [{
+				id: "13FEB9A5EB228B50"
+				type: "item"
+				item: "avaritia:infinity_chestplate"
+			}]
+		}
+		{
+			x: 3.75d
+			y: -1.125d
+			shape: "square"
+			dependencies: ["4AF929F772D28E2C"]
+			size: 0.75d
+			id: "7CF7D3D7067F9E94"
+			tasks: [{
+				id: "7FA9A0C4169819EF"
+				type: "item"
+				item: "avaritia:infinity_boots"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.125d
+			shape: "square"
+			dependencies: ["4AF929F772D28E2C"]
+			size: 0.75d
+			id: "511BC2AABC1ED563"
+			tasks: [{
+				id: "6F3052883FFB7EF2"
+				type: "item"
+				item: "avaritia:infinity_legs"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["4AF929F772D28E2C"]
+			id: "07ADC392A6B627C5"
+			tasks: [{
+				id: "114436B1A2403989"
+				type: "item"
+				item: "avaritia:infinity_bow"
+			}]
+		}
+		{
+			title: "Kill the Wither Storm"
+			x: -1.5d
+			y: 12.0d
+			shape: "hexagon"
+			subtitle: "Put and end to this madness"
+			description: [
+				"Upon entering &5the Bowels&r, I have to &6survive four waves&r of enemies as well as reoccuring onslaught portals. I dont need to defeat these portals I imagine, but I will need to survive and kill everyting else in here so that I may strike at its core."
+				""
+				"To end each wave, I have to &bhit the Command Block with my Command Block tool&r. "
+				""
+				"Doing this three times will &3force the Wither Storm&r into a weakened state below 25% of it's maximum hp. When the world flashes white the command block is finally vulnerable. Right click it with the command sword to drive your power deep into its core and end it once and for all!"
+			]
+			dependencies: ["16DD4674C9EF1BEA"]
+			size: 3.0d
+			id: "5AB76DFF76164D53"
+			tasks: [{
+				id: "0F02A28EFE3A5999"
+				type: "item"
+				item: "witherstormmod:withered_nether_star"
+			}]
+			rewards: [
+				{
+					id: "47B805255CE89245"
+					type: "item"
+					item: "storagedrawers:creative_vending_upgrade"
+					count: 2
+				}
+				{
+					id: "46A5C53CE93409C3"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "overworld"
+					remove: true
+				}
+				{
+					id: "4E944A6B262E83C3"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "stormweathered"
+				}
+				{
+					id: "198F4FD94F6671A1"
+					type: "advancement"
+					advancement: "witherstormmod:main/wither_storm_defeated"
+					criterion: ""
+				}
+				{
+					id: "605CD74B8B781CB2"
+					type: "item"
+					item: "witherstormmod:withered_nether_star"
+				}
+			]
+		}
+		{
+			title: "Inside Job"
+			icon: {
+				id: "minecraft:crossbow"
+				Count: 1b
+				tag: {
+					ChargedProjectiles: [{
+						id: "minecraft:ender_pearl"
+						Count: 1b
+					}]
+					Damage: 0
+					Charged: 1b
+				}
+			}
+			x: 2.25d
+			y: 12.0d
+			shape: "hexagon"
+			subtitle: "Enter the Wither Storm"
+			description: [
+				"After a long time fighting the endless waves of monsters and symbiont minions, the Wither Storm has finally &6opened a hole to its internals&r where I can finally strike at it's heart directly."
+				""
+				"{image:inferno:textures/quest/witherstorm_portal.png width:250 height:121 align:1}"
+				""
+				"I can access it by &6loading a Crossbow with an Ender Pearl&r, which is done by holding the Pearl in the offhand while reloading."
+			]
+			dependencies: ["712112C86206F45D"]
+			size: 1.5d
+			min_width: 250
+			id: "16DD4674C9EF1BEA"
+			tasks: [{
+				id: "6FFC8A0CDEF6E323"
+				type: "dimension"
+				dimension: "witherstormmod:bowels"
+			}]
+			rewards: [
+				{
+					id: "03CE36CD485101FD"
+					type: "item"
+					item: "witherstormmod:command_block_book"
+				}
+				{
+					id: "6F3DC5F0E77D775C"
+					type: "item"
+					item: "ringsofascension:ring_knockback_resistance"
+				}
+			]
+		}
+		{
+			title: "Confrontation"
+			icon: "minecraft:command_block"
+			x: 3.5d
+			y: 1.5d
+			subtitle: "Return home"
+			description: [
+				"I'm back in my home dimension, but I'm in unfamiliar terrain. I need to &bgo home&r."
+				""
+				"My map shows me my location relative to my home, which would be at &60,0&r."
+				""
+				"Once there, I can &6resummon the Wither Storm&r by placing one last Skull, and end this."
+				""
+				"{image:inferno:textures/quest/witherstorm_structure.png width:225 height:121 align:1}"
+				""
+				"&oIf on a server, use the &6Pseudo Command Block&r&o quest instead&r"
+			]
+			hide_dependency_lines: false
+			hide: true
+			hide_text_until_complete: true
+			optional: true
+			min_width: 325
+			id: "7800B2759F48AACD"
+			tasks: [{
+				id: "578B6109D083F2FC"
+				type: "location"
+				title: "Travel to (0,0)"
+				dimension: "minecraft:overworld"
+				ignore_dimension: false
+				position: [I;
+					0
+					64
+					0
+				]
+				size: [I;
+					30
+					500
+					30
+				]
+			}]
+		}
+		{
+			title: "Revelations"
+			x: -1.5d
+			y: 3.5d
+			shape: "hexagon"
+			subtitle: "Summon the Wither Storm"
+			description: [
+				"Completing the structure of the &6Command Block&r (or &6Pseudo Command Block&r) will &bsummon the Wither Storm&r. I should &cmake sure I am prepared&r before doing this."
+				""
+				"Killing the Wither Storm is more complex than just hitting it until it dies. In fact, it is &cinvincible until a certain point&r is reached."
+				""
+				"The Storm will &6consume nearby blocks and mobs&r, evolving over time. For the first four evolution phases, it cannot be stopped."
+				""
+				"My goal for these phases is to simply &asurvive&r and destroy the waves of enemies that pour forth from the portals as it consumes their essence. The faster I dispatch the fiends, the faster the ritual will progress. I have to allow it to consume and evolve until it becomes confident enough to strike out... where then it may become vulnerable..."
+				""
+				"{image:inferno:textures/quest/witherstorm.png width:250 height:124 align:1}"
+				""
+				"A phase 4 Wither Storm"
+			]
+			dependencies: ["3E80A12ECFAC35B2"]
+			size: 2.0d
+			min_width: 450
+			id: "2C2AC6A209E90B8E"
+			tasks: [{
+				id: "424B1AB32BD04B49"
+				type: "observation"
+				title: "Observe the Wither Storm"
+				icon: "minecraft:wither_skeleton_skull"
+				timer: 0L
+				observe_type: 5
+				to_observe: "witherstormmod:wither_storm"
+			}]
+		}
+		{
+			title: "Corruption Champion"
+			icon: "witherstormmod:command_block_book"
+			x: -1.5d
+			y: 6.75d
+			shape: "diamond"
+			subtitle: "Kill a Withered Symbiont"
+			description: [
+				"At the end of evolution phase 5, the Wither Storm will summon a &bWither Symbiont&r, a giant wither-sickened zombie."
+				""
+				"This underling is very powerful, with a variety of attacks."
+				""
+				"It can only be damaged by &6attacking the scar on its back&r. It drops an &bEnchanted Command Block Book&r, which hovers in the air above where it died."
+			]
+			dependencies: ["2C2AC6A209E90B8E"]
+			size: 1.5d
+			min_width: 225
+			id: "4E26F0BCA1EAF972"
+			tasks: [{
+				id: "1E1ECEBAF01A97AE"
+				type: "item"
+				item: "witherstormmod:command_block_book"
+			}]
+		}
+		{
+			title: "F Bomb"
+			x: -1.5d
+			y: 9.0d
+			shape: "hexagon"
+			subtitle: "Make the Formidibomb"
+			description: [
+				"The &bFormidibomb&r is the only thing that can hurt a phase 5 Wither Storm."
+				""
+				"Upon crafting, it &cimmediately begins a countdown&r, exploding at the end. I'll have to &6hurry and place it near the Storm&r during that time."
+				""
+				"The Formidibomb's detonation (which can be triggered with a Flint and Steel) is the only thing capable of &5killing the Wither Storm&r."
+				""
+				"&cMAKE SURE IT IS PLACED CLOSE ENOUGH!&r If it doesn't get sucked upwards towards the Storm after detonation, it's too far away!"
+			]
+			dependencies: ["4E26F0BCA1EAF972"]
+			size: 1.5d
+			min_width: 225
+			id: "79185B93A79453EA"
+			tasks: [{
+				id: "60AA487173C039AE"
+				type: "item"
+				item: {
+					id: "witherstormmod:formidibomb"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "712DED911C63539B"
+					type: "item"
+					title: "These might come in handy."
+					item: "artifacts:steadfast_spikes"
+				}
+				{
+					id: "1E2CDDC305540EB0"
+					type: "toast"
+					title: "I stood my ground against the darkness."
+					auto: "enabled"
+					description: ""
+				}
+			]
+		}
+		{
+			title: "I Command Thee, Kneel!"
+			icon: "witherstormmod:command_block_sword"
+			x: 2.25d
+			y: 9.0d
+			shape: "hexagon"
+			subtitle: "Make a Command Block tool"
+			description: [
+				"It played me for a fool! It's &cmore powerful than ever&r!"
+				""
+				"I'll have to use its own power against it. I'll &6wait for another Symbiont to spawn&r, kill it, and &bcraft a weapon out of the Command Block Book&r."
+			]
+			dependencies: [
+				"6305B598AD7D3A09"
+				"79185B93A79453EA"
+			]
+			size: 1.5d
+			id: "712112C86206F45D"
+			tasks: [{
+				id: "462BBC16F10B86D8"
+				type: "item"
+				title: "Command Block Tools"
+				item: "witherstormmod:command_block_sword"
+			}]
+			rewards: [{
+				id: "6A7F9A932972DDB1"
+				type: "item"
+				item: "avaritia:infinity_sword"
+			}]
+		}
+		{
+			title: "The Eye of the Storm"
+			x: 0.5d
+			y: 6.0d
+			shape: "square"
+			subtitle: "Escape the Wither Storm's gaze"
+			description: [
+				"At phase 4, the Wither Storm's gaze will begin to &cpull in entities&r, including myself."
+				""
+				"While the local wildlife may be helpless, an &barrow to the eye&r will set me free."
+				""
+				"&6Extreme precision&r is necessary. I have to hit the eye dead-on."
+			]
+			dependencies: ["2C2AC6A209E90B8E"]
+			optional: true
+			id: "0D53C8E4C64AA699"
+			tasks: [{
+				id: "1F0F3B3C78D118B1"
+				type: "advancement"
+				advancement: "witherstormmod:main/escape_wither_storm"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Avarice"
+			icon: "avaritia:extreme_crafting_table"
+			x: 0.0d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "Make an Extreme Crafting Table"
+			description: ["The &bExtreme Crafting Table&r allows me to &6harness the power of infinity&r to craft items beyond mortal comprehension."]
+			dependencies: [
+				"4DF37AAE2F818122"
+				"69F0B175E8EA2570"
+			]
+			id: "652CA912545038EA"
+			tasks: [{
+				id: "23DABC6015F3EFB3"
+				type: "item"
+				item: "avaritia:extreme_crafting_table"
+			}]
+			rewards: [{
+				id: "51B26A39F423D315"
+				type: "item"
+				item: "avaritia:neutron_collector"
+			}]
+		}
+		{
+			title: "Escape"
+			x: -3.0d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "Return to the Overworld"
+			description: [
+				"With the Void Worm defeated, and upon completion of my &6Tier 5&r University, I will finally be able to complete the ultimate research &6Eldritch Transcedence&r that will allow me to return to my home. I can &breturn to the Overworld&r with a simple Nether Portal."
+				""
+				"It almost offends me how simple the gateway is. I could have made it any time, I just couldn't use it."
+				""
+				"Now, I can &4finally have my revenge&r on the &5demon who sent me&r from here."
+			]
+			min_width: 275
+			id: "4DF37AAE2F818122"
+			tasks: [{
+				id: "09EBAF523D3A8D16"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [{
+				id: "4607DC32A65E1702"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 12
+			}]
+		}
+		{
+			icon: "minecraft:writable_book"
+			x: 3.5d
+			y: 2.5d
+			shape: "gear"
+			description: [
+				"This shouldn't have happened! "
+				""
+				" "
+				"I was sure this was the way to summon the Witherstorm"
+				"There has to be another way!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7800B2759F48AACD"]
+			hide: true
+			optional: true
+			id: "6DC0BACCEC6F710C"
+			tasks: [{
+				id: "4E4E099E70F4767C"
+				type: "gamestage"
+				title: "Fail to summon the Witherstorm"
+				icon: "minecraft:writable_book"
+				disable_toast: true
+				stage: "commandblock"
+			}]
+		}
+	]
+}

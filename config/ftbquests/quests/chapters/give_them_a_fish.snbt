@@ -1,0 +1,432 @@
+{
+	id: "42476BCCDF8F662F"
+	group: "3ABD0072BF4C3677"
+	order_index: 2
+	filename: "give_them_a_fish"
+	title: "Give Them a Fish..."
+	icon: "minecraft:pufferfish_bucket"
+	subtitle: ["Animal husbandry"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.4642857142857153d
+			y: -5.375d
+			shape: "hexagon"
+			subtitle: "Make a Fisher's Hut"
+			description: [
+				"At the &bFisher's Hut&r, a minion will fish."
+				""
+				"I was pleasantly surprised that I was able to &6include liquid Water in the Capsule&r. I probably &cshouldn't push my luck&r by attempting to collect it, though."
+				""
+				"I can make a &6Cobble generator&r by allowing the Water sources to flow into near Lava!"
+				""
+				"&oThe Builder's Tool places the structure too far down. You'll have to raise it upward for it to be flush with the ground. The Builder does not need Water."
+			]
+			dependencies: ["2A6CCA72F1D483D9"]
+			size: 1.25d
+			min_width: 250
+			id: "4E07E560443913CB"
+			tasks: [{
+				id: "4FD273141CFDB1AB"
+				type: "item"
+				item: "minecolonies:blockhutfisherman"
+			}]
+			rewards: [
+				{
+					id: "7AB301037F89DF6C"
+					type: "item"
+					item: {
+						id: "alexsmobs:flying_fish_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4E58910B0845ABC6"
+					type: "item"
+					item: "minecraft:pufferfish_bucket"
+				}
+				{
+					id: "4A3D0E69C42BB5CC"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -2
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/fisher.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Fishing hut Capsule\"}"
+							}
+							label: "Fisher.nbt"
+							size: 11
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+				{
+					id: "565C4229BE03C3A4"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "water_unlocked"
+				}
+				{
+					id: "1942F18FEACA8611"
+					type: "item"
+					item: "minecraft:heart_of_the_sea"
+				}
+			]
+		}
+		{
+			title: "Spicy!"
+			x: -1.0d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Make a Chicken Farmer's Hut"
+			description: ["The &bChicken Farmer's Hut&r will provide Arrows to fight off the darkness, meat for the young to grow from, and eggs for a treat for myself!"]
+			dependencies: ["2A6CCA72F1D483D9"]
+			id: "317789071CB34AF3"
+			tasks: [{
+				id: "1FDFEE22E2168025"
+				type: "item"
+				item: "minecolonies:blockhutchickenherder"
+			}]
+			rewards: [
+				{
+					id: "45288A1DC5FFD3B9"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 16
+				}
+				{
+					id: "0A2FA7FD3B94D8AA"
+					type: "loot"
+					icon: {
+						id: "chiselsandbits:bit_bag"
+						Count: 1b
+						tag: {
+							Inventory: { }
+						}
+					}
+					table_id: 4864474103053531672L
+				}
+				{
+					id: "58CA59D2F5E94EA5"
+					type: "item"
+					item: "minecraft:egg"
+					count: 16
+				}
+				{
+					id: "6C9D5E9425291F85"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Isn't That Called a Hoof?"
+			x: -2.0d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Make a Cowhand's Hut"
+			description: [
+				"At the &bCowhand's Hut&r, a minion will &6breed and slaughter Cows&r."
+				""
+				"It would be a good idea to &6keep Wheat stocked&r, using the \"Minimum stocked:\" tab."
+				""
+				"An &6Interdiction Torch&r can be used to keep Cows from escaping their enclosure."
+			]
+			dependencies: ["2A6CCA72F1D483D9"]
+			min_width: 250
+			id: "3F8AC0C370F704E4"
+			tasks: [{
+				id: "19C472282A1AAFEC"
+				type: "item"
+				item: "minecolonies:blockhutcowboy"
+			}]
+			rewards: [
+				{
+					id: "1DFAE1262DE1280C"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 16
+				}
+				{
+					id: "4FB222C082A10C97"
+					type: "item"
+					item: "cookingforblockheads:milk_jar"
+				}
+				{
+					id: "6B5D22323EF078DB"
+					type: "loot"
+					icon: {
+						id: "chiselsandbits:bit_bag"
+						Count: 1b
+						tag: {
+							Inventory: { }
+						}
+					}
+					table_id: 4864474103053531672L
+				}
+				{
+					id: "5C20DFEADD205542"
+					type: "item"
+					item: "reliquary:interdiction_torch"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			shape: "square"
+			subtitle: "Make a Fletcher's Hut"
+			description: ["&bFletchers&r can produce useful things from Leather and String. "]
+			min_required_dependencies: 1
+			dependencies: [
+				"11159BF1C52963EC"
+				"3F8AC0C370F704E4"
+				"317789071CB34AF3"
+			]
+			dependency_requirement: "one_completed"
+			id: "4BF89795FC90B522"
+			tasks: [{
+				id: "391BF00387F75106"
+				type: "item"
+				item: "minecolonies:blockhutfletcher"
+			}]
+			rewards: [
+				{
+					id: "14156CAEA07F010C"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/fletcher.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Fletcher Capsule\"}"
+							}
+							label: "Fletcher.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+				{
+					id: "3708D4AA3C2E35FE"
+					type: "item"
+					item: "inferno:bound_hoglin_hide"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Ein Schwein Drei"
+			x: -2.5d
+			y: -4.0d
+			shape: "square"
+			subtitle: "Make a Swineherd's Hut"
+			description: [
+				"The &bSwineherd's Hut&r will allow my minions to &6breed and slaughter pigs&r."
+				""
+				"It would be a good idea to &6keep Carrots stocked&r, using the \"Minimum stocked:\" tab."
+				""
+				"An &6Interdiction Torch&r can be used to keep Pigs from escaping their enclosure."
+			]
+			dependencies: ["2A6CCA72F1D483D9"]
+			min_width: 250
+			id: "2866E71811E0AED8"
+			tasks: [{
+				id: "19785E356DDD9975"
+				type: "item"
+				item: "minecolonies:blockhutswineherder"
+			}]
+			rewards: [
+				{
+					id: "7BBA33B2DDCA4504"
+					type: "item"
+					item: "minecraft:pig_spawn_egg"
+					count: 2
+				}
+				{
+					id: "263CF40893BDEBC2"
+					type: "loot"
+					table_id: 4864474103053531672L
+				}
+			]
+		}
+		{
+			icon: "minecraft:kelp"
+			x: 0.0d
+			y: -6.5d
+			shape: "square"
+			subtitle: "Part of a balanced diet"
+			description: [
+				"When &bKelp&r grows upward into flowing water, &6it becomes a new source&r."
+				""
+				"Filling &bBottles&r does not destroy the source. I can fill a tank with Bottles, then empty it with a Bucket."
+			]
+			dependencies: ["4E07E560443913CB"]
+			id: "3FC37D06D5FF59A0"
+			tasks: [
+				{
+					id: "687DD421B715A8B1"
+					type: "item"
+					item: "minecraft:kelp"
+				}
+				{
+					id: "70FCA500E2BCDD00"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "689E67366BE477C8"
+					type: "item"
+					item: "minecraft:kelp"
+					count: 8
+				}
+				{
+					id: "74F272117E922435"
+					type: "item"
+					item: "minecraft:dried_kelp"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "What's Up, Doc?"
+			x: -0.5d
+			y: -4.0d
+			shape: "square"
+			subtitle: "Make a Rabbit Hunch"
+			description: [
+				"Rabbits are another source of meat and hide."
+				""
+				"More than that however, their &6Feet&r provide a tangible boost to the Luck of certain tools (like Tinkers' Construct), and may have other magical applications."
+			]
+			dependencies: ["2A6CCA72F1D483D9"]
+			id: "5DFA0991D2C53449"
+			tasks: [{
+				id: "7AFB4E62AFE59D24"
+				type: "item"
+				item: "minecolonies:blockhutrabbithutch"
+			}]
+			rewards: [{
+				id: "47EE74EA11247045"
+				type: "loot"
+				table_id: 4864474103053531672L
+			}]
+		}
+		{
+			title: "Summon Squid"
+			x: -3.0d
+			y: -6.5d
+			shape: "square"
+			subtitle: "Sometimes for eating!"
+			description: [
+				"Although it's possible for a Fisher to find Inc Sacs, it's pretty rare."
+				""
+				"To that end, I've devised a way to &bsummon a batch of Squids&r, using the &6Summoning Altar&r!"
+				""
+				"I could use these to &6fill a Soul Shard&r..."
+			]
+			dependencies: ["4E07E560443913CB"]
+			id: "4FB797A3849ABCC5"
+			tasks: [{
+				id: "02F2332C62CCBDA2"
+				type: "observation"
+				icon: "minecraft:ink_sac"
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:squid"
+			}]
+			rewards: [
+				{
+					id: "5B34D1DEA2ED4E90"
+					type: "item"
+					item: "minecraft:ink_sac"
+				}
+				{
+					id: "6F060FB1D6212612"
+					type: "item"
+					item: "farmersdelight:squid_ink_pasta"
+				}
+			]
+		}
+		{
+			title: "Wake up Sheeple"
+			x: -1.5d
+			y: -4.0d
+			shape: "square"
+			subtitle: "Mutton going on here"
+			description: ["The sheepherder is a key way for me to automate the production of wool. As long as I provide the herder with food I can assign him to feed, raise and shear the sheep he looks after. I've also found that if I require certain colors of wool I can swing by and manually dye them by right-clicking them with the dye of my choice. "]
+			dependencies: ["2A6CCA72F1D483D9"]
+			id: "5898EF8C7EF990D3"
+			tasks: [{
+				id: "7508B61E4F1BC2FB"
+				type: "item"
+				item: "minecolonies:blockhutshepherd"
+			}]
+			rewards: [
+				{
+					id: "55FEDE0B2DE57E81"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/shepard.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Shepard Deployable Capsule\"}"
+							}
+							label: "Shepard.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+				{
+					id: "3F6238262330991D"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 16
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,2055 @@
+{
+	id: "00D5B32BFEBF5A79"
+	group: "3ABD0072BF4C3677"
+	order_index: 0
+	filename: "want_not"
+	title: "Want Not"
+	icon: "minecolonies:blockhutminer"
+	subtitle: ["Main MineColonies progression"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&e&oAlso try FTB University!"
+			x: -2.5d
+			y: -4.5d
+			subtitle: "Make a University"
+			description: [
+				"The MOST important of my facilities, to me at least. The &bUniversity&r is where I shall task these minions with gathering research notes and experimenting towards new ways to exploit this realm. There are untold multitudes of magic to be explored. "
+				""
+				"Researchers at Universities work on research topics to unlock new buildings, upgrade colonists, etc."
+				""
+				"Each topic may require buildings at certain levels, and may cost items. All of this is listed in the research tab."
+				""
+				"&6Higher level Universities can research more topics.&r"
+			]
+			dependencies: ["2A6CCA72F1D483D9"]
+			min_width: 275
+			id: "46A72493AFD256CA"
+			tasks: [{
+				id: "5911F3364E930A27"
+				type: "item"
+				item: "minecolonies:blockhutuniversity"
+			}]
+			rewards: [
+				{
+					id: "26A14847DDFCB07F"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/university.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Infernal University Capsule\"}"
+							}
+							label: "University.nbt"
+							size: 23
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+				{
+					id: "126B4986D310D26B"
+					type: "item"
+					item: "quark:warped_bookshelf"
+					count: 4
+				}
+				{
+					id: "20C7F3F37E57AF20"
+					type: "item"
+					item: "ringsofascension:ring_experience"
+				}
+				{
+					id: "110BB642089499AF"
+					type: "item"
+					item: "minecraft:weeping_vines"
+					count: 16
+				}
+				{
+					id: "2DE046CD4DF3BD52"
+					type: "item"
+					item: "minecraft:twisting_vines"
+					count: 16
+				}
+				{
+					id: "110AAB0531E10C4C"
+					type: "item"
+					item: "minecraft:apple"
+				}
+			]
+		}
+		{
+			title: "Protect and Serve"
+			x: 0.0d
+			y: -3.5d
+			subtitle: "Make a Guard Tower"
+			description: [
+				"Now they complaining they're \"too afraid to work!\" Will these endless demands ever cease!?"
+				""
+				"I better put up some &bGuard Towers&r and assigns a few of them to protect the area. These also &6expand my borders&r, if placed near them."
+				""
+				"&oYou will need many Guard Towers as your colony grows. Guards live in their Towers, freeing up Houses for new residents."
+				""
+				"&oYou will need to provide basic weapons and armor to the Tower's inventory for your Guards to use them."
+				""
+				"&oUnlocks the chapter &5Protect the Unprotected&r&o under &3Desires&r"
+			]
+			dependencies: ["2A6CCA72F1D483D9"]
+			min_width: 300
+			id: "06CE7047869A2A71"
+			tasks: [{
+				id: "70988FB21F4E7F10"
+				type: "item"
+				item: "minecolonies:blockhutguardtower"
+			}]
+			rewards: [
+				{
+					id: "4542C6CEF8E5B8E0"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/guardtower.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Guard Tower Capsule\"}"
+							}
+							label: "Guardtower.nbt"
+							size: 9
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 2
+				}
+				{
+					id: "67D0BA3B118E0575"
+					type: "item"
+					item: "minecolonies:blockhutguardtower"
+				}
+				{
+					id: "1739BCC620E18EBD"
+					type: "item"
+					item: {
+						id: "minecraft:golden_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "36B69670AA42F7B4"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_boots"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 130.0f
+								"tconstruct:armor": 1.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "656823356817C3D0"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_leggings"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 150.0f
+								"tconstruct:armor": 4.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "552D7A43F29BED3B"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_chestplate"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 160.0f
+								"tconstruct:armor": 5.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "5130E63E7ECBDE07"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 110.0f
+								"tconstruct:armor": 1.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			subtitle: "Make a Tavern"
+			description: [
+				"This place is pretty lifeless. A few visitors have shown up but not nearly enough for my designs."
+				""
+				"A &bTavern&r will provide a suitable atmosphere to attract more help and provide beds for them to rest after a long day of laboring. "
+				""
+				"Outsiders can be hired from here. Only one Tavern can exist in a colony."
+			]
+			dependencies: ["2A6CCA72F1D483D9"]
+			id: "08E650C5D890F725"
+			tasks: [{
+				id: "3F9CB8731FCA305B"
+				type: "item"
+				item: "minecolonies:blockhuttavern"
+			}]
+			rewards: [
+				{
+					id: "50749BAB8F5E590B"
+					type: "item"
+					item: "farmersdelight:apple_cider"
+					count: 4
+				}
+				{
+					id: "385DE5643778C13F"
+					type: "item"
+					item: "minecraft:basalt"
+					count: 64
+				}
+				{
+					id: "7F6FD6C38EFE6981"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/tavern.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Tavern Capsule\"}"
+							}
+							label: "Tavern.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Indentured Servants"
+			x: 2.0d
+			y: -4.5d
+			shape: "hexagon"
+			subtitle: "You're going to want a lot of these"
+			description: [
+				"The first and most mundane workload is the lifting, moving, and building to house these lost souls. To that end, I assign my first newcomers as &6Builders&r. These Builders will live in &bBuilder's Huts&r."
+				""
+				"Like all MineColonies building-blocks, they cannot work without a structure around them. The quests give the structures in Capsules, but Builders are required for the rest."
+				""
+				"Use the Capsule, then &6use your Build Tool&r to place the Hut so they are overlapped perfectly. The Tool will also show you the border of your colony."
+				""
+				"Builders cannot build buildings of a higher tier than their Hut. A level 2 House requires a level 2 Builder's Hut."
+				""
+				"&oUnlocks the chapters &5In Service Bound&r&o and &5Give Them a Fish&r&o under &3Desires&r"
+				""
+				"The information in these chapters will allow me to make a &6Fisher's Hut&r and a &6Mine&r. I should make these two structures as soon as possible to give me resources I will need to progress!"
+			]
+			dependencies: ["550E386F2FFB787D"]
+			size: 1.5d
+			min_width: 300
+			id: "2A6CCA72F1D483D9"
+			tasks: [{
+				id: "5C0F8C862DA37ADC"
+				type: "item"
+				item: "minecolonies:blockhutbuilder"
+			}]
+			rewards: [
+				{
+					id: "329EF753D8A4C5BC"
+					type: "item"
+					item: "minecolonies:scroll_highlight"
+					count: 16
+				}
+				{
+					id: "75329C4359119923"
+					type: "item"
+					item: {
+						id: "constructionwand:iron_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "69B9CA2DA63C6D22"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/builder.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Builder's Hut Capsule\"}"
+							}
+							label: "Builder.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 2
+				}
+				{
+					id: "42D46AB3FEA8036C"
+					type: "item"
+					item: "minecolonies:blockhutbuilder"
+				}
+				{
+					id: "2CBDB1FC2D13B4E4"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"In Service Bound \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Desires\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+				{
+					id: "70A269DE0D358022"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Give Them a Fish \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Desires\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Affordable Housing"
+			x: 3.5d
+			y: -3.5d
+			subtitle: "Make a House"
+			description: [
+				"The minions will wander aimlessly if I dont contain them! Suitable housing will entice them to put down roots and &6leave room for more visitors&r to show up as well."
+				""
+				"Each new minion needs a Bed, and these basic &bHouses&r provide one. Higher tiers will provide more."
+				""
+				"I have a feeling I'm going to need a great many of these."
+				""
+				"&oA colony has a max of 25 colonists. Increase this amount at the University&r"
+			]
+			dependencies: ["2A6CCA72F1D483D9"]
+			min_width: 250
+			id: "58AA514E25448761"
+			tasks: [{
+				id: "3795DA308473650F"
+				type: "item"
+				item: "minecolonies:blockhutcitizen"
+			}]
+			rewards: [
+				{
+					id: "0EEFE0E12133421B"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/house.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Housing Capsule\"}"
+							}
+							label: "House.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 2
+				}
+				{
+					id: "14DE03E6EF9708C8"
+					type: "item"
+					item: "minecraft:warped_stem"
+					count: 64
+				}
+				{
+					id: "6375E1385B3C7C4F"
+					type: "item"
+					item: "minecraft:cyan_bed"
+					count: 4
+				}
+			]
+		}
+		{
+			icon: "minecolonies:blockhutcook"
+			x: -1.0d
+			y: -5.5d
+			subtitle: "Make a Restaurant"
+			description: [
+				"They eat. So. Much. My hands tire from constantly feeding these gluttons. Instead, I'll create and staff a &bRestaurant&r."
+				""
+				"These poor fools are not chefs. They &6have to be taught recipes&r. There is a tab for crafting recipes, and another for furnace recipes."
+				""
+				"I also have to &6specify a fuel&r for them to use. &6Tiny Coal&r would probably be optimal."
+				""
+				"&oHigher tier workers may require better food, and won't eat lesser foods."
+			]
+			dependencies: ["2A6CCA72F1D483D9"]
+			min_width: 275
+			id: "321EF99D2BEE9665"
+			tasks: [{
+				id: "1BD08114443136BE"
+				type: "item"
+				item: "minecolonies:blockhutcook"
+			}]
+			rewards: [
+				{
+					id: "29C8511D6A11FF89"
+					type: "item"
+					item: "minecraft:bread"
+					count: 32
+				}
+				{
+					id: "070DA7A44A8B57E3"
+					type: "item"
+					item: "inferno:smoked_shroom"
+					count: 32
+				}
+				{
+					id: "4F95D09E2C51856F"
+					type: "item"
+					item: "productivebees:milk_bottle"
+					count: 8
+				}
+				{
+					id: "2340404E414C0799"
+					type: "item"
+					item: "kubejs:tiny_charcoal"
+					count: 128
+				}
+				{
+					id: "4D680157130ABCFF"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/restaurant.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Restaurant Capsule\"}"
+							}
+							label: "Restaurant.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -7.0d
+			shape: "pentagon"
+			subtitle: "Its the centerpiece of my town, better find a good spot for it."
+			description: [
+				"Though the &bTown Hall&r is the most obvious centerpiece, I actually find the &6Warehouse&r is best located at the center of my colony."
+				""
+				"The Town Hall is where I can manage my minions, putting them to tasks."
+				""
+				"The &6Clipboard&r allows me constant oversight of into their meanderings. This allows me to keep them focused, and provide them materials as needed."
+				""
+				"{image:inferno:textures/quest/colony.png width:186 height:100 align:1 fit:true}"
+			]
+			dependencies: ["4030CF59E481704A"]
+			size: 1.5d
+			min_width: 300
+			id: "550E386F2FFB787D"
+			tasks: [{
+				id: "07C2F634B2A05AD3"
+				type: "item"
+				item: "minecolonies:blockhuttownhall"
+			}]
+			rewards: [
+				{
+					id: "008CAE3D0EA338DC"
+					type: "item"
+					item: "minecolonies:clipboard"
+				}
+				{
+					id: "22C1447B753553D9"
+					type: "item"
+					item: {
+						id: "minecolonies:scroll_tp"
+						Count: 1b
+						tag: { }
+					}
+					count: 4
+				}
+				{
+					id: "2CB0D6570C46D153"
+					type: "item"
+					item: "hexerei:mahogany_sapling"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -4.5d
+			subtitle: "I've got to store items for my minions somewhere."
+			description: [
+				"Things are starting to take shape now, but I the find system a logistics nightmare."
+				""
+				"To deal with this distraction, I've designed a &bWarehouse&r facility for the minions to centralize their wares."
+				""
+				"You can insert items in and out of the Warehouse using Hoppers etc. The Warehouse's inventory is made up of all the Racks &6that are part of the default building&r. Adding Racks will not work, but higher tier Warehouses have more Racks and therefore more storage space."
+			]
+			dependencies: ["2A6CCA72F1D483D9"]
+			min_width: 300
+			id: "6525AE59A42AEAC7"
+			tasks: [{
+				id: "517891DB263E300F"
+				type: "item"
+				item: "minecolonies:blockhutwarehouse"
+			}]
+			rewards: [
+				{
+					id: "03DD38A4CF53746F"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/warehouse.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Infernal Warehouse\"}"
+							}
+							label: "Warehouse.nbt"
+							size: 21
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+				{
+					id: "0B4E41B804758EE0"
+					type: "item"
+					item: "minecolonies:blockminecoloniesrack"
+					count: 4
+				}
+				{
+					id: "639ED0E63F8D38BD"
+					type: "item"
+					item: "minecraft:netherrack"
+					count: 64
+				}
+				{
+					id: "6C0B9BCA6C9106A8"
+					type: "item"
+					item: "minecraft:crimson_planks"
+					count: 32
+				}
+				{
+					id: "379A3C7CBFB78887"
+					type: "item"
+					item: "minecraft:warped_planks"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "Tools of the Trade"
+			icon: {
+				id: "kubejs:miners_delight"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.0d
+			y: -8.5d
+			shape: "square"
+			subtitle: "Special tools for special \"people\""
+			description: [
+				"While not to my own standards, I've crafted these highly specialized tools for my workers to use."
+				""
+				"They are crude and slow, but &6highly durable&r, offering an astounding 65,000 durability, albeit at a wood mining level."
+			]
+			dependencies: ["550E386F2FFB787D"]
+			min_width: 275
+			id: "5364203E3F9EBF2D"
+			tasks: [
+				{
+					id: "75A1D294A136E8FF"
+					type: "item"
+					item: {
+						id: "kubejs:miners_delight"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "490C2FC9DC7ED42B"
+					type: "item"
+					item: {
+						id: "kubejs:foresters_delight"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03EF3E3D920A929C"
+					type: "item"
+					item: {
+						id: "kubejs:diggers_delight"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F611B5BC62A58B6"
+					type: "item"
+					item: {
+						id: "kubejs:farmers_delight"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7C8828FE54EFFA8F"
+					type: "item"
+					item: "meetyourfight:marshy_delight"
+				}
+				{
+					id: "706D867191FFFD11"
+					type: "item"
+					item: "minecolonies:scroll_buff"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -4.5d
+			subtitle: "Transport at its finest."
+			description: [
+				"The &bCourier's Hut&r will allow me to assign &6Couriers&r, who carry items between my Warehouse and my other workers as needed."
+				""
+				"Each Courier needs its own Hut, and you can have 10 per Warehouse."
+			]
+			dependencies: ["6525AE59A42AEAC7"]
+			id: "5080EA9B5355509C"
+			tasks: [{
+				id: "2087D925E2CC8079"
+				type: "item"
+				item: "minecolonies:blockhutdeliveryman"
+			}]
+			rewards: [{
+				id: "7A9AEBF30314B20E"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						yOffset: -1
+						RepairCost: 0
+						color: 0
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/courier.nbt"
+						author: "FTB"
+						display: {
+							color: 8388608
+							Name: "{\"text\":\"Courier's Hut Capsule\"}"
+						}
+						label: "Courier.nbt"
+						size: 13
+						state: 5
+						canRotate: 1b
+					}
+				}
+			}]
+		}
+		{
+			title: "Going Postal"
+			icon: "minecolonies:blockstash"
+			x: 6.5d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Make a Stash and Postbox"
+			description: [
+				"I can put items in a &bStash&r, and a Courier will run along to bring them to the Warehouse."
+				""
+				"The opposite of that is the &bPostbox&r. Opening it will show me everything in the Warehouse, and I can request a Courier bring me things from it."
+			]
+			dependencies: ["5080EA9B5355509C"]
+			id: "035C600C7C3C5B80"
+			tasks: [
+				{
+					id: "15A457F86C3F5347"
+					type: "item"
+					item: "minecolonies:blockstash"
+				}
+				{
+					id: "2A5D1305330AFD28"
+					type: "item"
+					item: "minecolonies:blockpostbox"
+				}
+			]
+			rewards: [{
+				id: "7FABEBFEDB524181"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+		}
+		{
+			icon: {
+				id: "entangled:block"
+				Count: 1b
+				tag: { }
+			}
+			x: 5.0d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Automation at a distance"
+			description: [
+				"I have been searching for a good way to access the items in my Warehouse easily. I think I've found the perfect solution: &bEntangled Blocks&r."
+				""
+				"If an Entangled Block is bound to the Warehouse, inserting/extracting items from the Block will instead use the Warehouse."
+				""
+				"&oThis works best with Pretty Pipez' Item Terminal, AE2's Storage Bus, and the like."
+			]
+			dependencies: ["6525AE59A42AEAC7"]
+			min_width: 275
+			id: "0DD6E4979E69956B"
+			tasks: [
+				{
+					id: "21B49B3DD0028773"
+					type: "item"
+					item: {
+						id: "entangled:block"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "635A928E074B79D9"
+					type: "item"
+					item: {
+						id: "entangled:item"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "14E0C2938ACBE3D7"
+					type: "item"
+					item: "prettypipes:stack_size_module"
+					count: 6
+				}
+				{
+					id: "49A55C68F9AD0C3D"
+					type: "item"
+					item: "prettypipes:high_speed_module"
+					count: 16
+				}
+				{
+					id: "7E84C29EA235A6DC"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+				{
+					id: "642D956037B56037"
+					type: "item"
+					item: {
+						id: "entangled:block"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "Mysteries Unravel"
+			icon: "minecraft:writable_book"
+			x: -2.5d
+			y: -6.0d
+			shape: "gear"
+			subtitle: "Lost knowledge, reclaimed."
+			description: [
+				"There are four types of research topic:"
+				""
+				"• &bCivilian&r: General topics, helping the everyman"
+				"• &bCombat&r: Increases combat effectiveness in several ways"
+				"• &bTechnology&r: Unlocks crafting-style buildings, and makes them better"
+				"• &bUnlockables&r: More niche topics"
+				""
+				"Of significant note, under Unlockables there is the &4Infernal&r line. These provide massive buffs to my minions, and allow me to progress further."
+			]
+			dependencies: ["46A72493AFD256CA"]
+			optional: true
+			min_width: 275
+			id: "6B8AD325A8E7AD32"
+			tasks: [{
+				id: "18A91579ABFDE36D"
+				type: "checkmark"
+				title: "Mysterious Unravel"
+			}]
+			rewards: [
+				{
+					id: "70808BD2A63D989C"
+					type: "item"
+					item: "minecolonies:ancienttome"
+				}
+				{
+					id: "2D9AC3C323ECC0AB"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "apotheosis:long_knowledge"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Rest for the Wicked"
+			icon: "minecraft:red_bed"
+			x: 4.5d
+			y: -7.0d
+			shape: "gear"
+			subtitle: "Minions need sleep too!"
+			description: [
+				"Colonists &cwill not work during the night&r. They will go to their House if they have one, or go to the Town Hall if they do not."
+				""
+				"How do they know it's night, you ask? They're demons. They know things."
+				""
+				"Colonists will also not work under these conditions:"
+				"• It's been less than a day since a colonist died"
+				"• The colonist is sick"
+				"• The colonist is starving"
+			]
+			hide_dependency_lines: true
+			dependencies: ["550E386F2FFB787D"]
+			optional: true
+			min_width: 275
+			id: "68A1D2534A26C71E"
+			tasks: [{
+				id: "538B3B00CA233E28"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Under Construction"
+			icon: "minecolonies:blockconstructiontape"
+			x: 2.0d
+			y: -3.0d
+			shape: "gear"
+			subtitle: "OSHA approved"
+			description: [
+				"&bConstruction Tape&r around a building means that it is unfinished."
+				""
+				"To finish a building, there must be a &6Builder&r colonist, and their Hut must have the proper tools and supplies."
+				""
+				"Buildings need a structure around them, but do not care how they got there. A &6Capsule&r will place the structure, and the Builder just has to confirm that it's placed properly. This can still &ctake some time&r, depending on the size of the structure."
+				""
+				"Interacting with a Worker that is not working will tell you why. They usually are missing an item, like a block or a tool."
+				""
+				"You may have to manually request the building be built in its GUI, under &6Build Options&r in its GUI."
+			]
+			dependencies: ["2A6CCA72F1D483D9"]
+			optional: true
+			min_width: 275
+			id: "7A67B426C3D571AA"
+			tasks: [{
+				id: "4F4B8918F7C353AB"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4DD2EEB9F8202D2B"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						yOffset: -1
+						RepairCost: 0
+						color: 0
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/house.nbt"
+						author: "FTB"
+						display: {
+							color: 8388608
+							Name: "{\"text\":\"Housing Capsule\"}"
+						}
+						label: "House.nbt"
+						size: 15
+						state: 5
+						canRotate: 1b
+					}
+				}
+			}]
+		}
+		{
+			title: "Documentation!!!"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecolonies:textures/gui/red_wax_information.png"
+				}
+			}
+			x: 4.5d
+			y: -8.0d
+			shape: "gear"
+			subtitle: "Read it!"
+			description: ["Most buildings have a wax &4?&r in the bottom left of their GUI, which explains how it works."]
+			hide_dependency_lines: true
+			dependencies: ["550E386F2FFB787D"]
+			optional: true
+			id: "31F6D33494EC4EED"
+			tasks: [{
+				id: "193C845CA052BBB7"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Upgrading"
+			icon: "minecolonies:blockconstructiontape"
+			x: 1.5d
+			y: -2.0d
+			shape: "gear"
+			subtitle: "How to upgrade a building"
+			description: [
+				"In every building GUI, there is a button labeled &6Build Options&r. Here, you can see all the blocks the building structure is made of."
+				""
+				"At the bottom, you can &brequest a Builder repair or upgrade&r the building."
+				""
+				"Remember: a tier 2 building requires a tier 2 Builder's Hut!"
+			]
+			dependencies: ["7A67B426C3D571AA"]
+			optional: true
+			id: "3A7BE7BAFFF1A05C"
+			tasks: [{
+				id: "0129A227A9289BE7"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "43F9288AC4D6C918"
+					type: "loot"
+					table_id: 4864474103053531672L
+				}
+				{
+					id: "1826F87FD5754989"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/house.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Housing Capsule\"}"
+							}
+							label: "House.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Roll the Dice or End Your Life"
+			icon: "infernou:uni1"
+			x: -2.5d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "Defeat Dame Fortuna and upgrade your University to tier 3"
+			description: [
+				"To unlock the Tier 3 University, I need to use the &bDame Fortuna Gateway Pearl&r to summon and defeat the overlord &6Dame Fortuna&r."
+				""
+				"Upon her defeat, I can craft the &bArk of Infernal Insight&r to act as the next focal point of the University."
+			]
+			dependencies: ["11159BF1C52963EC"]
+			min_width: 275
+			id: "278B1A270F796408"
+			tasks: [
+				{
+					id: "7C8469AFD9EC31D0"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:fortuna_gate"
+						}
+					}
+				}
+				{
+					id: "4CB9589012DDDE1A"
+					type: "item"
+					item: "infernou:uni1"
+				}
+			]
+			rewards: [
+				{
+					id: "4B754C3DFED4F173"
+					type: "item"
+					item: "meetyourfight:fortunes_favor"
+				}
+				{
+					id: "7230F47CD490C025"
+					type: "loot"
+					table_id: 3787699581091702813L
+				}
+				{
+					id: "16AEB19081C875ED"
+					type: "loot"
+					table_id: 3059711933873481465L
+				}
+				{
+					id: "7CF2B011260FA4E4"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/guardtower.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Guard Tower Capsule\"}"
+							}
+							label: "Guardtower.nbt"
+							size: 9
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 2
+				}
+				{
+					id: "799C3983A7365C0E"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/house.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Housing Capsule\"}"
+							}
+							label: "House.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			title: "For Whom the Bell Tolls"
+			icon: "infernou:uni2"
+			x: -2.5d
+			y: -3.0d
+			shape: "diamond"
+			subtitle: "Defeat the Bellringer and upgrade your University to tier 2"
+			description: [
+				"As I grow my colony, I'm able to &6upgrade my Universities&r. This is a crucial step to my &4Infernal research&r, as well as general progress and unlocking new buildings."
+				""
+				"Each University upgrade will require an &5artifact of power&r to be displayed within. The tier 2 University requires the item &bArk of Infernal Delight&r."
+				""
+				"In order to craft it, I will have to use the &6Bellringer Gateway Pearl&r and &cdefeat the Bellringer that it summons&r."
+				""
+				"Note: Demonic Overlords will ake note that I've killed one of their own. &cMore difficult monsters will spawn from now on.&r"
+				"These battles are DIFFICULT. I should goto my guard huts and have several of them follow me to help in these fights and bring plenty of splash potions for myself and them. Turrets from Ars would be a great idea as well."
+			]
+			dependencies: ["46A72493AFD256CA"]
+			min_width: 275
+			id: "11159BF1C52963EC"
+			tasks: [
+				{
+					id: "17A466B4D7E3128C"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:bellringer_gate"
+						}
+					}
+				}
+				{
+					id: "39657EE60FA41863"
+					type: "item"
+					item: "infernou:uni2"
+				}
+			]
+			rewards: [
+				{
+					id: "6A22BECC208C75B9"
+					type: "item"
+					item: "meetyourfight:phantoplasm"
+				}
+				{
+					id: "50B3ACC61037F45D"
+					type: "loot"
+					table_id: 3059711933873481465L
+				}
+				{
+					id: "380AAFBFDD55CC69"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/house.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Housing Capsule\"}"
+							}
+							label: "House.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 4
+				}
+				{
+					id: "7BBE3F2A0BF3A660"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/guardtower.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Guard Tower Capsule\"}"
+							}
+							label: "Guardtower.nbt"
+							size: 9
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 2
+				}
+				{
+					id: "2ADC380E3DA402A9"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"Upon learning \",{\"text\":\"Infernal Research \",\"color\":\"red\"},\"at the University, you are opening yourself up to getting invaded by monsters.\"]"
+					player_command: false
+				}
+				{
+					id: "2EB87AB4CF572B22"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"See the new quest in the chapter \",{\"text\":\"Protecting the Unprotected \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Desires\",\"color\":\"dark_aqua\"}]"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "More Like Shark &oWeak&r"
+			icon: "infernou:uni3"
+			x: -2.5d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Defeat Swampjaw and upgrade your University to tier 4"
+			description: [
+				"At the deepest depths of this realm lies an overlord fiend in the form of a &6massive skeletal shark&r."
+				""
+				"I am prepared for this battle. &bSwampjaw&r is simply yet another stepping stone."
+			]
+			dependencies: ["278B1A270F796408"]
+			min_width: 250
+			id: "013A0FDD10A690FD"
+			tasks: [
+				{
+					id: "5E2C8A42CDCA498D"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:swampjaw_gate"
+						}
+					}
+				}
+				{
+					id: "256B247AEF1A85B9"
+					type: "item"
+					item: "infernou:uni3"
+				}
+			]
+			rewards: [
+				{
+					id: "54F6902BB90E8BA4"
+					type: "loot"
+					table_id: 3398023267399237785L
+				}
+				{
+					id: "14AFA66F21E2409F"
+					type: "item"
+					item: "meetyourfight:mossy_tooth"
+				}
+				{
+					id: "1090BD160C43DC9C"
+					type: "loot"
+					table_id: 3787699581091702813L
+				}
+				{
+					id: "7DB566812E1E6504"
+					type: "loot"
+					table_id: 3059711933873481465L
+				}
+				{
+					id: "6B63D426E5760FDB"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/guardtower.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Guard Tower Capsule\"}"
+							}
+							label: "Guardtower.nbt"
+							size: 9
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 2
+				}
+				{
+					id: "1FB2FFF1D64E3AF5"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/house.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Housing Capsule\"}"
+							}
+							label: "House.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			title: "This Is Not the End..."
+			icon: "alexsmobs:void_worm_eye"
+			x: -2.5d
+			y: 1.5d
+			shape: "diamond"
+			subtitle: "Defeat the Void Worm and upgrade your University to tier 5"
+			description: [
+				"Beyond the edge of the infinite void, something lurks."
+				""
+				"The &bVoid Worm&r is the guardian of all worlds. Defeating it would allow me to &6bind its power to my will&r, the final step to &6breaching the void&r."
+				""
+				"With its downfall, I can &6reach the ultimate level of research&r, and finally be free of this wretched prison!"
+				""
+				"Upon completing my T5 University I can finish the &6Eldritch Transcedence&r research and finally travel to my world through a standard nether portal."
+			]
+			dependencies: ["013A0FDD10A690FD"]
+			size: 1.5d
+			min_width: 250
+			id: "7FF70F90D7134D53"
+			tasks: [
+				{
+					id: "466260A25874E8BE"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:voidworm_gate"
+						}
+					}
+				}
+				{
+					id: "28CA6A9755D4FB14"
+					type: "item"
+					item: "infernou:uni4"
+				}
+			]
+			rewards: [
+				{
+					id: "5E58F93DB73358F2"
+					type: "loot"
+					table_id: 4348719427326234630L
+				}
+				{
+					id: "714F1F64DE68D796"
+					type: "item"
+					item: "cataclysm:void_core"
+				}
+				{
+					id: "35952B4C04FDE9A9"
+					type: "loot"
+					table_id: 3398023267399237785L
+				}
+				{
+					id: "76010028F6C16B2F"
+					type: "loot"
+					table_id: 3787699581091702813L
+				}
+				{
+					id: "7A83A407A89ECFBD"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/guardtower.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Guard Tower Capsule\"}"
+							}
+							label: "Guardtower.nbt"
+							size: 9
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 4
+				}
+				{
+					id: "7A153CE3EF41CBC4"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/house.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Housing Capsule\"}"
+							}
+							label: "House.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Suit Up"
+			icon: {
+				id: "minecraft:golden_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "Tool tiers"
+			description: [
+				"Lower-level workers &ccan only use lower-level tools&r. This includes armor, weapons, and other tools. Additionally, higher-level jobs may require higher-level tools."
+				""
+				"Colonists will specify the ones they need when requesting. This can be seen in the Clipboard."
+				""
+				"{image:inferno:textures/quest/mc_armor_requests.png width:136 height:100 align:1}"
+				""
+				"A level 2 job can obviously use a level 2 tool, but it can also use &6an enchanted level 1 tool&r. Each level of enchantment adds +1 to the tool's level. Level 5 can use any tier, with any amount of enchantments."
+			]
+			dependencies: ["06CE7047869A2A71"]
+			optional: true
+			min_width: 300
+			id: "598C1A91F6107009"
+			tasks: [{
+				id: "63F1500A87DF6DDB"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "21875B6272EFC5AB"
+					type: "item"
+					item: {
+						id: "tconstruct:cleaver"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.25f
+								"tconstruct:attack_damage": 1.5f
+								"tconstruct:durability": 3.5f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 1.1f
+								"tconstruct:mining_speed": 2.25f
+								"tconstruct:attack_damage": 5.3999996f
+								"tconstruct:harvest_tier": "minecraft:gold"
+								"tconstruct:durability": 504.0f
+							}
+							RepairCost: 0
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:piercing"
+									level: 1s
+								}
+								{
+									name: "tconstruct:raging"
+									level: 1s
+								}
+								{
+									name: "tconstruct:severing"
+									level: 2s
+								}
+								{
+									name: "tconstruct:enhanced"
+									level: 2s
+								}
+								{
+									name: "tconstruct:silky_aoe_shears"
+									level: 1s
+								}
+							]
+							display: {
+								Name: "{\"text\":\"Sentinel's Delight\"}"
+							}
+							tic_materials: [
+								"tconstruct:rose_gold"
+								"tconstruct:bloodbone"
+								"tconstruct:bone"
+								"tconstruct:rose_gold"
+							]
+							Damage: 0
+							tic_volatile_data: {
+								upgrades: 2
+							}
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+				}
+				{
+					id: "7468703BB895C0CC"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Mechanus Primus"
+			disable_toast: true
+			x: -4.0d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "Make a Mechanic's Hut"
+			description: [
+				"After defeating the Bellringer and upgrading my University, I've learned to teach my minions even more advanced tasks."
+				""
+				"The &bMechanic's Hut&r can craft redstone items and other advanced items. It is also the &6only way to craft certain items&r essential for progression."
+			]
+			dependencies: ["11159BF1C52963EC"]
+			size: 1.25d
+			id: "63AB2AEC7CC984DC"
+			tasks: [{
+				id: "0538F8A5CD104BEB"
+				type: "item"
+				item: "minecolonies:blockhutmechanic"
+			}]
+			rewards: [
+				{
+					id: "00995608B3A3A010"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 8
+				}
+				{
+					id: "10D89FDEA27425CC"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							author: "FTB"
+							oneUse: 1b
+							structureName: "config/capsule/rewards/mechanic.nbt"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Mechanic Capsule\"}"
+							}
+							label: "Mechanic.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+				{
+					id: "025D709C870B8507"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "mechanic_unlocked"
+				}
+			]
+		}
+		{
+			title: "You're SPECIAL"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecolonies:textures/entity/skills/small/knowledge.png"
+				}
+			}
+			x: 5.5d
+			y: -8.0d
+			shape: "gear"
+			subtitle: "What makes your colonists unique!"
+			description: [
+				"There are 11 &bSkills&r that every colonist has. Each colonist has a different amount of each skill."
+				""
+				"Different jobs benefit from different skills. In the job's hire menu, it highlights its &aprimary&r and &esecondary&r skills in those colors. Higher levels of these skills provide bonuses."
+				""
+				"{image:inferno:textures/quest/colonist_stats.png width:236 height:100 align:1}"
+				""
+				"Workers' skills increase as they work. This speed increases with higher Intelligence, and with higher-level jobs. Max skill is limited by their home's level."
+			]
+			hide_dependency_lines: true
+			dependencies: ["550E386F2FFB787D"]
+			optional: true
+			min_width: 275
+			id: "6CB07C7AA476556E"
+			tasks: [{
+				id: "39ECC17033A69435"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "5A69E50CCE5A692E"
+					type: "item"
+				}
+				{
+					id: "0939685804A045A2"
+					type: "item"
+					item: "minecolonies:scroll_buff"
+				}
+			]
+		}
+		{
+			title: "Grind It!"
+			x: -4.0d
+			y: -1.5d
+			shape: "hexagon"
+			subtitle: "Make a Crusher"
+			description: [
+				"&cManual labor&r, ugh. For the &bCrusher&r, I'll have one of the stronger minions handle it."
+				""
+				"The Crusher, as the name implies, crushes things. This includes Sand and Gravel, but is also &6the only way to get several required materials&r."
+			]
+			dependencies: ["11159BF1C52963EC"]
+			size: 1.25d
+			id: "6FD7F3B3025BE0BC"
+			tasks: [{
+				id: "2642ADF8D8D4FFDB"
+				type: "item"
+				item: "minecolonies:blockhutcrusher"
+			}]
+			rewards: [
+				{
+					id: "13706E7FEC749592"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 64
+				}
+				{
+					id: "4C8A59E28C2A5B25"
+					type: "item"
+					item: "minecraft:sand"
+					count: 64
+				}
+				{
+					id: "327606BBC8B063DC"
+					type: "loot"
+					table_id: 3059711933873481465L
+				}
+			]
+		}
+		{
+			title: "Tending to the masses"
+			x: -4.0d
+			y: -4.5d
+			subtitle: "Turn your head and cough..."
+			description: [
+				"I've noted &c4 unique and deadly illnesses&r that my minions seem susceptible to in this realm. "
+				""
+				"Rather than attempting to tend to each of them myself, I've designed a &bHospital&r where Healers will cure these plagues."
+				""
+				"Each disease requires certain items to cure it. Some of the more dangerous illnesses may require research into magics to be fully addressed."
+				""
+				"&oIt is HIGHLY recommended you do not offline chunk load your colony until you have a hospital or it is possible to log back in to find your entire colony infected and unable to work!"
+			]
+			dependencies: ["46A72493AFD256CA"]
+			min_width: 250
+			id: "5D8513450261BCBC"
+			tasks: [{
+				id: "3D31E4E24345A8A9"
+				type: "item"
+				item: "minecolonies:blockhuthospital"
+			}]
+			rewards: [
+				{
+					id: "54D081EC0CEE7C8B"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/hospital.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Hospital Capsule\"}"
+							}
+							label: "Hospital.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+				{
+					id: "1D0CF4169E804D6A"
+					type: "loot"
+					table_id: 4864474103053531672L
+				}
+				{
+					id: "356A153E6B16DBE6"
+					type: "item"
+					item: "farmersdelight:milk_bottle"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "\"Nobody Wants to Work Anymore\""
+			icon: "minecraft:clock"
+			x: 2.5d
+			y: -2.0d
+			shape: "gear"
+			subtitle: "Why your Builder is just standing there doing nothing"
+			description: [
+				"Sometimes, a Builder will appear to get stuck doing nothing."
+				""
+				"In final steps of building/upgrading a building, &6the Builder checks every block to make sure they're placed correctly&r. During this, they may appear to just be standing still."
+				""
+				"&cDo not cancel the build&r to restart it. The Builder will have to start over from the start, checking all the blocks again. This takes longer for larger buildings."
+				""
+				"&oHowever,&r sometimes they &lare&r stuck. This is a lot more obvious, like if a builder gets stuck in a tree etc. Just knock them down and they'll continue."
+				""
+				"&lExtremely long build times are normal for large buildings.&r It can take over an hour to upgrade buildings like the University."
+			]
+			dependencies: ["7A67B426C3D571AA"]
+			optional: true
+			min_width: 275
+			id: "07CCDBA8016DBB00"
+			tasks: [{
+				id: "0E32934694501AC3"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Clipboards are a Necessity"
+			icon: "minecolonies:clipboard"
+			x: 2.0d
+			y: -1.0d
+			shape: "gear"
+			subtitle: "Builder batch requests"
+			description: [
+				"Builders &cdo not request all the needed blocks at once&r. They do them in batches, and then make another request later."
+				""
+				"Reason being, Builders simply cannot hold that many items in their inventory. They'll ask for what they can hold, then ask for more when they're empty."
+				""
+				"Keep an eye on your &6Clipboard&r! It'll tell you what blocks they need."
+			]
+			dependencies: ["7A67B426C3D571AA"]
+			optional: true
+			id: "665CF04F80042756"
+			tasks: [{
+				id: "50961052635ADDC8"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Diversity is the Spice of Life"
+			icon: {
+				id: "minecraft:bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.0d
+			y: -3.0d
+			shape: "gear"
+			subtitle: "Guard types"
+			description: [
+				"Guards can be either &bKnights&r, &bArchers&r, or &bDruids&r."
+				""
+				"&bKnights&r are melee guards. They wear armor and use swords. They can use shields if unlocked in the University."
+				""
+				"&bArchers&r are ranged guards. They wear armor and use bows. They don't need arrows, but University research allows them to use them for more damage."
+				""
+				"&bDruids&r are support guards, that help the other two. They wear armor and will use potions you give them. They will buff allies and debuff enemies, but will not deal damage directly."
+			]
+			dependencies: ["06CE7047869A2A71"]
+			optional: true
+			min_width: 275
+			id: "3AFC51DB4C9C4657"
+			tasks: [{
+				id: "00280F547391B688"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Autocrafting"
+			icon: "minecraft:crafting_table"
+			x: 5.5d
+			y: -7.0d
+			shape: "gear"
+			subtitle: "Teaching your colonists to craft"
+			description: [
+				"Colonists &bcan be taught recipes&r, and will craft items that are requested."
+				""
+				"For instance, if a &6Builder&r needs stairs, a &6Courier&r will bring a &6Carpenter&r logs. The Carpenter will craft them into planks, then into stairs, and the Courier will bring them to the Builder."
+				""
+				"&6Different jobs can craft different things.&r You can see which recipes each job can craft in JEI."
+				""
+				"Recipes &6have to be taught&r. This is done in a tab in the job block."
+				""
+				"When teaching recipes, you can drag items from JEI. Recipes &cdo not use tags&r, they only use the exact ingredients."
+			]
+			hide_dependency_lines: true
+			dependencies: ["550E386F2FFB787D"]
+			optional: true
+			min_width: 275
+			id: "55105FE2E105EF8B"
+			tasks: [{
+				id: "337A0AF1F284D520"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Multiplayer Babyyy"
+			icon: "minecraft:player_head"
+			x: 6.5d
+			y: -7.0d
+			shape: "gear"
+			subtitle: "The Permissions tab"
+			description: [
+				"The &bPermissions&r tab in the Town Hall lets you set other players' relations to your colony."
+				""
+				"Add a player by their username, and you can set their &6rank&r. There are 5 default ranks, with each rank being allowed to do different things."
+				""
+				"Other players are &6neutral by default&r. Neutral players &6cannot interact with any blocks in your colony's borders&r. This also includes mobs, explosions, and the like."
+				""
+				"Turn the page, and you can add ranks and change each rank's permissions."
+				""
+				"Turn the page again, and you can set it so anyone can interact with certain blocks. You can do this by the block's id (minecraft:chest etc), or using the block's coordinates."
+			]
+			hide_dependency_lines: true
+			dependencies: ["550E386F2FFB787D"]
+			optional: true
+			min_width: 275
+			id: "5CF1E4728C6655FE"
+			tasks: [{
+				id: "03524CF639B08B68"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Pathing System"
+			icon: "minecraft:dirt_path"
+			disable_toast: true
+			x: 6.5d
+			y: -8.0d
+			shape: "gear"
+			subtitle: "Colonists prefer path blocks"
+			description: [
+				"Colonists will &bprefer walking on certain blocks&r. If you make roads out of these, they'll stick to those."
+				""
+				"Colonists can open Doors, Gates, Trapdoors, etc. They can even use Iron ones without a redstone signal! They will also use Ladders and Vines, and avoid fire, lava, and the like."
+				""
+				"At the &6University&r, you can unlock the ability for colonists to &6ride on Rails&r. They provide their own Carts, and don't need boosters. Don't confuse them with intersections though!"
+				""
+				"{image:inferno:textures/quest/roads.png width:279 height:150 align:1}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["550E386F2FFB787D"]
+			optional: true
+			min_width: 275
+			id: "3E881B3EFFCFE111"
+			tasks: [{
+				id: "3300E787B8A46C3C"
+				type: "item"
+				title: "Valid path blocks"
+				disable_toast: true
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecolonies:pathblocks"
+					}
+				}
+			}]
+		}
+		{
+			title: "What Am I Even Doing?"
+			icon: "minecolonies:adventure_token"
+			x: 5.5d
+			y: -9.25d
+			shape: "gear"
+			subtitle: "A quick TL;DR of the mod"
+			description: [
+				"&eMineColonies&r is basically Sim City, allowing you to &6build a village&r building by building, with each performing a function."
+				""
+				"Colonists will &6gather resources&r, move and store items, &6autocraft recipes&r, and more, once set up."
+				""
+				"The Lumberjack will chop trees, the Courier will bring the drops to storage. The Smelter will take ores from storage and smelt them, multiplying the output. The Cook cooks, the Fisher fishes, etc etc."
+				""
+				"Basically, think of it as an &6automation mod&r that's hidden inside a city simulator."
+			]
+			hide_dependency_lines: true
+			dependencies: ["550E386F2FFB787D"]
+			size: 1.25d
+			optional: true
+			min_width: 275
+			id: "30A65BD125CDC42C"
+			tasks: [{
+				id: "37F6306D2AA1355D"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "Make the Apple of Eden"
+			description: [
+				"This accursed Apple cast out Adam and Eve. It turned staves into snakes. Parted and closed the Red Sea. Eris used it to spark the Trojan War. With it, a carpenter turned water into wine."
+				""
+				"With the &bApple of Eden&r, my researchers can reach &6Ascendence&r. My minions will be gods."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7FF70F90D7134D53"]
+			size: 1.5d
+			min_width: 225
+			id: "7758D626065640B6"
+			tasks: [{
+				id: "2F28BD55F78B85E8"
+				type: "item"
+				item: "inferno:eden_apple"
+			}]
+		}
+	]
+}

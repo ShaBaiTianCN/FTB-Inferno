@@ -1,0 +1,1011 @@
+{
+	id: "47C192859193A060"
+	group: "7044F2C841148E69"
+	order_index: 5
+	filename: "djinns_and_dragons"
+	title: "Djinns and Dragons"
+	icon: "apotheosis:boss_summoner"
+	subtitle: ["Apotheosis, misc dungeon stuff"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "Make a Socket Sigil"
+			description: [
+				"The &bSocket Sigil&r is a magic tool that allows me to &6add Gem Sockets to tools&r."
+				""
+				""
+				"I &6can reroll&r, but rerolling &ccan go down instead of up&r."
+			]
+			dependencies: [
+				"571BC20E3675397C"
+				"6BBA6FE9EE790FAA"
+			]
+			min_width: 225
+			id: "5E8131A9E58F361D"
+			tasks: [{
+				id: "7686A6CC7A332131"
+				type: "item"
+				item: "apotheosis:sigil_of_socketing"
+			}]
+			rewards: [{
+				id: "726A25AF8D679CC1"
+				type: "item"
+				item: "apotheosis:sigil_of_socketing"
+			}]
+		}
+		{
+			title: "Why Won't It End?"
+			x: -3.25d
+			y: -1.5d
+			shape: "square"
+			subtitle: "Locate a Spawner"
+			description: [
+				"I &ccannot break&r these accursed &bSpawners&r, no matter how I try!"
+				""
+				"If I want to disable these, I'll have to either cage them in, or &6use Soul Shards&r to empty the Spawner."
+				""
+				"I can also &6move them with Transposers&r, once I'm able to make them."
+			]
+			dependencies: ["02DC6172CAC06ACB"]
+			id: "03DA4241BF911A29"
+			tasks: [{
+				id: "140D3257645D5419"
+				type: "observation"
+				title: "Observe a Spawner"
+				icon: "minecraft:spawner"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:spawner"
+			}]
+		}
+		{
+			title: "Apotheotic Enchanting"
+			x: -0.75d
+			y: -1.5d
+			shape: "square"
+			subtitle: "Make an Enchanting Table"
+			description: [
+				"I am learned enough to access deeper power from the &bEnchanting Table&r."
+				""
+				"There are many new mechanics, which I can read about in &6Chronicles of Shadows&r &o(which can be found in Dante's Divine Libram)."
+			]
+			dependencies: ["4E4DCF7B00B213EC"]
+			id: "318744180DDAD470"
+			tasks: [{
+				id: "288CFFAEB04F09A3"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+		}
+		{
+			title: "Enchanting Stats"
+			icon: "minecraft:pink_candle"
+			x: -1.0d
+			y: -0.75d
+			shape: "square"
+			subtitle: "Learn about enchanting stats"
+			description: [
+				"Enchantments are decided on more than just levels. There are certain stats that can be improved by placing certain blocks nearby:"
+				""
+				"• &bEterna&r: Controls the level - &6the most important stat"
+				"• &bQuanta&r: Can randomly increase or decrease the level"
+				"• &bArcana&r: Makes rare enchantments more likely"
+				"• &bRecification&r: Function of Quanta, more is better"
+				"• &bEnchanting Clues&r: Shows more enchantments"
+			]
+			dependencies: ["318744180DDAD470"]
+			size: 0.5d
+			min_width: 225
+			id: "450D6518F4406C29"
+			tasks: [
+				{
+					id: "40D6AEF17CB03C31"
+					type: "item"
+					title: "Eterna"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:bookshelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:hellshelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:infused_hellshelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:blazing_hellshelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:glowing_hellshelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:seashelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:infused_seashelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:heart_seashelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:endshelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:draconic_endshelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:pearl_endshelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:beeshelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:melonshelf"
+									Count: 1b
+								}
+								{
+									id: "quark:spruce_bookshelf"
+									Count: 1b
+								}
+								{
+									id: "quark:birch_bookshelf"
+									Count: 1b
+								}
+								{
+									id: "quark:jungle_bookshelf"
+									Count: 1b
+								}
+								{
+									id: "quark:acacia_bookshelf"
+									Count: 1b
+								}
+								{
+									id: "quark:dark_oak_bookshelf"
+									Count: 1b
+								}
+								{
+									id: "quark:crimson_bookshelf"
+									Count: 1b
+								}
+								{
+									id: "quark:warped_bookshelf"
+									Count: 1b
+								}
+								{
+									id: "quark:blossom_bookshelf"
+									Count: 1b
+								}
+								{
+									id: "quark:azalea_bookshelf"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "5171DD739838186A"
+					type: "item"
+					title: "Quanta"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:skeleton_skull"
+									Count: 1b
+								}
+								{
+									id: "minecraft:wither_skeleton_skull"
+									Count: 1b
+								}
+								{
+									id: "minecraft:zombie_head"
+									Count: 1b
+								}
+								{
+									id: "minecraft:creeper_head"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:hellshelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:infused_hellshelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:blazing_hellshelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:glowing_hellshelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:endshelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:pearl_endshelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:beeshelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:melonshelf"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "4679722CA1BE310E"
+					type: "item"
+					title: "Arcana"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:candle"
+									Count: 1b
+								}
+								{
+									id: "minecraft:white_candle"
+									Count: 1b
+								}
+								{
+									id: "minecraft:orange_candle"
+									Count: 1b
+								}
+								{
+									id: "minecraft:magenta_candle"
+									Count: 1b
+								}
+								{
+									id: "minecraft:light_blue_candle"
+									Count: 1b
+								}
+								{
+									id: "minecraft:yellow_candle"
+									Count: 1b
+								}
+								{
+									id: "minecraft:lime_candle"
+									Count: 1b
+								}
+								{
+									id: "minecraft:pink_candle"
+									Count: 1b
+								}
+								{
+									id: "minecraft:light_gray_candle"
+									Count: 1b
+								}
+								{
+									id: "minecraft:cyan_candle"
+									Count: 1b
+								}
+								{
+									id: "minecraft:purple_candle"
+									Count: 1b
+								}
+								{
+									id: "minecraft:blue_candle"
+									Count: 1b
+								}
+								{
+									id: "minecraft:brown_candle"
+									Count: 1b
+								}
+								{
+									id: "minecraft:green_candle"
+									Count: 1b
+								}
+								{
+									id: "minecraft:red_candle"
+									Count: 1b
+								}
+								{
+									id: "minecraft:black_candle"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:glowing_hellshelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:seashelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:infused_seashelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:crystal_seashelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:heart_seashelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:endshelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:pearl_endshelf"
+									Count: 1b
+								}
+								{
+									id: "occultism:candle_white"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "69875452D31A74E2"
+					type: "item"
+					title: "Rectification"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:amethyst_cluster"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:heart_seashelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:rectifier"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:rectifier_t2"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:rectifier_t3"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "655DEDFFBC3A5D70"
+					type: "item"
+					title: "Clues"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "apotheosis:blazing_hellshelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:sightshelf"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:sightshelf_t2"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7FC8647165521F14"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "apotheosis:scavenger"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Tomes"
+			icon: "apotheosis:scrap_tome"
+			x: -0.5d
+			y: -0.75d
+			shape: "square"
+			subtitle: "Make a Tome"
+			description: [
+				"&bEquipment Tomes&r can be enchanted like Books, but &6only accept enchantments of a specific type&r."
+				""
+				"Only Boot Enchantments can go on the Tome of Boots, etc."
+				""
+				"The &bTome of Scrapping&r can be combined with an enchanted item in the Anvil to destroy it, &6removing half of the enchantments&r onto a new Book."
+			]
+			dependencies: ["318744180DDAD470"]
+			size: 0.5d
+			id: "7C9E98B3A06F4CF6"
+			tasks: [
+				{
+					id: "2874CE7365B1B3AB"
+					type: "item"
+					title: "Equipment Tomes"
+					item: {
+						id: "itemfilters:and"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "itemfilters:id_regex"
+									Count: 1b
+									tag: {
+										value: "apo.*tome"
+									}
+								}
+								{
+									id: "itemfilters:not"
+									Count: 1b
+									tag: {
+										items: [{
+											id: "apotheosis:scrap_tome"
+											Count: 1b
+										}]
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "6B6D40D5E9F77E56"
+					type: "item"
+					item: "apotheosis:scrap_tome"
+				}
+			]
+			rewards: [
+				{
+					id: "65D17831B1EAD0C4"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "apotheosis:splitting"
+							}]
+						}
+					}
+				}
+				{
+					id: "7EC523FA89985916"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "apotheosis:obliteration"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Affixes"
+			x: -2.0d
+			y: -1.5d
+			shape: "square"
+			subtitle: "Defeat a Boss and get its Affix loot"
+			description: [
+				"While exploring, I was accosted by an &6incredibly dangerous, glowing foe&r. I felled it with great difficulty, and it dropped &bamazing items&r!"
+				""
+				"One of the items had an &bAffix&r, a modifier somewhat similar to an enchantment. They come in several tiers and types."
+				""
+				"I can learn more in &6Chronicle of Shadows&r &o(which can be found in Dante's Divine Libram)."
+			]
+			dependencies: ["02DC6172CAC06ACB"]
+			min_width: 225
+			id: "5257158F43E74A41"
+			tasks: [{
+				id: "7ACB688C5DD4C8A7"
+				type: "custom"
+				title: "Get an item with an Affix"
+				icon: {
+					id: "minecraft:golden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Crystal Gems"
+			icon: {
+				id: "apotheosis:gem"
+				Count: 1b
+				tag: {
+					variant: 10
+					modifier: {
+						Operation: 1
+						attribute: "apotheosis:current_hp_damage"
+						UUID: [I;
+							-698058741
+							1106789569
+							-2091651065
+							1160369344
+						]
+						Amount: 0.09999999403953552d
+						Name: "GemBonus_apotheosis:current_hp_damage"
+					}
+				}
+			}
+			x: -2.25d
+			y: -0.75d
+			shape: "square"
+			subtitle: "Find a Gem"
+			description: [
+				"Certain Affix items have &6Sockets&r, which can have &bGems&r fitted into them."
+				""
+				"Each Socket can hold a single Gem. Gems are inserted into socketed items using the &6Smithing Table&r."
+			]
+			hide_dependency_lines: true
+			min_required_dependencies: 1
+			dependencies: [
+				"5257158F43E74A41"
+				"5E8131A9E58F361D"
+			]
+			size: 0.5d
+			id: "68AB2F7E06DE90A2"
+			tasks: [{
+				id: "78F44AF8E2A35278"
+				type: "item"
+				title: "Example Gems"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "apotheosis:gem"
+								Count: 1b
+								tag: {
+									variant: 5
+									modifier: {
+										Operation: 2
+										attribute: "minecraft:generic.movement_speed"
+										UUID: [I;
+											-1086992355
+											266292621
+											-2075294396
+											-42825013
+										]
+										Amount: 0.30000001192092896d
+										Name: "GemBonus_apotheosis:move_speed"
+									}
+								}
+							}
+							{
+								id: "apotheosis:gem"
+								Count: 1b
+								tag: {
+									variant: 8
+									modifier: {
+										Operation: 0
+										attribute: "minecraft:generic.attack_knockback"
+										UUID: [I;
+											930618282
+											-1904783761
+											-1137077787
+											-192547821
+										]
+										Amount: 1.0d
+										Name: "GemBonus_apotheosis:attack_knockback"
+									}
+								}
+							}
+							{
+								id: "apotheosis:gem"
+								Count: 1b
+								tag: {
+									variant: 7
+									modifier: {
+										Operation: 0
+										attribute: "minecraft:generic.armor_toughness"
+										UUID: [I;
+											-36181157
+											-1450294835
+											-1701084283
+											920284294
+										]
+										Amount: 2.0d
+										Name: "GemBonus_apotheosis:armor_toughness"
+									}
+								}
+							}
+							{
+								id: "apotheosis:gem"
+								Count: 1b
+								tag: {
+									variant: 0
+									modifier: {
+										Operation: 1
+										attribute: "apotheosis:arrow_velocity"
+										UUID: [I;
+											-1946783246
+											-1260434834
+											-1156446156
+											819532863
+										]
+										Amount: 0.12999999523162842d
+										Name: "GemBonus_apotheosis:arrow_velocity"
+									}
+								}
+							}
+							{
+								id: "apotheosis:gem"
+								Count: 1b
+								tag: {
+									variant: 5
+									modifier: {
+										Operation: 2
+										attribute: "forge:entity_gravity"
+										UUID: [I;
+											-1282115049
+											202262223
+											-2033785900
+											483160559
+										]
+										Amount: -0.20000000298023224d
+										Name: "GemBonus_apotheosis:gravity"
+									}
+								}
+							}
+							{
+								id: "apotheosis:gem"
+								Count: 1b
+								tag: {
+									variant: 6
+									modifier: {
+										Operation: 0
+										attribute: "apotheosis:fire_damage"
+										UUID: [I;
+											-1990780712
+											1457801814
+											-1732913441
+											1108178818
+										]
+										Amount: 5.0d
+										Name: "GemBonus_apotheosis:fire_damage"
+									}
+								}
+							}
+							{
+								id: "apotheosis:gem"
+								Count: 1b
+								tag: {
+									variant: 10
+									modifier: {
+										Operation: 1
+										attribute: "apotheosis:current_hp_damage"
+										UUID: [I;
+											-698058741
+											1106789569
+											-2091651065
+											1160369344
+										]
+										Amount: 0.09999999403953552d
+										Name: "GemBonus_apotheosis:current_hp_damage"
+									}
+								}
+							}
+							{
+								id: "apotheosis:gem"
+								Count: 1b
+								tag: {
+									variant: 8
+									modifier: {
+										Operation: 0
+										attribute: "forge:step_height_addition"
+										UUID: [I;
+											942281603
+											-1526249143
+											-1698517364
+											770772250
+										]
+										Amount: 2.0d
+										Name: "GemBonus_apotheosis:step_height"
+									}
+								}
+							}
+							{
+								id: "apotheosis:gem"
+								Count: 1b
+								tag: {
+									variant: 4
+									modifier: {
+										Operation: 1
+										attribute: "apotheosis:overheal"
+										UUID: [I;
+											119506541
+											-1658502774
+											-1646254558
+											331001704
+										]
+										Amount: 0.07999999821186066d
+										Name: "GemBonus_apotheosis:overheal"
+									}
+								}
+							}
+							{
+								id: "apotheosis:gem"
+								Count: 1b
+								tag: {
+									variant: 4
+									modifier: {
+										Operation: 1
+										attribute: "apotheosis:overheal"
+										UUID: [I;
+											-612668059
+											-369800654
+											-1427829593
+											-1400258450
+										]
+										Amount: 0.09999999403953552d
+										Name: "GemBonus_apotheosis:overheal"
+									}
+								}
+							}
+							{
+								id: "apotheosis:gem"
+								Count: 1b
+								tag: {
+									variant: 6
+									modifier: {
+										Operation: 1
+										attribute: "apotheosis:life_steal"
+										UUID: [I;
+											-434988441
+											-627555230
+											-1419467410
+											228376613
+										]
+										Amount: 0.15000000596046448d
+										Name: "GemBonus_apotheosis:life_steal"
+									}
+								}
+							}
+							{
+								id: "apotheosis:gem"
+								Count: 1b
+								tag: {
+									variant: 3
+									modifier: {
+										Operation: 1
+										attribute: "apotheosis:arrow_damage"
+										UUID: [I;
+											2087011151
+											-663993389
+											-1301199791
+											-431128380
+										]
+										Amount: 0.1599999964237213d
+										Name: "GemBonus_apotheosis:arrow_damage"
+									}
+								}
+							}
+							{
+								id: "apotheosis:gem"
+								Count: 1b
+								tag: {
+									variant: 1
+									modifier: {
+										Operation: 0
+										attribute: "apotheosis:cold_damage"
+										UUID: [I;
+											-1965905072
+											1270304460
+											-2018908796
+											1785805399
+										]
+										Amount: 4.5d
+										Name: "GemBonus_apotheosis:cold_damage"
+									}
+								}
+							}
+							{
+								id: "apotheosis:gem"
+								Count: 1b
+								tag: {
+									variant: 5
+									modifier: {
+										Operation: 2
+										attribute: "forge:entity_gravity"
+										UUID: [I;
+											349581045
+											257182342
+											-1905293618
+											182996571
+										]
+										Amount: -0.10000000149011612d
+										Name: "GemBonus_apotheosis:gravity"
+									}
+								}
+							}
+							{
+								id: "apotheosis:gem"
+								Count: 1b
+								tag: {
+									variant: 6
+									modifier: {
+										Operation: 1
+										attribute: "apotheosis:life_steal"
+										UUID: [I;
+											-1235437954
+											-708359803
+											-1905867696
+											-1594903672
+										]
+										Amount: 0.05000000074505806d
+										Name: "GemBonus_apotheosis:life_steal"
+									}
+								}
+							}
+							{
+								id: "apotheosis:gem"
+								Count: 1b
+								tag: {
+									variant: 3
+									modifier: {
+										Operation: 2
+										attribute: "minecraft:generic.attack_damage"
+										UUID: [I;
+											-288368796
+											-532527082
+											-1710307106
+											1734370591
+										]
+										Amount: 0.25d
+										Name: "GemBonus_apotheosis:attack_damage"
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "123925472F4C7387"
+				type: "command"
+				title: "Random Apotheosis Gem"
+				icon: {
+					id: "apotheosis:gem"
+					Count: 1b
+					tag: {
+						variant: 0
+						modifier: {
+							Operation: 1
+							attribute: "apotheosis:arrow_velocity"
+							UUID: [I;
+								-270263456
+								1885686323
+								-1166628533
+								1556711994
+							]
+							Amount: 0.12000000476837158d
+							Name: "GemBonus_apotheosis:arrow_velocity"
+						}
+					}
+				}
+				command: "/execute as @p run apoth gem random"
+				player_command: false
+			}]
+		}
+		{
+			x: -0.7428571428571473d
+			y: -2.74285714285714d
+			shape: "square"
+			subtitle: "Titan Forged to the Hilt"
+			description: [
+				"The Reforging table can allow me to imbue any weapon or armor with the apotheotic forged powers. This will allow me to create or recreate affix properties on any valid item. The type of affix that is applied will depend on the rarity of the materials I use to forge the item. "
+				""
+				"The process also requires some amount of gem dust which is obtained when dropping an anvil on gems. "
+				""
+				"It should be noted that while I can continue reforging to get an affix I like, the forging process is irreversible. "
+			]
+			dependencies: ["318744180DDAD470"]
+			optional: true
+			id: "35F0E424D6A0E1E2"
+			tasks: [{
+				id: "4E6317811F614687"
+				type: "item"
+				item: "apotheosis:reforging_table"
+			}]
+			rewards: [
+				{
+					id: "7F1EF9A2485CD340"
+					type: "item"
+					item: "apotheosis:uncommon_material"
+					count: 4
+				}
+				{
+					id: "63BB61DAEC7B614D"
+					type: "item"
+					item: "apotheosis:rare_material"
+					count: 2
+				}
+				{
+					id: "22706D22AB7AC1FD"
+					type: "item"
+					item: "apotheosis:epic_material"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			shape: "square"
+			subtitle: "Grains of power"
+			description: [
+				"The salvaging table will allow me to break down any loot that has affix modifiers of uncommon or greater quality. Depending on the item I will get back some components based on the rarity of the item destroyed. I can use this to refine the material into new affixes in the reforging table."
+				""
+			]
+			dependencies: ["318744180DDAD470"]
+			optional: true
+			id: "68D8E569E76EF4FF"
+			tasks: [{
+				id: "1BC6FEB0ACFCA239"
+				type: "item"
+				item: "apotheosis:salvaging_table"
+			}]
+			rewards: [{
+				id: "4D557C6DDDA78A81"
+				type: "item"
+				item: "apotheosis:gem_dust"
+				count: 4
+			}]
+		}
+	]
+}

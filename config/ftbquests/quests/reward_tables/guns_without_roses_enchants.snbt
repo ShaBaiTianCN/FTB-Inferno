@@ -1,0 +1,60 @@
+{
+	id: "0A50906AF1B56B3B"
+	order_index: 7
+	title: "Guns Without Roses Enchants"
+	loot_size: 1
+	rewards: [
+		{
+			title: "Impact"
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "gunswithoutroses:impact"
+					}]
+				}
+			}
+		}
+		{
+			title: "Bullseye"
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "gunswithoutroses:bullseye"
+					}]
+				}
+			}
+		}
+		{
+			title: "Sleight of Hand"
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "gunswithoutroses:sleight_of_hand"
+					}]
+				}
+			}
+		}
+		{
+			title: "Preserving"
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "gunswithoutroses:preserving"
+					}]
+				}
+			}
+		}
+	]
+}

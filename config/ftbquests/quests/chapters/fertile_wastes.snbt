@@ -1,0 +1,954 @@
+{
+	id: "27939960D3E595D3"
+	group: "0674F87ECC0536DF"
+	order_index: 0
+	filename: "fertile_wastes"
+	title: "Fertile Wastes"
+	icon: "farmersdelight:nether_salad"
+	subtitle: ["Crop farming"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 8.0d
+			y: -4.5d
+			subtitle: "Literally watching grass grow."
+			description: [
+				"Like everything else here, Dirt is infertile. I have to convert it into &bRich Soil&r before it can be used for farming."
+				""
+				"Organic Compost converts into Rich Soil over time. Surrounding it with &6Mycelium&r and the like will hurry this process up."
+				""
+				"There's an alternative recipe that requires the Smeltery that I can use."
+				""
+				"&oDon't forget to light up your farm plots!"
+			]
+			dependencies: ["73FE8B3FDB173113"]
+			min_width: 275
+			id: "5C802D7F2DDC747D"
+			tasks: [{
+				id: "0E441482DE50E59A"
+				type: "item"
+				item: "farmersdelight:rich_soil"
+			}]
+			rewards: [
+				{
+					id: "32C0FB5E897FF78C"
+					type: "item"
+					item: "farmersdelight:organic_compost"
+					count: 16
+				}
+				{
+					id: "1656CA3B1CE7801D"
+					type: "item"
+					item: "farmersdelight:rich_soil_farmland"
+					count: 9
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -5.0d
+			subtitle: "Get Wheat Seeds"
+			description: [
+				"The &6Supply Camp&r that started my colony had some Hay Bales, I could break those down into Wheat and then &bWheat Seeds&r."
+				""
+				"If that's been used up already, I can still try breaking grass."
+			]
+			dependencies: ["5C802D7F2DDC747D"]
+			id: "7DA23444A8774C7A"
+			tasks: [{
+				id: "386D927847C8281B"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+			}]
+			rewards: [
+				{
+					id: "36E4510260CB4F28"
+					type: "item"
+					item: "reliquary:glowing_bread"
+				}
+				{
+					id: "388947E6178B8B82"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 8
+				}
+				{
+					id: "2E3DAF6D214242A1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -4.0d
+			subtitle: "Get a Carrot"
+			description: [
+				"&6Golden Carrots&r seem to be surprisingly common here. In addition to a surprisingly pleasant crunch, they provide me with &65 minutes of Night Vision&r!"
+				""
+				"Golden Carrots can be peeled on the &6Cutting Board&r to get the perfectly preserved &bCarrot&r inside. After that, it's just a matter of farming."
+			]
+			dependencies: ["5C802D7F2DDC747D"]
+			min_width: 250
+			id: "232E4440E59C6305"
+			tasks: [{
+				id: "2E7986C5C4CE496C"
+				type: "item"
+				item: "minecraft:carrot"
+			}]
+			rewards: [
+				{
+					id: "22A3B7C344A9A559"
+					type: "item"
+					item: "minecraft:carrot"
+					count: 8
+				}
+				{
+					id: "51365B1CB0C4A6E8"
+					type: "item"
+					item: "minecraft:golden_carrot"
+					count: 4
+				}
+				{
+					id: "55C3619B31D9575A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Boil 'em, Mash 'em"
+			x: 7.0d
+			y: -4.0d
+			subtitle: "Get a Potato"
+			description: ["The &6Mixing Cauldron&r can make Poisonous Potatoes, which can be purified into &bPotatoes&r in the Spiritfire."]
+			dependencies: ["5C802D7F2DDC747D"]
+			id: "38A51BC2BA48C69C"
+			tasks: [{
+				id: "1C1861B918ECA46B"
+				type: "item"
+				item: "minecraft:potato"
+			}]
+		}
+		{
+			icon: "minecolonies:blockhutfarmer"
+			x: 9.0d
+			y: -6.5d
+			subtitle: "Make a Farm"
+			description: [
+				"Though these fools lack the minds for intelligent conversation, their simple nature means they don't complain when asked to tend the &bFarm&r."
+				""
+				"Without a source of water, tilling simple Dirt won't do. Tilled &6Rich Soil&r does not need water, and cannot be trampled."
+				""
+				"A Farm can have multiple &bFields&r, with a single crop each. The Field is placed in the center of the grow area. Set the farm plot size and the crop in its GUI."
+				""
+				"{image:inferno:textures/quest/mc_farmer.png width:186 height:100 align:1 fit:true}"
+			]
+			dependencies: [
+				"649322FD11772894"
+				"7D5A4BF8413EC971"
+			]
+			min_width: 300
+			id: "3BD76BF8387A82B4"
+			tasks: [
+				{
+					id: "2B27861268C64B66"
+					type: "item"
+					item: "minecolonies:blockhutfarmer"
+				}
+				{
+					id: "332206BD008FC34F"
+					type: "item"
+					item: "minecolonies:blockhutfield"
+				}
+			]
+			rewards: [
+				{
+					id: "2C1CC2C36F11DFD1"
+					type: "item"
+					item: "farmersdelight:rich_soil_farmland"
+					count: 25
+				}
+				{
+					id: "584C47EF694B48D6"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 25
+				}
+				{
+					id: "3458FA0FCF88DA1F"
+					type: "item"
+					item: "minecolonies:compost"
+					count: 32
+				}
+				{
+					id: "08A4A2F2716D0B16"
+					type: "item"
+					item: "reliquary:fertile_potion"
+				}
+			]
+		}
+		{
+			title: "And Thus, the Cycle of Life and Death Continues"
+			x: 8.0d
+			y: -6.5d
+			subtitle: "Make a Composter's Hut"
+			description: [
+				"At the &bComposter's Hut&r, the Composter will turn organic materials into &6Compost&r."
+				""
+				"I will have to &6tell them what they're allowed to compost&r. Otherwise, they'd compost everything they could get their hands on, the mindless things."
+			]
+			dependencies: [
+				"2A6CCA72F1D483D9"
+				"77391C99929D964E"
+			]
+			id: "7D5A4BF8413EC971"
+			tasks: [{
+				id: "7E93780320DB1C2C"
+				type: "item"
+				item: "minecolonies:blockhutcomposter"
+			}]
+			rewards: [
+				{
+					id: "35242B4880E99348"
+					type: "loot"
+					icon: {
+						id: "chiselsandbits:bit_bag"
+						Count: 1b
+						tag: {
+							Inventory: { }
+						}
+					}
+					team_reward: true
+					table_id: 4864474103053531672L
+				}
+				{
+					id: "1C652FFF4A360AE9"
+					type: "item"
+					item: "biomesoplenty:magic_leaves"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -6.5d
+			subtitle: "Make a Plantation"
+			description: ["The &bPlantation&r can grow Sugar Cane, Bamboo, and Cactus. It can also do recipes related to those."]
+			dependencies: ["7D5A4BF8413EC971"]
+			id: "0C3668DC5088CD31"
+			tasks: [{
+				id: "16CA640C40450817"
+				type: "item"
+				item: "minecolonies:blockhutplantation"
+			}]
+			rewards: [
+				{
+					id: "140DF93968B21C2C"
+					type: "item"
+					item: "minecraft:cactus"
+				}
+				{
+					id: "11D1248751B2935C"
+					type: "item"
+					item: "minecraft:sugar_cane"
+				}
+				{
+					id: "7D443B32433D939C"
+					type: "item"
+					item: "minecraft:bamboo"
+				}
+			]
+		}
+		{
+			title: "It's pronounced \"Aerith\""
+			x: 8.0d
+			y: -9.0d
+			subtitle: "Make a Flower Shop"
+			description: [
+				"At the &bFlower Shop&r, flowers will be grown every day. A source of Compost is required to work."
+				""
+				"This building requires at least a Tier 2 University with the flower shop research completed under technology."
+			]
+			dependencies: ["7D5A4BF8413EC971"]
+			id: "5243D645CE4ABC1A"
+			tasks: [{
+				id: "7C84808E428D58BB"
+				type: "item"
+				item: "minecolonies:blockhutflorist"
+			}]
+			rewards: [
+				{
+					id: "4AA96C01E40F5CD4"
+					type: "loot"
+					table_id: 3059711933873481465L
+				}
+				{
+					id: "15A1691916CD8B14"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 64
+				}
+				{
+					id: "739145FA61FAC3A7"
+					type: "item"
+					item: "minecolonies:compost"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "Make a Garden Cloche"
+			x: 8.0d
+			y: -10.5d
+			subtitle: "MiniBiosphere"
+			description: [
+				"The Garden Cloches takes power and water and grows plants. The advantage of this is that it can grow just about everything and very fast. Even on my world, they were fast but here they seem to be almost four times faster! I can produce just about everything I'll need for food and other organics."
+				""
+			]
+			dependencies: [
+				"7E2E8703658E78AB"
+				"47D880CC9982A1FA"
+			]
+			id: "339704074A3DDEB9"
+			tasks: [{
+				id: "795B8A5B9E8081F6"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			rewards: [
+				{
+					id: "464B780C5D870543"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 64
+				}
+				{
+					id: "32FAFBCC38148170"
+					type: "item"
+					item: "immersiveengineering:cloche"
+				}
+			]
+		}
+		{
+			title: "Hell's Kitchen"
+			icon: "farmersdelight:stove"
+			x: 8.0d
+			y: -2.5d
+			shape: "circle"
+			subtitle: "Make some basic kitchen implements"
+			description: [
+				"While I can &6cook Mushroom Stew in a Smeltery&r, it provides little nourishment."
+				""
+				"&6Summoning farm animals&r should be a high priority."
+				""
+				"The &bStove&r is essentially a more civilized Campfire, functioning nearly identically."
+				""
+				"The &bSkillet&r works heldheld or placed, so long as it's near enough to a heat source. It's 5x faster than the Campfire."
+				""
+				"The &bCooking Pot&r requires a heat source, and has recipes exclusive to it. Some may require a container to serve."
+			]
+			dependencies: ["16C79CB1537B7093"]
+			min_width: 250
+			id: "0A805E112018978C"
+			tasks: [
+				{
+					id: "4764F16B6A565B48"
+					type: "item"
+					title: "Cookers"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "farmersdelight:skillet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "farmersdelight:stove"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "0342EEF7B14E903B"
+					type: "item"
+					item: "farmersdelight:cooking_pot"
+				}
+			]
+			rewards: [
+				{
+					id: "0415F1420C9F76B9"
+					type: "item"
+					item: {
+						id: "delightful:obsidian_infused_enderite_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "34AD676B1C989ACA"
+					type: "item"
+					item: "farmersdelight:rich_soil"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Romaine Calm"
+			icon: "farmersdelight:rice"
+			x: 10.875d
+			y: -1.5d
+			shape: "square"
+			subtitle: "Vegan Options"
+			description: ["The &6Sifter&r's more advanced Sieves will be able to get me some more edible crops."]
+			hide_dependency_lines: true
+			dependencies: ["0A805E112018978C"]
+			size: 0.75d
+			optional: true
+			id: "3061759367BDDFD5"
+			tasks: [
+				{
+					id: "300DE0357D4B261A"
+					type: "item"
+					item: "farmersdelight:tomato_seeds"
+				}
+				{
+					id: "5B7290C6D1D81026"
+					type: "item"
+					item: "farmersdelight:cabbage_seeds"
+				}
+				{
+					id: "5EDAF365882E98A9"
+					type: "item"
+					item: "farmersdelight:rice"
+				}
+				{
+					id: "7AA474B68C37E013"
+					type: "item"
+					item: "farmersdelight:onion"
+				}
+			]
+			rewards: [
+				{
+					id: "151B422EE1016AF7"
+					type: "item"
+					item: "minecraft:cocoa_beans"
+					count: 4
+				}
+				{
+					id: "2135F70B8124BD3B"
+					type: "item"
+					item: "minecraft:sweet_berries"
+					count: 4
+				}
+				{
+					id: "2E20D0B8723AF31C"
+					type: "item"
+					item: "farmersdelight:rich_soil"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Angus Who?"
+			x: 10.125d
+			y: -2.25d
+			shape: "square"
+			subtitle: "Get Minced Beef"
+			description: ["&bMinced Beef&r is a staple ingredient in many recipes."]
+			hide_dependency_lines: true
+			dependencies: ["0A805E112018978C"]
+			size: 0.75d
+			optional: true
+			id: "086B7E9534421CF1"
+			tasks: [{
+				id: "3A6737656EDA7EFC"
+				type: "item"
+				item: "farmersdelight:minced_beef"
+			}]
+			rewards: [{
+				id: "7CCCB11D5287F47E"
+				type: "item"
+				item: "farmersdelight:beef_stew"
+			}]
+		}
+		{
+			title: "Chicken Nuggies"
+			x: 10.875d
+			y: -2.25d
+			shape: "square"
+			subtitle: "Get Raw Chicken Cuts"
+			description: ["Too much beef is giving my minions and I high cholesterol. I've ordered that &bChicken dishes&r be added to the lunch rotation."]
+			hide_dependency_lines: true
+			dependencies: ["0A805E112018978C"]
+			size: 0.75d
+			optional: true
+			id: "56FC0A8DE7C628FB"
+			tasks: [{
+				id: "3D528364FAA8B068"
+				type: "item"
+				item: "farmersdelight:chicken_cuts"
+			}]
+			rewards: [{
+				id: "27272DC0845ED6F7"
+				type: "item"
+				item: "farmersdelight:chicken_soup"
+			}]
+		}
+		{
+			title: "The Other White Meat"
+			x: 9.375d
+			y: -2.25d
+			shape: "square"
+			subtitle: "Get Raw Bacon"
+			description: ["Hoglin meat is tough and unpleasant. A &6Swineherd&r can help my gather &bPork&r."]
+			hide_dependency_lines: true
+			dependencies: ["0A805E112018978C"]
+			size: 0.75d
+			optional: true
+			id: "54FB517CCC351BC9"
+			tasks: [{
+				id: "4EAB6F24D5FA903B"
+				type: "item"
+				item: "farmersdelight:bacon"
+			}]
+			rewards: [{
+				id: "025CFE0FF8F9B30C"
+				type: "item"
+				item: "farmersdelight:bacon_sandwich"
+			}]
+		}
+		{
+			title: "Fillet O Fish"
+			icon: "farmersdelight:salmon_slice"
+			x: 10.125d
+			y: -1.5d
+			shape: "square"
+			subtitle: "Get some Raw Fish Cuts"
+			description: ["Some &bRaw Fish&r would be a nice, lighter alternative to the meatier foods I've been eating."]
+			hide_dependency_lines: true
+			dependencies: ["0A805E112018978C"]
+			size: 0.75d
+			optional: true
+			id: "159B35DCDC64929D"
+			tasks: [{
+				id: "538345A3BF3D8081"
+				type: "item"
+				title: "Raw Fish Cuts"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "alexsdelight:raw_catfish_slice"
+								Count: 1b
+							}
+							{
+								id: "farmersdelight:cod_slice"
+								Count: 1b
+							}
+							{
+								id: "farmersdelight:salmon_slice"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B623F33F1363E5C"
+				type: "item"
+				item: "farmersdelight:cabbage_rolls"
+			}]
+		}
+		{
+			title: "My Kitchen Rules"
+			x: 6.75d
+			y: -2.25d
+			shape: "square"
+			subtitle: "Make a Cooking Table"
+			description: ["The &bCooking Table&r will allow me to &6quickly craft foods&r that I have the ingredients for."]
+			hide_dependency_lines: true
+			dependencies: ["0A805E112018978C"]
+			size: 0.75d
+			optional: true
+			id: "032995AE5322A49B"
+			tasks: [{
+				id: "152DFD7CCCEF5D04"
+				type: "item"
+				item: "cookingforblockheads:cooking_table"
+			}]
+			rewards: [
+				{
+					id: "2A0F9982019B1245"
+					type: "item"
+					item: "farmersdelight:carrot_crate"
+				}
+				{
+					id: "2F7E6E0F0DDE3478"
+					type: "item"
+					item: "farmersdelight:potato_crate"
+				}
+				{
+					id: "522A452463E14ABB"
+					type: "item"
+					item: "farmersdelight:beetroot_crate"
+				}
+				{
+					id: "02FE33FACEDA2344"
+					type: "item"
+					item: "farmersdelight:cabbage_crate"
+				}
+				{
+					id: "4FF6D85470F87991"
+					type: "item"
+					item: "farmersdelight:tomato_crate"
+				}
+				{
+					id: "52D607B3506940C8"
+					type: "item"
+					item: "farmersdelight:onion_crate"
+				}
+			]
+		}
+		{
+			title: "why do they call it oven when you of in the cold food of out hot eat the food"
+			x: 6.75d
+			y: -1.5d
+			shape: "square"
+			subtitle: "Craft an Oven"
+			description: [
+				"An &bOven&r will allow me to &6quickly cook foods&r, and works from the Cooking Table!"
+				""
+				"If I add a &6Heating Unit&r, I can power the Oven with FE instead of furnace fuel."
+				""
+				"&oInstall Upgrades by right-clicking them on their block"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0A805E112018978C"]
+			size: 0.75d
+			optional: true
+			min_width: 225
+			id: "427910ADAE90C401"
+			tasks: [{
+				id: "610C8AF8FC700EF2"
+				type: "item"
+				item: "cookingforblockheads:oven"
+			}]
+			rewards: [
+				{
+					id: "5ACE2100CE86B6A9"
+					type: "item"
+					item: "cookingforblockheads:heating_unit"
+				}
+				{
+					id: "0DE2880A65EE9F66"
+					type: "item"
+					item: "minecraft:coal"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "Dont be a Blockhead"
+			icon: "cookingforblockheads:counter"
+			x: 6.0d
+			y: -1.5d
+			shape: "square"
+			subtitle: "Make Kitchen Counter and Cabinets"
+			description: ["&bKitchen Counters and Cabinets&r provide my Cooking Table with &6extra storage&r, so I don't have to hold everything on my person."]
+			hide_dependency_lines: true
+			dependencies: ["0A805E112018978C"]
+			size: 0.75d
+			optional: true
+			id: "48DCE29966AFE7DD"
+			tasks: [
+				{
+					id: "49E66305860326D3"
+					type: "item"
+					item: "cookingforblockheads:counter"
+				}
+				{
+					id: "47C6E191103F6C58"
+					type: "item"
+					item: "cookingforblockheads:cabinet"
+				}
+			]
+			rewards: [
+				{
+					id: "0FD616CB447FB8F7"
+					type: "item"
+					item: "cookingforblockheads:tool_rack"
+				}
+				{
+					id: "5E9657819426BB03"
+					type: "item"
+					item: "quark:berry_sack"
+				}
+				{
+					id: "3EC2F4A2708169F1"
+					type: "item"
+					item: "quark:cocoa_beans_sack"
+				}
+			]
+		}
+		{
+			title: "Perishables"
+			x: 5.25d
+			y: -2.25d
+			shape: "square"
+			subtitle: "Craft a Fridge"
+			description: ["The &bFridge&r is another storage location, but has two &6very useful upgrades&r. Their functions are in their tooltip."]
+			hide_dependency_lines: true
+			dependencies: ["0A805E112018978C"]
+			size: 0.75d
+			optional: true
+			id: "15BEB6C2CA6953A0"
+			tasks: [{
+				id: "1DB3BCD3B14C9138"
+				type: "item"
+				item: "cookingforblockheads:fridge"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "534E594E38E201CF"
+					type: "item"
+					item: "cookingforblockheads:ice_unit"
+				}
+				{
+					id: "3F33077E913D1998"
+					type: "item"
+					item: "cookingforblockheads:preservation_chamber"
+				}
+			]
+		}
+		{
+			title: "Udderly Delicious"
+			x: 5.25d
+			y: -1.5d
+			shape: "square"
+			subtitle: "Craft Cow in a Jar"
+			description: ["I can squish a &bCow&r into a &6Milk Jar&r using an anvil and gravity. Now my kitchen can produce all the milk I need."]
+			hide_dependency_lines: true
+			dependencies: ["0A805E112018978C"]
+			size: 0.75d
+			optional: true
+			id: "11D70F523624DFD6"
+			tasks: [{
+				id: "3155A3A731C06D6F"
+				type: "item"
+				item: "cookingforblockheads:cow_jar"
+			}]
+			rewards: [
+				{
+					id: "488FA9A64FE335A6"
+					type: "item"
+					item: "cookingforblockheads:toaster"
+				}
+				{
+					id: "5B4B507E51BD2377"
+					type: "item"
+					item: {
+						id: "evilcraft:dark_tank"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "minecraft:empty"
+								Amount: 0
+							}
+							capacity: 16000
+						}
+						ForgeCaps: {
+							Parent: {
+								FluidName: "minecraft:empty"
+								Amount: 0
+								capacity: 16000
+							}
+						}
+					}
+				}
+				{
+					id: "3A6A605D4FE4243E"
+					type: "item"
+					item: "ppfluids:fluid_pipe"
+					count: 8
+				}
+				{
+					id: "0CA25C0D53D98DF9"
+					type: "item"
+					item: "ppfluids:medium_fluid_retrieval_module"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Kitchen Sinkn't"
+			x: 6.0d
+			y: -2.25d
+			shape: "square"
+			subtitle: "Craft a Sink"
+			description: [
+				"The &bSink&r will &6provide Water to the Cooking Table&r, if it has any."
+				""
+				"Though it &cdoes not refill itself&r, I can use an &6Infinite Water Block&r."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0A805E112018978C"]
+			size: 0.75d
+			optional: true
+			id: "54D26AD306DC483B"
+			tasks: [{
+				id: "313F6761D50E1A33"
+				type: "item"
+				item: "cookingforblockheads:sink"
+			}]
+			rewards: [
+				{
+					id: "5D1D95A23252837B"
+					type: "item"
+					item: "ppfluids:fluid_pipe"
+					count: 16
+				}
+				{
+					id: "796DC44E356677F4"
+					type: "item"
+					item: "ppfluids:medium_fluid_retrieval_module"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "A Mutton For Punishment"
+			x: 9.375d
+			y: -1.5d
+			shape: "square"
+			subtitle: "Get Raw Mutton Chops"
+			description: ["I've had an intense craving for gyros. I'll have to ask my &6Shepherd&r to butcher up some &bMutton&r for me."]
+			hide_dependency_lines: true
+			dependencies: ["0A805E112018978C"]
+			size: 0.75d
+			optional: true
+			id: "654935B4DB0CBCAE"
+			tasks: [{
+				id: "0B618E7B6D9411ED"
+				type: "item"
+				item: "farmersdelight:mutton_chops"
+			}]
+			rewards: [{
+				id: "6CF7C691F5B30598"
+				type: "item"
+				item: "farmersdelight:mutton_wrap"
+			}]
+		}
+		{
+			title: "The Fungus Amongus"
+			icon: "nethersdelight:warped_fungus_colony"
+			x: 9.0d
+			y: -5.0d
+			subtitle: "Grow a Mushroom Colony"
+			description: [
+				"&bMushroom Colonies&r are a delicacy that requires careful nurturing."
+				""
+				"When normal Mushrooms are planted on &6Rich Soil&r and &6given time in the dark&r, they grow into Colonies."
+				""
+				"The warped and crimson variants required &6Rich Soul Soil&r instead."
+				""
+				"I'll need to use &6Shears&r to harvest them properly."
+			]
+			dependencies: ["5C802D7F2DDC747D"]
+			id: "4A536E1A6384936D"
+			tasks: [{
+				id: "3B289CE45CDD519A"
+				type: "item"
+				title: "Mushroom Colonies"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "farmersdelight:brown_mushroom_colony"
+								Count: 1b
+							}
+							{
+								id: "farmersdelight:red_mushroom_colony"
+								Count: 1b
+							}
+							{
+								id: "nethersdelight:crimson_fungus_colony"
+								Count: 1b
+							}
+							{
+								id: "nethersdelight:warped_fungus_colony"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1077100433F8F0F2"
+					type: "item"
+					item: "farmersdelight:rich_soil"
+					count: 4
+				}
+				{
+					id: "3B841D268E88C261"
+					type: "custom"
+					title: "amogus."
+					icon: "alexsmobs:spawn_egg_mungus"
+					auto: "invisible"
+				}
+			]
+		}
+		{
+			title: "Master Chef"
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "alexsmobs:lava_vision"
+				}
+			}
+			x: 8.0d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "Food Buffs"
+			description: ["There are several foods I can make that &bprovide me with buffs&r, making me stronger in some way for a time."]
+			dependencies: ["0A805E112018978C"]
+			id: "2DE101B64C099246"
+			tasks: [{
+				id: "18954CAD371A1005"
+				type: "checkmark"
+				title: "Specialty Foods"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.5d
+			shape: "gear"
+			subtitle: "Higher Learning"
+			description: ["These structures will require me to have complete at least a T1 University and the corresponding research."]
+			dependencies: ["46A72493AFD256CA"]
+			id: "77391C99929D964E"
+			tasks: [{
+				id: "1F79D927E6151D1A"
+				type: "checkmark"
+				title: "Research Required!"
+			}]
+		}
+	]
+}

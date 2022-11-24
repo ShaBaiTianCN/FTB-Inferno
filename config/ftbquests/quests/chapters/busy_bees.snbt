@@ -1,0 +1,1813 @@
+{
+	id: "19E12EACC34E7FA5"
+	group: "0674F87ECC0536DF"
+	order_index: 1
+	filename: "busy_bees"
+	title: "Busy Bees"
+	icon: "create:honeyed_apple"
+	subtitle: ["Productive Bees"]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Honey, I'm Home!"
+			x: 1.5d
+			y: -2.25d
+			shape: "hexagon"
+			subtitle: "Make a Beehive"
+			description: [
+				"These simple &bBeehives&r are functional but highly lacking. The bees cannot be monitored, and attack when I take my tithe."
+				""
+				"A reminder on how Bees work:"
+				"• Bees leave their Hive and hover around flowers."
+				"• During this, they collect pollen. This fertilizes crops the bee flies over."
+				"• Afterwards, the Bee returns to the Hive and creates Honey."
+				"• Repeat."
+			]
+			dependencies: ["70391A24AA73AC40"]
+			hide: true
+			size: 1.5d
+			min_width: 275
+			id: "2AE6B601E81DF243"
+			tasks: [{
+				id: "3A43D39D4859083A"
+				type: "item"
+				item: "minecraft:beehive"
+			}]
+			rewards: [{
+				id: "7F424D411714359C"
+				type: "item"
+				item: "minecraft:honeycomb"
+				count: 2
+			}]
+		}
+		{
+			title: "Psst. I’m Bee-hind You"
+			icon: "productivebees:honeycomb_ghostly"
+			x: 4.5d
+			y: 3.5d
+			subtitle: "Get Ghostly Comb"
+			description: [
+				"The light from a &6Soul Lantern&r will corrupt Bees into &bGhostly Bees&r."
+				""
+				"Their Combs produce &6Ghast Tears&r."
+			]
+			dependencies: ["6E63506CA6262292"]
+			id: "04FA6C9E6E9B6F21"
+			tasks: [{
+				id: "36748E62E12389B0"
+				type: "item"
+				item: "productivebees:honeycomb_ghostly"
+			}]
+			rewards: [{
+				id: "4C3EF7D26EE2CA40"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
+		}
+		{
+			title: "Mind Your Own Beeswax"
+			x: 1.5d
+			y: -0.5d
+			subtitle: "Make a Centrifuge"
+			description: [
+				"At the &bCentrifuge&r, I can put my collect Honeycomb to use."
+				""
+				"Inserted Combs will slowly convert into its liquid and solid components."
+			]
+			dependencies: ["2AE6B601E81DF243"]
+			hide: true
+			id: "3F36E50C28A504B6"
+			tasks: [{
+				id: "75ED21E8A6150A9A"
+				type: "item"
+				item: "productivebees:centrifuge"
+			}]
+			rewards: [
+				{
+					id: "6FF000838B1397C9"
+					type: "item"
+					item: "prettypipes:low_extraction_module"
+					count: 4
+				}
+				{
+					id: "21983141189AAB1C"
+					type: "item"
+					item: "prettypipes:pipe"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Life Is Not All It’s Cracked Up To Bee"
+			x: 6.0d
+			y: 3.5d
+			subtitle: "Get Skeletal Comb"
+			description: [
+				"I've tried to re-embody the Ghostly Bee, from the inside out. That means starting with &6Bones&r."
+				""
+				"Rather than bringing it back to life, however, this has just brought it to a new form of undeath."
+				""
+				"&bSkeletal Bees&r create &bSkeletal Combs&r which create Bonemeal."
+			]
+			dependencies: ["04FA6C9E6E9B6F21"]
+			id: "6EA3E99BF1934AD4"
+			tasks: [{
+				id: "453DBF4E2FD34B33"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:skeletal"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6CFC0D9C5E864EDC"
+				type: "item"
+				item: "minecraft:skeleton_skull"
+			}]
+		}
+		{
+			title: "Mis-Bee-Having"
+			x: 4.5d
+			y: 5.0d
+			subtitle: "Get Ender Comb"
+			description: [
+				"Oddly, the only way to bring the Ghostly Bee back to life is to infuse it with even more soul."
+				""
+				"This results in the &bEnder Bee&r, which &6keeps escaping my Bee room&r! I'll have to modify the Hive to prevent this."
+			]
+			dependencies: ["04FA6C9E6E9B6F21"]
+			id: "3158D1E94F372613"
+			tasks: [{
+				id: "4C2E66FF2908B293"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:ender"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1B88DAB7AF1EFF3C"
+				type: "item"
+				item: "productivebees:upgrade_anti_teleport"
+			}]
+		}
+		{
+			title: "Put A Ring On It"
+			x: 4.5d
+			y: 6.5d
+			subtitle: "Get Diamond Comb"
+			description: ["From Ender Bees, I've managed to breed &bDiamond Bees&r!"]
+			dependencies: ["3158D1E94F372613"]
+			id: "048A2EFCD2F57B26"
+			tasks: [{
+				id: "5054F246F9E87C16"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:diamond"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "65D13A7AD79DD946"
+				type: "item"
+				item: "minecraft:diamond_block"
+			}]
+		}
+		{
+			title: "Bee Wise"
+			x: 6.0d
+			y: 6.5d
+			subtitle: "Get Ancient Comb"
+			description: ["Finally, from the Diamond Bee, I've created the &bAncient Bee&r."]
+			dependencies: ["048A2EFCD2F57B26"]
+			id: "610060B3BC5380DF"
+			tasks: [{
+				id: "18AED21B49F717A8"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:netherite"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0E40FE3BBB634978"
+					type: "item"
+					item: "storagedrawers:warped_full_drawers_1"
+					count: 4
+				}
+				{
+					id: "7914FA394B417077"
+					type: "item"
+					item: "storagedrawers:void_upgrade"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Withering Heights"
+			x: 7.5d
+			y: 3.5d
+			subtitle: "Get Withered Comb"
+			description: [
+				"Corrupting the Skeletal Bee even further resulted in the &bWithering Bee&r."
+				""
+				"Unfortunately, it only makes Wither Skulls and not Nether Stars."
+			]
+			dependencies: ["6EA3E99BF1934AD4"]
+			id: "552B29EB2AD6A149"
+			tasks: [{
+				id: "124C67C5AA5C8738"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:withered"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7A7B78E7C9917F7E"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
+		}
+		{
+			title: "Hot Stuff, Coming Through"
+			x: 4.5d
+			y: 2.0d
+			subtitle: "Get Magmatic Comb"
+			description: [
+				"In an experiment to re-embody the Ghostly Bee, I've made the &bMagmatic Bee&r."
+				""
+				"Its Combs make &6Magma Cream&r."
+			]
+			dependencies: ["04FA6C9E6E9B6F21"]
+			id: "5731DC468B820B3C"
+			tasks: [{
+				id: "3233A0294D9F7DC6"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:magmatic"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "38B56221F2B860F3"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "28E1BA2AD632A278"
+					type: "item"
+					item: "minecraft:experience_bottle"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Arm Pet"
+			icon: "minecraft:crying_obsidian"
+			x: -1.5d
+			y: 3.5d
+			subtitle: "Make a Sweat Bee"
+			description: ["When a Nomad Bee is fed &bCrying Obsidian&r, its body temperature rapidly drops, converting into a &bSweat Bee&r."]
+			dependencies: ["3874307556D72539"]
+			id: "2D6DAE3B68710E72"
+			tasks: [{
+				id: "4CC80C47EB366F4D"
+				type: "item"
+				item: "minecraft:crying_obsidian"
+			}]
+			rewards: [{
+				id: "29EDC2D5A9E56E5F"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+		}
+		{
+			title: "Frizzbee"
+			x: -3.0d
+			y: 3.5d
+			subtitle: "Get Frosty Comb"
+			description: [
+				"By lowering the Sweat Bee's temperature even further, I can create &bFrosty Bees!"
+				""
+				"To get my first bits of Snow, I could &6summong a Snow Golem&r."
+			]
+			dependencies: ["2D6DAE3B68710E72"]
+			id: "3CFE70276BEA391A"
+			tasks: [{
+				id: "2D338BBB2D4EDB42"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:frosty"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "06BE400EA2CC7726"
+				type: "item"
+				item: "thermal:blizz_powder"
+				count: 4
+			}]
+		}
+		{
+			title: "No Cell Service"
+			icon: "hexerei:sage"
+			x: 0.0d
+			y: 3.5d
+			subtitle: "Convert a Bee into a Nomad Bee"
+			description: ["When fed with &bDried Sage&r, normal Bees will &6transmute into Nomad Bees&r."]
+			dependencies: ["6E63506CA6262292"]
+			id: "3874307556D72539"
+			tasks: [{
+				id: "2BAD0D8CC22169D3"
+				type: "item"
+				item: "hexerei:dried_sage"
+			}]
+			rewards: [{
+				id: "7E825BA42E5E75CD"
+				type: "item"
+				item: "productivebees:bee_cage"
+				count: 8
+			}]
+		}
+		{
+			title: "Hive Improvement"
+			icon: "productivebees:advanced_warped_beehive"
+			x: 1.5d
+			y: -4.0d
+			subtitle: "Make an Advanced Beehive"
+			description: [
+				"These &bAdvanced Beehives&r are much better for my purposes."
+				""
+				"Unlike normal ones, I &6can open these&r to retrieve their contents."
+				""
+				"Special Bees need special houses. They &cwon't produce resource Combs otherwise&r."
+			]
+			dependencies: ["2AE6B601E81DF243"]
+			hide: true
+			min_width: 225
+			id: "66FD735570C5960E"
+			tasks: [{
+				id: "6FE0C0DA5D26D5AC"
+				type: "item"
+				title: "Advanced Beehives"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "advanced.*beehive"
+					}
+				}
+			}]
+			rewards: [{
+				id: "73CCCB1E780E41C9"
+				type: "item"
+				item: "productivebees:expansion_box_warped"
+			}]
+		}
+		{
+			title: "Rock Candy"
+			x: 4.5d
+			y: -2.5d
+			subtitle: "Get Crystalline Comb"
+			description: [
+				"One of the first Bees I'll have to make is the &bCrystalline Bee&r."
+				""
+				"As it is created by mutating a Bee with a &6Block of Quartz&r, its &bCrystalline Combs&r create Nether Quartz."
+				""
+				"&oSome resource bees don't pollinate with flowers, but with the resource block. An Iron Bee won't make Iron Combs if it can't access an Iron Block, etc."
+			]
+			dependencies: ["6E63506CA6262292"]
+			min_width: 225
+			id: "10361F5EB98FF639"
+			tasks: [{
+				id: "5D1C0C16C14E3CEE"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:crystalline"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "54638C3ADB090FED"
+				type: "item"
+				item: "minecraft:quartz_block"
+			}]
+		}
+		{
+			title: "No More Digging"
+			icon: "thermal:satchel"
+			x: 1.5d
+			y: 1.0d
+			subtitle: "Resource Bees"
+			description: [
+				"Tending to my Colony has taken up the majority of my focus. I simply &cdon't have time to hunt for resources&r."
+				""
+				"Maybe I can &bget my Bees to produce them instead&r?"
+				""
+				"&oSome bees only produce Combs if they pollinate on a specific block. See the Bee's uses in JEI"
+			]
+			dependencies: ["3F36E50C28A504B6"]
+			hide: true
+			id: "6E63506CA6262292"
+			tasks: [{
+				id: "48DCE9D1724661C0"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "00E1E8AC9A30C4D3"
+				type: "item"
+				item: {
+					id: "productivebees:bee_nest_diamond_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "&o:clay::interrobang::interrobang:"
+			x: 6.0d
+			y: -2.5d
+			subtitle: "Get Clay Comb"
+			description: [
+				"Clay cannot be found in this environment, but I can make some myself with &6Blood Magic&r (or my minions can after some research)."
+				""
+				"&bClay bees&r make &bClay Combs&r which make &bClay&r."
+			]
+			dependencies: [
+				"0BEBDF5D45C3425F"
+				"10361F5EB98FF639"
+			]
+			id: "192BD908D0490280"
+			tasks: [{
+				id: "3692C5C2610E603A"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:clay"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1EF585A66200CB88"
+				type: "item"
+				item: "minecraft:clay"
+			}]
+		}
+		{
+			title: "Arachnophobia"
+			x: 7.5d
+			y: -2.5d
+			subtitle: "Get Silky Comb"
+			description: [
+				"Finally, I've eliminated the need for me to interact with the Spiders here."
+				""
+				"Instead, I can get my &6String&r from &bSilky Bees&r!"
+			]
+			dependencies: ["192BD908D0490280"]
+			dependency_requirement: "one_started"
+			id: "622206CE0122427F"
+			tasks: [{
+				id: "00350F412F7C42ED"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:silky"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "19A0D2F4F11DE3F0"
+					type: "item"
+					item: "apotheosis:prismatic_web"
+				}
+				{
+					id: "7BB13809782C1D99"
+					type: "item"
+					item: "biomesoplenty:spider_egg"
+				}
+			]
+		}
+		{
+			title: "Glitter Bug"
+			x: 4.5d
+			y: -4.0d
+			subtitle: "Get Glowing Comb"
+			description: ["The Crystalline Bee can be mutated with &6Glowstone&r to create the &bGlowing Bee&r."]
+			dependencies: ["10361F5EB98FF639"]
+			id: "6AE4F0562D208882"
+			tasks: [{
+				id: "6AE98E3833C3D53E"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:glowing"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "29FD1A39500727A3"
+					type: "item"
+					item: "productivebees:advanced_warped_beehive"
+				}
+				{
+					id: "5013C20019A75408"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "BeeDazzled"
+			x: 6.0d
+			y: -4.0d
+			subtitle: "Get Redstone Comb"
+			description: ["The &bRedstone Bee&r makes &bRedstone Combs&r."]
+			dependencies: ["6AE4F0562D208882"]
+			id: "3B62443251DC29C5"
+			tasks: [{
+				id: "2DBC3C5349678E75"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:redstone"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "05ADB5F3D5CCC17D"
+					type: "item"
+					item: "productivebees:expansion_box_warped"
+				}
+				{
+					id: "1B21B9BD63C7C82C"
+					type: "item"
+					item: "productivebees:upgrade_breeding"
+				}
+			]
+		}
+		{
+			title: "The Birds and Bees, Sans Birds"
+			icon: "productivebees:catcher"
+			x: 0.0d
+			y: 1.0d
+			subtitle: "Make a Catcher"
+			description: [
+				"I'll &6need a large amount of Bees&r to experiment on. I'll have to start breeding them."
+				""
+				"The &bCatcher&r will catch Bees into &bBee Cages&r, if they get close enough. They can be &6lured with a flower&r planted on top."
+			]
+			dependencies: [
+				"6E63506CA6262292"
+				"323F12FEB98B4F62"
+			]
+			hide: true
+			id: "469639932B6829F8"
+			tasks: [
+				{
+					id: "6087ACFDFA7BB7A9"
+					type: "item"
+					item: "productivebees:catcher"
+				}
+				{
+					id: "522F12536412622C"
+					type: "item"
+					item: "productivebees:bee_cage"
+				}
+			]
+			rewards: [{
+				id: "0B7017598C552223"
+				type: "item"
+				item: "productivebees:upgrade_breeding"
+			}]
+		}
+		{
+			title: "I've Pollen In Love"
+			x: 1.5d
+			y: -5.5d
+			subtitle: "Make a Feeding Slab"
+			description: ["Certain bees may &6require feeding&r. This can be done by placing the feeding items into the &bFeeding Slab&r."]
+			dependencies: ["66FD735570C5960E"]
+			hide: true
+			id: "632BA587721B96BD"
+			tasks: [{
+				id: "74F3FF9553DCBB20"
+				type: "item"
+				item: "productivebees:feeder"
+			}]
+			rewards: [{
+				id: "6ED6209EEAB2E8CD"
+				type: "item"
+				item: "productivebees:advanced_warped_beehive"
+			}]
+		}
+		{
+			title: "Heavy Metal"
+			icon: {
+				id: "productivebees:configurable_honeycomb"
+				Count: 1b
+				tag: {
+					EntityTag: {
+						type: "productivebees:copper"
+					}
+				}
+			}
+			x: 4.5d
+			y: -1.0d
+			subtitle: "Get Iron, Copper, and Tin Combs"
+			description: [
+				"Lazy minions need things like &osleep&r and &ofood&r, and won't mine without those."
+				""
+				"Bees do not have this problem. I've managed to crossbreed bees that produce &bIron, Copper, and Tin Combs&r."
+			]
+			dependencies: ["10361F5EB98FF639"]
+			min_width: 225
+			id: "745ADB94CC001843"
+			tasks: [
+				{
+					id: "3D9BAAFCC7BAA06E"
+					type: "item"
+					item: {
+						id: "productivebees:configurable_honeycomb"
+						Count: 1b
+						tag: {
+							EntityTag: {
+								type: "productivebees:iron"
+							}
+						}
+					}
+				}
+				{
+					id: "4E847DB31E9CFF9B"
+					type: "item"
+					item: {
+						id: "productivebees:configurable_honeycomb"
+						Count: 1b
+						tag: {
+							EntityTag: {
+								type: "productivebees:copper"
+							}
+						}
+					}
+				}
+				{
+					id: "0E8AE170FF431412"
+					type: "item"
+					item: {
+						id: "productivebees:configurable_honeycomb"
+						Count: 1b
+						tag: {
+							EntityTag: {
+								type: "productivebees:tin"
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6FC89CBB1BF88F42"
+					type: "item"
+					item: "storagedrawers:warped_full_drawers_1"
+					count: 4
+				}
+				{
+					id: "18F935DB910178C8"
+					type: "item"
+					item: "storagedrawers:void_upgrade"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Capitalism"
+			icon: "reliquary:fortune_coin"
+			x: 6.0d
+			y: -1.0d
+			subtitle: "Get Gold and Silver Combs"
+			description: [
+				"I've bred Bees that produce &bGold and Silver Combs&r!"
+				""
+				"I'd be &nrich&r if I wasn't stuck in this hellscape."
+			]
+			dependencies: ["745ADB94CC001843"]
+			id: "6830F71EA658A539"
+			tasks: [
+				{
+					id: "4D701F20CC3645D0"
+					type: "item"
+					title: "Gold Comb"
+					item: {
+						id: "productivebees:configurable_honeycomb"
+						Count: 1b
+						tag: {
+							EntityTag: {
+								type: "productivebees:gold"
+							}
+						}
+					}
+				}
+				{
+					id: "5FF2A784D03251F2"
+					type: "item"
+					title: "Silver Comb"
+					item: {
+						id: "productivebees:configurable_honeycomb"
+						Count: 1b
+						tag: {
+							EntityTag: {
+								type: "productivebees:silver"
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3A94FF9E47F28DBD"
+					type: "item"
+					item: {
+						id: "productivebees:configurable_comb"
+						Count: 1b
+						tag: {
+							EntityTag: {
+								type: "productivebees:electrum"
+							}
+						}
+					}
+				}
+				{
+					id: "654B53945CC052BF"
+					type: "item"
+					item: "thermal:gold_coin"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "Are You Ready To Gem....."
+			icon: {
+				id: "productivebees:configurable_honeycomb"
+				Count: 1b
+				tag: {
+					EntityTag: {
+						type: "productivebees:diamond"
+					}
+				}
+			}
+			x: 3.0d
+			y: 6.5d
+			subtitle: "To The Music?"
+			description: ["These jewel-encrusted buzzy buddies work much faster than any mining minion to produce precious stones not found here in the hellscape."]
+			dependencies: [
+				"048A2EFCD2F57B26"
+				"62AE8C9FDBAF16D1"
+			]
+			id: "1E780A04F5801191"
+			tasks: [{
+				id: "65648890C6597E9C"
+				type: "item"
+				title: "Combs"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "productivebees:configurable_honeycomb"
+								Count: 1b
+								tag: {
+									EntityTag: {
+										type: "productivebees:emerald"
+									}
+								}
+							}
+							{
+								id: "productivebees:configurable_honeycomb"
+								Count: 1b
+								tag: {
+									EntityTag: {
+										type: "productivebees:amethyst"
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2033EA8434A1A9C3"
+					type: "item"
+					item: "productivebees:sturdy_bee_cage"
+				}
+				{
+					id: "77BD5BF80A4C110C"
+					type: "item"
+					item: "minecraft:emerald_block"
+				}
+			]
+		}
+		{
+			title: "Jellies and Jam"
+			icon: {
+				id: "productivebees:configurable_honeycomb"
+				Count: 1b
+				tag: {
+					EntityTag: {
+						type: "productivebees:slimy"
+					}
+				}
+			}
+			x: 3.0d
+			y: 3.5d
+			subtitle: "Get Slimy Comb"
+			description: [
+				"Using Reed Bees as a base, I can make 4 kinds of &bSlimy Bee&r."
+				""
+				"Spawned with an Egg, their &bCombs&r can make the 4 varieties of Slime."
+			]
+			dependencies: ["4C9C45971DFE037E"]
+			id: "62AE8C9FDBAF16D1"
+			tasks: [
+				{
+					id: "5F5151E36DCC0484"
+					type: "item"
+					title: "Slimy Combs"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "productivebees:configurable_honeycomb"
+									Count: 1b
+									tag: {
+										EntityTag: {
+											type: "productivebees:slimy"
+										}
+									}
+								}
+								{
+									id: "productivebees:configurable_honeycomb"
+									Count: 1b
+									tag: {
+										EntityTag: {
+											type: "productivebees:ender_slimy"
+										}
+									}
+								}
+								{
+									id: "productivebees:configurable_honeycomb"
+									Count: 1b
+									tag: {
+										EntityTag: {
+											type: "productivebees:sky_slimy"
+										}
+									}
+								}
+								{
+									id: "productivebees:configurable_honeycomb"
+									Count: 1b
+									tag: {
+										EntityTag: {
+											type: "productivebees:ichor_slimy"
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "598511BA9DBA0A9C"
+					type: "item"
+					title: "Slimy Bee Spawn Eggs"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "productivebees:spawn_egg_configurable_bee"
+									Count: 1b
+									tag: {
+										EntityTag: {
+											type: "productivebees:ender_slimy"
+										}
+									}
+								}
+								{
+									id: "productivebees:spawn_egg_configurable_bee"
+									Count: 1b
+									tag: {
+										EntityTag: {
+											type: "productivebees:slimy"
+										}
+									}
+								}
+								{
+									id: "productivebees:spawn_egg_configurable_bee"
+									Count: 1b
+									tag: {
+										EntityTag: {
+											type: "productivebees:sky_slimy"
+										}
+									}
+								}
+								{
+									id: "productivebees:spawn_egg_configurable_bee"
+									Count: 1b
+									tag: {
+										EntityTag: {
+											type: "productivebees:ichor_slimy"
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "41735C6F9DF6610E"
+					type: "item"
+					item: "productivebees:advanced_warped_beehive"
+				}
+				{
+					id: "1914B7504333C496"
+					type: "item"
+					item: "productivebees:expansion_box_warped"
+				}
+			]
+		}
+		{
+			title: "BeeDeviled Eggs"
+			x: 1.5d
+			y: 3.5d
+			subtitle: "Make a Reed Bee Spawn Egg"
+			description: [
+				"Not all species of Bee require mutating or breeding existing ones. Instead, I can &6make entirely new species from scratch&r."
+				""
+				"Various species must be spawned from &bSpawn Eggs&r, such as the &bReed Bee&r."
+			]
+			dependencies: ["6E63506CA6262292"]
+			id: "4C9C45971DFE037E"
+			tasks: [{
+				id: "0E28B0C31FB14826"
+				type: "item"
+				item: "productivebees:spawn_egg_reed_bee"
+			}]
+			rewards: [
+				{
+					id: "3D066CFC958931EF"
+					type: "item"
+					item: "productivebees:spawn_egg_reed_bee"
+				}
+				{
+					id: "1C1194CE9CDECB81"
+					type: "item"
+					item: "productivebees:sturdy_bee_cage"
+				}
+			]
+		}
+		{
+			title: "Liquid Gold"
+			x: 0.0d
+			y: -0.5d
+			subtitle: "Make a Bottler"
+			description: ["Placing the &bBottler&r adjacent to the Centrifuge will allow me to &6collect the liquid Honey into bottles&r."]
+			dependencies: ["3F36E50C28A504B6"]
+			hide: true
+			id: "323F12FEB98B4F62"
+			tasks: [{
+				id: "280458FFEB1E415D"
+				type: "item"
+				item: "productivebees:bottler"
+			}]
+			rewards: [
+				{
+					id: "70936CF24435D81D"
+					type: "item"
+					item: "ppfluids:low_fluid_retrieval_module"
+					count: 4
+				}
+				{
+					id: "711B58CDD6441E19"
+					type: "item"
+					item: "ppfluids:fluid_pipe"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Barking Up The Right Tree"
+			icon: {
+				id: "productivebees:wood_chip"
+				Count: 1b
+				tag: {
+					productivebees_woodtype: "minecraft:oak_log"
+				}
+			}
+			x: 1.5d
+			y: 5.0d
+			subtitle: "Get Wood Chips"
+			description: [
+				"Reed Bees can be mutated into two types of &6Carpenter Bees&r which, when crossbred, create &bLumber Bees&r."
+				""
+				"Lumber bees will &6feed off nearby Logs&r, producing &bWood Chips&r when they return to the Hive. I can also place them in a &6Feeding Slab&r."
+				""
+				"9 Wood Chips make a Log. I can install the &6Upgrade: Block&r into the Hive, and the Bee will produce the Log instead of Chips!"
+			]
+			dependencies: ["4C9C45971DFE037E"]
+			min_width: 275
+			id: "64CA3703D28A7E44"
+			tasks: [{
+				id: "3D175411AD790565"
+				type: "item"
+				title: "Wood Chips"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "prod.*wood_chip"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "55D33524756F2A12"
+					type: "item"
+					item: "productivebees:advanced_warped_beehive"
+				}
+				{
+					id: "3E9C388732E7219D"
+					type: "item"
+					item: "productivebees:upgrade_comb_block"
+				}
+			]
+		}
+		{
+			title: "Taken for Granite"
+			icon: {
+				id: "productivebees:stone_chip"
+				Count: 1b
+				tag: {
+					productivebees_woodtype: "minecraft:andesite"
+				}
+			}
+			x: 1.5d
+			y: 6.5d
+			subtitle: "Don't Take Me For Granite"
+			description: [
+				"Crossbreeding the &6Digger Bee&r with the &6Chocolate Mining Bee&r produces the &bQuarry Bee&r!"
+				""
+				"Like the Lumber Bee, it generates &bChips&r from nearby Stone/Dirt/Gravel/etc-like blocks nearby."
+			]
+			dependencies: ["6E63506CA6262292"]
+			id: "42DF558E9F1D033B"
+			tasks: [{
+				id: "37E7B72F558E33B4"
+				type: "item"
+				title: "Stone/Dirt Chips"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "stone_chip"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "57017B6CA2BC5E77"
+					type: "item"
+					item: "storagedrawers:warped_full_drawers_1"
+					count: 4
+				}
+				{
+					id: "654ED913117E3F6D"
+					type: "item"
+					item: "storagedrawers:void_upgrade"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Silicomb Valley"
+			x: 7.5d
+			y: 5.0d
+			subtitle: "Get Silicon Comb"
+			description: ["While I'm delegating, I might as well automate &bSilicon&r as well."]
+			dependencies: [
+				"4C35566F7A3F95BE"
+				"3E392F9CDDC08B3E"
+			]
+			id: "5A5AA71C6F4E2C36"
+			tasks: [{
+				id: "0D850AEB2A2C8B49"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:silicon"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00CFBE9D5285461B"
+					type: "item"
+					item: "storagedrawers:warped_full_drawers_1"
+					count: 4
+				}
+				{
+					id: "73DFDBF62B605C94"
+					type: "item"
+					item: "storagedrawers:void_upgrade"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "May The Certus Quartz Bee With You"
+			x: 6.0d
+			y: 5.0d
+			subtitle: "Get Spatial Comb"
+			description: [
+				"Making &6Certus Quartz&r in the Mixing Cauldron is much too laborious."
+				""
+				"The &bSpatial Bee&r will create &6Certus Quartz Seeds&r for me to grow."
+			]
+			dependencies: [
+				"3158D1E94F372613"
+				"4C35566F7A3F95BE"
+			]
+			id: "3E392F9CDDC08B3E"
+			tasks: [{
+				id: "1366C9518740D334"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:spacial"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "51952D2553AAC2A0"
+				type: "item"
+				item: "ae2:quartz_block"
+			}]
+		}
+		{
+			title: "Digital Age"
+			x: 9.0d
+			y: 5.0d
+			subtitle: "Get Fluix Comb"
+			description: ["While my normal Bees can only produce items from the natural world, my &bFluix Bee&r can create highly advanced technology!"]
+			dependencies: ["5A5AA71C6F4E2C36"]
+			id: "5F792A2629A744EA"
+			tasks: [{
+				id: "38C60C048BA15766"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:fluix"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "29F824BDE46E4D49"
+					type: "item"
+					item: "ae2:fluix_smart_cable"
+					count: 32
+				}
+				{
+					id: "7E999CA57C620906"
+					type: "item"
+					item: "ae2:quartz_fiber"
+					count: 27
+				}
+			]
+		}
+		{
+			title: "It's Getting Hot In Here"
+			x: 0.0d
+			y: 5.0d
+			subtitle: "Get Blazing Comb"
+			description: [
+				"When Nomad Bees are &6bred with Magmatic Bees&r, it results in a &bBlazing Bee&r."
+				""
+				"Their &bBlazing Combs&r are highly useful as they &6create Blaze Powder&r!"
+			]
+			dependencies: ["3874307556D72539"]
+			id: "0F9D9709FCF34D04"
+			tasks: [{
+				id: "586D6CE12E0161B5"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:blazing"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7DF168337D772EE5"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
+		}
+		{
+			title: "Fruits Of A Volcanic Passion"
+			x: -1.5d
+			y: 5.0d
+			subtitle: "Get Obsidian Comb"
+			description: [
+				"It's not only the Nomads that are vying for the &6Magmatic Bees'&r affections."
+				""
+				"When bred with Sweat Bees, the resulting offspring generates &bObsidian Comb&r."
+			]
+			dependencies: ["2D6DAE3B68710E72"]
+			id: "0AA93EDE5993F0C8"
+			tasks: [{
+				id: "310DB3F422A4D092"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:obsidian"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "549C87946A6C9520"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 8
+			}]
+		}
+		{
+			title: "Productivibee"
+			x: -1.5d
+			y: -5.0d
+			subtitle: "Make the Upgrade: Productivity"
+			description: ["The &bUpgrade: Productivity&r will &6more than double the Comb output&r of my bees! I can even install multiple!"]
+			dependencies: ["15800C5913A3F4E4"]
+			id: "19900AFE2EF00451"
+			tasks: [{
+				id: "450FD045CC841388"
+				type: "item"
+				item: "productivebees:upgrade_productivity"
+			}]
+		}
+		{
+			title: "Babee Monitor"
+			icon: "productivebees:upgrade_breeding"
+			x: -4.5d
+			y: -3.0d
+			subtitle: "Make the BaBee Upgrades"
+			description: [
+				"The &bUpgrade: BaBee&r, when installed in Hives, will provide a chance of &6automatically breeding bees&r."
+				""
+				"When installed in a Catcher, it will only catch baby Bees. The &bnot BaBee&r upgrade does the opposite."
+			]
+			dependencies: ["15800C5913A3F4E4"]
+			id: "648318651A33AAE2"
+			tasks: [
+				{
+					id: "7BA7991726A9FAAD"
+					type: "item"
+					item: "productivebees:upgrade_breeding"
+				}
+				{
+					id: "7EEB90C3D74ED992"
+					type: "item"
+					item: "productivebees:upgrade_not_babee"
+				}
+			]
+		}
+		{
+			title: "I Hive The Need, the Need for Speed"
+			x: -3.0d
+			y: -5.5d
+			subtitle: "Make the Upgrade: Speed"
+			description: ["The &bUpgrade: Speed&r will &6make machines faster&r, and make it so my bees &6spend less time in the hive, and more time pollinating&r."]
+			dependencies: ["15800C5913A3F4E4"]
+			id: "5981704F0FCD6A02"
+			tasks: [{
+				id: "137D5D87EEABD4FB"
+				type: "item"
+				item: "productivebees:upgrade_time"
+			}]
+		}
+		{
+			title: "The Electric Stork"
+			icon: "productivebees:incubator"
+			x: -1.5d
+			y: 1.0d
+			subtitle: "Make a BaBee Incubator"
+			description: ["The &bBaBee Incubator&r can &6rapidly age baby Bees&r, requiring FE and Honey Treats."]
+			dependencies: ["469639932B6829F8"]
+			hide: true
+			id: "00BBF38C1B05725F"
+			tasks: [{
+				id: "7389E3A07F75051F"
+				type: "item"
+				item: "productivebees:incubator"
+			}]
+			rewards: [
+				{
+					id: "0D30B96110B67D3B"
+					type: "item"
+					item: "immersiveengineering:connector_mv"
+					count: 4
+				}
+				{
+					id: "0D7150A4AE59ECE0"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Bee Positive"
+			icon: {
+				id: "productivebees:configurable_honeycomb"
+				Count: 1b
+				tag: {
+					EntityTag: {
+						type: "productivebees:bloody"
+					}
+				}
+			}
+			x: 4.5d
+			y: 0.5d
+			subtitle: "Get Bloody Comb"
+			description: [
+				"You can more than Honey from a Bee, &4if you squeeze hard enough&r."
+				""
+				"The &bBloody Bee&r is a purely artificial species, containing no actual BNA. Instead, its Spawn Egg is created in the &6Blood Altar&r."
+			]
+			dependencies: ["6E63506CA6262292"]
+			id: "46B7955728697790"
+			tasks: [
+				{
+					id: "2208E62D54CF96CF"
+					type: "item"
+					title: "Bloody Comb"
+					item: {
+						id: "productivebees:configurable_honeycomb"
+						Count: 1b
+						tag: {
+							EntityTag: {
+								type: "productivebees:bloody"
+							}
+						}
+					}
+				}
+				{
+					id: "51211DE374F30A0E"
+					type: "item"
+					item: {
+						id: "productivebees:spawn_egg_configurable_bee"
+						Count: 1b
+						tag: {
+							EntityTag: {
+								type: "productivebees:bloody"
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "439BFD14A238E5C0"
+					type: "item"
+					item: "ppfluids:low_fluid_retrieval_module"
+					count: 4
+				}
+				{
+					id: "05DB8F0612ABC78A"
+					type: "item"
+					item: "ppfluids:fluid_pipe"
+					count: 8
+				}
+				{
+					id: "26717570ED082390"
+					type: "item"
+					item: "enderstorage:ender_tank"
+				}
+			]
+		}
+		{
+			title: "Vlady The Impaler"
+			icon: {
+				id: "productivebees:configurable_honeycomb"
+				Count: 1b
+				tag: {
+					EntityTag: {
+						type: "productivebees:hematophagous"
+					}
+				}
+			}
+			x: 6.0d
+			y: 0.5d
+			subtitle: "Get Hematophagous Comb"
+			description: [
+				"Blood is all well and good, very dramatic, but I need something more."
+				""
+				"The &bHematophagous Bee&r, created by soaking Ghostly Comb in &6Life Essence&r, creates an infinite supply of the stuff."
+			]
+			dependencies: ["46B7955728697790"]
+			id: "1D0CA163CC6700CF"
+			tasks: [
+				{
+					id: "3C62081295BCD3A8"
+					type: "item"
+					title: "Hematophagous Comb"
+					item: {
+						id: "productivebees:configurable_honeycomb"
+						Count: 1b
+						tag: {
+							EntityTag: {
+								type: "productivebees:hematophagous"
+							}
+						}
+					}
+				}
+				{
+					id: "6E2032E1EAA7040A"
+					type: "item"
+					item: {
+						id: "productivebees:spawn_egg_configurable_bee"
+						Count: 1b
+						tag: {
+							EntityTag: {
+								type: "productivebees:hematophagous"
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "71E79517415FA832"
+					type: "item"
+					item: "enderstorage:ender_tank"
+				}
+				{
+					id: "06240770A2FC056A"
+					type: "item"
+					item: "ppfluids:fluid_pipe"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Snobby Bee Nobility"
+			icon: "productivebees:upgrade_bee_sampler"
+			x: -3.0d
+			y: -2.0d
+			subtitle: "Make the Upgrade: Pokey pokey gene sampler"
+			description: ["The &bPokey Pokey Gene Sampler&r upgrade will &6collect Gene Samples&r every time a Bee enters the Hive."]
+			dependencies: ["15800C5913A3F4E4"]
+			id: "0CC9A01BE449B7FC"
+			tasks: [{
+				id: "0F9E62746494711A"
+				type: "item"
+				item: "productivebees:upgrade_bee_sampler"
+			}]
+		}
+		{
+			title: "Industrialization"
+			x: -1.5d
+			y: 2.25d
+			subtitle: "Make a Powered Centrifuge"
+			description: ["Once I have the power of, well, power, I can use it on the &bPowered Centrifuge&r."]
+			dependencies: ["00BBF38C1B05725F"]
+			hide: true
+			optional: true
+			id: "2DC08937BBDF12F0"
+			tasks: [{
+				id: "3A9BCF1D8FBB5430"
+				type: "item"
+				item: "productivebees:powered_centrifuge"
+			}]
+			rewards: [
+				{
+					id: "5EC9F67C683DCCAD"
+					type: "item"
+					item: "immersiveengineering:connector_mv"
+					count: 4
+				}
+				{
+					id: "18944562FE7D8F34"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Superior Bee Fortress"
+			icon: "productivebees:expansion_box_warped"
+			x: -3.0d
+			y: -4.0d
+			subtitle: "Make an Expansion Box"
+			description: [
+				"I can place an &bExpansion Box&r next to an Advanced Beehive to &6make it larger&r!"
+				""
+				"I can place it either on top of or next to the Hive, but I can only have one."
+				""
+				"With an Expansion Box installed, I can also &6install Upgrades&r!"
+			]
+			dependencies: ["66FD735570C5960E"]
+			hide: true
+			id: "15800C5913A3F4E4"
+			tasks: [{
+				id: "192D8094C7671418"
+				type: "item"
+				title: "Expansion Boxes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "productivebees:expansion_boxes"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1297B6D19D44ED51"
+				type: "item"
+				item: "productivebees:jar_oak"
+			}]
+		}
+		{
+			title: "Vitamin Bee 1"
+			icon: "productivebees:gene_bottle"
+			x: -1.5d
+			y: -0.5d
+			subtitle: "Squash a Bee"
+			description: [
+				"&6Every Bee is unique.&r Different bees have different attributes, which dictate how they bee-have."
+				""
+				"For a full list, see the Genetics chapter of the &6Big Book of Bees&r."
+				""
+				"In order to transfer attributes from one bee to another, I'll have to &6collect the Genes&r that control them."
+				""
+				"The first step to that is collecting... &bSmashed Bee Material&r. This is done with the following structure:"
+				"{image:inferno:textures/quest/bee_bottler.png width:100 height:100 align:1}"
+			]
+			dependencies: ["323F12FEB98B4F62"]
+			min_width: 275
+			id: "453C2804FF41CB29"
+			tasks: [{
+				id: "003083C8591D6CB5"
+				type: "item"
+				item: "productivebees:gene_bottle"
+			}]
+			rewards: [{
+				id: "4F67D97F38F7CEF6"
+				type: "item"
+				item: "minecraft:glass_bottle"
+				count: 16
+			}]
+		}
+		{
+			title: "Sim CiBee"
+			icon: "productivebees:upgrade_simulator"
+			x: -4.5d
+			y: -5.0d
+			subtitle: "Make the Upgrade: Simulator"
+			description: [
+				"The &bUpgrade: Simulator&r &6removes the need for Bees to leave&r the Hive."
+				""
+				"Instead of pollinating with flowers in the world, they take from a &bFeeding Slab&r."
+				""
+				"The Feeding Slab must be placed like so:"
+				"{image:inferno:textures/quest/bee_simulator.png width:100 height:100 align:1}"
+			]
+			dependencies: ["15800C5913A3F4E4"]
+			min_width: 225
+			id: "27059CEF47F6E98D"
+			tasks: [
+				{
+					id: "673178247CBD0374"
+					type: "item"
+					item: "productivebees:upgrade_simulator"
+				}
+				{
+					id: "622A3C6724A34895"
+					type: "item"
+					item: "productivebees:feeder"
+				}
+			]
+		}
+		{
+			title: "Vitamin Bee12"
+			icon: {
+				id: "productivebees:gene"
+				Count: 1b
+				tag: {
+					productivebees_gene_purity: 100
+					productivebees_gene_attribute: "productivity"
+					productivebees_gene_value: 0
+				}
+			}
+			x: -3.0d
+			y: -0.5d
+			subtitle: "Collect a Gene Sample"
+			description: [
+				"I can collect &bGene Samples&r either by &6centrifuging Sqashed Bee Material&r, or by using the &6Pokey Pokey Gene Sampler&r Upgrade."
+				""
+				"To transfer the collected Gene to a new Bee, I have to combine it with a &bHoney Treat&r and feed it to the Bee."
+				""
+				"The higher the Gene purity, the more likely the gene will be accepted. Purity can be increased by combining Samples of the same Gene in the &bGene Indexer&r."
+			]
+			min_required_dependencies: 1
+			dependencies: [
+				"0CC9A01BE449B7FC"
+				"453C2804FF41CB29"
+			]
+			id: "15A607BCF6730944"
+			tasks: [
+				{
+					id: "3766BFCF4A43004B"
+					type: "item"
+					item: "productivebees:honey_treat"
+				}
+				{
+					id: "7CDE4CBA38220328"
+					type: "item"
+					item: "productivebees:gene_indexer"
+				}
+			]
+			rewards: [{
+				id: "38D1A6CC87430B37"
+				type: "item"
+				item: "productivebees:honey_treat"
+				count: 16
+			}]
+		}
+		{
+			title: "Fly and Mighty"
+			icon: {
+				id: "productivebees:spawn_egg_configurable_bee"
+				Count: 1b
+				tag: {
+					EntityTag: {
+						type: "productivebees:experience"
+					}
+				}
+			}
+			x: -3.0d
+			y: 1.0d
+			subtitle: "Craft a Bee Spawn Egg"
+			description: ["The BaBee Incubator has a secondary function: &6combining Eggs with Genes&r to make &bSpawn Eggs&r."]
+			dependencies: [
+				"15A607BCF6730944"
+				"00BBF38C1B05725F"
+			]
+			id: "5663813CC7E3A75A"
+			tasks: [{
+				id: "58728291956D4211"
+				type: "item"
+				title: "Bee Spawn Eggs"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "prod.*spawn"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7771A3A562CF7F92"
+				type: "item"
+				item: {
+					id: "productivebees:gene"
+					Count: 1b
+					tag: {
+						productivebees_gene_purity: 100
+						productivebees_gene_attribute: "productivity"
+						productivebees_gene_value: 2
+					}
+				}
+			}]
+		}
+		{
+			title: "R G Bee"
+			x: 7.5d
+			y: -4.0d
+			subtitle: "Get Lapis Comb"
+			description: ["The &bLapis Bee&r makes &bLapis Combs&r."]
+			dependencies: ["3B62443251DC29C5"]
+			id: "5FBE7996AC78B7CD"
+			tasks: [{
+				id: "65AAEEA2ABF434C7"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:lapis"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "555D5A5C1647E8CF"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+				count: 4
+			}]
+		}
+	]
+}

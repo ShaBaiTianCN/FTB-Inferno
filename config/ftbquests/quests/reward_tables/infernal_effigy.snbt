@@ -1,0 +1,106 @@
+{
+	id: "38D3C82B9677B5C4"
+	order_index: 1
+	title: "Infernal Effigy"
+	icon: "tconstruct:blaze_head"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{
+			icon: "biomesoplenty:flesh"
+			item: {
+				id: "capsule:capsule"
+				Count: 1b
+				tag: {
+					yOffset: -1
+					RepairCost: 0
+					color: 0
+					isReward: 1b
+					author: "GennieLightdust"
+					oneUse: 1b
+					structureName: "config/capsule/rewards/bloodfountain.nbt"
+					display: {
+						color: 8388608
+						Name: "{\"text\":\"Blood Fountain Deployable Starter\"}"
+					}
+					label: "Bloodfountain.nbt"
+					size: 7
+					state: 5
+					canRotate: 1b
+				}
+			}
+		}
+		{
+			icon: "minecraft:warped_door"
+			item: {
+				id: "capsule:capsule"
+				Count: 1b
+				tag: {
+					yOffset: -1
+					RepairCost: 0
+					color: 0
+					isReward: 1b
+					author: "GennieLightdust"
+					oneUse: 1b
+					structureName: "config/capsule/rewards/cozycottage.nbt"
+					display: {
+						color: 8388608
+						Name: "{\"text\":\"Cozy Cottage Depoloyable Starter\"}"
+					}
+					label: "Cozycottage.nbt"
+					size: 9
+					state: 5
+					canRotate: 1b
+				}
+			}
+		}
+		{
+			icon: "minecraft:obsidian"
+			item: {
+				id: "capsule:capsule"
+				Count: 1b
+				tag: {
+					yOffset: -1
+					RepairCost: 0
+					color: 0
+					isReward: 1b
+					author: "GennieLightdust"
+					oneUse: 1b
+					structureName: "config/capsule/rewards/lavagrotto.nbt"
+					display: {
+						color: 8388608
+						Name: "{\"text\":\"Lava Grotto Deployable Starter\"}"
+					}
+					label: "Lavagrotto.nbt"
+					size: 17
+					state: 5
+					canRotate: 1b
+				}
+			}
+		}
+		{
+			icon: "tconstruct:piglin_head"
+			item: {
+				id: "capsule:capsule"
+				Count: 1b
+				tag: {
+					yOffset: -1
+					RepairCost: 0
+					color: 0
+					isReward: 1b
+					author: "GennieLightdust"
+					oneUse: 1b
+					structureName: "config/capsule/rewards/piglinobelisk.nbt"
+					display: {
+						color: 8388608
+						Name: "{\"text\":\"Piglin Obelisk Deployable Starter\"}"
+					}
+					label: "Piglinobelisk.nbt"
+					size: 7
+					state: 5
+					canRotate: 1b
+				}
+			}
+		}
+	]
+}

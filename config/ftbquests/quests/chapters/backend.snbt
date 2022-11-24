@@ -1,0 +1,294 @@
+{
+	id: "3D05294B85B6BBB7"
+	group: ""
+	order_index: 1
+	filename: "backend"
+	title: "Backend"
+	icon: "minecraft:command_block"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -2.5d
+			id: "4BE377FDD69C296A"
+			tasks: [{
+				id: "47F1669387EC3E8C"
+				type: "item"
+				item: "ftbquests:barrier"
+			}]
+		}
+		{
+			title: "Iron unlocked"
+			x: -4.0d
+			y: -1.0d
+			description: ["For tooltips"]
+			dependencies: [
+				"624DDC11A0969722"
+				"2CD5241DDDC9F473"
+			]
+			id: "0601B5A392721303"
+			tasks: [{
+				id: "0CDAD81A15BC68D4"
+				type: "stat"
+				stat: "minecraft:play_time"
+				value: 1
+			}]
+			rewards: [{
+				id: "25E2F9822377574E"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "iron_unlocked"
+			}]
+		}
+		{
+			title: "Bees unlocked"
+			x: -3.0d
+			y: -1.0d
+			description: ["For tooltips"]
+			dependencies: [
+				"6DF116C5D533A28D"
+				"4B52BBBF01CDF027"
+			]
+			id: "73FDEA3E4514CD2F"
+			tasks: [{
+				id: "1458262F01779030"
+				type: "stat"
+				stat: "minecraft:play_time"
+				value: 1
+			}]
+			rewards: [{
+				id: "656DEE4DEAE8854A"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "bees_unlocked"
+			}]
+		}
+		{
+			title: "Summon a Foliot task"
+			x: -4.5d
+			y: 0.0d
+			description: ["specifically checks if the TASK \"summon a foliot\" is completed, then completes the other task, as it isn't possible"]
+			dependencies: ["6B70D3FC43112609"]
+			id: "0164FBCDD69CB549"
+			tasks: [{
+				id: "34EF147737FFDA8B"
+				type: "stat"
+				stat: "minecraft:mob_kills"
+				value: 1
+			}]
+			rewards: [{
+				id: "594D8C3E3722D0FB"
+				type: "command"
+				auto: "invisible"
+				command: "/ftbquests change_progress @p complete 46B8D460892553D4"
+				player_command: false
+			}]
+		}
+		{
+			title: "observe a familiar task"
+			x: -3.5d
+			y: 0.0d
+			description: ["specifically checks if the TASK \"observe a familiar\" is completed, then completes the other task, as it isn't possible"]
+			dependencies: ["623CE6525A26D46F"]
+			id: "4D134821D6B0637F"
+			tasks: [{
+				id: "2CE31B46F213CDBC"
+				type: "stat"
+				stat: "minecraft:play_time"
+				value: 1
+			}]
+			rewards: [{
+				id: "7834F472959B3911"
+				type: "command"
+				command: "/ftbquests change_progress @p complete 3B7C0117B1778FA5"
+				player_command: false
+			}]
+		}
+		{
+			title: "Ars Unlocked"
+			x: -2.5d
+			y: 0.0d
+			dependencies: [
+				"00E0DB64568AA664"
+				"30BFD136F6B44257"
+				"0BEBDF5D45C3425F"
+			]
+			id: "3D34FD97B8DF3315"
+			tasks: [{
+				id: "4DB3431AD46DE593"
+				type: "stat"
+				stat: "minecraft:play_time"
+				value: 1
+			}]
+			rewards: [{
+				id: "541B609988D8AA7E"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "ars_unlocked"
+			}]
+		}
+		{
+			title: "Faustian Bargains Unlocked"
+			x: 0.0d
+			y: -1.0d
+			dependencies: [
+				"4B52BBBF01CDF027"
+				"6A7B93DC1ACE716B"
+				"00E0DB64568AA664"
+				"6AC1108487763770"
+			]
+			id: "0B4DA78891296860"
+			tasks: [{
+				id: "4FEEDA9FFE7526C7"
+				type: "stat"
+				stat: "minecraft:play_time"
+				value: 1
+			}]
+			rewards: [{
+				id: "42A5632B118240F5"
+				type: "command"
+				auto: "invisible"
+				command: "/tellraw @p [\"\",\"Unlocked the chapter\",{\"text\":\"Faustian Bargains \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Mephistopheles' Anger\",\"color\":\"dark_aqua\"},\"!\"]"
+				player_command: false
+			}]
+		}
+		{
+			title: "Spellcrafting 101 Unlocked"
+			x: 1.0d
+			y: -1.0d
+			dependencies: [
+				"30BFD136F6B44257"
+				"00E0DB64568AA664"
+			]
+			id: "45C56F9824B2EDA9"
+			tasks: [{
+				id: "675C20E6D37D62C3"
+				type: "stat"
+				stat: "minecraft:play_time"
+				value: 1
+			}]
+			rewards: [{
+				id: "2211254156522D72"
+				type: "command"
+				auto: "invisible"
+				command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Spellcrafting 101\",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Mephistopheles' Anger\",\"color\":\"dark_aqua\"},\"!\"]"
+				player_command: false
+			}]
+		}
+		{
+			title: "Kill Something"
+			x: -1.5d
+			y: 1.0d
+			id: "02DC6172CAC06ACB"
+			tasks: [{
+				id: "518610F7E9E7E506"
+				type: "stat"
+				stat: "minecraft:mob_kills"
+				value: 1
+			}]
+		}
+		{
+			icon: "apotheosis:salvage_table"
+			x: -0.5d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Make a Scrapping Table"
+			description: ["The &bScrapping Table&r will allow me to &6descontruct an Affix tool&r into &bRarity Material&r of the appropriate tier."]
+			hide_dependency_lines: true
+			dependencies: ["5257158F43E74A41"]
+			size: 0.5d
+			id: "4F485225659DC01F"
+			tasks: [
+				{
+					id: "261923BBFB1F8D41"
+					type: "item"
+					item: "apotheosis:salvage_table"
+				}
+				{
+					id: "5652117645B7E5AA"
+					type: "item"
+					title: "Rarity Material"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "apotheosis:common_material"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:uncommon_material"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:rare_material"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:epic_material"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:mythic_material"
+									Count: 1b
+								}
+								{
+									id: "apotheosis:ancient_material"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Make a Reforging Table"
+			description: [
+				"The &bReforging Table&r allows me to &6reroll the Affixes of an item&r."
+				""
+				"To do this, it needs some &6Gem Dust&r and 2 &6Rarity Material&r, as well as the item itself."
+				""
+				"Notably, I can &6reroll Affix-less items&r that I crafted myself!"
+			]
+			dependencies: [
+				"55F26C7FB4538F7E"
+				"4F485225659DC01F"
+			]
+			size: 0.5d
+			id: "50A7848F8BA9EEB0"
+			tasks: [{
+				id: "4E08FFF6178EB3D2"
+				type: "item"
+				item: "apotheosis:reforging_table"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Collect Gem Dust"
+			description: ["&bGem Dust&r can be gathered by &6dropping an Anvil on a Gem&r."]
+			dependencies: ["68AB2F7E06DE90A2"]
+			size: 0.5d
+			id: "55F26C7FB4538F7E"
+			tasks: [{
+				id: "0749CB660ADDC3DC"
+				type: "item"
+				item: "apotheosis:gem_dust"
+			}]
+			rewards: [{
+				id: "0DEFE82E956A8349"
+				type: "item"
+				item: "apotheosis:gem_dust"
+				count: 6
+			}]
+		}
+	]
+}

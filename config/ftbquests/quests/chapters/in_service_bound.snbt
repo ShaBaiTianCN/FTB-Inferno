@@ -1,0 +1,957 @@
+{
+	id: "0F241EE8C32A1881"
+	group: "3ABD0072BF4C3677"
+	order_index: 1
+	filename: "in_service_bound"
+	title: "In Service Bound"
+	icon: "minecolonies:blockhutbuilder"
+	subtitle: ["MineColonies autocrafting"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&nMine&rColonies"
+			x: -1.5d
+			y: -6.0d
+			shape: "hexagon"
+			subtitle: "Make a Mine"
+			description: [
+				"In these rocky depths are &6untold fortunes and raw materials&r for me to bend and warp to my design."
+				""
+				"I will put the next minion to digging and harvesting all this world has to offer. I will find one &6strong of back&r and &cweak of mind&r to toil unflinchingly amidst the terrors below."
+				""
+				"&bMiners&r will strip-mine, and have a chance of finding rare blocks."
+				""
+				"&oMiners may appear to be stuck standing still at the Mine block. This does not mean they aren't mining, checking their inventory, or looking for Couriers picking items up."
+			]
+			dependencies: ["2A6CCA72F1D483D9"]
+			size: 1.5d
+			min_width: 275
+			id: "649322FD11772894"
+			tasks: [{
+				id: "053F28D688EF756F"
+				type: "item"
+				item: "minecolonies:blockhutminer"
+			}]
+			rewards: [
+				{
+					id: "370B426F0C863F71"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "upgrades"
+						}
+					}
+				}
+				{
+					id: "0A6E8C56891745D2"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "abilities"
+						}
+					}
+				}
+				{
+					id: "773FEB19FC14D4DB"
+					type: "item"
+					item: "ars_nouveau:source_berry_pie"
+				}
+				{
+					id: "53FD00FE3DBC0F3B"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -8
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/mine.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Infernal Mine Capsule\"}"
+							}
+							label: "Mine.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Ex-What Now?"
+			x: 0.0d
+			y: -6.0d
+			subtitle: "Make a Sifter"
+			description: [
+				"At the &bSifter&r, a minion can process various soils through meshes to &6obtain plantlife&r that is otherwise unobtainable here."
+				""
+				"This flora will be the seeds from which I grow my future."
+			]
+			dependencies: [
+				"2A6CCA72F1D483D9"
+				"6FA2CE4C35ABE5F2"
+			]
+			id: "4E7B7D7283B9519C"
+			tasks: [{
+				id: "7D246C79A4E2D694"
+				type: "item"
+				item: "minecolonies:blockhutsifter"
+			}]
+			rewards: [
+				{
+					id: "4E4686777674FAA2"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/sifter.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Sifter Capsule\"}"
+							}
+							label: "Sifter.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+				{
+					id: "2AABC0920D2D68F0"
+					type: "item"
+					item: {
+						id: "minecolonies:sifter_mesh_string"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5D765096777A9985"
+					type: "item"
+					item: {
+						id: "minecolonies:sifter_mesh_flint"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "72B4233E29AD87EA"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 32
+				}
+				{
+					id: "0A0A73DC68B63816"
+					type: "item"
+					item: "minecraft:grass_block"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "Putting the Hammer Down"
+			x: -2.5d
+			y: -3.0d
+			subtitle: "Make a Blacksmith's Hut"
+			description: [
+				"A nice area where I can use fire and tools to bend metal towards my twisting machinations. Excellent."
+				""
+				"I've trained one of the more astute minions on the methodologies of forging, and the basics of metallurgy."
+				""
+				"With some training, they should be able to &6craft any metal products&r that the colony requires. With research I am certain I can train this particular minion to be even more useful."
+			]
+			dependencies: [
+				"2A6CCA72F1D483D9"
+				"6FA2CE4C35ABE5F2"
+			]
+			min_width: 250
+			id: "7A356984A81D5C82"
+			tasks: [{
+				id: "106E10EEAD01B49A"
+				type: "item"
+				item: "minecolonies:blockhutblacksmith"
+			}]
+			rewards: [
+				{
+					id: "20EAA70EA5A2A933"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/blacksmith.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Blacksmith Capsule\"}"
+							}
+							label: "Blacksmith.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+				{
+					id: "2D60E11D5ECC9190"
+					type: "item"
+					item: "minecraft:anvil"
+				}
+				{
+					id: "107FAEBCB8AC5F75"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				}
+				{
+					id: "6F719BD8DBAAEBF6"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "blacksmith_unlocked"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			subtitle: "Ore processing, my favorite."
+			description: [
+				"As the minions working the Mines bring back their bounty, I am faced with the need to process these resources."
+				""
+				"I've created the &bSmeltery&r to refine these resources. Couriers will bring ores on their own, where they will be smelted and returned to the Warehouse."
+				""
+				"I will have to assign a fuel source for them to use. With research, Smelters can &6quintuple ores&r, which is a rather high priority."
+			]
+			hide_dependency_lines: false
+			dependencies: [
+				"2A6CCA72F1D483D9"
+				"6FA2CE4C35ABE5F2"
+			]
+			min_width: 250
+			id: "72E6EEAAA33F5DF8"
+			tasks: [{
+				id: "44DBAF323B648816"
+				type: "item"
+				item: "minecolonies:blockhutsmeltery"
+			}]
+			rewards: [
+				{
+					id: "7555ECF21E2E8BAC"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/smeltery.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Smeltery Capsule\"}"
+							}
+							label: "Smeltery.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+				{
+					id: "410A3330AF2D776D"
+					type: "item"
+					item: "minecraft:gold_ore"
+					count: 4
+				}
+				{
+					id: "40845F188C8D1CF6"
+					type: "item"
+					item: "minecraft:iron_ore"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Shout It From the Mountaintops!"
+			x: -3.0d
+			y: -4.5d
+			subtitle: "Make a Sawmill"
+			description: [
+				"Wood products are used everywhere, getting those &6automated&r will be useful I am sure."
+				""
+				"At the &bSawmill&r, I can &6teach the Carpenter wood-based recipes&r. If another colonist requests those items, the Courier will bring the ingredients to the Carpenter, then bring the result to the Colonist that requested it."
+			]
+			dependencies: [
+				"46A72493AFD256CA"
+				"6FA2CE4C35ABE5F2"
+			]
+			min_width: 275
+			id: "075ECA0834831AEC"
+			tasks: [{
+				id: "708323DC55A0B4F2"
+				type: "item"
+				item: "minecolonies:blockhutsawmill"
+			}]
+			rewards: [
+				{
+					id: "416D337DA2817CB2"
+					type: "item"
+					item: "reliquary:shears_of_winter"
+				}
+				{
+					id: "21C839CD4C9DEA8E"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/sawmill.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Sawmill Capsule\"}"
+							}
+							label: "Sawmill.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Chop Chop!"
+			x: -3.0d
+			y: -6.0d
+			subtitle: "Make a Forester's Hut"
+			description: [
+				"Minions employed at the &bForester's Hut&r will &6harvest and replant trees&r near the Hut. Though they are &cslow&r, they are steady nonetheless."
+				""
+				"In the Options tab, \"Zoning\" can be enabled and the Forester will only work in a specific area. Get the &6Forest Tool&r from the Hut and use it to select the area."
+			]
+			dependencies: [
+				"075ECA0834831AEC"
+				"2A6CCA72F1D483D9"
+			]
+			min_width: 275
+			id: "4C71DA7E712B5FBB"
+			tasks: [{
+				id: "3AB225A1779E0798"
+				type: "item"
+				item: "minecolonies:blockhutlumberjack"
+			}]
+			rewards: [
+				{
+					id: "042A38D5E2E96257"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/forester.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Forester Capsule\"}"
+							}
+							label: "Forester.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+				{
+					id: "288A35599612E50F"
+					type: "item"
+					item: "hexerei:willow_sapling"
+				}
+				{
+					id: "718A67F250F3D2E2"
+					type: "item"
+					item: "biomesoplenty:rainbow_birch_sapling"
+				}
+				{
+					id: "62E0DAD436A789B4"
+					type: "item"
+					item: "biomesoplenty:maple_sapling"
+				}
+				{
+					id: "1A052AA5FE94B82F"
+					type: "item"
+					item: "biomesoplenty:fir_sapling"
+				}
+				{
+					id: "50913D1C79401E9B"
+					type: "item"
+					item: "biomesoplenty:jacaranda_sapling"
+				}
+				{
+					id: "77B6ADC6D5938FB9"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 25
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -7.5d
+			subtitle: "Make a Nether Mine"
+			description: [
+				"Under \"Technology\" in the University, I can unlock the &bNether Mine&r. Here, I can create an &6interdimensional portal&r to send a minion to a parallel world to obtain even more valuable resources."
+				""
+				"It is a perilous task however and &ctheir life expectancy will be low&r. I will keep this to myself for the sake of morale, but sacrifices must be made."
+				""
+				"This Requires at least 3 mines or a level 3 mine as well as a level 2 university with the nether mine technology researched."
+			]
+			dependencies: [
+				"649322FD11772894"
+				"11159BF1C52963EC"
+			]
+			min_width: 250
+			id: "329B21B5B0E5C8D0"
+			tasks: [{
+				id: "12846B6DDD0D0FA5"
+				type: "item"
+				item: "minecolonies:blockhutnetherworker"
+			}]
+			rewards: [
+				{
+					id: "2216EE93932D21D3"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -9
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/nethermine.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Nether Miner Capsule\"}"
+							}
+							label: "Nethermine.nbt"
+							size: 17
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+				{
+					id: "114AB5AA7A149E5C"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3BCBAADA25D14957"
+					type: "item"
+					item: "minecraft:netherrack"
+					count: 32
+				}
+				{
+					id: "3AEED414B046A9BA"
+					type: "item"
+					item: "nethersdelight:propelplant_torch"
+					count: 16
+				}
+				{
+					id: "423AC6E1DAADBF11"
+					type: "item"
+					item: "quark:crimson_ladder"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Dormum Dominion"
+			icon: "domum_ornamentum:architectscutter"
+			x: -4.5d
+			y: -4.5d
+			subtitle: "Dromowhowhatsit?"
+			description: [
+				"In my early years, I trained in a style of carpentry known as &eDormum Ornamentum&r. By constructing an &bArchitect's Cutter&r, I can bring some of my old home here."
+				""
+				"The minions seem to appreciate the enhanced aesthetics and I too find myself breathing a little easier with some of the comforts of home. "
+				""
+				"Unfortunately, you give them an inch and they take a mile, now some of the Minions have begun demanding some of my skilled work towards their buildings. I suppose I can provide for now, but I should &6teach my carpenter&r how to do most of these instead."
+				""
+				"&oTeach Cutter recipes to colonists in the \"Custom Recipes\" tab"
+				""
+				"&oFor the block in the quest, the first slot should be Warped Planks and the second should be Blackstone. In the middle, choose the one titled \"Double-Crossed\" to craft it."
+			]
+			dependencies: ["075ECA0834831AEC"]
+			min_width: 300
+			id: "6F53E067DC1C2C0C"
+			tasks: [
+				{
+					id: "0163EF18B96B5FFE"
+					type: "item"
+					item: "domum_ornamentum:architectscutter"
+				}
+				{
+					id: "29A5FC958E6AB531"
+					type: "item"
+					title: "Double-Crossed Framed Blocks"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "domum_ornamentum:double_crossed"
+									Count: 1b
+									tag: {
+										textureData: {
+											"minecraft:block/oak_planks": "minecraft:warped_planks"
+											"minecraft:block/dark_oak_planks": "minecraft:blackstone"
+										}
+									}
+								}
+								{
+									id: "domum_ornamentum:double_crossed"
+									Count: 1b
+									tag: {
+										textureData: {
+											"minecraft:block/oak_planks": "minecraft:warped_planks"
+											"minecraft:block/dark_oak_planks": "minecraft:warped_planks"
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1F80A680D6AFF752"
+					type: "item"
+					item: "minecraft:blackstone"
+					count: 64
+				}
+				{
+					id: "1E16E0BC83A28F48"
+					type: "item"
+					item: "minecraft:warped_planks"
+					count: 64
+				}
+				{
+					id: "5890DDAA6C008EBC"
+					type: "item"
+					item: "ars_nouveau:glyph_cut"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -6.0d
+			subtitle: "Make a Stonemason's Hut"
+			description: [
+				"Now that I have a Mine, I have plenty of raw materials."
+				""
+				"I can teach stone-based recipes at the &bStonemason's Hut&r, and the Stonemason will craft it when requested."
+			]
+			dependencies: [
+				"2A6CCA72F1D483D9"
+				"6FA2CE4C35ABE5F2"
+			]
+			min_width: 250
+			id: "287AF1577601FEA4"
+			tasks: [{
+				id: "69C2B9B8391CC253"
+				type: "item"
+				item: "minecolonies:blockhutstonemason"
+			}]
+			rewards: [
+				{
+					id: "70320EB22C20ECDC"
+					type: "random"
+					table_id: 4864474103053531672L
+				}
+				{
+					id: "28FB276A019E8034"
+					type: "item"
+					item: "minecraft:stone"
+					count: 8
+				}
+				{
+					id: "612F982DED24D467"
+					type: "item"
+					item: "minecraft:smooth_stone"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Hot or Not"
+			x: 0.0d
+			y: -3.0d
+			subtitle: "Make a Stone Smeltery"
+			description: [
+				"A &bStone Smelter&r will process stone-based materials."
+				""
+				"I'll need to specify the fuel that they will use, but I can also teach them to make Charcoal here. How convenient!"
+			]
+			dependencies: [
+				"2A6CCA72F1D483D9"
+				"6FA2CE4C35ABE5F2"
+			]
+			id: "3B290F54AF9E7F18"
+			tasks: [{
+				id: "2A278DD3F08ABF57"
+				type: "item"
+				item: "minecolonies:blockhutstonesmeltery"
+			}]
+			rewards: [{
+				id: "7A2A9C80FA023883"
+				type: "random"
+				table_id: 4864474103053531672L
+			}]
+		}
+		{
+			title: "Abracadabra"
+			x: 2.0d
+			y: -4.5d
+			shape: "hexagon"
+			subtitle: "Make an Enchanter's Tower"
+			description: [
+				"Minions working at the &bEnchanter's Tower&r can &6siphon experience from other Minions and enchant books&r."
+				""
+				"The minions to siphon from have to be specified. They also require &6Ancient Tomes&r to work."
+				""
+				"The Enchanter also has unique recipes for Scrolls, Enchanting Tables, and more. See the Tower's uses in JEI."
+				""
+				"&oUnlocks part of &5Sanguine Sting&r under &3Mephistopheles' Anger&r"
+			]
+			dependencies: [
+				"2A6CCA72F1D483D9"
+				"6FA2CE4C35ABE5F2"
+			]
+			min_width: 250
+			id: "4E4DCF7B00B213EC"
+			tasks: [{
+				id: "640DA0CBEE413DF9"
+				type: "item"
+				item: "minecolonies:blockhutenchanter"
+			}]
+			rewards: [
+				{
+					id: "1BCB324D97CBAC2F"
+					type: "loot"
+					table_id: 4864474103053531672L
+				}
+				{
+					id: "78B211EC79EBDE21"
+					type: "item"
+					item: "minecolonies:ancienttome"
+				}
+				{
+					id: "65FD0663D0BEDD53"
+					type: "item"
+					item: "minecraft:book"
+					count: 8
+				}
+				{
+					id: "424B3CA2BA7B8158"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "enchanting_unlocked"
+				}
+				{
+					id: "7F29853CC2937A3E"
+					type: "item"
+					item: "minecolonies:scroll_highlight"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "What is a Wizard Without a Tower?"
+			x: 3.5d
+			y: -4.5d
+			subtitle: "Make an Alchemist Tower"
+			description: [
+				"The &bAlchemist Tower&r will serve all my alchemical needs. I'll choose one of the &6smarter minions&r and teach them how to handle the various reagents and transmutations I'd otherwise have to do manually."
+				""
+				"Anything I can transmute with &6Spiritfire&r they should be able to do, as well as some more mundane activities. They can siphon Lava and collect it into Buckets, and can &6conjure Water&r to fill Bottles."
+				""
+				"I can also teach them to make potions to benefit myself and other minions."
+				""
+				"This structure requires a T3 university along with the technology research complete for the alchemist tower."
+			]
+			dependencies: ["4E4DCF7B00B213EC"]
+			min_width: 275
+			id: "79D0FE57C16F32B3"
+			tasks: [{
+				id: "0B40F1CEC6E4999C"
+				type: "item"
+				item: "minecolonies:blockhutalchemist"
+			}]
+			rewards: [
+				{
+					id: "269A8979EA45637E"
+					type: "loot"
+					table_id: 4864474103053531672L
+				}
+				{
+					id: "1D644F9F90B95A95"
+					type: "item"
+					item: {
+						id: "reliquary:lingering_potion"
+						Count: 1b
+						tag: {
+							effects: [{
+								duration: 500
+								name: "reliquary:cure"
+								potency: 3
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "A Shrine, to the Shine of Mine."
+			x: 2.0d
+			y: -3.0d
+			subtitle: "Make an Enchanting Table"
+			description: [
+				"With the &bEnchanting Table&r, I can greatly boost my weapon and armor far beyond their physical properties."
+				""
+				"This is &oreal magic&r, and the start of my ascent towards &eapotheosis&r."
+				""
+				"&oI can only craft them manually after a colonist makes one for me."
+			]
+			dependencies: ["4E4DCF7B00B213EC"]
+			id: "093D3A0F27C9C662"
+			tasks: [{
+				id: "6E4C47478D7FA675"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+			rewards: [
+				{
+					id: "0B7D5675D16F05E4"
+					type: "item"
+					item: "apotheosis:scrap_tome"
+				}
+				{
+					id: "7325E213627ACBBD"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "apotheosis:obliteration"
+							}]
+						}
+					}
+				}
+				{
+					id: "29EE4EFC4C4701A7"
+					type: "item"
+					item: "quark:warped_bookshelf"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Blown Away"
+			x: -1.0d
+			y: -2.0d
+			subtitle: "Make a Glassblower's Hut"
+			description: [
+				"The &bGlassblower&r can make any recipe involving Glass."
+				""
+				"This was originally a vanity product, but on further thought, Glass is incredibly useful for both magic and mundane purposes."
+			]
+			dependencies: ["72E6EEAAA33F5DF8"]
+			id: "5BD103DE9214DAA5"
+			tasks: [{
+				id: "6850889119542582"
+				type: "item"
+				item: "minecolonies:blockhutglassblower"
+			}]
+			rewards: [
+				{
+					id: "5A683488D3C80ADF"
+					type: "loot"
+					table_id: 3059711933873481465L
+				}
+				{
+					id: "3E73DCF84DE9ACCF"
+					type: "item"
+					item: "minecraft:glass"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "That Sap!"
+			icon: "myrtrees:rubberwood_sapling"
+			x: 0.0d
+			y: -7.5d
+			subtitle: "Slower than molasses in january"
+			description: [
+				"This little ingrate! I've been waiting for days for the sifter to get me the saplings I required and it turns out they've been holding out on me all along. "
+				""
+				"I decided to watch them this time and sure enough I caught them with a sapling red handed. They were hoarding them away in the rack, probably to demand more food or better housing. Well, not today! I've reclaimed all of the missing saplings and I'll be watching this one from now on."
+				""
+			]
+			dependencies: ["4E7B7D7283B9519C"]
+			id: "348ABE815121637C"
+			tasks: [{
+				id: "5E0EE5BEDF3927DE"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:birch_sapling"
+								Count: 1b
+							}
+							{
+								id: "minecraft:spruce_sapling"
+								Count: 1b
+							}
+							{
+								id: "minecraft:jungle_sapling"
+								Count: 1b
+							}
+							{
+								id: "minecraft:acacia_sapling"
+								Count: 1b
+							}
+							{
+								id: "minecraft:dark_oak_sapling"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "55C0534FA8DF32B0"
+					type: "item"
+					item: "minecraft:birch_sapling"
+				}
+				{
+					id: "5968F23A75C0673B"
+					type: "item"
+					item: "minecraft:spruce_sapling"
+				}
+				{
+					id: "527C3DC381C58849"
+					type: "item"
+					item: "minecraft:jungle_sapling"
+				}
+				{
+					id: "335EAB3CDC7AE198"
+					type: "item"
+					item: "minecraft:acacia_sapling"
+				}
+				{
+					id: "03317415B8691C48"
+					type: "item"
+					item: "minecraft:dark_oak_sapling"
+					count: 4
+				}
+				{
+					id: "4B79B9E06D1E2857"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			shape: "gear"
+			subtitle: "Infernal Delights"
+			description: ["These structures will require me to have complete at least a T1 University."]
+			dependencies: ["46A72493AFD256CA"]
+			id: "6FA2CE4C35ABE5F2"
+			tasks: [{
+				id: "110D8DF4553F6CA3"
+				type: "checkmark"
+				title: "University T1"
+			}]
+			rewards: [{
+				id: "494151C3D7556F57"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+	]
+}

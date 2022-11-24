@@ -1,0 +1,320 @@
+{
+	id: "0FE9940F0F58E9AB"
+	group: "793D4C72FD32064E"
+	order_index: 0
+	filename: "violent_ends"
+	title: "Violent Ends"
+	icon: "minecraft:dragon_head"
+	subtitle: ["The End"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -3.75d
+			shape: "hexagon"
+			subtitle: "Make an End Portal Frame"
+			description: [
+				"With a &6Tier 3 University&r, after researching &6Infernal Mastery&r under Unlockables, a T3+ Stonemason will be able to craft &bEnd Portal Frames&r!"
+				""
+				"For the first one, I'll have to &6order it from the Postbox&r. I can craft the rest myself."
+				""
+				"I'll need &6twelve&r, and they must be &6placed while standing in the center&r."
+				""
+				"With the Portal constructed, I can insert Eyes of Ender and &5finally escape this place&r."
+			]
+			dependencies: ["2451EBFA3158F0FD"]
+			min_width: 275
+			id: "38DD05361859F906"
+			tasks: [{
+				id: "773CC20724FBE613"
+				type: "item"
+				item: "minecraft:end_portal_frame"
+			}]
+			rewards: [{
+				id: "6CD2476EA80BEC15"
+				type: "item"
+				item: "minecraft:ender_eye"
+				count: 12
+			}]
+		}
+		{
+			title: "The End's End is Just the Beginning"
+			icon: "minecraft:dragon_head"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Kill the Ender Dragon"
+			description: [
+				"Entering the Void, I was beset by &ca beast of darkness and rage&r. I will have to &bkill this Dragon&r that lords this place before I can continue."
+				""
+				"&5If I have any friends, I should bring them.&r &cThe Dragon certainly will.&r"
+			]
+			dependencies: ["38DD05361859F906"]
+			id: "5EA9E1B2197DC462"
+			tasks: [{
+				id: "34EB7D40BB72DAFF"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "762A6E0298B46A10"
+					type: "item"
+					item: "minecraft:dragon_breath"
+					count: 32
+				}
+				{
+					id: "696794EA79F87785"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "1100E78DCF4A31FA"
+					type: "item"
+					item: "minecraft:end_crystal"
+					count: 4
+				}
+				{
+					id: "581CF3F149006CC9"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "dragon_defeated"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			subtitle: "Get a Dragon Scale"
+			description: [
+				"While exploring the far reaches of the nothing, I've found the &6remnants of a civilization that once was&r, growing from the rock like branching trees."
+				""
+				"Raiding these ruins has netted me &6great treasures&r. This includes &bDragon Scales&r, proof that this civilization was once mighty indeed."
+			]
+			dependencies: ["5EA9E1B2197DC462"]
+			id: "302AE29C5545EB4A"
+			tasks: [{
+				id: "2680A957B4136A0C"
+				type: "item"
+				item: "quark:dragon_scale"
+			}]
+			rewards: [
+				{
+					id: "543EFE09E8078F40"
+					type: "item"
+					item: "minecraft:dragon_breath"
+					count: 16
+				}
+				{
+					id: "18A271155AA441CE"
+					type: "item"
+					item: "quark:dragon_scale"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			shape: "hexagon"
+			subtitle: "Get Enderite"
+			description: ["By infusing Will and Source Gems into Enderium, I've created a new highly stable magical material!"]
+			dependencies: ["1833516DA3102958"]
+			size: 1.25d
+			id: "2451EBFA3158F0FD"
+			tasks: [{
+				id: "4C711E653CABDAA3"
+				type: "item"
+				item: "cataclysm:enderite_ingot"
+			}]
+			rewards: [
+				{
+					id: "6064C0D0408B293B"
+					type: "item"
+					item: {
+						id: "ars_nouveau:source_jar"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								id: "ars_nouveau:source_jar"
+								source: 10000
+								max_source: 10000
+							}
+						}
+					}
+				}
+				{
+					id: "1F7B20002BA36623"
+					type: "item"
+					item: "ars_nouveau:glyph_ender_inventory"
+				}
+				{
+					id: "7AD5CAFFF7B01BF2"
+					type: "item"
+					item: "nethersdelight:warped_moldy_meat"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			subtitle: "Defeat the Void Worm"
+			description: [
+				"Beyond the edge of the infinite void, something lurks."
+				""
+				"The &bVoid Worm&r is the guardian of all worlds. Defeating it would allow me to &6bind its power to my will&r, the final step to &5breaching the void&r."
+				""
+				"With its downfall, I can gain the final piece of research I will need to pierce the veil between dimensions."
+				""
+				"Before I can control the energies of the void gateway I will need to &6Defeat the Ender Dragon&r and claim her power for my own."
+			]
+			dependencies: ["302AE29C5545EB4A"]
+			id: "513E078F2B82A9D2"
+			tasks: [{
+				id: "688F7FC0A2174F53"
+				type: "item"
+				item: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "gateways:voidworm_gate"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2989AE646AD6DFB1"
+					type: "item"
+					item: {
+						id: "evilcraft:invigorating_pendant"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "evilcraft:blood"
+								Amount: 5000
+							}
+							capacity: 5000
+						}
+						ForgeCaps: {
+							Parent: {
+								FluidName: "evilcraft:blood"
+								Amount: 5000
+								capacity: 5000
+							}
+						}
+					}
+				}
+				{
+					id: "0F2D4304040D48B6"
+					type: "item"
+					item: "delightful:ender_nectar"
+				}
+			]
+		}
+		{
+			title: "Slay the Void Worm"
+			x: 0.0d
+			y: 3.0d
+			shape: "hexagon"
+			subtitle: "Pluck out the eye of darkness"
+			description: [
+				"With the gateway pearl in hand and the power of the dragon in my veins I can finally strike down the worm that travels beyond worlds and take its power for my own!"
+				""
+				"(If I previously killed the worm, crafting the ark of eldritch transcendence should complete this quest automatically for me)"
+			]
+			dependencies: ["513E078F2B82A9D2"]
+			size: 2.0d
+			id: "17C6262399CF5FB1"
+			tasks: [{
+				id: "24645F789E9B8F26"
+				type: "kill"
+				icon: "alexsmobs:void_worm_eye"
+				entity: "alexsmobs:void_worm"
+				value: 1L
+			}]
+			rewards: [{
+				id: "591C987F428A0074"
+				type: "item"
+				item: "alexsmobs:void_worm_eye"
+			}]
+		}
+		{
+			icon: "minecolonies:blockhutuniversity"
+			x: 0.0d
+			y: 6.0d
+			shape: "hexagon"
+			subtitle: "The Final Word"
+			description: [
+				"With the worm's power to pierce dimensions I've finally obtained the pieces to prepare for my exodus."
+				""
+				"The final step will be upgrading my university to the maximum tier and unlocking the Eldritch Transcedence research. Only then will I finally be able to return to my home."
+				""
+			]
+			dependencies: ["17C6262399CF5FB1"]
+			size: 1.5d
+			id: "69F0B175E8EA2570"
+			tasks: [{
+				id: "0ABFF66F41CFC13F"
+				type: "advancement"
+				advancement: "inferno:eldritchtranscendence"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "185DAE3F8D25E6B8"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "overworld"
+				}
+				{
+					id: "2CE783E5E56F9A02"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "upgrades"
+						}
+					}
+				}
+				{
+					id: "57CC257A346F15D0"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "defense"
+						}
+					}
+				}
+				{
+					id: "797CDD05BA513FD8"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "abilities"
+						}
+					}
+				}
+				{
+					id: "50F734748499AFD2"
+					type: "item"
+					item: "apotheosis:gem_dust"
+					count: 4
+				}
+				{
+					id: "36F978B07E838580"
+					type: "item"
+					item: "apotheosis:epic_material"
+					count: 4
+				}
+			]
+		}
+	]
+}

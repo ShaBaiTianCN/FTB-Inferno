@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "3165B92DB1BC8401", title: "Limbo" }
+		{ id: "3ABD0072BF4C3677", title: "Desires" }
+		{ id: "0674F87ECC0536DF", title: "Gluttony" }
+		{ id: "7044F2C841148E69", title: "Mephistopheles' Anger" }
+		{ id: "46A29AE1E3ACCC77", title: "Prometheus' Heresy" }
+		{ id: "793D4C72FD32064E", title: "Violent Delights" }
+		{ id: "24F72A50D728E97E", title: "Treachery of Mortals" }
+	]
+}

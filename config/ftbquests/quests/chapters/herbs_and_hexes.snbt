@@ -1,0 +1,686 @@
+{
+	id: "725EDA2FFB903A70"
+	group: "7044F2C841148E69"
+	order_index: 0
+	filename: "herbs_and_hexes"
+	title: "Herbs and Hexes"
+	icon: {
+		id: "hexerei:witch_helmet"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	subtitle: ["Hexerei"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: 1.5d
+			subtitle: "Collect some Sage"
+			description: [
+				"After growing Grass on Grass Blocks, I can &6harvest it for&r &bSage Seeds&r."
+				""
+				"These can be grown into Sage on Rich Soil Farmland."
+			]
+			dependencies: ["1E159C4397566D99"]
+			id: "5BEF3806AA751650"
+			tasks: [{
+				id: "12D61693ABFE16E1"
+				type: "item"
+				item: "hexerei:sage_seed"
+			}]
+			rewards: [
+				{
+					id: "1F420908762372FD"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 8
+				}
+				{
+					id: "494FFFD3B72A2885"
+					type: "item"
+					item: "hexerei:sage"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Incense"
+			x: -1.5d
+			y: 3.0d
+			shape: "square"
+			subtitle: "Make a Sage Burning Plate"
+			description: [
+				"Dried Sage Bundles can be burned at the &bSage Burning Plate&r to create a calming aura, &6preventing hostile mobs from spawning nearby&r."
+				""
+				"The cleansing smoke only works in a &648-meter circular radius&r, though outsiders can still wander in. It also &cburns out after an hour&r."
+				""
+				"I can right-click the Plate to change through 4 visual modes, showing where the smoke reaches."
+			]
+			dependencies: [
+				"105D0A853D0574B2"
+				"5BEF3806AA751650"
+				"072E5523AD494DA3"
+			]
+			id: "1B6A27ED6C7AFAFA"
+			tasks: [{
+				id: "500E19369C3E1393"
+				type: "item"
+				item: "hexerei:sage_burning_plate"
+			}]
+			rewards: [
+				{
+					id: "736B4BCE1BC5F3AC"
+					type: "item"
+					item: {
+						id: "hexerei:dried_sage_bundle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 16
+				}
+				{
+					id: "23D2F7210C38AFBB"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "Get a Grass Block"
+			description: [
+				"I was hoping &bGrass&r would be a pleasant reminder of home, but dehydrated as it is, it's just painful."
+				""
+				"&oGrass requires either the Fisher's Hut, or progress through Blood Magic"
+			]
+			dependencies: ["105D0A853D0574B2"]
+			id: "1E159C4397566D99"
+			tasks: [{
+				id: "71EF8C14E27CE91D"
+				type: "item"
+				item: "minecraft:grass_block"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			subtitle: "Make a Drying Rack"
+			description: ["The &bDrying Rack&r will allow me to &6dry items&r. Certain magical plants are more potent when desiccated."]
+			dependencies: ["55099E0F763B39CA"]
+			id: "072E5523AD494DA3"
+			tasks: [{
+				id: "64601FE3CFCEAC1E"
+				type: "item"
+				item: "hexerei:herb_drying_rack"
+			}]
+			rewards: [{
+				id: "0B50105BD3392BDF"
+				type: "item"
+				item: "hexerei:candelabra"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Make Mutandis"
+			description: [
+				"&bMutandis&r is a magically reactive substance that &6can convert certain plants into others&r."
+				""
+				"I can mutate amongst these crops. The crop it mutates into is random:"
+				"• Oak Sapling"
+				"• Sage"
+				"• Belladonna"
+				"• Mugwort"
+				"• Yellow Dock"
+				"• Mandrake"
+				"• Rubberwood Sapling"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"105D0A853D0574B2"
+				"5BEF3806AA751650"
+			]
+			id: "02032142312EF2C3"
+			tasks: [{
+				id: "306E4023CAAE3BA9"
+				type: "item"
+				item: "inferno:mutandis"
+			}]
+			rewards: [
+				{
+					id: "5F07158A5BC7ABBD"
+					type: "item"
+					item: "hexerei:mahogany_sapling"
+					count: 4
+				}
+				{
+					id: "541AAEEDD0AF398F"
+					type: "item"
+					item: "minecraft:egg"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Taking Flight"
+			icon: {
+				id: "hexerei:mahogany_broom"
+				Count: 1b
+				tag: { }
+			}
+			x: 0.0d
+			y: 3.0d
+			shape: "square"
+			subtitle: "Make a Broom"
+			description: [
+				"A witch is nothing without their flying broomsticks!"
+				""
+				"There are two types of &bBroom&r. Willow is slower and more precise, and Mahogany is faster."
+				""
+				"I can &6open it by sneak right-clicking&r, allowing me to apply upgrades."
+				""
+				"As I fly my Broom, its &cBroom Brush slowly breaks&r. I should keep an eye on its durability before going on flights."
+			]
+			dependencies: [
+				"66240316682D0D18"
+				"733CF6CD13AFD6EF"
+			]
+			min_width: 225
+			id: "7FF716071976EE5F"
+			tasks: [{
+				id: "7C6DDD63ECF1D00A"
+				type: "item"
+				title: "Brooms"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "hexerei:willow_broom"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "hexerei:mahogany_broom"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1009A43ECCD944A8"
+				type: "item"
+				item: {
+					id: "hexerei:broom_keychain"
+					Count: 1b
+					tag: {
+						Items: [{
+							Slot: 0b
+							id: "hexerei:willow_broom"
+							Count: 1b
+							tag: { }
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Bit Drafty Innit?"
+			icon: {
+				id: "hexerei:witch_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Make a set of Witch's Robes"
+			description: [
+				"I've instructed my researcher minions to draft designs for &bWitch's Robes&r. Too complex for myself to craft, my Enchanters can do it fine."
+				""
+				"They are &6inexpensive and &ohighly&r&6 enchantable&r, and provide a &6bonus the more pieces are worn&r!"
+				""
+				"Wish it had pants, though."
+			]
+			dependencies: ["278B1A270F796408"]
+			id: "245597079E6BF6C8"
+			tasks: [
+				{
+					id: "77EF8BB46E0E7EFF"
+					type: "item"
+					title: "Witch Hats"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "hexerei:witch_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "hexerei:mushroom_witch_hat"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "6D132B20CF6BDB2A"
+					type: "item"
+					item: {
+						id: "hexerei:witch_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2AEC11052479B547"
+					type: "item"
+					item: {
+						id: "hexerei:witch_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6B754CD1736553E0"
+					type: "item"
+					item: "hexerei:large_satchel"
+				}
+				{
+					id: "49B5D34D1F749093"
+					type: "item"
+					item: {
+						id: "hexerei:herb_jar"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "68B90314D623C2AC"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "ars_nouveau:mana_regen"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "hexerei:book_of_shadows"
+				Count: 1b
+				tag: {
+					bookmarks: { }
+					chapter: 0
+					opened: 0b
+					page: 0
+				}
+			}
+			x: -3.0d
+			y: 1.5d
+			subtitle: "Make the Book of Shadows"
+			description: [
+				"The &bBook of Shadows&r contains all the knowledge on &eHexerei&r that I need."
+				""
+				"Unlike other books, the Book of Knowledge &ccannot be read in-hand&r, and resists being added to Dante's Infernal Labram."
+				""
+				"Instead, I have to place it on an &bAltar&r before it can be read."
+				""
+				"&oIt would be a good idea to &6Bookmark&r&o the \"Items\" page"
+			]
+			dependencies: ["105D0A853D0574B2"]
+			id: "749A942B3D54169A"
+			tasks: [
+				{
+					id: "532D03C9153128EB"
+					type: "item"
+					item: {
+						id: "hexerei:book_of_shadows"
+						Count: 1b
+						tag: {
+							bookmarks: { }
+							chapter: 0
+							opened: 0b
+							page: 0
+						}
+					}
+				}
+				{
+					id: "1AF28BB211E4E817"
+					type: "item"
+					item: "hexerei:book_of_shadows_altar"
+				}
+			]
+		}
+		{
+			title: "That is Mahogany!"
+			icon: "hexerei:mahogany_log"
+			x: 1.5d
+			y: 1.5d
+			shape: "square"
+			subtitle: "Chop a Mahogany tree"
+			description: ["&bMahogany trees&r are where it's at. Nice and red and pretty."]
+			dependencies: ["105D0A853D0574B2"]
+			id: "151CCB8CDE754681"
+			tasks: [
+				{
+					id: "4616D8E9FB6CC5E8"
+					type: "item"
+					item: "hexerei:mahogany_sapling"
+				}
+				{
+					id: "04F717E2A8C6E29A"
+					type: "item"
+					item: "hexerei:mahogany_log"
+				}
+			]
+			rewards: [{
+				id: "17A3AE37ED249000"
+				type: "item"
+				item: "hexerei:mahogany_door"
+				count: 2
+			}]
+		}
+		{
+			title: "Will O' the Wisp"
+			icon: "hexerei:willow_log"
+			x: 1.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Chop a Willow tree"
+			description: [
+				"&bWillow trees&r are trees."
+				""
+				"Yeah, there's not much more to it. This is 100% definitely a tree. Fascinating."
+			]
+			dependencies: ["105D0A853D0574B2"]
+			id: "1832646704A3189D"
+			tasks: [
+				{
+					id: "57488E658F4DDD5E"
+					type: "item"
+					item: "hexerei:willow_sapling"
+				}
+				{
+					id: "55B519EF8C38A6AC"
+					type: "item"
+					item: "hexerei:willow_log"
+				}
+			]
+		}
+		{
+			title: "Extremis"
+			icon: "hexerei:belladonna_flowers"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Collect mutated crops"
+			description: ["&bBelladonna&r is mutated from Sage, and mutates into &bMandrake&r."]
+			dependencies: [
+				"02032142312EF2C3"
+				"5BEF3806AA751650"
+			]
+			id: "733CF6CD13AFD6EF"
+			tasks: [
+				{
+					id: "369A8E7C0C1874EB"
+					type: "item"
+					item: "hexerei:belladonna_flowers"
+				}
+				{
+					id: "62E8551A5824CAD6"
+					type: "item"
+					item: "hexerei:mandrake_root"
+				}
+			]
+		}
+		{
+			icon: "hexerei:medium_satchel"
+			x: 0.75d
+			y: 2.75d
+			shape: "square"
+			subtitle: "Make a Satchel"
+			description: [
+				"I can attach a &bSatchel&r to my Broom, &6allowing it to store items&r."
+				""
+				"Each tier adds 9 more slots."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7FF716071976EE5F"]
+			size: 0.5d
+			id: "0DD7221C49A6319F"
+			tasks: [{
+				id: "2F5ED579EA5644EB"
+				type: "item"
+				title: "Satchels"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "hexerei:small_satchel"
+								Count: 1b
+							}
+							{
+								id: "hexerei:medium_satchel"
+								Count: 1b
+							}
+							{
+								id: "hexerei:large_satchel"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "Make a Coffer"
+			description: [
+				"The &bCoffer&r is a quaint little block, holding as much as a normal chest."
+				""
+				"They can be dyed and named, and &6keep their contents when broken&r."
+				""
+				"They have a special &6interaction with Crows&r: gathering Crows will take items to Coffers that contain that item if enabled in the Coffer."
+			]
+			dependencies: ["151CCB8CDE754681"]
+			id: "065D0AE23BF94A08"
+			tasks: [{
+				id: "7526F18221EB636F"
+				type: "item"
+				item: {
+					id: "hexerei:coffer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "hexerei:broom_netherite_tip"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.75d
+			y: 3.25d
+			shape: "square"
+			subtitle: "Make a Broom Tip"
+			description: [
+				"&bBroom Tips&r can be applied to my Broom to &6increase its resistance to certain environments&r."
+				""
+				"Netherite allows it to resist lava for a time, and Waterproof does the same for Water."
+				""
+				"One of these is definitely more useful to me than the other."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7FF716071976EE5F"]
+			size: 0.5d
+			id: "732661A0FAABA67D"
+			tasks: [{
+				id: "497A8A10BB847D3C"
+				type: "item"
+				title: "Broom Tips"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "hexerei:broom_netherite_tip"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "hexerei:broom_waterproof_tip"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 1.375d
+			y: 3.0d
+			shape: "square"
+			subtitle: "Make an Enhanced Broom Brush"
+			description: ["I can replace the Broom Brush with an &bEnhanced Broom Brush&r, which lasts longer and &6can be enchanted&r!"]
+			hide_dependency_lines: true
+			dependencies: ["7FF716071976EE5F"]
+			size: 0.75d
+			id: "22D53F3C2C431D3B"
+			tasks: [{
+				id: "271B603D71A2AFF8"
+				type: "item"
+				item: {
+					id: "hexerei:herb_enhanced_broom_brush"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Two Crows!"
+			icon: "hexerei:crow_spawn_egg"
+			x: 3.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Tame a Crow"
+			description: [
+				"&bCrows&r are incredibly intelligent animals, able to &6harvest crops, pick up items, pickpocket villagers&r, and more."
+				""
+				"I can summon one from the &6Summoning Altar&r and tame it with a special &bSeed Mixture&r."
+				""
+				"Sneak right-clicking a tamed Crow will let me &6give it orders&r. I can give it a weapon to &6defend me with&r, and a helmet to protect itself with."
+				""
+				"The orders I can give it all have &6tooltips explaining what they do&r."
+				""
+				"The &bCrow Flute&r allows me to &6control multiple Crows at once&r, as well as &6set a block as the Crows' perch spot&r."
+			]
+			dependencies: ["105D0A853D0574B2"]
+			optional: true
+			min_width: 275
+			id: "178AA754B36354E6"
+			tasks: [
+				{
+					id: "18555D0AA29A38E4"
+					type: "observation"
+					title: "Observe a Crow"
+					icon: "hexerei:crow_spawn_egg"
+					timer: 0L
+					observe_type: 5
+					to_observe: "hexerei:crow"
+				}
+				{
+					id: "22272B6FDD58B8AC"
+					type: "item"
+					item: "hexerei:seed_mixture"
+				}
+				{
+					id: "49374C3A3BC8CFDD"
+					type: "item"
+					item: {
+						id: "hexerei:crow_flute"
+						Count: 1b
+						tag: {
+							crowList: { }
+							helpCommandSelected: 0
+							commandSelected: 0
+							dyeColor1: -1
+							commandMode: 0b
+							dyeColor2: -1
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Create a Rubberwood Sapling"
+			description: [
+				"&6Rubber&r is necessary for many things, and grows from &bRubberwood trees&r."
+				""
+				"I can create it using Mutandis."
+			]
+			dependencies: ["02032142312EF2C3"]
+			id: "51DDAEA8672B9CC0"
+			tasks: [{
+				id: "4C743135EBCE9059"
+				type: "item"
+				item: "myrtrees:rubberwood_sapling"
+			}]
+		}
+	]
+}

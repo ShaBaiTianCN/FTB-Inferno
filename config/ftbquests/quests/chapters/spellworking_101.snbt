@@ -1,0 +1,953 @@
+{
+	id: "05CA73477688D2AB"
+	group: "7044F2C841148E69"
+	order_index: 6
+	filename: "spellworking_101"
+	title: "Spellcrafting 101"
+	icon: "ars_nouveau:source_gem"
+	subtitle: ["Ars Nouveau"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Heart of the Grove"
+			x: -0.5d
+			y: 3.5d
+			shape: "hexagon"
+			subtitle: "Make a Blazing Archwood Sapling"
+			description: [
+				"Combining my knowledge from several schools of magic, I can the deeply powerful &bArchwood Sapling&r!"
+				""
+				"Naturally, the first I make is the Blazing Sapling."
+			]
+			dependencies: [
+				"30BFD136F6B44257"
+				"00E0DB64568AA664"
+			]
+			size: 1.25d
+			id: "0B83AC9D22A3A363"
+			tasks: [{
+				id: "0C62B70377F44E98"
+				type: "item"
+				item: "ars_nouveau:red_archwood_sapling"
+			}]
+			rewards: [{
+				id: "2FE2835DFFFD4AA4"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+				count: 16
+			}]
+		}
+		{
+			title: "Crystallized Magic"
+			icon: "ars_nouveau:imbuement_chamber"
+			x: -0.5d
+			y: 5.0d
+			subtitle: "Make a Source Gem"
+			description: [
+				"Magic of this school depends on &6Source&r. Source is present in the atmosphere, but only in very small amounts."
+				""
+				"&bSource Gems&r contain Source within themselves, and are vital to the creation of many magic items."
+				""
+				"The &bImbuement Chamber&r will &6pull nearby Source into itself&r, infusing it into the item within."
+				""
+				"This is most useful with &6Source Jars&r nearby, but will also &6slowly absorb Source from the air&r."
+			]
+			dependencies: ["0B83AC9D22A3A363"]
+			dependency_requirement: "one_completed"
+			min_width: 250
+			id: "6BBA6FE9EE790FAA"
+			tasks: [
+				{
+					id: "7ABE9B1AC02B105D"
+					type: "item"
+					item: "ars_nouveau:imbuement_chamber"
+				}
+				{
+					id: "7A4F5B47DD735C5D"
+					type: "item"
+					item: "ars_nouveau:source_gem"
+				}
+			]
+			rewards: [
+				{
+					id: "462707EB7B3E8403"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 16
+				}
+				{
+					id: "3F609E5F01C24C28"
+					type: "item"
+					item: "woodenhopper:wooden_hopper"
+				}
+			]
+		}
+		{
+			title: "Making Mana"
+			icon: "ars_nouveau:agronomic_sourcelink"
+			x: -0.5d
+			y: 6.5d
+			subtitle: "Make a Sourcelink"
+			description: [
+				"&bSourcelinks&r are fantastic contraptions that &6generate Source&r from interactions in the environment around them."
+				""
+				"Each Sourcelink produces Source from different interactions, like crops growing, mobs breeding, etc."
+				""
+				"Source generated in a Sourcelink will &6automatically move to Source Jars&r within 5 blocks."
+			]
+			min_required_dependencies: 1
+			dependencies: ["6BBA6FE9EE790FAA"]
+			min_width: 250
+			id: "41FDF75C443C7BCD"
+			tasks: [{
+				id: "7A4EE895E0DC0C3A"
+				type: "item"
+				title: "Sourcelinks"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "sourcelink"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4EEC9353846A4DD0"
+				type: "item"
+				item: "ars_nouveau:source_jar"
+				count: 3
+			}]
+		}
+		{
+			title: "Baby's First Grimoire"
+			x: -0.5d
+			y: 2.0d
+			subtitle: "Make the Novice Spell Book"
+			description: [
+				"A wizard is nothing without their spellbook. With mine gone, I will have to start from scratch."
+				""
+				"With my &bNovice Spell Book&r, I only &6start with some basic cantrips&r. I can still mine and attack, but far from the heights I'm used to."
+				""
+				"I fear that it &cmay be some time before I can continue&r..."
+			]
+			dependencies: ["40D4850B34EC5677"]
+			id: "14164898F7962235"
+			tasks: [{
+				id: "20722631D11C327D"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+			rewards: [
+				{
+					id: "73D041C6CA414664"
+					type: "item"
+					item: "ars_nouveau:source_berry_pie"
+				}
+				{
+					id: "42B4E0211C5D173B"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Sharing is Caring"
+			x: -4.0d
+			y: 3.5d
+			shape: "square"
+			subtitle: "Make an Annotated Codex"
+			description: [
+				"The &bAnnotated Codex&r &6records all my known Glyphs&r, so that I may share my knowledge with others."
+				" "
+				"Inscribing into and learning from the Codex costs experience."
+			]
+			dependencies: ["505683302888DD1F"]
+			optional: true
+			id: "6E08A8BEA63DB628"
+			tasks: [{
+				id: "7FE68A26590E0C0B"
+				type: "item"
+				item: {
+					id: "ars_nouveau:annotated_codex"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7EF41C37B3127B47"
+				type: "item"
+				item: "ars_nouveau:glyph_craft"
+			}]
+		}
+		{
+			title: "Preternatural Paperwork"
+			x: -2.5d
+			y: 3.5d
+			subtitle: "Make a Scribe's Table"
+			description: [
+				"Inscribing a new spell &mtakes 2 hours and costs 50GP&r needs the &bScribe's Table&r."
+				""
+				"First I have to &6use a Spell Book on the Table&r. There, I can &6pick the Glyph to craft&r."
+				""
+				"Each Glyph requires specific items. After choosing the Glyph, I must &6throw the ingredients&r onto the Table."
+				""
+				"Right-clicking the Glyph will learn it, &6allowing me to use it in spells&r."
+			]
+			dependencies: ["0B83AC9D22A3A363"]
+			min_width: 275
+			id: "505683302888DD1F"
+			tasks: [{
+				id: "29E2BCDBFCF270FD"
+				type: "item"
+				item: "ars_nouveau:scribes_table"
+			}]
+			rewards: [
+				{
+					id: "7854E029365C91CA"
+					type: "item"
+					item: "ars_nouveau:source_gem_block"
+					count: 4
+				}
+				{
+					id: "4D9D34D005CCCD22"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "17DAA9815D171E6D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Enchantment"
+			icon: "ars_nouveau:enchanting_apparatus"
+			x: -2.5d
+			y: 6.5d
+			subtitle: "Make an Enchanting Apparatus"
+			description: [
+				"The &bEnchanting Apparatus&r uses Source to &6infuse an object with the essence of nearby items&r."
+				""
+				"I must place the &bArcane Core&r in the center, and the Apparatus on top."
+				""
+				"Within 3 blocks of the Core and Apparatus, I must place any number of &bArcane Pedestals&r."
+			]
+			dependencies: ["41FDF75C443C7BCD"]
+			min_width: 275
+			id: "7985ABCCCC272CE3"
+			tasks: [
+				{
+					id: "2A74FA351A3B2FFB"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+				{
+					id: "46FC25F9005AB129"
+					type: "item"
+					item: "ars_nouveau:arcane_core"
+				}
+				{
+					id: "7B6415CEF1315689"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+				}
+			]
+			rewards: [
+				{
+					id: "4446E5277758886E"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "53C3FD8E1F402655"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+					count: 7
+				}
+			]
+		}
+		{
+			title: "Riotous Rituals"
+			x: 1.5d
+			y: 6.5d
+			subtitle: "Make a Ritual Brazier"
+			description: [
+				"Rituals are &6powerful magics focused in an area&r."
+				""
+				"Rituals are performed by placing a Tablet inside the &bRitual Brazier&r. Afterward, you can &6throw items on to augment&r the ritual, then interacting with the Brazier again with an empty hand."
+				""
+				"Some Rituals may require Source to work, which I can provide from Source Jars within 6 blocks."
+			]
+			dependencies: ["41FDF75C443C7BCD"]
+			min_width: 225
+			id: "14CBBDEBFB6749EE"
+			tasks: [{
+				id: "3156D7D3A120F4FC"
+				type: "item"
+				item: "ars_nouveau:ritual_brazier"
+			}]
+			rewards: [
+				{
+					id: "742399E8793B829A"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2CBD86A48DB769FB"
+					type: "item"
+					item: "ars_nouveau:wilden_wing"
+					count: 3
+				}
+				{
+					id: "3E6B6C5F9CEBEC27"
+					type: "item"
+					item: "minecraft:lapis_block"
+				}
+				{
+					id: "73C441D2317E432B"
+					type: "item"
+					item: "ars_nouveau:purple_archwood_log"
+				}
+			]
+		}
+		{
+			title: "More Archwoods"
+			icon: "ars_nouveau:manipulation_essence"
+			x: 1.5d
+			y: 3.5d
+			subtitle: "Make the other Archwood types"
+			description: ["&bArchwood&r comes in four affinities, though they are largely interchangeable."]
+			dependencies: [
+				"6BBA6FE9EE790FAA"
+				"0B83AC9D22A3A363"
+			]
+			id: "0CA8F708AD880F5F"
+			tasks: [
+				{
+					id: "1FA87B1C782FE961"
+					type: "item"
+					item: "ars_nouveau:purple_archwood_sapling"
+				}
+				{
+					id: "367A5EF704254C1A"
+					type: "item"
+					item: "ars_nouveau:blue_archwood_sapling"
+				}
+				{
+					id: "32BF69E609F3BCFF"
+					type: "item"
+					item: "ars_nouveau:green_archwood_sapling"
+				}
+				{
+					id: "5687C1784A182567"
+					type: "item"
+					item: "ars_nouveau:manipulation_essence"
+				}
+			]
+			rewards: [{
+				id: "45BEE76E04F8650E"
+				type: "item"
+				item: "ars_nouveau:glyph_fell"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			shape: "square"
+			subtitle: "Make a Casting Wand"
+			description: [
+				"&bCasting Wands&r can only &ccast a single spell&r, and &6adds Projectile -> Accelerate ->&r to the start of the spell."
+				""
+				"While this loses the flexibility of my Spell Book, it's useful for &6more powerful specialized spells&r, as the spell can effectively have 12 Glyphs instead of 10."
+			]
+			dependencies: [
+				"505683302888DD1F"
+				"6BBA6FE9EE790FAA"
+				"7985ABCCCC272CE3"
+			]
+			id: "791BC8C1D59A8770"
+			tasks: [{
+				id: "0EE3DBAFA40E6CA6"
+				type: "item"
+				item: {
+					id: "ars_nouveau:wand"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "745D9511061F6B1A"
+				type: "item"
+				item: "ars_nouveau:glyph_fortune"
+			}]
+		}
+		{
+			icon: "ars_nouveau:glyph_pickup"
+			x: -2.5d
+			y: 2.0d
+			subtitle: "Make any Tier 1 Glyph"
+			description: [
+				"&bGlyphs&r come in three tiers, each more powerful than the last. Higher tier glyphs require higher tier Spell Books."
+				""
+				"Having lost my spells once, I will not make the same mistake again. I will make sure to study these hard, so as to &6never forget them&r, even with new Spell Books."
+			]
+			dependencies: [
+				"14164898F7962235"
+				"505683302888DD1F"
+			]
+			min_width: 275
+			id: "107EB4111DE1555C"
+			tasks: [{
+				id: "67E9C9AE2E13291D"
+				type: "item"
+				title: "Tier 1 Glyphs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "inferno:tier_one_glyph"
+					}
+				}
+			}]
+			rewards: [{
+				id: "09E31571ADC3DEF0"
+				type: "item"
+				item: "ars_nouveau:void_jar"
+			}]
+		}
+		{
+			icon: "ars_nouveau:glyph_accelerate"
+			x: -2.5d
+			y: 0.5d
+			subtitle: "Make any Tier 2 Glyph"
+			description: ["&bTier 2 Glyphs&r are more powerful, but &6require a Mage's Spell Book&r."]
+			dependencies: [
+				"107EB4111DE1555C"
+				"0C66312A6733D93E"
+			]
+			id: "666D5BF7A37EE6CA"
+			tasks: [{
+				id: "472D2AE7DEA44040"
+				type: "item"
+				title: "Tier 2 Glyphs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "inferno:tier_two_glyph"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0386F76A642E03DC"
+				type: "item"
+				item: "ars_nouveau:glyph_firework"
+			}]
+		}
+		{
+			icon: "ars_nouveau:glyph_summon_undead"
+			x: -2.5d
+			y: -1.0d
+			subtitle: "Make any Tier 3 Glyph"
+			description: [
+				"&bTier 3 Glyphs&r are the pinnacle. The strongest, the most powerful."
+				""
+				"As such, they can only be cast using the &6Archmage Spell Book&r."
+			]
+			dependencies: [
+				"666D5BF7A37EE6CA"
+				"17C5BCEE8A406DD2"
+			]
+			id: "3A21E8B6FF8F6C68"
+			tasks: [{
+				id: "1836B17F6F8A0485"
+				type: "item"
+				title: "Tier 3 Glyphs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "inferno:tier_three_glyph"
+					}
+				}
+			}]
+			rewards: [{
+				id: "52C5966F68D542DD"
+				type: "item"
+				item: "ars_nouveau:glyph_intangible"
+			}]
+		}
+		{
+			title: "Fantastic Fabric"
+			x: -4.0d
+			y: 6.5d
+			subtitle: "Make Magebloom Seeds"
+			description: ["&bMagebloom&r is a magically powerful flower. Its Fibers are used in many magic crafting recipes."]
+			dependencies: ["7985ABCCCC272CE3"]
+			id: "4791DF6BD19CB8F5"
+			tasks: [{
+				id: "6DC90FC098838822"
+				type: "item"
+				item: "ars_nouveau:magebloom_crop"
+			}]
+			rewards: [
+				{
+					id: "31E1CC0577434E63"
+					type: "item"
+					item: "ars_nouveau:glyph_grow"
+				}
+				{
+					id: "5F3A0673DED1673E"
+					type: "item"
+					item: "ars_nouveau:glyph_harvest"
+				}
+			]
+		}
+		{
+			title: "Notepad+++"
+			x: -4.0d
+			y: 5.0d
+			shape: "square"
+			subtitle: "Make Spell Parchment"
+			description: [
+				"&bSpell Parchment&r can be used to &6save a copy of a spell&r."
+				""
+				"From there, it can be applied to &6Spell Turrets&r as well as &6Enchanter's items&r."
+			]
+			dependencies: ["4791DF6BD19CB8F5"]
+			id: "2C91A8D6917F4220"
+			tasks: [{
+				id: "718E75868AA8EFD2"
+				type: "item"
+				item: {
+					id: "ars_nouveau:spell_parchment"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5ED954A99F29CC3A"
+				type: "item"
+				item: {
+					id: "ars_nouveau:spell_parchment"
+					Count: 1b
+					tag: { }
+				}
+				count: 4
+			}]
+		}
+		{
+			title: "Mark and Recall"
+			x: -5.5d
+			y: 6.5d
+			shape: "square"
+			subtitle: "Make a Warp Scroll"
+			description: [
+				"&bWarp Scrolls&r allow for instant teleportation within a dimension."
+				""
+				"However, they are &csingle use&r."
+			]
+			dependencies: ["4791DF6BD19CB8F5"]
+			id: "12D2AD9546589490"
+			tasks: [{
+				id: "1BA531CF48F479B3"
+				type: "item"
+				item: {
+					id: "ars_nouveau:warp_scroll"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "08EF95618639CC41"
+				type: "item"
+				item: "ars_nouveau:glyph_summon_steed"
+			}]
+		}
+		{
+			title: "One Way Ticket"
+			icon: "ars_nouveau:arcane_bricks"
+			x: -7.0d
+			y: 6.5d
+			shape: "square"
+			subtitle: "Make a Warp Portal"
+			description: [
+				"&bWarp Portals&r create a &6permanent one-way portal&r to a point marked by a Warp Scroll."
+				" "
+				"Warp Portals are made using an &bArcane Stone&r frame, rectangular, and can be anywhere between 1x1 and 21x21 internally. They can be horizontal or vertical as well."
+				""
+				"Craft the frame, place a Source Jar nearby, and &6throw the Warp Scroll through&r."
+			]
+			dependencies: ["12D2AD9546589490"]
+			min_width: 225
+			id: "532C9E50AA176258"
+			tasks: [{
+				id: "39104C99C8670747"
+				type: "item"
+				title: "Arcane Bricks"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ars_nouveau:arcane_bricks"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:ab_alternating"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:ab_basket"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:ab_herring"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:ab_mosaic"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:ab_smooth_slab"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:ab_smooth"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:ab_clover"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:sas_clover"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:sas_herring"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:sas_basket"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:sas_mosaic"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:sas_alternating"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:sas_ashlar"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "3923AADE7BE4A93C"
+				type: "item"
+				item: "ars_nouveau:glyph_slowfall"
+			}]
+		}
+		{
+			title: "Movin' On Up"
+			x: -0.5d
+			y: 0.5d
+			subtitle: "Get the Mage's Spell Book"
+			description: [
+				"Normally, the creation of &bmore powerful Spell Books&r is overseen by an instructor, but it looks like we're fresh out."
+				" "
+				"Instead, I'll have to &6trade for it&r. I should check the &5Faustian Bargains&r chapter for more information."
+			]
+			dependencies: ["14164898F7962235"]
+			min_width: 225
+			id: "0C66312A6733D93E"
+			tasks: [{
+				id: "3390A335E31A0FBE"
+				type: "item"
+				item: "ars_nouveau:apprentice_spell_book"
+			}]
+			rewards: [{
+				id: "3A24C84112B2B99D"
+				type: "item"
+				item: "ars_nouveau:glyph_exchange"
+			}]
+		}
+		{
+			title: "Complete Caster"
+			x: -0.5d
+			y: -1.0d
+			subtitle: "Make the Archmage Spell Book"
+			description: [
+				"To reach the highest tiers of reality-bending, I will need to upgrade my Spell Book once again."
+				""
+				"As it is the most powerful, the &bArchmage Spell Book&r is by far the hardest to create."
+			]
+			dependencies: ["0C66312A6733D93E"]
+			min_width: 225
+			id: "17C5BCEE8A406DD2"
+			tasks: [{
+				id: "7CCB01DCC17E5A96"
+				type: "item"
+				item: "ars_nouveau:archmage_spell_book"
+			}]
+			rewards: [{
+				id: "708B60C6F9818C27"
+				type: "item"
+				item: "ars_nouveau:glyph_lightning"
+			}]
+		}
+		{
+			title: "Pew! Pew! Pew!"
+			icon: "ars_nouveau:basic_spell_turret"
+			x: -5.5d
+			y: 5.0d
+			shape: "square"
+			subtitle: "Make a Spell Turret"
+			description: [
+				"&bSpell Turrets&r use Source to &6cast spells set from Parchment&r, cast as a projectile in the direction they are facing."
+				" "
+				"The Basic Turret requires a redstone signal to fire, but the &bTimer Spell Turret&r fires automatically on a configurable timer."
+				""
+				"Additionally, the &bEnchanted Spell Turret&r only requires half the Source to cast spells."
+			]
+			dependencies: ["2C91A8D6917F4220"]
+			min_width: 225
+			id: "5F9C5850EC49892F"
+			tasks: [{
+				id: "25B96DA726D036F5"
+				type: "item"
+				title: "Spell Turrets"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ars_nouveau:basic_spell_turret"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:spell_turret"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:timer_spell_turret"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0004FA25E59D0A37"
+				type: "item"
+				item: "ars_nouveau:spell_prism"
+			}]
+		}
+		{
+			title: "Fancy Duds"
+			icon: {
+				id: "ars_nouveau:novice_robes"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.0d
+			y: 8.0d
+			shape: "square"
+			subtitle: "Make a set of Robes"
+			description: [
+				"&bRobes&r increase my mana pool and regeneration."
+				" "
+				"Like Glyphs and Spell Books, there are &6three tiers&r. Higher tier sets are more expensive, but provide greater bonuses."
+				" "
+				"Robes are highly enchantable, and &6do not lose enchantments when upgrading&r. They also &6repair themselves using my mana&r!"
+			]
+			dependencies: ["4791DF6BD19CB8F5"]
+			min_width: 225
+			id: "56A23171B3AFC700"
+			tasks: [
+				{
+					id: "7937A5BA3526A81E"
+					type: "item"
+					title: "Boots"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "ars.*boot"
+						}
+					}
+				}
+				{
+					id: "072B57477AF855CA"
+					type: "item"
+					title: "Leggings"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "ars.*leg"
+						}
+					}
+				}
+				{
+					id: "2E6ED30565289FE1"
+					type: "item"
+					title: "Robes"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "ars.*robe"
+						}
+					}
+				}
+				{
+					id: "222A3B0ED824BA83"
+					type: "item"
+					title: "Hoods"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "ars.*hood"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6A01E631FA2BE277"
+					type: "item"
+					item: {
+						id: "ars_nouveau:enchanters_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "319581B4C4A11A2D"
+					type: "item"
+					item: {
+						id: "ars_nouveau:enchanters_mirror"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "The Forest Moves"
+			x: 1.5d
+			y: 5.0d
+			shape: "square"
+			subtitle: "Make a Tablet of Awakening"
+			description: [
+				"The &bTablet of Awakening&r is the key component of the Ritual of the same name."
+				""
+				"This ritual &6imbues sentience into nearby Archwood trees&r, awakening them into &6Weald Walkers&r, who patrol and protect an area."
+				""
+				"It seems &6different Archwoods have different characteristics&r. I wonder what else I can awaken..."
+			]
+			dependencies: [
+				"0CA8F708AD880F5F"
+				"14CBBDEBFB6749EE"
+			]
+			id: "03B037B2A279A055"
+			tasks: [{
+				id: "24F7D342E4DBB70C"
+				type: "item"
+				item: "ars_nouveau:ritual_awakening"
+			}]
+			rewards: [
+				{
+					id: "503C70BEAD4F04D9"
+					type: "item"
+					item: "minecraft:budding_amethyst"
+					count: 4
+				}
+				{
+					id: "02ECB17F4FB3A534"
+					type: "item"
+					item: "ars_nouveau:dominion_wand"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			shape: "square"
+			subtitle: "Make a Tablet of Flight"
+			description: [
+				"The &bTablet of Flight&r will allow me to &6fly freely within its area&r!"
+				""
+				"It requires Source and has a limited range, which is unfortunate, but is extremely helpful for my base!"
+			]
+			dependencies: ["14CBBDEBFB6749EE"]
+			id: "2D50A20C9FA4575F"
+			tasks: [{
+				id: "70E2BD596B03933E"
+				type: "item"
+				item: "ars_nouveau:ritual_flight"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.0d
+			subtitle: "Make a Tablet of Summon Wilden"
+			description: [
+				"The &6Wilden&r are an ancient race obsessed with the shapeshifting arts. Over the centuries, their minds have corrupted down to barely more than animals."
+				""
+				"While a nuisance back home, I haven't come across any here. The &bTablet of Summon Wilden&r will allow me to test myself against them."
+				""
+				"The ritual can be augmented with a Wilden Spike, Horn, and Wing to instead summon the &6Wilden Chimera&r, a much stronger foe."
+			]
+			dependencies: ["14CBBDEBFB6749EE"]
+			min_width: 225
+			id: "3D408FF0728E10E6"
+			tasks: [{
+				id: "05DE634CC122E21C"
+				type: "item"
+				item: "ars_nouveau:ritual_wilden_summon"
+			}]
+		}
+	]
+}

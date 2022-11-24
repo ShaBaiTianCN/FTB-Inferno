@@ -1,0 +1,1392 @@
+{
+	id: "3FEEBB1A6C49A700"
+	group: "3165B92DB1BC8401"
+	order_index: 1
+	filename: "resource_gen"
+	title: "Azriel's Acquisitions"
+	icon: "minecraft:lava_bucket"
+	subtitle: ["Fishing, early farming"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Cobblegen-a-tron-9000"
+			icon: "minecraft:cobblestone"
+			x: -5.0d
+			y: -5.0d
+			shape: "square"
+			subtitle: "Make a Cobblestone Genreator"
+			description: [
+				"Water and Lava combine into Cobble, but I &ccan't place water&r... normally."
+				""
+				"The &bCobblestone Genreator&r allows me to get around that inconvenient truth. It keeps the water contained within itself, deeply insulated from the Nether's heat."
+				""
+				"Its generated Cobble is stored within, and &6must be pulled out&r via Hoppers, Pipes, or the like. It generates Cobble &6&ninsanely quickly&r."
+				""
+				"If I cannot yet &omake&r the Cobble Generator, I can &6siphon water from the Fisher's Hut&r to make Cobble, albeit.. slower."
+				"{image:inferno:textures/quest/cobble.png width:1000 height:674 align:1 fit:true}"
+			]
+			min_required_dependencies: 1
+			dependencies: [
+				"00E0DB64568AA664"
+				"4E07E560443913CB"
+			]
+			min_width: 300
+			id: "136605F4DEC7544A"
+			tasks: [{
+				id: "19926F4E0DB3723B"
+				type: "item"
+				item: "simplecobblegen:cobble_generator"
+			}]
+			rewards: [
+				{
+					id: "50F6DE983D0BB579"
+					type: "loot"
+					table_id: 4864474103053531672L
+				}
+				{
+					id: "2688FACA6304C301"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "Why so BaSalty?"
+			icon: "minecraft:basalt"
+			x: -6.0d
+			y: -4.0d
+			shape: "square"
+			subtitle: "Automate Basalt"
+			description: [
+				"I've been experimenting with the super-cool &bBlue Ice&r. Which I can &6transmute from Snow&r in the Alchemy Array. Perhaps I could &6summon a Snow Golem&r to harvest some..."
+				""
+				"If I allow &bLava&r to &6flow over &bSoul Soil&r while &6adjacent to Blue Ice&r, the three will combine to create &bBasalt&r."
+				""
+				"{image:inferno:textures/quest/resourcegen.png width:1000 height:739 align:1 fit:true}"
+			]
+			dependencies: ["4B52BBBF01CDF027"]
+			dependency_requirement: "one_started"
+			min_width: 225
+			id: "4E2F724CF086FE0E"
+			tasks: [
+				{
+					id: "45D7779BB02AF267"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "2904509C6862C9E1"
+					type: "item"
+					item: "minecraft:blue_ice"
+				}
+				{
+					id: "7A6BA359D90D9852"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+			]
+			rewards: [
+				{
+					id: "767DE8DA3D116738"
+					type: "item"
+					item: "minecraft:basalt"
+					count: 64
+				}
+				{
+					id: "6BD03E248E94821E"
+					type: "item"
+					item: {
+						id: "ceramicbucket:ceramic_bucket"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "biomesoplenty:blood"
+								Amount: 1000
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Easy Tree Automation!"
+			x: -5.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Make a Bonsai Pot"
+			description: [
+				"The &bBonsai Pot&r grows trees (and tree-adjacent plants) automatically, using soil and a sapling."
+				""
+				"It can be upgraded with certain items."
+			]
+			dependencies: ["34E8389197884E32"]
+			id: "118612040F3AE9F7"
+			tasks: [{
+				id: "3CBE265D7B6C72F5"
+				type: "item"
+				item: "bonsaitrees3:bonsaipot"
+			}]
+			rewards: [{
+				id: "0B168D214F07CBD2"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
+		}
+		{
+			title: "Bonsai Hoppers"
+			x: -6.5d
+			y: 0.5d
+			shape: "square"
+			subtitle: "Get a Hopper"
+			description: ["A &bHopper&r will make the Pot output its items to the inventory below."]
+			dependencies: ["118612040F3AE9F7"]
+			id: "76D68C3A83E6317F"
+			tasks: [{
+				id: "3AC5A920BE7BD2EC"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
+			rewards: [{
+				id: "4FD3625892EB3EC6"
+				type: "item"
+				item: "minecraft:hopper"
+				count: 4
+			}]
+		}
+		{
+			title: "Axe-ual Automation"
+			icon: {
+				id: "minecraft:netherite_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.5d
+			y: 0.5d
+			shape: "square"
+			subtitle: "Make an Axe"
+			description: [
+				"An &bAxe&r can be added to make the Pot automatically harvest itself when grown."
+				""
+				"&6Fortune&r increases drops"
+				"&6Silk Touch&r applies Silk Touch"
+				"&6Efficiency&r decreases growth time"
+			]
+			dependencies: ["118612040F3AE9F7"]
+			id: "25CBB0FF1661D5B8"
+			tasks: [{
+				id: "064C26B5129011B1"
+				type: "item"
+				title: "Any Axe"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:tools/axe"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E93A08F24537856"
+				type: "item"
+				item: {
+					id: "kubejs:foresters_delight"
+					Count: 1b
+					tag: {
+						RepairCost: 3
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 6s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:silk_touch"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"Bonsai Buddy\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Fleeeessh"
+			icon: "biomesoplenty:flesh"
+			x: -4.0d
+			y: -6.0d
+			shape: "square"
+			subtitle: "Yess, yess... He will live again."
+			description: [
+				"&6Lava&r will rapidly cauterize &6Blood&r into chunks of &bFlesh&r."
+				""
+				"As grotesque as this is, I can find several ways to use it."
+				""
+				"{image:inferno:textures/quest/resourcegen.png width:1000 height:739 align:1 fit:true}"
+			]
+			dependencies: ["40D4850B34EC5677"]
+			min_width: 225
+			id: "1D619B0E7776C8EB"
+			tasks: [
+				{
+					id: "4F17C47D492139AD"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "41B0C4C875674C8B"
+					type: "item"
+					item: "biomesoplenty:blood_bucket"
+				}
+			]
+			rewards: [{
+				id: "65BE5E32EE31F67E"
+				type: "item"
+				item: "biomesoplenty:flesh"
+				count: 64
+			}]
+		}
+		{
+			title: "Coagulant"
+			icon: "tconstruct:blood_slime_sapling"
+			x: -6.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "Automate Ichor"
+			description: [
+				"&bIchor Balls&r are the closest thing to Slime I can get here. It's a bit sacrilegious, but I didn't get here by being pious."
+				""
+				"For the Pot to actually harvest the Ichor, it has to have a Bee Hive."
+			]
+			dependencies: ["118612040F3AE9F7"]
+			id: "7ECA8AA3D7EF3D40"
+			tasks: [
+				{
+					id: "7A03ABF9F3E1B35E"
+					type: "item"
+					item: "tconstruct:blood_slime_sapling"
+				}
+				{
+					id: "1E60609026FB56F9"
+					type: "item"
+					item: "tconstruct:blood_ichor_slime_grass"
+				}
+			]
+			rewards: [{
+				id: "759795C5691F7707"
+				type: "item"
+				item: "tconstruct:ichor_slime_ball"
+				count: 16
+			}]
+		}
+		{
+			title: "How to Catch a Fish"
+			x: -11.5d
+			y: -1.0d
+			shape: "square"
+			subtitle: "Cast your Fishing Rod into the Lava"
+			description: [
+				"I've seen all manner of life — if you can call it that — bubbling up from beneath the roiling lava that floods these lower plains. I've also seen &6glints of metals and other treasures&r that would greatly assist my escape from this place."
+				""
+				"With a bit of concentration I can extend some of my power through the otherwise flammable threads to allow a mechanism to &bfish the lava&r depths. It's laborious, but there is always calm to be found in fishing, even here."
+			]
+			dependencies: ["5C0BF701B0990D7C"]
+			min_width: 325
+			id: "535BC7512F991B24"
+			tasks: [{
+				id: "166F4D9CB4C9271D"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0197645283BA6024"
+					type: "item"
+					item: "farmersdelight:fish_stew"
+				}
+				{
+					id: "07D7B145843E0723"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "2239AB70832E3AB4"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "alexsmobs:long_lava_vision"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Warped Forest"
+			icon: "minecraft:warped_nylium"
+			disable_toast: true
+			x: -14.0d
+			y: -3.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "44FACD28DDA3C9B5"
+			tasks: [
+				{
+					id: "1BF803B16DA00C10"
+					type: "item"
+					title: "1 Warped Fungus | Weight 8"
+					disable_toast: true
+					item: "minecraft:warped_fungus"
+				}
+				{
+					id: "4B0497B6BB5DEB2E"
+					type: "item"
+					title: "1 String | Weight 4"
+					disable_toast: true
+					item: "minecraft:string"
+				}
+			]
+		}
+		{
+			title: "Warped Forest"
+			icon: "minecraft:warped_nylium"
+			disable_toast: true
+			x: -9.0d
+			y: -3.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "3BB51DB85CE59DAF"
+			tasks: [
+				{
+					id: "45508907CD9E9FAA"
+					type: "item"
+					title: "1-3 Ender Pearl | Weight 8"
+					disable_toast: true
+					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "3D1D485264107C44"
+					type: "item"
+					title: "1 Copper Ingot | Weight 15"
+					disable_toast: true
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "1365B8529FE0F5CB"
+					type: "item"
+					title: "1-3 Copper Nugget | Weight 8"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "5111EDCC7EE3CB12"
+					type: "item"
+					title: "2-8 Redstone | Weight 8"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "14843DD874C94E52"
+					type: "item"
+					title: "2-8 Lapis Lazuli | Weight 4"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+		}
+		{
+			title: "Crimson Forest"
+			icon: "minecraft:crimson_nylium"
+			disable_toast: true
+			x: -14.0d
+			y: -4.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "3D0B70F8B9F97370"
+			tasks: [
+				{
+					id: "42E80B65AF8B9954"
+					type: "item"
+					title: "1 Leather | Weight 3"
+					disable_toast: true
+					item: "minecraft:leather"
+				}
+				{
+					id: "4FE8F3C3B62D6E4C"
+					type: "item"
+					title: "1 Crimson Fungus | Weight 8"
+					disable_toast: true
+					item: "minecraft:crimson_fungus"
+				}
+				{
+					id: "5981BCC34A163445"
+					type: "item"
+					title: "1 Nether Wart | Weight 10"
+					disable_toast: true
+					item: "minecraft:nether_wart"
+				}
+				{
+					id: "200AE0083611DE05"
+					type: "item"
+					title: "1 String | Weight 4"
+					disable_toast: true
+					item: "minecraft:string"
+				}
+				{
+					id: "6ADD1E7949B3279F"
+					type: "item"
+					title: "1 Cooked Porkchop | Weight 5"
+					disable_toast: true
+					item: "minecraft:cooked_porkchop"
+				}
+			]
+		}
+		{
+			title: "Crimson Forest"
+			icon: "minecraft:crimson_nylium"
+			disable_toast: true
+			x: -9.0d
+			y: -4.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "2CE7A2050E4D7C43"
+			tasks: [
+				{
+					id: "08487988ADDC5CF9"
+					type: "item"
+					title: "1 Gold Ingot | Weight 5"
+					disable_toast: true
+					item: "minecraft:gold_ingot"
+				}
+				{
+					id: "4BC8DACF9A57BDBF"
+					type: "item"
+					title: "1 Gold Nugget | Weight 15"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "7C1BB31FC6829BBE"
+					type: "item"
+					title: "1 Copper Ingot | Weight 15"
+					disable_toast: true
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "147E06231A9BB185"
+					type: "item"
+					title: "1-3 Copper Nugget | Weight 8"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "4FC9FA41C4E58E7A"
+					type: "item"
+					title: "2-8 Redstone Dust | Weight 8"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "7D81C4A25DA4E8D6"
+					type: "item"
+					title: "2-8 Lapis Lazuli | Weight 4"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+		}
+		{
+			title: "Soul Sand Valley"
+			icon: "minecraft:soul_sand"
+			disable_toast: true
+			x: -14.0d
+			y: -5.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "13093E6CE55D2203"
+			tasks: [
+				{
+					id: "34F67CC620D4600B"
+					type: "item"
+					title: "1 Soul Sand | Weight 10"
+					disable_toast: true
+					item: "minecraft:soul_sand"
+				}
+				{
+					id: "6099999D1891A592"
+					type: "item"
+					title: "1 Soul Soil | Weight 10"
+					disable_toast: true
+					item: "minecraft:soul_soil"
+				}
+				{
+					id: "325E18FB065EC396"
+					type: "item"
+					title: "1 Basalt | Weight 10"
+					disable_toast: true
+					item: "minecraft:basalt"
+				}
+				{
+					id: "6F36501561DC284B"
+					type: "item"
+					title: "1 Flint | Weight 5"
+					disable_toast: true
+					item: "minecraft:flint"
+				}
+				{
+					id: "4FC1AB762FE2AC55"
+					type: "item"
+					title: "1 Bonemeal | Weight 10"
+					disable_toast: true
+					item: "minecraft:bone_meal"
+				}
+				{
+					id: "387AEE319C79377B"
+					type: "item"
+					title: "1 Gunpowder | Weight 8"
+					disable_toast: true
+					item: "minecraft:gunpowder"
+				}
+				{
+					id: "44E37CF4CCCEE46F"
+					type: "item"
+					title: "1 Bone | Weight 10"
+					disable_toast: true
+					item: "minecraft:bone"
+				}
+			]
+		}
+		{
+			title: "Soul Sand Valley"
+			icon: "minecraft:soul_sand"
+			disable_toast: true
+			x: -9.0d
+			y: -5.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "678B4D4254032C22"
+			tasks: [
+				{
+					id: "1C4526D6315A52C8"
+					type: "item"
+					title: "1 Ghast Tear | Weight 4"
+					disable_toast: true
+					item: "minecraft:ghast_tear"
+				}
+				{
+					id: "0592B973738F9C6B"
+					type: "item"
+					title: "1 Bone Block | Weight 15"
+					disable_toast: true
+					item: "minecraft:bone_block"
+				}
+				{
+					id: "155EEE88138434C6"
+					type: "item"
+					title: "1 Copper Ingot | Weight 15"
+					disable_toast: true
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "1C51B7063AD2543A"
+					type: "item"
+					title: "1-3 Copper Nuggets | Weight 8"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "764EF550C822BAC7"
+					type: "item"
+					title: "2-8 Redstone | Weight 8"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "641A40358E6C5D2B"
+					type: "item"
+					title: "2-8 Lapis Lazuli | Weight 4"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+		}
+		{
+			title: "Basalt Delta"
+			icon: "minecraft:basalt"
+			disable_toast: true
+			x: -9.0d
+			y: -6.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "6A78E4135B32A9F8"
+			tasks: [
+				{
+					id: "0968E0C6C3E62488"
+					type: "item"
+					title: "1 Copper Ingot | Weight 15"
+					disable_toast: true
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "4052DD5C9F074BDD"
+					type: "item"
+					title: "3-7 Copper Nuggets | Weight 8"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "0E3155909F0BA97B"
+					type: "item"
+					title: "2-8 Redstone Dust | Weight 8"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "0EEF686AAF723E99"
+					type: "item"
+					title: "2-8 Lapis Lazuli | Weight 4"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+		}
+		{
+			title: "Basalt Delta"
+			icon: "minecraft:basalt"
+			disable_toast: true
+			x: -14.0d
+			y: -6.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "02F5DBF6255B2B5D"
+			tasks: [
+				{
+					id: "3E6F0B655CF8D939"
+					type: "item"
+					title: "1 Blackstone | Weight 5"
+					disable_toast: true
+					item: "minecraft:blackstone"
+				}
+				{
+					id: "61D50CE343FC66C9"
+					type: "item"
+					title: "1 Magma Cream | Weight 8"
+					disable_toast: true
+					item: "minecraft:magma_cream"
+				}
+			]
+		}
+		{
+			title: "Nether Waste"
+			icon: "minecraft:netherrack"
+			disable_toast: true
+			x: -14.0d
+			y: -7.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "6C5363531654239A"
+			tasks: [
+				{
+					id: "0A20FD36BCF7A7F6"
+					type: "item"
+					title: "1 Glowstone Dust | Weight 5"
+					disable_toast: true
+					item: "minecraft:glowstone_dust"
+				}
+				{
+					id: "5FBA462AF7CD8432"
+					type: "item"
+					title: "1 Brown Mushroom | Weight 10"
+					disable_toast: true
+					item: "minecraft:brown_mushroom"
+				}
+				{
+					id: "5A12D34A8908612E"
+					type: "item"
+					title: "1 Red Mushroom | Weight 10"
+					disable_toast: true
+					item: "minecraft:red_mushroom"
+				}
+			]
+		}
+		{
+			title: "Nether Waste"
+			icon: "minecraft:netherrack"
+			disable_toast: true
+			x: -9.0d
+			y: -7.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "5DDF2910BC611BA5"
+			tasks: [
+				{
+					id: "3F2501A850EF3BE4"
+					type: "item"
+					title: "1 Nether Quartz | Weight 15"
+					disable_toast: true
+					item: "minecraft:quartz"
+				}
+				{
+					id: "73D09000311FB1A9"
+					type: "item"
+					title: "1 Copper Nugget | Weight 15"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "3EACFF92BAC3CFAD"
+					type: "item"
+					title: "1-3 Copper Nugget | Weight 8"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "65DC21D6809816C9"
+					type: "item"
+					title: "2-8 Redstone Dust | Weight 8"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "3A74B54F3C120D99"
+					type: "item"
+					title: "2-8 Lapis Lazuli | Weight 4"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+		}
+		{
+			title: "Generic Junk"
+			icon: "ftbic:empty_can"
+			disable_toast: true
+			x: -13.0d
+			y: -2.5d
+			shape: "square"
+			subtitle: "A learning experience"
+			description: ["After fishing for a whole day, I realized that instead of crafting new fishing rods, I can just add mending... Great."]
+			hide_dependency_lines: false
+			dependencies: ["03A93EA45228E9C0"]
+			id: "37183175A8DE74D3"
+			tasks: [
+				{
+					id: "1AA9242C4553BB20"
+					type: "item"
+					title: "1-3 Coal | Weight 3"
+					disable_toast: true
+					item: "minecraft:coal"
+				}
+				{
+					id: "0FAF7C255802B0A7"
+					type: "item"
+					title: "1-7 Redstone | Weight 15"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "12296A320840F8AB"
+					type: "item"
+					title: "1 Molten Core | Weight 1"
+					disable_toast: true
+					item: "reliquary:molten_core"
+				}
+				{
+					id: "57A300E33DF1DFD4"
+					type: "item"
+					title: "1 Fire Coral Fan | Weight 3"
+					disable_toast: true
+					item: "minecraft:fire_coral_fan"
+				}
+				{
+					id: "710DFA65C77FCB9E"
+					type: "item"
+					title: "1 Propelpearl | Weight 3"
+					disable_toast: true
+					item: "nethersdelight:propelpearl"
+				}
+				{
+					id: "03C1C261FC574A89"
+					type: "item"
+					title: "1-3 Copper Ingot | Weight 10"
+					disable_toast: true
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "5BD3DAAEE4A3B9CC"
+					type: "item"
+					title: "1 Blaze Powder | Weight 2"
+					disable_toast: true
+					item: "minecraft:blaze_powder"
+				}
+			]
+			rewards: [{
+				id: "4D116085D977DB31"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						RepairCost: 7
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 1s
+								id: "minecraft:mending"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:luck_of_the_sea"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:unbreaking"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"Rod of the Infero\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Generic Treasure"
+			icon: "reliquary:fortune_coin"
+			disable_toast: true
+			x: -10.0d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Always a good time"
+			description: ["I can also find Enchanted Books with \"Soul Speed\", enchanted Bows, and Fishing Rods from this Pool!"]
+			dependencies: ["03A93EA45228E9C0"]
+			id: "37B6F7FF6F4E1498"
+			tasks: [
+				{
+					id: "0B98FD587604BFE7"
+					type: "item"
+					title: "1 Blaze Rod | Weight 15"
+					disable_toast: true
+					item: "minecraft:blaze_rod"
+				}
+				{
+					id: "0E37C7622EB31B33"
+					type: "item"
+					title: "1 Copper Ingot | Weight 15"
+					disable_toast: true
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "50EA5B9379802528"
+					type: "item"
+					title: "1-3 Copper Nugget | Weight 8"
+					icon: "ftbic:copper_nugget"
+					disable_toast: true
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:nuggets/copper"
+						}
+					}
+				}
+				{
+					id: "4BE17BCD18514B96"
+					type: "item"
+					title: "2-8 Redstone Dust | Weight 8"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "06197B139F5DE64E"
+					type: "item"
+					title: "2-8 Lapis Lazuli | Weight 4"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+			rewards: [{
+				id: "7985B19EE553C29F"
+				type: "item"
+				item: {
+					id: "apotheosis:potion_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Potion: "alexsmobs:soulsteal"
+					}
+				}
+			}]
+		}
+		{
+			title: "Growing Ancient Magic"
+			x: -5.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "Learn how to grow non-nether trees"
+			description: [
+				"Some of the flora in this realm &cdoesn't thrive enough to reproduce&r. Despite my efforts, they languish and decay."
+				""
+				"My &6Botany Pots&r contain &ojust&r enough magic to allow them to survive."
+				""
+				"&oSome trees (or tree-like things, like Coral) do not drop Saplings, but grow continuously in Bonsai Pots."
+			]
+			dependencies: ["118612040F3AE9F7"]
+			id: "1850C606348A5494"
+			tasks: [{
+				id: "1A0483E1E94AE740"
+				type: "item"
+				item: "naturesaura:ancient_sapling"
+			}]
+			rewards: [
+				{
+					id: "46E67C0E2234E645"
+					type: "item"
+					item: "tconstruct:earth_slime_sapling"
+				}
+				{
+					id: "6BC7BF12B849C81B"
+					type: "item"
+					item: "tconstruct:earth_slime_dirt"
+				}
+			]
+		}
+		{
+			title: "Lava Fishing"
+			x: -11.5d
+			y: -5.0d
+			shape: "square"
+			subtitle: "Nothing I love more than a quaint volcano lair"
+			description: [
+				"It seems fishing in Lava works somewhat similarly to fishing in Water. Cast the hook, wait for a bite, and reel it in."
+				""
+				"Like the living world, fishing has a chance of grabbing both &cjunk&r and &6treasures&r. It also seems that &bthe biome is a factor&r in what is gathered."
+				""
+				"On the left, I've listed all the different &bJunk&r that can be found, as well as their biomes. On the right, I've done the same for &bTreasures&r."
+			]
+			dependencies: ["535BC7512F991B24"]
+			min_width: 275
+			id: "03A93EA45228E9C0"
+			tasks: [{
+				id: "28BB8F3D174C32DF"
+				type: "checkmark"
+				icon: "minecraft:lava_bucket"
+			}]
+			rewards: [{
+				id: "1617DDD95B219FA8"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:luck"
+					}
+				}
+			}]
+		}
+		{
+			title: "H2O my Beloved"
+			x: -11.5d
+			y: 2.0d
+			shape: "square"
+			subtitle: "What I wouldn't give for a glass of ice water..."
+			description: [
+				"While my first attempts at siphoning water to this realm have been failures, I know success is right around the corner. It turns out my minions can emulate a form of water in their building and as such I've stabilized some in the Fisher's Hut as an experiment."
+				""
+				"Once my minions have created a stable source of water via a &6Fisher's Hut&r, my magic will &6allow my Fishing Rod to access my normal reality&r through this psuedo water."
+				""
+				"Unfortunately, I can't choose where I fish from or what biome my lure will end up in. I'll take what I can get though."
+				""
+				"I've cataloged lists of &6treasures, junks, and the rest&r that I can find."
+			]
+			dependencies: ["535BC7512F991B24"]
+			min_width: 275
+			id: "3D9659853F508B0C"
+			tasks: [{
+				id: "6A47F2C1BDB07B50"
+				type: "checkmark"
+				icon: "minecraft:water_bucket"
+			}]
+			rewards: [
+				{
+					id: "5D98A07BA1FBE07F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "32905BBBBA15E777"
+					type: "item"
+					item: "farmersdelight:kelp_roll"
+				}
+			]
+		}
+		{
+			title: "Treasures from Water"
+			icon: "reliquary:fortune_coin"
+			disable_toast: true
+			x: -9.5d
+			y: 2.0d
+			shape: "square"
+			dependencies: ["3D9659853F508B0C"]
+			id: "7157213FA2345405"
+			tasks: [
+				{
+					id: "732DDCAFAAF22AC0"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:nautilus_shell"
+				}
+				{
+					id: "7A545936B6CEA53F"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:kelp"
+				}
+				{
+					id: "0F257A8F154815EF"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "16D23212D8F4D691"
+					type: "item"
+					disable_toast: true
+					item: "reliquary:guardian_spike"
+				}
+				{
+					id: "79ECCE55FCA5144B"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "minecolonies:ancienttome"
+						Count: 1b
+						tag: {
+							raidWillHappen: 0b
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0F23C406A4F73BBE"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 9s
+								id: "minecraft:sharpness"
+							}]
+						}
+					}
+				}
+				{
+					id: "6E5D06BC1929C121"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "minecraft:looting"
+							}]
+						}
+					}
+				}
+				{
+					id: "1E8C80FA4ACD2B74"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Junk from Water"
+			icon: "ftbic:empty_can"
+			disable_toast: true
+			x: -13.5d
+			y: 2.0d
+			shape: "square"
+			dependencies: ["3D9659853F508B0C"]
+			id: "4A647E320FF1B849"
+			tasks: [
+				{
+					id: "5F614F32AD3A9DB4"
+					type: "item"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "3B87675271850292"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:ink_sac"
+				}
+				{
+					id: "4EDC546ABB098FBC"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:lily_pad"
+				}
+				{
+					id: "1CF577EF27EB4727"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:kelp"
+				}
+				{
+					id: "5522E71B3CA6C7DB"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:sea_pickle"
+				}
+				{
+					id: "4F907B6AFD616DC0"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "105B03FC4033D9EC"
+				type: "item"
+				item: {
+					id: "alexsmobs:flying_fish_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Common Finds"
+			icon: "alexsmobs:fish_bones"
+			disable_toast: true
+			x: -11.5d
+			y: 4.0d
+			shape: "square"
+			dependencies: ["3D9659853F508B0C"]
+			id: "55500EFD87E2FD59"
+			tasks: [
+				{
+					id: "269C362C97BCD0EB"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:salmon"
+				}
+				{
+					id: "438653134BA98041"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cod"
+				}
+				{
+					id: "656B1055A81FD11A"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:tropical_fish"
+				}
+				{
+					id: "3353905B663808D7"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:pufferfish"
+				}
+				{
+					id: "1DE90BA585993177"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+			rewards: [
+				{
+					id: "5BDC3F4937A583F1"
+					type: "item"
+					item: "minecraft:sea_pickle"
+					count: 4
+				}
+				{
+					id: "27F1491752DD5621"
+					type: "item"
+					item: "alexsdelight:lobster_pasta"
+				}
+			]
+		}
+		{
+			title: "Barking Up the Wrong Tree"
+			x: -6.0d
+			y: -6.0d
+			shape: "square"
+			subtitle: "Get Tree Bark"
+			description: [
+				"The disorganized, vein-like appearance of the wood here is the opposite of appealing. I can scrape the &bTree Bark&r off with an Axe, which has the added benefit that it can be made into Paper."
+				""
+				"I can also use a &6Cutting Board&r instead. I've made a rudimentary contraption to do the work for me, stored in this Capsule."
+				""
+				"I suspect many other things could be similarly automated on this cutting board. "
+			]
+			dependencies: ["25E90C8154CF725D"]
+			min_width: 325
+			id: "1904BBF6EC27CD1A"
+			tasks: [{
+				id: "633EC2F92860AB39"
+				type: "item"
+				item: "farmersdelight:tree_bark"
+			}]
+			rewards: [{
+				id: "637C2633D626D8AE"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						color: 0
+						size: 5
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/woodstripper.nbt"
+						author: "IRSMoh_"
+						display: {
+							color: 8388608
+							Name: "{\"text\":\"Automated Woodstripper\"}"
+						}
+						state: 5
+						label: "Woodstripper.nbt"
+						canRotate: 0b
+					}
+				}
+			}]
+		}
+		{
+			title: "Dragon Glass"
+			x: -4.0d
+			y: -4.0d
+			shape: "square"
+			subtitle: "Hard as.. Glass?"
+			description: [
+				"When a Lava source makes contact with Water, it converts into &bObsidian&r."
+				""
+				"Water does not last long here, at least when placed by me. I'll have to &6make a canal from the Fisher's Hut&r, to preserve the original sources."
+			]
+			dependencies: [
+				"4E07E560443913CB"
+				"5D04E725BEF2F98C"
+			]
+			id: "2F1E6BFBCD59CF57"
+			tasks: [{
+				id: "192F1D75DDDFD3ED"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+			rewards: [
+				{
+					id: "01E72C3EDF327842"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 8
+				}
+				{
+					id: "6A65027692237B23"
+					type: "item"
+					item: "apotheosis:obsidian_arrow"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "The Biome Blues"
+			x: -11.5d
+			y: -7.5d
+			shape: "square"
+			subtitle: "To Boldly Go..."
+			description: [
+				"Many of the varied resources I will need to obtain to make my escape are scattered throughout the land. "
+				""
+				"Sure, I can explore manually and my map does a great job of charting the biomes I've visited but sometimes I just need a specific terrain."
+				""
+				"By creating a biome compass I can channel my magic into pinpointing exactly where the resources are, saving me much frustration in the days to come."
+			]
+			dependencies: ["03A93EA45228E9C0"]
+			min_width: 300
+			id: "199213E533655B1C"
+			tasks: [{
+				id: "00580C867C6370B7"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5199A98CF47A83D9"
+				type: "item"
+				item: {
+					id: "ars_nouveau:warp_scroll"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "But Not a Drop to Drink"
+			x: -5.0d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Collect water"
+			description: [
+				"Now that I have a stable source of &bWater&r from the &6Fisher's Hut&r, I can &6siphon little amounts using Bottles&r to not disturb the source block."
+				""
+				"I can then &6drain these Bottles in the Smeltery&r, where the Water is protected from their environment."
+				""
+				"From there, I can simply &6cast the Water into an empty Bucket&r."
+				""
+			]
+			dependencies: ["4E07E560443913CB"]
+			min_width: 225
+			id: "5D04E725BEF2F98C"
+			tasks: [{
+				id: "1E460348EB31D99D"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+			rewards: [{
+				id: "016611F860357F34"
+				type: "item"
+				item: "engineersdecor:fluid_barrel"
+			}]
+		}
+	]
+}

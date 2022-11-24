@@ -1,0 +1,1528 @@
+{
+	id: "7CF6C3436646E8C9"
+	group: "3165B92DB1BC8401"
+	order_index: 4
+	filename: "storage"
+	title: "Tiamat's Horde"
+	icon: "ironchest:crystal_chest"
+	subtitle: ["Storage and automation"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Pipe Dream"
+			icon: "prettypipes:pipe"
+			x: 4.0d
+			y: -2.0d
+			subtitle: "Make Pipe"
+			description: [
+				"&bPipes&r are the base of all complex automation."
+				""
+				"Pipes by themselves do nothing. They do not pull and they do not push, nor can they be pushed into."
+				""
+				"&bModules&r must be installed on the inputs/outputs, to decide how they work."
+				""
+				"{image:inferno:textures/quest/pretty_pipes.png width:1000 height:558 align:1 fit:true}"
+			]
+			dependencies: ["7FC5815931F8BD38"]
+			min_width: 300
+			id: "2291F7197FD47DF2"
+			tasks: [
+				{
+					id: "0D2A7FDBB344F48B"
+					type: "item"
+					item: "prettypipes:pipe"
+				}
+				{
+					id: "2EF2F4A94904A261"
+					type: "item"
+					title: "Extraction/Retrieval Modules"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "prettypipes:low_extraction_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:medium_extraction_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:high_extraction_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:low_retrieval_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:medium_retrieval_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:high_retrieval_module"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "75EB9FE0654B9950"
+					type: "item"
+					item: "prettypipes:pipe"
+					count: 16
+				}
+				{
+					id: "20208CC771062089"
+					type: "item"
+					item: "prettypipes:wrench"
+				}
+				{
+					id: "465C92D0AC35DCA4"
+					type: "item"
+					item: "ppfluids:fluid_pipe"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Blood Crystals"
+			icon: "ae2:certus_quartz_crystal"
+			x: 10.5d
+			y: -1.5d
+			subtitle: "Grow Certus Quartz Crystals"
+			description: [
+				"I can bind the Dust into &bCertus Quartz Seeds&r, which crystallize in a water sollution. This happens at an &cunacceptably slow speed&r, however."
+				""
+				"While pondering the problem, I felt a compulsion. In my stupor, &4I soaked the Seeds in Blood&r. I only snapped out of it when I felt the rapidly growing Crystals pierce my skin."
+				""
+				"&oRequires specifically Biomes o' Plenty's Blood&r"
+			]
+			dependencies: ["4C35566F7A3F95BE"]
+			min_width: 250
+			id: "5CC06D18F8AA0DF9"
+			tasks: [
+				{
+					id: "6F5B26417B0CE09E"
+					type: "item"
+					item: "ae2:certus_crystal_seed"
+				}
+				{
+					id: "06D254677971F2FC"
+					type: "item"
+					item: "ae2:certus_quartz_crystal"
+				}
+			]
+			rewards: [{
+				id: "47FA0057CBFE9DA7"
+				type: "item"
+				item: "ae2:certus_crystal_seed"
+				count: 64
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.5d
+			subtitle: "Make Silicon"
+			description: [
+				"While working, I was suddenly seized by a vision; a &5prophetic dream&r."
+				""
+				"I saw an advanced race lost to the darkness between worlds."
+				""
+				"I saw a crystalline technology that rivaled magic itself."
+				""
+				"I saw myself at the helm."
+				""
+				"This will be mine."
+			]
+			dependencies: ["4C35566F7A3F95BE"]
+			min_width: 250
+			id: "0E7718635772A156"
+			tasks: [{
+				id: "0829E5EA06AC005D"
+				type: "item"
+				item: "ae2:silicon"
+			}]
+			rewards: [{
+				id: "347CF88CE02498EE"
+				type: "item"
+				item: "ae2:silicon"
+				count: 16
+			}]
+		}
+		{
+			title: "Eureka!"
+			icon: "ae2:printed_logic_processor"
+			x: 9.5d
+			y: 0.0d
+			subtitle: "Print some Circuits"
+			description: [
+				"Through meditation, I've recalled the designs of the &bCircuits&r I saw in my dream."
+				""
+				"These Circuits seem to be &6built for an unfamiliar energy&r, unlike what I've seen before."
+			]
+			dependencies: [
+				"0E7718635772A156"
+				"5CC06D18F8AA0DF9"
+			]
+			min_width: 225
+			id: "70C8CB521B147252"
+			tasks: [
+				{
+					id: "45F5A14A1028ED5A"
+					type: "item"
+					item: "ae2:printed_silicon"
+				}
+				{
+					id: "378EEBECC5F06221"
+					type: "item"
+					item: "ae2:printed_logic_processor"
+				}
+				{
+					id: "46BF66153026DA6E"
+					type: "item"
+					item: "ae2:printed_calculation_processor"
+				}
+			]
+			rewards: [
+				{
+					id: "387041692A187A84"
+					type: "item"
+					item: "ae2:printed_silicon"
+					count: 16
+				}
+				{
+					id: "20F8527D964401C4"
+					type: "advancement"
+					auto: "enabled"
+					advancement: "ae2:main/presses"
+					criterion: ""
+				}
+			]
+		}
+		{
+			title: "Any Sufficiently Advanced Technology..."
+			x: 9.5d
+			y: -3.0d
+			subtitle: "Get Certus Quartz Dust"
+			description: [
+				"While tinkering at the Mixing Cauldron, I've accidentally created... this."
+				""
+				"This pile of &bCertus Quartz Dust&r absorbed a small amount of matter, and readily spat it back out when prompted."
+				""
+				"In this form, it's effectively a desk toy. It has massive potential, however."
+			]
+			dependencies: ["105D0A853D0574B2"]
+			id: "4C35566F7A3F95BE"
+			tasks: [{
+				id: "25A22A62C82F77B1"
+				type: "item"
+				item: "ae2:certus_quartz_dust"
+			}]
+			rewards: [{
+				id: "208D3C522C441C54"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 16
+			}]
+		}
+		{
+			title: "Fluix"
+			icon: "ae2:fluix_crystal"
+			x: 12.5d
+			y: 1.5d
+			subtitle: "Grow a Fluix Crystal"
+			description: [
+				"Most of the technology I saw was made of &bFluix&r."
+				""
+				"Grown in the same way as Certus Quartz Crystals."
+			]
+			dependencies: ["4E3120210DC26A9E"]
+			id: "4C7077295A32CCA3"
+			tasks: [
+				{
+					id: "21B25AA963E39A15"
+					type: "item"
+					item: "ae2:fluix_crystal_seed"
+				}
+				{
+					id: "37E635D87C00A201"
+					type: "item"
+					item: "ae2:fluix_crystal"
+				}
+			]
+		}
+		{
+			title: "Time is Money"
+			icon: "prettypipes:low_speed_module"
+			x: 5.5d
+			y: -2.0d
+			shape: "square"
+			subtitle: "Make a Speed Increase Module"
+			description: ["&bSpeed Increase Modules&r can be used with Extraction Modules to &6make items exit much faster&r."]
+			dependencies: ["2291F7197FD47DF2"]
+			id: "7C2173E4A80ED8D6"
+			tasks: [{
+				id: "17A388DAA6AEA324"
+				type: "item"
+				title: "Speed Increase Modules"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "prettypipes:low_speed_module"
+								Count: 1b
+							}
+							{
+								id: "prettypipes:medium_speed_module"
+								Count: 1b
+							}
+							{
+								id: "prettypipes:high_speed_module"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			shape: "square"
+			subtitle: "Make a Pipe Pressurizer"
+			description: ["The &bPipe Pressurizer&r will &6increase the speed all items move&r, but requires FE."]
+			dependencies: ["2291F7197FD47DF2"]
+			id: "235C48FA155B898E"
+			tasks: [{
+				id: "25D8D0D56E7979B5"
+				type: "item"
+				item: "prettypipes:pressurizer"
+			}]
+		}
+		{
+			icon: "prettypipes:round_robin_sorting_modifier"
+			x: 5.5d
+			y: -0.5d
+			shape: "square"
+			subtitle: "Make a Sorting and a Filtering Module"
+			description: [
+				"&bSorting Modules&r allow me to choose the order of inventories items try to go to."
+				""
+				"&bFiltering Modules&r allow me to choose what items are allowed to enter what inventories."
+			]
+			dependencies: ["2291F7197FD47DF2"]
+			id: "32D0FCBCC414C781"
+			tasks: [
+				{
+					id: "18F474EFF8D91767"
+					type: "item"
+					title: "Sorting Modules"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "prettypipes:low_low_priority_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:medium_low_priority_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:high_low_priority_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:low_high_priority_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:medium_high_priority_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:high_high_priority_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:round_robin_sorting_modifier"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:random_sorting_modifier"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "6CB875BB980E2BD6"
+					type: "item"
+					title: "Filtering Modules"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "prettypipes:high_filter_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:damage_filter_modifier"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:nbt_filter_modifier"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:mod_filter_modifier"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:tag_filter_modifier"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:filter_increase_modifier"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Crafting Terminal"
+			x: 2.5d
+			y: -2.0d
+			shape: "square"
+			subtitle: "Make an Item Terminal"
+			description: [
+				"The &bCrafting Terminal&r allows me to &6access the contents of all inventories connected with Pipes&r."
+				""
+				"{image:inferno:textures/quest/pp_item_terminal.png width:1000 height:558 align:1 fit:true}"
+				""
+				"The &bCrafting Terminal&r allows me to &6request crafting ingredients&r for recipes all at once, rather than requesting each item individually."
+				""
+				"Crafting it is beyond me for now, but &6my Mechanic can craft it fine&r. Once they've done so, I'll reverse engineer it to craft more myself."
+				""
+				"&oYou can use JEI's [+] button to set recipes&r"
+			]
+			dependencies: ["2291F7197FD47DF2"]
+			size: 1.25d
+			id: "7378077C38CBF5EC"
+			tasks: [{
+				id: "517F42EEB9668E20"
+				type: "item"
+				item: "prettypipes:crafting_terminal"
+			}]
+			rewards: [
+				{
+					id: "5CA7B5339349F21B"
+					type: "item"
+					item: "prettypipes:stack_size_module"
+					count: 2
+				}
+				{
+					id: "7696F13ABCBDE762"
+					type: "item"
+					item: "prettypipes:low_retrieval_module"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			shape: "square"
+			subtitle: "Make a Stack Limiter Module"
+			description: ["The &bStack Limiter Module&r will &6stop items from entering if there's already a specific amount inside&r."]
+			dependencies: ["2291F7197FD47DF2"]
+			id: "59FA447ABB1D62CE"
+			tasks: [{
+				id: "74C959BE0A0BAC6E"
+				type: "item"
+				item: "prettypipes:stack_size_module"
+			}]
+		}
+		{
+			icon: "storagedrawers:warped_full_drawers_2"
+			x: 4.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "Make a Drawer"
+			description: [
+				"&bDrawers&r excell at storing a large amount of a single item."
+				""
+				"The more slots, the more unique items, but the lower max amount for each."
+			]
+			dependencies: ["55099E0F763B39CA"]
+			id: "4507C3F52A1129A2"
+			tasks: [{
+				id: "68B00795C4B6462F"
+				type: "item"
+				title: "Drawers"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:not"
+								Count: 1b
+								tag: {
+									items: [{
+										id: "fluiddrawerslegacy:fluiddrawer"
+										Count: 1b
+										tag: { }
+									}]
+								}
+							}
+							{
+								id: "itemfilters:tag"
+								Count: 1b
+								tag: {
+									value: "storagedrawers:drawers"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "11CC725F433C1905"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+				count: 8
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			shape: "square"
+			subtitle: "Make Compacting Drawers"
+			description: [
+				"&bCompacting Drawers&r will store items in the &6block, ingot, and nugget forms&r, allowing instant conversion between."
+				""
+				"This &cdoes not play well with automatic requesters&r like Item Terminals, however, as it falsely claims to hold all three at the same time."
+			]
+			dependencies: ["4507C3F52A1129A2"]
+			id: "5732AD9761689269"
+			tasks: [{
+				id: "68B15C2D951EF071"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			shape: "square"
+			subtitle: "Make a Drawer Controller"
+			description: [
+				"The &bDrawer Controller&r allows me to &6access all connected Drawers&r using Pipes etc."
+				""
+				"When interacting with automation, the Drawer Controller pretends that it is a single inventory made of all the connected Drawers."
+			]
+			dependencies: ["4507C3F52A1129A2"]
+			id: "2875E19DF0310A2A"
+			tasks: [{
+				id: "46671515EFB9043A"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			rewards: [{
+				id: "6EF1128189667EBA"
+				type: "item"
+				item: "ae2:storage_bus"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			shape: "square"
+			subtitle: "Make a Drawer Key"
+			description: ["The &bDrawer Key&r allows me to &6lock Drawers&r, so they don't accept other items even when emptied."]
+			dependencies: ["4507C3F52A1129A2"]
+			id: "4164B7E476DE4814"
+			tasks: [{
+				id: "77A4B48887BCF45E"
+				type: "item"
+				item: "storagedrawers:drawer_key"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			shape: "square"
+			subtitle: "Make a Fluid Drawer"
+			description: [
+				"&bFluid Drawers&r store fluid like Drawers store items."
+				""
+				"They accept (almost) all the same upgrades Drawers do."
+			]
+			dependencies: ["4507C3F52A1129A2"]
+			id: "73EB2812798F71A7"
+			tasks: [{
+				id: "22CAF40F60984968"
+				type: "item"
+				item: {
+					id: "fluiddrawerslegacy:fluiddrawer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.0d
+			shape: "square"
+			subtitle: "Make a Chest"
+			description: [
+				"The &bChest&r. A classic."
+				""
+				"Has 27 slots."
+			]
+			dependencies: ["55099E0F763B39CA"]
+			id: "0EED25F2CDD72AE1"
+			tasks: [{
+				id: "516A3707B7EACFDF"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "6F96ECC2035E8F2E"
+				type: "item"
+				item: "minecolonies:blockminecoloniesrack"
+				count: 4
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.0d
+			shape: "square"
+			subtitle: "Make an Iron Chest"
+			description: ["The &bIron Chest&r has 54 slots."]
+			dependencies: ["0EED25F2CDD72AE1"]
+			id: "20CB93B209B43F52"
+			tasks: [{
+				id: "782483E6F602A76E"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+			rewards: [{
+				id: "40205A0DD2825D7E"
+				type: "item"
+				item: "ironchest:wood_to_iron_chest_upgrade"
+				count: 4
+			}]
+		}
+		{
+			x: 6.5d
+			y: -6.0d
+			shape: "square"
+			subtitle: "Make a Gold Chest"
+			description: ["The &bGold Chest&r has 81 slots."]
+			dependencies: ["20CB93B209B43F52"]
+			id: "76ACDCBC894D5529"
+			tasks: [{
+				id: "18932D5FFB74C9E0"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+			rewards: [{
+				id: "29255AA4254E3E41"
+				type: "item"
+				item: "ironchest:iron_to_gold_chest_upgrade"
+				count: 4
+			}]
+		}
+		{
+			x: 7.5d
+			y: -6.0d
+			shape: "square"
+			subtitle: "Make a Diamond Chest"
+			description: ["The &bDiamond Chest&r has 108 slots."]
+			dependencies: ["76ACDCBC894D5529"]
+			id: "37A9CC1267FBB5EB"
+			tasks: [{
+				id: "79B33983EEE9EE15"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+			rewards: [{
+				id: "034EB39DA8FF2C46"
+				type: "item"
+				item: "ironchest:gold_to_diamond_chest_upgrade"
+				count: 4
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.0d
+			shape: "square"
+			subtitle: "Make an Obsidian Chest"
+			description: ["The &bObsidian Chest&r has 108 slots, but is explosion-proof."]
+			dependencies: ["37A9CC1267FBB5EB"]
+			id: "3EBBE1DF784FD1A4"
+			tasks: [{
+				id: "3E6F9B834F039687"
+				type: "item"
+				item: "ironchest:obsidian_chest"
+			}]
+			rewards: [{
+				id: "6A4C6D9EABE27526"
+				type: "item"
+				item: "ironchest:diamond_to_obsidian_chest_upgrade"
+				count: 4
+			}]
+		}
+		{
+			title: "Matter to Energy"
+			x: 9.5d
+			y: 1.5d
+			subtitle: "Make an Energy Acceptor"
+			description: [
+				"I've implemented these Circuits into the &bEnergy Acceptor&r, which can &6converts the energy I know into this crystal energy&r."
+				""
+				"These crystals, and the energy they provide, excell at &6converting matter to energy and back&r. As such, I've decided to name it &dMatter Energy&r! ME for short. Each ME is worth 2 FE."
+				""
+				"&oME energy is just AE energy renamed"
+			]
+			dependencies: ["70C8CB521B147252"]
+			min_width: 275
+			id: "464B540C593CE2A2"
+			tasks: [{
+				id: "6FD2646333896E51"
+				type: "item"
+				item: "ae2:energy_acceptor"
+			}]
+			rewards: [{
+				id: "49D89C51554E0681"
+				type: "item"
+				item: "ae2:vibration_chamber"
+				count: 3
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.5d
+			subtitle: "Make a Charger"
+			description: [
+				"The &bCharger&r can &6empower certain items&r with ME."
+				""
+				"This is particularly useful for &6Charged Certus Quartz&r."
+			]
+			dependencies: ["464B540C593CE2A2"]
+			id: "4E3120210DC26A9E"
+			tasks: [{
+				id: "32B42453FA072C63"
+				type: "item"
+				item: "ae2:charger"
+			}]
+			rewards: [{
+				id: "312D898F279777D8"
+				type: "item"
+				item: "ae2:charged_certus_quartz_crystal"
+				count: 8
+			}]
+		}
+		{
+			title: "Transferance"
+			icon: "ae2:fluix_glass_cable"
+			x: 12.5d
+			y: 0.0d
+			subtitle: "Make Fluix ME Glass Cable"
+			description: [
+				"My early prototypes for &bME Cables&r were highly prone to interference. As such, my latest version splits connections into &6channels&r."
+				""
+				"Powered by the Energy Acceptor, basic Cables can support &6up to 32 channels&r. Each added device takes up a channel."
+				""
+				"&bDense ME Cables&r can support &6up to 128 channels&r, but &ccannot connect to devices&r."
+				""
+				"&oThe max amount of channels has been boosted by 4x!"
+			]
+			dependencies: ["4C7077295A32CCA3"]
+			min_width: 250
+			id: "2FF85191B27375BA"
+			tasks: [{
+				id: "2B68948662BEE92D"
+				type: "item"
+				title: "ME Cables"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ae2:fluix_glass_cable"
+								Count: 1b
+							}
+							{
+								id: "ae2:fluix_smart_cable"
+								Count: 1b
+							}
+							{
+								id: "ae2:fluix_smart_dense_cable"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A2E8DA810471947"
+				type: "item"
+				item: "ae2:fluix_smart_cable"
+				count: 32
+			}]
+		}
+		{
+			title: "Assuming Direct Control"
+			icon: "ae2:cable_interface"
+			x: 14.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "Make an ME Interface"
+			description: [
+				"The &bME Interface&r allows me to connect my ME network to interact with outside automation."
+				""
+				"I can place 9 items in the Config slots, and the Interface will keep those items on hand, available to be pulled out via Pipes and the like."
+				""
+				"Any items inserted into the Interface from outside the network will enter the network's storage."
+			]
+			dependencies: ["2FF85191B27375BA"]
+			id: "1B7E082459567B7C"
+			tasks: [{
+				id: "16FC509945E0A218"
+				type: "item"
+				title: "ME Interface"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ae2:cable_interface"
+								Count: 1b
+							}
+							{
+								id: "ae2:interface"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "03ED5E344A96DD42"
+				type: "item"
+				item: "ae2:speed_card"
+				count: 6
+			}]
+		}
+		{
+			title: "Instantaneous Infernal Inception"
+			icon: "ae2:terminal"
+			x: 15.5d
+			y: 0.0d
+			subtitle: "Make an ME Terminal"
+			description: [
+				"Now that I've connected my network into a centralized storage location, all that remains is to &6allow myself to access the contents&r."
+				""
+				"The &bME Terminal&r will &6display the contents of all inventories and tanks&r connected to the network. With just a thought, I can summon the items from their location to myself, as well as the opposite."
+			]
+			dependencies: ["43B98C1A57C7301B"]
+			min_width: 225
+			id: "3F7C6770BB85BCE4"
+			tasks: [{
+				id: "781EE1879D869CA7"
+				type: "item"
+				title: "Terminals"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ae2:terminal"
+								Count: 1b
+							}
+							{
+								id: "ae2:crafting_terminal"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "43767301D69A1D3B"
+					type: "item"
+					item: "ae2:pattern_encoding_terminal"
+				}
+				{
+					id: "5A17D9B53963420E"
+					type: "item"
+					item: "ae2:pattern_access_terminal"
+				}
+				{
+					id: "36BBF33698F0FB4F"
+					type: "item"
+					item: {
+						id: "ae2:dense_energy_cell"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "Crafting CPU"
+			icon: "ae2:crafting_accelerator"
+			x: 17.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Make a Crafting CPU"
+			description: [
+				"I grow tired of relying on my minions to craft items. My digital network can do so much better."
+				""
+				"The &bCrafting CPU&r multiblock is made of &bCrafting Storage&r and &bCrafting Co-Processing Units&r, and allows me to &6request my network craft items/fluids automatically&r."
+			]
+			dependencies: ["3F7C6770BB85BCE4"]
+			id: "6AA8BEA8D7BC9C41"
+			tasks: [
+				{
+					id: "76BA71FE8D2BF3F2"
+					type: "item"
+					title: "Crafting Storage"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "ae2:1k_crafting_storage"
+									Count: 1b
+								}
+								{
+									id: "ae2:4k_crafting_storage"
+									Count: 1b
+								}
+								{
+									id: "ae2:16k_crafting_storage"
+									Count: 1b
+								}
+								{
+									id: "ae2:64k_crafting_storage"
+									Count: 1b
+								}
+								{
+									id: "ae2:256k_crafting_storage"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "3E3268331E2547C4"
+					type: "item"
+					item: "ae2:crafting_accelerator"
+				}
+			]
+			rewards: [{
+				id: "05A4F0950C6C531B"
+				type: "item"
+				item: "ae2:crafting_monitor"
+				count: 3
+			}]
+		}
+		{
+			icon: "ae2:cable_pattern_provider"
+			x: 17.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "Make an ME Pattern Provider"
+			description: [
+				"In order to actually craft a recipe, my network has to know what the recipe is."
+				""
+				"I can encode &6Patterns&r at the &6ME Pattern Encoding Terminal&r, and then insert them into an &bME Pattern Provider&r."
+				""
+				"When my network requests that item be crafted, the Provider will send the ingredients to the adjacent inventory. Normal 3x3 crafting recipes should be sent to &bMolecular Assemblers&r."
+				""
+				"For processing recipes (Furnaces, machines, etc), I will &6have to move the item back into the network&r. I can just use Pipes or the like to send them back to the Provider."
+			]
+			dependencies: ["6AA8BEA8D7BC9C41"]
+			min_width: 275
+			id: "00633EAEC678A9FA"
+			tasks: [
+				{
+					id: "697EB1EC0C20F71A"
+					type: "item"
+					title: "ME Pattern Provider"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "ae2:cable_pattern_provider"
+									Count: 1b
+								}
+								{
+									id: "ae2:pattern_provider"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "6621F47FF0AE045C"
+					type: "item"
+					item: "ae2:molecular_assembler"
+				}
+			]
+			rewards: [
+				{
+					id: "76B7F13262301680"
+					type: "item"
+					item: "ae2:pattern_encoding_terminal"
+				}
+				{
+					id: "297FD1BAD95AF8B3"
+					type: "item"
+					item: "ae2:blank_pattern"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "The Singularity Engine"
+			icon: "ae2:singularity"
+			x: 15.5d
+			y: 1.5d
+			shape: "circle"
+			subtitle: "Make a Singularity"
+			description: [
+				"A &bSingularity&r contains such mass that it collapses into a single point, where density is infinitely dense."
+				""
+				"I can craft these in the &bMatter Condenser&r, which does not need power."
+				""
+				"I'll have to set it to output Singularities, and it needs a &6256k ME Storage Component&r to fill."
+				""
+				"The Condenser &6accepts fluids&r..."
+			]
+			dependencies: ["3F7C6770BB85BCE4"]
+			min_width: 225
+			id: "737F2BF851137A16"
+			tasks: [
+				{
+					id: "5240CA7E98D38112"
+					type: "item"
+					item: "ae2:condenser"
+				}
+				{
+					id: "046810F747426B2F"
+					type: "item"
+					item: "ae2:singularity"
+				}
+			]
+			rewards: [{
+				id: "332D5C13762299D3"
+				type: "item"
+				item: "ae2:cell_component_256k"
+			}]
+		}
+		{
+			title: "6G"
+			icon: "ae2:wireless_terminal"
+			x: 15.5d
+			y: -1.5d
+			shape: "square"
+			subtitle: "Make a Wireless ME setup"
+			description: [
+				"What's the point of centralizing all my storage if I still have to go there to access it?"
+				""
+				"The &bME Wireless Access Point&r emits an intangible stream of ME into the surroundings, ready to be harnessed by a &bWireless Terminal&r."
+				""
+				"An &bME Security Terminal&r is required for me to connect the Terminal to the network."
+			]
+			dependencies: ["3F7C6770BB85BCE4"]
+			min_width: 275
+			id: "7549B7F5E64F8759"
+			tasks: [
+				{
+					id: "200BBCA2D3D454B7"
+					type: "item"
+					item: "ae2:wireless_access_point"
+				}
+				{
+					id: "6E129195ABF6A91D"
+					type: "item"
+					item: "ae2:security_station"
+				}
+				{
+					id: "3A5706B354495191"
+					type: "item"
+					title: "Wireless Terminals"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "ae2:wireless_terminal"
+									Count: 1b
+								}
+								{
+									id: "ae2:wireless_crafting_terminal"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "421750C3CD35D5C7"
+				type: "item"
+				item: "ae2:wireless_booster"
+				count: 4
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.5d
+			shape: "square"
+			subtitle: "Make an ME Controller"
+			description: [
+				"The &bME Controller&r is the brain of larger ME networks."
+				""
+				"Each face of the ME Controller multiblock will &6add up to 128 channels&r to the network, assuming there's a direct path from the face to the device."
+			]
+			dependencies: ["2FF85191B27375BA"]
+			id: "07D1F8651E94B7A5"
+			tasks: [{
+				id: "05B62284FE8D45EA"
+				type: "item"
+				item: "ae2:controller"
+			}]
+			rewards: [{
+				id: "36CB8090EA95A596"
+				type: "item"
+				item: {
+					id: "ae2:dense_energy_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 0.0d
+			subtitle: "Make an ME Storage Bus"
+			description: [
+				"Try as I might, I simply &ccannot find a way to store items&r in energy form. Turning them to energy and back is simple as can be, but keeping them in that state is beyond me."
+				""
+				"The &bStorage Bus&r is my workaround. Instead of storing items digitally, placing it on an inventory will allow me to digitize its items on demand, rematerializing them where needed."
+				""
+				"I can &6attach this to my Warehouses&r to use them as my network's storage!"
+			]
+			dependencies: ["2FF85191B27375BA"]
+			min_width: 225
+			id: "43B98C1A57C7301B"
+			tasks: [{
+				id: "0CA30528F962B90F"
+				type: "item"
+				item: "ae2:storage_bus"
+			}]
+			rewards: [
+				{
+					id: "5272FE81BC8CA8DE"
+					type: "item"
+					item: "ae2:storage_bus"
+					count: 8
+				}
+				{
+					id: "77631A5C818D31EC"
+					type: "item"
+					item: "ae2:import_bus"
+					count: 3
+				}
+				{
+					id: "3C99E3E9DA91B1EE"
+					type: "item"
+					item: "ae2:export_bus"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Bringing it Together"
+			icon: "minecolonies:blockhutwarehouse"
+			x: -0.5d
+			y: 1.5d
+			shape: "hexagon"
+			subtitle: "Tie your Colony to your other automation"
+			description: [
+				"Pipes and the like are able to &6connect with the Warehouse block&r to access all the items in all its Racks."
+				""
+				"The Warehouse is a bit cramped though, so I can use &6Entangled Blocks&r instead. I can &6connect that to my Pipe network&r to allow it to use the items in my colony!"
+				""
+				"This allows me to create a logistics &oempire&r where I can provide the raw materials for my minions without a thought."
+			]
+			hide_dependency_lines: true
+			min_required_dependencies: 2
+			dependencies: [
+				"6525AE59A42AEAC7"
+				"2875E19DF0310A2A"
+				"1B7E082459567B7C"
+				"7378077C38CBF5EC"
+			]
+			size: 2.0d
+			min_width: 250
+			id: "510C16FB9C7D033C"
+			tasks: [{
+				id: "0B378CB3899E810C"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "3C527331D04012E5"
+					type: "item"
+					item: "prettypipes:pipe"
+					count: 16
+				}
+				{
+					id: "6BEC79BAFC6D2BAD"
+					type: "item"
+					item: "prettypipes:high_speed_module"
+					count: 8
+				}
+				{
+					id: "5D4CD8E93176B10D"
+					type: "item"
+					item: {
+						id: "entangled:block"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			shape: "hexagon"
+			subtitle: "Connect Dimensional Storage to other mods"
+			description: ["I can connect my &bDimensional Storage&r to other systems using the &6Item Terminal&r or the &6Storage Bus&r!"]
+			hide_dependency_lines: true
+			dependencies: ["2DD97E216BFC5744"]
+			size: 1.5d
+			id: "7AB285C83E1BDA25"
+			tasks: [{
+				id: "5F42B2275BCC19DD"
+				type: "item"
+				item: "occultism:storage_controller"
+			}]
+		}
+		{
+			icon: "immersiveengineering:conveyor_basic"
+			x: 2.5d
+			y: -3.5d
+			shape: "square"
+			subtitle: "Make Conveyor Belts"
+			description: ["&bConveyor Belts&r are somewhat clunkier to use than Pipes, but have a certain &ostyle&r about them."]
+			dependencies: [
+				"51DDAEA8672B9CC0"
+				"4513CF899E60912A"
+			]
+			optional: true
+			id: "1DA150B4F8F182EC"
+			tasks: [{
+				id: "16D5B5D1BABC053C"
+				type: "item"
+				title: "Conveyor Belts"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "ing:conv"
+					}
+				}
+			}]
+			rewards: [{
+				id: "27C53AAD0ECA7CCF"
+				type: "item"
+				item: "immersiveengineering:conveyor_basic"
+				count: 16
+			}]
+		}
+		{
+			icon: "create:belt_connector"
+			x: 4.0d
+			y: -3.5d
+			shape: "square"
+			subtitle: "Make some Mechanical Belts"
+			description: [
+				"&bMechanical Belts&r use rotational energy to move items and other entities."
+				""
+				"&bFunnels&r allow items to enter and exit inventories."
+			]
+			dependencies: ["1DA150B4F8F182EC"]
+			id: "44F22099EAE40BDD"
+			tasks: [
+				{
+					id: "4B88D2A9CF6426F5"
+					type: "item"
+					item: "create:belt_connector"
+				}
+				{
+					id: "5BF8E6D7C8D0485A"
+					type: "item"
+					title: "Funnels"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "create:andesite_funnel"
+									Count: 1b
+								}
+								{
+									id: "create:brass_funnel"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 2.5d
+			shape: "square"
+			subtitle: "Make a Vibration Chamber"
+			description: [
+				"If I don't have any other power source to convert to ME, I can use &bVibration Chambers&r."
+				""
+				"They aren't very powerful, I'll need at least five to provide any significant power."
+				""
+				"I could probably &6connect some Bonsai Pots&r to keep these powered..."
+			]
+			dependencies: ["464B540C593CE2A2"]
+			optional: true
+			id: "1F3381894011DCD4"
+			tasks: [{
+				id: "21CEB239BF955630"
+				type: "item"
+				item: "ae2:vibration_chamber"
+			}]
+			rewards: [{
+				id: "09DD0B9CD82986DA"
+				type: "item"
+				item: "evilcraft:blood_waxed_coal"
+				count: 6
+			}]
+		}
+		{
+			icon: "myrtrees:tree_tap"
+			x: 1.0d
+			y: -3.5d
+			shape: "square"
+			subtitle: "Make a Tree Tap"
+			description: [
+				"While I can gather &6Latex&r simply by chopping Rubberwood trees, that's not optimal."
+				""
+				"I can attach a &bTree Tap&r to the side, and place a &bWooden Bowl&r beneath to slowly drain Latex."
+				""
+				"When the Bowl is full, I can activate it to collect the Latex."
+			]
+			dependencies: ["51DDAEA8672B9CC0"]
+			optional: true
+			id: "4513CF899E60912A"
+			tasks: [
+				{
+					id: "5003A9815EF542C8"
+					type: "item"
+					item: "myrtrees:tree_tap"
+				}
+				{
+					id: "2D11AC2139E408A9"
+					type: "item"
+					item: "myrtrees:wooden_bucket"
+				}
+			]
+			rewards: [{
+				id: "5D361C5B14F931B5"
+				type: "item"
+				item: "myrtrees:latex"
+				count: 16
+			}]
+		}
+		{
+			icon: "darkutils:vector_plate"
+			x: 5.5d
+			y: -3.5d
+			shape: "square"
+			subtitle: "Make Vector Plates"
+			description: ["&bVector Plates&r excell at moving entities extremely quickly. Sneaking allows me to resist the pull."]
+			dependencies: ["44F22099EAE40BDD"]
+			id: "07E39B9E0A0A2703"
+			tasks: [{
+				id: "5B7904BE0DEE803A"
+				type: "item"
+				title: "Vector Plates"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "darkutils:vector_plate"
+								Count: 1b
+							}
+							{
+								id: "darkutils:vector_plate_fast"
+								Count: 1b
+							}
+							{
+								id: "darkutils:vector_plate_extreme"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			shape: "square"
+			dependencies: ["55099E0F763B39CA"]
+			id: "6CF1F47FC1105B74"
+			tasks: [{
+				id: "049DA4DA5359EBA5"
+				type: "item"
+				item: "enderstorage:ender_chest"
+			}]
+			rewards: [{
+				id: "2BF221B7788F43E4"
+				type: "item"
+				item: "enderstorage:ender_pouch"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.0d
+			shape: "square"
+			dependencies: ["40D4850B34EC5677"]
+			id: "4E1E0D39D0F581BB"
+			tasks: [{
+				id: "2AC8E3CE81DA2C6A"
+				type: "item"
+				item: "enderstorage:ender_tank"
+			}]
+			rewards: [{
+				id: "6EAFF5772DCE2E3E"
+				type: "item"
+				item: "enderstorage:ender_tank"
+			}]
+		}
+		{
+			title: "Infinity and Beyond"
+			icon: "aeinfinitybooster:infinity_card"
+			x: 17.0d
+			y: -1.5d
+			shape: "square"
+			subtitle: "Make an advanced Range Booster"
+			description: [
+				"I can install the &bInfinity Range Booster&r into the ME WAP to &6access it from anywhere in the same dimension&r."
+				""
+				"The &bDimension Card&r can be installed instead to remove that restriction."
+			]
+			dependencies: ["7549B7F5E64F8759"]
+			id: "143E702A2622114F"
+			tasks: [{
+				id: "6CF1F6DF5A8C8613"
+				type: "item"
+				title: "Advanced Range Boosters"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "aeinfinitybooster:infinity_card"
+								Count: 1b
+							}
+							{
+								id: "aeinfinitybooster:dimension_card"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -6.0d
+			subtitle: "Don't waste a drop!"
+			description: ["Item collectors can pickup all items in a predefined range. I should make a few of these for my mob farming and collection needs. With the advanced one I can even set white or blacklists!"]
+			id: "1EF3188DBE7823F6"
+			tasks: [{
+				id: "4CF1F65E962C35F8"
+				type: "item"
+				title: "Clutch Collecting"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemcollectors:advanced_collector"
+								Count: 1b
+							}
+							{
+								id: "itemcollectors:basic_collector"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "55C5001D4429B353"
+					type: "item"
+					item: "storagedrawers:void_upgrade"
+				}
+				{
+					id: "562154EB26A247C3"
+					type: "item"
+					item: "storagedrawers:emerald_storage_upgrade"
+				}
+			]
+		}
+	]
+}

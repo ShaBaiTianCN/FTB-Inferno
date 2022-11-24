@@ -1,0 +1,632 @@
+{
+	id: "0900E1D5E426A770"
+	group: "46A29AE1E3ACCC77"
+	order_index: 2
+	filename: "deus_ex_machina"
+	title: "Deus Ex Machina"
+	icon: {
+		id: "ftbic:quantum_chestplate"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	subtitle: ["FTB Industrial Contraptions"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Proprietary Energy Systems!"
+			x: -2.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "Make an FE Transformer"
+			description: [
+				"HSLA-based technology is &ctoo delicate to handle FE&r. I'll have to convert it to something useable first."
+				""
+				"I'll call this new energy system &5Zaps&r, :zap: for short. The &bFE Transformer&r will &6convert 4 FE to 1:zap:&r, outputting it to an &6adjacent Battery Box&r."
+				""
+				"The more :zap:/t that passes through something, the higher the &6Voltage&r. Too high of a Voltage will &cburn cables and short out machines&r, causing them to not work until repaired with a Fuse."
+				""
+				"&oRemember, &6Dante's Divine Labram&r&o has all the guide books in it.&r"
+			]
+			dependencies: ["29F319B7AB014274"]
+			size: 1.5d
+			min_width: 275
+			id: "5FA0853913F7502A"
+			tasks: [{
+				id: "365DCB18B8DC63DD"
+				type: "item"
+				item: "fe_transformer:fe_transformer"
+			}]
+			rewards: [{
+				id: "5792C47B8A4BA2A8"
+				type: "item"
+				item: "ftbic:fuse"
+				count: 16
+			}]
+		}
+		{
+			title: "Gregless"
+			x: -2.0d
+			y: -3.0d
+			shape: "circle"
+			subtitle: "Make a Machine Block"
+			description: [
+				"Within the Arc Furnace, I've created a new metal: High-Strength Low-Alloy Steel (&6HSLA&r for short)."
+				""
+				"It is more flexible and resists oxidation, much more so than the crude Steel I've been using."
+				""
+				"With this new HSLA Steel, I can create advanced technology with intricate wiring and &6tremendous energy transfer rates&r."
+			]
+			dependencies: ["1AD7627CC2347FB2"]
+			min_width: 275
+			id: "29F319B7AB014274"
+			tasks: [{
+				id: "0FFF5BB4BB7C9832"
+				type: "item"
+				item: "ftbic:machine_block"
+			}]
+			rewards: [
+				{
+					id: "445726D3D82B48AA"
+					type: "item"
+					item: "ftbic:lv_cable"
+					count: 8
+				}
+				{
+					id: "444C54D0530DD199"
+					type: "item"
+					item: "ftbic:lv_battery_box"
+				}
+			]
+		}
+		{
+			title: "Iridium Circuitry"
+			icon: "ftbic:iridium_ingot"
+			x: -2.0d
+			y: 3.0d
+			subtitle: "Get Iridium"
+			description: [
+				"In order to fabricate the most advanced technologies, I need a material more pure and conductive than what is available here."
+				""
+				"The &6Scales of Dragons long-since perished&r contain trace amounts of this material. By reacting them with Blazing Blood, I can get a trace amount of &bIridium&r."
+				""
+				"It's a painfully slow process, relying on me searching the Void for the chance to get Scales. I'll have to prioritize a better method ASAP."
+			]
+			dependencies: [
+				"5FA0853913F7502A"
+				"302AE29C5545EB4A"
+			]
+			min_width: 250
+			id: "6BB9366C63315F62"
+			tasks: [{
+				id: "5FF49B5E4E818501"
+				type: "item"
+				title: "Iridium Metal"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ftbic:iridium_nugget"
+								Count: 1b
+							}
+							{
+								id: "ftbic:iridium_ingot"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Make a Compressor"
+			description: ["The &bCompressor&r applies great force to items, compressing them into other items."]
+			dependencies: ["5FA0853913F7502A"]
+			id: "27ABF6DA896F3CF1"
+			tasks: [{
+				id: "2D391B59632D663F"
+				type: "item"
+				item: "ftbic:compressor"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			subtitle: "Make Carbon Plates"
+			description: ["&bCarbon Plates&r are very touch, and are used in several recipes."]
+			dependencies: ["27ABF6DA896F3CF1"]
+			id: "200AED5FCE2F8A67"
+			tasks: [{
+				id: "737E8BADA63EC696"
+				type: "item"
+				item: "ftbic:carbon_plate"
+			}]
+			rewards: [{
+				id: "2188DD026DE786DF"
+				type: "item"
+				item: "ftbic:carbon_plate"
+				count: 4
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			subtitle: "Make some Advanced Alloy"
+			description: ["&bAdvanced Alloy&r is very useful for higher-tier machines."]
+			dependencies: ["27ABF6DA896F3CF1"]
+			id: "6301F10D0516BA60"
+			tasks: [{
+				id: "30E08EE2BE88EBEB"
+				type: "item"
+				item: "ftbic:advanced_alloy"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			subtitle: "Make an Advanced Machine Block"
+			description: ["&bAdvanced Machine Blocks&r are required for the most powerful machines."]
+			dependencies: [
+				"200AED5FCE2F8A67"
+				"6301F10D0516BA60"
+			]
+			id: "382C4D8920436FC4"
+			tasks: [{
+				id: "41BA1E716E18BEE4"
+				type: "item"
+				item: "ftbic:advanced_machine_block"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 3.0d
+			shape: "hexagon"
+			subtitle: "Make a Nuclear Reactor"
+			description: [
+				"The &bNuclear Reactor&r allows me to &6create ludicrous amounts of Zaps&r using Uranium Fuel Rods!"
+				""
+				"The book &6Industrious Instructions&r explains how the Reactor works."
+				""
+				"&oReactors have been set to give 4x the Zaps than the default amount"
+			]
+			dependencies: [
+				"6BB9366C63315F62"
+				"382C4D8920436FC4"
+			]
+			size: 1.5d
+			id: "0F1973B4E543C882"
+			tasks: [{
+				id: "25C0BDB0ED1C4296"
+				type: "item"
+				item: "ftbic:nuclear_reactor"
+			}]
+			rewards: [{
+				id: "2946500D854D1B70"
+				type: "item"
+				item: "ftbic:iridium_circuit"
+				count: 2
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Make a Canning Machine"
+			description: [
+				"The &bCanning Machine&r fills cans."
+				""
+				"This can be used to make &6Food Cans&r and (more importantly) &6Uranium Fuel Rods&r."
+			]
+			dependencies: ["5FA0853913F7502A"]
+			id: "4175C48649BCF1D1"
+			tasks: [{
+				id: "46B0F0C1A0886DB9"
+				type: "item"
+				item: "ftbic:canning_machine"
+			}]
+			rewards: [{
+				id: "24F708F2414450E7"
+				type: "item"
+				item: "ftbic:dark_spray_paint_can"
+			}]
+		}
+		{
+			title: "Watch Out For My Body Rolls"
+			x: -5.5d
+			y: -1.5d
+			shape: "square"
+			subtitle: "Make a Roller"
+			description: ["The &bRolling Machine&r can &6turn ingots into Plates&r, as well as make &6Fluid Cells&r."]
+			dependencies: ["5FA0853913F7502A"]
+			id: "7DCB752323A2C4A8"
+			tasks: [{
+				id: "6377B27F63048A32"
+				type: "item"
+				item: "ftbic:roller"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			subtitle: "Make a Fluid Cell"
+			description: [
+				"&bFluid Cells&r store fluids, and can &6stack to 16&r."
+				""
+				"I can collect fluids directly, but I cannot pour them back out."
+			]
+			dependencies: ["7DCB752323A2C4A8"]
+			id: "54E1C82C5D2AFC25"
+			tasks: [{
+				id: "21683AA6A590E0F9"
+				type: "item"
+				item: "ftbic:fluid_cell"
+			}]
+			rewards: [{
+				id: "0EB8E92270D1536C"
+				type: "item"
+				item: "ftbic:fluid_cell"
+				count: 16
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			subtitle: "Make a Uranium Fuel Rod"
+			description: ["&bUranium Fuel Rods&r are the fuel used in &6Nuclear Reactors&r."]
+			dependencies: [
+				"54E1C82C5D2AFC25"
+				"4175C48649BCF1D1"
+			]
+			id: "7D891C65B345DD1C"
+			tasks: [{
+				id: "66E9953AC782C25D"
+				type: "item"
+				item: {
+					id: "ftbic:uranium_fuel_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "10E97D769F4965BF"
+				type: "item"
+				item: {
+					id: "ftbic:quad_uranium_fuel_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Spin the Hell Out of It"
+			x: -5.5d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Make a Centrifuge"
+			description: ["The &bCentrifuge&r is used to &6separate the components of an item&r."]
+			dependencies: ["5FA0853913F7502A"]
+			id: "45AAAE40487469F4"
+			tasks: [{
+				id: "624AECD2A633C8C1"
+				type: "item"
+				item: "ftbic:centrifuge"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -3.0d
+			subtitle: "Make a Small Coolant Cell"
+			description: [
+				"By Centrifuging a Water Cell, I've created a &bCoolant Cell&r."
+				""
+				"This can be used to &6absorb a Nuclear Reactor's heat&r, or craft Overclocker Upgrades."
+			]
+			dependencies: [
+				"54E1C82C5D2AFC25"
+				"45AAAE40487469F4"
+			]
+			id: "19A5DD8AE7BF348D"
+			tasks: [{
+				id: "50E248BB6C2FC50E"
+				type: "item"
+				item: {
+					id: "ftbic:small_coolant_cell"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "47860A21C54DD224"
+				type: "item"
+				item: {
+					id: "ftbic:large_coolant_cell"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: -4.5d
+			shape: "square"
+			subtitle: "Make an Overclocker Upgrade"
+			description: ["The &bOverclocker Upgrade&r makes machines work faster, at an additional cost of :zap:."]
+			dependencies: ["19A5DD8AE7BF348D"]
+			optional: true
+			id: "16F86FD72281E5D6"
+			tasks: [{
+				id: "06A4F2A4D34F93FE"
+				type: "item"
+				item: "ftbic:overclocker_upgrade"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.392857142857142d
+			shape: "square"
+			subtitle: "Make a Transformer Upgrade"
+			description: ["Each &bTransformer Upgrade&r &6increases the machine's Voltage&r by a tier, allowing it to accept more :zap:/t"]
+			dependencies: ["29F319B7AB014274"]
+			size: 0.75d
+			optional: true
+			id: "3A9B3A67176D7E91"
+			tasks: [{
+				id: "280DDC15F87117E9"
+				type: "item"
+				item: "ftbic:transformer_upgrade"
+			}]
+		}
+		{
+			x: -0.75d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Make an Energy Storage Upgrade"
+			description: ["Each &bEnergy Storage Upgrade&r adds about &610,000:zap:&r to the machine's storage capacity."]
+			dependencies: ["29F319B7AB014274"]
+			size: 0.75d
+			optional: true
+			id: "0A8148CAE7407B0C"
+			tasks: [{
+				id: "3EE30C11A6D18624"
+				type: "item"
+				item: "ftbic:energy_storage_upgrade"
+			}]
+		}
+		{
+			x: -3.375d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Make an Ejector Upgrade"
+			description: ["The &bEjector Upgrade&r will make machines automatically eject their outputs to adjacent inventories."]
+			dependencies: ["29F319B7AB014274"]
+			size: 0.75d
+			optional: true
+			id: "198A9C8608F1F1B7"
+			tasks: [{
+				id: "0DC670F74236A2B9"
+				type: "item"
+				item: "ftbic:ejector_upgrade"
+			}]
+		}
+		{
+			title: "Annihilation"
+			icon: "ftbic:antimatter"
+			x: -2.0d
+			y: 5.0d
+			shape: "hexagon"
+			subtitle: "Get Antimatter"
+			description: [
+				"&bAntimatter&r is an insanely dangerous and powerful material, anathema to reality."
+				""
+				"The &bAntimatter Constructor&r generates it, at a small cost of 1,000,000:zap: each. This cost can be lowered with Scrap and Scrap Boxes."
+			]
+			dependencies: ["6BB9366C63315F62"]
+			id: "7FE9FAFBDB354644"
+			tasks: [
+				{
+					id: "7EF3967D2C9F1FE6"
+					type: "item"
+					item: "ftbic:antimatter_constructor"
+				}
+				{
+					id: "2E0A9C1AEC289027"
+					type: "item"
+					item: "ftbic:antimatter"
+				}
+			]
+			rewards: [
+				{
+					id: "072CF00BA029583C"
+					type: "item"
+					item: "ftbic:scrap_box"
+					count: 64
+				}
+				{
+					id: "57E95F675E10E268"
+					type: "item"
+					item: "avaritia:cosmic_meatballs"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbic:carbon_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: 1.5d
+			shape: "square"
+			subtitle: "Make some Carbon Powerarmor"
+			description: [
+				"&bCarbon Powerarmor&r is incredibly powerful, &6completely negating all damage when all parts are worn and charged&r."
+				""
+				"The Chestplate is the most important part; it is the only part that holds a charge, all other parts depend on it."
+				""
+				"From a full charge, I can take &6100 hearts of damage&r before it is fully discharged."
+			]
+			dependencies: ["200AED5FCE2F8A67"]
+			optional: true
+			id: "0D412B5CE45C6E0B"
+			tasks: [{
+				id: "510DB72C3635973D"
+				type: "item"
+				title: "Carbon Powerarmor"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ftbic:carbon_helmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ftbic:carbon_chestplate"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ftbic:carbon_leggings"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ftbic:carbon_boots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "ftbic:quantum_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: 5.0d
+			shape: "square"
+			subtitle: "Make some Quantum Powerarmor"
+			description: [
+				"The &bQuantum Powersuit&r is nearly identical to the Carbon Powersuit, but can take &61,500 hearts of damage&r before fully discharging."
+				""
+				"It has an inbuilt Elytra, which I can boost by sprinting. Sneaking will allow me to hover."
+			]
+			dependencies: [
+				"0D412B5CE45C6E0B"
+				"7FE9FAFBDB354644"
+			]
+			optional: true
+			id: "0572E5EFA107E8B2"
+			tasks: [{
+				id: "15DB89C4AA5C331D"
+				type: "item"
+				title: "Quantum Powerarmor"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ftbic:quantum_helmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ftbic:quantum_chestplate"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ftbic:quantum_leggings"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ftbic:quantum_boots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Technological!"
+			x: -4.571428571428569d
+			y: 5.017857142857139d
+			shape: "hexagon"
+			subtitle: "Magiteck Crystals"
+			description: [
+				"All this bizzare technology has finally gotten me what I -REALLY- need. A purified crystal that pulses with the power of annihilation while being perfectly contained and in stabilized by the nether star core. "
+				""
+				"It is not time for my most masterful of magics."
+				""
+				"As prometheus defied the gods to steal fire for mankind, so shall I take the power this world has used to keep me here for myself."
+				""
+				"I suspect I will need a great many of these &3Nether Stars&r. Perhaps I can trap one of the wither's spirits in the box of closure and reanimate it in a spirit furnace in perpetuity..."
+			]
+			dependencies: ["7FE9FAFBDB354644"]
+			size: 1.5d
+			id: "31B798C63B22E678"
+			tasks: [{
+				id: "53A2CF7F9AA96751"
+				type: "item"
+				item: "ftbic:antimatter_crystal"
+			}]
+			rewards: [
+				{
+					id: "62BFD181EF003619"
+					type: "item"
+					item: "ftbic:scrap_box"
+					count: 64
+				}
+				{
+					id: "30AC337BE5F8404E"
+					type: "item"
+					item: "evilcraft:box_of_eternal_closure"
+				}
+			]
+		}
+	]
+}

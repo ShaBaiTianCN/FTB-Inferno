@@ -1,0 +1,62 @@
+{
+	id: "244B8999B84F8C5D"
+	group: ""
+	order_index: 0
+	filename: "inferno"
+	title: "The Story Thus Far"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -4.5d
+		width: 12.0d
+		height: 6.0d
+		rotation: 0.0d
+		image: "inferno:textures/quest/infernologo.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [{
+		title: "The Story Thus Far"
+		icon: "reliquary:emperor_chalice"
+		disable_toast: true
+		x: 0.0d
+		y: 0.0d
+		shape: "pentagon"
+		subtitle: "A Voice in the Darkness..."
+		description: [
+			"&cYou did everything you were supposed to do.&r You chanted, you turned around 9 times at 8 o'clock on a Saturday &onaked under a full moon&r. You did use cranberry juice instead of the &4blood of an innocent&r — there &oare&r limits, after all, — but other than that you followed the instructions to a &ntee&r."
+			""
+			"Elder Cander said if you did it right you could &6bring forth an Eldritch One&r who could make all your wildest dreams come true. You should have read the fine print. You brought forth the being, but nothing is free — to bring something forth, &csomeone must take its place&r. Now you understand why Elder Cander suggested you bring a friend. You're &ltrapped here&r with nothing but your wits and a single minded-determination to make it out so you can give Elder Cander a piece of your mind. "
+			""
+			"&d\"Call it a lesson,\"&r a shadowy figure whispers in your ear, &d\"in being careful what you wish for. You survive the lesson, escape this place, and you win your freedom. I suspect, however, that you, like all those before you, will never leave this place alive.\"&r Stranded in a desolate, nearly impenetrable prison, what lies beneath may be my only escape, and yet, far worse than what has already come to pass... "
+			""
+			"                               &l&4Welcome to The Inferno"
+		]
+		size: 3.0d
+		min_width: 400
+		id: "1E603EB3AC423718"
+		tasks: [{
+			id: "5545725EFB787FE2"
+			type: "checkmark"
+			title: "And so it begins."
+		}]
+		rewards: [{
+			id: "20F47CA1BDCE22B9"
+			type: "item"
+			item: {
+				id: "minecraft:totem_of_undying"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"A Second Chance\"}"
+					}
+				}
+			}
+		}]
+	}]
+}

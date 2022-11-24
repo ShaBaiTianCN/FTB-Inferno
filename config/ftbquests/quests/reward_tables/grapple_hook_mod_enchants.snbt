@@ -1,0 +1,47 @@
+{
+	id: "4935133BB94772E0"
+	order_index: 6
+	title: "Grapple Hook Mod Enchants"
+	loot_size: 1
+	rewards: [
+		{
+			title: "Wall Running"
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "grapplemod:wallrunenchantment"
+					}]
+				}
+			}
+		}
+		{
+			title: "Double Jump"
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "grapplemod:doublejumpenchantment"
+					}]
+				}
+			}
+		}
+		{
+			title: "Sliding"
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "grapplemod:slidingenchantment"
+					}]
+				}
+			}
+		}
+	]
+}
