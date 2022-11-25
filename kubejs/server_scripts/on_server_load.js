@@ -10,17 +10,17 @@ function doSpawn(ctx) {
 
     if (player.persistentData.hurttimer > 20) {
         player.tell(
-            'You must recover from combat before you can use this command. [' +
+            '你必须先退出战斗状态，然后才能使用此命令。还剩[' +
             player.persistentData.hurttimer / 20 +
-            '] seconds remain.'
+            ']秒钟。'
         )
         return 1
     }
     if (player.persistentData.spawncooldown > 20) {
         player.tell(
-            'Spawn command is on cooldown. [' +
+            'Spawn命令处于冷却状态。还剩[' +
             player.persistentData.spawncooldown / 20 +
-            '] seconds remain.'
+            ']秒钟。'
         )
         return 1
     }
@@ -31,7 +31,7 @@ function doSpawn(ctx) {
         .runCommandSilent(
             '/tellraw ' +
             player.getName().getString() +
-            ' {"text":"Teleporting to world center in the nether...","color":"light_purple"}'
+            ' {"text":"传送到下界中心……","color":"light_purple"}'
         )
     player.potionEffects.add('minecraft:slow_falling',1000,10,false,false)
     player.potionEffects.add('minecraft:resistance',1000,10,false,false)
@@ -44,17 +44,17 @@ function doRTP(ctx) {
 
     if (player.persistentData.hurttimer > 20) {
         player.tell(
-            'You must recover from combat before you can use this command. [' +
+            '你必须先退出战斗状态，然后才能使用此命令。还剩[' +
             player.persistentData.hurttimer / 20 +
-            '] seconds remain.'
+            ']秒钟。'
         )
         return 1
     }
     if (player.persistentData.rtpcooldown > 20) {
         player.tell(
-            'RTP command is on cooldown. [' +
+            'RTP命令处于冷却状态。还剩[' +
             player.persistentData.rtpcooldown / 20 +
-            '] seconds remain.'
+            ']秒钟。'
         )
         return 1
     }
@@ -71,7 +71,7 @@ function doRTP(ctx) {
         .runCommandSilent(
             '/tellraw ' +
             player.getName().getString() +
-            ' {"text":"Teleporting somewhere random...","color":"light_purple"}'
+            ' {"text":"随机传送……","color":"light_purple"}'
         )
     player.potionEffects.add('minecraft:slow_falling',1000,10,false,false)
     player.potionEffects.add('minecraft:resistance',1000,10,false,false)

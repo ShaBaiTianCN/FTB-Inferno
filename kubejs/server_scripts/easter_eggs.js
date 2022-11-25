@@ -9,10 +9,10 @@ onEvent('player.logged_in',(event) => {
         '-' +
         currentDate.getDate() //[0,31]
     let birthdays = [
-        ['aaronhowser1','12-2','Pack dev'],
-        ['Saereth','11-23','Pack dev'],
-        ['Tazz','6-21','Pack dev'],
-        ['Gennie','2-7','Structure builder'],
+        ['aaronhowser1','12-2','整合包开发'],
+        ['Saereth','11-23','整合包开发'],
+        ['Tazz','6-21','整合包开发'],
+        ['Gennie','2-7','结构建设者'],
     ]
 
     birthdays.forEach((birthday) => {
@@ -22,8 +22,8 @@ onEvent('player.logged_in',(event) => {
 
         if (birthdate == today) {
             player.tell([
-                Component.string('Happy birthday to '),
-                Component.string('[' + person + ']').hover(Component.string(role)),
+                Component.string('祝'),
+                Component.string('[' + person + ']生日快乐~').hover(Component.string(role)),
             ])
         }
     })

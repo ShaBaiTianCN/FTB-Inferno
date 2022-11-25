@@ -14,13 +14,13 @@ onEvent('player.advancement',(event) => {
             //check when the infernal advancements are awarded and set staging
             case 'inferno:infernalinsights':
                 event.player.stages.remove('easymobs')
-                event.player.tell('You feel a dark force has take notice of you...')
+                event.player.tell('你觉得有一股黑暗力量注意到了你……')
                 break
             case 'inferno:infernaldelights':
                 event.player.stages.remove('easymobs')
                 event.player.stages.remove('normalmobs')
                 event.player.tell(
-                    'You feel burning eyes in the darkness peering into your soul...'
+                    '你感觉到黑暗中燃烧的眼睛凝视着你的灵魂……'
                 )
                 break
             case 'inferno:infernalmastery':
@@ -28,7 +28,7 @@ onEvent('player.advancement',(event) => {
                 event.player.stages.remove('normalmobs')
                 event.player.stages.remove('hardmobs')
                 event.player.tell(
-                    'The ground trembles and the skies darken. You have awoken something terrible...'
+                    '飞沙走石，天地色变。你唤醒了一些可怕的东西……'
                 )
                 break
             case 'inferno:eldritchtranscendence':
@@ -38,10 +38,10 @@ onEvent('player.advancement',(event) => {
                 event.player.stages.remove('insanemobs')
                 event.player.stages.add('overworld')
                 event.player.tell(
-                    'You have unlocked the power to travel normally to your home world, beware what may yet follow you...'
+                    '你已经解锁了穿越到你原本世界的力量，小心你身后的东西……'
                 )
                 event.player.tell(
-                    'Screams of anguish and despair echo for miles...\nIt has had many names throughout the nightmares of mankind since the dawn of time,\n you will soon know it only as your demise...'
+                    '痛苦和绝望的尖叫声回荡数英里……\n自古以来，它在人类的噩梦中有很多名字，\n你很快就会知道它只是你的死亡……'
                 )
 
                 break

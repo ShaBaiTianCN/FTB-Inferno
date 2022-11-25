@@ -4,7 +4,7 @@ onEvent('block.left_click',(event) => {
         item == 'structurize:sceptergold' &&
         event.player.level.dimension == 'bloodmagic:dungeon'
     ) {
-        event.player.tell('The Scepter has no power here.')
+        event.player.tell('权杖在这里不起作用。')
         return
     }
     if (item == 'structurize:sceptergold') {
@@ -15,7 +15,7 @@ onEvent('block.left_click',(event) => {
             if (!event.player.stages.has('bedrock_crumble')) {
                 event.player.stages.add('bedrock_crumble')
                 event.player.tell(
-                    'Energy flows through the scepter as the bedrock crumbles to your will.'
+                    '能量流经权杖，基岩随着你的意志崩溃。'
                 )
             }
             event.block.popItem('bygonenether:cobbled_blackstone')
@@ -39,8 +39,8 @@ onEvent('block.break',(event) => {
         if (item.id.contains('witherstormmod:command_block')) return
         if (!event.player.stages.has('bowel_block')) {
             event.player.stages.add('bowel_block')
-            event.player.tell('Your tools are not strong enough')
-            event.player.tell('Try using a command block tool')
+            event.player.tell('你的工具不够强大')
+            event.player.tell('尝试使用命令方块工具')
         }
         event.cancel()
     }
@@ -56,8 +56,8 @@ onEvent('item.entity_interact',(event) => {
             let nbt = mob.fullNBT
             let phase = nbt.BossfightManager.CurrentPhase;
             if (phase == 16) {
-                player.tell('The Command Block cracks and breaks, unable to hold its grip on this reality any longer... This dimension begins to crumble beneath you....')
-                player.tell('As the final blow lands you feel the last vestiges of the abomination drain from this world, back into the realms far beyond here.')
+                player.tell('命令方块破裂，无法再维持这个世界……这个维度开始在你的脚下崩溃……')
+                player.tell('当最后一击落地时，你会感觉到可憎之物的最后痕迹从这个世界被抹去。')
 
                 nbt.BossfightManager.CurrentPhase = 17
                 nbt.BossfightManager.PhaseTicks = 0
@@ -65,8 +65,8 @@ onEvent('item.entity_interact',(event) => {
 
                 event.server.scheduleInTicks(300,(_) => {
                     player.data.ftbquests.addProgress('5AB76DFF76164D53',1)
-                    player.tell('Peace spreads across the world and finally, your task has ended.')
-                    player.tell('A rite gone wrong, now set right. You have mastered the Inferno!!!')
+                    player.tell('终于，世界和平了，你的任务结束了。')
+                    player.tell('一个仪式出错了，纠正它。你已经掌握了地狱！！！')
                 })
             }
         }
@@ -105,7 +105,7 @@ onEvent('block.right_click',(event) => {
                 event.block.set('minecraft:air')
 
                 //remove wither blocks
-                event.player.tell('Things went terribly wrong!')
+                event.player.tell('出大问题了！')
                 event.server.runCommandSilent(`effect give ${event.player.name.text} alexsmobs:earthquake 2`)
                 event.server.runCommandSilent(`execute in minecraft:overworld run particle minecraft:ash ${event.block.x} ${event.block.y} ${event.block.z} 1 1 1 1 10000 force`)
                 event.server.runCommandSilent(`playsound witherstormmod:wither_storm_boss_theme master ${event.player.name.text} ${event.block.x} ${event.block.y} ${event.block.z}`)
@@ -126,21 +126,21 @@ onEvent('block.right_click',(event) => {
                 }
             }
             event.server.scheduleInTicks(40,(_) => {
-                event.server.runCommandSilent(`title ${event.player.name.text} title {"text":"RUN!", "bold":true, "color":"red"}`)
-                event.server.runCommandSilent(`title ${event.player.name.text} subtitle {"text":"Run for your Life!", "italic":true, "color":"yellow"}`)
-                event.player.tell('Its best to make a move...')
+                event.server.runCommandSilent(`title ${event.player.name.text} title {"text":"快跑！", "bold":true, "color":"red"}`)
+                event.server.runCommandSilent(`title ${event.player.name.text} subtitle {"text":"想活命就快跑！", "italic":true, "color":"yellow"}`)
+                event.player.tell('现在最好动起来……')
                 event.server.runCommandSilent(`execute in minecraft:overworld run summon minecraft:lightning_bolt ${event.block.x} ${event.block.y} ${event.block.z}`)
                 event.server.runCommandSilent(`playsound alexsmobs:laviathan_hurt master ${event.player.name.text} ${event.block.x} ${event.block.y} ${event.block.z}`)
             })
             event.server.scheduleInTicks(60,(_) => {
-                event.player.tell('Now!')
+                event.player.tell('立刻！')
                 event.server.runCommandSilent(`execute in minecraft:overworld run summon minecraft:lightning_bolt ${event.block.x + 1} ${event.block.y} ${event.block.z + 1}`)
                 event.server.runCommandSilent(`execute in minecraft:overworld run summon minecraft:lightning_bolt ${event.block.x} ${event.block.y} ${event.block.z}`)
                 event.server.runCommandSilent(`execute in minecraft:overworld run summon minecraft:lightning_bolt ${event.block.x - 1} ${event.block.y} ${event.block.z - 1}`)
                 event.server.runCommandSilent(`playsound alexsmobs:laviathan_hurt master ${event.player.name.text} ${event.block.x} ${event.block.y} ${event.block.z}`)
             })
             event.server.scheduleInTicks(100,(_) => {
-                event.player.tell("What are you waiting for?...RUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUN")
+                event.player.tell("你还在等什么？……快~跑~啊~~")
                 for (let i = 0; i < 6; i++) {
                     let randomInt = Math.floor(Math.random() * 5)
                     let blockx = event.block.x + randomInt
@@ -160,10 +160,10 @@ onEvent('block.right_click',(event) => {
                 event.server.runCommandSilent(`summon witherstormmod:super_tnt ${event.block.x - 2} ${event.block.y - 2} ${event.block.z + 2}`)
             })
             event.server.scheduleInTicks(600,(_) => {
-                event.player.tell('This shouldnt have happened...')
+                event.player.tell('这不应该发生……')
             })
             event.server.scheduleInTicks(620,(_) => {
-                event.player.tell('Maybe I should consult my journals for any clues')
+                event.player.tell('也许我应该翻阅一下我的日志以获得线索')
             })
 
         }
@@ -185,7 +185,7 @@ onEvent('block.right_click',(event) => {
         blockblacklist.forEach(blacklistitem => {
             if (item == blacklistitem || item2 == blacklistitem) {
                 event.cancel()
-                event.player.tell(`The Witherstorm's presence wont allow you to place this block.`)
+                event.player.tell(`凋零风暴的存在不允许你放置这个方块。`)
             }
 
         })
@@ -245,7 +245,7 @@ onEvent('block.right_click',(event) => {
             let deposit = ids[1]
             if (event.block.id === mineralBlock) {
                 if (inEnd === 0) {
-                    event.player.tell('This Ritual only works in the End dimension')
+                    event.player.tell('此仪式仅适用于末地维度')
                     return
                 }
                 item.count--
@@ -269,7 +269,7 @@ onEvent('block.right_click',(event) => {
                     if (mineralBlock === 'create:zinc_block')
                         command = `/execute in minecraft:the_end run ie mineral put "createaddition:compat/immersiveengineering/sphalerite" 8 ${event.block.x} ${event.block.z}`
                     event.player.tell(
-                        'The block has been consumed by the lands and resulted into a generous ore deposit'
+                        '该方块已被土地吸收，形成了大量的矿床'
                     )
                     event.player.getServer().runCommandSilent(command)
                 })
@@ -283,7 +283,7 @@ onEvent('block.right_click',(event) => {
     ) {
         if (event.block.id == 'avaritia:neutron_collector') {
             event.player.tell(
-                'The temporal concentration of dark matter caused a tear in reality!'
+                '暗物质的暂时集中，在现实中引起了撕裂！'
             )
             event.block.createExplosion()
             event.server.schedule(1,(_) => {
@@ -307,7 +307,7 @@ onEvent('block.right_click',(event) => {
         item2 ==
         Item.of('gateways:gate_pearl','{gateway:"gateways:voidworm_gate"}')
     ) {
-        event.player.tell('Must be used in mainhand')
+        event.player.tell('必须在主手上使用')
         event.cancel()
         return
     }
@@ -318,20 +318,20 @@ onEvent('block.right_click',(event) => {
     ) {
         if (event.player.level.dimension != 'minecraft:the_end') {
             event.player.tell(
-                "The void worm can only be summoned in it's native plane of existence..."
+                "虚空蠕虫只能在它的原生位面被召唤……"
             )
             event.cancel()
             return
         }
         let msg = Component.red(
-            'You do not have the strength to summon the Void Worm...'
+            '你没有力量召唤虚空蠕虫……'
         )
         if (!event.player.stages.has('dragon_defeated')) {
             event.player.tell(
-                'A voice laughs in the back of your mind as a familiar whisper mocks you...'
+                '一个声音在你的脑海里笑着，就像一个熟悉的低语嘲笑着你……'
             )
             event.player.tell(msg)
-            event.player.tell('Only the Dragon possesses such power.')
+            event.player.tell('只有龙拥有这种力量。')
             event.cancel()
             return
         }
@@ -352,7 +352,7 @@ onEvent('block.right_click',(event) => {
 
         if (event.block.hasTag('inferno:mutandis')) {
             item.count--
-            event.player.tell('The plant twists and mutates.')
+            event.player.tell('植物扭曲变异。')
             event.block.set(randomItem)
         }
     }
@@ -365,12 +365,12 @@ onEvent('block.right_click',(event) => {
             item == 'immersiveengineering:connector_mv'
         ) {
             event.player.tell(
-                'You will need an HV Connector or Accumulator to Power the Arc Furnace.'
+                '你需要一个HV连接器或蓄电池来为电弧炉供电。'
             )
             event.cancel()
         }
         if (item == 'entangled:item') {
-            event.player.tell('This device has too many parts to entangle.')
+            event.player.tell('这个装置有太多的部件要缠绕。')
             event.cancel()
         }
     }
@@ -380,7 +380,7 @@ onEvent('block.right_click',(event) => {
         event.block.id == 'ppfluids:fluid_pipe'
     ) {
         if (item == 'entangled:item') {
-            event.player.tell("That doesn't seem to work.")
+            event.player.tell("这似乎行不通。")
             event.cancel()
         }
     }
@@ -397,7 +397,7 @@ onEvent('block.right_click',(event) => {
             item2.hasTag('forge:seeds')
         )
     ) {
-        event.player.tell("Too dark!")
+        event.player.tell("太黑了！")
     }
 })
 
@@ -417,7 +417,7 @@ onEvent('entity.hurt',(event) => {
                     let z = Math.floor(player.z)
                     let command = 'execute in minecraft:the_end run open_gateway ' + x + ' ' + y + ' ' + z + ' gateways:dragon_retaliation'
 
-                    player.tell('The Dragon roars in anger in response to your attack, and summons reinforcements')
+                    player.tell('龙愤怒地咆哮以回应你的攻击，并召唤增援')
                     hurtEntity.persistentData.lastretaliationgate -= 25;
                     player.getServer().runCommandSilent(command)
                 }
@@ -465,7 +465,7 @@ onEvent('entity.hurt',(event) => {
                         ' ' +
                         Math.floor(1 + Math.random() * 2)
                     player.tell(
-                        'A portal opens as a possessed worm servant enters the fight...'
+                        '一个传送门打开，一个被附身的蠕虫仆人进入战斗……'
                     )
                     player.persistentData.lastretaliationgate = 200
 
@@ -504,13 +504,13 @@ onEvent('entity.hurt',(event) => {
         //if ((hurtEntity.type === 'witherstormmod:wither_storm') && item == 'avaritia:infinity_sword') {
         if ((event.entity.level.dimension == 'witherstormmod:bowels' || hurtEntity.type === 'witherstormmod:wither_storm' || hurtEntity.type === 'witherstormmod:withered_symbiont') && item == 'avaritia:infinity_sword') {
             event.cancel()
-            player.tell('The power of this sword merely empowers the eldritch horror.')
+            player.tell('这把剑的威力只会让邪灵恐惧。')
             return
         }
         if ((event.entity.level.dimension == 'witherstormmod:bowels' || hurtEntity.type === 'witherstormmod:wither_storm' || hurtEntity.type === 'witherstormmod:withered_symbiont') &&
             item == 'bloodmagic:daggerofsacrifice') {
             event.cancel()
-            player.tell('The Witherstorm nullifies the powers of your Sacrificial Dagger')
+            player.tell('凋零风暴使牺牲匕首的力量无效')
             return
         }
 
@@ -621,7 +621,7 @@ onEvent('player.tick',(e) => {
         e.entity.potionEffects.add('bloodmagic:soft_fall',1200,10,false,false)
         e.entity.potionEffects.add('minecraft:resistance',200,10,false,false)
         e.entity.potionEffects.add('minecraft:regeneration',200,1,false,false)
-        e.player.tell('There is no escape for you....')
+        e.player.tell('你无路可逃……')
     }
 
 })
@@ -631,7 +631,7 @@ onEvent('item.right_click',(event) => {
 
     
     if ((item1 == 'avaritia:infinity_bow' || item2 == 'avaritia:infinity_bow') && event.player.level.dimension == 'witherstormmod:bowels'){
-        event.player.tell('Try as you might, You feel the command block leeching the power of the infinity bow.')
+        event.player.tell('尽你所能尝试，你感觉到命令方块正在吸收无限弓的力量。')
     }
 
     //Apotheosis Socket
@@ -691,10 +691,10 @@ onEvent('item.pickup',(event) => {
         player.stages.remove('insanemobs')
         player.stages.add('overworld')
         player.tell(
-            'You have unlocked the power to travel normally to your home world, beware what may yet follow you...'
+            '你已经解锁了穿越到你原本世界的力量，小心你身后的东西……'
         )
         player.tell(
-            'Screams of anguish and despair echo for miles...\nIt has had many names throughout the nightmares of mankind since the dawn of time,\n you will soon know it only as your demise...'
+            '痛苦和绝望的尖叫声回荡数英里……\n自古以来，它在人类的噩梦中有很多名字，\n你很快就会知道它只是你的死亡……'
         )
         player.data.ftbquests.addProgress('17C6262399CF5FB1',1)
 

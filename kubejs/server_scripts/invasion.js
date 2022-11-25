@@ -112,7 +112,7 @@ onEvent('level.tick',(event) => {
             if (debug) console.log('Selecting Player at array element: ' + randomInt)
             if (randomPlayer) {
                 if (debug) console.log('Random Player Found.')
-                randomPlayer.tell([Text.red('The lords of inferno have taken notice of your actions. Prepare your defense. Breach is imminent!'),])
+                randomPlayer.tell([Text.red('地狱之王注意到了你的行为。准备好防御。非常紧急！'),])
 
                 let randomGate = ''
                 if (randomPlayer.stages.has('normalmobs')) {

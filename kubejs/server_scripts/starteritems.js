@@ -13,7 +13,7 @@ console.info('Loading Server Resources...')
 
 let temple = Item.of(
     'capsule:capsule',
-    '{RepairCost:0,author:"FTB",canRotate:0b,color:0,display:{Name:\'{"text":"Nether Temple"}\',color:8388608},isReward:1b,label:"Island.nbt",oneUse:1b,size:31,state:5,structureName:"config/capsule/rewards/island.nbt",yOffset:-5}'
+    '{RepairCost:0,author:"FTB",canRotate:0b,color:0,display:{Name:\'{"text":"下界神庙"}\',color:8388608},isReward:1b,label:"Island.nbt",oneUse:1b,size:31,state:5,structureName:"config/capsule/rewards/island.nbt",yOffset:-5}'
 )
 onEvent('player.logged_in',(event) => {
     // Check if player doesn't have "starting_items" stage yet
@@ -51,14 +51,14 @@ onEvent('player.logged_in',(event) => {
             Item.of(
                 'minecraft:soul_campfire',
                 1,
-                '{RepairCost:0,display:{Name:\'{"text":"Soul Fire"}\'}}'
+                '{RepairCost:0,display:{Name:\'{"text":"灵魂火"}\'}}'
             )
         )
         event.player.give(
             Item.of(
                 'minecraft:golden_apple',
                 5,
-                '{RepairCost:0,display:{Lore:[\'{"text":"Not for eating!","color":"dark_red"}\'],Name:\'{"text":"Inferno\\\'s Mercy"}\'}}'
+                '{RepairCost:0,display:{Lore:[\'{"text":"不是用来吃的！","color":"dark_red"}\'],Name:\'{"text":"地狱的怜悯"}\'}}'
             )
         )
         let akashic = Item.of('akashictome:tome')
@@ -69,7 +69,7 @@ onEvent('player.logged_in',(event) => {
             Item.of(
                 'quark:glow_shroom',
                 1,
-                '{RepairCost:0,display:{Name:\'{"text":"Shroom of Illumination"}\'}}'
+                '{RepairCost:0,display:{Name:\'{"text":"照明蘑菇"}\'}}'
             )
         )
     }
