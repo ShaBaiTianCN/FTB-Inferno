@@ -44,14 +44,14 @@ onEvent('item.registry.armor_tiers', (event) => {
 onEvent('item.registry', (event) => {
 	event
 		.create('inferno:smoked_shroom')
-		.displayName('Smoked Mushrooms')
+		.displayName('烟熏蘑菇')
 		.food((food) => {
 			food.hunger(4)
 			food.saturation(1.3)
 		})
 
 
-	event.create('inferno:lifeessence_comb').displayName('Life Essence Comb')
+	event.create('inferno:lifeessence_comb').displayName('生命源质蜜脾')
 
 	//custom colonist armors
 	//Warped Armor
@@ -79,20 +79,20 @@ onEvent('item.registry', (event) => {
 	event.create('inferno:manyullyn_boots', 'boots').tier('manyullyn')
 
 	//crude enderium
-	event.create('inferno:crude_enderium_dust').displayName('Crude Enderium Dust')
+	event.create('inferno:crude_enderium_dust').displayName('粗制末影粉')
 
 	//steelupgrade
-	event.create('inferno:steel_armor_upgrade').displayName('Steel Armor Upgrade')
+	event.create('inferno:steel_armor_upgrade').displayName('钢护甲升级')
 
 	//cobalt upgrade
 	event
 		.create('inferno:cobalt_armor_upgrade')
-		.displayName('Cobalt Armor Upgrade')
+		.displayName('钴护甲升级')
 
 	//netherite
 	event
 		.create('inferno:gilded_armor_upgrade')
-		.displayName('Gilded Netherite Upgrade')
+		.displayName('镀金下界合金升级')
 
 	const singularities = [
 		'iron',
@@ -109,132 +109,135 @@ onEvent('item.registry', (event) => {
 		'diamond',
 	]
 	const singularities2 = [
-		['iron', 0xAAAAAA],
-		['gold', 0xfdf55f],
-		['lapis', 0x26619c],
-		['redstone', 0xFF0000],
-		['quartz', 0xFFFFFF],
-		['copper', 0xf5af8b	],
-		['tin', 0xd3d4d5],
-		['emerald', 0x40f082],
-		['nickel', 0xafb7a5],
-		['silver', 0xC0C0C0],
-		['lead', 0x667091],
-		['diamond', 0xb9f2ff]
+		['iron', '铁', 0xAAAAAA],
+		['gold', '金', 0xfdf55f],
+		['lapis', '青金石', 0x26619c],
+		['redstone', '红石', 0xFF0000],
+		['quartz', '石英', 0xFFFFFF],
+		['copper', '铜', 0xf5af8b	],
+		['tin', '锡', 0xd3d4d5],
+		['emerald', '绿宝石', 0x40f082],
+		['nickel', '镍', 0xafb7a5],
+		['silver', '银', 0xC0C0C0],
+		['lead', '铅', 0x667091],
+		['diamond', '钻石', 0xb9f2ff]
 	]
 
 	singularities2.forEach((material) => {
 		let mat = material[0]
-		let color = material[1]
-		event.create(`inferno:${mat}_dense_plate`).rarity('rare').displayName(mat.charAt(0).toUpperCase() + mat.slice(1) + ' Dense Plate').texture('inferno:item/dense_plate').color(0, color)
-		event.create(`inferno:${mat}_super_dense_plate`).rarity('rare').displayName(mat.charAt(0).toUpperCase() + mat.slice(1) + ' Super Dense Plate').texture('inferno:item/super_dense_plate').color(0, color)
+		let color = material[2]
+		let zh = material[1]
+		event.create(`inferno:${mat}_dense_plate`).rarity('rare').displayName(zh + '致密板').texture('inferno:item/dense_plate').color(0, color)
+		event.create(`inferno:${mat}_super_dense_plate`).rarity('rare').displayName(zh + '超致密板').texture('inferno:item/super_dense_plate').color(0, color)
 	})
 
-	singularities.forEach((material) => {
+	singularities2.forEach((material) => {
+		let mat = material[0]
+		let zh = material[1]
 		event
-			.create('inferno:' + material + '_singularity')
+			.create(`inferno:${mat}_singularity`)
 			.rarity('rare')
 			.displayName(
-				material.charAt(0).toUpperCase() + material.slice(1) + ' Singularity'
+				zh + ' 奇点'
 			)
 	})
 
 	//netherite mesh
-	event.create('inferno:netherite_mesh').displayName('Netherite Mesh')
+	event.create('inferno:netherite_mesh').displayName('下界合金筛网')
 
 	//singularity star
-	event.create('inferno:singularity_star').glow(true).displayName('Singularity Star')
+	event.create('inferno:singularity_star').glow(true).displayName('奇点之星')
 
 	//Antimatter star
 	event
 		.create('inferno:antimatter_star')
 		.glow(true)
-		.displayName('Antimatter Star')
+		.displayName('反物质之星')
 
 	//Incomplete Antimatter star
 	event
 		.create('inferno:incomplete_antimatter_star')
 		.unstackable()
-		.displayName('Incomplete Antimatter Star')
+		.displayName('反物质之星（半成品）')
 
 	//infernaldust
-	event.create('inferno:infernalessence').displayName('Infernal Essence')
+	event.create('inferno:infernalessence').displayName('地狱精华')
 	event
 		.create('inferno:refinedinfernalessence')
-		.displayName('Refined Infernal Essence')
+		.displayName('精炼地狱精华')
 	event
 		.create('inferno:purifiedinfernalessence')
-		.displayName('Purified Infernal Essence')
+		.displayName('纯净地狱精华')
 
 	//mutandis
-	event.create('inferno:mutandis').displayName('Mutandis')
+	event.create('inferno:mutandis').displayName('转生粉')
 
 	
 	//blank upgrade
-	event.create('inferno:blank_upgrade').displayName('Blank Upgrade')
+	event.create('inferno:blank_upgrade').displayName('空白升级')
 
 
 	//source fabric
-	event.create('inferno:source_fabric').displayName('Source Fabric')
+	event.create('inferno:source_fabric').displayName('魔源布料')
 
 	//blaze fabric
-	event.create('inferno:blaze_fabric').displayName('Blaze Fabric')
+	event.create('inferno:blaze_fabric').displayName('烈焰布料')
 
 	//end fabric
-	event.create('inferno:end_fabric').displayName('End Fabric')
+	event.create('inferno:end_fabric').displayName('末地布料')
 
 	//hoglin hide
-	event.create('inferno:bound_hoglin_hide').displayName('Bound Hoglin Hide')
+	event.create('inferno:bound_hoglin_hide').displayName('缝紧疣猪兽皮')
 
 	//hoglin hide
 	event
 		.create('inferno:incomplete_infinity_catalyst')
-		.displayName('Incomplete Infinity Catalyst')
+		.displayName('无尽催化剂（半成品）')
 
 	//demon will infused source gems
 	event
 		.create('inferno:willinfusedsource')
-		.displayName('Will Infused Source Gem')
+		.displayName('将灌注魔源宝石')
 
 	//doping agent
-	event.create('inferno:steeldopingagent').displayName('Steel Doping Agent')
+	event.create('inferno:steeldopingagent').displayName('钢掺杂剂')
 
 	//life infused ingot
-	event.create('inferno:life_infused_iron').displayName('Life Infused Iron')
+	event.create('inferno:life_infused_iron').displayName('生命灌注铁')
 
 	//Miner's Delight Pickaxe
 	event
 		.create('miners_delight', 'pickaxe')
 		.tier('wood')
 		.maxDamage(64000)
-		.displayName("Miner's Delight")
+		.displayName("矿工乐事")
 	event
 		.create('foresters_delight', 'axe')
 		.tier('wood')
 		.maxDamage(64000)
-		.displayName("Forester's Delight")
+		.displayName("护林人乐事")
 	event
 		.create('diggers_delight', 'shovel')
 		.tier('wood')
 		.maxDamage(64000)
-		.displayName("Digger's Delight")
+		.displayName("挖掘者乐事")
 	event
 		.create('farmers_delight', 'hoe')
 		.tier('wood')
 		.maxDamage(64000)
-		.displayName("Farmer's Delight")
+		.displayName("农夫乐事")
 
 	//inactive slate
 	event
 		.create('inferno:inactivesigil')
 		.maxStackSize(1)
-		.displayName('Inactive Sigil')
+		.displayName('未激活印记')
 
 	//unprocessed steel plate
 	event
 		.create('inferno:unprocessed_steelsheet')
 		.maxStackSize(1)
-		.displayName('Unprocessed Steel Sheet')
+		.displayName('未加工的钢板')
 
 	//tiny(char)coal
 	event.create('tiny_coal').burnTime(200).maxStackSize(64)
@@ -249,11 +252,21 @@ onEvent('item.registry', (event) => {
 		'crimson',
 		'warped',
 	]
-	ladderMaterials.forEach((material) => {
+	let ladderMaterials2 = [
+		['acacia','金合欢'],
+		['spruce','云杉'],
+		['birch','白桦'],
+		['jungle','丛林'],
+		['crimson','绯红'],
+		['warped','诡异'],
+	]
+	ladderMaterials2.forEach((material) => {
+		let mat = material[0]
+		let zh = material[1]
 		event
-			.create(material + '_ladder')
+			.create(`${mat}_ladder`)
 			.displayName(
-				material.charAt(0).toUpperCase() + material.slice(1) + ' Ladder'
+				zh + '梯子'
 			)
 			.texture('quark:block/' + material + '_ladder')
 	})
@@ -261,19 +274,19 @@ onEvent('item.registry', (event) => {
 	//Dark Oak Ladder
 	event
 		.create('dark_oak_ladder')
-		.displayName('Dark Oak Ladder')
+		.displayName('深色橡木梯子')
 		.texture('quark:block/dark_oak_ladder')
 
 	//Socket Sigil
-	event.create('inferno:socket_sigil').unstackable().displayName('Socket Sigil')
+	event.create('inferno:socket_sigil').unstackable().displayName('镶嵌印记')
 
 	//Living Metal Geode
-	event.create('inferno:living_metal_geode').displayName('Living Metal Geode')
+	event.create('inferno:living_metal_geode').displayName('生命金属晶簇')
 
 	//Apple of Eden
 	event
 		.create('inferno:eden_apple')
 		.unstackable()
 		.glow(true)
-		.displayName('Apple of Eden')
+		.displayName('伊甸苹果')
 })

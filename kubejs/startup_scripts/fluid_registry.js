@@ -6,7 +6,7 @@ onEvent('fluid.registry', (event) => {
 		.create('liquid_mud')
 		.thickTexture(0x241c1d)
 		.bucketColor(0x241c1d)
-		.displayName('Liquid Mud')
+		.displayName('液态泥巴')
 })
 
 onEvent('fluid.registry', (event) => {
@@ -15,7 +15,7 @@ onEvent('fluid.registry', (event) => {
 		.create('molten_andesite')
 		.thickTexture(0xa6a6a6)
 		.bucketColor(0xa6a6a6)
-		.displayName('Molten Andesite')
+		.displayName('熔融安山岩')
 })
 
 onEvent('fluid.registry', (event) => {
@@ -24,5 +24,5 @@ onEvent('fluid.registry', (event) => {
 		.create('molten_andesite_alloy')
 		.thickTexture(0x828282)
 		.bucketColor(0x828282)
-		.displayName('Molten Andesite Alloy')
+		.displayName('熔融安山合金')
 })
