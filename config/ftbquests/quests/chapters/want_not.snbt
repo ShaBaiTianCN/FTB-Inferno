@@ -89,7 +89,7 @@
 		}
 		{
 			title: "Protect and Serve"
-			x: 0.0d
+			x: 0.5d
 			y: -3.5d
 			subtitle: "Make a Guard Tower"
 			description: [
@@ -249,8 +249,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -6.5d
+			x: 3.5d
+			y: -5.5d
 			subtitle: "Make a Tavern"
 			description: [
 				"This place is pretty lifeless. A few visitors have shown up but not nearly enough for my designs."
@@ -465,7 +465,7 @@
 		}
 		{
 			icon: "minecolonies:blockhutcook"
-			x: -1.0d
+			x: 0.5d
 			y: -5.5d
 			subtitle: "Make a Restaurant"
 			description: [
@@ -927,6 +927,7 @@
 		{
 			title: "Rest for the Wicked"
 			icon: "minecraft:red_bed"
+			tags: ["info"]
 			x: 4.5d
 			y: -7.0d
 			shape: "gear"
@@ -954,6 +955,7 @@
 		{
 			title: "Under Construction"
 			icon: "minecolonies:blockconstructiontape"
+			tags: ["info"]
 			x: 2.0d
 			y: -3.0d
 			shape: "gear"
@@ -1012,6 +1014,7 @@
 					Icon: "minecolonies:textures/gui/red_wax_information.png"
 				}
 			}
+			tags: ["info"]
 			x: 4.5d
 			y: -8.0d
 			shape: "gear"
@@ -1029,6 +1032,7 @@
 		{
 			title: "Upgrading"
 			icon: "minecolonies:blockconstructiontape"
+			tags: ["info"]
 			x: 1.5d
 			y: -2.0d
 			shape: "gear"
@@ -1530,7 +1534,8 @@
 					Damage: 0
 				}
 			}
-			x: 0.0d
+			tags: ["info"]
+			x: 0.5d
 			y: -2.5d
 			shape: "gear"
 			subtitle: "Tool tiers"
@@ -1697,6 +1702,7 @@
 					Icon: "minecolonies:textures/entity/skills/small/knowledge.png"
 				}
 			}
+			tags: ["info"]
 			x: 5.5d
 			y: -8.0d
 			shape: "gear"
@@ -1834,6 +1840,7 @@
 		{
 			title: "\"Nobody Wants to Work Anymore\""
 			icon: "minecraft:clock"
+			tags: ["info"]
 			x: 2.5d
 			y: -2.0d
 			shape: "gear"
@@ -1861,6 +1868,7 @@
 		{
 			title: "Clipboards are a Necessity"
 			icon: "minecolonies:clipboard"
+			tags: ["info"]
 			x: 2.0d
 			y: -1.0d
 			shape: "gear"
@@ -1889,8 +1897,9 @@
 					Damage: 0
 				}
 			}
-			x: -1.0d
-			y: -3.0d
+			tags: ["info"]
+			x: -0.5d
+			y: -3.5d
 			shape: "gear"
 			subtitle: "Guard types"
 			description: [
@@ -1914,6 +1923,7 @@
 		{
 			title: "Autocrafting"
 			icon: "minecraft:crafting_table"
+			tags: ["info"]
 			x: 5.5d
 			y: -7.0d
 			shape: "gear"
@@ -1942,6 +1952,7 @@
 		{
 			title: "Multiplayer Babyyy"
 			icon: "minecraft:player_head"
+			tags: ["info"]
 			x: 6.5d
 			y: -7.0d
 			shape: "gear"
@@ -1970,6 +1981,7 @@
 		{
 			title: "Pathing System"
 			icon: "minecraft:dirt_path"
+			tags: ["info"]
 			disable_toast: true
 			x: 6.5d
 			y: -8.0d
@@ -2006,6 +2018,7 @@
 		{
 			title: "What Am I Even Doing?"
 			icon: "minecolonies:adventure_token"
+			tags: ["info"]
 			x: 5.5d
 			y: -9.25d
 			shape: "gear"

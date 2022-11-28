@@ -76,61 +76,41 @@
 				id: "4EB484144E0ACC7F"
 				type: "item"
 				item: {
-					id: "itemfilters:and"
+					id: "tconstruct:pickaxe"
 					Count: 1b
 					tag: {
-						items: [
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 3.5f
+							"tconstruct:attack_damage": 1.4250001f
+							"tconstruct:harvest_tier": "minecraft:stone"
+							"tconstruct:durability": 72.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
 							{
-								id: "tconstruct:pickaxe"
-								Count: 1b
-								tag: {
-									tic_multipliers: { }
-									tic_stats: {
-										"tconstruct:attack_speed": 1.2f
-										"tconstruct:mining_speed": 3.5f
-										"tconstruct:attack_damage": 1.4250001f
-										"tconstruct:harvest_tier": "minecraft:stone"
-										"tconstruct:durability": 72.0f
-									}
-									tic_broken: 0b
-									tic_modifiers: [
-										{
-											name: "tconstruct:jagged"
-											level: 3s
-										}
-										{
-											name: "tconstruct:piercing"
-											level: 1s
-										}
-									]
-									Damage: 0
-									tic_materials: [
-										"tconstruct:flint"
-										"tconstruct:flint"
-										"tconstruct:flint"
-									]
-									tic_persistent_data: {
-										abilities: 1
-										upgrades: 3
-									}
-								}
+								name: "tconstruct:jagged"
+								level: 3s
 							}
 							{
-								id: "itemfilters:weak_nbt"
-								Count: 1b
-								tag: {
-									value: {
-										tic_materials: [
-											"tconstruct:flint"
-											"tconstruct:flint"
-											"tconstruct:flint"
-										]
-									}
-								}
+								name: "tconstruct:piercing"
+								level: 1s
 							}
 						]
+						Damage: 0
+						tic_materials: [
+							"tconstruct:flint"
+							"tconstruct:flint"
+							"tconstruct:flint"
+						]
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
+						}
 					}
 				}
+				only_from_crafting: false
 			}]
 			rewards: [{
 				id: "667DB9F7512D0CEC"
@@ -1711,6 +1691,7 @@
 		}
 		{
 			title: "[Intentional Game Design]"
+			tags: ["info"]
 			x: 2.5d
 			y: -3.0d
 			shape: "gear"
@@ -1979,6 +1960,7 @@
 		{
 			title: "Not All Dogs Go to Heaven"
 			icon: "tconstruct:bloodbone"
+			tags: ["info"]
 			x: 2.5d
 			y: -2.0d
 			shape: "gear"
@@ -2024,6 +2006,7 @@
 		{
 			title: "Quest Markers"
 			icon: "ftbquests:book"
+			tags: ["info"]
 			x: 1.5d
 			y: -3.0d
 			shape: "gear"
@@ -2061,6 +2044,7 @@
 		{
 			title: "Dumb Ways to Die"
 			icon: "minecraft:skeleton_skull"
+			tags: ["info"]
 			x: -0.5d
 			y: -1.5d
 			shape: "gear"
@@ -2221,6 +2205,7 @@
 		{
 			title: "TL;DR"
 			icon: "ftbquests:book"
+			tags: ["info"]
 			x: 1.5d
 			y: -2.0d
 			shape: "gear"
@@ -2539,30 +2524,28 @@
 			}]
 		}
 		{
+			title: "The Infernal Islands"
 			icon: "reliquary:infernal_chalice"
+			tags: ["info"]
 			x: -2.0d
 			y: -4.5d
 			shape: "gear"
 			subtitle: "All by ourselves"
 			description: [
-				"If you are playing on a multiplayer server you will have found yourself in a large strcuture at spawn. This is known at the lobby. You can return here at anytime by typing: "
+				"&6Server players&r will spawn in a &blobby&r structure. It is &nhighly reccommended&r to &cnot stay here&r."
 				""
-				"&3/ftbislands lobbby&r"
+				"Server players should &bcreate or join a party&r with &eFTB Teams&r (using &3/ftbteams&r), and then use the command &3/ftbislands create&r."
 				""
-				"If you are in singleplayer you will instead be presented with your FTB Island, this is where most are intended to start. For multiplayer you should create your team with friends (or alone) and when you're ready type:"
+				"This will teleport you away to a smaller temple structure, which is the intended start location."
 				""
-				"&3/ftbislands create&r"
-				""
-				"This will create your island for multiplayer after teleporting you a far distance from the lobby."
-				""
-				"In addition to your &3/home&r command you will now have access to the &3/ftbislands home&r command which cannot be changed and will always bring you to your temple structure. "
+				"While you can still use &3/sethome&r and &3/home&r, &3/ftbislands home&r will always send you to your party's temple."
 			]
 			size: 1.5d
+			min_width: 300
 			id: "5F23A6966EA408C3"
 			tasks: [{
 				id: "70EAD5D192D881DB"
 				type: "checkmark"
-				title: "The Infernal Islands"
 			}]
 			rewards: [{
 				id: "0FB267E15E5FCCE3"

@@ -477,7 +477,7 @@
 			description: [
 				"Clay cannot be found in this environment, but I can make some myself with &6Blood Magic&r (or my minions can after some research)."
 				""
-				"&bClay bees&r make &bClay Combs&r which make &bClay&r."
+				"&bClay bees&r make &bClay Combs&r which make &bClay&r. Very Balanced."
 			]
 			dependencies: [
 				"0BEBDF5D45C3425F"
@@ -1503,6 +1503,8 @@
 				"Blood is all well and good, very dramatic, but I need something more."
 				""
 				"The &bHematophagous Bee&r, created by soaking Ghostly Comb in &6Life Essence&r, creates an infinite supply of the stuff."
+				""
+				"These bees will need a living sacrifice nearby as the flower for their production"
 			]
 			dependencies: ["46B7955728697790"]
 			id: "1D0CA163CC6700CF"
@@ -1511,15 +1513,7 @@
 					id: "3C62081295BCD3A8"
 					type: "item"
 					title: "Hematophagous Comb"
-					item: {
-						id: "productivebees:configurable_honeycomb"
-						Count: 1b
-						tag: {
-							EntityTag: {
-								type: "productivebees:hematophagous"
-							}
-						}
-					}
+					item: "inferno:lifeessence_comb"
 				}
 				{
 					id: "6E2032E1EAA7040A"

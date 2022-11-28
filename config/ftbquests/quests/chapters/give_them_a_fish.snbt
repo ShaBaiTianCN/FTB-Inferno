@@ -386,7 +386,13 @@
 			y: -4.0d
 			shape: "square"
 			subtitle: "Mutton going on here"
-			description: ["The sheepherder is a key way for me to automate the production of wool. As long as I provide the herder with food I can assign him to feed, raise and shear the sheep he looks after. I've also found that if I require certain colors of wool I can swing by and manually dye them by right-clicking them with the dye of my choice. "]
+			description: [
+				"The &bSheepherder&r is a key way for me to &6automate the production of Wool&r."
+				""
+				"As long as I provide the Herder with food, I can assign him to breed, raise, and shear the Sheep he looks after."
+				""
+				"I can dye the Sheep and he'll collect Wool in that color instead."
+			]
 			dependencies: ["2A6CCA72F1D483D9"]
 			id: "5898EF8C7EF990D3"
 			tasks: [{

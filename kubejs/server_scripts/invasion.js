@@ -37,7 +37,7 @@ let GateDifficulties = {
     ],
     hardmobs: [
         'gateways:blaze_gate',
-        'gateways:magma_cube_gate_large',
+        'gateways:magma_cube_gate',
         'gateways:hard1_gate',
         'gateways:hard1_gate',
         'gateways:hard1_gate'

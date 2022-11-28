@@ -452,7 +452,7 @@
 			}]
 		}
 		{
-			title: "public void looper() \\{ looper(); \\}"
+			title: "public void recurse() \\{ recurse(); \\}"
 			x: 2.75d
 			y: -2.5d
 			shape: "square"

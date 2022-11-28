@@ -191,7 +191,7 @@ onEvent('item.tooltip', (event) => {
 					text.add(1, Text.red('Vanilla armor with Affixes are').bold(true))
 					text.add(
 						2,
-						Text.red('best put through the Salvage Table').bold(true)
+						Text.red('best put through the Salvaging Table').bold(true)
 					)
 				}
 				text.add(1, Text.red('Very low durability'))

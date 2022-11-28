@@ -309,14 +309,15 @@
 		}
 		{
 			title: "This is your create."
+			tags: ["info"]
 			x: -2.0d
 			y: 11.5d
 			shape: "gear"
 			subtitle: "The sky is the limit"
 			description: [
-				"Now that I've unlocked rotational energy I can create an unimaginable variety of contraptions to farm, kill, build and even mine for me. Harnessing this energy is going to be up to my imagination as to all of the different ways it can assist me."
+				"Now that I've unlocked rotational energy, I can &6create an unimaginable variety of contraptions&r to farm, kill, build, and even mine for me."
 				""
-				"My research notes on the mechanical energy systems end here but I have so many more ideas..."
+				"My research notes on mechanical energy ends here, but I have so many more ideas..."
 			]
 			dependencies: ["142454243365761D"]
 			size: 1.25d
@@ -370,15 +371,17 @@
 			]
 		}
 		{
+			title: "Wait a Tick..."
 			x: 2.0d
 			y: 11.5d
 			shape: "square"
-			subtitle: "Wait a tick..."
-			description: ["I don't know why I didnt think of this sooner. I can convert the mechanical force into electricity but I can also convert that energy back in to rotational force! With the assistance of a tesseract I can now create portable contraptions anywhere I see fit. This is a game changer!"]
-			dependencies: [
-				"080BD2AA7CCAAA90"
-				"6B7606A65BA8FE12"
+			subtitle: "Make an Electric Motor"
+			description: [
+				"I don't know why I didn't think of this sooner. I can convert mechanical energy into electric energy, so &6why can't I do the reverse?&r"
+				""
+				"The &bElectric Motor&r will convert electricity into rotational force. With &6Tesseracts&r, I can now create contraptions without having to connect to my Steam Engines!"
 			]
+			dependencies: ["6B7606A65BA8FE12"]
 			size: 1.25d
 			id: "7E18AF24BE2FA2A7"
 			tasks: [{

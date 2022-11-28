@@ -11,7 +11,7 @@
 	quests: [
 		{
 			title: "&nMine&rColonies"
-			x: -1.5d
+			x: -1.0d
 			y: -6.0d
 			shape: "hexagon"
 			subtitle: "Make a Mine"
@@ -91,8 +91,8 @@
 		}
 		{
 			title: "Ex-What Now?"
-			x: 0.0d
-			y: -6.0d
+			x: -3.5d
+			y: -4.5d
 			subtitle: "Make a Sifter"
 			description: [
 				"At the &bSifter&r, a minion can process various soils through meshes to &6obtain plantlife&r that is otherwise unobtainable here."
@@ -174,7 +174,7 @@
 		}
 		{
 			title: "Putting the Hammer Down"
-			x: -2.5d
+			x: -2.0d
 			y: -3.0d
 			subtitle: "Make a Blacksmith's Hut"
 			description: [
@@ -315,8 +315,8 @@
 		}
 		{
 			title: "Shout It From the Mountaintops!"
-			x: -3.0d
-			y: -4.5d
+			x: -3.5d
+			y: -3.0d
 			subtitle: "Make a Sawmill"
 			description: [
 				"Wood products are used everywhere, getting those &6automated&r will be useful I am sure."
@@ -370,7 +370,7 @@
 		{
 			title: "Chop Chop!"
 			x: -3.0d
-			y: -6.0d
+			y: -2.0d
 			subtitle: "Make a Forester's Hut"
 			description: [
 				"Minions employed at the &bForester's Hut&r will &6harvest and replant trees&r near the Hut. Though they are &cslow&r, they are steady nonetheless."
@@ -449,7 +449,7 @@
 			]
 		}
 		{
-			x: -1.5d
+			x: -1.0d
 			y: -7.5d
 			subtitle: "Make a Nether Mine"
 			description: [
@@ -531,8 +531,8 @@
 		{
 			title: "Dormum Dominion"
 			icon: "domum_ornamentum:architectscutter"
-			x: -4.5d
-			y: -4.5d
+			x: -4.0d
+			y: -2.0d
 			subtitle: "Dromowhowhatsit?"
 			description: [
 				"In my early years, I trained in a style of carpentry known as &eDormum Ornamentum&r. By constructing an &bArchitect's Cutter&r, I can bring some of my old home here."
@@ -609,8 +609,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: -6.0d
+			x: 1.5d
+			y: -4.5d
 			subtitle: "Make a Stonemason's Hut"
 			description: [
 				"Now that I have a Mine, I have plenty of raw materials."
@@ -676,8 +676,8 @@
 		}
 		{
 			title: "Abracadabra"
-			x: 2.0d
-			y: -4.5d
+			x: 1.5d
+			y: -3.0d
 			shape: "hexagon"
 			subtitle: "Make an Enchanter's Tower"
 			description: [
@@ -733,8 +733,8 @@
 		}
 		{
 			title: "What is a Wizard Without a Tower?"
-			x: 3.5d
-			y: -4.5d
+			x: 2.0d
+			y: -2.0d
 			subtitle: "Make an Alchemist Tower"
 			description: [
 				"The &bAlchemist Tower&r will serve all my alchemical needs. I'll choose one of the &6smarter minions&r and teach them how to handle the various reagents and transmutations I'd otherwise have to do manually."
@@ -778,8 +778,8 @@
 		}
 		{
 			title: "A Shrine, to the Shine of Mine."
-			x: 2.0d
-			y: -3.0d
+			x: 1.0d
+			y: -2.0d
 			subtitle: "Make an Enchanting Table"
 			description: [
 				"With the &bEnchanting Table&r, I can greatly boost my weapon and armor far beyond their physical properties."
@@ -857,20 +857,26 @@
 		{
 			title: "That Sap!"
 			icon: "myrtrees:rubberwood_sapling"
-			x: 0.0d
-			y: -7.5d
-			subtitle: "Slower than molasses in january"
+			x: -4.5d
+			y: -4.5d
+			subtitle: "Slower than molasses in January"
 			description: [
-				"This little ingrate! I've been waiting for days for the sifter to get me the saplings I required and it turns out they've been holding out on me all along. "
+				"That little ingrate! I've been waiting for &odays&r for my Sifter to &6get me the Saplings I need&r, and they've been holding out on me!"
 				""
-				"I decided to watch them this time and sure enough I caught them with a sapling red handed. They were hoarding them away in the rack, probably to demand more food or better housing. Well, not today! I've reclaimed all of the missing saplings and I'll be watching this one from now on."
+				"I decided to watch them as they worked, and sure enough, I caught them red-handed!"
 				""
+				"They were &choarding them away in their Racks&r, probably to demand better food or housing or some other nonsense."
+				""
+				"Well, not today! I've reclaimed all the missing Saplings, and I'll be watching this one from now on."
 			]
 			dependencies: ["4E7B7D7283B9519C"]
+			size: 0.75d
+			min_width: 275
 			id: "348ABE815121637C"
 			tasks: [{
 				id: "5E0EE5BEDF3927DE"
 				type: "item"
+				title: "Saplings"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -935,17 +941,18 @@
 			]
 		}
 		{
+			title: "University T1"
+			icon: "minecolonies:blockhutuniversity"
 			x: -1.0d
 			y: -4.5d
 			shape: "gear"
 			subtitle: "Infernal Delights"
-			description: ["These structures will require me to have complete at least a T1 University."]
+			description: ["These structures will require me to have completed at least a &bTier 1 University&r, as well as the &6relevant research&r."]
 			dependencies: ["46A72493AFD256CA"]
 			id: "6FA2CE4C35ABE5F2"
 			tasks: [{
 				id: "110D8DF4553F6CA3"
 				type: "checkmark"
-				title: "University T1"
 			}]
 			rewards: [{
 				id: "494151C3D7556F57"

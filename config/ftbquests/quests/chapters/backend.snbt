@@ -10,8 +10,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -3.0d
-			y: -2.5d
+			x: 0.5d
+			y: 0.0d
 			id: "4BE377FDD69C296A"
 			tasks: [{
 				id: "47F1669387EC3E8C"
@@ -131,8 +131,8 @@
 		}
 		{
 			title: "Faustian Bargains Unlocked"
-			x: 0.0d
-			y: -1.0d
+			x: -4.0d
+			y: -2.0d
 			dependencies: [
 				"4B52BBBF01CDF027"
 				"6A7B93DC1ACE716B"
@@ -156,8 +156,8 @@
 		}
 		{
 			title: "Spellcrafting 101 Unlocked"
-			x: 1.0d
-			y: -1.0d
+			x: -3.0d
+			y: -2.0d
 			dependencies: [
 				"30BFD136F6B44257"
 				"00E0DB64568AA664"
@@ -179,8 +179,8 @@
 		}
 		{
 			title: "Kill Something"
-			x: -1.5d
-			y: 1.0d
+			x: 0.0d
+			y: -1.0d
 			id: "02DC6172CAC06ACB"
 			tasks: [{
 				id: "518610F7E9E7E506"
@@ -190,105 +190,30 @@
 			}]
 		}
 		{
-			icon: "apotheosis:salvage_table"
-			x: -0.5d
-			y: -2.5d
-			shape: "square"
-			subtitle: "Make a Scrapping Table"
-			description: ["The &bScrapping Table&r will allow me to &6descontruct an Affix tool&r into &bRarity Material&r of the appropriate tier."]
-			hide_dependency_lines: true
-			dependencies: ["5257158F43E74A41"]
-			size: 0.5d
-			id: "4F485225659DC01F"
-			tasks: [
+			x: 1.0d
+			y: -1.0d
+			description: ["time in ticks"]
+			id: "5599BD781752AE48"
+			tasks: [{
+				id: "0460BEDCE08DEF5F"
+				type: "stat"
+				title: "Play for 15 hours"
+				stat: "minecraft:play_time"
+				value: 1080000
+			}]
+			rewards: [
 				{
-					id: "261923BBFB1F8D41"
+					id: "7079D5EFF5EEFE3F"
 					type: "item"
-					item: "apotheosis:salvage_table"
+					item: "petslow:slow_doll"
 				}
 				{
-					id: "5652117645B7E5AA"
-					type: "item"
-					title: "Rarity Material"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "apotheosis:common_material"
-									Count: 1b
-								}
-								{
-									id: "apotheosis:uncommon_material"
-									Count: 1b
-								}
-								{
-									id: "apotheosis:rare_material"
-									Count: 1b
-								}
-								{
-									id: "apotheosis:epic_material"
-									Count: 1b
-								}
-								{
-									id: "apotheosis:mythic_material"
-									Count: 1b
-								}
-								{
-									id: "apotheosis:ancient_material"
-									Count: 1b
-								}
-							]
-						}
-					}
+					id: "02DEFCED32D1976B"
+					type: "command"
+					command: "/tellraw @p \"Have a friend!\""
+					player_command: false
 				}
 			]
-		}
-		{
-			x: 0.0d
-			y: -2.5d
-			shape: "square"
-			subtitle: "Make a Reforging Table"
-			description: [
-				"The &bReforging Table&r allows me to &6reroll the Affixes of an item&r."
-				""
-				"To do this, it needs some &6Gem Dust&r and 2 &6Rarity Material&r, as well as the item itself."
-				""
-				"Notably, I can &6reroll Affix-less items&r that I crafted myself!"
-			]
-			dependencies: [
-				"55F26C7FB4538F7E"
-				"4F485225659DC01F"
-			]
-			size: 0.5d
-			id: "50A7848F8BA9EEB0"
-			tasks: [{
-				id: "4E08FFF6178EB3D2"
-				type: "item"
-				item: "apotheosis:reforging_table"
-			}]
-		}
-		{
-			x: 0.0d
-			y: -3.0d
-			shape: "square"
-			subtitle: "Collect Gem Dust"
-			description: ["&bGem Dust&r can be gathered by &6dropping an Anvil on a Gem&r."]
-			dependencies: ["68AB2F7E06DE90A2"]
-			size: 0.5d
-			id: "55F26C7FB4538F7E"
-			tasks: [{
-				id: "0749CB660ADDC3DC"
-				type: "item"
-				item: "apotheosis:gem_dust"
-			}]
-			rewards: [{
-				id: "0DEFE82E956A8349"
-				type: "item"
-				item: "apotheosis:gem_dust"
-				count: 6
-			}]
 		}
 	]
 }

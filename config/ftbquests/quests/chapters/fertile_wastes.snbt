@@ -134,7 +134,7 @@
 		{
 			icon: "minecolonies:blockhutfarmer"
 			x: 9.0d
-			y: -6.5d
+			y: -7.0d
 			subtitle: "Make a Farm"
 			description: [
 				"Though these fools lack the minds for intelligent conversation, their simple nature means they don't complain when asked to tend the &bFarm&r."
@@ -192,7 +192,7 @@
 		{
 			title: "And Thus, the Cycle of Life and Death Continues"
 			x: 8.0d
-			y: -6.5d
+			y: -7.0d
 			subtitle: "Make a Composter's Hut"
 			description: [
 				"At the &bComposter's Hut&r, the Composter will turn organic materials into &6Compost&r."
@@ -233,7 +233,7 @@
 		}
 		{
 			x: 7.0d
-			y: -6.5d
+			y: -7.0d
 			subtitle: "Make a Plantation"
 			description: ["The &bPlantation&r can grow Sugar Cane, Bamboo, and Cactus. It can also do recipes related to those."]
 			dependencies: ["7D5A4BF8413EC971"]
@@ -299,13 +299,16 @@
 			]
 		}
 		{
-			title: "Make a Garden Cloche"
+			title: "MiniBiosphere"
 			x: 8.0d
 			y: -10.5d
-			subtitle: "MiniBiosphere"
+			subtitle: "Make a Garden Cloche"
 			description: [
-				"The Garden Cloches takes power and water and grows plants. The advantage of this is that it can grow just about everything and very fast. Even on my world, they were fast but here they seem to be almost four times faster! I can produce just about everything I'll need for food and other organics."
+				"The &bGarden Cloche&r takes power and water, and uses it to grow plants."
 				""
+				"The advantage to this is that it &6can grow just about anything&r, and does so very quickly."
+				""
+				"Even in my world these were fast, but here they're &64 times faster&r!"
 			]
 			dependencies: [
 				"7E2E8703658E78AB"
@@ -937,11 +940,13 @@
 			}]
 		}
 		{
+			icon: "minecolonies:blockhutuniversity"
+			tags: ["info"]
 			x: 8.0d
-			y: -5.5d
+			y: -6.0d
 			shape: "gear"
 			subtitle: "Higher Learning"
-			description: ["These structures will require me to have complete at least a T1 University and the corresponding research."]
+			description: ["These structures will require me to have completed at least a &bTier 1 University&r, as well as the &6relevant research&r."]
 			dependencies: ["46A72493AFD256CA"]
 			id: "77391C99929D964E"
 			tasks: [{

@@ -83,7 +83,7 @@
 				{
 					id: "7EAFE33A9A4F52A4"
 					type: "command"
-					title: "Ten Minutes of Night Vision"
+					title: "10 Minutes of Night Vision"
 					icon: {
 						id: "ftbquests:custom_icon"
 						Count: 1b
@@ -100,6 +100,7 @@
 		{
 			title: "Useful Things!"
 			icon: "minecraft:crafting_table"
+			tags: ["info"]
 			x: -0.5d
 			y: -5.5d
 			shape: "gear"

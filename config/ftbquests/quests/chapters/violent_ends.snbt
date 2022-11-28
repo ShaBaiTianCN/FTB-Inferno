@@ -215,16 +215,12 @@
 			]
 		}
 		{
-			title: "Slay the Void Worm"
+			title: "Pluck out the Eyes of Darkness"
 			x: 0.0d
 			y: 3.0d
 			shape: "hexagon"
-			subtitle: "Pluck out the eye of darkness"
-			description: [
-				"With the gateway pearl in hand and the power of the dragon in my veins I can finally strike down the worm that travels beyond worlds and take its power for my own!"
-				""
-				"(If I previously killed the worm, crafting the ark of eldritch transcendence should complete this quest automatically for me)"
-			]
+			subtitle: "Slay the Void Worm"
+			description: ["With the &6Gate Pearl&r in hand, and the power of the Dragon in my veins, I can finally &bstrike down the Worm&r that travels beyond worlds, and &6take its power for my own&r!"]
 			dependencies: ["513E078F2B82A9D2"]
 			size: 2.0d
 			id: "17C6262399CF5FB1"
@@ -242,19 +238,22 @@
 			}]
 		}
 		{
+			title: "Eldritch Transcendence"
 			icon: "minecolonies:blockhutuniversity"
 			x: 0.0d
-			y: 6.0d
+			y: 5.25d
 			shape: "hexagon"
 			subtitle: "The Final Word"
 			description: [
-				"With the worm's power to pierce dimensions I've finally obtained the pieces to prepare for my exodus."
+				"With the Worm's power to pierce dimensions, I've finally obtained everything I need to prepare my exodus."
 				""
-				"The final step will be upgrading my university to the maximum tier and unlocking the Eldritch Transcedence research. Only then will I finally be able to return to my home."
+				"The final steps needed are to &bupgrade my University&r to its maximum, and complete the &bEldritch Transcendence&r research."
 				""
+				"Only then will I be able to &6return to my home&r."
 			]
 			dependencies: ["17C6262399CF5FB1"]
 			size: 1.5d
+			min_width: 275
 			id: "69F0B175E8EA2570"
 			tasks: [{
 				id: "0ABFF66F41CFC13F"

@@ -1415,9 +1415,11 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 7.5d
 			y: -5.0d
 			shape: "square"
+			subtitle: "Make an Ender Chest"
+			description: ["&bEnder Chests&r harness the power of Endermen, allowing me to &6teleport items&r over any distance."]
 			dependencies: ["55099E0F763B39CA"]
 			id: "6CF1F47FC1105B74"
 			tasks: [{
@@ -1432,9 +1434,11 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 8.5d
 			y: -5.0d
 			shape: "square"
+			subtitle: "Make an Ender Tank"
+			description: ["&bEnder Tanks&r of the same color frequency share their contents."]
 			dependencies: ["40D4850B34EC5677"]
 			id: "4E1E0D39D0F581BB"
 			tasks: [{
@@ -1485,10 +1489,17 @@
 			}]
 		}
 		{
+			icon: "itemcollectors:basic_collector"
 			x: 10.0d
 			y: -6.0d
+			shape: "square"
 			subtitle: "Don't waste a drop!"
-			description: ["Item collectors can pickup all items in a predefined range. I should make a few of these for my mob farming and collection needs. With the advanced one I can even set white or blacklists!"]
+			description: [
+				"&bItem Collectors&r can pick up all items in an area, which I can change in its GUI."
+				""
+				"I should make a few of these for my mob farms. With the &6Advanced&r one, I can even set up a black/whitelist!"
+			]
+			dependencies: ["2F1E6BFBCD59CF57"]
 			id: "1EF3188DBE7823F6"
 			tasks: [{
 				id: "4CF1F65E962C35F8"

@@ -501,12 +501,7 @@ onEvent('entity.hurt',(event) => {
     if (player) {
         let item = player.getMainHandItem().id
         
-        //if ((hurtEntity.type === 'witherstormmod:wither_storm') && item == 'avaritia:infinity_sword') {
-        if ((event.entity.level.dimension == 'witherstormmod:bowels' || hurtEntity.type === 'witherstormmod:wither_storm' || hurtEntity.type === 'witherstormmod:withered_symbiont') && item == 'avaritia:infinity_sword') {
-            event.cancel()
-            player.tell('这把剑的威力只会让邪灵恐惧。')
-            return
-        }
+
         if ((event.entity.level.dimension == 'witherstormmod:bowels' || hurtEntity.type === 'witherstormmod:wither_storm' || hurtEntity.type === 'witherstormmod:withered_symbiont') &&
             item == 'bloodmagic:daggerofsacrifice') {
             event.cancel()
@@ -514,8 +509,13 @@ onEvent('entity.hurt',(event) => {
             return
         }
 
-        if (event.entity.level.dimension == 'minecraft:overworld' && item == 'avaritia:infinity_sword') {
-            let cappedDamage = Math.max(50, hurtEntity.getMaxHealth()*0.15)
+        if ((event.entity.level.dimension == 'minecraft:overworld' || event.entity.level.dimension == 'witherstormmod:bowels') && item == 'avaritia:infinity_sword') {
+            if (hurtEntity == 'witherstormmod:command_block') {
+                player.tell('The command block offers no response to the sword of the cosmos.')    
+                event.cancel()
+                return
+            }
+            let cappedDamage = Math.max(50, hurtEntity.getMaxHealth()*0.20)
             if (cappedDamage > hurtEntity.getHealth()) return
             hurtEntity.attack(0)
             hurtEntity.setHealth(hurtEntity.getHealth() - cappedDamage)
@@ -630,8 +630,9 @@ onEvent('item.right_click',(event) => {
     let item2 = event.player.getOffHandItem()
 
     
-    if ((item1 == 'avaritia:infinity_bow' || item2 == 'avaritia:infinity_bow') && event.player.level.dimension == 'witherstormmod:bowels'){
+    if ((item == 'avaritia:infinity_bow' || item2 == 'avaritia:infinity_bow') && event.player.level.dimension == 'witherstormmod:bowels'){
         event.player.tell('尽你所能尝试，你感觉到命令方块正在吸收无限弓的力量。')
+        event.cancel()
     }
 
     //Apotheosis Socket

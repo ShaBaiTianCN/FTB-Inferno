@@ -59,7 +59,6 @@
 			dependencies: [
 				"726232DDB1A6AD5A"
 				"513E078F2B82A9D2"
-				"652CA912545038EA"
 			]
 			id: "4AF929F772D28E2C"
 			tasks: [{
@@ -86,9 +85,15 @@
 			shape: "hexagon"
 			subtitle: "Make a Psuedo Command Block"
 			description: [
-				"Travesty. It appears my original summoning did work and this entire time a great evil darkness has been spreading across my homeworld. The enemies are vasty and powerful. So many have died while I was gone but not longer. I. Will. Fix. THIS. For now the evil is ethereal and spread across the realm but I will continue my original summoning and force it into a corporeal form. I devised a &bPseudo Command Block&r that when placed under my summoning altar will have the strength of will to command the entity into a suitable host, in the case, a wither should suffice."
+				"It appears my original summoning, which started this whole situation, was only partially successful."
 				""
-				"With the Pseudo Command Block, I can summon the Wither Storm using the &6Summoning Altar&r. I'll have to do it at night during a thunder storm, and a Wither has to be nearby."
+				"The entire time I was fighting for survival in the underworld, a &4great and evil darkness&r has been spreading accross my home."
+				""
+				"This evil has &ccorrupted and strengthened&r the denizens of the world, making them dangerous beyond what I've seen."
+				""
+				"For now, the evil is ethereal; it is suffused into the realm, effecting it but unable to be effected. I'll need to &6finish what I started&r, giving the evil a corporeal form that I can defeat."
+				""
+				"With the &bPseudo Command Block&r, I can summon the Wither Storm using the &6Summoning Altar&r. I'll have to do it at night during a thunder storm, and a Wither has to be nearby."
 				""
 				"{image:inferno:textures/quest/witherstorm_pseudo.png width:150 height:150 align:1}"
 			]
@@ -104,11 +109,19 @@
 				type: "item"
 				item: "inferno:pseudo_command_block"
 			}]
+			rewards: [{
+				id: "1689C65749C6445F"
+				type: "command"
+				auto: "invisible"
+				command: "/tellraw @p [\"\",\"I should make sure to \",{\"text\":\"read my journal \",\"color\":\"red\"},\"before continuing.\"]"
+				player_command: false
+			}]
 		}
 		{
-			x: 1.5d
-			y: -1.125d
+			x: 4.5d
+			y: -0.5d
 			shape: "square"
+			hide_dependency_lines: true
 			dependencies: ["4AF929F772D28E2C"]
 			size: 0.75d
 			id: "1E1B7AA678E3E610"
@@ -119,9 +132,10 @@
 			}]
 		}
 		{
-			x: 2.25d
-			y: -1.125d
+			x: 5.25d
+			y: -0.5d
 			shape: "square"
+			hide_dependency_lines: true
 			dependencies: ["4AF929F772D28E2C"]
 			size: 0.75d
 			id: "3A6DD27C65E2DB31"
@@ -132,9 +146,10 @@
 			}]
 		}
 		{
-			x: 3.75d
-			y: -1.125d
+			x: 5.25d
+			y: 0.25d
 			shape: "square"
+			hide_dependency_lines: true
 			dependencies: ["4AF929F772D28E2C"]
 			size: 0.75d
 			id: "7CF7D3D7067F9E94"
@@ -145,9 +160,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -1.125d
+			x: 4.5d
+			y: 0.25d
 			shape: "square"
+			hide_dependency_lines: true
 			dependencies: ["4AF929F772D28E2C"]
 			size: 0.75d
 			id: "511BC2AABC1ED563"
@@ -178,12 +194,13 @@
 			description: [
 				"Upon entering &5the Bowels&r, I have to &6survive four waves&r of enemies as well as reoccuring onslaught portals. I dont need to defeat these portals I imagine, but I will need to survive and kill everyting else in here so that I may strike at its core."
 				""
-				"To end each wave, I have to &bhit the Command Block with my Command Block tool&r. "
+				"To end each wave, I have to &bhit the Command Block with my Command Block Sword&r. "
 				""
 				"Doing this three times will &3force the Wither Storm&r into a weakened state below 25% of it's maximum hp. When the world flashes white the command block is finally vulnerable. Right click it with the command sword to drive your power deep into its core and end it once and for all!"
 			]
 			dependencies: ["16DD4674C9EF1BEA"]
 			size: 3.0d
+			min_width: 275
 			id: "5AB76DFF76164D53"
 			tasks: [{
 				id: "0F02A28EFE3A5999"
@@ -271,50 +288,9 @@
 			]
 		}
 		{
-			title: "Confrontation"
-			icon: "minecraft:command_block"
-			x: 3.5d
-			y: 1.5d
-			subtitle: "Return home"
-			description: [
-				"I'm back in my home dimension, but I'm in unfamiliar terrain. I need to &bgo home&r."
-				""
-				"My map shows me my location relative to my home, which would be at &60,0&r."
-				""
-				"Once there, I can &6resummon the Wither Storm&r by placing one last Skull, and end this."
-				""
-				"{image:inferno:textures/quest/witherstorm_structure.png width:225 height:121 align:1}"
-				""
-				"&oIf on a server, use the &6Pseudo Command Block&r&o quest instead&r"
-			]
-			hide_dependency_lines: false
-			hide: true
-			hide_text_until_complete: true
-			optional: true
-			min_width: 325
-			id: "7800B2759F48AACD"
-			tasks: [{
-				id: "578B6109D083F2FC"
-				type: "location"
-				title: "Travel to (0,0)"
-				dimension: "minecraft:overworld"
-				ignore_dimension: false
-				position: [I;
-					0
-					64
-					0
-				]
-				size: [I;
-					30
-					500
-					30
-				]
-			}]
-		}
-		{
 			title: "Revelations"
-			x: -1.5d
-			y: 3.5d
+			x: -3.0d
+			y: 4.0d
 			shape: "hexagon"
 			subtitle: "Summon the Wither Storm"
 			description: [
@@ -347,7 +323,7 @@
 		{
 			title: "Corruption Champion"
 			icon: "witherstormmod:command_block_book"
-			x: -1.5d
+			x: -3.0d
 			y: 6.75d
 			shape: "diamond"
 			subtitle: "Kill a Withered Symbiont"
@@ -370,7 +346,7 @@
 		}
 		{
 			title: "F Bomb"
-			x: -1.5d
+			x: -3.0d
 			y: 9.0d
 			shape: "hexagon"
 			subtitle: "Make the Formidibomb"
@@ -381,7 +357,7 @@
 				""
 				"The Formidibomb's detonation (which can be triggered with a Flint and Steel) is the only thing capable of &5killing the Wither Storm&r."
 				""
-				"&cMAKE SURE IT IS PLACED CLOSE ENOUGH!&r If it doesn't get sucked upwards towards the Storm after detonation, it's too far away!"
+				"&cMAKE SURE IT IS PLACED CLOSE ENOUGH!&r I definitely do NOT want to waste these!"
 			]
 			dependencies: ["4E26F0BCA1EAF972"]
 			size: 1.5d
@@ -418,7 +394,7 @@
 			x: 2.25d
 			y: 9.0d
 			shape: "hexagon"
-			subtitle: "Make a Command Block tool"
+			subtitle: "Make a Command Block Sword"
 			description: [
 				"It played me for a fool! It's &cmore powerful than ever&r!"
 				""
@@ -433,7 +409,6 @@
 			tasks: [{
 				id: "462BBC16F10B86D8"
 				type: "item"
-				title: "Command Block Tools"
 				item: "witherstormmod:command_block_sword"
 			}]
 			rewards: [{
@@ -444,8 +419,8 @@
 		}
 		{
 			title: "The Eye of the Storm"
-			x: 0.5d
-			y: 6.0d
+			x: -1.5d
+			y: 4.0d
 			shape: "square"
 			subtitle: "Escape the Wither Storm's gaze"
 			description: [
@@ -502,6 +477,7 @@
 				""
 				"Now, I can &4finally have my revenge&r on the &5demon who sent me&r from here."
 			]
+			dependencies: ["69F0B175E8EA2570"]
 			min_width: 275
 			id: "4DF37AAE2F818122"
 			tasks: [{
@@ -514,32 +490,6 @@
 				type: "item"
 				item: "minecraft:obsidian"
 				count: 12
-			}]
-		}
-		{
-			icon: "minecraft:writable_book"
-			x: 3.5d
-			y: 2.5d
-			shape: "gear"
-			description: [
-				"This shouldn't have happened! "
-				""
-				" "
-				"I was sure this was the way to summon the Witherstorm"
-				"There has to be another way!"
-			]
-			hide_dependency_lines: true
-			dependencies: ["7800B2759F48AACD"]
-			hide: true
-			optional: true
-			id: "6DC0BACCEC6F710C"
-			tasks: [{
-				id: "4E4E099E70F4767C"
-				type: "gamestage"
-				title: "Fail to summon the Witherstorm"
-				icon: "minecraft:writable_book"
-				disable_toast: true
-				stage: "commandblock"
 			}]
 		}
 	]

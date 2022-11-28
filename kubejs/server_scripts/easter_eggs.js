@@ -40,3 +40,14 @@ onEvent('ftbquests.custom_reward.3B841D268E88C261',(event) => {
         //Removed for copyrwrite reasons, the saddest reasons
     }
 })
+
+onEvent('entity.death', event => {
+    if (event.entity.type != 'minecraft:player') return
+    let player = event.entity
+    let randomNumber = Math.floor(Math.random()*100) //0-99
+    if (randomNumber == 0) { //1% chance
+        player.sendData('narrator',{
+            sayThis: 'Skill issue'
+        })
+    }
+})
