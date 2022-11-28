@@ -1,232 +1,232 @@
 {
-	id: "6C2B4DABB8F6A232"
-	group: "24F72A50D728E97E"
-	order_index: 0
-	filename: "the_angry_earth"
-	title: "To Reach Beyond"
-	icon: "create:handheld_worldshaper"
-	subtitle: ["Avaritia"]
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
-	quests: [
-		{
-			x: -1.0d
-			y: 0.5d
-			shape: "square"
-			subtitle: "Make a Creative Blaze Cake"
-			description: ["The &bCreative Blaze Cake&r will &6permanently fuel my Blaze Burners&r."]
-			dependencies: [
-				"7FE9FAFBDB354644"
-				"652CA912545038EA"
-			]
-			id: "5AD7FB5A14AEF209"
-			tasks: [{
-				id: "1A3BE67B55F9D964"
-				type: "item"
-				item: "create:creative_blaze_cake"
-			}]
-		}
-		{
-			title: "Massive Molecular Energy"
-			x: -2.0d
-			y: 0.5d
-			shape: "square"
-			subtitle: "Make a Creative Energy Cell"
-			description: ["The &bCreative Energy Cell&r will &6provide my ME network infinite power&r."]
-			dependencies: ["652CA912545038EA"]
-			id: "24E59E06D96DB266"
-			tasks: [{
-				id: "3E5B94EA7A578923"
-				type: "item"
-				item: "ae2:creative_energy_cell"
-			}]
-		}
-		{
-			x: -2.0d
-			y: 1.5d
-			shape: "square"
-			subtitle: "Make a Creative Source Jar"
-			description: ["The &bCreative Source Jar&r &6contains an infinite amount of Source&r."]
-			dependencies: ["652CA912545038EA"]
-			id: "41F0E230BEB57D63"
-			tasks: [{
-				id: "4D948253A3D7A568"
-				type: "item"
-				item: "ars_nouveau:creative_source_jar"
-			}]
-		}
-		{
-			x: -3.0d
-			y: 0.5d
-			shape: "square"
-			subtitle: "Make a Creative Blood Drop"
-			description: [
-				"By combining the essence of gluttony with a near endless amount of LP, I've created the &bCreative Blood Drop&r."
-				""
-				"This amazing item &6contains an infinite amount of blood&r, able to be drained continuously until the end of time."
-			]
-			dependencies: ["652CA912545038EA"]
-			id: "167E92A9F512EAB0"
-			tasks: [{
-				id: "5B433A099F319727"
-				type: "item"
-				item: {
-					id: "evilcraft:creative_blood_drop"
-					Count: 1b
-					tag: {
-						Fluid: {
-							FluidName: "evilcraft:blood"
-							Amount: 500
-						}
-						capacity: 1000
-					}
-					ForgeCaps: {
-						Parent: {
-							FluidName: "evilcraft:blood"
-							Amount: 500
-							capacity: 1000
-						}
-					}
-				}
-			}]
-		}
-		{
-			title: "Power Unending"
-			x: -3.0d
-			y: 1.5d
-			shape: "square"
-			subtitle: "Make a Creative Spell Book"
-			description: [
-				"With the power of infinity, I can create a grimoire beyond any other."
-				""
-				"The &bCreative Spell Book&r has &6access to every Glyph&r possible, as well as &6boosted max mana and mana regen&r."
-			]
-			dependencies: ["652CA912545038EA"]
-			id: "3D53054987A2F5F0"
-			tasks: [{
-				id: "354694713521509D"
-				type: "item"
-				item: "ars_nouveau:creative_spell_book"
-			}]
-		}
-		{
-			title: "Perpetual Motion"
-			x: -3.0d
-			y: 2.5d
-			shape: "square"
-			subtitle: "Make a Creative Motor"
-			description: [
-				"The &bCreative Motor&r is able to &6generate an infinite amount of rotational force&r."
-				""
-				"I can use this to get &6infinite FE/:zap: using an Alternator&r!"
-			]
-			dependencies: ["652CA912545038EA"]
-			id: "2F57328373DF4196"
-			tasks: [{
-				id: "3851D0939FBAA57D"
-				type: "item"
-				item: "create:creative_motor"
-			}]
-		}
-		{
-			title: "Let's Get Creative!"
-			x: -2.0d
-			y: 2.5d
-			shape: "square"
-			subtitle: "Make a Creative Ability"
-			description: ["The &bCreative Ability&r can be applied to my Tinkers' tools to &6add an ability slot&r."]
-			dependencies: ["652CA912545038EA"]
-			id: "42F524A88232672C"
-			tasks: [{
-				id: "10F2D6370A7C826B"
-				type: "item"
-				item: {
-					id: "itemfilters:and"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "tconstruct:creative_slot"
-								Count: 1b
-								tag: {
-									slot: "abilities"
-								}
-							}
-							{
-								id: "itemfilters:strong_nbt"
-								Count: 1b
-								tag: {
-									value: {
-										slot: "abilities"
-									}
-								}
-							}
-						]
-					}
-				}
-			}]
-		}
-		{
-			x: -1.0d
-			y: 2.5d
-			shape: "square"
-			subtitle: "Make a Creative Worldshaper"
-			description: [
-				"The &bCreative Worldshaper&r is the ultimate tool to bend the world to my will."
-				""
-				"With it, I can &6place blocks freely&r, without having them in my inventory."
-				""
-				"While placed blocks are not taken, &cbroken blocks are not given&r either. Blocks broken are permanently lost."
-			]
-			dependencies: ["652CA912545038EA"]
-			id: "0966630DAB07735A"
-			tasks: [{
-				id: "49B94E289B55A585"
-				type: "item"
-				item: {
-					id: "create:handheld_worldshaper"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -1.0d
-			y: 1.5d
-			shape: "square"
-			subtitle: "Make an Apotheotic Boss Summoner&r"
-			description: ["By using the &bApotheotic Boss Summoner&r, I am able to &6summon forth a boss enemy to fight&r."]
-			dependencies: [
-				"7FE9FAFBDB354644"
-				"652CA912545038EA"
-			]
-			id: "5F18C93E2907CFF5"
-			tasks: [{
-				id: "682529637989FFFD"
-				type: "item"
-				item: "apotheosis:boss_summoner"
-			}]
-			rewards: [{
-				id: "2298CD957EF998D2"
-				type: "item"
-				item: "apotheosis:boss_summoner"
-				count: 3
-			}]
-		}
-		{
-			x: -2.0d
-			y: -0.5d
-			shape: "square"
-			subtitle: "Quantum Energy"
-			description: ["The Creative Battery can provide limitless Zaps Energy to a power supplier or keep charged equipment topped off indefinitely!"]
-			dependencies: ["652CA912545038EA"]
-			optional: true
-			id: "6200E4452551CC6C"
-			tasks: [{
-				id: "17E67E03282AA47D"
-				type: "item"
-				item: "ftbic:creative_battery"
-			}]
-		}
-	]
+        id: "6C2B4DABB8F6A232"
+        group: "24F72A50D728E97E"
+        order_index: 0
+        filename: "the_angry_earth"
+        title: "超越！"
+        icon: "create:handheld_worldshaper"
+        subtitle: ["贪婪"]
+        default_quest_shape: ""
+        default_hide_dependency_lines: false
+        quests: [
+                {
+                        x: -1.0d
+                        y: 0.5d
+                        shape: "square"
+                        subtitle: "制作创造烈焰蛋糕"
+                        description: ["&b创造烈焰蛋糕&r能&6永久地超级加热我的烈焰人燃烧室&r。"]
+                        dependencies: [
+                                "7FE9FAFBDB354644"
+                                "652CA912545038EA"
+                        ]
+                        id: "5AD7FB5A14AEF209"
+                        tasks: [{
+                                id: "1A3BE67B55F9D964"
+                                type: "item"
+                                item: "create:creative_blaze_cake"
+                        }]
+                }
+                {
+                        title: "超多超多分子能量"
+                        x: -2.0d
+                        y: 0.5d
+                        shape: "square"
+                        subtitle: "制作创造能量单元"
+                        description: ["&b创造能量单元&r能&6为我的ME能量网络提供无限能源&r。"]
+                        dependencies: ["652CA912545038EA"]
+                        id: "24E59E06D96DB266"
+                        tasks: [{
+                                id: "3E5B94EA7A578923"
+                                type: "item"
+                                item: "ae2:creative_energy_cell"
+                        }]
+                }
+                {
+                        x: -2.0d
+                        y: 1.5d
+                        shape: "square"
+                        subtitle: "制作创造魔源罐"
+                        description: ["&b创造魔源罐&r&6装载着无限的魔源&r。"]
+                        dependencies: ["652CA912545038EA"]
+                        id: "41F0E230BEB57D63"
+                        tasks: [{
+                                id: "4D948253A3D7A568"
+                                type: "item"
+                                item: "ars_nouveau:creative_source_jar"
+                        }]
+                }
+                {
+                        x: -3.0d
+                        y: 0.5d
+                        shape: "square"
+                        subtitle: "制作创造血源"
+                        description: [
+                                "我将饕餮精华和巨量的LP组合在一起终于做出了&b创造血源&r。"
+                                ""
+                                "它可视为&6容纳无线多的鲜血&r，多到直到时间的尽头我也不能把他用完."
+                        ]
+                        dependencies: ["652CA912545038EA"]
+                        id: "167E92A9F512EAB0"
+                        tasks: [{
+                                id: "5B433A099F319727"
+                                type: "item"
+                                item: {
+                                        id: "evilcraft:creative_blood_drop"
+                                        Count: 1b
+                                        tag: {
+                                                Fluid: {
+                                                        FluidName: "evilcraft:blood"
+                                                        Amount: 500
+                                                }
+                                                capacity: 1000
+                                        }
+                                        ForgeCaps: {
+                                                Parent: {
+                                                        FluidName: "evilcraft:blood"
+                                                        Amount: 500
+                                                        capacity: 1000
+                                                }
+                                        }
+                                }
+                        }]
+                }
+                {
+                        title: "无穷的力量"
+                        x: -3.0d
+                        y: 1.5d
+                        shape: "square"
+                        subtitle: "制造一本创造模式咒语书"
+                        description: [
+                                "借助无限的力量，我可以创造出超越一切的魔典"
+                                ""
+                                "&b创造模式咒语书&r能够&6使用所有魔符&r，同时也让我有了&6最大的魔力与魔力再生速度&r。"
+                        ]
+                        dependencies: ["652CA912545038EA"]
+                        id: "3D53054987A2F5F0"
+                        tasks: [{
+                                id: "354694713521509D"
+                                type: "item"
+                                item: "ars_nouveau:creative_spell_book"
+                        }]
+                }
+                {
+                        title: "永动机！"
+                        x: -3.0d
+                        y: 2.5d
+                        shape: "square"
+                        subtitle: "制作创造模式马达"
+                        description: [
+                                "&b创造模式马达&r可以&6产生无限的旋转力&r。"
+                                ""
+                                "我能用他配合交流发电机获得&6无限FE还是Zaps能量&r！"
+                        ]
+                        dependencies: ["652CA912545038EA"]
+                        id: "2F57328373DF4196"
+                        tasks: [{
+                                id: "3851D0939FBAA57D"
+                                type: "item"
+                                item: "create:creative_motor"
+                        }]
+                }
+                {
+                        title: "让我们再有创造性一点！"
+                        x: -2.0d
+                        y: 2.5d
+                        shape: "square"
+                        subtitle: "制作一个创造能力强化"
+                        description: ["&b创造能力强化&r可以给我的匠魂工具&6增加一个升级槽&r。"]
+                        dependencies: ["652CA912545038EA"]
+                        id: "42F524A88232672C"
+                        tasks: [{
+                                id: "10F2D6370A7C826B"
+                                type: "item"
+                                item: {
+                                        id: "itemfilters:and"
+                                        Count: 1b
+                                        tag: {
+                                                items: [
+                                                        {
+                                                                id: "tconstruct:creative_slot"
+                                                                Count: 1b
+                                                                tag: {
+                                                                        slot: "abilities"
+                                                                }
+                                                        }
+                                                        {
+                                                                id: "itemfilters:strong_nbt"
+                                                                Count: 1b
+                                                                tag: {
+                                                                        value: {
+                                                                                slot: "abilities"
+                                                                        }
+                                                                }
+                                                        }
+                                                ]
+                                        }
+                                }
+                        }]
+                }
+                {
+                        x: -1.0d
+                        y: 2.5d
+                        shape: "square"
+                        subtitle: "制作一个创造模式环境塑形器"
+                        description: [
+                                "&b创造模式环境塑形器&r可以让我按照我的意志来任意改造世界."
+                                ""
+                                "我可以用它来&6随意放置任何方块&r, 甚至我背包里都不需要有它们."
+                                ""
+                                "但这个工具并不能真正做到无中生有, &c我不能获得它放置的方块&r 一旦方块被破坏，他们就永久消失了."
+                        ]
+                        dependencies: ["652CA912545038EA"]
+                        id: "0966630DAB07735A"
+                        tasks: [{
+                                id: "49B94E289B55A585"
+                                type: "item"
+                                item: {
+                                        id: "create:handheld_worldshaper"
+                                        Count: 1b
+                                        tag: { }
+                                }
+                        }]
+                }
+                {
+                        x: -1.0d
+                        y: 1.5d
+                        shape: "square"
+                        subtitle: "制作一个神化Boss召唤器&r"
+                        description: ["使用&b神化Boss召唤器&r,我可以&6召唤一个Boss敌人来战斗&r."]
+                        dependencies: [
+                                "7FE9FAFBDB354644"
+                                "652CA912545038EA"
+                        ]
+                        id: "5F18C93E2907CFF5"
+                        tasks: [{
+                                id: "682529637989FFFD"
+                                type: "item"
+                                item: "apotheosis:boss_summoner"
+                        }]
+                        rewards: [{
+                                id: "2298CD957EF998D2"
+                                type: "item"
+                                item: "apotheosis:boss_summoner"
+                                count: 3
+                        }]
+                }
+                {
+                        x: -2.0d
+                        y: -0.5d
+                        shape: "square"
+                        subtitle: "量子能量"
+                        description: ["创造模式电池可以无限提供Zaps能量，也可以为你的装备进行充能!"]
+                        dependencies: ["652CA912545038EA"]
+                        optional: true
+                        id: "6200E4452551CC6C"
+                        tasks: [{
+                                id: "17E67E03282AA47D"
+                                type: "item"
+                                item: "ftbic:creative_battery"
+                        }]
+                }
+        ]
 }
