@@ -3,25 +3,25 @@
 	group: "46A29AE1E3ACCC77"
 	order_index: 0
 	filename: "creation"
-	title: "Cambion Creations"
+	title: "坎比翁之造物"
 	icon: "create:precision_mechanism"
-	subtitle: ["Create"]
+	subtitle: ["机械动力"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Industrial Revolution"
+			title: "工业革命"
 			x: -2.0d
 			y: 8.5d
-			subtitle: "Make a Fluid Tank"
+			subtitle: "制作流体储罐"
 			description: [
-				"Powering machines by manually providing rotational energy is only useful in the short-term. I need to create energy automatically."
+				"手动产生旋转能来驱动机器仅适合前期使用。我需要自动产生能量。"
 				""
-				"As water wheels aren't exactly available to me here, I'll go with the next best thing: &6steam power&r."
+				"由于水车在我这里并不完全可用，我需要下一个任务中的&6蒸汽引擎&r."
 				""
-				"The first step for that is storing Water, which can be done in a copper &bFluid Tank&r. In order to stabilize the copper to withstand high pressures I'll need some of that skystone I sourced from a &6Dimensional Mineshaft&r."
+				"第一步是在铜制的&b流体储罐&r存储水。为了使铜能稳定地承受高压，我需要一些我从&6维度矿井&r采购的陨石。"
 				""
-				"Well, second step. The first step is sourcing the Water. An &6Eternal Water Block&r would work nicely."
+				"好吧，第二步。第一步是寻找水的来源。一个"无限水源"可以很好地发挥作用。"
 			]
 			dependencies: ["6FD19E493ACD27F3"]
 			min_width: 275
@@ -46,14 +46,14 @@
 			]
 		}
 		{
-			title: "Manual Mechanical Energy"
+			title: "人工动力"
 			x: -2.0d
 			y: 4.0d
-			subtitle: "Make a Hand Crank"
+			subtitle: "制作一个手摇曲柄"
 			description: [
-				"With my newfound access to metals from the living world, I can finally &6recreate technology from home&r."
+				"随着我对来自维度世界的金属的新发现，我终于可以&6在家里重新创造技术了&r。"
 				""
-				"I'll have to start small. A &bHand Crank&r will allow me to manually provide machines with rotational energy."
+				"我将不得不从小事做起。一个&b手摇曲柄&r能让我手动为机器提供旋转能量。"
 			]
 			dependencies: ["75FDD2C3835E92DC"]
 			id: "2D12FFFC26267D74"
@@ -89,12 +89,12 @@
 			]
 		}
 		{
-			title: "Pressed for Production"
+			title: "生产压力"
 			icon: "create:mechanical_press"
 			x: -2.0d
 			y: 5.5d
-			subtitle: "Make a Mechanical Press"
-			description: ["Now that I have a source of power (even if that source is my own muscles), I can start shaping metals with the &bMechanical Press&r."]
+			subtitle: "制造一台动力辊压机"
+			description: ["现在我有了一种动力的来源（即使它是来源于我的肌肉），我可以利用&b动力辊压机&r来为金属塑形了。"]
 			dependencies: ["2D12FFFC26267D74"]
 			id: "2B83BBEA2A4B4463"
 			tasks: [{
@@ -127,12 +127,12 @@
 			]
 		}
 		{
-			title: "Plate Production"
+			title: "生产金属板"
 			icon: "ftbic:copper_plate"
 			x: -2.0d
 			y: 7.0d
-			subtitle: "Make a Copper Plate"
-			description: ["&bPlates&r are the easiest part for me to shape with the Press. Thankfully, Plates are also the most immediately useful."]
+			subtitle: "制造一个铜板"
+			description: ["&b金属板&r是我利用压力可以制作的最简单的部件。谢天谢地，金属板也是当前立即就能用得上的部件。"]
 			dependencies: ["2B83BBEA2A4B4463"]
 			id: "6FD19E493ACD27F3"
 			tasks: [{
@@ -167,15 +167,15 @@
 			]
 		}
 		{
-			title: "Full Steam Ahead!"
+			title: "全速前进！"
 			icon: "create:steam_engine"
 			x: -2.0d
 			y: 10.0d
-			subtitle: "Make a Steam Engine"
+			subtitle: "制造一台蒸汽引擎"
 			description: [
-				"I'll need the assistance of my Blacksmith to create my first &bSteam Engine&r. I'll be able to make more myself after watching them."
+				"我将需要我铁匠的帮助来制造我的第一台&b蒸汽引擎&r。在观摩他们之后，我就可以自己制造更多。"
 				""
-				"I can &6Ponder&r on my memories of Steam Engines I've seen to recall how to use them."
+				"我可以在我有关蒸汽引擎的记忆中&6思索&r，这样，我就能想起来怎么使用他们。"
 			]
 			dependencies: ["2B4C937D7BE6FE06"]
 			min_width: 225
@@ -200,14 +200,14 @@
 			}]
 		}
 		{
-			title: "Automated Automation!"
+			title: "自动自动化！"
 			x: 0.0d
 			y: 10.0d
-			subtitle: "Make a Mechanical Crafter"
+			subtitle: "制造一台动力合成器"
 			description: [
-				"Certain blueprints are simply too vast in scope to be made the traditional way. Instead, I'll have to use &bMechanical Crafters&r."
+				"某些合成表太过巨大而不能简单的用传统的方式合成。我将不得不使用&b动力合成器&r。"
 				""
-				"My Mechanic will have to make the first batch, but I can make the rest."
+				"我的机械师将不得不完成第一批制作，而我可以小憩一下。"
 			]
 			dependencies: ["142454243365761D"]
 			min_width: 225
@@ -221,13 +221,13 @@
 		{
 			x: 2.0d
 			y: 10.0d
-			subtitle: "Make an Alternator"
+			subtitle: "制造一台交流发电机"
 			description: [
-				"Now that I've had a taste of steam power, I've come to a conclusion;"
+				"现在我尝到了蒸汽动力的甜头，逐渐萌生出一个想法；"
 				""
-				"I need &4more&r. I need &belectricity&r."
+				"我要&4更多&r，我要&b电能&r。"
 				""
-				"To that end, the &bAlternator&r will &6convert RPM to electricity&r, measured in FE."
+				"怀揣着这个目的，我发现&b交流发电机&r将会把&6RPM转化为FE形式的电能&r。"
 				""
 				"&oUnlocks several quests in &5Innovation of Inconnu&r&o under &3Prometheus' Heresy&r"
 			]
@@ -259,20 +259,20 @@
 			]
 		}
 		{
-			title: "Blaze It"
+			title: "烧掉它！"
 			icon: "create:blaze_burner"
 			x: -4.0d
 			y: 10.0d
 			shape: "square"
-			subtitle: "Make a Blaze Burner"
+			subtitle: "制造一个烈焰人燃烧室"
 			description: [
-				"While the Steam Engine works fueled by Campfires, it's &cnot very powerful&r. Campfires only provide for 2,048 stress units."
+				"当蒸汽引擎被篝火加热时，它并&c不能十分有力的运转&r。篝火驱动仅仅只能提供2048su的动力。"
 				""
-				"Instead of Campfires, I can use &bBlaze Burners&r to provide heat."
+				"我可以使用&b烈焰人燃烧室&r而不是篝火来提供热量。"
 				""
-				"A Blaze Burner is &cequivalent to a Campfire&r by default, but can be fed with furnace fuels to be &68 times stronger&r, producing 16,384su."
+				"在熄灭状态下，一个烈焰人燃烧室就&c相当于一个篝火&r，但是，当它被投喂可燃物后，效率将&增加68倍&r，达到16,384su。"
 				""
-				"Burnable items only feed the Burner the same time they'd fuel a furnace. I can feed it &bBlaze Cake&r instead, and it will be Super-Heated for 50 seconds and Heated for 205 seconds, before petering out."
+				"投喂给烈焰人的可燃物应当也可以充当熔炉的燃料。我也可以喂给它&b烈焰蛋糕&r，如此一来，在熄灭之前，它将进入50秒的超级燃烧状态，以及250秒的一般燃烧状态。"
 			]
 			dependencies: ["142454243365761D"]
 			min_width: 275
@@ -308,16 +308,15 @@
 			]
 		}
 		{
-			title: "This is your create."
-			tags: ["info"]
+			title: "创造时间！"
 			x: -2.0d
 			y: 11.5d
 			shape: "gear"
-			subtitle: "The sky is the limit"
+			subtitle: "天空即为极限"
 			description: [
-				"Now that I've unlocked rotational energy, I can &6create an unimaginable variety of contraptions&r to farm, kill, build, and even mine for me."
+				"现在，我已经掌握了旋转能，利用这股能量，我可以做到诸如：种植，建造，砍杀甚至采集矿物等不可思议的装置，这将取决于我的想象力。掌控它，我将在不同的方面得到帮助。"
 				""
-				"My research notes on mechanical energy ends here, but I have so many more ideas..."
+				"我对旋转能系统的研究笔记止步于此，但研究之路并未走到极限……."
 			]
 			dependencies: ["142454243365761D"]
 			size: 1.25d
@@ -325,7 +324,7 @@
 			tasks: [{
 				id: "5EF8ED8AC5663D05"
 				type: "checkmark"
-				title: "This is create"
+				title: "这就是机械动力"
 				icon: "create:deployer"
 			}]
 			rewards: [
@@ -371,17 +370,15 @@
 			]
 		}
 		{
-			title: "Wait a Tick..."
 			x: 2.0d
 			y: 11.5d
 			shape: "square"
-			subtitle: "Make an Electric Motor"
-			description: [
-				"I don't know why I didn't think of this sooner. I can convert mechanical energy into electric energy, so &6why can't I do the reverse?&r"
-				""
-				"The &bElectric Motor&r will convert electricity into rotational force. With &6Tesseracts&r, I can now create contraptions without having to connect to my Steam Engines!"
+			subtitle: "慢着……"
+			description: ["我不明白为什么我没有早日想到这一点。我不止可以将机械中的旋转能转化为电能，也可以将电能转化为旋转能！在超立方体的帮助之下，我可以在任何地方创造便携式设备。这将是一种游戏方式上的转变。"]
+			dependencies: [
+				"080BD2AA7CCAAA90"
+				"6B7606A65BA8FE12"
 			]
-			dependencies: ["6B7606A65BA8FE12"]
 			size: 1.25d
 			id: "7E18AF24BE2FA2A7"
 			tasks: [{
