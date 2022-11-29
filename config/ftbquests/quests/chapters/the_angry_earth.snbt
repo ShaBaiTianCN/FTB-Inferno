@@ -32,7 +32,7 @@
                         y: 0.5d
                         shape: "square"
                         subtitle: "制作创造能量单元"
-                        description: ["&b创造能量单元&r能&6为我的ME能量网络提供无限能源&r。"]
+                        description: ["&b创造能量单元&r能&6为我的ME网络提供无限能源&r。"]
                         dependencies: ["652CA912545038EA"]
                         id: "24E59E06D96DB266"
                         tasks: [{
@@ -63,7 +63,7 @@
                         description: [
                                 "我将饕餮精华和巨量的LP组合在一起终于做出了&b创造血源&r。"
                                 ""
-                                "它可视为&6容纳无线多的鲜血&r，多到直到时间的尽头我也不能把他用完."
+                                "它可以&6容纳无限多的鲜血&r，多到能够一直使用到时间的尽头。"
                         ]
                         dependencies: ["652CA912545038EA"]
                         id: "167E92A9F512EAB0"
@@ -129,7 +129,7 @@
                         }]
                 }
                 {
-                        title: "让我们再有创造性一点！"
+                        title: "让我们发挥创意！"
                         x: -2.0d
                         y: 2.5d
                         shape: "square"
@@ -174,9 +174,9 @@
                         description: [
                                 "&b创造模式环境塑形器&r可以让我按照我的意志来任意改造世界."
                                 ""
-                                "我可以用它来&6随意放置任何方块&r, 甚至我背包里都不需要有它们."
+                                "我可以用它来&6随意放置任何方块&r, 甚至我背包里都不需要有它们。"
                                 ""
-                                "但这个工具并不能真正做到无中生有, &c我不能获得它放置的方块&r 一旦方块被破坏，他们就永久消失了."
+                                "但这个工具并不能真正做到无中生有，&c我不能获得它放置的方块&r，因为方块一旦被破坏，他们就永远消失了。"
                         ]
                         dependencies: ["652CA912545038EA"]
                         id: "0966630DAB07735A"
@@ -195,7 +195,7 @@
                         y: 1.5d
                         shape: "square"
                         subtitle: "制作一个神化Boss召唤器&r"
-                        description: ["使用&b神化Boss召唤器&r,我可以&6召唤一个Boss敌人来战斗&r."]
+                        description: ["使用&b神化Boss召唤器&r,我可以&6召唤一个Boss敌人来战斗&r。"]
                         dependencies: [
                                 "7FE9FAFBDB354644"
                                 "652CA912545038EA"
@@ -218,7 +218,7 @@
                         y: -0.5d
                         shape: "square"
                         subtitle: "量子能量"
-                        description: ["创造模式电池可以无限提供Zaps能量，也可以为你的装备进行充能!"]
+                        description: ["创造模式电池可以无限提供Zaps能量，也可以为你的装备进行充能！"]
                         dependencies: ["652CA912545038EA"]
                         optional: true
                         id: "6200E4452551CC6C"
