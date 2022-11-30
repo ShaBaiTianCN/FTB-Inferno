@@ -3,25 +3,25 @@
 	group: "3ABD0072BF4C3677"
 	order_index: 0
 	filename: "want_not"
-	title: "Want Not"
+	title: "达咩"
 	icon: "minecolonies:blockhutminer"
-	subtitle: ["Main MineColonies progression"]
+	subtitle: ["主殖民地进度"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "&e&oAlso try FTB University!"
+			title: "&e&o试试FTB大学吧！"
 			x: -2.5d
 			y: -4.5d
-			subtitle: "Make a University"
+			subtitle: "创建大学"
 			description: [
-				"The MOST important of my facilities, to me at least. The &bUniversity&r is where I shall task these minions with gathering research notes and experimenting towards new ways to exploit this realm. There are untold multitudes of magic to be explored. "
+				"至少对我来说，这是非常重要的设施。因为&b大学&r是让研究员替我收集研究日记与做实验的一个新场所。这里有许多源源不尽的魔法可以让我去研究它。"
 				""
-				"Researchers at Universities work on research topics to unlock new buildings, upgrade colonists, etc."
+				"来自大学的研究人员始终致力于研究新的内容，以便解锁更好的建筑与升级殖民地等内容。"
 				""
-				"Each topic may require buildings at certain levels, and may cost items. All of this is listed in the research tab."
+				"每当研究建筑/市民增益时，可能都需要建筑达到某些级别才能这么做，与此同时也可能会消耗一些物品，有关这些的所有研究都会在标签中列举出来。"
 				""
-				"&6Higher level Universities can research more topics.&r"
+				"&6高等级的大学可以研究更多的建筑/市民增益。&r"
 			]
 			dependencies: ["2A6CCA72F1D483D9"]
 			min_width: 275
@@ -48,7 +48,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Infernal University Capsule\"}"
+								Name: "{\"text\":\"大学炼狱胶囊\"}"
 							}
 							label: "University.nbt"
 							size: 23
@@ -88,20 +88,20 @@
 			]
 		}
 		{
-			title: "Protect and Serve"
+			title: "保护与服务"
 			x: 0.5d
 			y: -3.5d
-			subtitle: "Make a Guard Tower"
+			subtitle: "建造一座卫兵塔"
 			description: [
-				"Now they complaining they're \"too afraid to work!\" Will these endless demands ever cease!?"
+				"现在他们始终都在抱怨他们“不敢工作”！这种工作怎么能停止呢！？"
 				""
-				"I better put up some &bGuard Towers&r and assigns a few of them to protect the area. These also &6expand my borders&r, if placed near them."
+				"我最好搭建一座&b卫兵塔&r，并分配一些卫兵来保护这片地区。如果将他们放置在我的殖民地附近的话，那么卫兵塔能为我&6拓展殖民地&r。"
 				""
-				"&oYou will need many Guard Towers as your colony grows. Guards live in their Towers, freeing up Houses for new residents."
+				"&o随着殖民地的发展，我们将会需要更多的卫兵塔来守卫这片区域，以便为新的居民腾出更多的房子。"
 				""
-				"&oYou will need to provide basic weapons and armor to the Tower's inventory for your Guards to use them."
+				"&o我们或许还需要在卫兵塔中的箱子中存放一些最基础的武器与装备，以便我们的卫兵更好的去使用这些装备。"
 				""
-				"&oUnlocks the chapter &5Protect the Unprotected&r&o under &3Desires&r"
+				"&o完成本任务后&3解锁&r&5保护平民&r&o章节。"
 			]
 			dependencies: ["2A6CCA72F1D483D9"]
 			min_width: 300
@@ -128,7 +128,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Guard Tower Capsule\"}"
+								Name: "{\"text\":\"卫兵塔胶囊\"}"
 							}
 							label: "Guardtower.nbt"
 							size: 9
@@ -251,13 +251,13 @@
 		{
 			x: 3.5d
 			y: -5.5d
-			subtitle: "Make a Tavern"
+			subtitle: "建造一座酒馆"
 			description: [
-				"This place is pretty lifeless. A few visitors have shown up but not nearly enough for my designs."
+				"在我的殖民地里还缺少一些基础设施，游客的出现让我不得不加快我的设计步伐。"
 				""
-				"A &bTavern&r will provide a suitable atmosphere to attract more help and provide beds for them to rest after a long day of laboring. "
+				"随着&b酒馆&r这种具有独特氛围的场所出现，我可以为他们提供一些床位来让忙碌了一天的他们能好好休息。"
 				""
-				"Outsiders can be hired from here. Only one Tavern can exist in a colony."
+				"来自外地的平民可以被雇佣，但是一个殖民地里只能存在一家酒馆。"
 			]
 			dependencies: ["2A6CCA72F1D483D9"]
 			id: "08E650C5D890F725"
@@ -295,7 +295,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Tavern Capsule\"}"
+								Name: "{\"text\":\"酒馆胶囊\"}"
 							}
 							label: "Tavern.nbt"
 							size: 15
@@ -307,23 +307,23 @@
 			]
 		}
 		{
-			title: "Indentured Servants"
+			title: "仆人契约"
 			x: 2.0d
 			y: -4.5d
 			shape: "hexagon"
-			subtitle: "You're going to want a lot of these"
+			subtitle: "你将会需要很多此类物品"
 			description: [
-				"The first and most mundane workload is the lifting, moving, and building to house these lost souls. To that end, I assign my first newcomers as &6Builders&r. These Builders will live in &bBuilder's Huts&r."
+				"第一个也是最平凡的工作就是搬运、移动与建造，以便安置这些迷路的人。因此，我需要将第一批人分配到&6建筑工&r，建筑工喜欢居住在&6建筑工小屋&r中。"
 				""
-				"Like all MineColonies building-blocks, they cannot work without a structure around them. The quests give the structures in Capsules, but Builders are required for the rest."
+				"他们与所有的殖民地房屋一样，如果没有合适的房屋，他们将无法工作。在任务的奖励中提供了一些有关房屋的胶囊，但是仍然还需要建筑工。"
 				""
-				"Use the Capsule, then &6use your Build Tool&r to place the Hut so they are overlapped perfectly. The Tool will also show you the border of your colony."
+				"使用胶囊后，你可以使用&6建筑工具&r来搭建房屋，并使这些方块准确无误的放置在指定位置上，此工具还能显示你的殖民地边界。"
 				""
-				"Builders cannot build buildings of a higher tier than their Hut. A level 2 House requires a level 2 Builder's Hut."
+				"建筑工无法建造那些比建筑工小屋的等级更高的建筑，所以如果想建造一座2级的房屋，就需要将建筑工小屋升到2级。"
 				""
-				"&oUnlocks the chapters &5In Service Bound&r&o and &5Give Them a Fish&r&o under &3Desires&r"
+				"&o完成本任务即可解锁&3本主章节&r中的&5在服务内&r和&5给他一条鱼&r大章节任务。"
 				""
-				"The information in these chapters will allow me to make a &6Fisher's Hut&r and a &6Mine&r. I should make these two structures as soon as possible to give me resources I will need to progress!"
+				"在这些任务章节中的信息无时无刻都在提醒我，我现在就必须要去建造一座&6渔夫小屋&r和&6采石场&r，因为我非常需要他们来为我提供接下来所需要的资源。"
 			]
 			dependencies: ["550E386F2FFB787D"]
 			size: 1.5d
@@ -369,7 +369,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Builder's Hut Capsule\"}"
+								Name: "{\"text\":\"建筑工小屋胶囊\"}"
 							}
 							label: "Builder.nbt"
 							size: 15
@@ -388,31 +388,31 @@
 					id: "2CBDB1FC2D13B4E4"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"In Service Bound \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Desires\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁该章节\",{\"text\":\"在服务内 \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"欲望\",\"color\":\"dark_aqua\"},\"!\"]"
 					player_command: false
 				}
 				{
 					id: "70A269DE0D358022"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Give Them a Fish \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Desires\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁该章节\",{\"text\":\"给他一条鱼 \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"欲望\",\"color\":\"dark_aqua\"},\"!\"]"
 					player_command: false
 				}
 			]
 		}
 		{
-			title: "Affordable Housing"
+			title: "可负担的庇护所"
 			x: 3.5d
 			y: -3.5d
-			subtitle: "Make a House"
+			subtitle: "建造一座住宅"
 			description: [
-				"The minions will wander aimlessly if I dont contain them! Suitable housing will entice them to put down roots and &6leave room for more visitors&r to show up as well."
+				"如果我们不控制住他们的话，这些平民就会漫无目的地在我殖民地中游荡！建造一些合适的住宅能让他们在我的殖民地中扎根，并提供更多的空间来&6容纳游客&r。"
 				""
-				"Each new minion needs a Bed, and these basic &bHouses&r provide one. Higher tiers will provide more."
+				"每一位平民都需要一张床，而在低等级的&b住宅&r中每个&b住宅&r只能提供一张床，而高等级的住宅中可提供更多地床。"
 				""
-				"I have a feeling I'm going to need a great many of these."
+				"我有一种预感，我将会需要建造大量的住宅。"
 				""
-				"&oA colony has a max of 25 colonists. Increase this amount at the University&r"
+				"&o在一块殖民地中最多只能容纳25名平民，只不过可在大学里拓展该数量。&r"
 			]
 			dependencies: ["2A6CCA72F1D483D9"]
 			min_width: 250
@@ -439,7 +439,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Housing Capsule\"}"
+								Name: "{\"text\":\"住宅胶囊\"}"
 							}
 							label: "House.nbt"
 							size: 15
@@ -467,15 +467,15 @@
 			icon: "minecolonies:blockhutcook"
 			x: 0.5d
 			y: -5.5d
-			subtitle: "Make a Restaurant"
+			subtitle: "建造一所餐厅"
 			description: [
-				"They eat. So. Much. My hands tire from constantly feeding these gluttons. Instead, I'll create and staff a &bRestaurant&r."
+				"他们吃的有点多，我的手因频繁劳作已经疲劳，取而代之的是，我或许可以去建造一所&b餐厅&r并配备一些工作人员去满足他们对吃的渴望。"
 				""
-				"These poor fools are not chefs. They &6have to be taught recipes&r. There is a tab for crafting recipes, and another for furnace recipes."
+				"只不过这些可怜的傻瓜并不是厨师，我还需要教会他们&6制作食物的配方&r，有一个标签是工作台的，而旁边则是熔炉的配方。"
 				""
-				"I also have to &6specify a fuel&r for them to use. &6Tiny Coal&r would probably be optimal."
+				"我们还需要为厨师&6指定熔炉燃料&r，其中&6小块煤炭&r可能是最佳的选择。"
 				""
-				"&oHigher tier workers may require better food, and won't eat lesser foods."
+				"&o越高等级的工人越需要更好的食物，而不是吃劣质食物。"
 			]
 			dependencies: ["2A6CCA72F1D483D9"]
 			min_width: 275
@@ -526,7 +526,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Restaurant Capsule\"}"
+								Name: "{\"text\":\"餐厅胶囊\"}"
 							}
 							label: "Restaurant.nbt"
 							size: 15
@@ -541,13 +541,13 @@
 			x: 2.0d
 			y: -7.0d
 			shape: "pentagon"
-			subtitle: "Its the centerpiece of my town, better find a good spot for it."
+			subtitle: "它是我这块殖民地的核心，最好为它选择一块好地方来放置。"
 			description: [
-				"Though the &bTown Hall&r is the most obvious centerpiece, I actually find the &6Warehouse&r is best located at the center of my colony."
+				"虽然&b市政厅&r作为最明显的中心点，但是我发现我最好也将&6仓库&r也建在我的中心点附近。"
 				""
-				"The Town Hall is where I can manage my minions, putting them to tasks."
+				"市政厅是我管理工人的地方，能让工人为我去执行一些任务。"
 				""
-				"The &6Clipboard&r allows me constant oversight of into their meanderings. This allows me to keep them focused, and provide them materials as needed."
+				"&6剪贴板&r允许我远程查看他们的需求，以便我能让他们始终保持精力，并根据他们的需求提供对应的材料。"
 				""
 				"{image:inferno:textures/quest/colony.png width:186 height:100 align:1 fit:true}"
 			]
@@ -587,13 +587,13 @@
 		{
 			x: 5.0d
 			y: -4.5d
-			subtitle: "I've got to store items for my minions somewhere."
+			subtitle: "我必须要为我的居民去储存物品。"
 			description: [
-				"Things are starting to take shape now, but I the find system a logistics nightmare."
+				"现在建筑已经逐渐开始成型，但是我发现在殖民地中物流仍然是一个噩梦般的存在。"
 				""
-				"To deal with this distraction, I've designed a &bWarehouse&r facility for the minions to centralize their wares."
+				"为了解决该问题，我设计了一座&b仓库&r来解决该问题，以便让工人更好的集中处理他们所需的材料。"
 				""
-				"You can insert items in and out of the Warehouse using Hoppers etc. The Warehouse's inventory is made up of all the Racks &6that are part of the default building&r. Adding Racks will not work, but higher tier Warehouses have more Racks and therefore more storage space."
+				"你可以使用漏斗等交互管道将物品从仓库中输入或者输出。仓库的存储上限是由建筑框架中的&6所有架子组成&r的，试图在低等级的仓库上增加架子数量是无法提高上限的，但高等级的仓库拥有更多的架子，因此拥有更多的存储空间。"
 			]
 			dependencies: ["2A6CCA72F1D483D9"]
 			min_width: 300
@@ -620,7 +620,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Infernal Warehouse\"}"
+								Name: "{\"text\":\"炼狱仓库\"}"
 							}
 							label: "Warehouse.nbt"
 							size: 21
@@ -656,7 +656,7 @@
 			]
 		}
 		{
-			title: "Tools of the Trade"
+			title: "贸易工具"
 			icon: {
 				id: "kubejs:miners_delight"
 				Count: 1b
@@ -667,11 +667,11 @@
 			x: 2.0d
 			y: -8.5d
 			shape: "square"
-			subtitle: "Special tools for special \"people\""
+			subtitle: "特殊的人使用特殊的工具"
 			description: [
-				"While not to my own standards, I've crafted these highly specialized tools for my workers to use."
+				"虽然还没达到我心仪的标准，但是已经足够让我制作出来并交给我的工人去使用。"
 				""
-				"They are crude and slow, but &6highly durable&r, offering an astounding 65,000 durability, albeit at a wood mining level."
+				"这些工具十分地粗糙，虽然挖掘速度慢但却&6非常耐用&r，可以提供惊人的65,000点使用次数，可用于去开采原木。"
 			]
 			dependencies: ["550E386F2FFB787D"]
 			min_width: 275
@@ -739,11 +739,11 @@
 		{
 			x: 6.5d
 			y: -4.5d
-			subtitle: "Transport at its finest."
+			subtitle: "最好的运输"
 			description: [
-				"The &bCourier's Hut&r will allow me to assign &6Couriers&r, who carry items between my Warehouse and my other workers as needed."
+				"&b快递员小屋&r允许我分配&b快递员&r，&b快递员&r能根据我的需求在仓库与各个建筑物之间运输物品。"
 				""
-				"Each Courier needs its own Hut, and you can have 10 per Warehouse."
+				"每个快递员都需要属于自己的小屋，一个仓库最多只能拥有10名快递员。"
 			]
 			dependencies: ["6525AE59A42AEAC7"]
 			id: "5080EA9B5355509C"
@@ -768,7 +768,7 @@
 						author: "FTB"
 						display: {
 							color: 8388608
-							Name: "{\"text\":\"Courier's Hut Capsule\"}"
+							Name: "{\"text\":\"快递员小屋胶囊\"}"
 						}
 						label: "Courier.nbt"
 						size: 13
@@ -779,16 +779,16 @@
 			}]
 		}
 		{
-			title: "Going Postal"
+			title: "邮政服务"
 			icon: "minecolonies:blockstash"
 			x: 6.5d
 			y: -3.0d
 			shape: "square"
-			subtitle: "Make a Stash and Postbox"
+			subtitle: "制作一个邮箱与信箱"
 			description: [
-				"I can put items in a &bStash&r, and a Courier will run along to bring them to the Warehouse."
+				"我可以将物品存放到&b邮箱&r中，然后由快递员将这些物品送到仓库中。"
 				""
-				"The opposite of that is the &bPostbox&r. Opening it will show me everything in the Warehouse, and I can request a Courier bring me things from it."
+				"与之相反的是&b信箱&r。当打开&b信箱&r时，我就能看见仓库中的所有物品，我可以要求快递员将我选择的物品从仓库中都送到我手里。"
 			]
 			dependencies: ["5080EA9B5355509C"]
 			id: "035C600C7C3C5B80"
@@ -819,13 +819,13 @@
 			x: 5.0d
 			y: -3.0d
 			shape: "square"
-			subtitle: "Automation at a distance"
+			subtitle: "远距离自动化"
 			description: [
-				"I have been searching for a good way to access the items in my Warehouse easily. I think I've found the perfect solution: &bEntangled Blocks&r."
+				"我一直在寻找一种使用更好的办法去访问我仓库中的物品，我想我现在已经寻找到了解决方案：&b纠缠方块&r。"
 				""
-				"If an Entangled Block is bound to the Warehouse, inserting/extracting items from the Block will instead use the Warehouse."
+				"如果将纠缠方块绑定到仓库，那么直接从纠缠方块中输入或者输出物品都将会直接应用在仓库中。"
 				""
-				"&oThis works best with Pretty Pipez' Item Terminal, AE2's Storage Bus, and the like."
+				"&o与更好的管道模组、AE2的存储总线搭配起来使用效果更佳。"
 			]
 			dependencies: ["6525AE59A42AEAC7"]
 			min_width: 275
@@ -880,21 +880,21 @@
 			]
 		}
 		{
-			title: "Mysteries Unravel"
+			title: "揭开神秘面纱"
 			icon: "minecraft:writable_book"
 			x: -2.5d
 			y: -6.0d
 			shape: "gear"
-			subtitle: "Lost knowledge, reclaimed."
+			subtitle: "将失去的知识重新获得"
 			description: [
-				"There are four types of research topic:"
+				"目前有四种类型的研究类型："
 				""
-				"• &bCivilian&r: General topics, helping the everyman"
-				"• &bCombat&r: Increases combat effectiveness in several ways"
-				"• &bTechnology&r: Unlocks crafting-style buildings, and makes them better"
-				"• &bUnlockables&r: More niche topics"
+				"•&b市民&r：基础性的研究，可帮助许多普通人；"
+				"•&b战斗&r：从多个方面提高战斗力；"
+				"•&b科技&r：解锁各种风格的建筑，并使其更加完善；"
+				"•&b解锁&r：解锁其他类型的特殊研究。"
 				""
-				"Of significant note, under Unlockables there is the &4Infernal&r line. These provide massive buffs to my minions, and allow me to progress further."
+				"值得注意的是，在未锁定物品的前提下，在大学任务线下方有一个炼狱的任务线。这些任务线能为市民提供大量的增益BUFF，并加快研究进度。"
 			]
 			dependencies: ["46A72493AFD256CA"]
 			optional: true
@@ -925,22 +925,22 @@
 			]
 		}
 		{
-			title: "Rest for the Wicked"
+			title: "工人的休息！"
 			icon: "minecraft:red_bed"
 			tags: ["info"]
 			x: 4.5d
 			y: -7.0d
 			shape: "gear"
-			subtitle: "Minions need sleep too!"
+			subtitle: "工人也需要睡眠！"
 			description: [
-				"Colonists &cwill not work during the night&r. They will go to their House if they have one, or go to the Town Hall if they do not."
+				"工人&c不会在夜间工作&r。如果他们有房屋的话，则会返回自己的房屋中，如果没有房屋的话则会去市政厅。"
 				""
-				"How do they know it's night, you ask? They're demons. They know things."
+				"你问，他们怎么知道现在是白天还是晚上？他们难道是恶魔吗？他们怎么连这最基础的都不知道？"
 				""
-				"Colonists will also not work under these conditions:"
-				"• It's been less than a day since a colonist died"
-				"• The colonist is sick"
-				"• The colonist is starving"
+				"工人不会在以下条件下工作："
+				"•工人距离上次死亡的时间未满一天；"
+				"•工人已经生病了；"
+				"•工人正在饥饿中。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["550E386F2FFB787D"]
@@ -953,23 +953,23 @@
 			}]
 		}
 		{
-			title: "Under Construction"
+			title: "未完工建筑"
 			icon: "minecolonies:blockconstructiontape"
 			tags: ["info"]
 			x: 2.0d
 			y: -3.0d
 			shape: "gear"
-			subtitle: "OSHA approved"
+			subtitle: "OSHA认证"
 			description: [
-				"&bConstruction Tape&r around a building means that it is unfinished."
+				"&b建筑物&r附近的施工围栏代表着该建筑是正在建设中的。"
 				""
-				"To finish a building, there must be a &6Builder&r colonist, and their Hut must have the proper tools and supplies."
+				"要想建造一栋建筑，必须要有一名&6建筑工&r，与此同时，当建筑工小屋内也拥有足够的工具时，建筑工才会工作。"
 				""
-				"Buildings need a structure around them, but do not care how they got there. A &6Capsule&r will place the structure, and the Builder just has to confirm that it's placed properly. This can still &ctake some time&r, depending on the size of the structure."
+				"建筑物周围需拥有合适的结构框架，无需担心&6建筑工&r如何到达那里。任务奖励的胶囊能放置指定结构，而只需要去确认它们被放置的位置即可。这可能仍然需要一段时间，因为建筑工建造建筑需要的时间会&6根据该建筑的大小而变化&r。"
 				""
-				"Interacting with a Worker that is not working will tell you why. They usually are missing an item, like a block or a tool."
+				"与不在工作中的工人对话，他们会告诉你他们现在缺少的物品，例如一块方块、一把合适的工具等。"
 				""
-				"You may have to manually request the building be built in its GUI, under &6Build Options&r in its GUI."
+				"你可能需要在指定的GUI界面中发送指定建筑物的建造请求。"
 			]
 			dependencies: ["2A6CCA72F1D483D9"]
 			optional: true
@@ -995,7 +995,7 @@
 						author: "FTB"
 						display: {
 							color: 8388608
-							Name: "{\"text\":\"Housing Capsule\"}"
+							Name: "{\"text\":\"住宅胶囊\"}"
 						}
 						label: "House.nbt"
 						size: 15
@@ -1006,7 +1006,7 @@
 			}]
 		}
 		{
-			title: "Documentation!!!"
+			title: "说明文档！！！"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -1018,8 +1018,8 @@
 			x: 4.5d
 			y: -8.0d
 			shape: "gear"
-			subtitle: "Read it!"
-			description: ["Most buildings have a wax &4?&r in the bottom left of their GUI, which explains how it works."]
+			subtitle: "阅读它！"
+			description: ["在大多数建筑中的左下角有一个红色的&4？&r，它将会说明该建筑是如何工作的。"]
 			hide_dependency_lines: true
 			dependencies: ["550E386F2FFB787D"]
 			optional: true
@@ -1030,19 +1030,19 @@
 			}]
 		}
 		{
-			title: "Upgrading"
+			title: "升级"
 			icon: "minecolonies:blockconstructiontape"
 			tags: ["info"]
 			x: 1.5d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "How to upgrade a building"
+			subtitle: "如何升级建筑"
 			description: [
-				"In every building GUI, there is a button labeled &6Build Options&r. Here, you can see all the blocks the building structure is made of."
+				"在每个建筑的GUI中，都有一个&6建筑选项&r的按钮。在选项里，可以查看到所有的建筑都是由框架与方块组成的。"
 				""
-				"At the bottom, you can &brequest a Builder repair or upgrade&r the building."
+				"在选项的底部，你可以让建筑工人去&b建造建筑或者升级建筑&r。"
 				""
-				"Remember: a tier 2 building requires a tier 2 Builder's Hut!"
+				"温馨提示：二级的建筑需要二级的建筑工人小屋！"
 			]
 			dependencies: ["7A67B426C3D571AA"]
 			optional: true
@@ -1073,7 +1073,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Housing Capsule\"}"
+								Name: "{\"text\":\"住宅胶囊\"}"
 							}
 							label: "House.nbt"
 							size: 15
@@ -1085,16 +1085,16 @@
 			]
 		}
 		{
-			title: "Roll the Dice or End Your Life"
+			title: "投掷骰子决定命运"
 			icon: "infernou:uni1"
 			x: -2.5d
 			y: -1.5d
 			shape: "diamond"
-			subtitle: "Defeat Dame Fortuna and upgrade your University to tier 3"
+			subtitle: "击败福尔图娜女爵，将大学升到3级"
 			description: [
-				"To unlock the Tier 3 University, I need to use the &bDame Fortuna Gateway Pearl&r to summon and defeat the overlord &6Dame Fortuna&r."
+				"为了解锁三级大学，需要使用&bDame Fortuna Gateway珍珠l&r去召唤并击败&6福尔图娜女爵&r。"
 				""
-				"Upon her defeat, I can craft the &bArk of Infernal Insight&r to act as the next focal point of the University."
+				"在击败福尔图女爵后，我可以制作&bArk of Infernal Insight&r，可将大学再升一级。"
 			]
 			dependencies: ["11159BF1C52963EC"]
 			min_width: 275
@@ -1149,7 +1149,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Guard Tower Capsule\"}"
+								Name: "{\"text\":\"卫兵塔胶囊\"}"
 							}
 							label: "Guardtower.nbt"
 							size: 9
@@ -1175,7 +1175,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Housing Capsule\"}"
+								Name: "{\"text\":\"住宅胶囊\"}"
 							}
 							label: "House.nbt"
 							size: 15
@@ -1188,21 +1188,21 @@
 			]
 		}
 		{
-			title: "For Whom the Bell Tolls"
+			title: "钟声为谁而鸣？"
 			icon: "infernou:uni2"
 			x: -2.5d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "Defeat the Bellringer and upgrade your University to tier 2"
+			subtitle: "击败敲钟人，将大学升到2级"
 			description: [
-				"As I grow my colony, I'm able to &6upgrade my Universities&r. This is a crucial step to my &4Infernal research&r, as well as general progress and unlocking new buildings."
+				"随着我的殖民地的发展，我能继续&6升级我的大学&r。能让我继续去做我的&4炼狱研究&r，解锁更多建筑都起到了极其重要的作用。"
 				""
-				"Each University upgrade will require an &5artifact of power&r to be displayed within. The tier 2 University requires the item &bArk of Infernal Delight&r."
+				"大学每一级都需要消耗一定数量的&5特殊物品&r，而二级大学需要&bArk of Infernal Delight&r。"
 				""
-				"In order to craft it, I will have to use the &6Bellringer Gateway Pearl&r and &cdefeat the Bellringer that it summons&r."
+				"为了制作它，需要使用&6Bellringer Gate珍珠&r，并击败它&c召唤的敲钟人&r。"
 				""
-				"Note: Demonic Overlords will ake note that I've killed one of their own. &cMore difficult monsters will spawn from now on.&r"
-				"These battles are DIFFICULT. I should goto my guard huts and have several of them follow me to help in these fights and bring plenty of splash potions for myself and them. Turrets from Ars would be a great idea as well."
+				"注意：恶魔霸主注意到了我击杀了它们的人，从现在开始，将会有许多&c源源不断地怪物产生&r。"
+				"这些战斗是很困难的，我或许应该去我的卫兵塔或兵营塔中寻找一些骑士、弓箭手和德鲁伊来跟随我一起战斗，德鲁伊能为卫兵和敌人投掷大量药水，同时也能为我治疗。新生魔艺模组提供的炮塔或许也能助我一臂之力。"
 			]
 			dependencies: ["46A72493AFD256CA"]
 			min_width: 275
@@ -1252,7 +1252,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Housing Capsule\"}"
+								Name: "{\"text\":\"住宅胶囊\"}"
 							}
 							label: "House.nbt"
 							size: 15
@@ -1278,7 +1278,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Guard Tower Capsule\"}"
+								Name: "{\"text\":\"卫兵塔胶囊\"}"
 							}
 							label: "Guardtower.nbt"
 							size: 9
@@ -1292,29 +1292,29 @@
 					id: "2ADC380E3DA402A9"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Upon learning \",{\"text\":\"Infernal Research \",\"color\":\"red\"},\"at the University, you are opening yourself up to getting invaded by monsters.\"]"
+					command: "/tellraw @p [\"\",\"在\",{\"text\":\"大学中\",\"color\":\"red\"},\"学习了炼狱研究后，已经准备好了去迎接更多怪物的洗礼了。\"]"
 					player_command: false
 				}
 				{
 					id: "2EB87AB4CF572B22"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"See the new quest in the chapter \",{\"text\":\"Protecting the Unprotected \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Desires\",\"color\":\"dark_aqua\"}]"
+					command: "/tellraw @p [\"\",\"详细内容请请查看\",{\"text\":\"保护平民\",\"color\":\"dark_purple\"},\"under \",{\"text\":\"章节中的任务。\",\"color\":\"dark_aqua\"}]"
 					player_command: false
 				}
 			]
 		}
 		{
-			title: "More Like Shark &oWeak&r"
+			title: "类似鲨鱼的&o弱点&r"
 			icon: "infernou:uni3"
 			x: -2.5d
 			y: 0.0d
 			shape: "diamond"
-			subtitle: "Defeat Swampjaw and upgrade your University to tier 4"
+			subtitle: "击败沼泽巨颌怪，将大学升到4级"
 			description: [
-				"At the deepest depths of this realm lies an overlord fiend in the form of a &6massive skeletal shark&r."
+				"在该领域的最深处，有一只&6巨型类似鲨鱼&r的恶魔霸主。"
 				""
-				"I am prepared for this battle. &bSwampjaw&r is simply yet another stepping stone."
+				"我为这场战斗做好了充足的装备，而&b沼泽巨颌怪&r只是升级大学所需的垫脚石罢了。"
 			]
 			dependencies: ["278B1A270F796408"]
 			min_width: 250
@@ -1374,7 +1374,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Guard Tower Capsule\"}"
+								Name: "{\"text\":\"卫兵塔胶囊\"}"
 							}
 							label: "Guardtower.nbt"
 							size: 9
@@ -1400,7 +1400,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Housing Capsule\"}"
+								Name: "{\"text\":\"住宅胶囊\"}"
 							}
 							label: "House.nbt"
 							size: 15
@@ -1413,20 +1413,20 @@
 			]
 		}
 		{
-			title: "This Is Not the End..."
+			title: "这不是终点..."
 			icon: "alexsmobs:void_worm_eye"
 			x: -2.5d
 			y: 1.5d
 			shape: "diamond"
-			subtitle: "Defeat the Void Worm and upgrade your University to tier 5"
+			subtitle: "击败虚空蠕虫，将大学升到5级"
 			description: [
-				"Beyond the edge of the infinite void, something lurks."
+				"在无限的虚空边缘中，有怪物正在潜伏。"
 				""
-				"The &bVoid Worm&r is the guardian of all worlds. Defeating it would allow me to &6bind its power to my will&r, the final step to &6breaching the void&r."
+				"&b虚空蠕虫&r是所有世界的守护者，击败它我将获得它的力量，当&与&6我的意志结合&r起来时我将获得&6突破虚空的力量&r。"
 				""
-				"With its downfall, I can &6reach the ultimate level of research&r, and finally be free of this wretched prison!"
+				"随着虚空蠕虫的倒下，我获得了&6研究顶级科技的能力&r，并最终从这可恶的监狱中解脱！"
 				""
-				"Upon completing my T5 University I can finish the &6Eldritch Transcedence&r research and finally travel to my world through a standard nether portal."
+				"在将我的大学升到5级时，我获得了&6卓越研究&r的成就，并最终可通过一扇标准的下界传送门的形状去前往属于我的世界。"
 			]
 			dependencies: ["013A0FDD10A690FD"]
 			size: 1.5d
@@ -1487,7 +1487,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Guard Tower Capsule\"}"
+								Name: "{\"text\":\"卫兵塔胶囊\"}"
 							}
 							label: "Guardtower.nbt"
 							size: 9
@@ -1513,7 +1513,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Housing Capsule\"}"
+								Name: "{\"text\":\"住宅胶囊\"}"
 							}
 							label: "House.nbt"
 							size: 15
@@ -1526,7 +1526,7 @@
 			]
 		}
 		{
-			title: "Suit Up"
+			title: "衣服"
 			icon: {
 				id: "minecraft:golden_chestplate"
 				Count: 1b
@@ -1538,15 +1538,15 @@
 			x: 0.5d
 			y: -2.5d
 			shape: "gear"
-			subtitle: "Tool tiers"
+			subtitle: "工具等级"
 			description: [
-				"Lower-level workers &ccan only use lower-level tools&r. This includes armor, weapons, and other tools. Additionally, higher-level jobs may require higher-level tools."
+				"低等级的工人&c只能使用低级的工具&r，这包括盔甲、武器和工具等。因此，越高等级的工人越应该使用越好的工具。"
 				""
-				"Colonists will specify the ones they need when requesting. This can be seen in the Clipboard."
+				"工人发送的材料请求可以在剪切板中查看到。"
 				""
 				"{image:inferno:textures/quest/mc_armor_requests.png width:136 height:100 align:1}"
 				""
-				"A level 2 job can obviously use a level 2 tool, but it can also use &6an enchanted level 1 tool&r. Each level of enchantment adds +1 to the tool's level. Level 5 can use any tier, with any amount of enchantments."
+				"一个2级的工人显然可以使用2级的工具，但是也能使用&6已附魔的1级工具&r。工具拥有的每一级附魔都会使该工具的使用等级+1,一把拥有5级附魔的工具可以被任何工人使用，附魔数量无限制。"
 			]
 			dependencies: ["06CE7047869A2A71"]
 			optional: true
@@ -1601,7 +1601,7 @@
 								}
 							]
 							display: {
-								Name: "{\"text\":\"Sentinel's Delight\"}"
+								Name: "{\"text\":\"哨兵之乐\"}"
 							}
 							tic_materials: [
 								"tconstruct:rose_gold"
@@ -1634,16 +1634,16 @@
 			]
 		}
 		{
-			title: "Mechanus Primus"
+			title: "机械飞升"
 			disable_toast: true
 			x: -4.0d
 			y: -3.0d
 			shape: "hexagon"
-			subtitle: "Make a Mechanic's Hut"
+			subtitle: "建造一座机械师小屋"
 			description: [
-				"After defeating the Bellringer and upgrading my University, I've learned to teach my minions even more advanced tasks."
+				"在击败敲钟人后我去升级了我的大学，我学会了教会我的工人更多技术的能力。"
 				""
-				"The &bMechanic's Hut&r can craft redstone items and other advanced items. It is also the &6only way to craft certain items&r essential for progression."
+				"&b机械师小屋&r里的机械师可以制作有关红石的物品与其他的高级物品，同时也是&6制作一些特殊物品的唯一办法&r。"
 			]
 			dependencies: ["11159BF1C52963EC"]
 			size: 1.25d
@@ -1676,7 +1676,7 @@
 							structureName: "config/capsule/rewards/mechanic.nbt"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Mechanic Capsule\"}"
+								Name: "{\"text\":\"机械师小屋胶囊\"}"
 							}
 							label: "Mechanic.nbt"
 							size: 15
@@ -1694,7 +1694,7 @@
 			]
 		}
 		{
-			title: "You're SPECIAL"
+			title: "你是最特别的"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -1706,15 +1706,15 @@
 			x: 5.5d
 			y: -8.0d
 			shape: "gear"
-			subtitle: "What makes your colonists unique!"
+			subtitle: "是什么让你与众不同！"
 			description: [
-				"There are 11 &bSkills&r that every colonist has. Each colonist has a different amount of each skill."
+				"每位工人都有11种&b技能&r，他们每位的技能都是独一无二的。"
 				""
-				"Different jobs benefit from different skills. In the job's hire menu, it highlights its &aprimary&r and &esecondary&r skills in those colors. Higher levels of these skills provide bonuses."
+				"工人的不同工作能从不同的技能中受益，在工人的雇佣菜单中，不同的颜色突出不一样的&a主要技能&r与&e次要技能&r，技能等级越高工人能从技能中受益的程度也会越高。"
 				""
 				"{image:inferno:textures/quest/colonist_stats.png width:236 height:100 align:1}"
 				""
-				"Workers' skills increase as they work. This speed increases with higher Intelligence, and with higher-level jobs. Max skill is limited by their home's level."
+				"工人的技能随着工作时间而增长，增长速度与工人的智力和工作难度而增加，技能等级上限受该工人的小屋影响。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["550E386F2FFB787D"]
@@ -1738,15 +1738,15 @@
 			]
 		}
 		{
-			title: "Grind It!"
+			title: "磨炼！"
 			x: -4.0d
 			y: -1.5d
 			shape: "hexagon"
-			subtitle: "Make a Crusher"
+			subtitle: "建造一座粉碎机！"
 			description: [
-				"&cManual labor&r, ugh. For the &bCrusher&r, I'll have one of the stronger minions handle it."
+				"&c手动劳作&r，哎，对于&b粉碎&r这项工作来说，我需要一名更强壮的粉碎工来为我工作。"
 				""
-				"The Crusher, as the name implies, crushes things. This includes Sand and Gravel, but is also &6the only way to get several required materials&r."
+				"粉碎机，顾名思义，就是将物品/方块进行粉碎，这包括沙子和沙砾，同时也是获得&6一些特殊物品的唯一方式&r。"
 			]
 			dependencies: ["11159BF1C52963EC"]
 			size: 1.25d
@@ -1777,18 +1777,18 @@
 			]
 		}
 		{
-			title: "Tending to the masses"
+			title: "关爱平民"
 			x: -4.0d
 			y: -4.5d
-			subtitle: "Turn your head and cough..."
+			subtitle: "小心你的感冒..."
 			description: [
-				"I've noted &c4 unique and deadly illnesses&r that my minions seem susceptible to in this realm. "
+				"我注意到，我的工人在我的殖民地中很容易患上&c4种特殊又致命的疾病&r。"
 				""
-				"Rather than attempting to tend to each of them myself, I've designed a &bHospital&r where Healers will cure these plagues."
+				"我建造了了一所&b医院&r，医护人员可在医院治疗这些致命疾病，而不是去每家每户治疗他们。"
 				""
-				"Each disease requires certain items to cure it. Some of the more dangerous illnesses may require research into magics to be fully addressed."
+				"每种疾病都需要某些物品来治疗，一些更威胁的疾病可能需要进行某些魔法类的研究才能彻底治疗。"
 				""
-				"&oIt is HIGHLY recommended you do not offline chunk load your colony until you have a hospital or it is possible to log back in to find your entire colony infected and unable to work!"
+				"&o强烈建议你在拥有一所医院之前不要尝试使用区块加载功能，否则你很有可能在第二天重新登陆时发现你的全部工人都生病了，生病的工人无法工作！"
 			]
 			dependencies: ["46A72493AFD256CA"]
 			min_width: 250
@@ -1815,7 +1815,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Hospital Capsule\"}"
+								Name: "{\"text\":\"医院胶囊\"}"
 							}
 							label: "Hospital.nbt"
 							size: 15
@@ -1838,23 +1838,23 @@
 			]
 		}
 		{
-			title: "\"Nobody Wants to Work Anymore\""
+			title: "“无人愿意再工作”"
 			icon: "minecraft:clock"
 			tags: ["info"]
 			x: 2.5d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "Why your Builder is just standing there doing nothing"
+			subtitle: "为什么你的建筑工人只是站在那里而不工作"
 			description: [
-				"Sometimes, a Builder will appear to get stuck doing nothing."
+				"有的时候，建筑工人会因为一些原因导致被卡住，从而不会工作。"
 				""
-				"In final steps of building/upgrading a building, &6the Builder checks every block to make sure they're placed correctly&r. During this, they may appear to just be standing still."
+				"在建造建筑/升级建筑后，&6工人会检查该建筑的每个方块位置&r，以确保这些方块放置在正确的位置上，在此之间，工人会看起来像是站在原地卡了一样。"
 				""
-				"&cDo not cancel the build&r to restart it. The Builder will have to start over from the start, checking all the blocks again. This takes longer for larger buildings."
+				"&c不要尝试频繁地取消建造过程&r，因为这只会让工人频繁地从头开始，从而重新检查每个方块的位置，这对于大型建筑来说，将会消耗更长更久的时间。"
 				""
-				"&oHowever,&r sometimes they &lare&r stuck. This is a lot more obvious, like if a builder gets stuck in a tree etc. Just knock them down and they'll continue."
+				"&o然而，&r有时他们也会因为&l一些原因而卡住&r，这种情况比较明显，比如说工人被卡在书上等，只需要将他们重新部署，他们就会继续工作。"
 				""
-				"&lExtremely long build times are normal for large buildings.&r It can take over an hour to upgrade buildings like the University."
+				"&l对于大型建筑而言，极长的建造时间都是很合理的。&r对于大学这种大型建筑，都可能需要一个多小时的建造时间。"
 			]
 			dependencies: ["7A67B426C3D571AA"]
 			optional: true
@@ -1866,19 +1866,19 @@
 			}]
 		}
 		{
-			title: "Clipboards are a Necessity"
+			title: "剪贴板是一种必需品"
 			icon: "minecolonies:clipboard"
 			tags: ["info"]
 			x: 2.0d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "Builder batch requests"
+			subtitle: "建筑工人的批量请求"
 			description: [
-				"Builders &cdo not request all the needed blocks at once&r. They do them in batches, and then make another request later."
+				"建筑工人&c不会一次性提出所有的需要方块请求&r，他们会分批次地一个一个提出请求，当目前的请求被完成后，才会提出另外一个请求。"
 				""
-				"Reason being, Builders simply cannot hold that many items in their inventory. They'll ask for what they can hold, then ask for more when they're empty."
+				"最根本的原因是：建筑工人的箱子根本无法容纳下那么多的东西，他们只有在箱子有空位时才会发送请求。"
 				""
-				"Keep an eye on your &6Clipboard&r! It'll tell you what blocks they need."
+				"密切关注你的&6剪贴板&r！它会告诉你建筑工人目前需要什么方块。"
 			]
 			dependencies: ["7A67B426C3D571AA"]
 			optional: true
@@ -1889,7 +1889,7 @@
 			}]
 		}
 		{
-			title: "Diversity is the Spice of Life"
+			title: "多样性是生活的调味品"
 			icon: {
 				id: "minecraft:bow"
 				Count: 1b
@@ -1901,15 +1901,15 @@
 			x: -0.5d
 			y: -3.5d
 			shape: "gear"
-			subtitle: "Guard types"
+			subtitle: "卫兵类型"
 			description: [
-				"Guards can be either &bKnights&r, &bArchers&r, or &bDruids&r."
+				"卫兵可以是&b骑士&r、&b弓箭手&r、&b德鲁伊&r的任意一种。"
 				""
-				"&bKnights&r are melee guards. They wear armor and use swords. They can use shields if unlocked in the University."
+				"&b骑士&r是近战型卫兵。他们穿戴盔甲，手持近战武器，如果在大学里解锁了相关研究，那么骑士也可以手持盾牌。"
 				""
-				"&bArchers&r are ranged guards. They wear armor and use bows. They don't need arrows, but University research allows them to use them for more damage."
+				"&b弓箭手&r是远程型卫兵。他们穿戴盔甲，手持远程武器，并且他们无需弓箭，如果在大学里解锁了相关研究，那么弓箭手也能造成更高的伤害。"
 				""
-				"&bDruids&r are support guards, that help the other two. They wear armor and will use potions you give them. They will buff allies and debuff enemies, but will not deal damage directly."
+				"&b德鲁伊&r是辅助型卫兵。他们能辅助另外两种类型的卫兵，德鲁伊穿戴盔甲，并且也能为你使用药水。德鲁伊能给盟军投掷正面药水，给敌人投掷负面药水，德鲁伊本身无法造成任何伤害，如果附近没有其他类型的卫兵来保护德鲁伊的话，那么德鲁伊就会死亡。"
 			]
 			dependencies: ["06CE7047869A2A71"]
 			optional: true
@@ -1921,23 +1921,23 @@
 			}]
 		}
 		{
-			title: "Autocrafting"
+			title: "自动合成"
 			icon: "minecraft:crafting_table"
 			tags: ["info"]
 			x: 5.5d
 			y: -7.0d
 			shape: "gear"
-			subtitle: "Teaching your colonists to craft"
+			subtitle: "让你的工人去使用合成功能"
 			description: [
-				"Colonists &bcan be taught recipes&r, and will craft items that are requested."
+				"工人&b可以学习合成功能&r，并学会如何制作物品。"
 				""
-				"For instance, if a &6Builder&r needs stairs, a &6Courier&r will bring a &6Carpenter&r logs. The Carpenter will craft them into planks, then into stairs, and the Courier will bring them to the Builder."
+				"例如：如果有一名&6建筑工人&r需要楼梯，那么&6快递员&r就会将原木送给&6伐木工&r，&6伐木工&r就会将原木分割成木板，然后再制作成楼梯，最后再由&6快递员&r再带给&6建筑工人&r。"
 				""
-				"&6Different jobs can craft different things.&r You can see which recipes each job can craft in JEI."
+				"&6不同的职业可制作不同的物品。&r你可以在JEI中查看到每种职业能够合成出来的物品。"
 				""
-				"Recipes &6have to be taught&r. This is done in a tab in the job block."
+				"&6必要为工人设置合成配方&r，这是在工作区域的标签中完成的。"
 				""
-				"When teaching recipes, you can drag items from JEI. Recipes &cdo not use tags&r, they only use the exact ingredients."
+				"设置配方时，你可以从JEI中拖动物品，配方会&c无视tag标签&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["550E386F2FFB787D"]
@@ -1950,23 +1950,23 @@
 			}]
 		}
 		{
-			title: "Multiplayer Babyyy"
+			title: "多人游戏"
 			icon: "minecraft:player_head"
 			tags: ["info"]
 			x: 6.5d
 			y: -7.0d
 			shape: "gear"
-			subtitle: "The Permissions tab"
+			subtitle: "权限选项标签"
 			description: [
-				"The &bPermissions&r tab in the Town Hall lets you set other players' relations to your colony."
+				"在市政厅的&b许可&r选项中，你可以设置其他玩家与你殖民地的关系。"
 				""
-				"Add a player by their username, and you can set their &6rank&r. There are 5 default ranks, with each rank being allowed to do different things."
+				"通过用户名添加一名玩家，你可以设置其他玩家在你殖民地的&6权限等级&r。有5个默认等级，每个等级都允许做不同的事情。"
 				""
-				"Other players are &6neutral by default&r. Neutral players &6cannot interact with any blocks in your colony's borders&r. This also includes mobs, explosions, and the like."
+				"未设置权限的玩家&6默认为中立&r，中立的玩家将&6无法与你殖民地的任何方块进行互动&r，这也包括生物、爆炸等。"
 				""
-				"Turn the page, and you can add ranks and change each rank's permissions."
+				"翻开这一页，你可以添加权限等级以及设置每一等级提供的权限。"
 				""
-				"Turn the page again, and you can set it so anyone can interact with certain blocks. You can do this by the block's id (minecraft:chest etc), or using the block's coordinates."
+				"翻开这一页，你可以设置所有人都能与某些特定的方块进行互动，你可以通过方块ID（minecraft:chest）等进行设置，或者使用方块所在坐标来指定位置。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["550E386F2FFB787D"]
@@ -1979,20 +1979,20 @@
 			}]
 		}
 		{
-			title: "Pathing System"
+			title: "寻路系统"
 			icon: "minecraft:dirt_path"
 			tags: ["info"]
 			disable_toast: true
 			x: 6.5d
 			y: -8.0d
 			shape: "gear"
-			subtitle: "Colonists prefer path blocks"
+			subtitle: "工人更喜欢路径方块"
 			description: [
-				"Colonists will &bprefer walking on certain blocks&r. If you make roads out of these, they'll stick to those."
+				"工人喜欢行走在一些&b路径方块&r中，如果你是用此类方块做路的话，工人就会始终坚持行走在这些方块上。"
 				""
-				"Colonists can open Doors, Gates, Trapdoors, etc. They can even use Iron ones without a redstone signal! They will also use Ladders and Vines, and avoid fire, lava, and the like."
+				"工人能打开门、活板门等等，甚至可以在没有红石信号的前提下强行使用铁门！他们也会使用梯子、藤蔓，并避免火和熔岩。"
 				""
-				"At the &6University&r, you can unlock the ability for colonists to &6ride on Rails&r. They provide their own Carts, and don't need boosters. Don't confuse them with intersections though!"
+				"在&6大学&r里，你甚至可以解锁工人乘坐矿车的能力，他们自备矿车，而且不需要使用&6动力铁轨去助推&r，但请不要将他们放在十字交叉路口！"
 				""
 				"{image:inferno:textures/quest/roads.png width:279 height:150 align:1}"
 			]
@@ -2004,7 +2004,7 @@
 			tasks: [{
 				id: "3300E787B8A46C3C"
 				type: "item"
-				title: "Valid path blocks"
+				title: "有效的路径方块"
 				disable_toast: true
 				item: {
 					id: "itemfilters:tag"
@@ -2016,21 +2016,21 @@
 			}]
 		}
 		{
-			title: "What Am I Even Doing?"
+			title: "我在做什么？"
 			icon: "minecolonies:adventure_token"
 			tags: ["info"]
 			x: 5.5d
 			y: -9.25d
 			shape: "gear"
-			subtitle: "A quick TL;DR of the mod"
+			subtitle: "快速的TL；DR的模组"
 			description: [
-				"&eMineColonies&r is basically Sim City, allowing you to &6build a village&r building by building, with each performing a function."
+				"&e模拟殖民地&r基本上是属于模拟类城市，允许你逐渐&6建造村庄&r的每一栋建筑，每一栋建筑都有其独特的功能。"
 				""
-				"Colonists will &6gather resources&r, move and store items, &6autocraft recipes&r, and more, once set up."
+				"工人将殖民地建造起来后，就能提供&6收集资源&r、移动或储存物品、&6自动合成物品&r的能力等。"
 				""
-				"The Lumberjack will chop trees, the Courier will bring the drops to storage. The Smelter will take ores from storage and smelt them, multiplying the output. The Cook cooks, the Fisher fishes, etc etc."
+				"伐木工能砍伐树木，快递员能将掉落的物品送到仓库中，冶炼师能将矿石从仓库中提取出来烧制并多倍矿石，厨师能制作食物，渔夫能捕鱼等等。"
 				""
-				"Basically, think of it as an &6automation mod&r that's hidden inside a city simulator."
+				"基本上可以将其当做成套了个模拟城市外壳的&6自动化合成&r的模组。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["550E386F2FFB787D"]
@@ -2047,11 +2047,11 @@
 			x: 2.0d
 			y: 1.5d
 			shape: "square"
-			subtitle: "Make the Apple of Eden"
+			subtitle: "制作一个Apple of Eden"
 			description: [
-				"This accursed Apple cast out Adam and Eve. It turned staves into snakes. Parted and closed the Red Sea. Eris used it to spark the Trojan War. With it, a carpenter turned water into wine."
+				"被诅咒的苹果赶走了亚当和夏娃，并将他们的棍子变成了蛇，关闭了红海，厄里斯用它引发了特洛伊战争，伐木工用它把水变成了酒。"
 				""
-				"With the &bApple of Eden&r, my researchers can reach &6Ascendence&r. My minions will be gods."
+				"有了&bApple of Eden&r之后，我的研究人员能到达&6飞升&r的境界，我的工人都将变成神。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["7FF70F90D7134D53"]
