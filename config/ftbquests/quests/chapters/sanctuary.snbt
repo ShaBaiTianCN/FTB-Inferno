@@ -392,7 +392,6 @@
 			x: -1.5d
 			y: -3.5d
 			subtitle: "制作一些装饰性方块"
-
 			description: ["我可以在&e纹理&r&b桌&r制造&6上千种不同的装饰性方块&r"]
 			hide_dependency_lines: true
 			dependencies: ["344D961959A62F3A"]
