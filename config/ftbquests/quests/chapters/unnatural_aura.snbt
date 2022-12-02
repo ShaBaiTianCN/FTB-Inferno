@@ -3,21 +3,21 @@
 	group: "7044F2C841148E69"
 	order_index: 1
 	filename: "unnatural_aura"
-	title: "Unnatural Aura"
+	title: "不自然灵气"
 	icon: "naturesaura:crimson_aura_mushroom"
-	subtitle: ["Nature's Aura"]
+	subtitle: ["自然灵气"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Ritual of the Forest"
+			title: "森林仪式"
 			x: -1.0d
 			y: -2.5d
-			subtitle: "Use the Ritual of the Forest"
+			subtitle: "利用森林仪式"
 			description: [
-				"I never paid much attention in these classes, but I remember the basics."
+				"虽然我上课并没有怎么听讲，但是一些基本知识还是知道的。"
 				""
-				"The &bRitual of the Forest&r requires &6placing items atop&r &bWooden Stands&r, surrounding a ring of Gold Dust, surrounding a Sapling. &6Growing the Sapling starts the ritual.&r"
+				"将&b森林仪式&r所需的材料&6放置在&r&b木桩&r上， 然后撒下一圈金叶粉，再将树苗种在中央。&6种植树苗即代表着仪式的开始。&r"
 			]
 			dependencies: ["2E715A588FA9E513"]
 			min_width: 275
@@ -30,17 +30,17 @@
 			}]
 		}
 		{
-			title: "Bottled Frustrations"
+			title: "瓶装的挫折"
 			icon: "naturesaura:bottle_two_the_rebottling"
 			x: -1.0d
 			y: -0.5d
-			subtitle: "Collect the essence of the Nether"
+			subtitle: "收集地狱的精华"
 			description: [
-				"The &bBottle and Cork&r allow me to &6bottle the local aura&r, so it can be used in rituals."
+				"使用&b瓶子木塞&r可以把当地&6灵气装瓶&r，所以它可以在仪式中使用。"
 				""
-				"Keeping my current situation in mind, &bBottled Ghosts&r is the only aura available."
+				"然而以现在的情况来看，&b瓶装鬼魂&r可能是我唯一的选择。"
 				""
-				"I should keep in mind: &cbottling aura removes it from the atmosphere&r. &6Crimson Aura Fungus&r will replenish aura when grown."
+				"还请牢记：&c把灵气装瓶会消耗当前地区空气中的灵气&r。而种植&6绯红灵气菌&r则可以缓慢补充当地灵气。"
 			]
 			dependencies: ["2E715A588FA9E513"]
 			id: "3BCA3AB4E8E386B7"
@@ -70,18 +70,18 @@
 			}]
 		}
 		{
-			title: "Naturaln't Altar"
+			title: "自然祭坛"
 			x: 1.0d
 			y: -1.5d
-			subtitle: "Make the Natural Altar"
+			subtitle: "建造自然祭坛"
 			description: [
-				"The &bNatural Altar&r drains the surrounding aura to create things. "
+				"&b自然祭坛&r会吸收周围的灵气来进行制造。"
 				""
-				"This horrid place has an equally horrid aura. As such, it corrupts into the &cCrimson Altar&r when placed."
+				"这个可怕的地方有着污浊的灵气。因此，祭坛在被放置是会腐化成&c猩红祭坛&r。"
 				""
-				"The Altar requires a structure around it to function."
+				"祭坛需要一个多方块结构才能发挥其作用。"
 				""
-				"&oSee the \"Harnessing Aura\" category of the &6Book of Natural Aura&r to see the structure"
+				"详细信息请参阅&6自然灵气之书&r的“利用灵气”相关章节。"
 			]
 			dependencies: [
 				"30BFD136F6B44257"
@@ -110,15 +110,15 @@
 			]
 		}
 		{
-			title: "Magical Metals"
+			title: "神奇的金属"
 			icon: "naturesaura:infused_iron"
 			x: 2.5d
 			y: -1.5d
-			subtitle: "Make Infused Iron and Tainted Gold"
+			subtitle: "制造灌注铁锭和污染黄金"
 			description: [
-				"My mundane alloys can be &6vastly upgraded&r into &bInfused Iron&r and &bTainted Gold&r."
+				"我的普通合金可以&6升级&r成&b灌注铁锭&r和&污染黄金&r。"
 				""
-				"Infused Iron in particular is very helpful, able to be used in &6Botanist's armor and tools&r."
+				"灌注铁锭尤其有用，能够用于制作&6植物学家的盔甲和工具&r。"
 			]
 			dependencies: ["0BEFED4E45E00A84"]
 			id: "6A7B93DC1ACE716B"
@@ -144,17 +144,17 @@
 			}]
 		}
 		{
-			title: "We Still Get a Signal in Here?"
+			title: "这里还有信号吗？"
 			icon: "naturesaura:offering_table"
 			x: 4.0d
 			y: -1.5d
-			subtitle: "Make an offering to the gods"
+			subtitle: "向神灵献祭"
 			description: [
-				"Contacting the gods &ohere&r sort of feels like getting called to the principal's office. Let's hope their benevolence holds up."
+				"在&o这里&r与神联系有点像被叫到校长办公室。希望他们的善举还能再持续下去。"
 				""
-				"The &bOffering Altar&r must be placed, and there must be a &6specific flower arrangement surrounding it&r."
+				"我需要摆放一个&b祭台&r，然后&6在周围摆上特定的花&r。"
 				""
-				"I must place my offering in the table (in any amount), and then throw down a &bSpirit of Calling&r. Gods willing, my sacrifice will be accepted, and I will receive something in return."
+				"我必须把我的贡品放在贡桌上（无论多少），然后扔下一个&b呼唤之魂&r。如果神愿意，我的贡品将会被接受，我也会得到些许回报。"
 			]
 			dependencies: [
 				"6A7B93DC1ACE716B"
@@ -179,8 +179,8 @@
 		{
 			x: 5.5d
 			y: -1.5d
-			subtitle: "Collect some Ingots of the Skies"
-			description: ["&bIngot of the Skies&r is one of the most powerful metals provided from the natural arts. It is &6used in recipes for powerful items&r across multiple schools of magic."]
+			subtitle: "收集一些苍穹锭"
+			description: ["&苍穹锭&r是自然灵气所提供的最强大的金属之一。它被用于多个魔法流派的&6强大物品的配方&r中。"]
 			dependencies: ["3D0F0A989EF18326"]
 			id: "2708CC826E342879"
 			tasks: [{
@@ -190,15 +190,15 @@
 			}]
 		}
 		{
-			title: "I Can't Believe It's Not Gold!"
+			title: "我不相信这不是黄金！"
 			x: -3.0d
 			y: -1.5d
 			shape: "hexagon"
-			subtitle: "Make Gold Powder"
+			subtitle: "制作金叶粉"
 			description: [
-				"Gold Leaf, while very pretty, is of much more use to me as &bGold Powder&r."
+				"虽然金叶很漂亮，但对我来说&b金叶粉&r更有用。"
 				""
-				"I can place it like Redstone!"
+				"我可以像放置红石一样放置它！"
 			]
 			dependencies: ["0EC270EA1F87DDFD"]
 			size: 1.5d
@@ -215,17 +215,17 @@
 			}]
 		}
 		{
-			title: "In the Ancient Glade; The Quiet Shade"
+			title: "在那古老的林中空地；静谧的树影"
 			x: -0.75d
 			y: -3.5d
 			shape: "square"
-			subtitle: "Make an Ancient Sapling"
+			subtitle: "制作一些荒古树苗"
 			description: [
-				"&bAncient Trees&r are a deeply magical lifeform."
+				"&b荒古树&r是一种非常神奇的植物。"
 				""
-				"Normally, Ancient Leaves would &6replenish the aura&r of the surrounding area. However, they &cdo not work in this hellish place&r."
+				"通常情况下，荒古树的树叶会&6补充周围地区的灵气&r。然而，&c他们并不会在这鬼地方工作&r。"
 				""
-				"As such, Ancient Trees are best used in crafting recipes, or for aesthetic purposes."
+				"因此，荒古树最适合用于合成，亦或者建筑和绿化。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["30BFD136F6B44257"]
@@ -238,21 +238,21 @@
 			}]
 		}
 		{
-			title: "Decay Exists as an Extant Form of Life"
+			title: "死亡也是生命存在的一种形式"
 			x: 2.25d
 			y: -2.5d
 			shape: "square"
-			subtitle: "Make a Disentangler of Mortals"
+			subtitle: "制作一个凡俗解脱之物"
 			description: [
-				"As I use the Aura in my surroundings, &6it has to be replenished&r. Naturally, because I cannot have nice things, &cpeaceful options do not work here&r. I'll have to make something worse."
+				"当我们使用周围的灵气时，&6它也需要得到补充&r。&c和平没法解决问题&r，因为我们没有更好的办法，所以，我不得不做些非常糟糕的事。"
 				""
-				"The &bDisentangler of Mortals&r will &6replenish Aura whenever passive mobs are killed nearby&r."
+				" 在&b凡俗解脱之物&r附近杀死动物时&6它会将动物灵魂转换为灵气并扩散到环境中&r。"
 				""
-				"The longer-aged the mob, the more aura is replenished. This maxes out around an hour and a half old."
+				"动物存活的时间越长，被转换的灵气也就越多。最佳生长时间为一个半小时。"
 				""
-				"Animals killed in this way &cdo not drop items&r."
+				"灵魂被转换后将&c不会掉落物品&r。"
 				""
-				"The Disentangler takes a while to work. If another animal is killed during this time, &cboth the aura and items are lost&r."
+				"“解脱器”工作需要一定的时间。如果在此期间有另一只动物被杀死，那么&c你既不会获得物品，也不会获得灵气&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["6A7B93DC1ACE716B"]
@@ -265,24 +265,24 @@
 			}]
 		}
 		{
-			title: "Crimson Decay and Other Fun Effects"
+			title: "绯红衰败和其他有趣的效果"
 			icon: "minecraft:skeleton_skull"
 			x: 1.0d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "Aura imbalance"
+			subtitle: "灵气失衡"
 			description: [
-				"As Aura is drained or added to extremes, it may create an &bAura Imbalance&r. This can have both positive and negative effects."
+				"当灵气被消耗殆尽，或者多到溢出的时候，它就有可能造成&b灵气失衡&r。这既有好的影响，也有坏的影响"
 				""
-				"There is an entire category on Aura Imbalance in the &6Book of Natural Aura&r."
+				"在&6自然灵气之书&r中有关于灵气失衡的完整内容。"
 				""
-				"Some effects that can happen are:"
-				"• Blocks can decay or grow"
-				"• Neutral mobs can become hostile"
-				"• It can become impossible to breathe"
-				"• Mobs can breed on their own"
-				"• Your inventory may charge with aura"
-				"• Ores may replace Stone/Netherrack"
+				"可能发生的影响："
+				"• 植物长得更快亦或者腐烂"
+				"• 中立生物对你充满敌意"
+				"• 周围地区变得无法呼吸"
+				"• 动物可以自己繁殖"
+				"• 灵气会涌入你的背包"
+				"• 矿石可能会替代掉石头或者下界岩"
 			]
 			hide_dependency_lines: true
 			dependencies: ["3BCA3AB4E8E386B7"]
@@ -294,7 +294,7 @@
 			}]
 		}
 		{
-			title: "Flower Power"
+			title: "花的力量"
 			icon: {
 				id: "naturesaura:infused_iron_sword"
 				Count: 1b
@@ -305,13 +305,13 @@
 			x: 2.5d
 			y: -0.5d
 			shape: "square"
-			subtitle: "Make some Botanist's tools and armor"
+			subtitle: "制作植物学家的盔甲和工具"
 			description: [
-				"Being made of &6Infused Iron&r, &bBotanist's tools and armor&r keep their &6iron-level effectiveness&r. They can also be repaired using an &6Aura Cache&r, if I sneak while standing still."
+				"&b植物学家的盔甲和工具&r由&6灌注铁锭&r制作，它拥有与&6铁套相同的防护效果&r。在我潜行的时候，它可以利用&6灵气缓存&r来进行修复，"
 				""
-				"Botanist's tools each have &6additional effects&r. These can be seen in the Book of Natural Aura."
+				"植物学家的每个工具都有额外的&6附加效果&r。详细请见自然灵气之书。"
 				""
-				"While wearing a full set of Botanist's armor, &6those that attack me will get Withering&r. As a bonus, I will get Regeneration I and +2 Luck"
+				"当我穿着全套植物学家装备时，&6那些攻击我的人将会获得凋零&r。作为奖励，我将获得恢复I和幸运II"
 			]
 			dependencies: ["6A7B93DC1ACE716B"]
 			size: 0.5d
@@ -321,7 +321,7 @@
 				{
 					id: "3F75BEDB03632F81"
 					type: "item"
-					title: "Botanist's tools"
+					title: "植物学家工具"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -369,7 +369,7 @@
 				{
 					id: "3D64E02B74E66D55"
 					type: "item"
-					title: "Botanist's armor"
+					title: "植物学家套装"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -413,13 +413,13 @@
 			x: -1.25d
 			y: -3.5d
 			shape: "square"
-			subtitle: "Make an Environmental Eye"
+			subtitle: "制作环境之眼"
 			description: [
-				"While holding the &bEnvironmental Eye&r in my hotbar (or wearing as a curio), I can &6see the level of Aura around me&r."
+				"将&b环境之眼&r放在快捷栏（或者作为饰品戴着），我就可以&6看到周围的灵气含量&r。"
 				""
-				"The Aura bar being halfway up means the area has a normal amount of Aura."
+				"当灵气条在中间时，就表示这个区域的灵气含量正常。"
 				""
-				"It will also let me &6see how much Aura is Aura-containing blocks&r. A full bar means it is full of Aura."
+				"他还会让我知道那些&6区块含有多少灵气&r。满栏表示当前区块灵气充沛。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["30BFD136F6B44257"]
@@ -435,11 +435,11 @@
 			x: 5.75d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Make an Environmental Ocular"
+			subtitle: "制作环境目镜"
 			description: [
-				"The &bEnvironmental Ocular&r can show &6twice the max Aura&r as the Environmental Eye."
+				"&b环境目镜&r可以显示的灵气最大值是环境之眼的&6两倍&r。"
 				""
-				"It also shows me &6all Aura Imbalance effects&r where I am, and works from anywhere in my inventory."
+				"他还可以让我观测到所在位置的&6灵气失衡的效果&r，并且可以在我身上的任何位置工作。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["2708CC826E342879"]
@@ -452,12 +452,12 @@
 			}]
 		}
 		{
-			title: "public void recurse() \\{ recurse(); \\}"
+			title: "警告！递归爆炸，栈溢出！"
 			x: 2.75d
 			y: -2.5d
 			shape: "square"
-			subtitle: "Make an Offshoot Observer"
-			description: ["The &bOffshoot Observer&r replenishes the local aura when &6Slimes or Magma Cubes split&r."]
+			subtitle: "制作分裂观测仪"
+			description: ["&b分裂观测仪&r通过从&6史莱姆或岩浆怪分裂过程&r获取灵气。"]
 			hide_dependency_lines: true
 			dependencies: ["6A7B93DC1ACE716B"]
 			size: 0.5d
@@ -469,15 +469,15 @@
 			}]
 		}
 		{
-			title: "The Joy of Creation"
+			title: "制造的快乐"
 			x: 3.75d
 			y: -2.5d
 			shape: "square"
-			subtitle: "Make a Creational Catalyst"
+			subtitle: "制作制造催化剂"
 			description: [
-				"Aura-creating devices &cdo not work after a certain point&r. If there's too much Aura, they can't make more."
+				"如果灵气太多了的话，灵气制造装置就会在某一刻&c停止&r工作，原因是灵气到达上限。"
 				""
-				"I can place the &bCreational Catalyst&r directly below those devices to remove that limit."
+				"我可以把&b制造催化剂&r放在这些装置下面，使它们突破上限。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["3D0F0A989EF18326"]
@@ -493,11 +493,11 @@
 			x: 2.25d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Make an Aura Cache"
+			subtitle: "制作灵气缓存"
 			description: [
-				"The &bAura Cache&r allows me to &6store a large amount of Aura&r, allowing other items to use it."
+				"&b灵气缓存&r允许我&6存储大量的灵气&r，并且允许其他物品使用里面的灵气"
 				""
-				"I can charge it by &6standing near a Natural (or Crimson) Altar&r."
+				"我可以&6站在一个自然（或猩红）祭坛&r旁给它补充灵气。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["6A7B93DC1ACE716B"]
@@ -513,8 +513,8 @@
 			x: 5.25d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Make an Aura Trove"
-			description: ["The &bAura Trove&r is an upgraded Aura Cache, &6holding three times the Aura&r within."]
+			subtitle: "制作灵气秘宝"
+			description: ["&b灵气秘宝&r是灵气缓存的升级版，它的存储容量是灵气缓存的&6三倍&r。"]
 			hide_dependency_lines: true
 			dependencies: ["2708CC826E342879"]
 			size: 0.5d
@@ -526,15 +526,15 @@
 			}]
 		}
 		{
-			title: "Buttstomp"
+			title: "给你屁股一脚"
 			x: 4.0d
 			y: -0.5d
 			shape: "square"
-			subtitle: "Make the Amulet of Wrath"
+			subtitle: "制作狂怒护身符"
 			description: [
-				"The &bAmulet of Wrath&r will allow me to &6create a shockwave&r when sneaking while falling. This uses Aura from a Cache."
+				"&b狂怒护身符&r允许我在空中同时按下蹲跳落地&6制造冲击波&r。这个动作将消耗缓存的灵气。"
 				""
-				"While wearing a full set of &6Botanist's armor&r, the shockwave causes withering."
+				"当你穿着&6植物学家套装&r时，冲击波还会对敌人造成凋零效果。"
 			]
 			dependencies: ["3D0F0A989EF18326"]
 			size: 0.5d
@@ -549,8 +549,8 @@
 			x: 2.75d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Make a Mystical Magnifier"
-			description: ["The &bMystical Magnifier&r will show me the &6working range of blocks&r."]
+			subtitle: "制作一个奥秘放大镜"
+			description: ["&b奥秘放大镜&r可以让我知道各个设备的&6工作范围&r。"]
 			hide_dependency_lines: true
 			dependencies: ["6A7B93DC1ACE716B"]
 			size: 0.5d
@@ -565,8 +565,8 @@
 			x: 5.5d
 			y: 1.0d
 			shape: "square"
-			subtitle: "Make a Ring of Last Chance"
-			description: ["The &bRing of Last Chance&r is basically a &6Totem of Undying that works anywhere&r in my inventory."]
+			subtitle: "制作最后机会之指环"
+			description: ["&最后机会之戒&r本质上就是一个在身上&6任意位置都可以生效的不死图腾&r。"]
 			hide_dependency_lines: true
 			dependencies: ["2708CC826E342879"]
 			size: 0.5d
@@ -588,13 +588,13 @@
 			x: 5.5d
 			y: -0.5d
 			shape: "square"
-			subtitle: "Make some Skyseeker's tools and armor"
+			subtitle: "制作探天者盔甲和工具"
 			description: [
-				"Like Botanist's tools and armors, &bSkyseeker's tools and amrmor&r have bonuses and can be repaired with aura."
+				"和植物学家的盔甲工具一样，&b探天者盔甲和工具&r也可以使用灵气进行修复。"
 				""
-				"The tools all have &6additional effects&r, and can be seen in the Book of Natural Aura."
+				"这些工具都有&6附加效果&r详细请查阅自然灵气之书。"
 				""
-				"While wearing all the armor, I will &6move faster and step up blocks&r without needing to jump."
+				"当穿着全套盔甲时，我可以&6跑得更快&r，并且不需要跳跃就可以走上一格高的地方。"
 			]
 			dependencies: ["2708CC826E342879"]
 			size: 0.5d
@@ -604,7 +604,7 @@
 				{
 					id: "2FF8166134BC5F70"
 					type: "item"
-					title: "Skyseeker's tools"
+					title: "探天者工具"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -652,7 +652,7 @@
 				{
 					id: "59E149C2A9267E76"
 					type: "item"
-					title: "Skyseeker's armor"
+					title: "探天者护甲"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -696,8 +696,8 @@
 			x: 5.0d
 			y: 0.5d
 			shape: "square"
-			subtitle: "Make a Staff of Ancient Knowledge"
-			description: ["Using a rather substantial amount of Aura, the &bStaff of Ancient Knowledge&r will point me in the direction of &6Ancient Debris&r nearby."]
+			subtitle: "制作远古知识之杖"
+			description: ["当我使用了大量的灵气之后，&b远古知识之杖&r终于为我指明了&6远古残骸&r的位置。"]
 			hide_dependency_lines: true
 			dependencies: ["2708CC826E342879"]
 			size: 0.5d
@@ -712,8 +712,8 @@
 			x: 5.5d
 			y: 0.5d
 			shape: "square"
-			subtitle: "Make a Staff of Baldur"
-			description: ["Using a bit of Aura, the &bStaff of Baldur&r will allow me to &6shoot a beam of light&r, igniting mobs and creating a light source."]
+			subtitle: "制作巴德尔之杖"
+			description: ["当消耗一点灵气之后，我就可以使用&b巴德尔之杖&r&6射出一束光&r，然后创造一个光源，亦或者点燃敌人。"]
 			hide_dependency_lines: true
 			dependencies: ["2708CC826E342879"]
 			size: 0.5d
@@ -728,8 +728,8 @@
 			x: 4.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Make a Staff of Riches"
-			description: ["Using a fair amount of Aura, the &bStaff of Riches&r will &6show me the location of inventories nearby&r. Useful for finding loot chests in dungeons!"]
+			subtitle: "制作财富之杖"
+			description: ["当消耗一定数量的灵气后，&b财富之杖&r就向我指明了&6附近宝箱的位置&r。这对于在遗迹里寻找宝箱很有用！"]
 			dependencies: ["3D0F0A989EF18326"]
 			size: 0.5d
 			id: "020C81CB20295443"
@@ -743,8 +743,8 @@
 			x: 4.0d
 			y: 0.5d
 			shape: "square"
-			subtitle: "Make a Staff of Shadows"
-			description: ["Using a bit of Aura, the &bStaff of Shadows&r will &6show me locations monsters can spawn&r, even through walls!"]
+			subtitle: "制作阴影之杖"
+			description: ["使用一点灵气之后，&b阴影之杖&r就可以为我标出附近&6怪物可以生成的地方&r，甚至可以穿墙显示！"]
 			dependencies: ["3D0F0A989EF18326"]
 			size: 0.5d
 			id: "5BEB67F61CCFEEE3"
@@ -758,8 +758,8 @@
 			x: 4.25d
 			y: -2.5d
 			shape: "square"
-			subtitle: "Make an Everlasting Spring"
-			description: ["The &bEverlasting Spring&r allows me to &6pull an infinite amount of water&r, even here! If only I could pour it..."]
+			subtitle: "制作一个永恒之泉"
+			description: ["&b永恒之泉&r允许我取出&6无限量的水&r，即使在这里！要是我能倒地上就好了……"]
 			hide_dependency_lines: true
 			dependencies: ["3D0F0A989EF18326"]
 			size: 0.5d
@@ -774,11 +774,11 @@
 			x: 2.25d
 			y: -3.0d
 			shape: "square"
-			subtitle: "Make an Extraneous Firestarter"
+			subtitle: "制作一个外置燃火器"
 			description: [
-				"The &bExtraneous Firestarter&r can be placed on Furnaces to &6make them work faster&r, at a cost to of Aura."
+				"&b外置燃火器&r可以放在熔炉上从而使它&6工作的更快&r，代价就是要消耗当地的灵气。"
 				""
-				"It could be useful to &6place these on the Smeltery's furnaces&r, I'm sure my minion would appreciate it."
+				"如果把这些&6放在冶炼厂的炉子上&r，我相信我的仆人一定会非常感激我。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["6A7B93DC1ACE716B"]
@@ -794,8 +794,8 @@
 			x: 1.75d
 			y: -3.0d
 			shape: "square"
-			subtitle: "Make an Armorer's Aid"
-			description: ["The &bArmorer's Aid&r can be placed on a Blast Furnace, and it will &6occasionally double ores&r at a cost of Aura."]
+			subtitle: "制作一个盔甲匠之援"
+			description: ["将&b盔甲匠之援&r放置在高炉上方，它偶尔会消耗灵气将通过它的矿石&6双倍产出&r。"]
 			dependencies: ["5FF89325AF61B7EF"]
 			size: 0.5d
 			id: "0FF6C8F5F25545C9"
@@ -806,20 +806,20 @@
 			}]
 		}
 		{
-			title: "Night Time, &oDay Time!&r"
+			title: "夜晚时间，&o白天时间！&r"
 			icon: "naturesaura:time_changer"
 			x: 5.25d
 			y: -2.5d
 			shape: "square"
-			subtitle: "Make a Shifting Sundial"
+			subtitle: "制作移位日晷"
 			description: [
-				"One of the more unexpected annoyances here is the passage of time. While I can't sleep, my minions definitely do. The &bShifting Sundial&r finally gives me a way to &6skip time&r."
+				"让我最意想不到的烦恼竟然是时间的流逝。虽然我睡不着，但是我的仆人会，为了能让他们好好工作，于是我做出&b移位日晷&r来&6快进时间&r。"
 				""
-				"I must place an Item Frame on the side, and insert the &bHand of Time&r. I must &6rotate it to match the time of day&r I want."
+				"我需要在它上面放上一个物品展示框，然后插入&b时间之手&r，然后通过&6旋转它来找到我想要的时间点&r。"
 				""
-				"Upright is midnight, and upside down is noon. To activate it, I must &6throw a Clock&r on the Sundial."
+				"直立时是午夜，而倒置则是正午。想要激活它，我必须往日晷上&6扔一个种&r。"
 				""
-				"As moving the stars (though I cannot see them) is a rather significant act, this takes a large amount of Aura. The longer the time skip, the more Aura."
+				"因为移动星辰（虽然我看不见它们）是一个相当庞大的工程，这将消耗大量的灵气。快进时间越久，所需灵气越多"
 			]
 			hide_dependency_lines: true
 			dependencies: ["2708CC826E342879"]
@@ -844,11 +844,11 @@
 			x: 5.75d
 			y: -2.5d
 			shape: "square"
-			subtitle: "Make Winter's Calling"
+			subtitle: "制作凛冬的呼唤"
 			description: [
-				"I have felt no climate cooler than \"&cslightly below hyperthermia&r\" since arriving here. If I don't find a way to cool down, I fear I'll go mad."
+				"自从来到这里以后，我就没有觉得有比“&c略低于高温&r”更凉爽的时候了。如果找不到能降温的东西，我感觉我会被热疯。"
 				""
-				"&bWinter's Calling&r will &6create an area of snow&r, when given a redstone signal. Given that it even works down here, this might be the greatest thing I've made so far."
+				"当收到红石信号时，&b凛冬的呼唤&r便会&6创造一片雪域&r。考虑到他在这里也可以正常工作，因此，他可能是我至今为止做的最棒的东西了。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["2708CC826E342879"]
@@ -865,13 +865,13 @@
 			x: 6.0d
 			y: 0.5d
 			shape: "square"
-			subtitle: "Make an Aura Attraction Cart"
+			subtitle: "制作一个灵气吸引矿车"
 			description: [
-				"The &bAura Attraction Cart&r will allow me to &6transfer Aura&r between locations!"
+				"&b灵气吸引矿车&r将允许我在不同地点之间&6转移灵气&r！"
 				""
-				"If the Cart passes over a &6powered Activator Rail&r, it will begin &6absorbing Aura&r."
+				"当矿车经过&6激活铁轨&r时，就会开始&6吸收灵气&r。"
 				""
-				"Once the cart then passes over an unpowered Activator Rail, the &6Aura will be discharged&r. There is &csome Aura loss&r in the process."
+				"当矿车再次经过激活铁轨时，就会&6释放灵气&r。在这个过程中会有一定的&灵气损失&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["2708CC826E342879"]
@@ -887,11 +887,11 @@
 			x: 1.0d
 			y: -2.5d
 			shape: "square"
-			subtitle: "Make an Aura Detector"
+			subtitle: "制造一个灵气探测器"
 			description: [
-				"The &bAura Detector&r will allow me to &6detect when the Aura is low&r automatically."
+				"&b灵气探测器&r会自动的&6探测附近范围的灵气总量&r。"
 				""
-				"A &6Comparator&r will give off a signal based on the amount of Aura in the surroundings."
+				"我可以通过一个&6比较器&r让他根据周边灵气含量来发出信号。"
 			]
 			dependencies: ["0BEFED4E45E00A84"]
 			size: 0.5d
@@ -906,11 +906,11 @@
 			x: 1.0d
 			y: -3.0d
 			shape: "square"
-			subtitle: "Make a Corporeal Eye"
+			subtitle: "制作一个实形之眼"
 			description: [
-				"The &bCorporeal Eye&r will &6stop animals from exiting its range&r, at a cost of Aura."
+				"&b实形之眼&r可以&6阻止动物离开他的活动范围&r。"
 				""
-				"It works based on a redstone signal. The higher the strength, the larger the radius."
+				"它基于红石信号进行工作。信号越强则半径越大。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0BEFED4E45E00A84"]
@@ -923,12 +923,12 @@
 			}]
 		}
 		{
-			title: "10,000 Times Earth's Gravity"
+			title: "地球引力的10000倍"
 			x: 2.75d
 			y: -3.0d
 			shape: "square"
-			subtitle: "Make an Item Grounder"
-			description: ["The &bItem Grounder&r will &6prevent me from picking up dropped items&r unless I am sneaking."]
+			subtitle: "制作物品束缚器"
+			description: ["&b物品束缚器&r将会阻止我&6捡起掉落物&r，除非我当时正保持潜行状态。"]
 			hide_dependency_lines: true
 			dependencies: ["6A7B93DC1ACE716B"]
 			size: 0.5d
@@ -940,18 +940,18 @@
 			}]
 		}
 		{
-			title: "Whopper"
+			title: "弥天大谎"
 			icon: "naturesaura:grated_chute"
 			x: 3.25d
 			y: -3.0d
 			shape: "square"
-			subtitle: "Make an Adept Hopper and Hopper Enhancement"
+			subtitle: "制作专家型漏斗和漏斗增强器"
 			description: [
-				"The &bAdept Hopper&r is slightly faster, and &6can be filtered&r using Item Frames."
+				"&b专家型漏斗&r比普通漏斗更快，并且可以使用展示框进行&6过滤&r。"
 				""
-				"Only items in the Item Frame will pass through the Adept Hopper. I can sneak right-click the Adept Hopper to invert this, making it a blacklist instead of a whitelist."
+				"这样就只有展示框中的物品才能经过漏斗。我可以通过潜行右键来改变漏斗模式，使其过滤模式变为黑名单制。"
 				""
-				"The &bHopper Enhancement&r will make Hoppers pick up items from &6up to 7 blocks away&r. This takes some Aura, and can be filtered with the Adept Hopper."
+				"&b漏斗增强器&r可以使其能捡起半径&67格&r。以内的所有物品，并且还可以结合过滤使用。当然，这会消耗少量灵气。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["6A7B93DC1ACE716B"]
@@ -972,17 +972,17 @@
 			]
 		}
 		{
-			title: "Rannuncarpus"
+			title: "手掌花"
 			x: 2.5d
 			y: -3.5d
 			shape: "square"
-			subtitle: "Make an Imperceptible Builder"
+			subtitle: "制作一个无感知建造器"
 			description: [
-				"The &bImperceptible Builder&r will use Aura to &6automatically place blocks in the world&r."
+				"&b无感知建造器&r会通过消耗灵气的方式&6自动放置方块&r。"
 				""
-				"I must place the blocks to place in a Chest above the Builder."
+				"我只需要把材料放置在装置上方的容器里。"
 				""
-				"The Builder has a range of 5 blocks. In order to specify where to place blocks, I have to use an &6Item Frame&r. It will only place blocks on the block in the Item Frame."
+				"建造器器的工作范围半径5格。为了使其能将方块放在指定的位置，我需要在上面放置一个&6物品展示框&r。它将只会把方块放置在指定方块上。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["6A7B93DC1ACE716B"]
