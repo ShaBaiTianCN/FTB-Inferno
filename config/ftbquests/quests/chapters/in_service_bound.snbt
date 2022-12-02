@@ -3,26 +3,26 @@
 	group: "3ABD0072BF4C3677"
 	order_index: 1
 	filename: "in_service_bound"
-	title: "In Service Bound"
+	title: "在服务区内"
 	icon: "minecolonies:blockhutbuilder"
 	subtitle: ["MineColonies autocrafting"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "&nMine&rColonies"
+			title: "&n挖矿&r领域"
 			x: -1.0d
 			y: -6.0d
 			shape: "hexagon"
-			subtitle: "Make a Mine"
+			subtitle: "制作矿井"
 			description: [
-				"In these rocky depths are &6untold fortunes and raw materials&r for me to bend and warp to my design."
+				"在岩石遍布的深处，&6未知的秘宝与新颖的材料&r等候着我的发现，它们可以帮助我改造我现有的设计。"
 				""
-				"I will put the next minion to digging and harvesting all this world has to offer. I will find one &6strong of back&r and &cweak of mind&r to toil unflinchingly amidst the terrors below."
+				"我会让下一个喽啰挖掘和收集这个世界的一切。这个&c头脑简单&r，&6四肢发达&r家伙会在下面的恐怖中不屈不挠地工作。"
 				""
-				"&bMiners&r will strip-mine, and have a chance of finding rare blocks."
+				"&b矿工&r们会露天开采，并有机会找到稀有矿物。"
 				""
-				"&oMiners may appear to be stuck standing still at the Mine block. This does not mean they aren't mining, checking their inventory, or looking for Couriers picking items up."
+				"&o矿工们似乎站在原矿上一动不动。但这并不代表他们不在挖矿、检查库存或是寻找快递员提货。"
 			]
 			dependencies: ["2A6CCA72F1D483D9"]
 			size: 1.5d
@@ -90,14 +90,14 @@
 			]
 		}
 		{
-			title: "Ex-What Now?"
+			title: "是不是该从虚空中掏出点什么了？"
 			x: -3.5d
 			y: -4.5d
-			subtitle: "Make a Sifter"
+			subtitle: "制作筛子"
 			description: [
-				"At the &bSifter&r, a minion can process various soils through meshes to &6obtain plantlife&r that is otherwise unobtainable here."
+				"使用&b装上筛网的筛子&r，筛一些砂土来&b获取植物种子&r，除此之外别无他法。"
 				""
-				"This flora will be the seeds from which I grow my future."
+				"这些被我种下的种子在将来会把这里变得生机盎然。"
 			]
 			dependencies: [
 				"2A6CCA72F1D483D9"
@@ -173,16 +173,16 @@
 			]
 		}
 		{
-			title: "Putting the Hammer Down"
+			title: "把锤子放这儿"
 			x: -2.0d
 			y: -3.0d
-			subtitle: "Make a Blacksmith's Hut"
+			subtitle: "建造铁匠铺"
 			description: [
-				"A nice area where I can use fire and tools to bend metal towards my twisting machinations. Excellent."
+				"这地儿不错，可以把原材料变成我想要的样子，好耶。"
 				""
-				"I've trained one of the more astute minions on the methodologies of forging, and the basics of metallurgy."
+				"我训练了一个精明的喽啰来掌握锻造技术和基础的冶金技术。"
 				""
-				"With some training, they should be able to &6craft any metal products&r that the colony requires. With research I am certain I can train this particular minion to be even more useful."
+				"只要经过训练，他们就可以学会制作殖民地所需的&6各种金属制品&r 。经我研究，我敢肯定我可以训练他们掌握更多实用的技能。"
 			]
 			dependencies: [
 				"2A6CCA72F1D483D9"
@@ -252,13 +252,13 @@
 		{
 			x: -1.0d
 			y: -3.0d
-			subtitle: "Ore processing, my favorite."
+			subtitle: "最喜欢的一集，处理矿物"
 			description: [
-				"As the minions working the Mines bring back their bounty, I am faced with the need to process these resources."
+				"随着矿井的运作，喽啰们带回来的矿物越来越多，我该着手处理这些资源了。"
 				""
-				"I've created the &bSmeltery&r to refine these resources. Couriers will bring ores on their own, where they will be smelted and returned to the Warehouse."
+				"我建造了&b冶炼厂&r来处理这些矿物资源。 喽啰们会把矿物送到这里并在处理好后运进仓库。"
 				""
-				"I will have to assign a fuel source for them to use. With research, Smelters can &6quintuple ores&r, which is a rather high priority."
+				" 经过研究，冶炼厂能够产出&6五倍矿&r，这事儿可真具有诱惑力。看起来我不得不要分出精力来做这件事了。"
 			]
 			hide_dependency_lines: false
 			dependencies: [
@@ -314,14 +314,14 @@
 			]
 		}
 		{
-			title: "Shout It From the Mountaintops!"
+			title: "在山上咆哮！"
 			x: -3.5d
 			y: -3.0d
-			subtitle: "Make a Sawmill"
+			subtitle: "建造锯木厂"
 			description: [
-				"Wood products are used everywhere, getting those &6automated&r will be useful I am sure."
+				"木制品哪里都用得上， 我相信&6全自动&r生产木制品是个好主意。"
 				""
-				"At the &bSawmill&r, I can &6teach the Carpenter wood-based recipes&r. If another colonist requests those items, the Courier will bring the ingredients to the Carpenter, then bring the result to the Colonist that requested it."
+				"在&b锯木厂&r，我可以&6把木制品的图纸给木匠&r。如果殖民地对这些木制品有需求，那么喽啰会把原材料带给木匠，然后把成品带回需要的殖民地。 "
 			]
 			dependencies: [
 				"46A72493AFD256CA"
@@ -368,14 +368,14 @@
 			]
 		}
 		{
-			title: "Chop Chop!"
+			title: "光*强"
 			x: -3.0d
 			y: -2.0d
-			subtitle: "Make a Forester's Hut"
+			subtitle: "建造护林人小屋"
 			description: [
-				"Minions employed at the &bForester's Hut&r will &6harvest and replant trees&r near the Hut. Though they are &cslow&r, they are steady nonetheless."
+				"在&b护林人小屋&r工作的喽啰会&6砍伐树木后再把树木种植&r在屋子附近。虽然有些&c低效&r，但好在稳定。"
 				""
-				"In the Options tab, \"Zoning\" can be enabled and the Forester will only work in a specific area. Get the &6Forest Tool&r from the Hut and use it to select the area."
+				"在选项菜单中可以使用“划区模式”来限定这位护林人的工作范围。在小屋里获取&6林区工具&r来选定区域。 "
 			]
 			dependencies: [
 				"075ECA0834831AEC"
@@ -451,13 +451,13 @@
 		{
 			x: -1.0d
 			y: -7.5d
-			subtitle: "Make a Nether Mine"
+			subtitle: "建造下界矿井"
 			description: [
-				"Under \"Technology\" in the University, I can unlock the &bNether Mine&r. Here, I can create an &6interdimensional portal&r to send a minion to a parallel world to obtain even more valuable resources."
+				"通过大学里的“科技”，我解锁了&b下界矿井&r这一建筑。现在我可以建造一个&6跨纬度传送门&r，用它把一个喽啰送去平行世界来获取更多的有价值的资源。"
 				""
-				"It is a perilous task however and &ctheir life expectancy will be low&r. I will keep this to myself for the sake of morale, but sacrifices must be made."
+				"这是个危险的尝试并且&c他们的生还率很低&r。我要保守这个秘密以免士气低落，牺牲是必要的。 "
 				""
-				"This Requires at least 3 mines or a level 3 mine as well as a level 2 university with the nether mine technology researched."
+				"需要至少3座矿井或一座lv3的矿井，以及lv2的解锁了”下界矿井“的大学。"
 			]
 			dependencies: [
 				"649322FD11772894"
@@ -529,21 +529,21 @@
 			]
 		}
 		{
-			title: "Dormum Dominion"
+			title: "家庭帝位"
 			icon: "domum_ornamentum:architectscutter"
 			x: -4.0d
 			y: -2.0d
 			subtitle: "Dromowhowhatsit?"
 			description: [
-				"In my early years, I trained in a style of carpentry known as &eDormum Ornamentum&r. By constructing an &bArchitect's Cutter&r, I can bring some of my old home here."
+				"在早些年，我接受了一种名为&e观赏&r的木工风格的训练。通过建造一个 &b切割机&r，我可以带点老家的东西过来。"
 				""
-				"The minions seem to appreciate the enhanced aesthetics and I too find myself breathing a little easier with some of the comforts of home. "
+				"这些仆人似乎很欣赏我日益精进的木工作品，同时我也发现让家里舒适一些能让我过得稍微轻松一点。 "
 				""
-				"Unfortunately, you give them an inch and they take a mile, now some of the Minions have begun demanding some of my skilled work towards their buildings. I suppose I can provide for now, but I should &6teach my carpenter&r how to do most of these instead."
+				"不幸的是，如今一些仆人开始得寸进尺地将我的一些作品哼哧哼哧地搬到他们自个儿的房子里去。我觉得自己现在还可以继续干活，但我更应该&6教教仆人&r如何才能自己干完这些活儿。"
 				""
-				"&oTeach Cutter recipes to colonists in the \"Custom Recipes\" tab"
+				"&o在\“Custom Recipes\”选项卡中向仆人传授切割方法"
 				""
-				"&oFor the block in the quest, the first slot should be Warped Planks and the second should be Blackstone. In the middle, choose the one titled \"Double-Crossed\" to craft it."
+				"&o建筑师切割机，第一个槽放入诡异木板，第二个槽放入黑石。在中间可以选择同时具有两个样式的成品"
 			]
 			dependencies: ["075ECA0834831AEC"]
 			min_width: 300
@@ -611,11 +611,11 @@
 		{
 			x: 1.5d
 			y: -4.5d
-			subtitle: "Make a Stonemason's Hut"
+			subtitle: "建造石匠铺"
 			description: [
-				"Now that I have a Mine, I have plenty of raw materials."
+				"既然我有一座矿井了，那我就有了大量的原材料。"
 				""
-				"I can teach stone-based recipes at the &bStonemason's Hut&r, and the Stonemason will craft it when requested."
+				"我可以把石制品的图纸给 &b石匠铺&r，这样一来当有石制品需求的时候就能制造了。"
 			]
 			dependencies: [
 				"2A6CCA72F1D483D9"
@@ -652,11 +652,11 @@
 			title: "Hot or Not"
 			x: 0.0d
 			y: -3.0d
-			subtitle: "Make a Stone Smeltery"
+			subtitle: "建造石材冶炼厂"
 			description: [
-				"A &bStone Smelter&r will process stone-based materials."
+				"一座&b石材冶炼厂&r就能处理石制原料了。"
 				""
-				"I'll need to specify the fuel that they will use, but I can also teach them to make Charcoal here. How convenient!"
+				"我需要指定一种燃料给他们使用，当然，我也可以让他们就地取材制作木炭来使用，真不错！"
 			]
 			dependencies: [
 				"2A6CCA72F1D483D9"
@@ -675,19 +675,19 @@
 			}]
 		}
 		{
-			title: "Abracadabra"
+			title: "急急如律令"
 			x: 1.5d
 			y: -3.0d
 			shape: "hexagon"
-			subtitle: "Make an Enchanter's Tower"
+			subtitle: "建造附魔师之塔"
 			description: [
-				"Minions working at the &bEnchanter's Tower&r can &6siphon experience from other Minions and enchant books&r."
+				"在&b附魔师之塔&r中工作的喽啰可以吸收&6其他喽啰和古魔法书中&r的经验来使用。 "
 				""
-				"The minions to siphon from have to be specified. They also require &6Ancient Tomes&r to work."
+				"被吸取经验的喽啰需要指定，并且他们需要 &6古魔法书&r才能工作。"
 				""
-				"The Enchanter also has unique recipes for Scrolls, Enchanting Tables, and more. See the Tower's uses in JEI."
+				"附魔师还需要很多东西才能工作，详情可从JEI中获取。"
 				""
-				"&oUnlocks part of &5Sanguine Sting&r under &3Mephistopheles' Anger&r"
+				"&o解锁&5血色之刺&r于&3摩菲斯特的暴怒&r。"
 			]
 			dependencies: [
 				"2A6CCA72F1D483D9"
@@ -732,18 +732,18 @@
 			]
 		}
 		{
-			title: "What is a Wizard Without a Tower?"
+			title: "没有塔的巫师，还能叫巫师吗？"
 			x: 2.0d
 			y: -2.0d
-			subtitle: "Make an Alchemist Tower"
+			subtitle: "建造炼金塔"
 			description: [
-				"The &bAlchemist Tower&r will serve all my alchemical needs. I'll choose one of the &6smarter minions&r and teach them how to handle the various reagents and transmutations I'd otherwise have to do manually."
+				"一座&b炼金塔&r就能满足我所有的炼金需求。我会挑一个&6更聪明的喽啰&r并教他如何把控试剂和嬗变尘的用量，不然我就得自己动手了，那一定会很累。"
 				""
-				"Anything I can transmute with &6Spiritfire&r they should be able to do, as well as some more mundane activities. They can siphon Lava and collect it into Buckets, and can &6conjure Water&r to fill Bottles."
+				"任何我可以通过&6灵火&r转化出的物质，他们也得会转化，他们也得会一些基础的事情，比如把岩浆装进桶里，把水装满瓶子。"
 				""
-				"I can also teach them to make potions to benefit myself and other minions."
+				"我还可以教他们酿造药水，自己或者其他喽啰使用来提高效率。"
 				""
-				"This structure requires a T3 university along with the technology research complete for the alchemist tower."
+				"这座建筑需要一所已经完成了有关炼金塔的科学研究的三阶大学。"
 			]
 			dependencies: ["4E4DCF7B00B213EC"]
 			min_width: 275
@@ -777,16 +777,16 @@
 			]
 		}
 		{
-			title: "A Shrine, to the Shine of Mine."
+			title: "致，我的光"
 			x: 1.0d
 			y: -2.0d
-			subtitle: "Make an Enchanting Table"
+			subtitle: "制作附魔台"
 			description: [
-				"With the &bEnchanting Table&r, I can greatly boost my weapon and armor far beyond their physical properties."
+				"通过&b附魔台&r，可以极大的强化我的武器和装甲，使其获得远超其本身的力量。"
 				""
-				"This is &oreal magic&r, and the start of my ascent towards &eapotheosis&r."
+				"这是&o真正的魔法&r，且是我&e神化&r的开始。"
 				""
-				"&oI can only craft them manually after a colonist makes one for me."
+				"&o只有在一位殖民者为我制作了一个附魔台后，我才可以手动合成&r。"
 			]
 			dependencies: ["4E4DCF7B00B213EC"]
 			id: "093D3A0F27C9C662"
@@ -824,14 +824,14 @@
 			]
 		}
 		{
-			title: "Blown Away"
+			title: "好大的风"
 			x: -1.0d
 			y: -2.0d
-			subtitle: "Make a Glassblower's Hut"
+			subtitle: "建造吹玻璃工小屋"
 			description: [
-				"The &bGlassblower&r can make any recipe involving Glass."
+				"&b吹玻璃工&r可以制作任何和玻璃有关的物品。"
 				""
-				"This was originally a vanity product, but on further thought, Glass is incredibly useful for both magic and mundane purposes."
+				"这些东西本来只是没有实际作用的物品，但是长远看来，玻璃会在魔法和日常使用中大放异彩。"
 			]
 			dependencies: ["72E6EEAAA33F5DF8"]
 			id: "5BD103DE9214DAA5"
@@ -855,19 +855,19 @@
 			]
 		}
 		{
-			title: "That Sap!"
+			title: "是树脂！"
 			icon: "myrtrees:rubberwood_sapling"
 			x: -4.5d
 			y: -4.5d
-			subtitle: "Slower than molasses in January"
+			subtitle: "这玩意儿真的是流体吗？"
 			description: [
-				"That little ingrate! I've been waiting for &odays&r for my Sifter to &6get me the Saplings I need&r, and they've been holding out on me!"
+				"那个忘恩负义的小家伙！ 我已经等了&o 好多天 &r 等我的筛子给我弄到我需要的树苗 &r，而它们一直在等着我！"
 				""
-				"I decided to watch them as they worked, and sure enough, I caught them red-handed!"
+				"我决定看着他们工作，果不其然，我当场抓住了他们！"
 				""
-				"They were &choarding them away in their Racks&r, probably to demand better food or housing or some other nonsense."
+				"他们把它们 &c囤积在架子上 &r，大概是为了要求更好的食物、更好的住房或其他一些无稽之谈。"
 				""
-				"Well, not today! I've reclaimed all the missing Saplings, and I'll be watching this one from now on."
+				"但不是今天！我找回了所有丢失的树苗，从现在开始我会看着这棵树。"
 			]
 			dependencies: ["4E7B7D7283B9519C"]
 			size: 0.75d
@@ -941,13 +941,13 @@
 			]
 		}
 		{
-			title: "University T1"
+			title: "985 211"
 			icon: "minecolonies:blockhutuniversity"
 			x: -1.0d
 			y: -4.5d
 			shape: "gear"
-			subtitle: "Infernal Delights"
-			description: ["These structures will require me to have completed at least a &bTier 1 University&r, as well as the &6relevant research&r."]
+			subtitle: "地狱般的喜悦"
+			description: ["这些建筑需要至少一所&b一阶大学&r，并且&6相关研究&r已经尽数完成。"]
 			dependencies: ["46A72493AFD256CA"]
 			id: "6FA2CE4C35ABE5F2"
 			tasks: [{
