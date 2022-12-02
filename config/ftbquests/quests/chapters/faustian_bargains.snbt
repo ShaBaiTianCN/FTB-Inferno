@@ -3,29 +3,29 @@
 	group: "7044F2C841148E69"
 	order_index: 2
 	filename: "faustian_bargains"
-	title: "Faustian Bargains"
+	title: "浮士德式的交易"
 	icon: "artifacts:villager_hat"
-	subtitle: ["Villagers"]
+	subtitle: ["村民们"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Observe a Zombie Villager"
+			title: "观察一个僵尸村民"
 			icon: "artifacts:villager_hat"
 			x: -1.0d
 			y: -3.0d
 			shape: "hexagon"
-			subtitle: "I am the passenger, and I ride and I ride..."
+			subtitle: "兜兜转转，我是个风尘过客"
 			description: [
-				"These minions have lost much of what they once were. What's left of them sometimes isn't enough. I need my own kind. I would normally never dare to drag more souls to this prison, but..."
+				"这些奴才已经失去了很多曾经的东西，而剩下的并不能满足我。我需要同类！我通常不敢把更多的灵魂拖到这个监狱，但是……"
 				""
-				"There is a &crare illness&r in my world. It's known to turn &6kindly villagers&r into &4flesh-craving undead&r. Their souls are long-departed, but I can fetch their wretched husks with a ritual. I could pull them here, devise a cure, and &6benefit from the knowledge they had in life&r."
+				"在我的世界有一种&c罕见的疾病&r。众所周知，它可以把&6善良的村民&r变成&4嗜血的亡灵&r。他们的灵魂早已离去，但我可以用一种仪式取回他们可恶的躯壳。我可以把他们拉到这里来，制定治疗方案，&6并从他们生前的知识中获益&r。"
 				""
-				"I'll need a &bSplash Potion of Weakness&r to hit them with, and then a &bGolden Apple&r to complete the cure."
+				"我需要用&b喷溅型虚弱药水&r扔它们，然后用&b金苹果&r来完成治疗。"
 				""
-				"First thing's first though: I return to my Summoning Altar, soon to reunite with some old friends."
+				"但首先要做的是：我要回到我的召唤祭坛，很快就会与一些老朋友重聚。"
 				""
-				"&2Addendum!&r These simpleminded husks are so enamored with the other minions they immediately rush off to join them and refuse to take up the trade of their past lives. I'll have to make it a point to &5summon them outside of my colony's influence&r."
+				"&2附录！&r这些头脑简单的空壳对其他奴才如此着迷，他们立即赶去加入他们，并拒绝从事他们过去生活的贸易。我得&5在我殖民地影响之外召唤他们&r。"
 			]
 			dependencies: [
 				"4B52BBBF01CDF027"
@@ -40,7 +40,7 @@
 				{
 					id: "3585E48ED5A9FBA7"
 					type: "observation"
-					title: "Observe a Zombie Villager"
+					title: "观察一个僵尸村民"
 					icon: "artifacts:villager_hat"
 					timer: 0L
 					observe_type: 5
@@ -67,20 +67,20 @@
 			}]
 		}
 		{
-			title: "Welcome Back, Friend..."
+			title: "欢迎回归，朋友……"
 			icon: "naturesaura:outpost_finder"
 			x: -1.0d
 			y: -1.0d
 			shape: "hexagon"
-			subtitle: "Cure a Villager"
+			subtitle: "治疗村民"
 			description: [
-				"Though I feel some guilt, these cured souls must earn their meals."
+				"虽然我感到有些内疚，但这些被治愈的灵魂必须赚取他们的食物。"
 				""
-				"I can &6assign them professions&r by placing certain blocks near them. From a &bSmithing Table&r, a Villager will work as a &6Toolsmith&r. This allows me to purchase some &6very useful Schematics&r that I otherwise couldn't access."
+				"我可以通过在他们附近放置某些方块来&6为他们分配工作&r。有了&b锻造台&r，村民可以担任&6工具匠&r。这让我可以购买一些&6非常有用的原理图&r，否则我无法获得。"
 				""
-				"It seems they retrain some mental scars from their time as undead. They seem completely entranced by &6Dark Gems&r, working and trading for them."
+				"他们似乎重新训练了他们作为亡灵时代的一些精神创伤。他们似乎完全被&6暗黑宝石&r迷住了，为它们工作和交易"
 				""
-				"This is fortunate for me, as I haven't come across any Emeralds just yet."
+				"这对我来说是很幸运的，因为我还没有遇到任何绿宝石。"
 			]
 			dependencies: ["64067A45D5EC178C"]
 			min_width: 250
@@ -89,7 +89,7 @@
 				{
 					id: "6AE790847C69C51B"
 					type: "observation"
-					title: "Observe a Villager"
+					title: "观察一位村民"
 					icon: "naturesaura:outpost_finder"
 					timer: 0L
 					observe_type: 5
@@ -123,15 +123,15 @@
 			]
 		}
 		{
-			title: "The ARC"
+			title: "优美的电弧"
 			x: -1.0d
 			y: 1.0d
 			shape: "hexagon"
-			subtitle: "Purchase Arc Furnace Electrodes Blueprints"
+			subtitle: "购买电弧炉电极蓝图"
 			description: [
-				"Sure enough, the summoned Toolsmith was able to provide the &bBlueprints&r I'll need for the &6Arc Furnace&r's &bElectrodes&r."
+				"果然，被召唤出来的工具师能够提供我所需要的&6电弧炉&r的&b电极&r的&b蓝图&r"
 				""
-				"With these, I'll finally be able to create the magitech metals needed for the Void Portal!"
+				"有了这些，我终于可以制造出虚空传送门所需的磁性金属了！"
 			]
 			dependencies: ["7354005CC607E651"]
 			size: 1.5d
@@ -178,10 +178,10 @@
 			]
 		}
 		{
-			title: "The Armorer"
+			title: "盔甲匠"
 			x: -4.5d
 			y: -3.0d
-			description: ["A &bBlast Furnace&r will allow Villagers to work as &6Armorers&r, providing defensive trades."]
+			description: ["&b高炉&r允许村民担任&6盔甲匠&r，来提供防具交易。"]
 			dependencies: ["7354005CC607E651"]
 			optional: true
 			id: "30D79D1B3A0FD4D7"
@@ -192,18 +192,18 @@
 			}]
 		}
 		{
-			title: "The Butcher"
+			title: "屠夫"
 			x: 3.0d
 			y: -3.0d
 			description: [
-				"A &bSmoker&r will allow Villagers to work as &6Butchers&r, providing unique cuts of meat to work with. A refreshing change from my minions' unseasoned slop."
+				"&b烟熏炉&r允许村民担任&6屠夫&r，提供了独特的肉块来进行加工。与我的仆人们没有调味的泔水相比，这是一个令人耳目一新的变化。"
 				""
-				"Trades of Note:"
-				"• Bulk Minced Meat"
-				"• Hoglin Hide"
-				"• Stuffed Hoglin"
-				"• Nether Skewers"
-				"• Cosmic Meatballs"
+				"值得注意的交易："
+				"•散装肉糜"
+				"•疣猪兽皮"
+				"•填馅疣猪兽"
+				"•下界串烧"
+				"•寰宇肉丸"
 			]
 			dependencies: ["7354005CC607E651"]
 			optional: true
@@ -220,18 +220,18 @@
 			}]
 		}
 		{
-			title: "The Cleric"
+			title: "牧师"
 			x: 3.0d
 			y: -2.0d
 			description: [
-				"A &bBrewing Stand&r will allow Villagers to work as &6Clerics&r. Clerics specialize in magic of all sorts; undoubtedly useful, though at great cost."
+				"&b酿造台&r允许村民担任&6牧师&r。牧师擅长各种魔法；无疑是有用的，即使代价很大。"
 				""
-				"Trades of Note:"
-				"• Emeralds"
-				"• Eyes of Ender"
-				"• Glacial Staff"
-				"• Sigil of Baphomet"
-				"• Obsidian Skull"
+				"值得注意的交易："
+				"•绿宝石"
+				"•末影之眼"
+				"•冰河之杖"
+				"•巴弗灭的魔符"
+				"•黑曜石头骨"
 			]
 			dependencies: ["7354005CC607E651"]
 			optional: true
@@ -248,19 +248,19 @@
 			}]
 		}
 		{
-			title: "The Farmer"
+			title: "农夫"
 			x: 3.0d
 			y: -1.0d
 			description: [
-				"A &bComposter&r will allow Villagers to work as &6Farmers&r. They can provide rarer seeds, and may be clever enough to provide a method of &6creating more Water sources&r."
+				"&b堆肥桶&r会允许村民担任&6农夫&r。他们可以提供更稀有的种子，并且可能聪明到提供&6产生更多水源&r的方法。"
 				""
-				"Trades of Note:"
-				"• Cabbage Seeds"
-				"• Tomato Seeds"
-				"• Bulk Compost"
-				"• Slimy Seeds"
-				"• Rich Farmland and Rich Soul Soil"
-				"• Water source Capsule"
+				"交易单："
+				"•卷心菜种子"
+				"•番茄种子"
+				"•批量堆肥"
+				"•黏液种子"
+				"•肥沃耕地和肥沃灵魂土"
+				"•水源胶囊"
 			]
 			dependencies: ["7354005CC607E651"]
 			optional: true
@@ -277,10 +277,10 @@
 			}]
 		}
 		{
-			title: "The Fisherman"
+			title: "渔夫"
 			x: 3.0d
 			y: 0.0d
-			description: ["A &bBarrel&r will allow Villagers to work as &6Fishermen&r. Experienced Fishermen have knowledge far surpassing my minions, providing even better benefits."]
+			description: ["&b木桶&r会允许农夫担任&6渔夫&r。经验丰富的渔夫所拥有的知识远远超过我的仆从，提供更好的奖励。"]
 			dependencies: ["7354005CC607E651"]
 			optional: true
 			id: "6BCD44D693B51AE3"
@@ -291,17 +291,17 @@
 			}]
 		}
 		{
-			title: "The Leatherworker"
+			title: "皮匠"
 			x: -4.5d
 			y: 1.0d
 			description: [
-				"A &bCauldron&r will allow Villagers to work as &6Leatherworkers&r, able to refine hides much more efficiently than my minions can."
+				"&b炼药锅&r会允许农夫担任&6皮匠&r，能比我的仆从更有效率的提纯兽皮。"
 				""
-				"Trades of Note:"
-				"• Bulk Leather"
-				"• Bulk Hoglin Hide"
-				"• Oversized Infernal Satchel"
-				"• Tinker's Creative Tool Upgrades"
+				"交易单："
+				"•批量皮革"
+				"•批量疣猪兽皮"
+				"•特大号地狱背包"
+				"•创造升级槽"
 			]
 			dependencies: ["7354005CC607E651"]
 			optional: true
@@ -318,18 +318,18 @@
 			}]
 		}
 		{
-			title: "The Librarian"
+			title: "图书管理员"
 			x: -4.5d
 			y: 0.0d
 			description: [
-				"A &bLectern&r will allow Villagers to work as &6Librarians&r, providing access to rare books, tomes, and research."
+				"&讲台&r会允许村民担任&6图书管理员&r，提供书、手册和研究。"
 				""
-				"Trades of Note:"
-				"• Bulk Books"
-				"• Tome of Peritia"
-				"• Tier 2 Mage's Spell Book"
-				"• Charm of Infernal Knowledge"
-				"• Enchantment Library"
+				"交易单："
+				"•批量书籍"
+				"•经验手册"
+				"•法师的法术书"
+				"•地狱知识的魅力"
+				"•魔咒图书馆"
 			]
 			dependencies: ["7354005CC607E651"]
 			optional: true
@@ -346,18 +346,18 @@
 			}]
 		}
 		{
-			title: "The Mason"
+			title: "石匠"
 			x: -4.5d
 			y: -2.0d
 			description: [
-				"A &bStonecutter&r will allow Villagers to work as &6Masons&r, specializing in building and demolition."
+				"&b切石机&r会允许村民担任&6石匠&r，专门从事建筑和拆毁。"
 				""
-				"Trades of Note:"
-				"• Bulk Andesite"
-				"• Bulk Terracotta"
-				"• Ancient Tomes of Unbreaking"
-				"• Fully Charged Building Gadget"
-				"• Destruction Catalyst"
+				"交易单："
+				"•批量安山岩"
+				"•批量陶瓦"
+				"•耐久古卷"
+				"•满电的建筑小帮手"
+				"•毁灭催化剂"
 			]
 			dependencies: ["7354005CC607E651"]
 			optional: true
@@ -374,18 +374,18 @@
 			}]
 		}
 		{
-			title: "The Shepherd"
+			title: "牧羊人"
 			x: -4.5d
 			y: -1.0d
 			description: [
-				"A &bLoom&r will allow Villagers to work as &6Shepherds&r, trading in sheep and wool products."
+				"&织布机&r会允许村民担任&6牧羊人&r，进行绵羊和羊毛制品交易。"
 				""
-				"Trades of Note:"
-				"• Bulk Wool"
-				"• Bulk Mutton Chops"
-				"• Soul Shard with 500 Sheep Souls"
-				"• Technicolor Shears"
-				"• Rending Gale"
+				"交易单："
+				"•批量羊毛"
+				"•批量烤羊排"
+			  "•500只羊的灵魂碎片"
+				"•彩色剪刀"
+				"•烈风者"
 			]
 			dependencies: ["7354005CC607E651"]
 			optional: true
@@ -402,18 +402,18 @@
 			}]
 		}
 		{
-			title: "The Weaponsmith"
+			title: "武器商"
 			x: 3.0d
 			y: 1.0d
 			description: [
-				"A &bGrindstone&r will allow Villagers to work as &6Weaponsmiths&r, offering unique offensive wares. The best offense is even more offense."
+				"&b砂轮&r会允许村民担任&6武器商&r，提供独一无二的攻击性物品。最好的进攻就是更强的进攻。"
 				""
-				"Trades of Note:"
-				"• Certus Quartz Swords"
-				"• Diamond Mining Arrows"
-				"• Sharpness V Tomes"
-				"• Tinker's Creative Upgrade Slots"
-				"• The Skullfire Sword"
+				"交易单："
+				"•赛特斯石英剑"
+				"•钻石头采矿箭"
+				"•锋利Ⅴ附魔书"
+				"•匠魂插槽升级"
+				"•炽焰之啄颅剑"
 			]
 			dependencies: ["7354005CC607E651"]
 			optional: true
