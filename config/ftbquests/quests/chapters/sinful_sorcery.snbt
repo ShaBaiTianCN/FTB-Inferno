@@ -3,25 +3,25 @@
 	group: "7044F2C841148E69"
 	order_index: 4
 	filename: "sinful_sorcery"
-	title: "Sinful Sorcery"
+	title: "罪恶之魔法"
 	icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
-	subtitle: ["Occultism"]
+	subtitle: ["神秘学"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Chalk Zone!"
+			title: "粉笔领域!"
 			x: 1.0d
 			y: -4.0d
-			subtitle: "Make White Chalk"
+			subtitle: "合成一个白粉笔"
 			description: [
-				"Most &5occultic magic&r involves &6rituals&r."
+				"大多数&5神秘魔法&r都包含&6仪式&r。"
 				""
-				"A major part of rituals involves drawing circles using &bChalk&r. This circle is called a &6Pentacle&r."
+				"其中，大部分仪式都会使用&b粉笔&r来画圈。而这种圈被称为&6五芒星&r。"
 				""
-				"Different rituals have different patterns that must be drawn; I can consult the &6Dictionary of Spirits&r for information on each."
+				"不同的仪式需要绘制不一样的图案；我可以查阅 &6魔灵全典&r来了解每一种仪式的资料。"
 				""
-				"Chalk can also be &6enchanted&r!"
+				"并且，粉笔也可以被&6附魔&r！"
 			]
 			dependencies: [
 				"52ABB5B5C3E6A479"
@@ -59,13 +59,13 @@
 			icon: "occultism:golden_sacrificial_bowl"
 			x: 3.0d
 			y: -2.5d
-			subtitle: "Make a Gold Sacrificial Bowl"
+			subtitle: "合成一个黄金献祭之碗"
 			description: [
-				"Rituals need more than just pretty circles and glowing lights. I have to give something up to receive something in return."
+				"仪式需要的不仅是漂亮的圈和一些闪亮的火光。要得到回报，我必须舍弃一些东西。"
 				""
-				"The &bGolden Sacrificial Bowl&r goes in the center of the circle, and holds the catalyst item."
+				"将&b黄金献祭之碗&r置于仪式中心，并放入仪式催化剂。"
 				""
-				"&bSacrfical Bowls&r placed nearby (and at the same y-level) hold items that will be lost in the ritual."
+				"将&b献祭之碗&r放置在&b黄金献祭之碗&r附近（并且y轴一致），并放入仪式中的消耗品"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -90,8 +90,8 @@
 			x: 1.0d
 			y: -5.5d
 			shape: "square"
-			subtitle: "Make a Chalk Brush"
-			description: ["Chalk is surprisingly hard to clean up! The &bChalk Brush&r will help remove it easier."]
+			subtitle: "合成一个粉笔擦"
+			description: ["粉笔符文实在是难以清理啦！有了&b粉笔擦&r就能轻松搞定。"]
 			dependencies: ["1F67AF8D23A3EA97"]
 			size: 0.75d
 			id: "245267AF9219137B"
@@ -102,14 +102,14 @@
 			}]
 		}
 		{
-			title: "Not Edible, Even by Piglins"
+			title: "不可食用，尽管是猪布林"
 			x: 7.0d
 			y: -4.0d
-			subtitle: "Make Golden Chalk"
+			subtitle: "合成金色粉笔"
 			description: [
-				"With a Foliot bound, I can set them to &6crushing metal&r into a fine powder, which more readily accepts my power."
+				"有了绑定的魔精，我就能让他们把&6金属&r粉碎成细小的粉末，这样更容易使用。"
 				""
-				"&bGolden Chalk&r is used in even more powerful pentacles."
+				"&b金色粉笔&r用于画更强大的五芒星。"
 			]
 			dependencies: ["47603D4BADD2EE6B"]
 			id: "354EF66D7CCD8F89"
@@ -126,11 +126,11 @@
 			}]
 		}
 		{
-			title: "The Colour of Magic"
+			title: "魔法的颜色"
 			x: 11.0d
 			y: -4.0d
-			subtitle: "Make Purple Chalk"
-			description: ["&bPurple Chalk&r contains the power of &5the End&r, allowing for &6even more powerful rituals&r."]
+			subtitle: "合成紫色粉笔"
+			description: ["&b紫色粉笔&r蕴含了&5末地&r的力量，运用在&6更强大的仪式&r。"]
 			dependencies: ["1B9A5F52D2890637"]
 			id: "62DDFF4096E14DE7"
 			tasks: [{
@@ -146,14 +146,14 @@
 			}]
 		}
 		{
-			title: "Bound in &mHuman&r Flesh"
+			title: "绑定在&m肉体&r之中"
 			x: -1.5d
 			y: -4.0d
-			subtitle: "Make the Dictionary of Spirits"
+			subtitle: "合成魔灵全典"
 			description: [
-				"&eOccultism&r, the art of &5binding spirits to my will&r. "
+				"&e神秘学&r，&5随我欲望绑定魔灵&r的艺术。 "
 				""
-				"My notes here will not cover everything Occultism has to offer. The rest can be found in the &bDictionary of Spirits&r."
+				"我在此章节的注释不会涵盖神秘学所有的内容，未提到的内容将能够在&b魔灵全典中&r找到。"
 			]
 			dependencies: ["4CD6DCE22C556C2B"]
 			id: "6AC1108487763770"
@@ -177,11 +177,11 @@
 		{
 			x: -1.5d
 			y: -6.0d
-			subtitle: "Make an Otherworld Sapling"
+			subtitle: "合成一个异界树苗"
 			description: [
-				"&bOtherworld Trees&r disguise themselves as normal trees. However, that's not really a factor here."
+				"&b异界之树&r将自己伪装成普通的树木。然而这真的是事实吗。"
 				""
-				"Normally, I would have to make a &6Divination Rod&r to locate them. However, there simply &caren't any here&r. I'll have to make my own."
+				"一般来说，我需要做一个&6探测杖&r去定位他们。然而，这里根本&c没有任何一颗异界树苗&r。因此，我必须自己制作一颗。"
 			]
 			dependencies: [
 				"6AC1108487763770"
@@ -201,14 +201,14 @@
 			}]
 		}
 		{
-			title: "Thisstone"
+			title: "这个石头"
 			x: -1.5d
 			y: -2.0d
-			subtitle: "Make Otherstone"
+			subtitle: "合成一个异界石"
 			description: [
-				"&bOtherstone&r can be gathered by burning Andesite in the &6Spiritfire&r. How nostalgic!"
+				"&b异界石&r可以通过将安山岩投掷到&6灵火&r中净化来获得，这多么让人怀念呐！"
 				""
-				"It seems Otherstone comes from another dimension. That is, another, &onother&r, dimension. Perhaps the Spiritfire actually has some connection to it?"
+				"看来异界石来自另外一个维度。这就对了，另一个,&o另外一个&r，维度。也许灵火与它有一定的联系？"
 			]
 			dependencies: ["6AC1108487763770"]
 			id: "1FEE91D7E37C510C"
@@ -228,11 +228,11 @@
 			x: 5.0d
 			y: -1.0d
 			shape: "hexagon"
-			subtitle: "Make a Spirit Attuned Gem"
+			subtitle: "合成一个魔灵同调宝石"
 			description: [
-				"&6Source&r is a highly magical substance, but it is firmly bound to &oliving&r entities. To work with the &ounliving&r, it'll have to be corrupted."
+				"&6魔源&r是一种具有高度魔力的物质，但它被牢牢地束缚在&o活&r体上。要与非生命体一起工作，它就必须被腐化。"
 				""
-				"The &6Spiritfire&r does the trick, converting Source Gems into &bSpirit Attuned Gems&r."
+				"&6灵火&r就能实现这一点，将魔源宝石净化为&b魔灵同调宝石&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -255,8 +255,8 @@
 		{
 			x: 7.0d
 			y: -1.0d
-			subtitle: "Make Spirit Attuned Crystal"
-			description: ["&bSpirit Attuned Crystals&r are a required component of several Pentacles."]
+			subtitle: "合成一个魔灵同调水晶"
+			description: ["&b魔灵同调水晶&r是某些五芒星阵的必要之物。"]
 			dependencies: [
 				"09F2A988AD828E50"
 				"46F71E271A6E156F"
@@ -269,15 +269,15 @@
 			}]
 		}
 		{
-			title: "Rend the Fat and Boil the Bones"
+			title: "削其脂肪，烧其骨"
 			icon: "occultism:candle_white"
 			x: 3.0d
 			y: -5.5d
-			subtitle: "Make a White Candle"
+			subtitle: "合成一个白色蜡烛"
 			description: [
-				"A &bButcher's Knife&r allows me to &6harvest more useful materials&r from animals."
+				"&b屠刀&r能帮助我从动物身上&6获取更多有用的资源&r。"
 				""
-				"The &bTallow&r is particularly useful, as it can be melted into magical &bCandles&r required for certain rituals."
+				"&b动物油脂&r是一种特别有用的资源，因为它可以被制作成某些仪式所需的魔法蜡烛。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["6AC1108487763770"]
@@ -314,20 +314,20 @@
 			}]
 		}
 		{
-			title: "Revenge"
+			title: "复仇"
 			icon: "occultism:book_of_binding_foliot"
 			x: 3.0d
 			y: -4.0d
 			shape: "circle"
-			subtitle: "Make a Book of Binding"
+			subtitle: "合成一本绑定之书：魔精"
 			description: [
-				"I should now have everything required to summon forth a spirit from this realm, and &6bind it to my will&r."
+				"在这个领域，我现在应该拥有召唤出一个魔灵所需的一切，并将其&6绑定在我的意志之下&r。"
 				""
-				"Finally, some payback! Trap me here will you, well now it's MY turn!"
+				"终于，一些回报！把我困住这里是吧，现在轮到我了！"
 				""
-				"I'm not going to make the same mistake twice, however. I'll &6start small&r. A &bFoliot&r is a silly little creature, &6useful for menial labor&r and no threat to me."
+				"不过，我不会犯同样的错误两次，我将从&6小事&做起。&b魔精&r是一种很愚蠢的小生物，我可以利用他们&6解决&r一些&6简单且重复的劳动&r并且对我也没有威胁。"
 				""
-				"Crafting my Dictionary of Spirits with the &bBook of Binding&r will &6enscribe the name of a Foliot&r into the book."
+				"将魔灵全典与&b绑定之书：魔精&r一起合成就能把一个&6魔精的真名刻在&r绑定之书上。"
 			]
 			dependencies: [
 				"284F976179926988"
@@ -349,22 +349,22 @@
 			}]
 		}
 		{
-			title: "Possessed by the Void"
+			title: "虚空附体"
 			icon: "minecraft:end_stone"
 			x: 9.0d
 			y: -4.0d
 			shape: "hexagon"
-			subtitle: "Kill a Posessed Endermite"
+			subtitle: "击杀一个被附身的末影螨"
 			description: [
-				"Now that I've mastered the basics of spirit summons and bindings, it's time for me to push the limits."
+				"现在我已经掌握了魔灵召唤和绑定的基本知识，是时候让我挑战极限了。"
 				""
-				"I can &6cast out a spirit&r to bind it to an extradimensional entity, &6summoning it to me&r."
+				"我可以&6投出一个魔灵&r与超维生物绑定，&6并把它召唤到我身边&r。"
 				""
-				"This uses the &6Hedyrin's Lure&r pentacle. Upon starting the ritual, it will emit &6black particles&r. This means it is waiting for a living sacrifice: usually killing a mob, but in this case simply throwing an egg."
+				"这需要使用&6海德林诱惑术&r五芒星。 开始仪式后，它将发出&6黑色的粒子效果&r。这意味着它在等待一个活的祭品：通常是杀死一个生物，但在此仪式下只需要扔一个鸡蛋。"
 				""
-				"The &bPossessed Endermite&r would be my best bet for now. Since they eat &6End Stone&r, it will almost certainly drop some on death."
+				"目前，&b被附身的末影螨&r将是我最好的选择。因为它们平时吃的是&6末地石&r，所以死亡时几乎肯定会掉一些（未消化完的）。"
 				""
-				"It may be adventageous for me to create a &5soul shard&r of the possessed endermites to avoid needing to resummon them."
+				"合成一个被附身的末影螨的&5灵魂碎片&r对我来说可能是有利的，因为我能透过它来避免重新召唤被附身的末影螨。"
 			]
 			dependencies: ["354EF66D7CCD8F89"]
 			min_width: 275
@@ -473,7 +473,7 @@
 			]
 		}
 		{
-			title: "Higher Binding"
+			title: "高级绑定"
 			icon: {
 				id: "occultism:book_of_binding_bound_djinni"
 				Count: 1b
@@ -483,13 +483,13 @@
 			}
 			x: 13.0d
 			y: -4.0d
-			subtitle: "Bind a Djinni"
+			subtitle: "绑定一个巨灵"
 			description: [
-				"I believe I've mastered Foliots well enough; it's time for something more powerful."
+				"我相信我已经熟练地掌握了利用魔精；那么是时候做一些更厉害的事情了。"
 				""
-				"The &bDjinni&r are strong, willful spirits with &6tremendous innate magic&r."
+				"&b巨魔&r是很强壮，&6天生拥有强大魔力&r的邪恶魔灵。"
 				""
-				"Using the ritual &6Strigeor's Higher Binding&r, I can bind a Djinni to an item."
+				"使用仪式&6斯特里格高等束缚&r，我可以将一个巨灵绑定在一个物品上。"
 			]
 			hide_dependency_lines: false
 			dependencies: ["62DDFF4096E14DE7"]
@@ -528,19 +528,19 @@
 			}
 			x: 5.0d
 			y: -4.0d
-			subtitle: "Summon a Foliot"
+			subtitle: "召唤一个魔精"
 			description: [
-				"The Pentacle &bAviar's Circle&r will allow me to &6summon a known Foliot&r. This Foliot is the one bound to the Book of Binding."
+				"五芒星&b阿维亚之环&r将允许我召唤&6一个已知真名的魔精&r。这个魔精就是被绑定在绑定之书：魔精上的那个。"
 				""
-				"Summoned spirits &cdo not last long&r. Their essence decays the longer they exist here, ending in their death."
+				"被召唤的魔灵不会存在很长时间&r。他们的灵髓随着时间的流逝而逐渐衰弱，最后以他们的死亡告终。"
 				""
-				"Death for summoned spirits is more like going home, and they &6can be summoned again&r. Unfortunately for me, they do not seem to mind."
+				"对于被召唤的魔灵来说，死亡更像是回家，他们可以&6再次被召唤&r。然而对我来说不幸的是，他们似乎并不介意。"
 				""
-				"Spirits &6require a purpose&r to be summoned. A Foliot can be summoned as a Crusher or a Lumberjack or yada yada, but it can't be summoned as nothing."
+				"魔灵需要有一个目的才能被召唤出来。魔精可以被召唤为碎矿者或伐木工等等，但它不能被召唤为无职业。"
 				""
-				"Upon giving the outer Bowls the ingredients, and the center Bowl the bound &6Book of Binding&r, &bthe summon will begin&r."
+				"在给外面四个献祭之碗提供原料，中间的黄金献祭之碗提供&6绑定之书：魔精（已绑定）&r后，召唤就开始了。"
 				""
-				"&oSneak right-click spirits to open their GUIs&r"
+				"&o潜行+右键可以打开他们的图形用户界面（GUI）。&r"
 			]
 			dependencies: ["0ADAF2499B309F49"]
 			min_width: 375
@@ -549,7 +549,7 @@
 				{
 					id: "6B70D3FC43112609"
 					type: "observation"
-					title: "Observe a Foliot"
+					title: "看到一个魔精"
 					icon: {
 						id: "occultism:book_of_binding_bound_foliot"
 						Count: 1b
@@ -564,7 +564,7 @@
 				{
 					id: "46B8D460892553D4"
 					type: "item"
-					title: "Summon recipes [Task not needed for quest completion]"
+					title: "仪式的合成表[不需要完成的任务条件]"
 					disable_toast: true
 					item: {
 						id: "itemfilters:or"
@@ -608,20 +608,20 @@
 			x: 5.0d
 			y: -2.5d
 			shape: "gear"
-			subtitle: "How to use Books of Calling"
+			subtitle: "如何使用召唤之书"
 			description: [
-				"The &bBook of Calling&r is used to &6configure and summon&r bound spirits. This quest will use the Janitor as an example"
-				"First, I should craft the Book of Calling for the spirit and job I want. Then, summon the spirit of that job. &6Sneak right-click the spirit with the Book of Calling to bind them to the book.&r"
+				"&b召唤之书&r是用来配置和召唤被绑定的魔灵。这个任务将以清洁工为例。"
+				"首先，我需要合成与魔灵种类和职业相符的召唤之书。然后，召唤该魔灵。&6并用召唤之书潜行右键该魔灵来讲他们绑定到书上&r。"
 				""
-				"Now, I can right-click the Spirit with the Book to &6store it in the Book&r. Then I should right-click the Book on a block to release it."
+				"现在，我可以用召唤之书右键点击魔灵将它&6存放在书中&r。然后我也可以用召唤之书右键一个方块来释放它。"
 				""
-				"I need to remember I can only configure the Book while it is empty. I have to right-click it on a block to open its GUI."
+				"我需要记住，我只能配置空的召唤之书。并且需要对着一个方块右键才能打开它的图形用户界面。"
 				""
 				"{image:inferno:textures/quest/bookofcalling1.png width:183 height:100 align:1}"
-				"&6Set Deposit&r mode allows me to tell Janitors what block to insert items into. While in this mode, I can sneak right-click a block with the empty Book to set that block as the destination."
+				"&6设置存放位置&r模式允许我告诉清洁工应该将物品放到那个方块中。在这个模式中，我可以用空的召唤之书潜行右键一个方块来记录方块的坐标，将该方块设置为目的地。"
 				""
 				"{image:inferno:textures/quest/bookofcalling2.png width:183 height:100 align:1}"
-				"&6Set Base Location&r mode allows me to set the area the spirit works in. I can set the size in the GUI, and sneak right-click a block with the empty Book to set the center of the area."
+				"&6设置活动基点&r模式允许我设置魔灵的工作区域，我可以在召唤之书的用户图形界面里更改工作区域的大小，然后潜行右键一个方块以设置工作区域的中心。 "
 			]
 			dependencies: ["47603D4BADD2EE6B"]
 			min_width: 300
@@ -629,7 +629,7 @@
 			tasks: [{
 				id: "54414A2591468635"
 				type: "item"
-				title: "Books of Calling"
+				title: "召唤之书"
 				item: {
 					id: "itemfilters:id_regex"
 					Count: 1b
@@ -640,12 +640,12 @@
 			}]
 		}
 		{
-			title: "Shocking Storage Solution"
+			title: "令人震惊的存储方案"
 			x: 7.0d
 			y: -2.5d
 			shape: "square"
-			subtitle: "Make a Surprisingly Substantial Satchel"
-			description: ["The &bShockingly Substantial Satchel&r has &6117 slots&r for storing items! Amazing!"]
+			subtitle: "合成一个意外结实的背包"
+			description: ["&b令人震惊的大挎包&r有多达&6117个存储槽位&r！非常不可思议！"]
 			dependencies: [
 				"6C1E0C9412C3D215"
 				"354EF66D7CCD8F89"
@@ -664,20 +664,20 @@
 			}]
 		}
 		{
-			title: "Unfamiliar Familiar"
+			title: "陌生的熟悉"
 			icon: "occultism:spawn_egg/familiar_greedy"
 			x: 7.0d
 			y: -5.5d
 			shape: "square"
-			subtitle: "Summon a Familiar"
+			subtitle: "召唤一个使魔"
 			description: [
-				"&bFamiliars&r are spirits inhabiting an animal's body, bound to their master."
+				"&b使魔&r是一种栖生在动物身体里的魔灵，与他们的主人绑定。"
 				""
-				"Familiars &6grant passive buffs&r to their master, though may also perform other functions."
+				"使魔为他们的主人&6提供被动增益效果&r，也许也有其他功能。"
 				""
-				"The lower tier familiars do things like increase item pickup range, increase jump height, etc."
+				"低阶使魔提供基础的增益效果比如增加物品拾取范围，增加跳跃高度等等。"
 				""
-				"I can have &6multiple familiars&r, without limit. I can order them to sit in place like any mundane pet, though I will lose their benefits."
+				"我可以有无限制的&6使魔&r，我也可以命令他们像一个普通宠物一样坐在一个地方，不过这样我会暂时失去那些增益效果。"
 			]
 			dependencies: ["354EF66D7CCD8F89"]
 			min_width: 275
@@ -686,7 +686,7 @@
 				{
 					id: "623CE6525A26D46F"
 					type: "observation"
-					title: "Observe a Familiar"
+					title: "看到一个使魔"
 					icon: "occultism:spawn_egg/familiar_greedy"
 					timer: 0L
 					observe_type: 6
@@ -695,7 +695,7 @@
 				{
 					id: "3B7C0117B1778FA5"
 					type: "item"
-					title: "Summon recipes [Task not needed for quest completion]"
+					title: "仪式的合成表[不需要完成的任务条件]"
 					disable_toast: true
 					item: {
 						id: "itemfilters:and"
@@ -759,17 +759,17 @@
 			x: 12.5d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "Make a Dimensional Mineshaft"
+			subtitle: "建造一个维度矿井"
 			description: [
-				"The &bDimensional Mineshaft&r contains within it a &5portal to my home dimension&r! In a cruel twist of fate, however, it is &cmuch too small for me to fit through&r."
+				"&b维度矿井&r包含了一个前往&5主维度的传送门&r！然而，天意弄人，这个传送门&c小到我无法通过&r."
 				""
-				"I can send &bMiner spirits&r through, and they will send back the spoils they collect."
+				"不过，我可以通过命令&b矿工魔灵&r穿过传送门，他们就会将收集到战利品发送回来。"
 				""
-				"Foliots, small and dim as they are, take their time mining any random thing they come across but the Djinni will &6target ores specifically&r, and are much faster at it. Djinni Miners are &5the only way to get many ores&r."
+				"矿工魔精，又黑又小的他们会挖掘一路上遇到的随机方块，而挖掘者巨灵会&6锁定矿石&r进行开采而且速度快的多。因此挖掘者巨灵是我&5唯一的方法来大量获取矿石&r."
 				""
-				"These &6Magic Lamps&r do not last forever. They will break with time, releasing the spirit."
+				"不过，这些&6魔法灯笼&r并不能一直这么烧下去。他们会随着时间而损坏，释放灵髓，直至殆尽。"
 				""
-				"&oUnlocks the chapter &5Cambion Creations&r&o under &3Prometheus' Heresy&r"
+				"&o解锁章节&3普罗米修斯的异端&r下的&5坎比翁之造物&r"
 			]
 			dependencies: ["489A1C27B45E66F6"]
 			size: 1.25d
@@ -784,7 +784,7 @@
 				{
 					id: "1EAE3F2F3BD6F19C"
 					type: "item"
-					title: "Miner Spirits"
+					title: "矿工魔灵"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -828,15 +828,15 @@
 			]
 		}
 		{
-			title: "Familiar, Why is This So Familiar"
+			title: "熟悉，为什么这如此的熟悉"
 			x: 12.0d
 			y: -5.5d
 			shape: "square"
-			subtitle: "Make a Familiar Ring"
+			subtitle: "合成一个使魔之戒"
 			description: [
-				"The &bFamiliar Ring&r can &6store my familiar&r, allowing me to wear it as a curio."
+				"&b使魔之戒&r可以&6储存我的使魔&r，允许我将它当成饰品穿戴。"
 				""
-				"I can also give it to someone else, and it will recognize that person as its new master."
+				"我也可以将它送给别人，这样它也会认定那个人为新的主人。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -863,11 +863,11 @@
 			x: 13.0d
 			y: -5.5d
 			shape: "square"
-			subtitle: "Make a Soul Gem"
+			subtitle: "合成一个灵魂宝石（空）"
 			description: [
-				"The &bSoul Gem&r contains an extradimensional pocket space, with which I can &6store entities&r."
+				"&b灵魂宝石&r含有一个超维的空间，我可以用它来&6储存实体生物&r。"
 				""
-				"This is very useful for bringing sacrifices to the pentacle!"
+				"这样我就可以很方便地把生物带到五芒星里了！"
 			]
 			dependencies: ["489A1C27B45E66F6"]
 			id: "28AF4A13EAC305E0"
@@ -884,13 +884,13 @@
 		{
 			x: 15.0d
 			y: -4.0d
-			subtitle: "Make Red Chalk"
+			subtitle: "合成红色粉笔"
 			description: [
-				"&bRed Chalk&r is the final, most powerful tier of Chalk. It is also the most dangerous to create."
+				"&b红色粉笔&r是终极，最高阶的粉笔。同时也是要冒最大风险去做的粉笔。"
 				""
-				"I will have to &csummon and kill an unbound Afrit&r, using the pentacle &6Abras' Open Conjure&r."
+				"我需要使用五芒星&6阿巴拉斯开环召唤术&r来&c召唤并击杀一个未约束的火灵&r。"
 				""
-				"I cannot foresee the Afrit cooperating; &cI should prepare for a battle&r."
+				"我不觉得火灵会就此与我妥协合作，&c我必须准备好一场恶战&r。"
 			]
 			dependencies: ["489A1C27B45E66F6"]
 			min_width: 225
@@ -908,21 +908,21 @@
 			}]
 		}
 		{
-			title: "Magical Mass Storage"
+			title: "巨型魔法存储设备"
 			x: 13.5d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "Make a Dimensional Storage Actuator"
+			subtitle: "合成一个维度存储促动器"
 			description: [
-				"The &bDimensional Storage Actuator&r is an amazing contraption when properly used. It allows me to &6store a massive amount of items&r in a pocket dimension."
+				"如果使用得当，&b维度存储促动器&r将会是一种神奇的装置，因为它允许我将&6巨量的物品存储在&r一个小空间里。"
 				""
-				"Freshly crafted, it has &6128 slots&r, and &6holds up to 1000 items per slot&r. It has a search bar, several sorting options, and a 3x3 crafting grid."
+				"新鲜出炉维度存储促动器拥有高达&6128格的储存空间&r，而&6每一格的格子都能存放上千枚物品&r。同时它的界面顶部有一个搜索栏，一些过滤标签，中间有一个3x3的合成栏。"
 				""
-				"The anvil slot in the top left, and the furnace menu in the bottom left, both are only used by Djinni Machine Operator."
+				"铁砧栏会在左上角，而熔炉的菜单会在左下角。这些都只有巨灵机器操作员可以使用。"
 				""
-				"The Actuator &6keeps its contents when mined&r."
+				"挖掘维度存储促动器时，&6物品将会保留在容器里&r。"
 				""
-				"Pipes and the like can access the Actuator's inventory."
+				"可以透过管道和类似的东西来访问维度存储促动器的存储内容。"
 			]
 			dependencies: ["489A1C27B45E66F6"]
 			size: 1.25d
@@ -938,17 +938,17 @@
 			icon: "occultism:storage_stabilizer_tier3"
 			x: 13.0d
 			y: -1.5d
-			subtitle: "Make a Dimensional Stabilizer"
+			subtitle: "合成一个维度存储稳定器"
 			description: [
-				"&bDimensional Stabilizers&r allow me to &6increase the max capacity of my Dimensional Storage&r."
+				"&b维度存储稳定器&r允许我&6增加储存维度的存储空间&r。"
 				""
-				"Each tier provides a larger increase to the storage:"
-				"• Tier 1 adds 128 slots"
-				"• Tier 2 adds 384 slots"
-				"• Tier 3 adds 896 slots"
-				"• Tier 4 adds 1920 slots"
+				"每级提供一个更大的储存空间。"
+				"•等级1增加128格容量"
+				"•等级2增加384格容量"
+				"•等级3增加896格容量"
+				"•等级4增加1920格容量"
 				""
-				"They have to be placed 2-5 blocks away, and have to aim at the floating Matrix above the base. More than one can be installed."
+				"维度存储稳定器需要放在离维度存储促动器2-5格方块的位置，并且必须面向促动器上方漂浮的矩阵，同时能安装多个维度存储稳定器。"
 				"{image:occultism:textures/gui/book/storage_stabilizer.png width:150 height:150 align:1}"
 			]
 			dependencies: ["2DD97E216BFC5744"]
@@ -957,7 +957,7 @@
 			tasks: [{
 				id: "6626F1696C49558C"
 				type: "item"
-				title: "Dimensional Stabilizers"
+				title: "维度存储稳定器"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -987,11 +987,11 @@
 		{
 			x: 14.0d
 			y: -1.5d
-			subtitle: "Make a Stable Wormhole"
+			subtitle: "合成一个稳定虫洞"
 			description: [
-				"The &bStable Wormhole&r lets me &6access my Dimensional Storage from other places&r!"
+				"&b稳定虫洞&r能够让我&6远程访问我的存储维度&r！"
 				""
-				"Sneak right-click the Actuator with the Wormhole to bind it, then place it anywhere. Opening the Wormhole will show the Actuator's contents!"
+				"使用稳定虫洞潜行右键维度存储促动器就能进行绑定，然后可以将虫洞放在任何地方。打开虫洞的界面就能远程地访问维度存储促动器的存储空间！"
 			]
 			dependencies: ["2DD97E216BFC5744"]
 			id: "6546AB0B0CBE58DF"
@@ -1008,13 +1008,13 @@
 		{
 			x: 13.5d
 			y: -0.5d
-			subtitle: "Make a Storage Accessor"
+			subtitle: "合成一个存储访问器"
 			description: [
-				"The &bStorage Accessor&r allows me to &6access my dimensional storage from anywhere&r!"
+				"&b存储访问器&r能够让我&6从任何地方访问我的存储维度&r！"
 				""
-				"Sneak right-click the Actuator with the Accessor to bind it, and then use the Accessor anywhere to access the contents."
+				"使用访问器潜行右键维度存储促动器就能进行绑定，然后就能够从任意地方访问我的维度存储促动器了。"
 				""
-				"The only drawback to this device is it can only see what's in my magical storage, not my other connected inventories. The Applied Energistics &5Wireless Crafting Terminal&r with an Infinite Range upgrade may be a better solution ultimately."
+				"这个设备的唯一缺点是它只能看到我的魔法仓库里的东西，并不能看到我其他连接的库存。应用能源带有无限增幅器范围升级的&5无线合成终端&r可能是一个更好的解决方案。"
 			]
 			dependencies: ["2DD97E216BFC5744"]
 			id: "3CEEEC2D84CA8C00"
@@ -1029,14 +1029,14 @@
 			}]
 		}
 		{
-			title: "Darkness Dust"
+			title: "暗黑之尘"
 			x: 5.0d
 			y: -5.5d
-			subtitle: "Get a Foliot to crush a Dark Gem"
+			subtitle: "获取一个魔精来粉碎暗黑宝石"
 			description: [
-				"Most of my previous attempts to crush Dark Gems have &cresulted in failure&r, creating only a dull, inert powder."
+				"我试图亲自粉碎黑暗宝石，但大多数尝试都以失败告终，只产生了一种暗淡的惰性粉末。"
 				""
-				"However, as a being of darkness itself, the &6Foliot&r is able to maintain the aura of evil, successfully creating &bCrushed Dark Gem&r dust."
+				"然而，&6魔精&r本身作为黑暗的存在，能够保持厄运光环，因此能成功地制造出&b暗黑宝石粉&r。"
 			]
 			dependencies: ["47603D4BADD2EE6B"]
 			id: "4400854E6FB51089"
