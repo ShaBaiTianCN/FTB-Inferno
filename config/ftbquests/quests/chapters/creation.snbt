@@ -370,7 +370,7 @@
 			]
 		}
 		{
-		title: "慢着…"
+			title: "慢着…"
 			x: 2.0d
 			y: 11.5d
 			shape: "square"
