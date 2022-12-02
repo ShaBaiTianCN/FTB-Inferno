@@ -573,8 +573,6 @@
 
 				""
 			   "把这个碎片插入&b灵魂笼&r来&6无限生成该实体&r. 等级越高，生成间隔越短，生成数量越多。"   
-
-   
 			]
 			hide_dependency_lines: true
 			dependencies: ["344D961959A62F3A"]
