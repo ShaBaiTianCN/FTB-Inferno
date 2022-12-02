@@ -1,686 +1,690 @@
 {
-	id: "725EDA2FFB903A70"
-	group: "7044F2C841148E69"
-	order_index: 0
-	filename: "herbs_and_hexes"
-	title: "Herbs and Hexes"
-	icon: {
-		id: "hexerei:witch_helmet"
-		Count: 1b
-		tag: {
-			Damage: 0
-		}
-	}
-	subtitle: ["Hexerei"]
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
-	quests: [
-		{
-			x: -1.5d
-			y: 1.5d
-			subtitle: "Collect some Sage"
-			description: [
-				"After growing Grass on Grass Blocks, I can &6harvest it for&r &bSage Seeds&r."
-				""
-				"These can be grown into Sage on Rich Soil Farmland."
-			]
-			dependencies: ["1E159C4397566D99"]
-			id: "5BEF3806AA751650"
-			tasks: [{
-				id: "12D61693ABFE16E1"
-				type: "item"
-				item: "hexerei:sage_seed"
-			}]
-			rewards: [
-				{
-					id: "1F420908762372FD"
-					type: "item"
-					item: "minecraft:bone_meal"
-					count: 8
-				}
-				{
-					id: "494FFFD3B72A2885"
-					type: "item"
-					item: "hexerei:sage"
-					count: 8
-				}
-			]
-		}
-		{
-			title: "Incense"
-			x: -1.5d
-			y: 3.0d
-			shape: "square"
-			subtitle: "Make a Sage Burning Plate"
-			description: [
-				"Dried Sage Bundles can be burned at the &bSage Burning Plate&r to create a calming aura, &6preventing hostile mobs from spawning nearby&r."
-				""
-				"The cleansing smoke only works in a &648-meter circular radius&r, though outsiders can still wander in. It also &cburns out after an hour&r."
-				""
-				"I can right-click the Plate to change through 4 visual modes, showing where the smoke reaches."
-			]
-			dependencies: [
-				"105D0A853D0574B2"
-				"5BEF3806AA751650"
-				"072E5523AD494DA3"
-			]
-			id: "1B6A27ED6C7AFAFA"
-			tasks: [{
-				id: "500E19369C3E1393"
-				type: "item"
-				item: "hexerei:sage_burning_plate"
-			}]
-			rewards: [
-				{
-					id: "736B4BCE1BC5F3AC"
-					type: "item"
-					item: {
-						id: "hexerei:dried_sage_bundle"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					count: 16
-				}
-				{
-					id: "23D2F7210C38AFBB"
-					type: "item"
-					item: {
-						id: "minecraft:flint_and_steel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -1.5d
-			y: 0.0d
-			shape: "hexagon"
-			subtitle: "Get a Grass Block"
-			description: [
-				"I was hoping &bGrass&r would be a pleasant reminder of home, but dehydrated as it is, it's just painful."
-				""
-				"&oGrass requires either the Fisher's Hut, or progress through Blood Magic"
-			]
-			dependencies: ["105D0A853D0574B2"]
-			id: "1E159C4397566D99"
-			tasks: [{
-				id: "71EF8C14E27CE91D"
-				type: "item"
-				item: "minecraft:grass_block"
-			}]
-		}
-		{
-			x: -3.0d
-			y: 3.0d
-			subtitle: "Make a Drying Rack"
-			description: ["The &bDrying Rack&r will allow me to &6dry items&r. Certain magical plants are more potent when desiccated."]
-			dependencies: ["55099E0F763B39CA"]
-			id: "072E5523AD494DA3"
-			tasks: [{
-				id: "64601FE3CFCEAC1E"
-				type: "item"
-				item: "hexerei:herb_drying_rack"
-			}]
-			rewards: [{
-				id: "0B50105BD3392BDF"
-				type: "item"
-				item: "hexerei:candelabra"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 0.0d
-			subtitle: "Make Mutandis"
-			description: [
-				"&bMutandis&r is a magically reactive substance that &6can convert certain plants into others&r."
-				""
-				"I can mutate amongst these crops. The crop it mutates into is random:"
-				"• Oak Sapling"
-				"• Sage"
-				"• Belladonna"
-				"• Mugwort"
-				"• Yellow Dock"
-				"• Mandrake"
-				"• Rubberwood Sapling"
-			]
-			hide_dependency_lines: true
-			dependencies: [
-				"105D0A853D0574B2"
-				"5BEF3806AA751650"
-			]
-			id: "02032142312EF2C3"
-			tasks: [{
-				id: "306E4023CAAE3BA9"
-				type: "item"
-				item: "inferno:mutandis"
-			}]
-			rewards: [
-				{
-					id: "5F07158A5BC7ABBD"
-					type: "item"
-					item: "hexerei:mahogany_sapling"
-					count: 4
-				}
-				{
-					id: "541AAEEDD0AF398F"
-					type: "item"
-					item: "minecraft:egg"
-					count: 8
-				}
-			]
-		}
-		{
-			title: "Taking Flight"
-			icon: {
-				id: "hexerei:mahogany_broom"
-				Count: 1b
-				tag: { }
-			}
-			x: 0.0d
-			y: 3.0d
-			shape: "square"
-			subtitle: "Make a Broom"
-			description: [
-				"A witch is nothing without their flying broomsticks!"
-				""
-				"There are two types of &bBroom&r. Willow is slower and more precise, and Mahogany is faster."
-				""
-				"I can &6open it by sneak right-clicking&r, allowing me to apply upgrades."
-				""
-				"As I fly my Broom, its &cBroom Brush slowly breaks&r. I should keep an eye on its durability before going on flights."
-			]
-			dependencies: [
-				"66240316682D0D18"
-				"733CF6CD13AFD6EF"
-			]
-			min_width: 225
-			id: "7FF716071976EE5F"
-			tasks: [{
-				id: "7C6DDD63ECF1D00A"
-				type: "item"
-				title: "Brooms"
-				item: {
-					id: "itemfilters:or"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "hexerei:willow_broom"
-								Count: 1b
-								tag: { }
-							}
-							{
-								id: "hexerei:mahogany_broom"
-								Count: 1b
-								tag: { }
-							}
-						]
-					}
-				}
-			}]
-			rewards: [{
-				id: "1009A43ECCD944A8"
-				type: "item"
-				item: {
-					id: "hexerei:broom_keychain"
-					Count: 1b
-					tag: {
-						Items: [{
-							Slot: 0b
-							id: "hexerei:willow_broom"
-							Count: 1b
-							tag: { }
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Bit Drafty Innit?"
-			icon: {
-				id: "hexerei:witch_helmet"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: -3.0d
-			y: 0.0d
-			shape: "square"
-			subtitle: "Make a set of Witch's Robes"
-			description: [
-				"I've instructed my researcher minions to draft designs for &bWitch's Robes&r. Too complex for myself to craft, my Enchanters can do it fine."
-				""
-				"They are &6inexpensive and &ohighly&r&6 enchantable&r, and provide a &6bonus the more pieces are worn&r!"
-				""
-				"Wish it had pants, though."
-			]
-			dependencies: ["278B1A270F796408"]
-			id: "245597079E6BF6C8"
-			tasks: [
-				{
-					id: "77EF8BB46E0E7EFF"
-					type: "item"
-					title: "Witch Hats"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "hexerei:witch_helmet"
-									Count: 1b
-									tag: {
-										Damage: 0
-									}
-								}
-								{
-									id: "hexerei:mushroom_witch_hat"
-									Count: 1b
-									tag: {
-										Damage: 0
-									}
-								}
-							]
-						}
-					}
-				}
-				{
-					id: "6D132B20CF6BDB2A"
-					type: "item"
-					item: {
-						id: "hexerei:witch_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "2AEC11052479B547"
-					type: "item"
-					item: {
-						id: "hexerei:witch_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "6B754CD1736553E0"
-					type: "item"
-					item: "hexerei:large_satchel"
-				}
-				{
-					id: "49B5D34D1F749093"
-					type: "item"
-					item: {
-						id: "hexerei:herb_jar"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "68B90314D623C2AC"
-					type: "item"
-					item: {
-						id: "quark:ancient_tome"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 3s
-								id: "ars_nouveau:mana_regen"
-							}]
-						}
-					}
-				}
-			]
-		}
-		{
-			icon: {
-				id: "hexerei:book_of_shadows"
-				Count: 1b
-				tag: {
-					bookmarks: { }
-					chapter: 0
-					opened: 0b
-					page: 0
-				}
-			}
-			x: -3.0d
-			y: 1.5d
-			subtitle: "Make the Book of Shadows"
-			description: [
-				"The &bBook of Shadows&r contains all the knowledge on &eHexerei&r that I need."
-				""
-				"Unlike other books, the Book of Knowledge &ccannot be read in-hand&r, and resists being added to Dante's Infernal Labram."
-				""
-				"Instead, I have to place it on an &bAltar&r before it can be read."
-				""
-				"&oIt would be a good idea to &6Bookmark&r&o the \"Items\" page"
-			]
-			dependencies: ["105D0A853D0574B2"]
-			id: "749A942B3D54169A"
-			tasks: [
-				{
-					id: "532D03C9153128EB"
-					type: "item"
-					item: {
-						id: "hexerei:book_of_shadows"
-						Count: 1b
-						tag: {
-							bookmarks: { }
-							chapter: 0
-							opened: 0b
-							page: 0
-						}
-					}
-				}
-				{
-					id: "1AF28BB211E4E817"
-					type: "item"
-					item: "hexerei:book_of_shadows_altar"
-				}
-			]
-		}
-		{
-			title: "That is Mahogany!"
-			icon: "hexerei:mahogany_log"
-			x: 1.5d
-			y: 1.5d
-			shape: "square"
-			subtitle: "Chop a Mahogany tree"
-			description: ["&bMahogany trees&r are where it's at. Nice and red and pretty."]
-			dependencies: ["105D0A853D0574B2"]
-			id: "151CCB8CDE754681"
-			tasks: [
-				{
-					id: "4616D8E9FB6CC5E8"
-					type: "item"
-					item: "hexerei:mahogany_sapling"
-				}
-				{
-					id: "04F717E2A8C6E29A"
-					type: "item"
-					item: "hexerei:mahogany_log"
-				}
-			]
-			rewards: [{
-				id: "17A3AE37ED249000"
-				type: "item"
-				item: "hexerei:mahogany_door"
-				count: 2
-			}]
-		}
-		{
-			title: "Will O' the Wisp"
-			icon: "hexerei:willow_log"
-			x: 1.5d
-			y: 0.0d
-			shape: "square"
-			subtitle: "Chop a Willow tree"
-			description: [
-				"&bWillow trees&r are trees."
-				""
-				"Yeah, there's not much more to it. This is 100% definitely a tree. Fascinating."
-			]
-			dependencies: ["105D0A853D0574B2"]
-			id: "1832646704A3189D"
-			tasks: [
-				{
-					id: "57488E658F4DDD5E"
-					type: "item"
-					item: "hexerei:willow_sapling"
-				}
-				{
-					id: "55B519EF8C38A6AC"
-					type: "item"
-					item: "hexerei:willow_log"
-				}
-			]
-		}
-		{
-			title: "Extremis"
-			icon: "hexerei:belladonna_flowers"
-			x: 0.0d
-			y: 1.5d
-			subtitle: "Collect mutated crops"
-			description: ["&bBelladonna&r is mutated from Sage, and mutates into &bMandrake&r."]
-			dependencies: [
-				"02032142312EF2C3"
-				"5BEF3806AA751650"
-			]
-			id: "733CF6CD13AFD6EF"
-			tasks: [
-				{
-					id: "369A8E7C0C1874EB"
-					type: "item"
-					item: "hexerei:belladonna_flowers"
-				}
-				{
-					id: "62E8551A5824CAD6"
-					type: "item"
-					item: "hexerei:mandrake_root"
-				}
-			]
-		}
-		{
-			icon: "hexerei:medium_satchel"
-			x: 0.75d
-			y: 2.75d
-			shape: "square"
-			subtitle: "Make a Satchel"
-			description: [
-				"I can attach a &bSatchel&r to my Broom, &6allowing it to store items&r."
-				""
-				"Each tier adds 9 more slots."
-			]
-			hide_dependency_lines: true
-			dependencies: ["7FF716071976EE5F"]
-			size: 0.5d
-			id: "0DD7221C49A6319F"
-			tasks: [{
-				id: "2F5ED579EA5644EB"
-				type: "item"
-				title: "Satchels"
-				item: {
-					id: "itemfilters:or"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "hexerei:small_satchel"
-								Count: 1b
-							}
-							{
-								id: "hexerei:medium_satchel"
-								Count: 1b
-							}
-							{
-								id: "hexerei:large_satchel"
-								Count: 1b
-							}
-						]
-					}
-				}
-			}]
-		}
-		{
-			x: 3.0d
-			y: 1.5d
-			shape: "square"
-			subtitle: "Make a Coffer"
-			description: [
-				"The &bCoffer&r is a quaint little block, holding as much as a normal chest."
-				""
-				"They can be dyed and named, and &6keep their contents when broken&r."
-				""
-				"They have a special &6interaction with Crows&r: gathering Crows will take items to Coffers that contain that item if enabled in the Coffer."
-			]
-			dependencies: ["151CCB8CDE754681"]
-			id: "065D0AE23BF94A08"
-			tasks: [{
-				id: "7526F18221EB636F"
-				type: "item"
-				item: {
-					id: "hexerei:coffer"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			icon: {
-				id: "hexerei:broom_netherite_tip"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 0.75d
-			y: 3.25d
-			shape: "square"
-			subtitle: "Make a Broom Tip"
-			description: [
-				"&bBroom Tips&r can be applied to my Broom to &6increase its resistance to certain environments&r."
-				""
-				"Netherite allows it to resist lava for a time, and Waterproof does the same for Water."
-				""
-				"One of these is definitely more useful to me than the other."
-			]
-			hide_dependency_lines: true
-			dependencies: ["7FF716071976EE5F"]
-			size: 0.5d
-			id: "732661A0FAABA67D"
-			tasks: [{
-				id: "497A8A10BB847D3C"
-				type: "item"
-				title: "Broom Tips"
-				item: {
-					id: "itemfilters:or"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "hexerei:broom_netherite_tip"
-								Count: 1b
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								id: "hexerei:broom_waterproof_tip"
-								Count: 1b
-								tag: {
-									Damage: 0
-								}
-							}
-						]
-					}
-				}
-			}]
-		}
-		{
-			x: 1.375d
-			y: 3.0d
-			shape: "square"
-			subtitle: "Make an Enhanced Broom Brush"
-			description: ["I can replace the Broom Brush with an &bEnhanced Broom Brush&r, which lasts longer and &6can be enchanted&r!"]
-			hide_dependency_lines: true
-			dependencies: ["7FF716071976EE5F"]
-			size: 0.75d
-			id: "22D53F3C2C431D3B"
-			tasks: [{
-				id: "271B603D71A2AFF8"
-				type: "item"
-				item: {
-					id: "hexerei:herb_enhanced_broom_brush"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			title: "Two Crows!"
-			icon: "hexerei:crow_spawn_egg"
-			x: 3.0d
-			y: 0.0d
-			shape: "square"
-			subtitle: "Tame a Crow"
-			description: [
-				"&bCrows&r are incredibly intelligent animals, able to &6harvest crops, pick up items, pickpocket villagers&r, and more."
-				""
-				"I can summon one from the &6Summoning Altar&r and tame it with a special &bSeed Mixture&r."
-				""
-				"Sneak right-clicking a tamed Crow will let me &6give it orders&r. I can give it a weapon to &6defend me with&r, and a helmet to protect itself with."
-				""
-				"The orders I can give it all have &6tooltips explaining what they do&r."
-				""
-				"The &bCrow Flute&r allows me to &6control multiple Crows at once&r, as well as &6set a block as the Crows' perch spot&r."
-			]
-			dependencies: ["105D0A853D0574B2"]
-			optional: true
-			min_width: 275
-			id: "178AA754B36354E6"
-			tasks: [
-				{
-					id: "18555D0AA29A38E4"
-					type: "observation"
-					title: "Observe a Crow"
-					icon: "hexerei:crow_spawn_egg"
-					timer: 0L
-					observe_type: 5
-					to_observe: "hexerei:crow"
-				}
-				{
-					id: "22272B6FDD58B8AC"
-					type: "item"
-					item: "hexerei:seed_mixture"
-				}
-				{
-					id: "49374C3A3BC8CFDD"
-					type: "item"
-					item: {
-						id: "hexerei:crow_flute"
-						Count: 1b
-						tag: {
-							crowList: { }
-							helpCommandSelected: 0
-							commandSelected: 0
-							dyeColor1: -1
-							commandMode: 0b
-							dyeColor2: -1
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 0.0d
-			y: -1.5d
-			subtitle: "Create a Rubberwood Sapling"
-			description: [
-				"&6Rubber&r is necessary for many things, and grows from &bRubberwood trees&r."
-				""
-				"I can create it using Mutandis."
-			]
-			dependencies: ["02032142312EF2C3"]
-			id: "51DDAEA8672B9CC0"
-			tasks: [{
-				id: "4C743135EBCE9059"
-				type: "item"
-				item: "myrtrees:rubberwood_sapling"
-			}]
-		}
-	]
+    id: "725EDA2FFB903A70"
+    group: "7044F2C841148E69"
+    order_index: 0
+    filename: "herbs_and_hexes"
+    title: "草药与巫术"
+    icon: {
+        id: "hexerei:witch_helmet"
+        Count: 1b
+        tag: {
+            Damage: 0
+        }
+    }
+    subtitle: ["魔法巫师"]
+    default_quest_shape: ""
+    default_hide_dependency_lines: false
+    quests: [
+        {
+            x: -1.5d
+            y: 1.5d
+            subtitle: "收集一些鼠尾草"
+            description: [
+                "在草方块上长出草后，我就可以&6打掉它来得到&r&b鼠尾草种子&r。"
+                ""
+                "这些种子在沃土耕地上可以种出鼠尾草。"
+            ]
+            dependencies: ["1E159C4397566D99"]
+            id: "5BEF3806AA751650"
+            tasks: [{
+                id: "12D61693ABFE16E1"
+                type: "item"
+                item: "hexerei:sage_seed"
+            }]
+            rewards: [
+                {
+                    id: "1F420908762372FD"
+                    type: "item"
+                    item: "minecraft:bone_meal"
+                    count: 8
+                }
+                {
+                    id: "494FFFD3B72A2885"
+                    type: "item"
+                    item: "hexerei:sage"
+                    count: 8
+                }
+            ]
+        }
+        {
+            title: "熏香"
+            x: -1.5d
+            y: 3.0d
+            shape: "square"
+            subtitle: "制作鼠尾草灼烧盘"
+            description: [
+                "干燥的鼠尾草束可以在&b鼠尾草燃烧板&r上燃烧，产生一种平静的灵场，这能&6阻止敌对生物在附近生成&r。"
+                ""
+                "这种净化烟雾只在&6半径48米的圆形范围&r内起作用，不过范围外的生物仍然可以走进来。并且熏香会在一小时后燃尽。"
+                ""
+                "我在四个模式里都可以右键单击灼烧盘来显示烟雾覆盖的地方。"
+            ]
+            dependencies: [
+                "105D0A853D0574B2"
+                "5BEF3806AA751650"
+                "072E5523AD494DA3"
+            ]
+            id: "1B6A27ED6C7AFAFA"
+            tasks: [{
+                id: "500E19369C3E1393"
+                type: "item"
+                item: "hexerei:sage_burning_plate"
+            }]
+            rewards: [
+                {
+                    id: "736B4BCE1BC5F3AC"
+                    type: "item"
+                    item: {
+                        id: "hexerei:dried_sage_bundle"
+                        Count: 1b
+                        tag: {
+                            Damage: 0
+                        }
+                    }
+                    count: 16
+                }
+                {
+                    id: "23D2F7210C38AFBB"
+                    type: "item"
+                    item: {
+                        id: "minecraft:flint_and_steel"
+                        Count: 1b
+                        tag: {
+                            Damage: 0
+                        }
+                    }
+                }
+            ]
+        }
+        {
+            x: -1.5d
+            y: 0.0d
+            shape: "hexagon"
+            subtitle: "获得一个草方块"
+            description: [
+                "我本希望&b绿油油的草&r能让我勾起家乡的愉悦往忆，但它放下来就干掉了，真难过。"
+                ""
+                "&o草方块需要渔夫小屋，或者发展血魔法。"
+            ]
+            dependencies: ["105D0A853D0574B2"]
+            id: "1E159C4397566D99"
+            tasks: [{
+                id: "71EF8C14E27CE91D"
+                type: "item"
+                item: "minecraft:grass_block"
+            }]
+        }
+        {
+            x: -3.0d
+            y: 3.0d
+            subtitle: "制作烘干架"
+            description: ["&b烘干架&r可以让我&6晾干物品&r。某些魔法植物脱水后药效更强。"]
+            dependencies: ["55099E0F763B39CA"]
+            id: "072E5523AD494DA3"
+            tasks: [{
+                id: "64601FE3CFCEAC1E"
+                type: "item"
+                item: "hexerei:herb_drying_rack"
+            }]
+            rewards: [{
+                id: "0B50105BD3392BDF"
+                type: "item"
+                item: "hexerei:candelabra"
+            }]
+        }
+        {
+            title: "转生粉"
+            x: 0.0d
+            y: 0.0d
+            subtitle: "制作转生粉"
+            description: [
+                "&b转生粉&r是一种神奇的反应物质，可以&6将某些植物转化为其他植物&r。"
+                ""
+                "我可以让植物在这些作物中突变。它突变成的作物是随机的:"
+                "• 橡树树苗"
+                "• 鼠尾草"
+                "• 颠茄花"
+                "• 艾蒿灌木"
+                "• 黄色酸模灌木"
+                "• 曼德拉花"
+                "• 橡胶树树苗"
+            ]
+            hide_dependency_lines: true
+            dependencies: [
+                "105D0A853D0574B2"
+                "5BEF3806AA751650"
+            ]
+            id: "02032142312EF2C3"
+            tasks: [{
+                id: "306E4023CAAE3BA9"
+                type: "item"
+                item: "inferno:mutandis"
+            }]
+            rewards: [
+                {
+                    id: "5F07158A5BC7ABBD"
+                    type: "item"
+                    item: "hexerei:mahogany_sapling"
+                    count: 4
+                }
+                {
+                    id: "541AAEEDD0AF398F"
+                    type: "item"
+                    item: "minecraft:egg"
+                    count: 8
+                }
+            ]
+        }
+        {
+            title: "起飞"
+            icon: {
+                id: "hexerei:mahogany_broom"
+                Count: 1b
+                tag: { }
+            }
+            x: 0.0d
+            y: 3.0d
+            shape: "square"
+            subtitle: "制作一把扫帚"
+            description: [
+                "没有飞天扫帚的女巫不叫女巫！"
+                ""
+                "分别有两种类型的&b扫帚&r。柳木的速度更慢，也更精准，而桃花心木的速度更快。"
+                ""
+                "我可以&6通过潜行右键放下它&r，还可以给它升级。"
+                ""
+                "当我骑着扫帚时，&c扫帚尾会缓慢磨损&r。在飞行之前，我应该注意一下它的耐久。"
+            ]
+            dependencies: [
+                "66240316682D0D18"
+                "733CF6CD13AFD6EF"
+            ]
+            min_width: 225
+            id: "7FF716071976EE5F"
+            tasks: [{
+                id: "7C6DDD63ECF1D00A"
+                type: "item"
+                title: "扫帚"
+                item: {
+                    id: "itemfilters:or"
+                    Count: 1b
+                    tag: {
+                        items: [
+                            {
+                                id: "hexerei:willow_broom"
+                                Count: 1b
+                                tag: { }
+                            }
+                            {
+                                id: "hexerei:mahogany_broom"
+                                Count: 1b
+                                tag: { }
+                            }
+                        ]
+                    }
+                }
+            }]
+            rewards: [{
+                id: "1009A43ECCD944A8"
+                type: "item"
+                item: {
+                    id: "hexerei:broom_keychain"
+                    Count: 1b
+                    tag: {
+                        Items: [{
+                            Slot: 0b
+                            id: "hexerei:willow_broom"
+                            Count: 1b
+                            tag: { }
+                        }]
+                    }
+                }
+            }]
+        }
+        {
+            title: "还挺透气的？"
+            icon: {
+                id: "hexerei:witch_helmet"
+                Count: 1b
+                tag: {
+                    Damage: 0
+                }
+            }
+            x: -3.0d
+            y: 0.0d
+            shape: "square"
+            subtitle: "制作一套巫师袍"
+            description: [
+                "我已经指示我的研究仆从起草设计&b巫师袍&r。让我自己来制作太过复杂了，我的附魔师们可以搞定它。"
+                ""
+                "它们&6不贵，还&o高度&r&6可附魔&r，并且&6随着穿着套装部件的数量提高有相应更高的属性加成&r！"
+                ""
+                "不过，真希望它有条裤子。"
+            ]
+            dependencies: ["278B1A270F796408"]
+            id: "245597079E6BF6C8"
+            tasks: [
+                {
+                    id: "77EF8BB46E0E7EFF"
+                    type: "item"
+                    title: "巫师帽"
+                    item: {
+                        id: "itemfilters:or"
+                        Count: 1b
+                        tag: {
+                            items: [
+                                {
+                                    id: "hexerei:witch_helmet"
+                                    Count: 1b
+                                    tag: {
+                                        Damage: 0
+                                    }
+                                }
+                                {
+                                    id: "hexerei:mushroom_witch_hat"
+                                    Count: 1b
+                                    tag: {
+                                        Damage: 0
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+                {
+                    id: "6D132B20CF6BDB2A"
+                    type: "item"
+                    item: {
+                        id: "hexerei:witch_chestplate"
+                        Count: 1b
+                        tag: {
+                            Damage: 0
+                        }
+                    }
+                }
+                {
+                    id: "2AEC11052479B547"
+                    type: "item"
+                    item: {
+                        id: "hexerei:witch_boots"
+                        Count: 1b
+                        tag: {
+                            Damage: 0
+                        }
+                    }
+                }
+            ]
+            rewards: [
+                {
+                    id: "6B754CD1736553E0"
+                    type: "item"
+                    item: "hexerei:large_satchel"
+                }
+                {
+                    id: "49B5D34D1F749093"
+                    type: "item"
+                    item: {
+                        id: "hexerei:herb_jar"
+                        Count: 1b
+                        tag: { }
+                    }
+                }
+                {
+                    id: "68B90314D623C2AC"
+                    type: "item"
+                    item: {
+                        id: "quark:ancient_tome"
+                        Count: 1b
+                        tag: {
+                            StoredEnchantments: [{
+                                lvl: 3s
+                                id: "ars_nouveau:mana_regen"
+                            }]
+                        }
+                    }
+                }
+            ]
+        }
+        {
+            title: "阴影之书"
+            icon: {
+                id: "hexerei:book_of_shadows"
+                Count: 1b
+                tag: {
+                    bookmarks: { }
+                    chapter: 0
+                    opened: 0b
+                    page: 0
+                }
+            }
+            x: -3.0d
+            y: 1.5d
+            subtitle: "制作阴影之书"
+            description: [
+                "&b阴影之书&r包含了我所需要的所有关于&e魔法巫师&r的知识。"
+                ""
+                "与其他mod的指导书不同的是，&c这本书无法拿在手中阅读&r，它拒绝被添加到但丁的神圣图书馆中。"
+                ""
+                "相反，我必须将它放在&b暗影书坛&r上才能阅读。"
+                ""
+                "&o也许&6标记&r&o一下“Items”页面（在第12页）是个好主意。"
+            ]
+            dependencies: ["105D0A853D0574B2"]
+            id: "749A942B3D54169A"
+            tasks: [
+                {
+                    id: "532D03C9153128EB"
+                    type: "item"
+                    item: {
+                        id: "hexerei:book_of_shadows"
+                        Count: 1b
+                        tag: {
+                            bookmarks: { }
+                            chapter: 0
+                            opened: 0b
+                            page: 0
+                        }
+                    }
+                }
+                {
+                    id: "1AF28BB211E4E817"
+                    type: "item"
+                    item: "hexerei:book_of_shadows_altar"
+                }
+            ]
+        }
+        {
+            title: "桃花朵朵开！"
+            icon: "hexerei:mahogany_log"
+            x: 1.5d
+            y: 1.5d
+            shape: "square"
+            subtitle: "砍伐一棵桃花心木树"
+            description: ["&b桃花心木树&r在它该待的地方。桃红的，挺养眼。"]
+            dependencies: ["105D0A853D0574B2"]
+            id: "151CCB8CDE754681"
+            tasks: [
+                {
+                    id: "4616D8E9FB6CC5E8"
+                    type: "item"
+                    item: "hexerei:mahogany_sapling"
+                }
+                {
+                    id: "04F717E2A8C6E29A"
+                    type: "item"
+                    item: "hexerei:mahogany_log"
+                }
+            ]
+            rewards: [{
+                id: "17A3AE37ED249000"
+                type: "item"
+                item: "hexerei:mahogany_door"
+                count: 2
+            }]
+        }
+        {
+            title: "小精灵的心愿"
+            icon: "hexerei:willow_log"
+            x: 1.5d
+            y: 0.0d
+            shape: "square"
+            subtitle: "砍伐一棵柳树"
+            description: [
+                "&b柳树&r是树。"
+                ""
+                "就酱，没别的说的了。这打包票绝壁是一棵树。有意思吧。"
+            ]
+            dependencies: ["105D0A853D0574B2"]
+            id: "1832646704A3189D"
+            tasks: [
+                {
+                    id: "57488E658F4DDD5E"
+                    type: "item"
+                    item: "hexerei:willow_sapling"
+                }
+                {
+                    id: "55B519EF8C38A6AC"
+                    type: "item"
+                    item: "hexerei:willow_log"
+                }
+            ]
+        }
+        {
+            title: "《终极改造》"
+            icon: "hexerei:belladonna_flowers"
+            x: 0.0d
+            y: 1.5d
+            subtitle: "收集突变作物"
+            description: ["&b颠茄花&r由鼠尾草突变获得，并且可以突变为&b曼德拉花&r。"]
+            dependencies: [
+                "02032142312EF2C3"
+                "5BEF3806AA751650"
+            ]
+            id: "733CF6CD13AFD6EF"
+            tasks: [
+                {
+                    id: "369A8E7C0C1874EB"
+                    type: "item"
+                    item: "hexerei:belladonna_flowers"
+                }
+                {
+                    id: "62E8551A5824CAD6"
+                    type: "item"
+                    item: "hexerei:mandrake_root"
+                }
+            ]
+        }
+        {
+            icon: "hexerei:medium_satchel"
+            x: 0.75d
+            y: 2.75d
+            shape: "square"
+            subtitle: "制作背包"
+            description: [
+                "我可以在我的扫帚上安装一个&b背包&r，&6使得它可以储存物品&r。"
+                ""
+                "每个级别增加9个物品栏位。"
+            ]
+            hide_dependency_lines: true
+            dependencies: ["7FF716071976EE5F"]
+            size: 0.5d
+            id: "0DD7221C49A6319F"
+            tasks: [{
+                id: "2F5ED579EA5644EB"
+                type: "item"
+                title: "背包"
+                item: {
+                    id: "itemfilters:or"
+                    Count: 1b
+                    tag: {
+                        items: [
+                            {
+                                id: "hexerei:small_satchel"
+                                Count: 1b
+                            }
+                            {
+                                id: "hexerei:medium_satchel"
+                                Count: 1b
+                            }
+                            {
+                                id: "hexerei:large_satchel"
+                                Count: 1b
+                            }
+                        ]
+                    }
+                }
+            }]
+        }
+        {
+            x: 3.0d
+            y: 1.5d
+            shape: "square"
+            subtitle: "制作储物箱"
+            description: [
+                "&b储物箱&r是一个精美的小方块，和普通箱子的容量一致。"
+                ""
+                "它们可以被染色和命名，并在&6被破坏时保存里面的物品&r。"
+                ""
+                "他们&6与乌鸦有一个特殊的交互&r：“收集乌鸦”会把物品收集到包含该物品的储物箱中（如果储物箱中启用了乌鸦收集）。"
+            ]
+            dependencies: ["151CCB8CDE754681"]
+            id: "065D0AE23BF94A08"
+            tasks: [{
+                id: "7526F18221EB636F"
+                type: "item"
+                item: {
+                    id: "hexerei:coffer"
+                    Count: 1b
+                    tag: { }
+                }
+            }]
+        }
+        {
+            title: "扫帚头"
+            icon: {
+                id: "hexerei:broom_netherite_tip"
+                Count: 1b
+                tag: {
+                    Damage: 0
+                }
+            }
+            x: 0.75d
+            y: 3.25d
+            shape: "square"
+            subtitle: "制作任意扫帚头"
+            description: [
+                "&b扫帚头&r可以用在我的扫帚上，&6以增加它对某些环境的抵抗力&r。"
+                ""
+                "下界合金扫帚头可以让它抵抗岩浆一段时间，防水扫帚头也可以对水起到类似的作用。"
+                ""
+                "其中一个肯定比另一个对我更有用。"
+            ]
+            hide_dependency_lines: true
+            dependencies: ["7FF716071976EE5F"]
+            size: 0.5d
+            id: "732661A0FAABA67D"
+            tasks: [{
+                id: "497A8A10BB847D3C"
+                type: "item"
+                title: "扫帚头"
+                item: {
+                    id: "itemfilters:or"
+                    Count: 1b
+                    tag: {
+                        items: [
+                            {
+                                id: "hexerei:broom_netherite_tip"
+                                Count: 1b
+                                tag: {
+                                    Damage: 0
+                                }
+                            }
+                            {
+                                id: "hexerei:broom_waterproof_tip"
+                                Count: 1b
+                                tag: {
+                                    Damage: 0
+                                }
+                            }
+                        ]
+                    }
+                }
+            }]
+        }
+        {
+            x: 1.375d
+            y: 3.0d
+            shape: "square"
+            subtitle: "制作增强扫帚尾"
+            description: ["我可以把扫帚尾换成&b增强扫帚尾&r，它更耐用，而且&6可以附魔&r！"]
+            hide_dependency_lines: true
+            dependencies: ["7FF716071976EE5F"]
+            size: 0.75d
+            id: "22D53F3C2C431D3B"
+            tasks: [{
+                id: "271B603D71A2AFF8"
+                type: "item"
+                item: {
+                    id: "hexerei:herb_enhanced_broom_brush"
+                    Count: 1b
+                    tag: {
+                        Damage: 0
+                    }
+                }
+            }]
+        }
+        {
+            title: "两只乌鸦！"
+            icon: "hexerei:crow_spawn_egg"
+            x: 3.0d
+            y: 0.0d
+            shape: "square"
+            subtitle: "驯服一只乌鸦"
+            description: [
+                "&b乌鸦&r是非常聪明的动物，能够&6收割庄稼，捡东西，扒窃村民&r等等&m（是不是聪明过头了啊喂）&r。"
+                ""
+                "我可以从&b召唤祭坛&r召唤一只，并用特殊的&b混合种子&r驯服它。"
+                ""
+                "潜行右键点击一个驯服的乌鸦可以让我&6给它下命令&r。我可以给它一个武器来&6保护我&r，还可以给它一个头盔来保护自己。"
+                ""
+                "我可以给它的命令都有提示来解释他们能做什么。"
+                ""
+                "&b乌鸦长笛&r允许我同时控制多只乌鸦，并且可以&6设置一个方块作为乌鸦的栖息点&r。"
+            ]
+            dependencies: ["105D0A853D0574B2"]
+            optional: true
+            min_width: 275
+            id: "178AA754B36354E6"
+            tasks: [
+                {
+                    id: "18555D0AA29A38E4"
+                    type: "observation"
+                    title: "观察一只乌鸦"
+                    icon: "hexerei:crow_spawn_egg"
+                    timer: 0L
+                    observe_type: 5
+                    to_observe: "hexerei:crow"
+                }
+                {
+                    id: "22272B6FDD58B8AC"
+                    type: "item"
+                    item: "hexerei:seed_mixture"
+                }
+                {
+                    id: "49374C3A3BC8CFDD"
+                    type: "item"
+                    item: {
+                        id: "hexerei:crow_flute"
+                        Count: 1b
+                        tag: {
+                            crowList: { }
+                            helpCommandSelected: 0
+                            commandSelected: 0
+                            dyeColor1: -1
+                            commandMode: 0b
+                            dyeColor2: -1
+                        }
+                    }
+                }
+            ]
+        }
+        {
+            x: 0.0d
+            y: -1.5d
+            subtitle: "制作橡胶树苗"
+            description: [
+                "&b橡胶&r是很多东西所必需的，它生长在&b橡胶树&r上。"
+                ""
+                "我可以用转生粉转化出它。"
+            ]
+            dependencies: ["02032142312EF2C3"]
+            id: "51DDAEA8672B9CC0"
+            tasks: [{
+                id: "4C743135EBCE9059"
+                type: "item"
+                item: "myrtrees:rubberwood_sapling"
+            }]
+        }
+    ]
 }
+
