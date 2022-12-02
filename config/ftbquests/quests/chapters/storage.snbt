@@ -1488,8 +1488,14 @@
 			icon: "itemcollectors:basic_collector"
 			x: 10.0d
 			y: -6.0d
+			shape: "square"
 			subtitle: "不要浪费一滴!"
-			description: ["物品收集器可以拾取预定范围内的所有物品。我应该为我的下属的耕作和收集需求制作一些这样的东西。有了高级的，我甚至可以设置白名单或黑名单！"]
+			description: [
+				"&b物品收集器&r可以拾取预定范围内的所有物品，我可以在GUI中设置它。"
+				""
+				"我应该为我的怪物农场做一些这样的东西。同时，&6高级&r那款可以设置白名单或黑名单！"
+			]
+			dependencies: ["2F1E6BFBCD59CF57"]
 			id: "1EF3188DBE7823F6"
 			tasks: [{
 				id: "4CF1F65E962C35F8"
