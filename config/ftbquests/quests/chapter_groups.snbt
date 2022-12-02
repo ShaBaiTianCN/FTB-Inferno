@@ -1,11 +1,11 @@
 {
 	chapter_groups: [
-		{ id: "3165B92DB1BC8401", title: "Limbo" }
-		{ id: "3ABD0072BF4C3677", title: "Desires" }
-		{ id: "0674F87ECC0536DF", title: "Gluttony" }
-		{ id: "7044F2C841148E69", title: "Mephistopheles' Anger" }
-		{ id: "46A29AE1E3ACCC77", title: "Prometheus' Heresy" }
-		{ id: "793D4C72FD32064E", title: "Violent Delights" }
-		{ id: "24F72A50D728E97E", title: "Treachery of Mortals" }
+		{ id: "3165B92DB1BC8401", title: "炼狱边界" }
+		{ id: "3ABD0072BF4C3677", title: "欲望" }
+		{ id: "0674F87ECC0536DF", title: "暴食" }
+		{ id: "7044F2C841148E69", title: "墨菲斯特的暴怒" }
+		{ id: "46A29AE1E3ACCC77", title: "普罗米修斯的异端" }
+		{ id: "793D4C72FD32064E", title: "残暴的欢愉" }
+		{ id: "24F72A50D728E97E", title: "凡人的背叛" }
 	]
 }
