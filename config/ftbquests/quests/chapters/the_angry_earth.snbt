@@ -195,7 +195,7 @@
 			y: 1.5d
 			shape: "square"
 			subtitle: "制作一个神化Boss召唤器&r"
-			description: ["使用&b神化Boss召唤器&r,我可以&6召唤一个Boss敌人来战斗&r。"]
+			description: ["使用&b神化Boss召唤器&r，我可以&6召唤一个Boss敌人来战斗&r。"]
 			dependencies: [
 				"7FE9FAFBDB354644"
 				"652CA912545038EA"
