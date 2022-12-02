@@ -370,10 +370,11 @@
 			]
 		}
 		{
+		title: "慢着…"
 			x: 2.0d
 			y: 11.5d
 			shape: "square"
-			subtitle: "慢着……"
+			subtitle: "Make an Electric Motor"
 			description: ["我不明白为什么我没有早日想到这一点。我不止可以将机械中的旋转能转化为电能，也可以将电能转化为旋转能！在超立方体的帮助之下，我可以在任何地方创造便携式设备。这将是一种游戏方式上的转变。"]
 			]
 			dependencies: ["6B7606A65BA8FE12"]
