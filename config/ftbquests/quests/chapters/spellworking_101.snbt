@@ -5,20 +5,20 @@
 	filename: "spellworking_101"
 	title: "Spellcrafting 101"
 	icon: "ars_nouveau:source_gem"
-	subtitle: ["Ars Nouveau"]
+	subtitle: ["新生魔艺"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Heart of the Grove"
+			title: "森林之心"
 			x: -0.5d
 			y: 3.5d
 			shape: "hexagon"
-			subtitle: "Make a Blazing Archwood Sapling"
+			subtitle: "制作烈焰至高木树苗"
 			description: [
-				"Combining my knowledge from several schools of magic, I can the deeply powerful &bArchwood Sapling&r!"
+				"结合我从几个魔法流派那里获得的知识，我可以制作非常强大的&b至高木树苗&r！"
 				""
-				"Naturally, the first I make is the Blazing Sapling."
+				"当然了，我第一个能做的是烈焰树苗。"
 			]
 			dependencies: [
 				"30BFD136F6B44257"
@@ -39,19 +39,19 @@
 			}]
 		}
 		{
-			title: "Crystallized Magic"
+			title: "晶体化魔法"
 			icon: "ars_nouveau:imbuement_chamber"
 			x: -0.5d
 			y: 5.0d
-			subtitle: "Make a Source Gem"
+			subtitle: "制作魔源宝石"
 			description: [
-				"Magic of this school depends on &6Source&r. Source is present in the atmosphere, but only in very small amounts."
+				"这种流派的魔法依靠&6魔源&r。魔源存在于大气中，但数量非常少。"
 				""
-				"&bSource Gems&r contain Source within themselves, and are vital to the creation of many magic items."
+				"&b魔源宝石&r蕴含魔源，对于许多魔法物品的制造至关重要。"
 				""
-				"The &bImbuement Chamber&r will &6pull nearby Source into itself&r, infusing it into the item within."
+				"&b灌注室&r将&6抽取附近的魔源到它自身&r，并将魔源注入放入其中的物品。"
 				""
-				"This is most useful with &6Source Jars&r nearby, but will also &6slowly absorb Source from the air&r."
+				"最好在附近放上若干&6魔源罐&r，不过不放也会&6慢慢地从空气中吸收魔源&r。"
 			]
 			dependencies: ["0B83AC9D22A3A363"]
 			dependency_requirement: "one_completed"
@@ -84,17 +84,17 @@
 			]
 		}
 		{
-			title: "Making Mana"
+			title: "生产魔力"
 			icon: "ars_nouveau:agronomic_sourcelink"
 			x: -0.5d
 			y: 6.5d
-			subtitle: "Make a Sourcelink"
+			subtitle: "制作魔源通道"
 			description: [
-				"&bSourcelinks&r are fantastic contraptions that &6generate Source&r from interactions in the environment around them."
+				"&6魔源通道&r是一种奇妙的装置，它们从周围环境的相互作用中产生魔源。"
 				""
-				"Each Sourcelink produces Source from different interactions, like crops growing, mobs breeding, etc."
+				"每个魔源通道从不同的交互中产生魔源，如作物生长，生物繁殖等。"
 				""
-				"Source generated in a Sourcelink will &6automatically move to Source Jars&r within 5 blocks."
+				"在魔源通道中生成的魔源将&6自动转移到在5格距离内的魔源罐&r。"
 			]
 			min_required_dependencies: 1
 			dependencies: ["6BBA6FE9EE790FAA"]
@@ -120,16 +120,16 @@
 			}]
 		}
 		{
-			title: "Baby's First Grimoire"
+			title: "婴儿的第一本咒语教材"
 			x: -0.5d
 			y: 2.0d
-			subtitle: "Make the Novice Spell Book"
+			subtitle: "制作初学者法术书"
 			description: [
-				"A wizard is nothing without their spellbook. With mine gone, I will have to start from scratch."
+				"没有他们的魔法书，巫师什么都不是。我的那本不见了，我将不得不从头再来。"
 				""
-				"With my &bNovice Spell Book&r, I only &6start with some basic cantrips&r. I can still mine and attack, but far from the heights I'm used to."
+				"用我的&b初学者法术书&r，我&6最开始只能念动一些基本的咒语&r。我仍然可以用法术挖掘和攻击，但远没有我以前习惯的那样厉害。"
 				""
-				"I fear that it &cmay be some time before I can continue&r..."
+				"恐怕&c需要一段时间才能继续往后推进&r……"
 			]
 			dependencies: ["40D4850B34EC5677"]
 			id: "14164898F7962235"
@@ -158,15 +158,15 @@
 			]
 		}
 		{
-			title: "Sharing is Caring"
+			title: "分享是件好事"
 			x: -4.0d
 			y: 3.5d
 			shape: "square"
-			subtitle: "Make an Annotated Codex"
+			subtitle: "制作注解手抄本"
 			description: [
-				"The &bAnnotated Codex&r &6records all my known Glyphs&r, so that I may share my knowledge with others."
+				"&b注解手抄本&r&6记录了我所有学会的魔符&r，以便我与他人分享我的知识。"
 				" "
-				"Inscribing into and learning from the Codex costs experience."
+				"在注解手抄本上抄录和学习魔符需要花费经验。"
 			]
 			dependencies: ["505683302888DD1F"]
 			optional: true
@@ -187,18 +187,18 @@
 			}]
 		}
 		{
-			title: "Preternatural Paperwork"
+			title: "超自然的书文"
 			x: -2.5d
 			y: 3.5d
-			subtitle: "Make a Scribe's Table"
+			subtitle: "制作一个抄写台"
 			description: [
-				"Inscribing a new spell &mtakes 2 hours and costs 50GP&r needs the &bScribe's Table&r."
+				"刻一个新的咒语&m需要2个小时并耗费50GP&r，并需要&b抄写台&r。"
 				""
-				"First I have to &6use a Spell Book on the Table&r. There, I can &6pick the Glyph to craft&r."
+				"首先，我必须&6在桌子上使用一本法术书&r。然后我可以&6选择一种魔符来制作&r。"
 				""
-				"Each Glyph requires specific items. After choosing the Glyph, I must &6throw the ingredients&r onto the Table."
+				"每个魔符都需要特定的物品。选择魔符后，我需要将&6制作原料&r放到桌上。"
 				""
-				"Right-clicking the Glyph will learn it, &6allowing me to use it in spells&r."
+				"右键单击魔符将学习该种魔符，让我&6可以在法术中使用它&r。"
 			]
 			dependencies: ["0B83AC9D22A3A363"]
 			min_width: 275
@@ -234,17 +234,17 @@
 			]
 		}
 		{
-			title: "Enchantment"
+			title: "附魔"
 			icon: "ars_nouveau:enchanting_apparatus"
 			x: -2.5d
 			y: 6.5d
-			subtitle: "Make an Enchanting Apparatus"
+			subtitle: "制作附魔装置"
 			description: [
-				"The &bEnchanting Apparatus&r uses Source to &6infuse an object with the essence of nearby items&r."
+				"&b附魔装置&r使用魔源&6将附近物品的精华注入一个物体&r。"
 				""
-				"I must place the &bArcane Core&r in the center, and the Apparatus on top."
+				"我需要把&b奥术核心&r放在中间，然后把装置放在核心上面。"
 				""
-				"Within 3 blocks of the Core and Apparatus, I must place any number of &bArcane Pedestals&r."
+				"我需要在奥术核心和装置的三格范围内放置任意数量的&b奥术基座&r。"
 			]
 			dependencies: ["41FDF75C443C7BCD"]
 			min_width: 275
@@ -287,16 +287,16 @@
 			]
 		}
 		{
-			title: "Riotous Rituals"
+			title: "仪式火盆"
 			x: 1.5d
 			y: 6.5d
-			subtitle: "Make a Ritual Brazier"
+			subtitle: "制作仪式火盆"
 			description: [
-				"Rituals are &6powerful magics focused in an area&r."
+				"仪式是&6专注于某一领域的强大魔法&r。"
 				""
-				"Rituals are performed by placing a Tablet inside the &bRitual Brazier&r. Afterward, you can &6throw items on to augment&r the ritual, then interacting with the Brazier again with an empty hand."
+				"仪式是通过在&b仪式火盆&r中放置一块木板来进行的。之后，你可以&6投掷物品来加强仪式&r，然后用空手再次与火盆互动。"
 				""
-				"Some Rituals may require Source to work, which I can provide from Source Jars within 6 blocks."
+				"有些仪式可能需要魔源才能工作，我可以在6格距离内放置魔源罐来提供。"
 			]
 			dependencies: ["41FDF75C443C7BCD"]
 			min_width: 225
@@ -337,12 +337,12 @@
 			]
 		}
 		{
-			title: "More Archwoods"
+			title: "更多的至高木树苗"
 			icon: "ars_nouveau:manipulation_essence"
 			x: 1.5d
 			y: 3.5d
-			subtitle: "Make the other Archwood types"
-			description: ["&bArchwood&r comes in four affinities, though they are largely interchangeable."]
+			subtitle: "制作其他几种至高木树苗"
+			description: ["&b至高木&r有四种姻亲系，不过它们在很大程度上是可以相互替代的。"]
 			dependencies: [
 				"6BBA6FE9EE790FAA"
 				"0B83AC9D22A3A363"
@@ -380,11 +380,11 @@
 			x: -2.5d
 			y: 5.0d
 			shape: "square"
-			subtitle: "Make a Casting Wand"
+			subtitle: "制作一根施法法杖"
 			description: [
-				"&bCasting Wands&r can only &ccast a single spell&r, and &6adds Projectile -> Accelerate ->&r to the start of the spell."
+				"&b施法魔杖&r只能&c施放一个法术&r，并且它会将&6弹射物->加速->&r添加到法术的开头。"
 				""
-				"While this loses the flexibility of my Spell Book, it's useful for &6more powerful specialized spells&r, as the spell can effectively have 12 Glyphs instead of 10."
+				"虽然这失去了我的法术书的灵活性，但它对&6更强力的特定咒语&r很有用，因为它可以使法术同时拥有12个生效的魔符而不是10个。"
 			]
 			dependencies: [
 				"505683302888DD1F"
@@ -408,14 +408,15 @@
 			}]
 		}
 		{
+			title: "一阶魔符"
 			icon: "ars_nouveau:glyph_pickup"
 			x: -2.5d
 			y: 2.0d
-			subtitle: "Make any Tier 1 Glyph"
+			subtitle: "制作任意一阶魔符"
 			description: [
-				"&bGlyphs&r come in three tiers, each more powerful than the last. Higher tier glyphs require higher tier Spell Books."
+				"&b魔符&r总共分为三阶，每一阶都比上一阶更强大。更高阶的魔符需要更高阶的法术书来施展。"
 				""
-				"Having lost my spells once, I will not make the same mistake again. I will make sure to study these hard, so as to &6never forget them&r, even with new Spell Books."
+				"失去了一次法术，我不会再犯同样的错误。我一定要好好学习，这样即使有了新的法术书，也&6永远不会忘记它们&r。"
 			]
 			dependencies: [
 				"14164898F7962235"
@@ -426,7 +427,7 @@
 			tasks: [{
 				id: "67E9C9AE2E13291D"
 				type: "item"
-				title: "Tier 1 Glyphs"
+				title: "一阶魔符"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -442,11 +443,12 @@
 			}]
 		}
 		{
+			title: "二阶魔符"
 			icon: "ars_nouveau:glyph_accelerate"
 			x: -2.5d
 			y: 0.5d
-			subtitle: "Make any Tier 2 Glyph"
-			description: ["&bTier 2 Glyphs&r are more powerful, but &6require a Mage's Spell Book&r."]
+			subtitle: "制作任意一个二阶魔符"
+			description: ["&b二阶魔符&r更强，但&6需要法师的法术书&r。"]
 			dependencies: [
 				"107EB4111DE1555C"
 				"0C66312A6733D93E"
@@ -455,7 +457,7 @@
 			tasks: [{
 				id: "472D2AE7DEA44040"
 				type: "item"
-				title: "Tier 2 Glyphs"
+				title: "二阶魔符"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -474,11 +476,11 @@
 			icon: "ars_nouveau:glyph_summon_undead"
 			x: -2.5d
 			y: -1.0d
-			subtitle: "Make any Tier 3 Glyph"
+			subtitle: "制作任意一个三阶魔符"
 			description: [
-				"&bTier 3 Glyphs&r are the pinnacle. The strongest, the most powerful."
+				"&b三阶魔符&r是巅峰之作。很好很强大。"
 				""
-				"As such, they can only be cast using the &6Archmage Spell Book&r."
+				"因此，它们只能使用&6大法师法术书&r来进行施放。"
 			]
 			dependencies: [
 				"666D5BF7A37EE6CA"
@@ -488,7 +490,7 @@
 			tasks: [{
 				id: "1836B17F6F8A0485"
 				type: "item"
-				title: "Tier 3 Glyphs"
+				title: "三阶魔符"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -504,11 +506,11 @@
 			}]
 		}
 		{
-			title: "Fantastic Fabric"
+			title: "神奇的布料"
 			x: -4.0d
 			y: 6.5d
-			subtitle: "Make Magebloom Seeds"
-			description: ["&bMagebloom&r is a magically powerful flower. Its Fibers are used in many magic crafting recipes."]
+			subtitle: "制作法师之花种子"
+			description: ["&b法师之花&r是一种强大的魔花。它的纤维被用于许多魔法制作配方。"]
 			dependencies: ["7985ABCCCC272CE3"]
 			id: "4791DF6BD19CB8F5"
 			tasks: [{
@@ -534,11 +536,11 @@
 			x: -4.0d
 			y: 5.0d
 			shape: "square"
-			subtitle: "Make Spell Parchment"
+			subtitle: "制作法术羊皮纸"
 			description: [
-				"&bSpell Parchment&r can be used to &6save a copy of a spell&r."
+				"法术羊皮纸可以用来&6保存法术的副本&r。"
 				""
-				"From there, it can be applied to &6Spell Turrets&r as well as &6Enchanter's items&r."
+				"它可以被应用到&6法术炮塔&r和&6附魔台&r。"
 			]
 			dependencies: ["4791DF6BD19CB8F5"]
 			id: "2C91A8D6917F4220"
@@ -563,15 +565,15 @@
 			}]
 		}
 		{
-			title: "Mark and Recall"
+			title: "标记，然后召回"
 			x: -5.5d
 			y: 6.5d
 			shape: "square"
-			subtitle: "Make a Warp Scroll"
+			subtitle: "折越卷轴"
 			description: [
-				"&bWarp Scrolls&r allow for instant teleportation within a dimension."
+				"&b折越卷轴&r允许在一个维度内进行瞬间传送。"
 				""
-				"However, they are &csingle use&r."
+				"然而，这是&c一次性的&r。"
 			]
 			dependencies: ["4791DF6BD19CB8F5"]
 			id: "12D2AD9546589490"
@@ -591,18 +593,18 @@
 			}]
 		}
 		{
-			title: "One Way Ticket"
+			title: "单程票"
 			icon: "ars_nouveau:arcane_bricks"
 			x: -7.0d
 			y: 6.5d
 			shape: "square"
-			subtitle: "Make a Warp Portal"
+			subtitle: "制作折越传送门"
 			description: [
-				"&bWarp Portals&r create a &6permanent one-way portal&r to a point marked by a Warp Scroll."
+				"&b折越传送门&r可以开启一个通往到折越卷轴标记的地点的&6永久单向传送门&r。"
 				" "
-				"Warp Portals are made using an &bArcane Stone&r frame, rectangular, and can be anywhere between 1x1 and 21x21 internally. They can be horizontal or vertical as well."
+				"折越传送门使用&b奥术石&r作为矩形框架，框内大小可以在1x1到21x21之间。它们可以是水平的也可以是垂直的。"
 				""
-				"Craft the frame, place a Source Jar nearby, and &6throw the Warp Scroll through&r."
+				"搭建传送门框架，在附近放置一个魔源罐，然后&6往里面丢个折越卷轴&r。"
 			]
 			dependencies: ["12D2AD9546589490"]
 			min_width: 225
@@ -683,14 +685,14 @@
 			}]
 		}
 		{
-			title: "Movin' On Up"
+			title: "更上一层楼"
 			x: -0.5d
 			y: 0.5d
-			subtitle: "Get the Mage's Spell Book"
+			subtitle: "制作一本法师的法术书"
 			description: [
-				"Normally, the creation of &bmore powerful Spell Books&r is overseen by an instructor, but it looks like we're fresh out."
+				"通常情况下，更强力的法术书需在魔导师的监督下制作，但似乎我们没那玩意。"
 				" "
-				"Instead, I'll have to &6trade for it&r. I should check the &5Faustian Bargains&r chapter for more information."
+				"所以我不得不&6用买的&r。我应该查看&5浮士德式交易&r章节了解更多信息。"
 			]
 			dependencies: ["14164898F7962235"]
 			min_width: 225
@@ -707,14 +709,14 @@
 			}]
 		}
 		{
-			title: "Complete Caster"
+			title: "大法师完全体"
 			x: -0.5d
 			y: -1.0d
-			subtitle: "Make the Archmage Spell Book"
+			subtitle: "制作大法师法术书"
 			description: [
-				"To reach the highest tiers of reality-bending, I will need to upgrade my Spell Book once again."
+				"为了达到现实扭曲的最高等级，我需要再次升级我的法术书。"
 				""
-				"As it is the most powerful, the &bArchmage Spell Book&r is by far the hardest to create."
+				"由于其是最强力的，&b大法师法术书&r是到目前最难制作的法术书。"
 			]
 			dependencies: ["0C66312A6733D93E"]
 			min_width: 225
@@ -736,13 +738,13 @@
 			x: -5.5d
 			y: 5.0d
 			shape: "square"
-			subtitle: "Make a Spell Turret"
+			subtitle: "制作法术炮塔"
 			description: [
-				"&bSpell Turrets&r use Source to &6cast spells set from Parchment&r, cast as a projectile in the direction they are facing."
+				"&b法术炮塔&r使用魔源来&6施放羊皮纸设置的法术&r，以弹射物的形式向它们面对的方向施放。"
 				" "
-				"The Basic Turret requires a redstone signal to fire, but the &bTimer Spell Turret&r fires automatically on a configurable timer."
+				"基础法术炮塔需要红石信号才能发射，而&b定时法术炮塔&r可以通过可配置的计时器自动发射。"
 				""
-				"Additionally, the &bEnchanted Spell Turret&r only requires half the Source to cast spells."
+				"此外，&b附魔法术炮塔&r只需要一半魔源就可以施法。"
 			]
 			dependencies: ["2C91A8D6917F4220"]
 			min_width: 225
@@ -779,7 +781,7 @@
 			}]
 		}
 		{
-			title: "Fancy Duds"
+			title: "漂亮衣裳"
 			icon: {
 				id: "ars_nouveau:novice_robes"
 				Count: 1b
@@ -790,13 +792,12 @@
 			x: -4.0d
 			y: 8.0d
 			shape: "square"
-			subtitle: "Make a set of Robes"
+			subtitle: "制作一套法袍"
 			description: [
-				"&bRobes&r increase my mana pool and regeneration."
+				"&b法袍&r会增加我的法力总量和回复。"
 				" "
-				"Like Glyphs and Spell Books, there are &6three tiers&r. Higher tier sets are more expensive, but provide greater bonuses."
-				" "
-				"Robes are highly enchantable, and &6do not lose enchantments when upgrading&r. They also &6repair themselves using my mana&r!"
+				"法袍和魔符和法术书一样共有&6三阶&r。更高阶的套装更昂贵，但提供更好的属性。"
+				"法袍是高度可附魔的，并且&6在升级时不会失去附魔&r。还可以&6用我的魔力来自我修复&r！"
 			]
 			dependencies: ["4791DF6BD19CB8F5"]
 			min_width: 225
@@ -805,7 +806,7 @@
 				{
 					id: "7937A5BA3526A81E"
 					type: "item"
-					title: "Boots"
+					title: "靴子"
 					item: {
 						id: "itemfilters:id_regex"
 						Count: 1b
@@ -817,7 +818,7 @@
 				{
 					id: "072B57477AF855CA"
 					type: "item"
-					title: "Leggings"
+					title: "护腿"
 					item: {
 						id: "itemfilters:id_regex"
 						Count: 1b
@@ -829,7 +830,7 @@
 				{
 					id: "2E6ED30565289FE1"
 					type: "item"
-					title: "Robes"
+					title: "法袍"
 					item: {
 						id: "itemfilters:id_regex"
 						Count: 1b
@@ -841,7 +842,7 @@
 				{
 					id: "222A3B0ED824BA83"
 					type: "item"
-					title: "Hoods"
+					title: "兜帽"
 					item: {
 						id: "itemfilters:id_regex"
 						Count: 1b
@@ -875,17 +876,17 @@
 			]
 		}
 		{
-			title: "The Forest Moves"
+			title: "森林行动"
 			x: 1.5d
 			y: 5.0d
 			shape: "square"
-			subtitle: "Make a Tablet of Awakening"
+			subtitle: "制作启蒙之板"
 			description: [
-				"The &bTablet of Awakening&r is the key component of the Ritual of the same name."
+				"&b启蒙之板&r是同名仪式的关键组成部分。"
 				""
-				"This ritual &6imbues sentience into nearby Archwood trees&r, awakening them into &6Weald Walkers&r, who patrol and protect an area."
+				"这个仪式为附近的至高木树&6注入知觉&r，唤醒它们成为&6林地行者&r，他们巡逻并保护一个区域。"
 				""
-				"It seems &6different Archwoods have different characteristics&r. I wonder what else I can awaken..."
+				"似乎&6不同至高木有不同的特性&r。我想知道我还能唤醒什么…"
 			]
 			dependencies: [
 				"0CA8F708AD880F5F"
@@ -915,11 +916,11 @@
 			x: 3.0d
 			y: 6.5d
 			shape: "square"
-			subtitle: "Make a Tablet of Flight"
+			subtitle: "制作飞行之板"
 			description: [
-				"The &bTablet of Flight&r will allow me to &6fly freely within its area&r!"
+				"&b飞行之板&r允许我&6在它的作用范围内自由飞行&r！"
 				""
-				"It requires Source and has a limited range, which is unfortunate, but is extremely helpful for my base!"
+				"不幸的是它需要魔源，范围有限，但对我的基地极其有帮助!"
 			]
 			dependencies: ["14CBBDEBFB6749EE"]
 			id: "2D50A20C9FA4575F"
@@ -932,13 +933,13 @@
 		{
 			x: 1.5d
 			y: 8.0d
-			subtitle: "Make a Tablet of Summon Wilden"
+			subtitle: "制作荒野召唤之板"
 			description: [
-				"The &6Wilden&r are an ancient race obsessed with the shapeshifting arts. Over the centuries, their minds have corrupted down to barely more than animals."
+				"&6荒野族裔&r是一个沉迷于换形之术的古老种族。几个世纪以来，他们的心智已经堕落到几乎和动物差不多了。"
 				""
-				"While a nuisance back home, I haven't come across any here. The &bTablet of Summon Wilden&r will allow me to test myself against them."
+				"虽然在家里它很讨厌，但在这里我还没遇到过。&b荒野召唤之板&r可以让我和它们试着扳一扳手腕。"
 				""
-				"The ritual can be augmented with a Wilden Spike, Horn, and Wing to instead summon the &6Wilden Chimera&r, a much stronger foe."
+				"仪式可以用荒野尖刺、角和膜翼来代替召唤一个更强大的敌人————&6荒野奇美拉&r。"
 			]
 			dependencies: ["14CBBDEBFB6749EE"]
 			min_width: 225
@@ -951,3 +952,4 @@
 		}
 	]
 }
+
