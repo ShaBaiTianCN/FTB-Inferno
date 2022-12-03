@@ -1437,6 +1437,8 @@
 			x: 7.0d
 			y: -5.0d
 			shape: "square"
+			subtitle: "Make an Ender Tank"
+			description: ["&bEnder Tanks&r of the same color frequency share their contents."]
 			dependencies: ["40D4850B34EC5677"]
 			id: "4E1E0D39D0F581BB"
 			tasks: [{
