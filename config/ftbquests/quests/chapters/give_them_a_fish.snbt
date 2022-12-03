@@ -3,9 +3,9 @@
 	group: "3ABD0072BF4C3677"
 	order_index: 2
 	filename: "give_them_a_fish"
-	title: "Give Them a Fish..."
+	title: "给他一条鱼……"
 	icon: "minecraft:pufferfish_bucket"
-	subtitle: ["Animal husbandry"]
+	subtitle: ["畜牧业"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -13,15 +13,15 @@
 			x: -1.4642857142857153d
 			y: -5.375d
 			shape: "hexagon"
-			subtitle: "Make a Fisher's Hut"
+			subtitle: "建造一个渔夫小屋"
 			description: [
-				"At the &bFisher's Hut&r, a minion will fish."
+				"在&b渔夫小屋&r，奴隶可以在这儿钓鱼。"
 				""
-				"I was pleasantly surprised that I was able to &6include liquid Water in the Capsule&r. I probably &cshouldn't push my luck&r by attempting to collect it, though."
+				"我惊喜的发现，我可以&6在胶囊中加入液体水&r。但是，我或许不应该得寸进尺的&r尝试去收集它。"
 				""
-				"I can make a &6Cobble generator&r by allowing the Water sources to flow into near Lava!"
+				"我可以通过&r让水源流向熔岩附近来制作&6刷石机"
 				""
-				"&oThe Builder's Tool places the structure too far down. You'll have to raise it upward for it to be flush with the ground. The Builder does not need Water."
+				"&o建筑工具将结构放置的太低了，你必须把它向上抬起，使之与地面齐平。建筑工人不需要水。"
 			]
 			dependencies: ["2A6CCA72F1D483D9"]
 			size: 1.25d
@@ -65,7 +65,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Fishing hut Capsule\"}"
+								Name: "{\"text\":\"渔夫小屋胶囊\"}"
 							}
 							label: "Fisher.nbt"
 							size: 11
@@ -88,12 +88,12 @@
 			]
 		}
 		{
-			title: "Spicy!"
+			title: "辣！"
 			x: -1.0d
 			y: -3.0d
 			shape: "square"
-			subtitle: "Make a Chicken Farmer's Hut"
-			description: ["The &bChicken Farmer's Hut&r will provide Arrows to fight off the darkness, meat for the young to grow from, and eggs for a treat for myself!"]
+			subtitle: "建造一个养鸡人小屋"
+			description: ["&b养鸡场&r可以提供箭来抵御黑暗中的怪物，也可以为小孩的成长提供肉食，并为我自己提供鸡蛋作为犒赏！"]
 			dependencies: ["2A6CCA72F1D483D9"]
 			id: "317789071CB34AF3"
 			tasks: [{
@@ -134,17 +134,17 @@
 			]
 		}
 		{
-			title: "Isn't That Called a Hoof?"
+			title: "那个叫蹄子吗"
 			x: -2.0d
 			y: -3.0d
 			shape: "square"
-			subtitle: "Make a Cowhand's Hut"
+			subtitle: "建造一个牧牛工小屋"
 			description: [
-				"At the &bCowhand's Hut&r, a minion will &6breed and slaughter Cows&r."
+				"在&b牧牛工小屋&r，奴隶可以&6繁殖和宰杀牛&r。"
 				""
-				"It would be a good idea to &6keep Wheat stocked&r, using the \"Minimum stocked:\" tab."
+				"&6储存小麦是一个好主意&r，使用\"Minimum stocked:\"tab。"
 				""
-				"An &6Interdiction Torch&r can be used to keep Cows from escaping their enclosure."
+				"一个&6结界火炬&r可以防止牛逃出围栏。"
 			]
 			dependencies: ["2A6CCA72F1D483D9"]
 			min_width: 250
@@ -189,8 +189,8 @@
 			x: -1.5d
 			y: -1.0d
 			shape: "square"
-			subtitle: "Make a Fletcher's Hut"
-			description: ["&bFletchers&r can produce useful things from Leather and String. "]
+			subtitle: "建造一个制箭工小屋"
+			description: ["&b制箭工&r可以使用皮革和线制作有用的东西"]
 			min_required_dependencies: 1
 			dependencies: [
 				"11159BF1C52963EC"
@@ -222,7 +222,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Fletcher Capsule\"}"
+								Name: "{\"text\":\"制箭工胶囊\"}"
 							}
 							label: "Fletcher.nbt"
 							size: 15
@@ -240,17 +240,17 @@
 			]
 		}
 		{
-			title: "Ein Schwein Drei"
+			title: "一头猪，三头猪"
 			x: -2.5d
 			y: -4.0d
 			shape: "square"
-			subtitle: "Make a Swineherd's Hut"
+			subtitle: "建造一个猪圈"
 			description: [
-				"The &bSwineherd's Hut&r will allow my minions to &6breed and slaughter pigs&r."
+				"&b猪圈&r可以让奴隶&6繁殖和宰杀猪&r。"
 				""
-				"It would be a good idea to &6keep Carrots stocked&r, using the \"Minimum stocked:\" tab."
+				"&6储存胡萝卜是一个好主意&r，使用\"Minimum stocked:\"tab。"
 				""
-				"An &6Interdiction Torch&r can be used to keep Pigs from escaping their enclosure."
+				"一个&6结界火炬&r可以用来防止猪逃出围栏"
 			]
 			dependencies: ["2A6CCA72F1D483D9"]
 			min_width: 250
@@ -279,11 +279,11 @@
 			x: 0.0d
 			y: -6.5d
 			shape: "square"
-			subtitle: "Part of a balanced diet"
+			subtitle: "均衡饮食的一部分"
 			description: [
-				"When &bKelp&r grows upward into flowing water, &6it becomes a new source&r."
+				"当&b海带&r向上生长，进入流动的水，&6流动水将成为一个新的水源&r。"
 				""
-				"Filling &bBottles&r does not destroy the source. I can fill a tank with Bottles, then empty it with a Bucket."
+				"&b用瓶子装水&r不会毁坏水源。可以使用水瓶装满一个容器，然后用水桶清空容器。"
 			]
 			dependencies: ["4E07E560443913CB"]
 			id: "3FC37D06D5FF59A0"
@@ -321,15 +321,15 @@
 			]
 		}
 		{
-			title: "What's Up, Doc?"
+			title: "怎么了，老兄？（兔八哥口头禅）"
 			x: -0.5d
 			y: -4.0d
 			shape: "square"
-			subtitle: "Make a Rabbit Hunch"
+			subtitle: "建造一个养兔场"
 			description: [
-				"Rabbits are another source of meat and hide."
+				"兔子是肉和皮的另一来源。"
 				""
-				"More than that however, their &6Feet&r provide a tangible boost to the Luck of certain tools (like Tinkers' Construct), and may have other magical applications."
+				"然而，不仅如此，&6兔脚&r为某些工具的时运效果提供有效的提升（例如匠魂），同时也许有其它的神奇的使用方式。"
 			]
 			dependencies: ["2A6CCA72F1D483D9"]
 			id: "5DFA0991D2C53449"
@@ -345,17 +345,17 @@
 			}]
 		}
 		{
-			title: "Summon Squid"
+			title: "召唤鱿鱼"
 			x: -3.0d
 			y: -6.5d
 			shape: "square"
-			subtitle: "Sometimes for eating!"
+			subtitle: "有时是为了吃饭！"
 			description: [
-				"Although it's possible for a Fisher to find Inc Sacs, it's pretty rare."
+				"尽管渔民可能找到墨囊，它依旧稀少。"
 				""
-				"To that end, I've devised a way to &bsummon a batch of Squids&r, using the &6Summoning Altar&r!"
+				"为此，我设计了一种方法，使用&6祭坛&r来&b召唤一批鱿鱼&r！"
 				""
-				"I could use these to &6fill a Soul Shard&r..."
+				"我可以使用这些东西&6填满一个祭坛&r……"
 			]
 			dependencies: ["4E07E560443913CB"]
 			id: "4FB797A3849ABCC5"
@@ -381,17 +381,17 @@
 			]
 		}
 		{
-			title: "Wake up Sheeple"
+			title: "绵羊醒醒"
 			x: -1.5d
 			y: -4.0d
 			shape: "square"
-			subtitle: "Mutton going on here"
+			subtitle: "羊肉在这儿"
 			description: [
-				"The &bSheepherder&r is a key way for me to &6automate the production of Wool&r."
+				"&b牧羊人&r是一个关键方法来实现&6自动生产羊毛&r。"
 				""
-				"As long as I provide the Herder with food, I can assign him to breed, raise, and shear the Sheep he looks after."
+				"只要我给牧人提供食物，我就可以让他来繁殖、饲养和剪羊毛。"
 				""
-				"I can dye the Sheep and he'll collect Wool in that color instead."
+				"我可以给羊染色，他会收集那种颜色的羊毛。"
 			]
 			dependencies: ["2A6CCA72F1D483D9"]
 			id: "5898EF8C7EF990D3"
@@ -417,7 +417,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Shepard Deployable Capsule\"}"
+								Name: "{\"text\":\"牧羊人布署胶囊\"}"
 							}
 							label: "Shepard.nbt"
 							size: 15
