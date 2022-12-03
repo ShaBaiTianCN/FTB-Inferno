@@ -229,7 +229,7 @@
 				""
 				"怀揣着这个目的，我发现&b交流发电机&r将会把&6RPM转化为FE形式的电能&r。"
 				""
-				"&oUnlocks several quests in &5Innovation of Inconnu&r&o under &3Prometheus' Heresy&r"
+				"&o解锁位于&3普罗米修斯的异端&r&o之下的&5全新的革命&r&o任务"
 			]
 			dependencies: ["25D2F74ACB808472"]
 			id: "6B7606A65BA8FE12"
@@ -374,8 +374,11 @@
 			x: 2.0d
 			y: 11.5d
 			shape: "square"
-			subtitle: "Make an Electric Motor"
-			description: ["我不明白为什么我没有早日想到这一点。我不止可以将机械中的旋转能转化为电能，也可以将电能转化为旋转能！在超立方体的帮助之下，我可以在任何地方创造便携式设备。这将是一种游戏方式上的转变。"]
+			subtitle: "制作一个电动马达"
+			description: [
+				"我不明白为什么我没有早点想到这一点。我可以把机械能转化成电能所以&6为什么我不能反过来做呢?&r"
+				""
+				"&b电动马达&r将把电转化为机械能。在&6超立方体&r的帮助之下，我现在可以创造精巧的装置，而不必连接到我的蒸汽机！"]
 			]
 			dependencies: ["6B7606A65BA8FE12"]
 			size: 1.25d
