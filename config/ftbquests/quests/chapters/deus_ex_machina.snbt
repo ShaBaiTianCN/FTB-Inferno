@@ -3,7 +3,7 @@
 	group: "46A29AE1E3ACCC77"
 	order_index: 2
 	filename: "deus_ex_machina"
-	title: "Deus Ex Machina"
+	title: "机械降神"
 	icon: {
 		id: "ftbic:quantum_chestplate"
 		Count: 1b
@@ -11,24 +11,24 @@
 			Damage: 0
 		}
 	}
-	subtitle: ["FTB Industrial Contraptions"]
+	subtitle: ["FTB工业奇械"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Proprietary Energy Systems!"
+			title: "专用的能量系统！"
 			x: -2.0d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "Make an FE Transformer"
+			subtitle: "制作一个FE转换器"
 			description: [
-				"HSLA-based technology is &ctoo delicate to handle FE&r. I'll have to convert it to something useable first."
+				"基础的HSLA技术&c过于脆弱，没法接受FE&r。我得先把能量转化成可以使用的。"
 				""
-				"I'll call this new energy system &5Zaps&r, :zap: for short. The &bFE Transformer&r will &6convert 4 FE to 1:zap:&r, outputting it to an &6adjacent Battery Box&r."
+				"我将这个新的能源系统称为&5Zaps&r，后文简称zap，&bFE转换器&r可以&6将4FE转换成1zap&r，输出到相邻的&6电池箱&r。"
 				""
-				"The more :zap:/t that passes through something, the higher the &6Voltage&r. Too high of a Voltage will &cburn cables and short out machines&r, causing them to not work until repaired with a Fuse."
+				"输入的zap越多，产生的&6电压&r越高。过高的电压会&c烧毁电缆或是短路机器&r，替换保险丝让它们重新工作。"
 				""
-				"&oRemember, &6Dante's Divine Labram&r&o has all the guide books in it.&r"
+				"&o谨记，&6但丁的神圣图书馆&r&o里有所有的工具书。&r"
 			]
 			dependencies: ["29F319B7AB014274"]
 			size: 1.5d
@@ -47,17 +47,17 @@
 			}]
 		}
 		{
-			title: "Gregless"
+			title: "与格雷无关"
 			x: -2.0d
 			y: -3.0d
 			shape: "circle"
-			subtitle: "Make a Machine Block"
+			subtitle: "制作一个机械方块"
 			description: [
-				"Within the Arc Furnace, I've created a new metal: High-Strength Low-Alloy Steel (&6HSLA&r for short)."
+				"运用电弧炉，我创造了一种新的合金：高强度低合金钢（简称&6HSLA&r）。"
 				""
-				"It is more flexible and resists oxidation, much more so than the crude Steel I've been using."
+				"它的延展性更好，抗氧化能力更强，比我用过的粗钢强得多。"
 				""
-				"With this new HSLA Steel, I can create advanced technology with intricate wiring and &6tremendous energy transfer rates&r."
+				"凭借这种HSLA锭，我可以用密集的线路和&6极高的能量转换率&r来创造出先进的技术。"
 			]
 			dependencies: ["1AD7627CC2347FB2"]
 			min_width: 275
@@ -82,17 +82,17 @@
 			]
 		}
 		{
-			title: "Iridium Circuitry"
+			title: "铱制电路"
 			icon: "ftbic:iridium_ingot"
 			x: -2.0d
 			y: 3.0d
-			subtitle: "Get Iridium"
+			subtitle: "获得铱"
 			description: [
-				"In order to fabricate the most advanced technologies, I need a material more pure and conductive than what is available here."
+				"为了制造最先进的技术，我需要一种比现有的更纯净和导电的材料。"
 				""
-				"The &6Scales of Dragons long-since perished&r contain trace amounts of this material. By reacting them with Blazing Blood, I can get a trace amount of &bIridium&r."
+				"&6早已销声匿迹的龙鳞&r含有微量的这种物质。通过和烈焰血反应，我可以得到微量的&b铱&r。"
 				""
-				"It's a painfully slow process, relying on me searching the Void for the chance to get Scales. I'll have to prioritize a better method ASAP."
+				"这是一个痛苦而缓慢的过程，全靠我在虚空中寻找机会获得鳞片。我会尽快想出一个更好的方法。"
 			]
 			dependencies: [
 				"5FA0853913F7502A"
@@ -103,7 +103,7 @@
 			tasks: [{
 				id: "5FF49B5E4E818501"
 				type: "item"
-				title: "Iridium Metal"
+				title: "铱元素"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -125,8 +125,8 @@
 		{
 			x: 2.5d
 			y: 0.0d
-			subtitle: "Make a Compressor"
-			description: ["The &bCompressor&r applies great force to items, compressing them into other items."]
+			subtitle: "做一个压缩机"
+			description: ["&b压缩机&r可以给物品施加一个巨大的力，将其压缩至另一个物品里。"]
 			dependencies: ["5FA0853913F7502A"]
 			id: "27ABF6DA896F3CF1"
 			tasks: [{
@@ -138,8 +138,8 @@
 		{
 			x: 1.5d
 			y: 1.5d
-			subtitle: "Make Carbon Plates"
-			description: ["&bCarbon Plates&r are very touch, and are used in several recipes."]
+			subtitle: "制作碳纤维板"
+			description: ["&b碳纤维板&r摸起来很爽，在许多合成配方里都有。"]
 			dependencies: ["27ABF6DA896F3CF1"]
 			id: "200AED5FCE2F8A67"
 			tasks: [{
@@ -157,8 +157,8 @@
 		{
 			x: 3.5d
 			y: 1.5d
-			subtitle: "Make some Advanced Alloy"
-			description: ["&bAdvanced Alloy&r is very useful for higher-tier machines."]
+			subtitle: "制作一些高级合金"
+			description: ["&b高级合金&r对于高级机器来说很有用"]
 			dependencies: ["27ABF6DA896F3CF1"]
 			id: "6301F10D0516BA60"
 			tasks: [{
@@ -170,8 +170,8 @@
 		{
 			x: 2.5d
 			y: 3.0d
-			subtitle: "Make an Advanced Machine Block"
-			description: ["&bAdvanced Machine Blocks&r are required for the most powerful machines."]
+			subtitle: "制作高级机械外壳"
+			description: ["&b高级机械外壳&r是制作强大机器的必需品。"]
 			dependencies: [
 				"200AED5FCE2F8A67"
 				"6301F10D0516BA60"
@@ -187,13 +187,13 @@
 			x: 0.75d
 			y: 3.0d
 			shape: "hexagon"
-			subtitle: "Make a Nuclear Reactor"
+			subtitle: "制作一个核反应堆"
 			description: [
-				"The &bNuclear Reactor&r allows me to &6create ludicrous amounts of Zaps&r using Uranium Fuel Rods!"
+				"&b核反应堆&r使我能使用铀燃料棒来&6创造大量的Zaps&r！"
 				""
-				"The book &6Industrious Instructions&r explains how the Reactor works."
+				"一本名为&6勤劳与指令&r的书解释反应堆的工作原理。"
 				""
-				"&oReactors have been set to give 4x the Zaps than the default amount"
+				"&o反应堆的生成的Zaps调整为原版的4倍"
 			]
 			dependencies: [
 				"6BB9366C63315F62"
@@ -217,11 +217,11 @@
 			x: -5.5d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Make a Canning Machine"
+			subtitle: "制作一个装罐机"
 			description: [
-				"The &bCanning Machine&r fills cans."
+				"&b装罐机&r填充罐头"
 				""
-				"This can be used to make &6Food Cans&r and (more importantly) &6Uranium Fuel Rods&r."
+				"这个东西可以用来制作&6食物罐头&r和（更重要的是）&6铀燃料棒&r。"
 			]
 			dependencies: ["5FA0853913F7502A"]
 			id: "4175C48649BCF1D1"
@@ -237,12 +237,12 @@
 			}]
 		}
 		{
-			title: "Watch Out For My Body Rolls"
+			title: "小心辊压到自己的身体"
 			x: -5.5d
 			y: -1.5d
 			shape: "square"
-			subtitle: "Make a Roller"
-			description: ["The &bRolling Machine&r can &6turn ingots into Plates&r, as well as make &6Fluid Cells&r."]
+			subtitle: "制作一个辊压机"
+			description: ["&b辊压机&r可以&6将锭压成板&r，同样可以制作&6流体单元&r。"]
 			dependencies: ["5FA0853913F7502A"]
 			id: "7DCB752323A2C4A8"
 			tasks: [{
@@ -254,11 +254,11 @@
 		{
 			x: -7.5d
 			y: -1.5d
-			subtitle: "Make a Fluid Cell"
+			subtitle: "制作一个流体单元"
 			description: [
-				"&bFluid Cells&r store fluids, and can &6stack to 16&r."
+				"&b流体单元&r能够存储流体，并且能够&6堆叠至16个&r。"
 				""
-				"I can collect fluids directly, but I cannot pour them back out."
+				"我可以直接收集流体，但不能将它们倒出来。"
 			]
 			dependencies: ["7DCB752323A2C4A8"]
 			id: "54E1C82C5D2AFC25"
@@ -277,8 +277,8 @@
 		{
 			x: -7.5d
 			y: 0.0d
-			subtitle: "Make a Uranium Fuel Rod"
-			description: ["&bUranium Fuel Rods&r are the fuel used in &6Nuclear Reactors&r."]
+			subtitle: "制作一个铀燃料棒"
+			description: ["&b铀燃料棒&r是&6核反应堆&r使用的燃料。"]
 			dependencies: [
 				"54E1C82C5D2AFC25"
 				"4175C48649BCF1D1"
@@ -308,12 +308,12 @@
 			}]
 		}
 		{
-			title: "Spin the Hell Out of It"
+			title: "离心这个地狱"
 			x: -5.5d
 			y: -3.0d
 			shape: "square"
-			subtitle: "Make a Centrifuge"
-			description: ["The &bCentrifuge&r is used to &6separate the components of an item&r."]
+			subtitle: "制作一个离心机"
+			description: ["&b离心机&r可以用来&6分离一个物品成它的组成部分&r。"]
 			dependencies: ["5FA0853913F7502A"]
 			id: "45AAAE40487469F4"
 			tasks: [{
@@ -325,11 +325,11 @@
 		{
 			x: -7.5d
 			y: -3.0d
-			subtitle: "Make a Small Coolant Cell"
+			subtitle: "制作一个小型冷却单元"
 			description: [
-				"By Centrifuging a Water Cell, I've created a &bCoolant Cell&r."
+				"通过离心一个水单元，我制作了一个&b冷却单元&r。"
 				""
-				"This can be used to &6absorb a Nuclear Reactor's heat&r, or craft Overclocker Upgrades."
+				"这可以用来&6吸收核反应堆的热量&r，或者制作超频升级。"
 			]
 			dependencies: [
 				"54E1C82C5D2AFC25"
@@ -363,8 +363,8 @@
 			x: -7.5d
 			y: -4.5d
 			shape: "square"
-			subtitle: "Make an Overclocker Upgrade"
-			description: ["The &bOverclocker Upgrade&r makes machines work faster, at an additional cost of :zap:."]
+			subtitle: "制作一个超频升级"
+			description: ["&b超频升级&r通过额外的zap使机器工作得更快。"]
 			dependencies: ["19A5DD8AE7BF348D"]
 			optional: true
 			id: "16F86FD72281E5D6"
@@ -378,8 +378,8 @@
 			x: -2.0d
 			y: -4.392857142857142d
 			shape: "square"
-			subtitle: "Make a Transformer Upgrade"
-			description: ["Each &bTransformer Upgrade&r &6increases the machine's Voltage&r by a tier, allowing it to accept more :zap:/t"]
+			subtitle: "制作一个高压升级"
+			description: ["每一个&b高压升级&r&6增加一级机器的电压&r，允许它每tick接受更多的zap。"]
 			dependencies: ["29F319B7AB014274"]
 			size: 0.75d
 			optional: true
@@ -394,8 +394,8 @@
 			x: -0.75d
 			y: -3.0d
 			shape: "square"
-			subtitle: "Make an Energy Storage Upgrade"
-			description: ["Each &bEnergy Storage Upgrade&r adds about &610,000:zap:&r to the machine's storage capacity."]
+			subtitle: "制作一个储能升级"
+			description: ["每一个&b储能升级&r能额外存储&610000zap&r"]
 			dependencies: ["29F319B7AB014274"]
 			size: 0.75d
 			optional: true
@@ -410,8 +410,8 @@
 			x: -3.375d
 			y: -3.0d
 			shape: "square"
-			subtitle: "Make an Ejector Upgrade"
-			description: ["The &bEjector Upgrade&r will make machines automatically eject their outputs to adjacent inventories."]
+			subtitle: "制作一个弹出升级"
+			description: ["&b弹出升级&r将使机器自动输出到相邻的容器中"]
 			dependencies: ["29F319B7AB014274"]
 			size: 0.75d
 			optional: true
@@ -423,16 +423,16 @@
 			}]
 		}
 		{
-			title: "Annihilation"
+			title: "湮灭"
 			icon: "ftbic:antimatter"
 			x: -2.0d
 			y: 5.0d
 			shape: "hexagon"
-			subtitle: "Get Antimatter"
+			subtitle: "获得反物质"
 			description: [
-				"&bAntimatter&r is an insanely dangerous and powerful material, anathema to reality."
+				"&b反物质&r是一种极其危险且强大的材料，是对现实的诅咒."
 				""
-				"The &bAntimatter Constructor&r generates it, at a small cost of 1,000,000:zap: each. This cost can be lowered with Scrap and Scrap Boxes."
+				"由&b反物质构建器&r生成，每个的成本很低，只有1000000zap。这个成本可以通过废料和废料箱来降低。"
 			]
 			dependencies: ["6BB9366C63315F62"]
 			id: "7FE9FAFBDB354644"
@@ -473,13 +473,13 @@
 			x: -0.5d
 			y: 1.5d
 			shape: "square"
-			subtitle: "Make some Carbon Powerarmor"
+			subtitle: "制作碳纤维装甲"
 			description: [
-				"&bCarbon Powerarmor&r is incredibly powerful, &6completely negating all damage when all parts are worn and charged&r."
+				"&b碳纤维装甲&r是难以置信的强大，&6消耗zap来抵消伤害&r。"
 				""
-				"The Chestplate is the most important part; it is the only part that holds a charge, all other parts depend on it."
+				"胸甲是最重要的部分；它是唯一带有电的部分，其他部分均依赖于它。."
 				""
-				"From a full charge, I can take &6100 hearts of damage&r before it is fully discharged."
+				"在充满电的情况下，能够吸收&6100颗心的伤害&r"
 			]
 			dependencies: ["200AED5FCE2F8A67"]
 			optional: true
@@ -487,7 +487,7 @@
 			tasks: [{
 				id: "510DB72C3635973D"
 				type: "item"
-				title: "Carbon Powerarmor"
+				title: "碳纤维装甲"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -537,11 +537,11 @@
 			x: -0.5d
 			y: 5.0d
 			shape: "square"
-			subtitle: "Make some Quantum Powerarmor"
+			subtitle: "制作量子装甲"
 			description: [
-				"The &bQuantum Powersuit&r is nearly identical to the Carbon Powersuit, but can take &61,500 hearts of damage&r before fully discharging."
+				"&b量子装甲&r与碳纤维装甲几乎相同，但是它在充满电的情况下，能够吸收&61500颗心的伤害&r。"
 				""
-				"It has an inbuilt Elytra, which I can boost by sprinting. Sneaking will allow me to hover."
+				"它有一个内置的鞘翅，并且我可以通过疾跑来加速它。潜行可以让我缓慢落下。"
 			]
 			dependencies: [
 				"0D412B5CE45C6E0B"
@@ -592,19 +592,19 @@
 			}]
 		}
 		{
-			title: "Technological!"
+			title: "科技！"
 			x: -4.571428571428569d
 			y: 5.017857142857139d
 			shape: "hexagon"
 			subtitle: "Magiteck Crystals"
 			description: [
-				"All this bizzare technology has finally gotten me what I -REALLY- need. A purified crystal that pulses with the power of annihilation while being perfectly contained and in stabilized by the nether star core. "
+				"所有这些奇怪的科技让我得到了我真正需要的东西。一种具有湮灭能力的纯净晶体，它同时被下界之星完美的包含和稳定。 "
 				""
-				"It is not time for my most masterful of magics."
+				"现在不是我施展魔法的时候。"
 				""
-				"As prometheus defied the gods to steal fire for mankind, so shall I take the power this world has used to keep me here for myself."
+				"就像普罗米修斯违抗众神为人类偷火一样，我也要拿走这个世界将我留下的力量。"
 				""
-				"I suspect I will need a great many of these &3Nether Stars&r. Perhaps I can trap one of the wither's spirits in the box of closure and reanimate it in a spirit furnace in perpetuity..."
+				"我想我需要很多这些&3下界之星&r。或许我可以将一个凋零的灵魂困在封闭的空间里，让他在灵魂熔炉里永远复活……"
 			]
 			dependencies: ["7FE9FAFBDB354644"]
 			size: 1.5d
