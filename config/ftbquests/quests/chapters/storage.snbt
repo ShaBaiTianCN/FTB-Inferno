@@ -1415,9 +1415,11 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 7.5d
 			y: -5.0d
 			shape: "square"
+			subtitle: "Make an Ender Chest"
+			description: ["&bEnder Chests&r harness the power of Endermen, allowing me to &6teleport items&r over any distance."]
 			dependencies: ["55099E0F763B39CA"]
 			id: "6CF1F47FC1105B74"
 			tasks: [{
