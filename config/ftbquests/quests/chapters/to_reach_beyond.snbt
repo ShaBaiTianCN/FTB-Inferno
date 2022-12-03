@@ -3,24 +3,24 @@
 	group: "793D4C72FD32064E"
 	order_index: 1
 	filename: "to_reach_beyond"
-	title: "The Angry Earth"
+	title: "大地之怒"
 	icon: "biomesoplenty:origin_grass_block"
 	subtitle: ["The Overworld"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "My Infinite Power"
+			title: "我的无尽能量"
 			x: 0.0d
 			y: -1.5d
 			shape: "hexagon"
-			subtitle: "Make a Neutron Collector"
+			subtitle: "制作一个中子态素收集器"
 			description: [
-				"The &5Wither Storm&r is a &cnearly insurmountable foe&r, but I am confident I can defeat him by &6pushing beyond the limits of technological and magical innovations&r."
+				"&5凋灵风暴&r是一个&c几乎无法打败的敌人&r，但是我相信我可以通过&6推动超越科技和魔法创新极限的力量&r来击败它。"
 				""
-				"I've dubbed this aim: &eProject Avaritia&r, unbound greed. Not power for the sake of it, but to rid the world of the unspeakable horror I've unleashed."
+				"我把这个目标成为：&e无尽贪婪计划&r，没有约束的渴望，不是为了力量，而是为了让世界摆脱我释放出的难以形容的恐惧阴影。"
 				""
-				"The &bNeutron Collector&r will collect a small &6Pile of Neutrons&r every 3 minutes. If I want to progress with any speed, I should make several."
+				"&b中子态素收集器&r将会每3分钟收集一小堆&6中子素尘埃&r。如果想快速取得进展，我得多做几个。"
 			]
 			dependencies: ["652CA912545038EA"]
 			min_width: 250
@@ -40,8 +40,8 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "Make an Infinity Catalyst"
-			description: ["The &bInfinity Catalyst&r holds within it the energy of a thousand stars."]
+			subtitle: "制作一个无尽催化剂"
+			description: ["&b无尽催化剂&r的内部拥有上千颗恒星的能量。"]
 			dependencies: ["5B3149FF5299AC95"]
 			id: "726232DDB1A6AD5A"
 			tasks: [{
@@ -54,8 +54,8 @@
 			x: 2.0d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "Make an Infinity Ingot"
-			description: ["The &bInfinity Ingot&r contains the power of infinity, but can be more easily shaped."]
+			subtitle: "制作一个无尽之锭"
+			description: ["&b无尽之锭&r包含着无尽的能量，但更容易被打造。"]
 			dependencies: [
 				"726232DDB1A6AD5A"
 				"513E078F2B82A9D2"
@@ -83,17 +83,17 @@
 			x: -3.0d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "Make a Psuedo Command Block"
+			subtitle: "制作伪命令方块"
 			description: [
-				"It appears my original summoning, which started this whole situation, was only partially successful."
+				"看来，这次召唤打开了整个局面，却只是刚刚开始。"
 				""
-				"The entire time I was fighting for survival in the underworld, a &4great and evil darkness&r has been spreading accross my home."
+				"在我于地下世界为生存而战的同时，一种&4巨大且邪恶的黑暗力量&r已经在我的家中悄然蔓延。"
 				""
-				"This evil has &ccorrupted and strengthened&r the denizens of the world, making them dangerous beyond what I've seen."
+				"这种邪恶力量已经&c腐蚀并强化&r了世界上的怪物，并使它们变得十分危险，超乎想象。"
 				""
-				"For now, the evil is ethereal; it is suffused into the realm, effecting it but unable to be effected. I'll need to &6finish what I started&r, giving the evil a corporeal form that I can defeat."
+				"就目前而言，邪恶暂时无法被注视；它已经渗透到了整个领域，波及了周围的一切，却无法被影响。我得&6完成我一开始的任务&r，给予邪恶力量一个我可以打败的实体形式。"
 				""
-				"With the &bPseudo Command Block&r, I can summon the Wither Storm using the &6Summoning Altar&r. I'll have to do it at night during a thunder storm, and a Wither has to be nearby."
+				"通过使用&b伪命令方块&r，我可以在&6召唤祭坛&r上召唤凋灵风暴。我得在一个雷暴天的夜晚，并且在附近有一个凋灵的情况下来召唤它。"
 				""
 				"{image:inferno:textures/quest/witherstorm_pseudo.png width:150 height:150 align:1}"
 			]
@@ -113,7 +113,7 @@
 				id: "1689C65749C6445F"
 				type: "command"
 				auto: "invisible"
-				command: "/tellraw @p [\"\",\"I should make sure to \",{\"text\":\"read my journal \",\"color\":\"red\"},\"before continuing.\"]"
+				command: "/tellraw @p [\"\",\"我应该确保在继续完成之前\",{\"text\":\"阅读我的日记\",\"color\":\"red\"},\".\"]"
 				player_command: false
 			}]
 		}
@@ -186,17 +186,17 @@
 			}]
 		}
 		{
-			title: "Kill the Wither Storm"
+			title: "击杀凋灵风暴"
 			x: -1.5d
 			y: 12.0d
 			shape: "hexagon"
-			subtitle: "Put and end to this madness"
+			subtitle: "结束这场闹剧吧"
 			description: [
-				"Upon entering &5the Bowels&r, I have to &6survive four waves&r of enemies as well as reoccuring onslaught portals. I dont need to defeat these portals I imagine, but I will need to survive and kill everyting else in here so that I may strike at its core."
+				"进入&5内部空间&r之后，我得在敌人以及不断出现的传送门的猛烈攻击下&6存活四波&r。我不需要打败这些想象中的传送门，但我需要存活下来并击杀这里的其他怪物，这样我才能攻击它的核心。"
 				""
-				"To end each wave, I have to &bhit the Command Block with my Command Block Sword&r. "
+				"为了结束每一波，我必须得&b用我的命令之剑攻击命令方块&r。"
 				""
-				"Doing this three times will &3force the Wither Storm&r into a weakened state below 25% of it's maximum hp. When the world flashes white the command block is finally vulnerable. Right click it with the command sword to drive your power deep into its core and end it once and for all!"
+				"这样攻击三次之后，其血量低于最大生命值的25%，将会&3强制凋灵风暴&r进入虚弱状态。终于，当周围开始闪烁白光，命令方块变得十分脆弱。用命令之剑右击它，将你所有的力量注入它的核心，并彻底地终结它吧！"
 			]
 			dependencies: ["16DD4674C9EF1BEA"]
 			size: 3.0d
@@ -241,7 +241,7 @@
 			]
 		}
 		{
-			title: "Inside Job"
+			title: "深入工作"
 			icon: {
 				id: "minecraft:crossbow"
 				Count: 1b
@@ -257,13 +257,13 @@
 			x: 2.25d
 			y: 12.0d
 			shape: "hexagon"
-			subtitle: "Enter the Wither Storm"
+			subtitle: "进入凋灵风暴"
 			description: [
-				"After a long time fighting the endless waves of monsters and symbiont minions, the Wither Storm has finally &6opened a hole to its internals&r where I can finally strike at it's heart directly."
+				"在与无穷无尽的怪物与共生体小怪战斗了很长一段时间之后，凋灵风暴终于&6打开了它进入内部的洞口&r，在那里我终于可以直接攻击它的核心了。"
 				""
 				"{image:inferno:textures/quest/witherstorm_portal.png width:250 height:121 align:1}"
 				""
-				"I can access it by &6loading a Crossbow with an Ender Pearl&r, which is done by holding the Pearl in the offhand while reloading."
+				"我可以通过&6装填了一个末影珍珠的弩&r来进入这个地方，可以通过在装填弩时副手手持末影珍珠来装填它。"
 			]
 			dependencies: ["712112C86206F45D"]
 			size: 1.5d
@@ -288,23 +288,23 @@
 			]
 		}
 		{
-			title: "Revelations"
+			title: "启发"
 			x: -3.0d
 			y: 4.0d
 			shape: "hexagon"
-			subtitle: "Summon the Wither Storm"
+			subtitle: "召唤凋灵风暴"
 			description: [
-				"Completing the structure of the &6Command Block&r (or &6Pseudo Command Block&r) will &bsummon the Wither Storm&r. I should &cmake sure I am prepared&r before doing this."
+				"在搭建完成&6命令方块&r(或者&6伪命令方块&r)的结构之后，将会&b召唤凋灵风暴&r。在这样做之前，我应该&c确保做好充足的准备&r。"
 				""
-				"Killing the Wither Storm is more complex than just hitting it until it dies. In fact, it is &cinvincible until a certain point&r is reached."
+				"击杀凋灵风暴十分复杂，可不是一直攻击它直到死亡就行。事实上，它在达到&c某个特定的点之前是无敌的&r。"
 				""
-				"The Storm will &6consume nearby blocks and mobs&r, evolving over time. For the first four evolution phases, it cannot be stopped."
+				"凋灵风暴会&6吞噬附近的方块和生物&r，随着时间的推移不断进化。前四个进化阶段是无法停止的。"
 				""
-				"My goal for these phases is to simply &asurvive&r and destroy the waves of enemies that pour forth from the portals as it consumes their essence. The faster I dispatch the fiends, the faster the ritual will progress. I have to allow it to consume and evolve until it becomes confident enough to strike out... where then it may become vulnerable..."
+				"在这几个阶段中，我的目标很简单：&a活下去&r，并击败一波波从传送门中涌出的敌人，它们的灵魂已经被吞噬了。怪物召唤得越快，仪式的进展就越快。我必须让它不断地吞噬和进化，直到它变得足够强大以自主行动……那么它可能会露出它的弱点……"
 				""
 				"{image:inferno:textures/quest/witherstorm.png width:250 height:124 align:1}"
 				""
-				"A phase 4 Wither Storm"
+				"一个第4阶段的凋灵风暴"
 			]
 			dependencies: ["3E80A12ECFAC35B2"]
 			size: 2.0d
@@ -313,7 +313,7 @@
 			tasks: [{
 				id: "424B1AB32BD04B49"
 				type: "observation"
-				title: "Observe the Wither Storm"
+				title: "观察凋灵风暴"
 				icon: "minecraft:wither_skeleton_skull"
 				timer: 0L
 				observe_type: 5
@@ -321,18 +321,18 @@
 			}]
 		}
 		{
-			title: "Corruption Champion"
+			title: "腐蚀之王"
 			icon: "witherstormmod:command_block_book"
 			x: -3.0d
 			y: 6.75d
 			shape: "diamond"
-			subtitle: "Kill a Withered Symbiont"
+			subtitle: "击杀一个凋零共生体"
 			description: [
-				"At the end of evolution phase 5, the Wither Storm will summon a &bWither Symbiont&r, a giant wither-sickened zombie."
+				"在第5阶段的进化过程末尾，凋零风暴将会召唤&b凋灵共生体&r，它是一只感染了凋灵病的巨大僵尸。"
 				""
-				"This underling is very powerful, with a variety of attacks."
+				"这个仆从十分强大，有多种攻击方式。"
 				""
-				"It can only be damaged by &6attacking the scar on its back&r. It drops an &bEnchanted Command Block Book&r, which hovers in the air above where it died."
+				"它只能通过&6攻击背部的疤痕&r造成伤害。在它死亡的地点上空，会漂浮着一本掉落的&b指令附魔书&r。"
 			]
 			dependencies: ["2C2AC6A209E90B8E"]
 			size: 1.5d
@@ -345,19 +345,19 @@
 			}]
 		}
 		{
-			title: "F Bomb"
+			title: "恐怖炸弹"
 			x: -3.0d
 			y: 9.0d
 			shape: "hexagon"
-			subtitle: "Make the Formidibomb"
+			subtitle: "制造恐怖炸弹"
 			description: [
-				"The &bFormidibomb&r is the only thing that can hurt a phase 5 Wither Storm."
+				"&b恐怖炸弹&r是唯一一个可以在凋零风暴第五阶段对其造成伤害的道具。"
 				""
-				"Upon crafting, it &cimmediately begins a countdown&r, exploding at the end. I'll have to &6hurry and place it near the Storm&r during that time."
+				"制作完成之后，它会&c立即开始爆炸倒计时&r，最终爆炸。在这段时间里，我必须得&6尽快将它放在凋灵风暴附近&r。"
 				""
-				"The Formidibomb's detonation (which can be triggered with a Flint and Steel) is the only thing capable of &5killing the Wither Storm&r."
+				"恐怖炸弹的爆炸（可以用打火石触发）是唯一能够&5杀死凋零风暴&r的道具。"
 				""
-				"&cMAKE SURE IT IS PLACED CLOSE ENOUGH!&r I definitely do NOT want to waste these!"
+				"&c确保它放置的足够近！&r我绝对不会想浪费这些材料的！"
 			]
 			dependencies: ["4E26F0BCA1EAF972"]
 			size: 1.5d
@@ -376,29 +376,29 @@
 				{
 					id: "712DED911C63539B"
 					type: "item"
-					title: "These might come in handy."
+					title: "这些也许会派上用场。"
 					item: "artifacts:steadfast_spikes"
 				}
 				{
 					id: "1E2CDDC305540EB0"
 					type: "toast"
-					title: "I stood my ground against the darkness."
+					title: "我在黑暗中站稳了脚跟。"
 					auto: "enabled"
 					description: ""
 				}
 			]
 		}
 		{
-			title: "I Command Thee, Kneel!"
+			title: "我命令你，跪下！"
 			icon: "witherstormmod:command_block_sword"
 			x: 2.25d
 			y: 9.0d
 			shape: "hexagon"
-			subtitle: "Make a Command Block Sword"
+			subtitle: "制作一把命令之剑"
 			description: [
-				"It played me for a fool! It's &cmore powerful than ever&r!"
+				"它把我当成傻子！它比&c以往任何时候都要更加强大&r！"
 				""
-				"I'll have to use its own power against it. I'll &6wait for another Symbiont to spawn&r, kill it, and &bcraft a weapon out of the Command Block Book&r."
+				"我不得不用它自己的力量来对付它。我得&6等待另一个共生体生成出来&r，杀了它，并&b用指令附魔书制作一把武器&r。"
 			]
 			dependencies: [
 				"6305B598AD7D3A09"
@@ -418,17 +418,17 @@
 			}]
 		}
 		{
-			title: "The Eye of the Storm"
+			title: "风暴之眼"
 			x: -1.5d
 			y: 4.0d
 			shape: "square"
-			subtitle: "Escape the Wither Storm's gaze"
+			subtitle: "从凋灵风暴的凝视中逃脱"
 			description: [
-				"At phase 4, the Wither Storm's gaze will begin to &cpull in entities&r, including myself."
+				"在第4阶段，凋灵风暴的牵引光束会将&c实体拉向它&r，包括我自己。"
 				""
-				"While the local wildlife may be helpless, an &barrow to the eye&r will set me free."
+				"尽管当地的野生动物也许会束手无策，但一根&b射向眼睛的箭矢&r可以让我摆脱困境。"
 				""
-				"&6Extreme precision&r is necessary. I have to hit the eye dead-on."
+				"需要&6极高的精度&r。我必须精准命中它的眼睛。"
 			]
 			dependencies: ["2C2AC6A209E90B8E"]
 			optional: true
@@ -441,13 +441,13 @@
 			}]
 		}
 		{
-			title: "Avarice"
+			title: "贪婪"
 			icon: "avaritia:extreme_crafting_table"
 			x: 0.0d
 			y: -3.0d
 			shape: "hexagon"
-			subtitle: "Make an Extreme Crafting Table"
-			description: ["The &bExtreme Crafting Table&r allows me to &6harness the power of infinity&r to craft items beyond mortal comprehension."]
+			subtitle: "制作一个终极工作台"
+			description: ["通过&b终极工作台&r，我可以&6利用其无限的力量&r来制作出一些难以理解的超凡物品。"]
 			dependencies: [
 				"4DF37AAE2F818122"
 				"69F0B175E8EA2570"
@@ -465,17 +465,17 @@
 			}]
 		}
 		{
-			title: "Escape"
+			title: "逃脱"
 			x: -3.0d
 			y: -3.0d
 			shape: "hexagon"
-			subtitle: "Return to the Overworld"
+			subtitle: "返回主世界"
 			description: [
-				"With the Void Worm defeated, and upon completion of my &6Tier 5&r University, I will finally be able to complete the ultimate research &6Eldritch Transcedence&r that will allow me to return to my home. I can &breturn to the Overworld&r with a simple Nether Portal."
+				"随着我打败虚空蠕虫和&6第5阶段&r的科研之后，我终于能够完成终极研究：&6超越Eldrictch&r，以此返回我的家。我可以用一个简单的下界传送门&b返回主世界&r。"
 				""
-				"It almost offends me how simple the gateway is. I could have made it any time, I just couldn't use it."
+				"我感觉好像被侮辱了一样，这么简单的传送门，我可以随时搭建一个，就是不能用。"
 				""
-				"Now, I can &4finally have my revenge&r on the &5demon who sent me&r from here."
+				"现在，我&4终于可以报复&r那些&5把我从家里送到这鬼地方的恶魔了&r。"
 			]
 			dependencies: ["69F0B175E8EA2570"]
 			min_width: 275
