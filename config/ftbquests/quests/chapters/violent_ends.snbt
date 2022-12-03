@@ -3,9 +3,9 @@
 	group: "793D4C72FD32064E"
 	order_index: 0
 	filename: "violent_ends"
-	title: "Violent Ends"
+	title: "残暴的末路之地"
 	icon: "minecraft:dragon_head"
-	subtitle: ["The End"]
+	subtitle: ["末地"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -13,15 +13,15 @@
 			x: 0.0d
 			y: -3.75d
 			shape: "hexagon"
-			subtitle: "Make an End Portal Frame"
+			subtitle: "制作末地传送门框架"
 			description: [
-				"With a &6Tier 3 University&r, after researching &6Infernal Mastery&r under Unlockables, a T3+ Stonemason will be able to craft &bEnd Portal Frames&r!"
+				"拥有&6三级大学&r之后，在已解锁选项下，研究&6了解下界&r，三级石匠将可以制作&b末地传送门框架&r！"
 				""
-				"For the first one, I'll have to &6order it from the Postbox&r. I can craft the rest myself."
+				"对于第一个，我将不得不&6从邮箱订购&r。剩下的我可以自己制作。"
 				""
-				"I'll need &6twelve&r, and they must be &6placed while standing in the center&r."
+				"我需要&6十二个末地传送门框架&r，我必须站在中心位置&6放置&r它们。"
 				""
-				"With the Portal constructed, I can insert Eyes of Ender and &5finally escape this place&r."
+				"在传送门建造后，我可以放置末影之眼&5逃离这个地方&r。"
 			]
 			dependencies: ["2451EBFA3158F0FD"]
 			min_width: 275
@@ -39,15 +39,15 @@
 			}]
 		}
 		{
-			title: "The End's End is Just the Beginning"
+			title: "末地的终结才刚刚开始"
 			icon: "minecraft:dragon_head"
 			x: 0.0d
 			y: -2.0d
-			subtitle: "Kill the Ender Dragon"
+			subtitle: "杀掉末影龙"
 			description: [
-				"Entering the Void, I was beset by &ca beast of darkness and rage&r. I will have to &bkill this Dragon&r that lords this place before I can continue."
+				"进入虚空，我发现&c一只充满黑暗气息的野兽&r在我的上空盘旋。在我继续前进之前，我必须&b杀掉统治这里的末影龙&r。 "
 				""
-				"&5If I have any friends, I should bring them.&r &cThe Dragon certainly will.&r"
+				"&5如果我有朋友，我应该把他们带过来。&r&c如果末影龙也有朋友的话，他一定会这样做的。&r"
 			]
 			dependencies: ["38DD05361859F906"]
 			id: "5EA9E1B2197DC462"
@@ -87,11 +87,11 @@
 		{
 			x: 0.0d
 			y: -0.5d
-			subtitle: "Get a Dragon Scale"
+			subtitle: "获取龙鳞"
 			description: [
-				"While exploring the far reaches of the nothing, I've found the &6remnants of a civilization that once was&r, growing from the rock like branching trees."
+				"在探索无垠的远方时，我发现了一种&6曾经残留的文明&r，它从岩石般的树枝上生长出来。"
 				""
-				"Raiding these ruins has netted me &6great treasures&r. This includes &bDragon Scales&r, proof that this civilization was once mighty indeed."
+				"突袭这些废墟给我带来&6可观的财富&。其中包括&b龙鳞&r，这证明了这个文明曾经确实非常强大。"
 			]
 			dependencies: ["5EA9E1B2197DC462"]
 			id: "302AE29C5545EB4A"
@@ -119,8 +119,8 @@
 			x: 0.0d
 			y: -5.5d
 			shape: "hexagon"
-			subtitle: "Get Enderite"
-			description: ["By infusing Will and Source Gems into Enderium, I've created a new highly stable magical material!"]
+			subtitle: "获得末影合金锭"
+			description: ["通过将恶魔意志注入魔源宝石块，并与末影金属锭混合，我创造了一种新的高度稳定的魔法材料！"]
 			dependencies: ["1833516DA3102958"]
 			size: 1.25d
 			id: "2451EBFA3158F0FD"
@@ -161,15 +161,15 @@
 		{
 			x: 0.0d
 			y: 1.0d
-			subtitle: "Defeat the Void Worm"
+			subtitle: "击败虚空蠕虫"
 			description: [
-				"Beyond the edge of the infinite void, something lurks."
+				"在无垠虚空的边缘之外，潜伏着某种东西。"
 				""
-				"The &bVoid Worm&r is the guardian of all worlds. Defeating it would allow me to &6bind its power to my will&r, the final step to &5breaching the void&r."
+				"所有世界的守护者&b虚空蠕虫&r。击败它，我就能将&6它的力量和我的意志相结合&r，这是&5破碎虚空&r的最后一步。"
 				""
-				"With its downfall, I can gain the final piece of research I will need to pierce the veil between dimensions."
+				"随着它的衰弱，我能够获得最后一项我需要的研究来穿透维度之间的面纱。"
 				""
-				"Before I can control the energies of the void gateway I will need to &6Defeat the Ender Dragon&r and claim her power for my own."
+				"在我能控制虚空之门的能量之前，我需要&6击败末影龙&r并将其力量占为己有。"
 			]
 			dependencies: ["302AE29C5545EB4A"]
 			id: "513E078F2B82A9D2"
@@ -215,12 +215,12 @@
 			]
 		}
 		{
-			title: "Pluck out the Eyes of Darkness"
+			title: "拔取黑暗之眼"
 			x: 0.0d
 			y: 3.0d
 			shape: "hexagon"
-			subtitle: "Slay the Void Worm"
-			description: ["With the &6Gate Pearl&r in hand, and the power of the Dragon in my veins, I can finally &bstrike down the Worm&r that travels beyond worlds, and &6take its power for my own&r!"]
+			subtitle: "杀死虚空蠕虫"
+			description: ["有了&6传送门珍珠&r在手，以及我血液中龙的力量在，我终于可以&b打倒穿越世界的虚空蠕虫&r，并且&6将其力量占为己有&r！"]
 			dependencies: ["513E078F2B82A9D2"]
 			size: 2.0d
 			id: "17C6262399CF5FB1"
@@ -238,18 +238,18 @@
 			}]
 		}
 		{
-			title: "Eldritch Transcendence"
+			title: "突破……"
 			icon: "minecolonies:blockhutuniversity"
 			x: 0.0d
 			y: 5.25d
 			shape: "hexagon"
-			subtitle: "The Final Word"
+			subtitle: "最后的世界"
 			description: [
-				"With the Worm's power to pierce dimensions, I've finally obtained everything I need to prepare my exodus."
+				"虚空蠕虫给予了我穿越维度的能力，我现已满足离开这里的所有条件。"
 				""
-				"The final steps needed are to &bupgrade my University&r to its maximum, and complete the &bEldritch Transcendence&r research."
+				"最后我需要将&b我的大学升到满级&r，并且完成&b卓越&r的研究。"
 				""
-				"Only then will I be able to &6return to my home&r."
+				"只有到那时我才能够&6回家&r。"
 			]
 			dependencies: ["17C6262399CF5FB1"]
 			size: 1.5d
