@@ -452,7 +452,7 @@
 			x: -0.5d
 			y: -0.75d
 			shape: "square"
-			subtitle: "制作一些宝典"
+			subtitle: "制作一个宝典"
 			description: [
 				"&b装备宝典&r可以像书一样被附魔，但是&6只接受某种特殊类型的附魔&r。"
 				""
