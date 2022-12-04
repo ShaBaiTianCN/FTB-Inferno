@@ -1,1269 +1,1285 @@
 {
-        id: "3FEEBB1A6C49A700"
-        group: "3165B92DB1BC8401"
-        order_index: 1
-        filename: "resource_gen"
-        title: "阿兹瑞尔的收购"
-        icon: "minecraft:lava_bucket"
-        subtitle: ["钓鱼，早期的养殖业"]
-        default_quest_shape: ""
-        default_hide_dependency_lines: false
-        quests: [
-                {
-                        title: "造石加速器9000"
-                        icon: "minecraft:cobblestone"
-                        x: -5.0d
-                        y: -5.0d
-                        shape: "square"
-                        subtitle: "做一个造石机"
-                        description: [
-                                "水和熔岩能结合成圆石，但是我&c不能放水&……通常来说。"
-                                ""
-                                "这个&b造石机&r能让我绕过这个不方便的事实。它保持水在体内，深深隔绝地狱的热。"
-                                ""
-                                "它生成的圆石是储存在里面的，然后&6必须要&r通过漏斗，管道或其他类似的&6抽出&r。它生成圆石&6&n非常快&r。"
-                                ""
-                                "如果我甚至不能&o制造&r这个造石机，我能&6从渔夫小屋里抽水&r来生成圆石，虽然……更慢。"
-                                "{image:inferno:textures/quest/cobble.png width:1000 height:674 align:1 fit:true}"
-                        ]
-                        min_required_dependencies: 1
-                        dependencies: [
-                                "00E0DB64568AA664"
-                                "4E07E560443913CB"
-                        ]
-                        min_width: 300
-                        id: "136605F4DEC7544A"
-                        tasks: [{
-                                id: "19926F4E0DB3723B"
-                                type: "item"
-                                item: "simplecobblegen:cobble_generator"
-                        }]
-                        rewards: [
-                                {
-                                        id: "50F6DE983D0BB579"
-                                        type: "loot"
-                                        table_id: 4864474103053531672L
-                                }
-                                {
-                                        id: "2688FACA6304C301"
-                                        type: "item"
-                                        item: "minecraft:cobblestone"
-                                        count: 32
-                                }
-                        ]
-                }
-                {
-                        title: "为什么如此玄武咸？"
-                        icon: "minecraft:basalt"
-                        x: -6.0d
-                        y: -4.0d
-                        shape: "square"
-                        subtitle: "自动玄武岩机"
-                        description: [
-                                "我已经经历了极冷&b蓝冰&r。我能够&6从雪块转变而来&r在炼金矩阵里。我应该能&6召唤一个雪傀儡&r来获取一些……"
-                                ""
-                                "如果我让&b熔岩&r&6流经&b灵魂土&r当&6与蓝冰相邻&r，这三个会结合成&b玄武岩&r。"
-                                ""
-                                "{image:inferno:textures/quest/resourcegen.png width:1000 height:739 align:1 fit:true}"
-                        ]
-                        dependencies: ["4B52BBBF01CDF027"]
-                        dependency_requirement: "one_started"
-                        min_width: 225
-                        id: "4E2F724CF086FE0E"
-                        tasks: [
-                                {
-                                        id: "45D7779BB02AF267"
-                                        type: "item"
-                                        item: "minecraft:lava_bucket"
-                                }
-                                {
-                                        id: "2904509C6862C9E1"
-                                        type: "item"
-                                        item: "minecraft:blue_ice"
-                                }
-                                {
-                                        id: "7A6BA359D90D9852"
-                                        type: "item"
-                                        item: "minecraft:soul_soil"
-                                }
-                        ]
-                        rewards: [
-                                {
-                                        id: "767DE8DA3D116738"
-                                        type: "item"
-                                        item: "minecraft:basalt"
-                                        count: 64
-                                }
-                                {
-                                        id: "6BD03E248E94821E"
-                                        type: "item"
-                                        item: {
-                                                id: "ceramicbucket:ceramic_bucket"
-                                                Count: 1b
-                                                tag: {
-                                                        Fluid: {
-                                                                FluidName: "biomesoplenty:blood"
-                                                                Amount: 1000
-                                                        }
-                                                }
-                                        }
-                                }
-                        ]
-                }
-                {
-                        title: "简单树场！"
-                        x: -5.5d
-                        y: 0.0d
-                        shape: "square"
-                        subtitle: "做一个盆栽盆"
-                        description: [
-                                "这个&b盆栽盆&r用土壤和一个树苗自动地种植树（或树苗类似地植物）。"
-                                ""
-                                "它能被特定物品升级。"
-                        ]
-                        dependencies: ["34E8389197884E32"]
-                        id: "118612040F3AE9F7"
-                        tasks: [{
-                                id: "3CBE265D7B6C72F5"
-                                type: "item"
-                                item: "bonsaitrees3:bonsaipot"
-                        }]
-                        rewards: [{
-                                id: "0B168D214F07CBD2"
-                                type: "item"
-                                item: "minecraft:hopper"
-                        }]
-                }
-                {
-                        title: "盆栽漏斗"
-                        x: -6.5d
-                        y: 0.5d
-                        shape: "square"
-                        subtitle: "获得一个漏斗"
-                        description: ["一个&b漏斗&r能使盆栽盆输出物品到下方的容器。"]
-                        dependencies: ["118612040F3AE9F7"]
-                        id: "76D68C3A83E6317F"
-                        tasks: [{
-                                id: "3AC5A920BE7BD2EC"
-                                type: "item"
-                                item: "minecraft:hopper"
-                        }]
-                        rewards: [{
-                                id: "4FD3625892EB3EC6"
-                                type: "item"
-                                item: "minecraft:hopper"
-                                count: 4
-                        }]
-                }
-                {
-                        title: "有斧头的自动机器"
-                        icon: {
-                                id: "minecraft:netherite_axe"
-                                Count: 1b
-                                tag: {
-                                        Damage: 0
-                                }
-                        }
-                        x: -4.5d
-                        y: 0.5d
-                        shape: "square"
-                        subtitle: "做一把斧头"
-                        description: [
-                                "加一把&b斧头&r能使盆栽盆在长大后自动收获。"
-                                ""
-                                "&6时运&r增加掉落"
-                                "&6精准采集&r应用精准采集"
-                                "&6效率&r减少生长时间"
-                        ]
-                        dependencies: ["118612040F3AE9F7"]
-                        id: "25CBB0FF1661D5B8"
-                        tasks: [{
-                                id: "064C26B5129011B1"
-                                type: "item"
-                                title: "任何斧头"
-                                item: {
-                                        id: "itemfilters:tag"
-                                        Count: 1b
-                                        tag: {
-                                                value: "forge:tools/axe"
-                                        }
-                                }
-                        }]
-                        rewards: [{
-                                id: "1E93A08F24537856"
-                                type: "item"
-                                item: {
-                                        id: "kubejs:foresters_delight"
-                                        Count: 1b
-                                        tag: {
-                                                RepairCost: 3
-                                                Damage: 0
-                                                Enchantments: [
-                                                        {
-                                                                lvl: 6s
-                                                                id: "minecraft:efficiency"
-                                                        }
-                                                        {
-                                                                lvl: 1s
-                                                                id: "minecraft:silk_touch"
-                                                        }
-                                                ]
-                                                display: {
-                                                        Name: "{\"text\":\"盆栽知音\"}"
-                                                }
-                                        }
-                                }
-                        }]
-                }
-                {
-                        title: "肉~"
-                        icon: "biomesoplenty:flesh"
-                        x: -4.0d
-                        y: -6.0d
-                        shape: "square"
-                        subtitle: "是~, 是~……他将再次鲜活。"
-                        description: [
-                                "&6熔岩&r会很快蒸干&6血&r变成&b肉块&r。"
-                                ""
-                                "像这样古怪，我能找到几种方式来使用它。"
-                                ""
-                                "{image:inferno:textures/quest/resourcegen.png width:1000 height:739 align:1 fit:true}"
-                        ]
-                        dependencies: ["40D4850B34EC5677"]
-                        min_width: 225
-                        id: "1D619B0E7776C8EB"
-                        tasks: [
-                                {
-                                        id: "4F17C47D492139AD"
-                                        type: "item"
-                                        item: "minecraft:lava_bucket"
-                                }
-                                {
-                                        id: "41B0C4C875674C8B"
-                                        type: "item"
-                                        item: "biomesoplenty:blood_bucket"
-                                }
-                        ]
-                        rewards: [{
-                                id: "65BE5E32EE31F67E"
-                                type: "item"
-                                item: "biomesoplenty:flesh"
-                                count: 64
-                        }]
-                }
-                {
-                        title: "凝结剂"
-                        icon: "tconstruct:blood_slime_sapling"
-                        x: -6.0d
-                        y: 1.5d
-                        shape: "square"
-                        subtitle: "自动化“胶水”"
-                        description: [
-                                "&灵浆球&r是在这里我能得到最像黏液球的物品。它有一点亵渎神明，但我在这里不必虔诚。"
-                                ""
-                                "为了让盆栽盆能够收获灵浆球，它需要有一个蜂箱。"
-                        ]
-                        dependencies: ["118612040F3AE9F7"]
-                        id: "7ECA8AA3D7EF3D40"
-                        tasks: [
-                                {
-                                        id: "7A03ABF9F3E1B35E"
-                                        type: "item"
-                                        item: "tconstruct:blood_slime_sapling"
-                                }
-                                {
-                                        id: "1E60609026FB56F9"
-                                        type: "item"
-                                        item: "tconstruct:blood_ichor_slime_grass"
-                                }
-                        ]
-                        rewards: [{
-                                id: "759795C5691F7707"
-                                type: "item"
-                                item: "tconstruct:ichor_slime_ball"
-                                count: 16
-                        }]
-                }
-                {
-                        title: "如何抓鱼"
-                        x: -11.5d
-                        y: -1.0d
-                        shape: "square"
-                        subtitle: "把钓鱼竿投进熔岩里"
-                        description: [
-                                "我已经见过所有生活的方式 — 如果你能这样叫它的话 — 从淹没这些低矮平原的滚滚熔岩底部冒泡。我也已经见过&6闪亮的金属和其他宝藏&r，这将极大地帮助我从这个地方逃脱。"
-                                ""
-                                "只需要集中一点注意力，我就可以通过原本易燃的丝线释放一点力量，从而允许钓竿&b在岩浆深处钓鱼&r 。这样做很费力, 但在钓鱼中总能找到平静，在这里也一样。"
-                        ]
-                        dependencies: ["5C0BF701B0990D7C"]
-                        min_width: 325
-                        id: "535BC7512F991B24"
-                        tasks: [{
-                                id: "166F4D9CB4C9271D"
-                                type: "item"
-                                disable_toast: true
-                                item: {
-                                        id: "minecraft:fishing_rod"
-                                        Count: 1b
-                                        tag: {
-                                                Damage: 0
-                                        }
-                                }
-                        }]
-                        rewards: [
-                                {
-                                        id: "0197645283BA6024"
-                                        type: "item"
-                                        item: "farmersdelight:fish_stew"
-                                }
-                                {
-                                        id: "07D7B145843E0723"
-                                        type: "xp_levels"
-                                        xp_levels: 2
-                                }
-                                {
-                                        id: "2239AB70832E3AB4"
-                                        type: "item"
-                                        item: {
-                                                id: "minecraft:splash_potion"
-                                                Count: 1b
-                                                tag: {
-                                                        Potion: "alexsmobs:long_lava_vision"
-                                                }
-                                        }
-                                }
-                        ]
-                }
-                {
-                        title: "诡异森林"
-                        icon: "minecraft:warped_nylium"
-                        disable_toast: true
-                        x: -14.0d
-                        y: -3.5d
-                        shape: "square"
-                        dependencies: ["03A93EA45228E9C0"]
-                        id: "44FACD28DDA3C9B5"
-                        tasks: [
-                                {
-                                        id: "1BF803B16DA00C10"
-                                        type: "item"
-                                        title: "1 诡异菌 | 权重 8"
-                                        disable_toast: true
-                                        item: "minecraft:warped_fungus"
-                                }
-                                {
-                                        id: "4B0497B6BB5DEB2E"
-                                        type: "item"
-                                        title: "1 线 | 权重 4"
-                                        disable_toast: true
-                                        item: "minecraft:string"
-                                }
-                        ]
-                }
-                {
-                        title: "诡异森林"
-                        icon: "minecraft:warped_nylium"
-                        disable_toast: true
-                        x: -9.0d
-                        y: -3.5d
-                        shape: "square"
-                        dependencies: ["03A93EA45228E9C0"]
-                        id: "3BB51DB85CE59DAF"
-                        tasks: [
-                                {
-                                        id: "45508907CD9E9FAA"
-                                        type: "item"
-                                        title: "1-3 末影珍珠 | 权重 8"
-                                        disable_toast: true
-                                        item: "minecraft:ender_pearl"
-                                }
-                                {
-                                        id: "3D1D485264107C44"
-                                        type: "item"
-                                        title: "1 铜锭 | 权重 15"
-                                        disable_toast: true
-                                        item: "minecraft:copper_ingot"
-                                }
-                                {
-                                        id: "1365B8529FE0F5CB"
-                                        type: "item"
-                                        title: "1-3 铜粒 | 权重 8"
-                                        disable_toast: true
-                                        item: "ftbic:copper_nugget"
-                                }
-                                {
-                                        id: "5111EDCC7EE3CB12"
-                                        type: "item"
-                                        title: "2-8 红石粉 | 权重 8"
-                                        disable_toast: true
-                                        item: "minecraft:redstone"
-                                }
-                                {
-                                        id: "14843DD874C94E52"
-                                        type: "item"
-                                        title: "2-8 青金石 | 权重 4"
-                                        disable_toast: true
-                                        item: "minecraft:lapis_lazuli"
-                                }
-                        ]
-                }
-                {
-                        title: "绯红森林"
-                        icon: "minecraft:crimson_nylium"
-                        disable_toast: true
-                        x: -14.0d
-                        y: -4.5d
-                        shape: "square"
-                        dependencies: ["03A93EA45228E9C0"]
-                        id: "3D0B70F8B9F97370"
-                        tasks: [
-                                {
-                                        id: "42E80B65AF8B9954"
-                                        type: "item"
-                                        title: "1 皮革 | 权重 3"
-                                        disable_toast: true
-                                        item: "minecraft:leather"
-                                }
-                                {
-                                        id: "4FE8F3C3B62D6E4C"
-                                        type: "item"
-                                        title: "1 绯红菌 | 权重 8"
-                                        disable_toast: true
-                                        item: "minecraft:crimson_fungus"
-                                }
-                                {
-                                        id: "5981BCC34A163445"
-                                        type: "item"
-                                        title: "1 下界疣 | 权重 10"
-                                        disable_toast: true
-                                        item: "minecraft:nether_wart"
-                                }
-                                {
-                                        id: "200AE0083611DE05"
-                                        type: "item"
-                                        title: "1 线 | 权重 4"
-                                        disable_toast: true
-                                        item: "minecraft:string"
-                                }
-                                {
-                                        id: "6ADD1E7949B3279F"
-                                        type: "item"
-                                        title: "1 熟猪排 | 权重 5"
-                                        disable_toast: true
-                                        item: "minecraft:cooked_porkchop"
-                                }
-                        ]
-                }
-                {
-                        title: "绯红森林"
-                        icon: "minecraft:crimson_nylium"
-                        disable_toast: true
-                        x: -9.0d
-                        y: -4.5d
-                        shape: "square"
-                        dependencies: ["03A93EA45228E9C0"]
-                        id: "2CE7A2050E4D7C43"
-                        tasks: [
-                                {
-                                        id: "08487988ADDC5CF9"
-                                        type: "item"
-                                        title: "1 金锭 | 权重 5"
-                                        disable_toast: true
-                                        item: "minecraft:gold_ingot"
-                                }
-                                {
-                                        id: "4BC8DACF9A57BDBF"
-                                        type: "item"
-                                        title: "1 金粒 | 权重 15"
-                                        item: "minecraft:gold_nugget"
-                                }
-                                {
-                                        id: "7C1BB31FC6829BBE"
-                                        type: "item"
-                                        title: "1 铜锭 | 权重 15"
-                                        disable_toast: true
-                                        item: "minecraft:copper_ingot"
-                                }
-                                {
-                                        id: "147E06231A9BB185"
-                                        type: "item"
-                                        title: "1-3 铜粒 | 权重 8"
-                                        disable_toast: true
-                                        item: "ftbic:copper_nugget"
-                                }
-                                {
-                                        id: "4FC9FA41C4E58E7A"
-                                        type: "item"
-                                        title: "2-8 红石粉 | 权重 8"
-                                        disable_toast: true
-                                        item: "minecraft:redstone"
-                                }
-                                {
-                                        id: "7D81C4A25DA4E8D6"
-                                        type: "item"
-                                        title: "2-8 青金石 | 权重 4"
-                                        disable_toast: true
-                                        item: "minecraft:lapis_lazuli"
-                                }
-                        ]
-                }
-                {
-                        title: "灵魂沙峡谷"
-                        icon: "minecraft:soul_sand"
-                        disable_toast: true
-                        x: -14.0d
-                        y: -5.5d
-                        shape: "square"
-                        dependencies: ["03A93EA45228E9C0"]
-                        id: "13093E6CE55D2203"
-                        tasks: [
-                                {
-                                        id: "34F67CC620D4600B"
-                                        type: "item"
-                                        title: "1 灵魂沙 | 权重 10"
-                                        disable_toast: true
-                                        item: "minecraft:soul_sand"
-                                }
-                                {
-                                        id: "6099999D1891A592"
-                                        type: "item"
-                                        title: "1 灵魂土 | 权重 10"
-                                        disable_toast: true
-                                        item: "minecraft:soul_soil"
-                                }
-                                {
-                                        id: "325E18FB065EC396"
-                                        type: "item"
-                                        title: "1 玄武岩 | 权重 10"
-                                        disable_toast: true
-                                        item: "minecraft:basalt"
-                                }
-                                {
-                                        id: "6F36501561DC284B"
-                                        type: "item"
-                                        title: "1 燧石 | 权重 5"
-                                        disable_toast: true
-                                        item: "minecraft:flint"
-                                }
-                                {
-                                        id: "4FC1AB762FE2AC55"
-                                        type: "item"
-                                        title: "1 骨粉 | 权重 10"
-                                        disable_toast: true
-                                        item: "minecraft:bone_meal"
-                                }
-                                {
-                                        id: "387AEE319C79377B"
-                                        type: "item"
-                                        title: "1 火药 | 权重 8"
-                                        disable_toast: true
-                                        item: "minecraft:gunpowder"
-                                }
-                                {
-                                        id: "44E37CF4CCCEE46F"
-                                        type: "item"
-                                        title: "1 骨头 | 权重 10"
-                                        disable_toast: true
-                                        item: "minecraft:bone"
-                                }
-                        ]
-                }
-                {
-                        title: "灵魂沙峡谷"
-                        icon: "minecraft:soul_sand"
-                        disable_toast: true
-                        x: -9.0d
-                        y: -5.5d
-                        shape: "square"
-                        dependencies: ["03A93EA45228E9C0"]
-                        id: "678B4D4254032C22"
-                        tasks: [
-                                {
-                                        id: "1C4526D6315A52C8"
-                                        type: "item"
-                                        title: "1 恶魂之泪 | 权重 4"
-                                        disable_toast: true
-                                        item: "minecraft:ghast_tear"
-                                }
-                                {
-                                        id: "0592B973738F9C6B"
-                                        type: "item"
-                                        title: "1 骨块 | 权重 15"
-                                        disable_toast: true
-                                        item: "minecraft:bone_block"
-                                }
-                                {
-                                        id: "155EEE88138434C6"
-                                        type: "item"
-                                        title: "1 铜锭 | 权重 15"
-                                        disable_toast: true
-                                        item: "minecraft:copper_ingot"
-                                }
-                                {
-                                        id: "1C51B7063AD2543A"
-                                        type: "item"
-                                        title: "1-3 铜粒 | 权重 8"
-                                        disable_toast: true
-                                        item: "ftbic:copper_nugget"
-                                }
-                                {
-                                        id: "764EF550C822BAC7"
-                                        type: "item"
-                                        title: "2-8 红石粉 | 权重 8"
-                                        disable_toast: true
-                                        item: "minecraft:redstone"
-                                }
-                                {
-                                        id: "641A40358E6C5D2B"
-                                        type: "item"
-                                        title: "2-8 青金石 | 权重 4"
-                                        disable_toast: true
-                                        item: "minecraft:lapis_lazuli"
-                                }
-                        ]
-                }
-                {
-                        title: "玄武岩三角洲"
-                        icon: "minecraft:basalt"
-                        disable_toast: true
-                        x: -9.0d
-                        y: -6.5d
-                        shape: "square"
-                        dependencies: ["03A93EA45228E9C0"]
-                        id: "6A78E4135B32A9F8"
-                        tasks: [
-                                {
-                                        id: "0968E0C6C3E62488"
-                                        type: "item"
-                                        title: "1 铜锭 | 权重 15"
-                                        disable_toast: true
-                                        item: "minecraft:copper_ingot"
-                                }
-                                {
-                                        id: "4052DD5C9F074BDD"
-                                        type: "item"
-                                        title: "3-7 铜粒 | 权重 8"
-                                        disable_toast: true
-                                        item: "ftbic:copper_nugget"
-                                }
-                                {
-                                        id: "0E3155909F0BA97B"
-                                        type: "item"
-                                        title: "2-8 红石粉 | 权重 8"
-                                        disable_toast: true
-                                        item: "minecraft:redstone"
-                                }
-                                {
-                                        id: "0EEF686AAF723E99"
-                                        type: "item"
-                                        title: "2-8 青金石 | 权重 4"
-                                        disable_toast: true
-                                        item: "minecraft:lapis_lazuli"
-                                }
-                        ]
-                }
-                {
-                        title: "玄武岩三角洲"
-                        icon: "minecraft:basalt"
-                        disable_toast: true
-                        x: -14.0d
-                        y: -6.5d
-                        shape: "square"
-                        dependencies: ["03A93EA45228E9C0"]
-                        id: "02F5DBF6255B2B5D"
-                        tasks: [
-                                {
-                                        id: "3E6F0B655CF8D939"
-                                        type: "item"
-                                        title: "1 黑石 | 权重 5"
-                                        disable_toast: true
-                                        item: "minecraft:blackstone"
-                                }
-                                {
-                                        id: "61D50CE343FC66C9"
-                                        type: "item"
-                                        title: "1 岩浆膏 | 权重 8"
-                                        disable_toast: true
-                                        item: "minecraft:magma_cream"
-                                }
-                        ]
-                }
-                {
-                        title: "下界荒地"
-                        icon: "minecraft:netherrack"
-                        disable_toast: true
-                        x: -14.0d
-                        y: -7.5d
-                        shape: "square"
-                        dependencies: ["03A93EA45228E9C0"]
-                        id: "6C5363531654239A"
-                        tasks: [
-                                {
-                                        id: "0A20FD36BCF7A7F6"
-                                        type: "item"
-                                        title: "1 荧石粉 | 权重 5"
-                                        disable_toast: true
-                                        item: "minecraft:glowstone_dust"
-                                }
-                                {
-                                        id: "5FBA462AF7CD8432"
-                                        type: "item"
-                                        title: "1 棕色蘑菇 | 权重 10"
-                                        disable_toast: true
-                                        item: "minecraft:brown_mushroom"
-                                }
-                                {
-                                        id: "5A12D34A8908612E"
-                                        type: "item"
-                                        title: "1 红色蘑菇 | 权重 10"
-                                        disable_toast: true
-                                        item: "minecraft:red_mushroom"
-                                }
-                        ]
-                }
-                {
-                        title: "下界荒地"
-                        icon: "minecraft:netherrack"
-                        disable_toast: true
-                        x: -9.0d
-                        y: -7.5d
-                        shape: "square"
-                        dependencies: ["03A93EA45228E9C0"]
-                        id: "5DDF2910BC611BA5"
-                        tasks: [
-                                {
-                                        id: "3F2501A850EF3BE4"
-                                        type: "item"
-                                        title: "1 下界石英 | 权重 15"
-                                        disable_toast: true
-                                        item: "minecraft:quartz"
-                                }
-                                {
-                                        id: "73D09000311FB1A9"
-                                        type: "item"
-                                        title: "1 铜锭 | 权重 15"
-                                        disable_toast: true
-                                        item: "ftbic:copper_nugget"
-                                }
-                                {
-                                        id: "3EACFF92BAC3CFAD"
-                                        type: "item"
-                                        title: "1-3 铜粒 | 权重 8"
-                                        disable_toast: true
-                                        item: "ftbic:copper_nugget"
-                                }
-                                {
-                                        id: "65DC21D6809816C9"
-                                        type: "item"
-                                        title: "2-8 红石粉 | 权重 8"
-                                        disable_toast: true
-                                        item: "minecraft:redstone"
-                                }
-                                {
-                                        id: "3A74B54F3C120D99"
-                                        type: "item"
-                                        title: "2-8 青金石 | 权重 4"
-                                        disable_toast: true
-                                        item: "minecraft:lapis_lazuli"
-                                }
-                        ]
-                }
-                {
-                        title: "常规垃圾"
-                        icon: "ftbic:empty_can"
-                        disable_toast: true
-                        x: -13.0d
-                        y: -2.5d
-                        shape: "square"
-                        subtitle: "一个学到的经验"
-                        description: ["在钓鱼一整天后，我意识到与其制作新的钓鱼杆，不如加上经验修补... 好样的。"]
-                        hide_dependency_lines: false
-                        dependencies: ["03A93EA45228E9C0"]
-                        id: "37183175A8DE74D3"
-                        tasks: [
-                                {
-                                        id: "1AA9242C4553BB20"
-                                        type: "item"
-                                        title: "1-3 煤炭 | 权重 3"
-                                        disable_toast: true
-                                        item: "minecraft:coal"
-                                }
-                                {
-                                        id: "0FAF7C255802B0A7"
-                                        type: "item"
-                                        title: "1-7 红石粉 | 权重 15"
-                                        disable_toast: true
-                                        item: "minecraft:redstone"
-                                }
-                                {
-                                        id: "12296A320840F8AB"
-                                        type: "item"
-                                        title: "1 熔火核心 | 权重 1"
-                                        disable_toast: true
-                                        item: "reliquary:molten_core"
-                                }
-                                {
-                                        id: "57A300E33DF1DFD4"
-                                        type: "item"
-                                        title: "1 火珊瑚扇 | 权重 3"
-                                        disable_toast: true
-                                        item: "minecraft:fire_coral_fan"
-                                }
-                                {
-                                        id: "710DFA65C77FCB9E"
-                                        type: "item"
-                                        title: "1 枪药珠 | 权重 3"
-                                        disable_toast: true
-                                        item: "nethersdelight:propelpearl"
-                                }
-                                {
-                                        id: "03C1C261FC574A89"
-                                        type: "item"
-                                        title: "1-3 铜锭 | 权重 10"
-                                        disable_toast: true
-                                        item: "minecraft:copper_ingot"
-                                }
-                                {
-                                        id: "5BD3DAAEE4A3B9CC"
-                                        type: "item"
-                                        title: "1 烈焰粉 | 权重 2"
-                                        disable_toast: true
-                                        item: "minecraft:blaze_powder"
-                                }
-                        ]
-                        rewards: [{
-                                id: "4D116085D977DB31"
-                                type: "item"
-                                item: {
-                                        id: "minecraft:fishing_rod"
-                                        Count: 1b
-                                        tag: {
-                                                RepairCost: 7
-                                                Damage: 0
-                                                Enchantments: [
-                                                        {
-                                                                lvl: 1s
-                                                                id: "minecraft:mending"
-                                                        }
-                                                        {
-                                                                lvl: 3s
-                                                                id: "minecraft:luck_of_the_sea"
-                                                        }
-                                                        {
-                                                                lvl: 2s
-                                                                id: "minecraft:unbreaking"
-                                                        }
-                                                ]
-                                                display: {
-                                                        Name: "{\"text\":\"Rod of the Infero\"}"
-                                                }
-                                        }
-                                }
-                        }]
-                }
-                {
-                        title: "常规宝藏"
-                        icon: "reliquary:fortune_coin"
-                        disable_toast: true
-                        x: -10.0d
-                        y: -2.5d
-                        shape: "square"
-                        subtitle: "总是好运"
-                        description: ["我也总是能从这个池子里发现带有\"灵魂疾行\"的附魔书，附魔弓和钓鱼竿！"]
-                        dependencies: ["03A93EA45228E9C0"]
-                        id: "37B6F7FF6F4E1498"
-                        tasks: [
-                                {
-                                        id: "0B98FD587604BFE7"
-                                        type: "item"
-                                        title: "1 烈焰棒 | 权重 15"
-                                        disable_toast: true
-                                        item: "minecraft:blaze_rod"
-                                }
-                                {
-                                        id: "0E37C7622EB31B33"
-                                        type: "item"
-                                        title: "1 铜锭 | 权重 15"
-                                        disable_toast: true
-                                        item: "minecraft:copper_ingot"
-                                }
-                                {
-                                        id: "50EA5B9379802528"
-                                        type: "item"
-                                        title: "1-3 铜粒 | 权重 8"
-                                        icon: "ftbic:copper_nugget"
-                                        disable_toast: true
-                                        item: {
-                                                id: "itemfilters:tag"
-                                                Count: 1b
-                                                tag: {
-                                                        value: "forge:nuggets/copper"
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "4BE17BCD18514B96"
-                                        type: "item"
-                                        title: "2-8 红石粉 | 权重 8"
-                                        disable_toast: true
-                                        item: "minecraft:redstone"
-                                }
-                                {
-                                        id: "06197B139F5DE64E"
-                                        type: "item"
-                                        title: "2-8 青金石 | 权重 4"
-                                        disable_toast: true
-                                        item: "minecraft:lapis_lazuli"
-                                }
-                        ]
-                        rewards: [{
-                                id: "7985B19EE553C29F"
-                                type: "item"
-                                item: {
-                                        id: "apotheosis:potion_charm"
-                                        Count: 1b
-                                        tag: {
-                                                Damage: 0
-                                                Potion: "alexsmobs:soulsteal"
-                                        }
-                                }
-                        }]
-                }
-                {
-                        title: "种植远古魔法"
-                        x: -5.0d
-                        y: 1.5d
-                        shape: "square"
-                        subtitle: "学习如何在下界种树"
-                        description: [
-                                "在这个领域的一些植物&c没有足够的生长能力去繁殖&r。尽管我付出了努力，它们还是枯萎了。"
-                                ""
-                                "我的&6植物盆栽&r刚好&o含有&r足够的魔力使它们生存下来。"
-                                ""
-                                "&o一些树木（或类似于树木的东西，比如珊瑚）不会掉落树苗，只能在盆栽盆中不断生长。"
-                        ]
-                        dependencies: ["118612040F3AE9F7"]
-                        id: "1850C606348A5494"
-                        tasks: [{
-                                id: "1A0483E1E94AE740"
-                                type: "item"
-                                item: "naturesaura:ancient_sapling"
-                        }]
-                        rewards: [
-                                {
-                                        id: "46E67C0E2234E645"
-                                        type: "item"
-                                        item: "tconstruct:earth_slime_sapling"
-                                }
-                                {
-                                        id: "6BC7BF12B849C81B"
-                                        type: "item"
-                                        item: "tconstruct:earth_slime_dirt"
-                                }
-                        ]
-                }
-                {
-                        title: "熔岩垂钓"
-                        x: -11.5d
-                        y: -5.0d
-                        shape: "square"
-                        subtitle: "没有什么比古朴的火山洞穴更让我喜欢了"
-                        description: [
-                                "在熔岩里面能钓鱼和在水中钓鱼有点像。抛钩，等一会，拉起来。"
-                                ""
-                                "像现实世界，钓鱼有机会同时钩到&c垃圾&r和&6宝藏&r。似乎&b生物群系也是一个影响掉落因素&r。"
-                                ""
-                                "在左侧，我陈列出了所有不同的可以被钓到的&b垃圾&r以及它们所属的生物群系。在右侧，我以同样的方式陈列出了所有不同的可以被钓到的&b宝藏&r。"
-                        ]
-                        dependencies: ["535BC7512F991B24"]
-                        min_width: 275
-                        id: "3D9659853F508B0C"
-                        tasks: [{
-                                id: "6A47F2C1BDB07B50"
-                                type: "checkmark"
-                                icon: "minecraft:water_bucket"
-                        }]
-                        rewards: [
-                                {
-                                        id: "5D98A07BA1FBE07F"
-                                        type: "xp_levels"
-					xp_levels: 5
-                                }
-                                {
-                                        id: "32905BBBBA15E777"
-                                        type: "item"
-                                        item: "farmersdelight:kelp_roll"
-                                }
-                        ]
-                }
-                {
-                        title: "水中的宝藏"
-                        icon: "reliquary:fortune_coin"
-                        disable_toast: true
-                        x: -9.5d
-                        y: 2.0d
-                        shape: "square"
-                        dependencies: ["3D9659853F508B0C"]
-                        id: "7157213FA2345405"
-                        tasks: [
-                                {
-                                        id: "732DDCAFAAF22AC0"
-                                        type: "item"
-                                        disable_toast: true
-                                        item: "minecraft:nautilus_shell"
-                                }
-                                {
-                                        id: "7A545936B6CEA53F"
-                                        type: "item"
-                                        disable_toast: true
-                                        item: "minecraft:kelp"
-                                }
-                                {
-                                        id: "0F257A8F154815EF"
-                                        type: "item"
-                                        disable_toast: true
-                                        item: "minecraft:lapis_lazuli"
-                                }
-                                {
-                                        id: "16D23212D8F4D691"
-                                        type: "item"
-                                        disable_toast: true
+	id: "3FEEBB1A6C49A700"
+	group: "3165B92DB1BC8401"
+	order_index: 1
+	filename: "resource_gen"
+	title: "阿兹瑞尔的收购"
+	icon: "minecraft:lava_bucket"
+	subtitle: ["钓鱼，早期的养殖业"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "造石加速器9000"
+			icon: "minecraft:cobblestone"
+			x: -5.0d
+			y: -5.0d
+			shape: "square"
+			subtitle: "做一个造石机"
+			description: [
+				"水和熔岩能结合成圆石，但是我&c不能放水&……通常来说。"
+				""
+				"这个&b造石机&r能让我绕过这个不方便的事实。它保持水在体内，深深隔绝地狱的热。"
+				""
+				"它生成的圆石是储存在里面的，然后&6必须要&r通过漏斗，管道或其他类似的&6抽出&r。它生成圆石&6&n非常快&r。"
+				""
+				"如果我甚至不能&o制造&r这个造石机，我能&6从渔夫小屋里抽水&r来生成圆石，虽然……更慢。"
+				"{image:inferno:textures/quest/cobble.png width:1000 height:674 align:1 fit:true}"
+			]
+			min_required_dependencies: 1
+			dependencies: [
+				"00E0DB64568AA664"
+				"4E07E560443913CB"
+			]
+			min_width: 300
+			id: "136605F4DEC7544A"
+			tasks: [{
+				id: "19926F4E0DB3723B"
+				type: "item"
+				item: "simplecobblegen:cobble_generator"
+			}]
+			rewards: [
+				{
+					id: "50F6DE983D0BB579"
+					type: "loot"
+					table_id: 4864474103053531672L
+				}
+				{
+					id: "2688FACA6304C301"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "为什么如此玄武咸？"
+			icon: "minecraft:basalt"
+			x: -6.0d
+			y: -4.0d
+			shape: "square"
+			subtitle: "自动玄武岩机"
+			description: [
+				"我已经经历了极冷&b蓝冰&r。我能够&6从雪块转变而来&r在炼金矩阵里。我应该能&6召唤一个雪傀儡&r来获取一些……"
+				""
+				"如果我让&b熔岩&r&6流经&b灵魂土&r当&6与蓝冰相邻&r，这三个会结合成&b玄武岩&r。"
+				""
+				"{image:inferno:textures/quest/resourcegen.png width:1000 height:739 align:1 fit:true}"
+			]
+			dependencies: ["4B52BBBF01CDF027"]
+			dependency_requirement: "one_started"
+			min_width: 225
+			id: "4E2F724CF086FE0E"
+			tasks: [
+				{
+					id: "45D7779BB02AF267"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "2904509C6862C9E1"
+					type: "item"
+					item: "minecraft:blue_ice"
+				}
+				{
+					id: "7A6BA359D90D9852"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+			]
+			rewards: [
+				{
+					id: "767DE8DA3D116738"
+					type: "item"
+					item: "minecraft:basalt"
+					count: 64
+				}
+				{
+					id: "6BD03E248E94821E"
+					type: "item"
 					item: {
-						id: "itemfilters:or"
+						id: "ceramicbucket:ceramic_bucket"
 						Count: 1b
 						tag: {
-							items: [
-								{
-									id: "reliquary:guardian_spike"
-									Count: 1b
-								}
-								{
-									id: "minecraft:prismarine_crystals"
-									Count: 1b
-								}
-								{
-									id: "minecraft:prismarine_shard"
-									Count: 1b
-								}
-							]
+							Fluid: {
+								FluidName: "biomesoplenty:blood"
+								Amount: 1000
+							}
 						}
 					}
-                                }
-                                {
-                                        id: "79ECCE55FCA5144B"
-                                        type: "item"
-                                        disable_toast: true
-                                        item: {
-                                                id: "minecolonies:ancienttome"
-                                                Count: 1b
-                                                tag: {
-                                                        raidWillHappen: 0b
-                                                }
-                                        }
-                                }
-                        ]
-                        rewards: [
-                                {
-                                        id: "0F23C406A4F73BBE"
-                                        type: "item"
-                                        item: {
-                                                id: "quark:ancient_tome"
-                                                Count: 1b
-                                                tag: {
-                                                        StoredEnchantments: [{
-                                                                lvl: 9s
-                                                                id: "minecraft:sharpness"
-                                                        }]
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "6E5D06BC1929C121"
-                                        type: "item"
-                                        item: {
-                                                id: "quark:ancient_tome"
-                                                Count: 1b
-                                                tag: {
-                                                        StoredEnchantments: [{
-                                                                lvl: 7s
-                                                                id: "minecraft:looting"
-                                                        }]
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "1E8C80FA4ACD2B74"
-                                        type: "item"
-                                        item: {
-                                                id: "quark:ancient_tome"
-                                                Count: 1b
-                                                tag: {
-                                                        StoredEnchantments: [{
-								lvl: 8s
-                                                                id: "minecraft:unbreaking"
-                                                        }]
-                                                }
-                                        }
-                                }
-                        ]
-                }
-                {
-                        title: "水中的垃圾"
-                        icon: "ftbic:empty_can"
-                        disable_toast: true
-                        x: -13.5d
-                        y: 2.0d
-                        shape: "square"
-                        dependencies: ["3D9659853F508B0C"]
-                        id: "4A647E320FF1B849"
-                        tasks: [
-                                {
-                                        id: "5F614F32AD3A9DB4"
-                                        type: "item"
-                                        disable_toast: true
-                                        item: "ftbic:copper_nugget"
-                                }
-                                {
-                                        id: "3B87675271850292"
-                                        type: "item"
-                                        disable_toast: true
-                                        item: "minecraft:ink_sac"
-                                }
-                                {
-                                        id: "4EDC546ABB098FBC"
-                                        type: "item"
-                                        disable_toast: true
-                                        item: "minecraft:lily_pad"
-                                }
-                                {
-                                        id: "1CF577EF27EB4727"
-                                        type: "item"
-                                        disable_toast: true
-                                        item: "minecraft:kelp"
-                                }
-                                {
-                                        id: "5522E71B3CA6C7DB"
-                                        type: "item"
-                                        disable_toast: true
-                                        item: "minecraft:sea_pickle"
-                                }
-                                {
-                                        id: "4F907B6AFD616DC0"
-                                        type: "item"
-                                        disable_toast: true
-                                        item: {
-                                                id: "minecraft:potion"
-                                                Count: 1b
-                                                tag: {
-                                                        Potion: "minecraft:water"
-                                                }
-                                        }
-                                }
-                        ]
-                        rewards: [{
-                                id: "105B03FC4033D9EC"
-                                type: "item"
+				}
+			]
+		}
+		{
+			title: "简单树场！"
+			x: -5.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "做一个盆栽盆"
+			description: [
+				"这个&b盆栽盆&r用土壤和一个树苗自动地种植树（或树苗类似地植物）。"
+				""
+				"它能被特定物品升级。"
+			]
+			dependencies: ["34E8389197884E32"]
+			id: "118612040F3AE9F7"
+			tasks: [{
+				id: "3CBE265D7B6C72F5"
+				type: "item"
+				item: "bonsaitrees3:bonsaipot"
+			}]
+			rewards: [{
+				id: "0B168D214F07CBD2"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
+		}
+		{
+			title: "盆栽漏斗"
+			x: -6.5d
+			y: 0.5d
+			shape: "square"
+			subtitle: "获得一个漏斗"
+			description: ["一个&b漏斗&r能使盆栽盆输出物品到下方的容器。"]
+			dependencies: ["118612040F3AE9F7"]
+			id: "76D68C3A83E6317F"
+			tasks: [{
+			id: "3AC5A920BE7BD2EC"
+			type: "item"
+			item: "minecraft:hopper"
+			}]
+			rewards: [{
+			id: "4FD3625892EB3EC6"
+			type: "item"
+			item: "minecraft:hopper"
+			count: 4
+			}]
+		}
+		{
+			title: "有斧头的自动机器"
+			icon: {
+				id: "minecraft:netherite_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.5d
+			y: 0.5d
+			shape: "square"
+			subtitle: "做一把斧头"
+			description: [
+				"加一把&b斧头&r能使盆栽盆在长大后自动收获。"
+				""
+				"&6时运&r增加掉落"
+				"&6精准采集&r应用精准采集"
+				"&6效率&r减少生长时间"
+			]
+			dependencies: ["118612040F3AE9F7"]
+			id: "25CBB0FF1661D5B8"
+			tasks: [{
+				id: "064C26B5129011B1"
+				type: "item"
+				title: "任何斧头"
 				item: {
-					id: "alexsmobs:flying_fish_boots"
-                                        Count: 1b
-                                        tag: {
-                                                Damage: 0
-                                        }
-                                }
-                        }]
-                }
-                {
-                        title: "普通钓物"
-                        icon: "alexsmobs:fish_bones"
-                        disable_toast: true
-                        x: -11.5d
-                        y: 4.0d
-                        shape: "square"
-                        dependencies: ["3D9659853F508B0C"]
-                        id: "55500EFD87E2FD59"
-                        tasks: [
-                                {
-                                        id: "269C362C97BCD0EB"
-                                        type: "item"
-                                        disable_toast: true
-                                        item: "minecraft:salmon"
-                                }
-                                {
-                                        id: "438653134BA98041"
-                                        type: "item"
-                                        disable_toast: true
-                                        item: "minecraft:cod"
-                                }
-                                {
-                                        id: "656B1055A81FD11A"
-                                        type: "item"
-                                        disable_toast: true
-                                        item: "minecraft:tropical_fish"
-                                }
-                                {
-                                        id: "3353905B663808D7"
-                                        type: "item"
-                                        disable_toast: true
-                                        item: "minecraft:pufferfish"
-                                }
-                                {
-                                        id: "1DE90BA585993177"
-                                        type: "item"
-                                        disable_toast: true
-                                        item: "minecraft:lapis_lazuli"
-                                }
-                        ]
-                        rewards: [
-                                {
-                                        id: "5BDC3F4937A583F1"
-                                        type: "item"
-                                        item: "minecraft:sea_pickle"
-                                        count: 4
-                                }
-                                {
-                                        id: "27F1491752DD5621"
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:tools/axe"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E93A08F24537856"
+				type: "item"
+				item: {
+					id: "kubejs:foresters_delight"
+					Count: 1b
+					tag: {
+						RepairCost: 3
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 6s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:silk_touch"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"盆栽知音\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "肉~"
+			icon: "biomesoplenty:flesh"
+			x: -4.0d
+			y: -6.0d
+			shape: "square"
+			subtitle: "是，是……他将再次鲜活。"
+			description: [
+				"&6熔岩&r会很快蒸干&6血&r变成&b肉块&r。"
+				""
+				"像这样古怪，我能找到几种方式来使用它。"
+				""
+				"{image:inferno:textures/quest/resourcegen.png width:1000 height:739 align:1 fit:true}"
+			]
+			dependencies: ["40D4850B34EC5677"]
+			min_width: 225
+			id: "1D619B0E7776C8EB"
+			tasks: [
+				{
+					id: "4F17C47D492139AD"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "41B0C4C875674C8B"
+					type: "item"
+					item: "biomesoplenty:blood_bucket"
+				}
+			]
+			rewards: [{
+				id: "65BE5E32EE31F67E"
+				type: "item"
+				item: "biomesoplenty:flesh"
+				count: 64
+			}]
+		}
+		{
+			title: "凝结剂"
+			icon: "tconstruct:blood_slime_sapling"
+			x: -6.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "自动化“胶水”"
+			description: [
+				"&灵浆球&r是在这里我能得到最像黏液球的物品。它有一点亵渎神明，但我在这里不必虔诚。"
+				""
+				"为了让盆栽盆能够收获灵浆球，它需要有一个蜂箱。"
+			]
+			dependencies: ["118612040F3AE9F7"]
+			id: "7ECA8AA3D7EF3D40"
+			tasks: [
+				{
+					id: "7A03ABF9F3E1B35E"
+					type: "item"
+					item: "tconstruct:blood_slime_sapling"
+				}
+				{
+					id: "1E60609026FB56F9"
+					type: "item"
+					item: "tconstruct:blood_ichor_slime_grass"
+				}
+			]
+			rewards: [{
+				id: "759795C5691F7707"
+				type: "item"
+				item: "tconstruct:ichor_slime_ball"
+				count: 16
+			}]
+		}
+		{
+			title: "如何抓鱼"
+			x: -11.5d
+			y: -1.0d
+			shape: "square"
+			subtitle: "把钓鱼竿投进熔岩里"
+			description: [
+				"我已经见过所有生活的方式——如果你能这样叫它的话——从淹没这些低矮平原的滚滚熔岩底部冒泡。我也已经见过&6闪亮的金属和其他宝藏&r，这将极大地帮助我从这个地方逃脱。"
+				""
+				"只需要集中一点注意力，我就可以通过原本易燃的丝线释放一点力量，从而允许钓竿&b在岩浆深处钓鱼&r。这样做很费力，但在钓鱼中总能找到平静，在这里也一样。"
+			]
+			dependencies: ["5C0BF701B0990D7C"]
+			min_width: 325
+			id: "535BC7512F991B24"
+			tasks: [{
+				id: "166F4D9CB4C9271D"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0197645283BA6024"
+					type: "item"
+					item: "farmersdelight:fish_stew"
+				}
+				{
+					id: "07D7B145843E0723"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "2239AB70832E3AB4"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "alexsmobs:long_lava_vision"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "诡异森林"
+			icon: "minecraft:warped_nylium"
+			disable_toast: true
+			x: -14.0d
+			y: -3.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "44FACD28DDA3C9B5"
+			tasks: [
+				{
+					id: "1BF803B16DA00C10"
+					type: "item"
+					title: "1 诡异菌 | 权重 8"
+					disable_toast: true
+					item: "minecraft:warped_fungus"
+				}
+				{
+					id: "4B0497B6BB5DEB2E"
+					type: "item"
+					title: "1 线 | 权重 4"
+					disable_toast: true
+					item: "minecraft:string"
+				}
+			]
+		}
+		{
+			title: "诡异森林"
+			icon: "minecraft:warped_nylium"
+			disable_toast: true
+			x: -9.0d
+			y: -3.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "3BB51DB85CE59DAF"
+			tasks: [
+				{
+					id: "45508907CD9E9FAA"
+					type: "item"
+					title: "1-3 末影珍珠 | 权重 8"
+					disable_toast: true
+					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "3D1D485264107C44"
+					type: "item"
+					title: "1 铜锭 | 权重 15"
+					disable_toast: true
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "1365B8529FE0F5CB"
+					type: "item"
+					title: "1-3 铜粒 | 权重 8"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "5111EDCC7EE3CB12"
+					type: "item"
+					title: "2-8 红石粉 | 权重 8"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "14843DD874C94E52"
+					type: "item"
+					title: "2-8 青金石 | 权重 4"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+		}
+		{
+			title: "绯红森林"
+			icon: "minecraft:crimson_nylium"
+			disable_toast: true
+			x: -14.0d
+			y: -4.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "3D0B70F8B9F97370"
+			tasks: [
+				{
+					id: "42E80B65AF8B9954"
+					type: "item"
+					title: "1 皮革 | 权重 3"
+					disable_toast: true
+					item: "minecraft:leather"
+				}
+				{
+					id: "4FE8F3C3B62D6E4C"
+					type: "item"
+					title: "1 绯红菌 | 权重 8"
+					disable_toast: true
+					item: "minecraft:crimson_fungus"
+				}
+				{
+					id: "5981BCC34A163445"
+					type: "item"
+					title: "1 下界疣 | 权重 10"
+					disable_toast: true
+					item: "minecraft:nether_wart"
+				}
+				{
+					id: "200AE0083611DE05"
+					type: "item"
+					title: "1 线 | 权重 4"
+					disable_toast: true
+					item: "minecraft:string"
+				}
+				{
+					id: "6ADD1E7949B3279F"
+					type: "item"
+					title: "1 熟猪排 | 权重 5"
+					disable_toast: true
+					item: "minecraft:cooked_porkchop"
+				}
+			]
+		}
+		{
+			title: "绯红森林"
+			icon: "minecraft:crimson_nylium"
+			disable_toast: true
+			x: -9.0d
+			y: -4.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "2CE7A2050E4D7C43"
+			tasks: [
+				{
+					id: "08487988ADDC5CF9"
+					type: "item"
+					title: "1 金锭 | 权重 5"
+					disable_toast: true
+					item: "minecraft:gold_ingot"
+				}
+				{
+					id: "4BC8DACF9A57BDBF"
+					type: "item"
+					title: "1 金粒 | 权重 15"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "7C1BB31FC6829BBE"
+					type: "item"
+					title: "1 铜锭 | 权重 15"
+					disable_toast: true
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "147E06231A9BB185"
+					type: "item"
+					title: "1-3 铜粒 | 权重 8"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "4FC9FA41C4E58E7A"
+					type: "item"
+					title: "2-8 红石粉 | 权重 8"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "7D81C4A25DA4E8D6"
+					type: "item"
+					title: "2-8 青金石 | 权重 4"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+		}
+		{
+			title: "灵魂沙峡谷"
+			icon: "minecraft:soul_sand"
+			disable_toast: true
+			x: -14.0d
+			y: -5.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "13093E6CE55D2203"
+			tasks: [
+				{
+					id: "34F67CC620D4600B"
+					type: "item"
+					title: "1 灵魂沙 | 权重 10"
+					disable_toast: true
+					item: "minecraft:soul_sand"
+				}
+				{
+					id: "6099999D1891A592"
+					type: "item"
+					title: "1 灵魂土 | 权重 10"
+					disable_toast: true
+					item: "minecraft:soul_soil"
+				}
+				{
+					id: "325E18FB065EC396"
+					type: "item"
+					title: "1 玄武岩 | 权重 10"
+					disable_toast: true
+					item: "minecraft:basalt"
+				}
+				{
+					id: "6F36501561DC284B"
+					type: "item"
+					title: "1 燧石 | 权重 5"
+					disable_toast: true
+					item: "minecraft:flint"
+				}
+				{
+					id: "4FC1AB762FE2AC55"
+					type: "item"
+					title: "1 骨粉 | 权重 10"
+					disable_toast: true
+					item: "minecraft:bone_meal"
+				}
+				{
+					id: "387AEE319C79377B"
+					type: "item"
+					title: "1 火药 | 权重 8"
+					disable_toast: true
+					item: "minecraft:gunpowder"
+				}
+				{
+					id: "44E37CF4CCCEE46F"
+					type: "item"
+					title: "1 骨头 | 权重 10"
+					disable_toast: true
+					item: "minecraft:bone"
+				}
+			]
+		}
+		{
+			title: "灵魂沙峡谷"
+			icon: "minecraft:soul_sand"
+			disable_toast: true
+			x: -9.0d
+			y: -5.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "678B4D4254032C22"
+			tasks: [
+				{
+					id: "1C4526D6315A52C8"
+					type: "item"
+					title: "1 恶魂之泪 | 权重 4"
+					disable_toast: true
+					item: "minecraft:ghast_tear"
+				}
+				{
+					id: "0592B973738F9C6B"
+					type: "item"
+					title: "1 骨块 | 权重 15"
+					disable_toast: true
+					item: "minecraft:bone_block"
+				}
+				{
+					id: "155EEE88138434C6"
+					type: "item"
+					title: "1 铜锭 | 权重 15"
+					disable_toast: true
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "1C51B7063AD2543A"
+					type: "item"
+					title: "1-3 铜粒 | 权重 8"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "764EF550C822BAC7"
+					type: "item"
+					title: "2-8 红石粉 | 权重 8"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "641A40358E6C5D2B"
+					type: "item"
+					title: "2-8 青金石 | 权重 4"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+		}
+		{
+			title: "玄武岩三角洲"
+			icon: "minecraft:basalt"
+			disable_toast: true
+			x: -9.0d
+			y: -6.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "6A78E4135B32A9F8"
+			tasks: [
+				{
+					id: "0968E0C6C3E62488"
+					type: "item"
+					title: "1 铜锭 | 权重 15"
+					disable_toast: true
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "4052DD5C9F074BDD"
+					type: "item"
+					title: "3-7 铜粒 | 权重 8"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "0E3155909F0BA97B"
+					type: "item"
+					title: "2-8 红石粉 | 权重 8"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "0EEF686AAF723E99"
+					type: "item"
+					title: "2-8 青金石 | 权重 4"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+		}
+		{
+			title: "玄武岩三角洲"
+			icon: "minecraft:basalt"
+			disable_toast: true
+			x: -14.0d
+			y: -6.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "02F5DBF6255B2B5D"
+			tasks: [
+				{
+					id: "3E6F0B655CF8D939"
+					type: "item"
+					title: "1 黑石 | 权重 5"
+					disable_toast: true
+					item: "minecraft:blackstone"
+				}
+				{
+					id: "61D50CE343FC66C9"
+					type: "item"
+					title: "1 岩浆膏 | 权重 8"
+					disable_toast: true
+					item: "minecraft:magma_cream"
+				}
+			]
+		}
+		{
+			title: "下界荒地"
+			icon: "minecraft:netherrack"
+			disable_toast: true
+			x: -14.0d
+			y: -7.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "6C5363531654239A"
+			tasks: [
+				{
+					id: "0A20FD36BCF7A7F6"
+					type: "item"
+					title: "1 荧石粉 | 权重 5"
+					disable_toast: true
+					item: "minecraft:glowstone_dust"
+				}
+				{
+					id: "5FBA462AF7CD8432"
+					type: "item"
+					title: "1 棕色蘑菇 | 权重 10"
+					disable_toast: true
+					item: "minecraft:brown_mushroom"
+				}
+				{
+					id: "5A12D34A8908612E"
+					type: "item"
+					title: "1 红色蘑菇 | 权重 10"
+					disable_toast: true
+					item: "minecraft:red_mushroom"
+				}
+			]
+		}
+		{
+			title: "下界荒地"
+			icon: "minecraft:netherrack"
+			disable_toast: true
+			x: -9.0d
+			y: -7.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "5DDF2910BC611BA5"
+			tasks: [
+				{
+					id: "3F2501A850EF3BE4"
+					type: "item"
+					title: "1 下界石英 | 权重 15"
+					disable_toast: true
+					item: "minecraft:quartz"
+				}
+				{
+					id: "73D09000311FB1A9"
+					type: "item"
+					title: "1 铜锭 | 权重 15"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "3EACFF92BAC3CFAD"
+					type: "item"
+					title: "1-3 铜粒 | 权重 8"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "65DC21D6809816C9"
+					type: "item"
+					title: "2-8 红石粉 | 权重 8"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "3A74B54F3C120D99"
+					type: "item"
+					title: "2-8 青金石 | 权重 4"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+		}
+		{
+			title: "常规垃圾"
+			icon: "ftbic:empty_can"
+			disable_toast: true
+			x: -13.0d
+			y: -2.5d
+			shape: "square"
+			subtitle: "一个学到的经验"
+			description: ["在钓鱼一整天后，我意识到与其制作新的钓鱼杆，不如加上经验修补……好样的。"]
+			hide_dependency_lines: false
+			dependencies: ["03A93EA45228E9C0"]
+			id: "37183175A8DE74D3"
+			tasks: [
+				{
+					id: "1AA9242C4553BB20"
+					type: "item"
+					title: "1-3 煤炭 | 权重 3"
+					disable_toast: true
+					item: "minecraft:coal"
+				}
+				{
+					id: "0FAF7C255802B0A7"
+					type: "item"
+					title: "1-7 红石粉 | 权重 15"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "12296A320840F8AB"
+					type: "item"
+					title: "1 熔火核心 | 权重 1"
+					disable_toast: true
+					item: "reliquary:molten_core"
+				}
+				{
+					id: "57A300E33DF1DFD4"
+					type: "item"
+					title: "1 火珊瑚扇 | 权重 3"
+					disable_toast: true
+					item: "minecraft:fire_coral_fan"
+				}
+				{
+					id: "710DFA65C77FCB9E"
+					type: "item"
+					title: "1 枪药珠 | 权重 3"
+					disable_toast: true
+					item: "nethersdelight:propelpearl"
+				}
+				{
+					id: "03C1C261FC574A89"
+					type: "item"
+					title: "1-3 铜锭 | 权重 10"
+					disable_toast: true
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "5BD3DAAEE4A3B9CC"
+					type: "item"
+					title: "1 烈焰粉 | 权重 2"
+					disable_toast: true
+					item: "minecraft:blaze_powder"
+				}
+			]
+			rewards: [{
+				id: "4D116085D977DB31"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						RepairCost: 7
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 1s
+								id: "minecraft:mending"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:luck_of_the_sea"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:unbreaking"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"Rod of the Infero\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "常规宝藏"
+			icon: "reliquary:fortune_coin"
+			disable_toast: true
+			x: -10.0d
+			y: -2.5d
+			shape: "square"
+			subtitle: "总是好运"
+			description: ["我也总是能从这个池子里发现带有“灵魂疾行”的附魔书，附魔弓和钓鱼竿！"]
+			dependencies: ["03A93EA45228E9C0"]
+			id: "37B6F7FF6F4E1498"
+			tasks: [
+				{
+					id: "0B98FD587604BFE7"
+					type: "item"
+					title: "1 烈焰棒 | 权重 15"
+					disable_toast: true
+					item: "minecraft:blaze_rod"
+				}
+				{
+					id: "0E37C7622EB31B33"
+					type: "item"
+					title: "1 铜锭 | 权重 15"
+					disable_toast: true
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "50EA5B9379802528"
+					type: "item"
+					title: "1-3 铜粒 | 权重 8"
+					icon: "ftbic:copper_nugget"
+					disable_toast: true
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:nuggets/copper"
+						}
+					}
+				}
+				{
+					id: "4BE17BCD18514B96"
+					type: "item"
+					title: "2-8 红石粉 | 权重 8"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "06197B139F5DE64E"
+					type: "item"
+					title: "2-8 青金石 | 权重 4"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+			rewards: [{
+				id: "7985B19EE553C29F"
+				type: "item"
+				item: {
+					id: "apotheosis:potion_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Potion: "alexsmobs:soulsteal"
+					}
+				}
+			}]
+		}
+		{
+			title: "种植远古魔法"
+			x: -5.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "学习如何在下界种树"
+			description: [
+				"在这个领域的一些植物&c没有足够的生长能力去繁殖&r。尽管我付出了努力，它们还是枯萎了。"
+				""
+				"我的&6植物盆栽&r刚好&o含有&r足够的魔力使它们生存下来。"
+				""
+				"&o一些树木（或类似于树木的东西，比如珊瑚）不会掉落树苗，只能在盆栽盆中不断生长。"
+			]
+			dependencies: ["118612040F3AE9F7"]
+			id: "1850C606348A5494"
+			tasks: [{
+				id: "1A0483E1E94AE740"
+				type: "item"
+				item: "naturesaura:ancient_sapling"
+			}]
+			rewards: [
+				{
+					id: "46E67C0E2234E645"
+					type: "item"
+					item: "tconstruct:earth_slime_sapling"
+				}
+				{
+					id: "6BC7BF12B849C81B"
+					type: "item"
+					item: "tconstruct:earth_slime_dirt"
+				}
+			]
+		}
+		{
+			title: "熔岩垂钓"
+			x: -11.5d
+			y: -5.0d
+			shape: "square"
+			subtitle: "没有什么比古朴的火山洞穴更让我喜欢了"
+			description: [
+				"看起来在熔岩垂钓和在水面垂钓有点类似。抛竿，等待咬钩，然后收竿。"
+				""
+				"和在主世界类似，钓鱼有机会同时钩到&c垃圾&r和&6宝藏&r。似乎&b生物群系也是一个影响掉落的因素&r。"
+				""
+				"在左侧，我陈列出了所有不同的可以被钓到的&b垃圾&r以及它们所属的生物群系。在右侧，我以同样的方式陈列出了所有不同的可以被钓到的&b宝藏&r。"
+			]
+		dependencies: ["535BC7512F991B24"]
+		min_width: 275
+		id: "03A93EA45228E9C0"
+		tasks: [{
+		id: "28BB8F3D174C32DF"
+		type: "checkmark"
+		icon: "minecraft:lava_bucket"
+		}]
+		rewards: [{
+		id: "1617DDD95B219FA8"
+		type: "item"
+		item: {
+			id: "minecraft:splash_potion"
+			Count: 1b
+			tag: {
+			Potion: "minecraft:luck"
+			}
+		}
+		}]
+	}
+	{
+		title: "H2O，我的最爱"
+		x: -11.5d
+		y: 2.0d
+		shape: "square"
+		subtitle: "一杯冰水要我付什么钱……"
+			description: [
+				"虽然我第一次尝试将水吸到这个世界是失败的，但我知道成功就在眼前。事实证明，我的工人可以在他们的建筑物中模拟一种形式的水，因此我在渔夫小屋中稳定了一些水作为实验。"
+				""
+				"一旦我的工人通过&6渔夫小屋创造了稳定的水源&r，我的魔法将&6允许我的钓鱼竿通过这个伪水源进入我的正常现实世界&r。"
+				""
+				"不幸的是，我无法选择从哪里钓鱼或我的诱饵最终会进入哪个生物群系。不过，我会拿走我能得到的。"
+				""
+				"我已经编目了&6宝藏，垃圾和我能找到的其余东西&r的列表。"
+			]
+			dependencies: ["535BC7512F991B24"]
+			min_width: 275
+			id: "3D9659853F508B0C"
+			tasks: [{
+				id: "6A47F2C1BDB07B50"
+				type: "checkmark"
+				icon: "minecraft:water_bucket"
+			}]
+			rewards: [
+				{
+					id: "5D98A07BA1FBE07F"
+					type: "xp_levels"
+			xp_levels: 5
+				}
+				{
+					id: "32905BBBBA15E777"
+					type: "item"
+					item: "farmersdelight:kelp_roll"
+				}
+			]
+		}
+		{
+			title: "水中的宝藏"
+			icon: "reliquary:fortune_coin"
+			disable_toast: true
+			x: -9.5d
+			y: 2.0d
+			shape: "square"
+			dependencies: ["3D9659853F508B0C"]
+			id: "7157213FA2345405"
+			tasks: [
+				{
+					id: "732DDCAFAAF22AC0"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:nautilus_shell"
+				}
+				{
+					id: "7A545936B6CEA53F"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:kelp"
+				}
+				{
+					id: "0F257A8F154815EF"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "16D23212D8F4D691"
+					type: "item"
+					disable_toast: true
+					item: "reliquary:guardian_spike"
+				}
+				{
+					id: "79ECCE55FCA5144B"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "minecolonies:ancienttome"
+						Count: 1b
+						tag: {
+							raidWillHappen: 0b
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0F23C406A4F73BBE"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 9s
+								id: "minecraft:sharpness"
+							}]
+						}
+					}
+				}
+				{
+					id: "6E5D06BC1929C121"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "minecraft:looting"
+							}]
+						}
+					}
+				}
+				{
+					id: "1E8C80FA4ACD2B74"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "水中的垃圾"
+			icon: "ftbic:empty_can"
+			disable_toast: true
+			x: -13.5d
+			y: 2.0d
+			shape: "square"
+			dependencies: ["3D9659853F508B0C"]
+			id: "4A647E320FF1B849"
+			tasks: [
+				{
+					id: "5F614F32AD3A9DB4"
+					type: "item"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "3B87675271850292"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:ink_sac"
+				}
+				{
+					id: "4EDC546ABB098FBC"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:lily_pad"
+				}
+				{
+					id: "1CF577EF27EB4727"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:kelp"
+				}
+				{
+					id: "5522E71B3CA6C7DB"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:sea_pickle"
+				}
+				{
+					id: "4F907B6AFD616DC0"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "105B03FC4033D9EC"
+				type: "item"
+				item: {
+				id: "alexsmobs:flying_fish_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "普通钓物"
+			icon: "alexsmobs:fish_bones"
+			disable_toast: true
+			x: -11.5d
+			y: 4.0d
+			shape: "square"
+			dependencies: ["3D9659853F508B0C"]
+			id: "55500EFD87E2FD59"
+			tasks: [
+				{
+					id: "269C362C97BCD0EB"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:salmon"
+				}
+				{
+					id: "438653134BA98041"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cod"
+				}
+				{
+					id: "656B1055A81FD11A"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:tropical_fish"
+				}
+				{
+					id: "3353905B663808D7"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:pufferfish"
+				}
+				{
+					id: "1DE90BA585993177"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+			rewards: [
+				{
+					id: "5BDC3F4937A583F1"
+					type: "item"
+					item: "minecraft:sea_pickle"
+					count: 4
+				}
+				{
+					id: "27F1491752DD5621"
 					type: "item"
 					item: "alexsdelight:lobster_pasta"
 				}
 			]
-                }
-                {
+		}
+		{
 			title: "剥下错误的树的皮"
 			x: -6.0d
-                        y: -6.0d
+			y: -6.0d
 			shape: "square"
 			subtitle: "得到树皮"
-                        description: [
-                                "这里的树木杂乱无章，像静脉一样的外观完全没有吸引力。我可以用斧子剥下它们的&b树皮&r，我还可以把树皮做成纸。"
-                                ""
-                                "我也可以用&6砧板&r代替。我做了一个基本的装置来为我工作，储存在这个胶囊里。"
-                                ""
-                                "我猜想，许多其他事情在这个砧板上也可以实现类似的自动化。"
-                        ]
-                        dependencies: ["25E90C8154CF725D"]
-                        min_width: 325
-                        id: "1904BBF6EC27CD1A"
-                        tasks: [{
-                                id: "633EC2F92860AB39"
-                                type: "item"
-                                item: "farmersdelight:tree_bark"
-                        }]
-                        rewards: [{
-                                id: "637C2633D626D8AE"
-                                type: "item"
-                                item: {
-                                        id: "capsule:capsule"
-                                        Count: 1b
-                                        tag: {
-                                                RepairCost: 0
-                                                color: 0
-                                                size: 5
-                                                isReward: 1b
-                                                oneUse: 1b
-                                                structureName: "config/capsule/rewards/woodstripper.nbt"
-                                                author: "IRSMoh_"
-                                                display: {
-                                                        color: 8388608
+			description: [
+				"这里的树木杂乱无章，像静脉一样的外观完全没有吸引力。我可以用斧子剥下它们的&b树皮&r，我还可以把树皮做成纸。"
+				""
+				"我也可以用&6砧板&r代替。我做了一个基本的装置来为我工作，储存在这个胶囊里。"
+				""
+				"我猜想，许多其他事情在这个砧板上也可以实现类似的自动化。"
+			]
+			dependencies: ["25E90C8154CF725D"]
+			min_width: 325
+			id: "1904BBF6EC27CD1A"
+			tasks: [{
+				id: "633EC2F92860AB39"
+				type: "item"
+				item: "farmersdelight:tree_bark"
+			}]
+			rewards: [{
+				id: "637C2633D626D8AE"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						color: 0
+						size: 5
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/woodstripper.nbt"
+						author: "IRSMoh_"
+						display: {
+							color: 8388608
 							Name: "{\"text\":\"Automated Woodstripper\"}"
 						}
 						state: 5
@@ -1271,107 +1287,106 @@
 						canRotate: 0b
 					}
 				}
-                        }]
-                }
-                {
-                        title: "龙玻璃"
-                        x: -4.0d
-                        y: -4.0d
-                        shape: "square"
-                        subtitle: "就像……玻璃一样硬？"
-                        description: [
-                                "当岩浆源和水接触时，它会被转化成&b黑曜石&r。"
-                                ""
-                                "水在这里不会存留很长时间，至少我把水放进去的时候是这样。我不得不&6从渔夫的小屋那开凿出一条河道&r来保护原始水源。"
-                        ]
-                        dependencies: [
-                                "4E07E560443913CB"
-                                "5D04E725BEF2F98C"
-                        ]
-                        id: "2F1E6BFBCD59CF57"
-                        tasks: [{
-                                id: "192F1D75DDDFD3ED"
-                                type: "item"
-                                item: "minecraft:obsidian"
-                        }]
-                        rewards: [
-                                {
+			}]
+		}
+		{
+			title: "龙玻璃"
+			x: -4.0d
+			y: -4.0d
+			shape: "square"
+			subtitle: "就像……玻璃一样硬？"
+			description: [
+				"当岩浆源和水接触时，它会被转化成&b黑曜石&r。"
+				""
+				"水在这里不会存留很长时间，至少我把水放进去的时候是这样。我不得不&6从渔夫的小屋那开凿出一条水渠&r来保护原始水源。"
+			]
+			dependencies: [
+				"4E07E560443913CB"
+				"5D04E725BEF2F98C"
+			]
+			id: "2F1E6BFBCD59CF57"
+			tasks: [{
+				id: "192F1D75DDDFD3ED"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+			rewards: [
+				{
 					id: "01E72C3EDF327842"
-                                        type: "item"
+					type: "item"
 					item: "minecraft:obsidian"
 					count: 8
-                }
-                {
+				}
+				{
 					id: "6A65027692237B23"
 					type: "item"
 					item: "apotheosis:obsidian_arrow"
 					count: 32
-				}
-			]
-		}
-		{
-			title: "生物群系蓝调"
-			x: -11.5d
-                        y: -7.5d
-                        shape: "square"
-                        subtitle: "大胆地去……To Boldly Go..."
-                        description: [
-                                " 我需要获取的、使我得以逃离的各种资源中，有很多分散在整个大陆上Many of the varied resources I will need to obtain to make my escape are scattered throughout the land. "
-                                ""
-                                "当然，我可以手动探索，我的地图在绘制我去过的生物群系方面做得很好，但有时我需要找到一个特定的地形。Sure, I can explore manually and my map does a great job of charting the biomes I've visited but sometimes I just need a specific terrain."
-                                ""
-                                "通过创建一个自然指南针，我可以将我的魔法用于精确定位资源的位置，从而在未来的日子里省去了很多弯路。”By creating a biome compass I can channel my magic into pinpointing exactly where the resources are, saving me much frustration in the days to come."
-                        ]
-                        dependencies: ["03A93EA45228E9C0"]
-                        min_width: 300
-                        id: "199213E533655B1C"
-                        tasks: [{
-                                id: "00580C867C6370B7"
-				type: "item"
-				item: {
-                                        id: "naturescompass:naturescompass"
+				}		
+		]
+	}
+	{
+		title: "生物群系蓝调"
+		x: -11.5d
+		y: -7.5d
+		shape: "square"
+		subtitle: "大胆地去……"
+		description: [
+			"我需要获取的、使我得以逃离的各种资源中，有很多分散在整个大陆上。"
+			""
+			"当然，我可以手动探索，我的地图可以非常好地绘制我去过的生物群系，但有时我需要找到一个特定的地形。"
+			""
+			"通过制作一个自然指南针，我可以将我的魔法用于精确定位资源的位置，从而在未来的日子里省去了很多弯路。"
+		]
+		dependencies: ["03A93EA45228E9C0"]
+		min_width: 300
+		id: "199213E533655B1C"
+		tasks: [{
+			id: "00580C867C6370B7"
+			type: "item"
+			item: {
+				id: "naturescompass:naturescompass"
+				Count: 1b
+				tag: { }
+			}
+		}]
+		rewards: [{
+			id: "5199A98CF47A83D9"
+			type: "item"
+			item: {
+					id: "ars_nouveau:warp_scroll"
 					Count: 1b
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "5199A98CF47A83D9"
+		}
+		{
+			title: "然而一滴都不用来喝"
+			x: -5.0d
+			y: -3.0d
+			shape: "square"
+			subtitle: "收集水"
+			description: [
+				"现在我可以从渔民小屋获得稳定的&b水&r源，我可以&6用玻璃瓶少量地装取&r，以免搅乱水源方块。"
+				""
+				"接下来我可以&6在冶炼炉里把这些玻璃瓶倒空&r，那里的水受到保护，不受环境的影响。"
+				""
+				"在那里，我可以很容易地&6将水倒入一个空的桶中&r。"
+				""
+			]
+			dependencies: ["4E07E560443913CB"]
+			min_width: 225
+			id: "5D04E725BEF2F98C"
+			tasks: [{
+				id: "1E460348EB31D99D"
 				type: "item"
-                                item: {
-                                        id: "ars_nouveau:warp_scroll"
-                                        Count: 1b
-                                        tag: { }
-                                }
-                        }]
-                }
-                {
-                        title: "然而一滴也不喝But Not a Drop to Drink"
-                        x: -5.0d
-                        y: -3.0d
-                        shape: "square"
-                        subtitle: "收集水"
-                        description: [
-                                "现在我可以从渔民小屋获得稳定的&b水&r源，我可以&6用玻璃瓶少量地装取&r，以免搅乱水源块。"
-                                ""
-                                "接下来我可以&6在冶炼厂里把这些玻璃瓶倒空&r，那里的水受到保护，不受环境的影响。I can then &6drain these Bottles in the Smeltery&r, where the Water is protected from their environment."
-                                ""
-                                "在那里，我可以很容易地&6将水倒入一个空的桶中&r。From there, I can simply &6cast the Water into an empty Bucket&r."
-                                ""
-                        ]
-                        dependencies: ["4E07E560443913CB"]
-                        min_width: 225
-                        id: "5D04E725BEF2F98C"
-                        tasks: [{
-                                id: "1E460348EB31D99D"
-                                type: "item"
-                                item: "minecraft:water_bucket"
-                        }]
-                        rewards: [{
-                                id: "016611F860357F34"
-                                type: "item"
-                                item: "engineersdecor:fluid_barrel"
-                        }]
-                }
-        ]
+				item: "minecraft:water_bucket"
+			}]
+			rewards: [{
+				id: "016611F860357F34"
+				type: "item"
+				item: "engineersdecor:fluid_barrel"
+			}]
+		}
+	]
 }
-
