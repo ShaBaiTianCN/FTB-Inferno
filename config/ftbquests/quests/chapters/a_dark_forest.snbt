@@ -1,2561 +1,2561 @@
 {
-        id: "49BED82D4EA2A8A1"
-        group: "3165B92DB1BC8401"
-        order_index: 0
-        filename: "a_dark_forest"
-        title: "黑暗森林"
-        icon: "minecraft:weeping_vines"
-        subtitle: ["开始"]
-        default_quest_shape: ""
-        default_hide_dependency_lines: false
-        quests: [
-                {
-                        title: "从此刻开始，任重而道远。"
-                        icon: "minecraft:flint"
-                        x: -2.0d
-                        y: -3.0d
-                        subtitle: "收集燧石"
-                        description: [
-                                "苏醒后，这个世界给我的第一感觉是荒凉。"
-                                ""
-                                "除了这个&6奇特的结构&r，就只有点缀着黑石与燧石块的&c不可跨越的基岩&r了。"
-                                ""
-                                "黑石对我来说太过坚硬，但我可以轻易地破坏&b燧石块&r。"
-                                ""
-                                "看来我的&o“朋友”&r至少不是一个记仇的人，还给了我一些&6离别礼物&r。这些肯定会有用的。"
-                                ""
-                                "我可以打开JEI，将鼠标悬停在以下物品上长按w键开始&6思索&r，以此预览这些初始结构。"
-                                ""
-                                "血溶喷泉 -> 肉块"
-                                "舒适小屋 -> 绯红木门"
-                                "熔岩洞窟 -> 黑曜石"
-                                "猪灵方碑 -> 猪灵头颅"
-                        ]
-                        min_width: 275
-                        id: "383507AC5D6EB0D8"
-                        tasks: [{
-                                id: "79BC977DE1BB3580"
-                                type: "item"
-                                item: "minecraft:flint"
-                                count: 4L
-                        }]
-                        rewards: [
-                                {
-                                        id: "4007FC8A86B1FF05"
-                                        type: "item"
-                                        item: "minecraft:brown_mushroom"
-                                        count: 4
-                                }
-                                {
-                                        id: "70C34CF9D69CCA87"
-                                        type: "item"
-                                        item: "minecraft:red_mushroom"
-                                        count: 4
-                                }
-                                {
-                                        id: "71FAD46C48A1C0C6"
-                                        type: "choice"
-                                        icon: "infernalexp:infernal_painting"
-                                        table_id: 4094836575743489476L
-                                }
-                        ]
-                }
-                {
-                        title: "用燧石和石头磨骨头"
-                        x: -2.0d
-                        y: -1.5d
-                        subtitle: "粗制滥造，但还凑合"
-                        description: [
-                                "如果我把燧石打碎，我就得到了一个不错的工具。"
-                                ""
-                                "我可以用这个挖通黑石矿脉绕过这该死的基岩！"
-                        ]
-                        dependencies: ["383507AC5D6EB0D8"]
-                        id: "1FAE864DC2E733BC"
-                        tasks: [{
-                                id: "4EB484144E0ACC7F"
-                                type: "item"
-                                item: {
-                                                                id: "tconstruct:pickaxe"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        tic_multipliers: { }
-                                                                        tic_stats: {
-                                                                                "tconstruct:attack_speed": 1.2f
-                                                                                "tconstruct:mining_speed": 3.5f
-                                                                                "tconstruct:attack_damage": 1.4250001f
-                                                                                "tconstruct:harvest_tier": "minecraft:stone"
-                                                                                "tconstruct:durability": 72.0f
-                                                                        }
-                                                                        tic_broken: 0b
-                                                                        tic_modifiers: [
-                                                                                {
-                                                                                        name: "tconstruct:jagged"
-                                                                                        level: 3s
-                                                                                }
-                                                                                {
-                                                                                        name: "tconstruct:piercing"
-                                                                                        level: 1s
-                                                                                }
-                                                                        ]
-                                                                        Damage: 0
-                                                                        tic_materials: [
-                                                                                "tconstruct:flint"
-                                                                                "tconstruct:flint"
-                                                                                "tconstruct:flint"
-                                                                        ]
-                                                                        tic_persistent_data: {
-                                                                                abilities: 1
-                                                                                upgrades: 3
-                                                                        }
-                                                                }
-                                                        }
+	id: "49BED82D4EA2A8A1"
+	group: "3165B92DB1BC8401"
+	order_index: 0
+	filename: "a_dark_forest"
+	title: "黑暗森林"
+	icon: "minecraft:weeping_vines"
+	subtitle: ["开始"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "从此刻开始，任重而道远。"
+			icon: "minecraft:flint"
+			x: -2.0d
+			y: -3.0d
+			subtitle: "收集燧石"
+			description: [
+				"苏醒后，这个世界给我的第一感觉是荒凉。"
+				""
+				"除了这个&6奇特的结构&r，就只有点缀着黑石与燧石块的&c不可跨越的基岩&r了。"
+				""
+				"黑石对我来说太过坚硬，但我可以轻易地破坏&b燧石块&r。"
+				""
+				"看来我的&o“朋友”&r至少不是一个记仇的人，还给了我一些&6离别礼物&r。这些肯定会有用的。"
+				""
+				"我可以打开JEI，将鼠标悬停在以下物品上长按w键开始&6思索&r，以此预览这些初始结构。"
+				""
+				"血溶喷泉 -> 肉块"
+				"舒适小屋 -> 绯红木门"
+				"熔岩洞窟 -> 黑曜石"
+				"猪灵方碑 -> 猪灵头颅"
+			]
+			min_width: 275
+			id: "383507AC5D6EB0D8"
+			tasks: [{
+				id: "79BC977DE1BB3580"
+				type: "item"
+				item: "minecraft:flint"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "4007FC8A86B1FF05"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+					count: 4
+				}
+				{
+					id: "70C34CF9D69CCA87"
+					type: "item"
+					item: "minecraft:red_mushroom"
+					count: 4
+				}
+				{
+					id: "71FAD46C48A1C0C6"
+					type: "choice"
+					icon: "infernalexp:infernal_painting"
+					table_id: 4094836575743489476L
+				}
+			]
+		}
+		{
+			title: "用燧石和石头磨骨头"
+			x: -2.0d
+			y: -1.5d
+			subtitle: "粗制滥造，但还凑合"
+			description: [
+				"如果我把燧石打碎，我就得到了一个不错的工具。"
+				""
+				"我可以用这个挖通黑石矿脉绕过这该死的基岩！"
+			]
+			dependencies: ["383507AC5D6EB0D8"]
+			id: "1FAE864DC2E733BC"
+			tasks: [{
+				id: "4EB484144E0ACC7F"
+				type: "item"
+				item: {
+								id: "tconstruct:pickaxe"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:attack_speed": 1.2f
+										"tconstruct:mining_speed": 3.5f
+										"tconstruct:attack_damage": 1.4250001f
+										"tconstruct:harvest_tier": "minecraft:stone"
+										"tconstruct:durability": 72.0f
+									}
+									tic_broken: 0b
+									tic_modifiers: [
+										{
+											name: "tconstruct:jagged"
+											level: 3s
+										}
+										{
+											name: "tconstruct:piercing"
+											level: 1s
+										}
+									]
+									Damage: 0
+									tic_materials: [
+										"tconstruct:flint"
+										"tconstruct:flint"
+										"tconstruct:flint"
+									]
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 3
+									}
+								}
+							}
 														only_from_crafting: false
-                        }]
-                        rewards: [{
-                                id: "667DB9F7512D0CEC"
-                                type: "item"
-                                item: {
-                                        id: "tconstruct:repair_kit"
-                                        Count: 1b
-                                        tag: {
-                                                Material: "tconstruct:flint"
-                                        }
-                                }
-                                count: 8
-                        }]
-                }
-                {
-                        title: "燧石和……黑石？"
-                        x: -1.0d
-                        y: 0.0d
-                        subtitle: "燃烧！焚尽众生！"
-                        description: ["用黑石而不是铁锭来制作打火石。这是哪位“专家”的想法？"]
-                        dependencies: ["1FAE864DC2E733BC"]
-                        id: "3676C089D399390F"
-                        tasks: [{
-                                id: "0F417A566A75D367"
-                                type: "item"
-                                item: {
-                                        id: "minecraft:flint_and_steel"
-                                        Count: 1b
-                                        tag: {
-                                                Damage: 0
-                                        }
-                                }
-                        }]
-                        rewards: [{
-                                id: "638881C93FFA1BBD"
-                                type: "item"
-                                item: "minecraft:mushroom_stew"
-                                count: 4
-                        }]
-                }
-                {
-                        x: -3.0d
-                        y: 0.0d
-                        subtitle: "把黄金转化为恶魔之物"
-                        description: [
-                                "我可以把金苹果在营火上烹饪来制作&b魔鬼之梦果&r。"
-                                ""
-                                "我很高兴我没有在刚到这里的时候吃掉所有的金苹果，否则我就只能使用这个任务上方的应急任务了……"
-                        ]
-                        id: "071E0ADF4D7C5678"
-                        tasks: [{
-                                id: "67B8C9839C80C42A"
-                                type: "item"
-                                item: "occultism:datura"
-                        }]
-                        rewards: [{
-                                id: "267955AEE0D3EF69"
-                                type: "item"
-                                item: "minecraft:flint"
-                                count: 4
-                        }]
-                }
-                {
-                        title: "静看世界燃烧"
-                        icon: "occultism:spirit_fire"
-                        x: -2.0d
-                        y: 1.5d
-                        shape: "hexagon"
-                        subtitle: "凝视灵火"
-                        description: [
-                                "看起来我可以把&6恶魔之梦果&r扔到地上用打火石把它&6点燃&r，以此为火焰注入神秘能量。"
-                                ""
-                                "我想知道如果我再扔点别的东西进去会怎么样？"
-                        ]
-                        dependencies: [
-                                "3676C089D399390F"
-                                "071E0ADF4D7C5678"
-                        ]
-                        id: "5C9BF1B7C5963186"
-                        tasks: [{
-                                id: "1975BC3591B1FD90"
-                                type: "observation"
-                                title: "凝视灵火"
-                                icon: "occultism:spirit_fire"
-                                timer: 0L
-                                observe_type: 0
-                                to_observe: "occultism:spirit_fire"
-                        }]
-                        rewards: [
-                                {
-                                        id: "24339AFD354843FE"
-                                        type: "item"
-                                        item: "occultism:datura"
-                                        count: 4
-                                }
-                                {
-                                        id: "05D4B70ABCC8571C"
-                                        type: "item"
-                                        item: "occultism:spirit_torch"
-                                        count: 3
-                                }
-                        ]
-                }
-                {
-                        title: "死亡之土"
-                        x: 1.0d
-                        y: 0.0d
-                        subtitle: "收集一些灵魂沙"
-                        description: [
-                                "当我走过那些该死的灵魂时，我能感觉到他们在抓住我。"
-                                ""
-                                "有点吓人，但我不是为了被恶心才来这里的。"
-                        ]
-                        hide_dependency_lines: true
-                        dependencies: ["1FAE864DC2E733BC"]
-                        id: "4116046D3CB4AF2A"
-                        tasks: [{
-                                id: "15C3E651313BE3B1"
-                                type: "item"
-                                item: "minecraft:soul_sand"
-                        }]
-                        rewards: [
-                                {
-                                        id: "672F049DF1594DF5"
-                                        type: "item"
-                                        item: "quark:soul_bead"
-                                }
-                                {
-                                        id: "17BE9CE28F7F55C3"
-                                        type: "item"
-                                        item: "minecraft:soul_sand"
-                                        count: 16
-                                }
-                        ]
-                }
-                {
-                        title: "菌丝"
-                        x: 1.0d
-                        y: 1.5d
-                        subtitle: "创造菌丝"
-                        description: [
-                                "将灵魂沙和蘑菇合成在一起就产生了&b菌丝&r！"
-                                ""
-                                "看起来蘑菇甚至在白天也可以在菌丝上生长，或者是这里的啥。"
-                        ]
-                        dependencies: ["4116046D3CB4AF2A"]
-                        id: "4ED3EE383BEC4719"
-                        tasks: [{
-                                id: "32775A5D6A1ACB21"
-                                type: "item"
-                                item: "minecraft:mycelium"
-                        }]
-                        rewards: [{
-                                id: "0F91A7AD7123519E"
-                                type: "item"
-                                item: "minecraft:brown_mushroom"
-                                count: 6
-                        }]
-                }
-                {
-                        x: 1.0d
-                        y: 3.0d
-                        subtitle: "转化诡异菌岩"
-                        description: [
-                                "似乎把菌丝扔进灵火可以合成&b诡异菌岩&r！"
-                                ""
-                                "这看起来和草方块差不多，至少看起来是。也许它们有着一样的功能？"
-                        ]
-                        dependencies: [
-                                "4ED3EE383BEC4719"
-                                "5C9BF1B7C5963186"
-                        ]
-                        id: "64856BBC8E05AAF0"
-                        tasks: [{
-                                id: "0A3542A631B77AA7"
-                                type: "item"
-                                item: "minecraft:warped_nylium"
-                        }]
-                        rewards: [{
-                                id: "02EF2A8FE6D195EF"
-                                type: "item"
-                                item: "farmersdelight:nether_salad"
-                                count: 2
-                        }]
-                }
-                {
-                        x: -2.0d
-                        y: 3.0d
-                        subtitle: "转化诡异菌"
-                        description: [
-                                "把蘑菇扔进灵火中炙烤，这会将它们腐蚀成&b诡异菌&r。"
-                                ""
-                                "如果把它种在合适的土壤上，也许它可以被培育成更结实的东西？"
-                                ""
-                                "不出意外的话，我发现把棕色或是红色蘑菇在篝火上熏制，可以做出美味的&6烟熏蘑菇&r！"
-                        ]
-                        dependencies: ["5C9BF1B7C5963186"]
-                        dependency_requirement: "all_started"
-                        id: "31DEFB66D0807111"
-                        tasks: [{
-                                id: "1434E24E7DC505C3"
-                                type: "item"
-                                item: "minecraft:warped_fungus"
-                        }]
-                        rewards: [
-                                {
-                                        id: "165247E1CCDFF660"
-                                        type: "item"
-                                        item: "minecraft:flint"
-                                        count: 4
-                                }
-                                {
-                                        id: "2EC652ED7933DA2B"
-                                        type: "item"
-                                        item: "minecraft:warped_fungus"
-                                        count: 4
-                                }
-                                {
-                                        id: "60BB89024FF4EC1F"
-                                        type: "item"
-                                        item: "inferno:smoked_shroom"
-                                        count: 4
-                                }
-                        ]
-                }
-                {
-                        title: "原木！终于，一些事物开始回归正轨。"
-                        x: -2.0d
-                        y: 4.5d
-                        subtitle: "催熟诡异菌"
-                        description: [
-                                "我并不喜欢分享，但我曾经约会过的一个树精教过我如何催熟植物，通过……&b对着他们跳舞&r。"
-                                ""
-                                "如果有人问起。我在……潜行，是的。"
-                        ]
-                        dependencies: [
-                                "64856BBC8E05AAF0"
-                                "31DEFB66D0807111"
-                        ]
-                        id: "55099E0F763B39CA"
-                        tasks: [{
-                                id: "66B0393CA1801630"
-                                type: "item"
-                                item: "minecraft:warped_stem"
-                        }]
-                        rewards: [{
-                                id: "51194D0B53EC588B"
-                                type: "item"
-                                item: "minecraft:warped_fungus"
-                                count: 4
-                        }]
-                }
-                {
-                        title: "没有骨头的骨粉"
-                        x: -5.0d
-                        y: 4.5d
-                        subtitle: "合成一个堆肥桶"
-                        description: ["在这里我可以把所有植物性废料做成骨粉。"]
-                        dependencies: ["55099E0F763B39CA"]
-                        id: "7833EAA6C05E4950"
-                        tasks: [{
-                                id: "711108AAC8CBE239"
-                                type: "item"
-                                item: "minecraft:composter"
-                        }]
-                        rewards: [
-                                {
-                                        id: "329E1654431D6825"
-                                        type: "item"
-                                        item: "minecraft:bone_meal"
-                                        count: 16
-                                }
-                                {
-                                        id: "2E9EFDD76F9FAA10"
-                                        type: "item"
-                                        item: "woodenhopper:wooden_hopper"
-                                        count: 2
-                                }
-                        ]
-                }
-                {
-                        title: "麻溜点！"
-                        icon: "farmersdelight:cutting_board"
-                        x: 1.0d
-                        y: 4.5d
-                        subtitle: "合成砧板和燧石刀"
-                        description: ["除了显而易见的烹饪用途，我还可以用&b砧板&r和&b小刀&r把&6蘑菇做成草杆&r！"]
-                        dependencies: ["55099E0F763B39CA"]
-                        id: "25E90C8154CF725D"
-                        tasks: [
-                                {
-                                        id: "6F1877B1062E6688"
-                                        type: "item"
-                                        item: "farmersdelight:cutting_board"
-                                }
-                                {
-                                        id: "5129ADE86E1611A8"
-                                        type: "item"
-                                        item: {
-                                                id: "farmersdelight:flint_knife"
-                                                Count: 1b
-                                                tag: {
-                                                        Damage: 0
-                                                }
-                                        }
-                                }
-                        ]
-                        rewards: [{
-                                id: "3B0C55A42D9F4470"
-                                type: "item"
-                                item: "farmersdelight:fish_stew"
-                        }]
-                }
-                {
-                        title: "没有草方块，那就触摸草杆"
-                        icon: "farmersdelight:straw"
-                        x: -0.5d
-                        y: 6.5d
-                        subtitle: "制造草杆"
-                        description: [
-                                "&b草杆&r可以被制作成许多有用的东西。"
-                                ""
-                                "在我找到更结实的纤维做线之前，就只能这样了。或许我可以做一个自动化……"
-                        ]
-                        dependencies: ["25E90C8154CF725D"]
-                        id: "6967B3C43AC095A7"
-                        tasks: [{
-                                id: "523D8CCEB809F415"
-                                type: "item"
-                                item: "farmersdelight:straw"
-                        }]
-                        rewards: [
-                                {
-                                        id: "601E7F78DC3D6EA6"
-                                        type: "item"
-                                        item: {
-                                                id: "biomesoplenty:spider_egg"
-                                                Count: 1b
-                                                tag: {
-                                                        RepairCost: 0
-                                                        display: {
-                                                                Name: "{\"text\":\"打开它，有个大惊喜！\"}"
-                                                        }
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "5254B2513E554360"
-                                        type: "item"
-                                        item: "reliquary:chelicerae"
-                                }
-                        ]
-                }
-                {
-                        title: "钓鱼时间，钓鱼韵律"
-                        icon: {
-                                id: "minecraft:fishing_rod"
-                                Count: 1b
-                                tag: {
-                                        Damage: 0
-                                }
-                        }
-                        x: -2.0d
-                        y: 6.5d
-                        shape: "hexagon"
-                        subtitle: "合成钓鱼竿"
-                        description: [
-                                "&o鱼就像亲戚。两天后就臭了。"
-                                ""
-                                "在这里钓鱼和在海上钓鱼级别上是一样的，只不过是在岩浆上。具体内容我在&5Azriel's Acquisitions&r一章中具体展开。"
-                                ""
-                                "我真正需要从钓鱼中获取的知识一些&6铜锭&r。除此之外的钓到的要么是可选择的要么是锦上添花的东西。"
-                        ]
-                        dependencies: [
-                                "55099E0F763B39CA"
-                                "6967B3C43AC095A7"
-                        ]
-                        min_width: 250
-                        id: "5C0BF701B0990D7C"
-                        tasks: [{
-                                id: "6908E76127D3E78F"
-                                type: "item"
-                                item: {
-                                        id: "minecraft:fishing_rod"
-                                        Count: 1b
-                                        tag: {
-                                                Damage: 0
-                                        }
-                                }
-                        }]
-                        rewards: [
-                                {
-                                        id: "5CFE7C5F3306A486"
-                                        type: "item"
-                                        item: "minecraft:saddle"
-                                }
-                                {
-                                        id: "6073802B67D98E0B"
-                                        type: "item"
-                                        item: {
-                                                id: "minecraft:warped_fungus_on_a_stick"
-                                                Count: 1b
-                                                tag: {
-                                                        Damage: 0
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "3D6EAD562A359453"
-                                        type: "item"
-                                        item: {
-                                                id: "minecraft:enchanted_book"
-                                                Count: 1b
-                                                tag: {
-                                                        StoredEnchantments: [{
-                                                                lvl: 3s
-                                                                id: "minecraft:luck_of_the_sea"
-                                                        }]
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "74BF33A1920AF76B"
-                                        type: "gamestage"
-                                        auto: "invisible"
-                                        stage: "fishing_unlocked"
-                                }
-                                {
-                                        id: "24DEFD56B78C95CB"
-                                        type: "command"
-                                        auto: "invisible"
-                                        command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"Azriel's Acquisitions \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"炼狱边界\",\"color\":\"dark_aqua\"},\"!\"]"
-                                        player_command: false
-                                }
-                        ]
-                }
-                {
-                        title: "一天一个苹果，医生远离我！"
-                        icon: "minecraft:golden_apple"
-                        x: -4.0d
-                        y: -1.0d
-                        shape: "square"
-                        subtitle: "上面写着“不是给你吃的！”是有原因的。"
-                        description: [
-                                "那些苹果太闪亮了！我做不到&o不&r吃他们！我怎么知道它们很重要？"
-                                ""
-                                "&o如果你吃了你的金苹果并且卡关了。这里还有一个"
-                        ]
-                        optional: true
-                        id: "128FDA30BC29A493"
-                        tasks: [{
-                                id: "693D3A95B9CC7268"
-                                type: "checkmark"
-                        }]
-                        rewards: [{
-                                id: "2F6D2E1A8CAB2ED4"
-                                type: "item"
-                                item: {
-                                        id: "minecraft:golden_apple"
-                                        Count: 1b
-                                        tag: {
-                                                RepairCost: 0
-                                                display: {
-                                                        Name: "{\"text\":\"别吃！\"}"
-                                                }
-                                        }
-                                }
-                        }]
-                }
-                {
-                        title: "熔岩钓鱼的可靠朋友"
-                        x: 2.5d
-                        y: 3.5d
-                        shape: "square"
-                        subtitle: "召唤或找到一只炽足兽"
-                        description: ["&b炽足兽&r他虽然不聪明，但不介意当一匹骏马。"]
-                        dependencies: ["4B52BBBF01CDF027"]
-                        dependency_requirement: "one_started"
-                        id: "5304141AB630CCF3"
-                        tasks: [{
-                                id: "1C83A1D169A37740"
-                                type: "observation"
-                                title: "观察炽足兽"
-                                icon: "minecraft:saddle"
-                                timer: 0L
-                                observe_type: 5
-                                to_observe: "minecraft:strider"
-                        }]
-                        rewards: [
-                                {
-                                        id: "3C39011C843B6E54"
-                                        type: "item"
-                                        item: {
-                                                id: "ceramicbucket:ceramic_bucket"
-                                                Count: 1b
-                                                tag: {
-                                                        Fluid: {
-                                                                FluidName: "minecraft:lava"
-                                                                Amount: 1000
-                                                        }
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "7E5E4FC97121EC01"
-                                        type: "item"
-                                        item: {
-                                                id: "minecraft:name_tag"
-                                                Count: 1b
-                                                tag: {
-                                                        RepairCost: 0
-                                                        display: {
-                                                                Name: "{\"text\":\"火云邪神\"}"
-                                                        }
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "1D2E048FFBB57726"
-                                        type: "item"
-                                        item: "minecraft:lead"
-                                }
-                        ]
-                }
-                {
-                        title: "你打我电话？"
-                        x: 4.0d
-                        y: 4.5d
-                        shape: "hexagon"
-                        subtitle: "制作一个召唤祭坛"
-                        description: [
-                                "&5召唤术&r能够让我&6从远处抓住野兽&r。"
-                                ""
-                                "把&6试剂&r放入&b召唤祭坛&r，在&o最后&r，施加特定的&6催化剂&r来召唤一个生物。我想我甚至还可以把它自动化。"
-                                ""
-                                "&o在JEI中查看召唤祭坛的作用，&6有那些生物可以被召唤&r，&o召唤他们分别需要什么配方。"
-                                ""
-                                "&o用命名牌给生物起名可以防止生物消失。"
-                        ]
-                        dependencies: ["6004FB8F1A55EAA1"]
-                        dependency_requirement: "one_started"
-                        size: 1.25d
-                        min_width: 225
-                        id: "4B52BBBF01CDF027"
-                        tasks: [{
-                                id: "030E22A6060A0D2F"
-                                type: "item"
-                                item: "summoningrituals:altar"
-                        }]
-                        rewards: [
-                                {
-                                        id: "1DA8E01F26ECE46F"
-                                        type: "item"
-                                        item: {
-                                                id: "minecraft:name_tag"
-                                                Count: 1b
-                                                tag: {
-                                                        RepairCost: 0
-                                                        display: {
-                                                                Name: "{\"text\":\"疣猪兽\"}"
-                                                        }
-                                                }
-                                        }
-                                        count: 2
-                                }
-                                {
-                                        id: "2317881B66DD7792"
-                                        type: "item"
-                                        item: {
-                                                id: "minecraft:name_tag"
-                                                Count: 1b
-                                                tag: {
-                                                        RepairCost: 0
-                                                        display: {
-                                                                Name: "{\"text\":\"合同猪灵 \"}"
-                                                        }
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "3805D854B9DAC30B"
-                                        type: "item"
-                                        item: {
-                                                id: "ars_nouveau:warp_scroll"
-                                                Count: 1b
-                                                tag: { }
-                                        }
-                                }
-                                {
-                                        id: "1C38F42293816A6E"
-                                        type: "item"
-                                        item: "minecraft:ink_sac"
-                                }
-                        ]
-                }
-                {
-                        title: "想来点什么？"
-                        x: 6.5d
-                        y: 4.5d
-                        subtitle: "这些猪人对财富有一种健康的尊重"
-                        description: [
-                                "我发现了一个原始社会，我把他们命名为&b猪灵&r。"
-                                ""
-                                "尽管他们通常充满敌意，但我发现他们&6对黄金异常着迷&r。"
-                                ""
-                                "当我穿着黄金护甲时他们并不会攻击我。我甚至还可以向他们扔金锭来与他们&b进行贸易&r。"
-                                ""
-                                "我记下了一份贸易清单。通过在JEI中查看&6金锭&r的配方和&6信息选项卡&r，我可以查看他们想要交易的物品。"
-                        ]
-                        dependencies: ["452795D9520D03DF"]
-                        dependency_requirement: "one_completed"
-                        min_width: 275
-                        id: "6004FB8F1A55EAA1"
-                        tasks: [{
-                                id: "14A4BA55200B3E3C"
-                                type: "observation"
-                                title: "遇见猪灵"
-                                icon: "tconstruct:piglin_head"
-                                timer: 0L
-                                observe_type: 5
-                                to_observe: "minecraft:piglin"
-                        }]
-                        rewards: [{
-                                id: "59691AA240D5C526"
-                                type: "item"
-                                item: "minecraft:gold_ingot"
-                                count: 2
-                        }]
-                }
-                {
-                        x: -2.0d
-                        y: 10.0d
-                        subtitle: "收集岩浆膏"
-                        description: [
-                                "可以把枪药珠扔进灵魂火中来制作&b岩浆膏&r。"
-                                ""
-                                "这样挺好的，一个更安全的方法获得东西，呃，如果我擅长的话才会安全，至少。"
-                        ]
-                        dependencies: [
-                                "5C0BF701B0990D7C"
-                                "00C118CB0E6B46C1"
-                        ]
-                        dependency_requirement: "one_completed"
-                        id: "2A07F5A0F699F597"
-                        tasks: [{
-                                id: "7CC09DE3665D216D"
-                                type: "item"
-                                item: "minecraft:magma_cream"
-                        }]
-                }
-                {
-                        x: -3.5d
-                        y: 3.0d
-                        subtitle: "制作一个熔炉"
-                        description: [
-                                "用从基岩层上露出来的黑石，就能制作一个&b熔炉&r了。"
-                                ""
-                                "地表的树不是最好的燃料，但也许可以试试地下的菌？"
-                        ]
-                        dependencies: ["55099E0F763B39CA"]
-                        id: "16C79CB1537B7093"
-                        tasks: [{
-                                id: "3511DF0EE9BD4DFB"
-                                type: "item"
-                                item: "minecraft:furnace"
-                        }]
-                        rewards: [
-                                {
-                                        id: "4A7CDD9A3C55B763"
-                                        type: "item"
-                                        item: "minecraft:charcoal"
-                                        count: 8
-                                }
-                                {
-                                        id: "1D6D2DC7F015D3B5"
-                                        type: "item"
-                                        item: "inferno:smoked_shroom"
-                                        count: 6
-                                }
-                        ]
-                }
-                {
-                        x: 6.5d
-                        y: 6.5d
-                        subtitle: "和猪灵交易"
-                        description: [
-                                "和猪灵交易能让我赚到一些好东西。"
-                                ""
-                                "很显然，包括&b铁&r！尽管这个形态没啥大用，但是我一定能找到他的使用方法。"
-                        ]
-                        dependencies: ["6004FB8F1A55EAA1"]
-                        id: "624DDC11A0969722"
-                        tasks: [{
-                                id: "1828EBB7233F7CD4"
-                                type: "item"
-                                item: {
-                                        id: "tconstruct:round_plate"
-                                        Count: 1b
-                                        tag: {
-                                                Material: "tconstruct:iron"
-                                        }
-                                }
-                        }]
-                        rewards: [{
-                                id: "263A10F6EACADB0E"
-                                type: "item"
-                                item: {
-                                        id: "tconstruct:round_plate"
-                                        Count: 1b
-                                        tag: {
-                                                Material: "tconstruct:iron"
-                                        }
-                                }
-                                count: 4
-                        }]
-                }
-                {
-                        title: "贫矿！全是贫矿！"
-                        x: 6.5d
-                        y: 2.0d
-                        subtitle: "收集一个金锭"
-                        description: ["这些矿石，和这边的大部分东西一样，并不完全是&6丰富的&r。每个矿石只会掉落一些粒。"]
-                        dependencies: ["6D44BEC648E76C3E"]
-                        id: "452795D9520D03DF"
-                        tasks: [{
-                                id: "1E37735BBE1B77DE"
-                                type: "item"
-                                item: "minecraft:gold_ingot"
-                        }]
-                        rewards: [
-                                {
-                                        id: "63171F8FE2FDA42A"
-                                        type: "item"
-                                        item: "quark:golden_frog_leg"
-                                }
-                                {
-                                        id: "65B73A3BFA24FCD9"
-                                        type: "item"
-                                        item: "minecraft:gold_ingot"
-                                        count: 8
-                                }
-                        ]
-                }
-                {
-                        x: 6.5d
-                        y: 10.0d
-                        subtitle: "制作一个铁锭"
-                        description: [
-                                "我真的很想找出猪灵从哪里得到这些铁，但是目前还只是个未知的事情。"
-                                ""
-                                "目前，我只能保持和他们交易以得到铁。现在我有方法把铁圆板融化成&b锭&r，他们更为实用。"
-                                ""
-                                "这些本地人并不知道他们的价值，我很开心能够利用这一点。"
-                        ]
-                        dependencies: [
-                                "624DDC11A0969722"
-                                "2CD5241DDDC9F473"
-                        ]
-                        id: "40D4850B34EC5677"
-                        tasks: [{
-                                id: "5F7FF7D400B68CB9"
-                                type: "item"
-                                item: "minecraft:iron_ingot"
-                        }]
-                        rewards: [{
-                                id: "39760291D5DA5D4F"
-                                type: "item"
-                                item: "apotheosis:iron_mining_arrow"
-                                count: 16
-                        }]
-                }
-                {
-                        title: "在地狱中淘金"
-                        x: 6.5d
-                        y: 0.0d
-                        subtitle: "要发财了！"
-                        description: [
-                                "这个可怕的荒地目前并没有什么作用，但是这边黄金的量特别的多。"
-                                ""
-                                "在我想起来我在哪之前，我的第一反应是“gimme, gimme, gimme”之类的东西。"
-                                ""
-                                "不管怎样，顺便拿走一些吧，因为……多愁善感。"
-                        ]
-                        dependencies: ["4EB484144E0ACC7F"]
-                        id: "6D44BEC648E76C3E"
-                        tasks: [{
-                                id: "16356F722CBC0748"
-                                type: "observation"
-                                title: "找到下界金矿"
-                                icon: "minecraft:nether_gold_ore"
-                                timer: 0L
-                                observe_type: 0
-                                to_observe: "minecraft:nether_gold_ore"
-                        }]
-                        rewards: [{
-                                id: "45088A533C56D911"
-                                type: "item"
-                                item: {
-                                        id: "minecraft:golden_pickaxe"
-                                        Count: 1b
-                                        tag: {
-                                                RepairCost: 3
-                                                Damage: 0
-                                                Enchantments: [
-                                                        {
-                                                                lvl: 5s
-                                                                id: "minecraft:efficiency"
-                                                        }
-                                                        {
-                                                                lvl: 2s
-                                                                id: "minecraft:fortune"
-                                                        }
-                                                ]
-                                                display: {
-                                                        Name: "{\"text\":\"猪灵淘金者\"}"
-                                                }
-                                        }
-                                }
-                        }]
-                }
-                {
-                        title: "我在冶炼，我在&o冶炼！&r"
-                        x: 4.0d
-                        y: 10.0d
-                        shape: "hexagon"
-                        subtitle: "制作一个冶炼炉"
-                        description: [
-                                "使用&6从岩浆湖里钓出来&r的铜锭，我把我的熔炉升级为了&b冶炼炉&r！"
-                                ""
-                                "冶炼炉足够先进到可以制作&6合金&r。"
-                                ""
-                                "&o解锁章节&3普罗米修斯的异端&r下的&5无名者的革新&r&o"
-                        ]
-                        dependencies: [
-                                "2CD5241DDDC9F473"
-                                "372AB62538B293D3"
-                        ]
-                        min_width: 275
-                        id: "6DF116C5D533A28D"
-                        tasks: [{
-                                id: "10EBEA27D0285FA1"
-                                type: "item"
-                                item: "tconstruct:smeltery_controller"
-                        }]
-                        rewards: [
-                                {
-                                        id: "17660F6E3853E9F7"
-                                        type: "item"
-                                        item: "tconstruct:mighty_smelting"
-                                }
-                                {
-                                        id: "0B4B2A4B945A43FB"
-                                        type: "item"
-                                        item: "tconstruct:seared_brick"
-                                        count: 64
-                                        random_bonus: 32
-                                }
-                                {
-                                        id: "04CA6BFFEF1DB53F"
-                                        type: "item"
-                                        item: "rsgauges:glass_interval_timer"
-                                }
-                                {
-                                        id: "3840DC29D9C25268"
-                                        type: "gamestage"
-                                        auto: "invisible"
-                                        stage: "smeltery_crafted"
-                                }
-                                {
-                                        id: "6A24EA5DD746BE52"
-                                        type: "command"
-                                        auto: "invisible"
-                                        command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"全新的革命\",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"普罗米修斯的异端\",\"color\":\"dark_aqua\"},\"!\"]"
-                                        player_command: false
-                                }
-                                {
-                                        id: "580E3BF2250D5950"
-                                        type: "item"
-                                        item: {
-                                                id: "ceramicbucket:ceramic_bucket"
-                                                Count: 1b
-                                                tag: {
-                                                        Fluid: {
-                                                                FluidName: "tconstruct:mushroom_stew"
-                                                                Amount: 1000
-                                                        }
-                                                }
-                                        }
-                                }
-                        ]
-                }
-                {
-                        title: "穿上它，你就是神中神"
-                        x: 8.5d
-                        y: 2.0d
-                        shape: "square"
-                        subtitle: "制作金质装甲"
-                        description: [
-                                "当我穿着&b金质盔甲&r时，那些平时凶恶的猪灵们才会友善的看待我。"
-                                ""
-                                "虽然金质盔甲&c&l非常的脆弱&r，不过能使我的探索之旅顺利许多。"
-                        ]
-                        dependencies: ["452795D9520D03DF"]
-                        optional: true
-                        id: "67EB00FE7807FC12"
-                        tasks: [{
-                                id: "2DE13F9C262235F6"
-                                type: "item"
-                                item: {
-                                        id: "minecraft:golden_chestplate"
-                                        Count: 1b
-                                        tag: {
-                                                Damage: 0
-                                        }
-                                }
-                        }]
-                        rewards: [
-                                {
-                                        id: "60C5E91D19224783"
-                                        type: "item"
-                                        item: {
-                                                id: "minecraft:golden_helmet"
-                                                Count: 1b
-                                                tag: {
-                                                        Damage: 0
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "17ECD54EA9147DE6"
-                                        type: "item"
-                                        item: {
-                                                id: "minecraft:golden_leggings"
-                                                Count: 1b
-                                                tag: {
-                                                        Damage: 0
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "19ACC98430F6C4F6"
-                                        type: "item"
-                                        item: {
-                                                id: "minecraft:golden_boots"
-                                                Count: 1b
-                                                tag: {
-                                                        Damage: 0
-                                                }
-                                        }
-                                }
-                        ]
-                }
-                {
-                        title: "玫瑰的青睐"
-                        x: 4.0d
-                        y: 11.5d
-                        subtitle: "啊，魔法的滋味"
-                        description: [
-                                "&b玫瑰金&r是附魔的基础。登神长阶第一阶&b玫瑰金&r。"
-                                ""
-                                "虽说万事开头难，但我已经踏出了第一步，那么只需要不断向前道路就会不断延伸。是时候来点&o真正的&r魔法了。"
-                                ""
-                                "&o点击右上角的&r▶&o来查看仍未解锁的项目&r"
-                        ]
-                        dependencies: ["6DF116C5D533A28D"]
-                        id: "34E8389197884E32"
-                        tasks: [{
-                                id: "6D83FEBB5ED6A6D1"
-                                type: "item"
-                                item: "tconstruct:rose_gold_ingot"
-                        }]
-                        rewards: [
-                                {
-                                        id: "777FB509D962C899"
-                                        type: "item"
-                                        item: "minecraft:rose_bush"
-                                }
-                                {
-                                        id: "2DA5145473D59647"
-                                        type: "item"
-                                        item: "tconstruct:rose_gold_ingot"
-                                        count: 2
-                                }
-                                {
-                                        id: "530248176BBD57C8"
-                                        type: "command"
-                                        auto: "invisible"
-                                        command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"染血之刺\",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"靡菲斯特的暴怒\",\"color\":\"dark_aqua\"},\"!\"]"
-                                        player_command: false
-                                }
-                        ]
-                }
-                {
-                        title: "嘿！麻瓜！看看这是啥？"
-                        x: 6.5d
-                        y: 11.5d
-                        shape: "hexagon"
-                        subtitle: "虽然很简单且基础，但是货真价实的魔法。"
-                        description: [
-                                "有了这些玫瑰金，我就可以使用&b混合锅&r来制作一些&6混合物和调剂&r。"
-                                ""
-                                "我可以将这地方的植被的一点点生命能力变成对我而言更重要的东西。"
-                                ""
-                                "&o解锁章节：&5草药与巫术&r&o下的&3靡菲斯特的暴怒&r"
-                        ]
-                        dependencies: [
-                                "34E8389197884E32"
-                                "40D4850B34EC5677"
-                        ]
-                        id: "105D0A853D0574B2"
-                        tasks: [{
-                                id: "15CB2FA0086CC99F"
-                                type: "item"
-                                item: "hexerei:mixing_cauldron"
-                        }]
-                        rewards: [
-                                {
-                                        id: "73579ED829108428"
-                                        type: "item"
-                                        item: {
-                                                id: "evilcraft:dark_tank"
-                                                Count: 1b
-                                                tag: {
-                                                        Fluid: {
-                                                                FluidName: "minecraft:lava"
-                                                                Amount: 16000
-                                                        }
-                                                        capacity: 16000
-                                                }
-                                                ForgeCaps: {
-                                                        Parent: {
-                                                                FluidName: "minecraft:lava"
-                                                                Amount: 16000
-                                                                capacity: 16000
-                                                        }
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "0B9AAF9AF266F625"
-                                        type: "gamestage"
-                                        auto: "invisible"
-                                        stage: "mixing_cauldron_crafted"
-                                }
-                                {
-                                        id: "11CBDE8891D58780"
-                                        type: "command"
-                                        auto: "invisible"
-                                        command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"草药与诅咒\",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"靡菲斯特的暴怒\",\"color\":\"dark_aqua\"},\"!\"]"
-                                        player_command: false
-                                }
-                        ]
-                }
-                {
-                        title: "步入黑暗"
-                        x: 6.5d
-                        y: 14.25d
-                        shape: "hexagon"
-                        subtitle: "暗黑宝石"
-                        description: [
-                                "我做到了，我做出了&b我做出了汲取黑暗的宝石&r。"
-                                ""
-                                "这将是&6许多魔法的基础&r。我向我未来可以强化它，但是这需要经验。"
-                                ""
-                                "&o解锁章节&5染血之刺&r&o下的&3靡菲斯特的暴怒&r"
-                        ]
-                        dependencies: ["105D0A853D0574B2"]
-                        size: 1.5d
-                        id: "782C16B8A56859A2"
-                        tasks: [{
-                                id: "46059038B4C47A1D"
-                                type: "item"
-                                item: "evilcraft:dark_gem"
-                        }]
-                        rewards: [
-                                {
-                                        id: "4C00888979E170C3"
-                                        type: "item"
-                                        item: "minecraft:ender_pearl"
-                                        count: 2
-                                }
-                                {
-                                        id: "4196CA0C2014C95A"
-                                        type: "item"
-                                        item: "evilcraft:dark_gem"
-                                        count: 2
-                                }
-                                {
-                                        id: "022385F221F00818"
-                                        type: "command"
-                                        auto: "invisible"
-                                        command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"染血之刺 \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"靡菲斯特的暴怒\",\"color\":\"dark_aqua\"},\"!\"]"
-                                        player_command: false
-                                }
-                        ]
-                }
-                {
-                        title: "领袖之路"
-                        icon: "minecolonies:blockhuttownhall"
-                        x: 1.0d
-                        y: 14.25d
-                        shape: "hexagon"
-                        subtitle: "制作一个市政厅"
-                        description: [
-                                "&b市政厅&r是你所创建殖民地的中心。只要建造就绪，就可以领取任务奖励了。"
-                                ""
-                                "殖民地建筑没有成型前不会工作。每个任务都会为你准备一个建筑胶囊。"
-                                ""
-                                "当补给营地建成的时候，&6使用市政厅胶囊&r来放置多方块结构。一旦放置好，&6挖掉里面的深板岩&r然后在原地放置&b市政厅&r。"
-                                ""
-                                "&o解锁章节&o&3欲望&r下的&5吃穿不缺&r"
-                        ]
-                        dependencies: ["12F109B5B72694C3"]
-                        size: 1.5d
-                        min_width: 300
-                        id: "4030CF59E481704A"
-                        tasks: [{
-                                id: "21339610EE62A8EC"
-                                type: "item"
-                                item: "minecolonies:blockhuttownhall"
-                        }]
-                        rewards: [
-                                {
-                                        id: "488E6389C654C2E0"
-                                        type: "item"
-                                        item: "magnumtorch:diamond_magnum_torch"
-                                }
-                                {
-                                        id: "3BFC50DCFA327B22"
-                                        type: "item"
-                                        item: {
-                                                id: "capsule:capsule"
-                                                Count: 1b
-                                                tag: {
-                                                        yOffset: -2
-                                                        RepairCost: 0
-                                                        color: 0
-                                                        isReward: 1b
-                                                        oneUse: 1b
-                                                        structureName: "config/capsule/rewards/townhall.nbt"
-                                                        author: "FTB"
-                                                        display: {
-                                                                color: 8388608
-                                                                Name: "{\"text\":\"市政厅胶囊\"}"
-                                                        }
-                                                        label: "Townhall.nbt"
-                                                        size: 23
-                                                        state: 5
-                                                        canRotate: 1b
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "5D43ECBF47A0E70F"
-                                        type: "command"
-                                        auto: "invisible"
-                                        command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"吃穿不愁 \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"欲望\",\"color\":\"dark_aqua\"},\"!\"]"
-                                        player_command: false
-                                }
-                                {
-                                        id: "0427211B71C8BA37"
-                                        type: "command"
-                                        auto: "invisible"
-                                        command: "/tellraw @p {\"text\":\"你必须在放置殖民地之前放下补给营地\",\"bold\":true,\"underlined\":true,\"color\":\"red\"}"
-                                        player_command: false
-                                }
-                        ]
-                }
-                {
-                        title: "失魂沙子"
-                        x: -3.5d
-                        y: 1.5d
-                        subtitle: "转化沙子"
-                        description: ["似乎我可以&6通过灵火中燃烧邪恶之尘&r来制做&b沙子&r！"]
-                        dependencies: ["190D99BFDBA17B13"]
-                        id: "40FB31F573CB41B9"
-                        tasks: [{
-                                id: "0F8B56EDA246291B"
-                                type: "item"
-                                item: "minecraft:sand"
-                        }]
-                        rewards: [{
-                                id: "4865595DCC12526B"
-                                type: "item"
-                                item: "minecraft:sand"
-                                count: 8
-                        }]
-                }
-                {
-                        title: "卑鄙之尘"
-                        x: -5.0d
-                        y: 1.5d
-                        subtitle: "制作一个邪恶之尘"
-                        description: [
-                                "烘烤骨粉就能获得这个东西。"
-                                ""
-                                "这个东西最好有啥作用，不然这完全是浪费我的骨粉。"
-                        ]
-                        dependencies: [
-                                "16C79CB1537B7093"
-                                "7833EAA6C05E4950"
-                        ]
-                        id: "190D99BFDBA17B13"
-                        tasks: [{
-                                id: "6F7D369A33F13659"
-                                type: "item"
-                                item: "soulshards:vile_dust"
-                        }]
-                        rewards: [{
-                                id: "7ED061467B260BF5"
-                                type: "item"
-                                item: "soulshards:vile_dust"
-                                count: 4
-                        }]
-                }
-                {
-                        title: "另一种另类的白肉"
-                        icon: "nethersdelight:plate_of_stuffed_hoglin_snout"
-                        x: 8.5d
-                        y: 4.5d
-                        shape: "square"
-                        subtitle: "观察疣猪兽"
-                        description: [
-                                "&b疣猪兽&r是一种会在绯红平原漫步的凶残、野蛮的野兽"
-                                ""
-                                "他们非常喜爱&b绯红菌&r，甚至能通过其来繁殖。"
-                                ""
-                                "喂养它们不能让他们变得友善，所以在无人看管的时候还是把它们圈起来吧。"
-                                ""
-                                "一个重要提示：如果我用&6小刀&r刺穿疣猪兽我就能得到一种非常特殊的资源。这似乎是完美的疣猪皮和肉的来源。"
-                        ]
-                        dependencies: ["6004FB8F1A55EAA1"]
-                        optional: true
-                        min_width: 225
-                        id: "7B68B8DCDA015BCF"
-                        tasks: [{
-                                id: "3A818C0343779379"
-                                type: "observation"
-                                title: "观察疣猪兽"
-                                icon: "nethersdelight:hoglin_hide"
-                                timer: 0L
-                                observe_type: 5
-                                to_observe: "minecraft:hoglin"
-                        }]
-                        rewards: [
-                                {
-                                        id: "41EE6DD16592BA43"
-                                        type: "item"
-                                        item: "nethersdelight:stuffed_hoglin"
-                                }
-                                {
-                                        id: "124CE6B7044A294B"
-                                        type: "item"
-                                        item: {
-                                                id: "farmersdelight:iron_knife"
-                                                Count: 1b
-                                                tag: {
-                                                        RepairCost: 15
-                                                        Damage: 0
-                                                        Enchantments: [
-                                                                {
-                                                                        lvl: 2s
-                                                                        id: "apotheosis:scavenger"
-                                                                }
-                                                                {
-                                                                        lvl: 3s
-                                                                        id: "minecraft:unbreaking"
-                                                                }
-                                                                {
-                                                                        lvl: 2s
-                                                                        id: "minecraft:sharpness"
-                                                                }
-                                                                {
-                                                                        lvl: 1s
-                                                                        id: "soulshards:soul_stealer"
-                                                                }
-                                                        ]
-                                                        display: {
-                                                                Name: "{\"text\":\"炼狱之刃\"}"
-                                                        }
-                                                }
-                                        }
-                                }
-                        ]
-                }
-                {
-                        title: "焦黑熔化炉"
-                        icon: "tconstruct:seared_melter"
-                        x: 2.5d
-                        y: 10.0d
-                        subtitle: "制作一个熔化炉"
-                        description: [
-                                "我常常将焦褐砖扔进&6灵火中燃烧&r来制作&b焦黑砖&r。"
-                                ""
-                                "我可以用它来制作&b熔化炉&r。"
-                        ]
-                        dependencies: ["372AB62538B293D3"]
-                        id: "2CD5241DDDC9F473"
-                        tasks: [
-                                {
-                                        id: "711B78BE33700FBE"
-                                        type: "item"
-                                        item: "tconstruct:seared_brick"
-                                }
-                                {
-                                        id: "5EBE866497D35475"
-                                        type: "item"
-                                        item: "tconstruct:seared_melter"
-                                }
-                                {
-                                        id: "0C8E73D1F5563CA5"
-                                        type: "item"
-                                        title: "熔化炉"
-                                        item: {
-                                                id: "itemfilters:or"
-                                                Count: 1b
-                                                tag: {
-                                                        items: [
-                                                                {
-                                                                        id: "tconstruct:seared_heater"
-                                                                        Count: 1b
-                                                                }
-                                                                {
-                                                                        id: "tconstruct:seared_fuel_tank"
-                                                                        Count: 1b
-                                                                }
-                                                                {
-                                                                        id: "tconstruct:scorched_fuel_tank"
-                                                                        Count: 1b
-                                                                }
-                                                        ]
-                                                }
-                                        }
-                                }
-                        ]
-                        rewards: [
-                                {
-                                        id: "0749E5E2DDFF3957"
-                                        type: "item"
-                                        item: "tconstruct:seared_brick"
-                                        count: 8
-                                }
-                                {
-                                        id: "08E62693EA7FEA3D"
-                                        type: "item"
-                                        item: "tconstruct:seared_faucet"
-                                        count: 2
-                                }
-                        ]
-                }
-                {
-                        x: -2.0d
-                        y: 8.5d
-                        subtitle: "收集枪药珠"
-                        description: [
-                                "我可以&o（鼠标右键）&r&6用剪刀&r来采集枪药杆上的发光灯泡来收集&b枪药珠&r。"
-                                ""
-                                "&o提示：我可以用金子从猪灵那里交易到剪刀的原材料。"
-                        ]
-                        dependencies: [
-                                "5C0BF701B0990D7C"
-                                "00F31E1EFBD483B5"
-                        ]
-                        dependency_requirement: "one_completed"
-                        id: "00C118CB0E6B46C1"
-                        tasks: [{
-                                id: "3F3021D117ABDFD6"
-                                type: "item"
-                                item: "nethersdelight:propelpearl"
-                        }]
-                }
-                {
-                        title: "自爆"
-                        x: 1.0d
-                        y: 8.5d
-                        subtitle: "观察枪药株植"
-                        description: [
-                                "&b枪药株植&r是一种植物。靠近它一步就会爆炸！寄了。"
-                                ""
-                                "我能用剪刀来采集发光的&b枪药珠&r，然后接着用骨粉催熟它。"
-                                ""
-                                "用小刀可以从上到下小心的把&b草杆&r噶下来。"
-                                ""
-                                "&b枪药草茎&r可以通过一个草杆和绯红菌来制作。这样就可以把它种在别的地方。"
-                        ]
-                        dependencies: ["25E90C8154CF725D"]
-                        min_width: 275
-                        id: "00F31E1EFBD483B5"
-                        tasks: [{
-                                id: "23F039913D8B3EED"
-                                type: "observation"
-                                title: "观察枪药株植"
-                                icon: "nethersdelight:propelplant_stem"
-                                timer: 0L
-                                observe_type: 0
-                                to_observe: "nethersdelight:propelplant_stem"
-                        }]
-                        rewards: [
-                                {
-                                        id: "74D453FB1C9FD9F1"
-                                        type: "item"
-                                        item: {
-                                                id: "minecraft:potion"
-                                                Count: 1b
-                                                tag: {
-                                                        Potion: "minecraft:long_fire_resistance"
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "7FC0BA0CB9E8AD6A"
-                                        type: "item"
-                                        item: "engineersdecor:sign_firehazard"
-                                }
-                                {
-                                        id: "53E45B80A37EE07D"
-                                        type: "item"
-                                        item: "minecraft:crimson_roots"
-                                        count: 4
-                                }
-                                {
-                                        id: "5D97F007A528FB25"
-                                        type: "item"
-                                        item: "nethersdelight:propelplant_cane"
-                                        count: 16
-                                }
-                        ]
-                }
-                {
-                        title: "修剪灯泡"
-                        x: 8.5d
-                        y: 6.5d
-                        shape: "square"
-                        subtitle: "修剪一下"
-                        description: ["&b剪刀&r可以用铁圆板来制作，我可以用它来&6采集树叶，根和枪药珠&r！"]
-                        dependencies: ["624DDC11A0969722"]
-                        optional: true
-                        id: "34F994C9B96032D3"
-                        tasks: [{
-                                id: "7CE48D428D814646"
-                                type: "item"
-                                item: {
-                                        id: "minecraft:shears"
-                                        Count: 1b
-                                        tag: {
-                                                Damage: 0
-                                        }
-                                }
-                        }]
-                        rewards: [{
-                                id: "6EFEA7D61ED8D5BC"
-                                type: "item"
-                                item: "nethersdelight:propelpearl"
-                        }]
-                }
-                {
-                        x: 8.5d
-                        y: 10.0d
-                        subtitle: "制作一个堆肥桶"
-                        description: [
-                                "&b堆肥桶&r比原版堆肥桶更厉害。通过它我可以把植物转化为&6堆肥&r，也就意味着可以把它&6做成泥土&r。"
-                                ""
-                                "这一切都是牺牲易用性换来的，堆肥桶比起原版速度更慢，而且它工作的时候不能打开。"
-                        ]
-                        dependencies: ["40D4850B34EC5677"]
-                        id: "377F03B6D2338EFD"
-                        tasks: [{
-                                id: "05B43D40FB61A2E9"
-                                type: "item"
-                                item: "minecolonies:barrel_block"
-                        }]
-                        rewards: [{
-                                id: "63E753061021A33C"
-                                type: "item"
-                                item: "minecolonies:barrel_block"
-                                count: 3
-                        }]
-                }
-                {
-                        title: "耕种之路"
-                        x: 11.5d
-                        y: 10.0d
-                        shape: "hexagon"
-                        subtitle: "虫子们进进出出找快感"
-                        description: [
-                                "我已经花了足够长的时间靠我在这个地方找到的剩菜过活了"
-                                ""
-                                "多亏了堆肥，我可以开始从事一些真正的农业，种植一些作物来填饱我的肚子。"
-                                ""
-                                "&o解锁章节&3暴食&r下的&5富集废料&r&o"
-                        ]
-                        dependencies: ["377F03B6D2338EFD"]
-                        size: 1.5d
-                        id: "73FE8B3FDB173113"
-                        tasks: [{
-                                id: "2FBC05AF9051A70D"
-                                type: "item"
-                                item: "farmersdelight:organic_compost"
-                        }]
-                        rewards: [
-                                {
-                                        id: "4E160FFA238DF066"
-                                        type: "item"
-                                        item: "farmersdelight:organic_compost"
-                                        count: 12
-                                }
-                                {
-                                        id: "26C67B62EAF9347C"
-                                        type: "command"
-                                        auto: "invisible"
-                                        command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"富集废料 \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"暴食\",\"color\":\"dark_aqua\"},\"!\"]"
-                                        player_command: false
-                                }
-                        ]
-                }
-                {
-                        title: "原始科技"
-                        icon: "tconstruct:scorched_brick"
-                        x: 1.0d
-                        y: 10.0d
-                        subtitle: "制作一个焦褐砖"
-                        description: [
-                                "冶炼是踏入文明的第一步，&b焦褐砖&r则是我达成目的的第一步。"
-                                ""
-                                "我可以把枪药珠转化为岩浆膏，这有数之不尽用之不竭的灵魂沙，以及我很确信在岩浆湖边上有一堆沙砾。"
-                        ]
-                        dependencies: ["2A07F5A0F699F597"]
-                        id: "372AB62538B293D3"
-                        tasks: [{
-                                id: "7B1DE755AB640C0B"
-                                type: "item"
-                                item: "tconstruct:scorched_brick"
-                        }]
-                        rewards: [{
-                                id: "74A798AEABC6F3C7"
-                                type: "item"
-                                item: "tconstruct:scorched_brick"
-                                count: 8
-                        }]
-                }
-                {
-                        title: "我想做的第一件事是……"
-                        x: 8.5d
-                        y: 12.5d
-                        shape: "square"
-                        subtitle: "制作一个时间之瓶"
-                        description: [
-                                "在这个地方有太多的事情要考验我的耐心。"
-                                ""
-                                "我找到了一个方法去利用暗黑宝石的力量，这&6大大加快了许多琐碎的任务&r。"
-                                ""
-                                "&b时间之瓶&r可以在不用的时候储存时间之力，我可以用它来加速绝大多数方块。"
-                        ]
-                        dependencies: ["782C16B8A56859A2"]
-                        optional: true
-                        id: "7C8BDB0D2CB63311"
-                        tasks: [{
-                                id: "3BC4617CC0434EC0"
-                                type: "item"
-                                item: {
-                                        id: "tiab:time_in_a_bottle"
-                                        Count: 1b
-                                        tag: { }
-                                }
-                        }]
-                        rewards: [
-                                {
-                                        id: "371EFE5B1138C445"
-                                        type: "xp_levels"
-                                        xp_levels: 5
-                                }
-                                {
-                                        id: "45C66BE907B2706E"
-                                        type: "item"
-                                        item: "artifacts:panic_necklace"
-                                }
-                        ]
-                }
-                {
-                        title: "[刻意的游戏设计]"
+			}]
+			rewards: [{
+				id: "667DB9F7512D0CEC"
+				type: "item"
+				item: {
+					id: "tconstruct:repair_kit"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:flint"
+					}
+				}
+				count: 8
+			}]
+		}
+		{
+			title: "燧石和……黑石？"
+			x: -1.0d
+			y: 0.0d
+			subtitle: "燃烧！焚尽众生！"
+			description: ["用黑石而不是铁锭来制作打火石。这是哪位“专家”的想法？"]
+			dependencies: ["1FAE864DC2E733BC"]
+			id: "3676C089D399390F"
+			tasks: [{
+				id: "0F417A566A75D367"
+				type: "item"
+				item: {
+					id: "minecraft:flint_and_steel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "638881C93FFA1BBD"
+				type: "item"
+				item: "minecraft:mushroom_stew"
+				count: 4
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			subtitle: "把黄金转化为恶魔之物"
+			description: [
+				"我可以把金苹果在营火上烹饪来制作&b魔鬼之梦果&r。"
+				""
+				"我很高兴我没有在刚到这里的时候吃掉所有的金苹果，否则我就只能使用这个任务上方的应急任务了……"
+			]
+			id: "071E0ADF4D7C5678"
+			tasks: [{
+				id: "67B8C9839C80C42A"
+				type: "item"
+				item: "occultism:datura"
+			}]
+			rewards: [{
+				id: "267955AEE0D3EF69"
+				type: "item"
+				item: "minecraft:flint"
+				count: 4
+			}]
+		}
+		{
+			title: "静看世界燃烧"
+			icon: "occultism:spirit_fire"
+			x: -2.0d
+			y: 1.5d
+			shape: "hexagon"
+			subtitle: "凝视灵火"
+			description: [
+				"看起来我可以把&6恶魔之梦果&r扔到地上用打火石把它&6点燃&r，以此为火焰注入神秘能量。"
+				""
+				"我想知道如果我再扔点别的东西进去会怎么样？"
+			]
+			dependencies: [
+				"3676C089D399390F"
+				"071E0ADF4D7C5678"
+			]
+			id: "5C9BF1B7C5963186"
+			tasks: [{
+				id: "1975BC3591B1FD90"
+				type: "observation"
+				title: "凝视灵火"
+				icon: "occultism:spirit_fire"
+				timer: 0L
+				observe_type: 0
+				to_observe: "occultism:spirit_fire"
+			}]
+			rewards: [
+				{
+					id: "24339AFD354843FE"
+					type: "item"
+					item: "occultism:datura"
+					count: 4
+				}
+				{
+					id: "05D4B70ABCC8571C"
+					type: "item"
+					item: "occultism:spirit_torch"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "死亡之土"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "收集一些灵魂沙"
+			description: [
+				"当我走过那些该死的灵魂时，我能感觉到他们在抓住我。"
+				""
+				"有点吓人，但我不是为了被恶心才来这里的。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["1FAE864DC2E733BC"]
+			id: "4116046D3CB4AF2A"
+			tasks: [{
+				id: "15C3E651313BE3B1"
+				type: "item"
+				item: "minecraft:soul_sand"
+			}]
+			rewards: [
+				{
+					id: "672F049DF1594DF5"
+					type: "item"
+					item: "quark:soul_bead"
+				}
+				{
+					id: "17BE9CE28F7F55C3"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "菌丝"
+			x: 1.0d
+			y: 1.5d
+			subtitle: "创造菌丝"
+			description: [
+				"将灵魂沙和蘑菇合成在一起就产生了&b菌丝&r！"
+				""
+				"看起来蘑菇甚至在白天也可以在菌丝上生长，或者是这里的啥。"
+			]
+			dependencies: ["4116046D3CB4AF2A"]
+			id: "4ED3EE383BEC4719"
+			tasks: [{
+				id: "32775A5D6A1ACB21"
+				type: "item"
+				item: "minecraft:mycelium"
+			}]
+			rewards: [{
+				id: "0F91A7AD7123519E"
+				type: "item"
+				item: "minecraft:brown_mushroom"
+				count: 6
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			subtitle: "转化诡异菌岩"
+			description: [
+				"似乎把菌丝扔进灵火可以合成&b诡异菌岩&r！"
+				""
+				"这看起来和草方块差不多，至少看起来是。也许它们有着一样的功能？"
+			]
+			dependencies: [
+				"4ED3EE383BEC4719"
+				"5C9BF1B7C5963186"
+			]
+			id: "64856BBC8E05AAF0"
+			tasks: [{
+				id: "0A3542A631B77AA7"
+				type: "item"
+				item: "minecraft:warped_nylium"
+			}]
+			rewards: [{
+				id: "02EF2A8FE6D195EF"
+				type: "item"
+				item: "farmersdelight:nether_salad"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			subtitle: "转化诡异菌"
+			description: [
+				"把蘑菇扔进灵火中炙烤，这会将它们腐蚀成&b诡异菌&r。"
+				""
+				"如果把它种在合适的土壤上，也许它可以被培育成更结实的东西？"
+				""
+				"不出意外的话，我发现把棕色或是红色蘑菇在篝火上熏制，可以做出美味的&6烟熏蘑菇&r！"
+			]
+			dependencies: ["5C9BF1B7C5963186"]
+			dependency_requirement: "all_started"
+			id: "31DEFB66D0807111"
+			tasks: [{
+				id: "1434E24E7DC505C3"
+				type: "item"
+				item: "minecraft:warped_fungus"
+			}]
+			rewards: [
+				{
+					id: "165247E1CCDFF660"
+					type: "item"
+					item: "minecraft:flint"
+					count: 4
+				}
+				{
+					id: "2EC652ED7933DA2B"
+					type: "item"
+					item: "minecraft:warped_fungus"
+					count: 4
+				}
+				{
+					id: "60BB89024FF4EC1F"
+					type: "item"
+					item: "inferno:smoked_shroom"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "原木！终于，一些事物开始回归正轨。"
+			x: -2.0d
+			y: 4.5d
+			subtitle: "催熟诡异菌"
+			description: [
+				"我并不喜欢分享，但我曾经约会过的一个树精教过我如何催熟植物，通过……&b对着他们跳舞&r。"
+				""
+				"如果有人问起。我在……潜行，是的。"
+			]
+			dependencies: [
+				"64856BBC8E05AAF0"
+				"31DEFB66D0807111"
+			]
+			id: "55099E0F763B39CA"
+			tasks: [{
+				id: "66B0393CA1801630"
+				type: "item"
+				item: "minecraft:warped_stem"
+			}]
+			rewards: [{
+				id: "51194D0B53EC588B"
+				type: "item"
+				item: "minecraft:warped_fungus"
+				count: 4
+			}]
+		}
+		{
+			title: "没有骨头的骨粉"
+			x: -5.0d
+			y: 4.5d
+			subtitle: "合成一个堆肥桶"
+			description: ["在这里我可以把所有植物性废料做成骨粉。"]
+			dependencies: ["55099E0F763B39CA"]
+			id: "7833EAA6C05E4950"
+			tasks: [{
+				id: "711108AAC8CBE239"
+				type: "item"
+				item: "minecraft:composter"
+			}]
+			rewards: [
+				{
+					id: "329E1654431D6825"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 16
+				}
+				{
+					id: "2E9EFDD76F9FAA10"
+					type: "item"
+					item: "woodenhopper:wooden_hopper"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "麻溜点！"
+			icon: "farmersdelight:cutting_board"
+			x: 1.0d
+			y: 4.5d
+			subtitle: "合成砧板和燧石刀"
+			description: ["除了显而易见的烹饪用途，我还可以用&b砧板&r和&b小刀&r把&6蘑菇做成草杆&r！"]
+			dependencies: ["55099E0F763B39CA"]
+			id: "25E90C8154CF725D"
+			tasks: [
+				{
+					id: "6F1877B1062E6688"
+					type: "item"
+					item: "farmersdelight:cutting_board"
+				}
+				{
+					id: "5129ADE86E1611A8"
+					type: "item"
+					item: {
+						id: "farmersdelight:flint_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3B0C55A42D9F4470"
+				type: "item"
+				item: "farmersdelight:fish_stew"
+			}]
+		}
+		{
+			title: "没有草方块，那就触摸草杆"
+			icon: "farmersdelight:straw"
+			x: -0.5d
+			y: 6.5d
+			subtitle: "制造草杆"
+			description: [
+				"&b草杆&r可以被制作成许多有用的东西。"
+				""
+				"在我找到更结实的纤维做线之前，就只能这样了。或许我可以做一个自动化……"
+			]
+			dependencies: ["25E90C8154CF725D"]
+			id: "6967B3C43AC095A7"
+			tasks: [{
+				id: "523D8CCEB809F415"
+				type: "item"
+				item: "farmersdelight:straw"
+			}]
+			rewards: [
+				{
+					id: "601E7F78DC3D6EA6"
+					type: "item"
+					item: {
+						id: "biomesoplenty:spider_egg"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"打开它，有个大惊喜！\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "5254B2513E554360"
+					type: "item"
+					item: "reliquary:chelicerae"
+				}
+			]
+		}
+		{
+			title: "钓鱼时间，钓鱼韵律"
+			icon: {
+				id: "minecraft:fishing_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.0d
+			y: 6.5d
+			shape: "hexagon"
+			subtitle: "合成钓鱼竿"
+			description: [
+				"&o鱼就像亲戚。两天后就臭了。"
+				""
+				"在这里钓鱼和在海上钓鱼级别上是一样的，只不过是在岩浆上。具体内容我在&5Azriel's Acquisitions&r一章中展开说明。"
+				""
+				"我真正需要从钓鱼中获取的知识一些&6铜锭&r。除此之外的钓到的要么是可选择的要么是锦上添花的东西。"
+			]
+			dependencies: [
+				"55099E0F763B39CA"
+				"6967B3C43AC095A7"
+			]
+			min_width: 250
+			id: "5C0BF701B0990D7C"
+			tasks: [{
+				id: "6908E76127D3E78F"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5CFE7C5F3306A486"
+					type: "item"
+					item: "minecraft:saddle"
+				}
+				{
+					id: "6073802B67D98E0B"
+					type: "item"
+					item: {
+						id: "minecraft:warped_fungus_on_a_stick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3D6EAD562A359453"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:luck_of_the_sea"
+							}]
+						}
+					}
+				}
+				{
+					id: "74BF33A1920AF76B"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "fishing_unlocked"
+				}
+				{
+					id: "24DEFD56B78C95CB"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"Azriel's Acquisitions \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"炼狱边界\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "一天一个苹果，医生远离我！"
+			icon: "minecraft:golden_apple"
+			x: -4.0d
+			y: -1.0d
+			shape: "square"
+			subtitle: "上面写着“不是给你吃的！”是有原因的。"
+			description: [
+				"那些苹果太闪亮了！我做不到&o不&r吃他们！我怎么知道它们很重要？"
+				""
+				"&o如果你吃了你的金苹果并且卡关了。这里还有一个"
+			]
+			optional: true
+			id: "128FDA30BC29A493"
+			tasks: [{
+				id: "693D3A95B9CC7268"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2F6D2E1A8CAB2ED4"
+				type: "item"
+				item: {
+					id: "minecraft:golden_apple"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"别吃！\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "熔岩钓鱼的可靠朋友"
+			x: 2.5d
+			y: 3.5d
+			shape: "square"
+			subtitle: "召唤或找到一只炽足兽"
+			description: ["&b炽足兽&r他虽然不聪明，但不介意当一匹骏马。"]
+			dependencies: ["4B52BBBF01CDF027"]
+			dependency_requirement: "one_started"
+			id: "5304141AB630CCF3"
+			tasks: [{
+				id: "1C83A1D169A37740"
+				type: "observation"
+				title: "观察炽足兽"
+				icon: "minecraft:saddle"
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:strider"
+			}]
+			rewards: [
+				{
+					id: "3C39011C843B6E54"
+					type: "item"
+					item: {
+						id: "ceramicbucket:ceramic_bucket"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "minecraft:lava"
+								Amount: 1000
+							}
+						}
+					}
+				}
+				{
+					id: "7E5E4FC97121EC01"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"火云邪神\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "1D2E048FFBB57726"
+					type: "item"
+					item: "minecraft:lead"
+				}
+			]
+		}
+		{
+			title: "你打我电话？"
+			x: 4.0d
+			y: 4.5d
+			shape: "hexagon"
+			subtitle: "制作一个召唤祭坛"
+			description: [
+				"&5召唤术&r能够让我&6从远处抓住野兽&r。"
+				""
+				"把&6试剂&r放入&b召唤祭坛&r，在&o最后&r，施加特定的&6催化剂&r来召唤一个生物。我想我甚至还可以把它自动化。"
+				""
+				"&o在JEI中查看召唤祭坛的作用，&6有那些生物可以被召唤&r，&o召唤他们分别需要什么配方。"
+				""
+				"&o用命名牌给生物起名可以防止生物消失。"
+			]
+			dependencies: ["6004FB8F1A55EAA1"]
+			dependency_requirement: "one_started"
+			size: 1.25d
+			min_width: 225
+			id: "4B52BBBF01CDF027"
+			tasks: [{
+				id: "030E22A6060A0D2F"
+				type: "item"
+				item: "summoningrituals:altar"
+			}]
+			rewards: [
+				{
+					id: "1DA8E01F26ECE46F"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"疣猪兽\"}"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "2317881B66DD7792"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"合同猪灵 \"}"
+							}
+						}
+					}
+				}
+				{
+					id: "3805D854B9DAC30B"
+					type: "item"
+					item: {
+						id: "ars_nouveau:warp_scroll"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "1C38F42293816A6E"
+					type: "item"
+					item: "minecraft:ink_sac"
+				}
+			]
+		}
+		{
+			title: "想来点什么？"
+			x: 6.5d
+			y: 4.5d
+			subtitle: "这些猪人对财富有一种健康的尊重"
+			description: [
+				"我发现了一个原始社会，我把他们命名为&b猪灵&r。"
+				""
+				"尽管他们通常充满敌意，但我发现他们&6对黄金异常着迷&r。"
+				""
+				"当我穿着黄金护甲时他们并不会攻击我。我甚至还可以向他们扔金锭来与他们&b进行贸易&r。"
+				""
+				"我记下了一份贸易清单。通过在JEI中查看&6金锭&r的配方和&6信息选项卡&r，我可以查看他们想要交易的物品。"
+			]
+			dependencies: ["452795D9520D03DF"]
+			dependency_requirement: "one_completed"
+			min_width: 275
+			id: "6004FB8F1A55EAA1"
+			tasks: [{
+				id: "14A4BA55200B3E3C"
+				type: "observation"
+				title: "遇见猪灵"
+				icon: "tconstruct:piglin_head"
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:piglin"
+			}]
+			rewards: [{
+				id: "59691AA240D5C526"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 10.0d
+			subtitle: "收集岩浆膏"
+			description: [
+				"可以把枪药珠扔进灵魂火中来制作&b岩浆膏&r。"
+				""
+				"这样挺好的，一个更安全的方法获得东西，呃，如果我擅长的话才会安全，至少。"
+			]
+			dependencies: [
+				"5C0BF701B0990D7C"
+				"00C118CB0E6B46C1"
+			]
+			dependency_requirement: "one_completed"
+			id: "2A07F5A0F699F597"
+			tasks: [{
+				id: "7CC09DE3665D216D"
+				type: "item"
+				item: "minecraft:magma_cream"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			subtitle: "制作一个熔炉"
+			description: [
+				"用从基岩层上露出来的黑石，就能制作一个&b熔炉&r了。"
+				""
+				"地表的树不是最好的燃料，但也许可以试试地下的菌？"
+			]
+			dependencies: ["55099E0F763B39CA"]
+			id: "16C79CB1537B7093"
+			tasks: [{
+				id: "3511DF0EE9BD4DFB"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [
+				{
+					id: "4A7CDD9A3C55B763"
+					type: "item"
+					item: "minecraft:charcoal"
+					count: 8
+				}
+				{
+					id: "1D6D2DC7F015D3B5"
+					type: "item"
+					item: "inferno:smoked_shroom"
+					count: 6
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 6.5d
+			subtitle: "和猪灵交易"
+			description: [
+				"和猪灵交易能让我赚到一些好东西。"
+				""
+				"很显然，包括&b铁&r！尽管这个形态没啥大用，但是我一定能找到他的使用方法。"
+			]
+			dependencies: ["6004FB8F1A55EAA1"]
+			id: "624DDC11A0969722"
+			tasks: [{
+				id: "1828EBB7233F7CD4"
+				type: "item"
+				item: {
+					id: "tconstruct:round_plate"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:iron"
+					}
+				}
+			}]
+			rewards: [{
+				id: "263A10F6EACADB0E"
+				type: "item"
+				item: {
+					id: "tconstruct:round_plate"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:iron"
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			title: "贫矿！全是贫矿！"
+			x: 6.5d
+			y: 2.0d
+			subtitle: "收集一个金锭"
+			description: ["这些矿石，和这边的大部分东西一样，并不完全是&6丰富的&r。每个矿石只会掉落一些粒。"]
+			dependencies: ["6D44BEC648E76C3E"]
+			id: "452795D9520D03DF"
+			tasks: [{
+				id: "1E37735BBE1B77DE"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+			rewards: [
+				{
+					id: "63171F8FE2FDA42A"
+					type: "item"
+					item: "quark:golden_frog_leg"
+				}
+				{
+					id: "65B73A3BFA24FCD9"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 10.0d
+			subtitle: "制作一个铁锭"
+			description: [
+				"我真的很想找出猪灵从哪里得到这些铁，但是目前还只是个未知的事情。"
+				""
+				"目前，我只能保持和他们交易以得到铁。现在我有方法把铁圆板融化成&b锭&r，他们更为实用。"
+				""
+				"这些本地人并不知道他们的价值，我很开心能够利用这一点。"
+			]
+			dependencies: [
+				"624DDC11A0969722"
+				"2CD5241DDDC9F473"
+			]
+			id: "40D4850B34EC5677"
+			tasks: [{
+				id: "5F7FF7D400B68CB9"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+			rewards: [{
+				id: "39760291D5DA5D4F"
+				type: "item"
+				item: "apotheosis:iron_mining_arrow"
+				count: 16
+			}]
+		}
+		{
+			title: "在地狱中淘金"
+			x: 6.5d
+			y: 0.0d
+			subtitle: "要发财了！"
+			description: [
+				"这个可怕的荒地目前并没有什么作用，但是这边黄金的量特别的多。"
+				""
+				"在我想起来我在哪之前，我的第一反应是“gimme, gimme, gimme”之类的东西。"
+				""
+				"不管怎样，顺便拿走一些吧，因为……多愁善感。"
+			]
+			dependencies: ["4EB484144E0ACC7F"]
+			id: "6D44BEC648E76C3E"
+			tasks: [{
+				id: "16356F722CBC0748"
+				type: "observation"
+				title: "找到下界金矿"
+				icon: "minecraft:nether_gold_ore"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:nether_gold_ore"
+			}]
+			rewards: [{
+				id: "45088A533C56D911"
+				type: "item"
+				item: {
+					id: "minecraft:golden_pickaxe"
+					Count: 1b
+					tag: {
+						RepairCost: 3
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 5s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:fortune"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"猪灵淘金者\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "我在冶炼，我在&o冶炼！&r"
+			x: 4.0d
+			y: 10.0d
+			shape: "hexagon"
+			subtitle: "制作一个冶炼炉"
+			description: [
+				"使用&6从岩浆湖里钓出来&r的铜锭，我把我的熔炉升级为了&b冶炼炉&r！"
+				""
+				"冶炼炉足够先进到可以制作&6合金&r。"
+				""
+				"&o解锁章节&3普罗米修斯的异端&r下的&5无名者的革新&r&o"
+			]
+			dependencies: [
+				"2CD5241DDDC9F473"
+				"372AB62538B293D3"
+			]
+			min_width: 275
+			id: "6DF116C5D533A28D"
+			tasks: [{
+				id: "10EBEA27D0285FA1"
+				type: "item"
+				item: "tconstruct:smeltery_controller"
+			}]
+			rewards: [
+				{
+					id: "17660F6E3853E9F7"
+					type: "item"
+					item: "tconstruct:mighty_smelting"
+				}
+				{
+					id: "0B4B2A4B945A43FB"
+					type: "item"
+					item: "tconstruct:seared_brick"
+					count: 64
+					random_bonus: 32
+				}
+				{
+					id: "04CA6BFFEF1DB53F"
+					type: "item"
+					item: "rsgauges:glass_interval_timer"
+				}
+				{
+					id: "3840DC29D9C25268"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "smeltery_crafted"
+				}
+				{
+					id: "6A24EA5DD746BE52"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"全新的革命\",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"普罗米修斯的异端\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+				{
+					id: "580E3BF2250D5950"
+					type: "item"
+					item: {
+						id: "ceramicbucket:ceramic_bucket"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "tconstruct:mushroom_stew"
+								Amount: 1000
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "穿上它，你就是神中神"
+			x: 8.5d
+			y: 2.0d
+			shape: "square"
+			subtitle: "制作金质装甲"
+			description: [
+				"当我穿着&b金质盔甲&r时，那些平时凶恶的猪灵们才会友善的看待我。"
+				""
+				"虽然金质盔甲&c&l非常的脆弱&r，不过能使我的探索之旅顺利许多。"
+			]
+			dependencies: ["452795D9520D03DF"]
+			optional: true
+			id: "67EB00FE7807FC12"
+			tasks: [{
+				id: "2DE13F9C262235F6"
+				type: "item"
+				item: {
+					id: "minecraft:golden_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "60C5E91D19224783"
+					type: "item"
+					item: {
+						id: "minecraft:golden_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "17ECD54EA9147DE6"
+					type: "item"
+					item: {
+						id: "minecraft:golden_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "19ACC98430F6C4F6"
+					type: "item"
+					item: {
+						id: "minecraft:golden_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "玫瑰的青睐"
+			x: 4.0d
+			y: 11.5d
+			subtitle: "啊，魔法的滋味"
+			description: [
+				"&b玫瑰金&r是附魔的基础。登神长阶第一阶&b玫瑰金&r。"
+				""
+				"虽说万事开头难，但我已经踏出了第一步，那么只需要不断向前道路就会不断延伸。是时候来点&o真正的&r魔法了。"
+				""
+				"&o点击右上角的&r▶&o来查看仍未解锁的项目&r"
+			]
+			dependencies: ["6DF116C5D533A28D"]
+			id: "34E8389197884E32"
+			tasks: [{
+				id: "6D83FEBB5ED6A6D1"
+				type: "item"
+				item: "tconstruct:rose_gold_ingot"
+			}]
+			rewards: [
+				{
+					id: "777FB509D962C899"
+					type: "item"
+					item: "minecraft:rose_bush"
+				}
+				{
+					id: "2DA5145473D59647"
+					type: "item"
+					item: "tconstruct:rose_gold_ingot"
+					count: 2
+				}
+				{
+					id: "530248176BBD57C8"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"染血之刺\",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"靡菲斯特的暴怒\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "嘿！麻瓜！看看这是啥？"
+			x: 6.5d
+			y: 11.5d
+			shape: "hexagon"
+			subtitle: "虽然很简单且基础，但是货真价实的魔法。"
+			description: [
+				"有了这些玫瑰金，我就可以使用&b混合锅&r来制作一些&6混合物和调剂&r。"
+				""
+				"我可以将这地方的植被的一点点生命能力变成对我而言更重要的东西。"
+				""
+				"&o解锁章节：&5草药与巫术&r&o下的&3靡菲斯特的暴怒&r"
+			]
+			dependencies: [
+				"34E8389197884E32"
+				"40D4850B34EC5677"
+			]
+			id: "105D0A853D0574B2"
+			tasks: [{
+				id: "15CB2FA0086CC99F"
+				type: "item"
+				item: "hexerei:mixing_cauldron"
+			}]
+			rewards: [
+				{
+					id: "73579ED829108428"
+					type: "item"
+					item: {
+						id: "evilcraft:dark_tank"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "minecraft:lava"
+								Amount: 16000
+							}
+							capacity: 16000
+						}
+						ForgeCaps: {
+							Parent: {
+								FluidName: "minecraft:lava"
+								Amount: 16000
+								capacity: 16000
+							}
+						}
+					}
+				}
+				{
+					id: "0B9AAF9AF266F625"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "mixing_cauldron_crafted"
+				}
+				{
+					id: "11CBDE8891D58780"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"草药与诅咒\",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"靡菲斯特的暴怒\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "步入黑暗"
+			x: 6.5d
+			y: 14.25d
+			shape: "hexagon"
+			subtitle: "暗黑宝石"
+			description: [
+				"我做到了，我做出了&b我做出了汲取黑暗的宝石&r。"
+				""
+				"这将是&6许多魔法的基础&r。我向我未来可以强化它，但是这需要经验。"
+				""
+				"&o解锁章节&5染血之刺&r&o下的&3靡菲斯特的暴怒&r"
+			]
+			dependencies: ["105D0A853D0574B2"]
+			size: 1.5d
+			id: "782C16B8A56859A2"
+			tasks: [{
+				id: "46059038B4C47A1D"
+				type: "item"
+				item: "evilcraft:dark_gem"
+			}]
+			rewards: [
+				{
+					id: "4C00888979E170C3"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 2
+				}
+				{
+					id: "4196CA0C2014C95A"
+					type: "item"
+					item: "evilcraft:dark_gem"
+					count: 2
+				}
+				{
+					id: "022385F221F00818"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"染血之刺 \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"靡菲斯特的暴怒\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "领袖之路"
+			icon: "minecolonies:blockhuttownhall"
+			x: 1.0d
+			y: 14.25d
+			shape: "hexagon"
+			subtitle: "制作一个市政厅"
+			description: [
+				"&b市政厅&r是你所创建殖民地的中心。只要建造就绪，就可以领取任务奖励了。"
+				""
+				"殖民地建筑没有成型前不会工作。每个任务都会为你准备一个建筑胶囊。"
+				""
+				"当补给营地建成的时候，&6使用市政厅胶囊&r来放置多方块结构。一旦放置好，&6挖掉里面的深板岩&r然后在原地放置&b市政厅&r。"
+				""
+				"&o解锁章节&o&3欲望&r下的&5吃穿不缺&r"
+			]
+			dependencies: ["12F109B5B72694C3"]
+			size: 1.5d
+			min_width: 300
+			id: "4030CF59E481704A"
+			tasks: [{
+				id: "21339610EE62A8EC"
+				type: "item"
+				item: "minecolonies:blockhuttownhall"
+			}]
+			rewards: [
+				{
+					id: "488E6389C654C2E0"
+					type: "item"
+					item: "magnumtorch:diamond_magnum_torch"
+				}
+				{
+					id: "3BFC50DCFA327B22"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -2
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/townhall.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"市政厅胶囊\"}"
+							}
+							label: "Townhall.nbt"
+							size: 23
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+				{
+					id: "5D43ECBF47A0E70F"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"吃穿不愁 \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"欲望\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+				{
+					id: "0427211B71C8BA37"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p {\"text\":\"你必须在放置殖民地之前放下补给营地\",\"bold\":true,\"underlined\":true,\"color\":\"red\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "失魂沙子"
+			x: -3.5d
+			y: 1.5d
+			subtitle: "转化沙子"
+			description: ["似乎我可以&6通过灵火中燃烧邪恶之尘&r来制做&b沙子&r！"]
+			dependencies: ["190D99BFDBA17B13"]
+			id: "40FB31F573CB41B9"
+			tasks: [{
+				id: "0F8B56EDA246291B"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+			rewards: [{
+				id: "4865595DCC12526B"
+				type: "item"
+				item: "minecraft:sand"
+				count: 8
+			}]
+		}
+		{
+			title: "卑鄙之尘"
+			x: -5.0d
+			y: 1.5d
+			subtitle: "制作一个邪恶之尘"
+			description: [
+				"烘烤骨粉就能获得这个东西。"
+				""
+				"这个东西最好有啥作用，不然这完全是浪费我的骨粉。"
+			]
+			dependencies: [
+				"16C79CB1537B7093"
+				"7833EAA6C05E4950"
+			]
+			id: "190D99BFDBA17B13"
+			tasks: [{
+				id: "6F7D369A33F13659"
+				type: "item"
+				item: "soulshards:vile_dust"
+			}]
+			rewards: [{
+				id: "7ED061467B260BF5"
+				type: "item"
+				item: "soulshards:vile_dust"
+				count: 4
+			}]
+		}
+		{
+			title: "另一种另类的白肉"
+			icon: "nethersdelight:plate_of_stuffed_hoglin_snout"
+			x: 8.5d
+			y: 4.5d
+			shape: "square"
+			subtitle: "观察疣猪兽"
+			description: [
+				"&b疣猪兽&r是一种会在绯红平原漫步的凶残、野蛮的野兽"
+				""
+				"他们非常喜爱&b绯红菌&r，甚至能通过其来繁殖。"
+				""
+				"喂养它们不能让他们变得友善，所以在无人看管的时候还是把它们圈起来吧。"
+				""
+				"一个重要提示：如果我用&6小刀&r刺穿疣猪兽我就能得到一种非常特殊的资源。这似乎是完美的疣猪皮和肉的来源。"
+			]
+			dependencies: ["6004FB8F1A55EAA1"]
+			optional: true
+			min_width: 225
+			id: "7B68B8DCDA015BCF"
+			tasks: [{
+				id: "3A818C0343779379"
+				type: "observation"
+				title: "观察疣猪兽"
+				icon: "nethersdelight:hoglin_hide"
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:hoglin"
+			}]
+			rewards: [
+				{
+					id: "41EE6DD16592BA43"
+					type: "item"
+					item: "nethersdelight:stuffed_hoglin"
+				}
+				{
+					id: "124CE6B7044A294B"
+					type: "item"
+					item: {
+						id: "farmersdelight:iron_knife"
+						Count: 1b
+						tag: {
+							RepairCost: 15
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "apotheosis:scavenger"
+								}
+								{
+									lvl: 3s
+									id: "minecraft:unbreaking"
+								}
+								{
+									lvl: 2s
+									id: "minecraft:sharpness"
+								}
+								{
+									lvl: 1s
+									id: "soulshards:soul_stealer"
+								}
+							]
+							display: {
+								Name: "{\"text\":\"炼狱之刃\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "焦黑熔化炉"
+			icon: "tconstruct:seared_melter"
+			x: 2.5d
+			y: 10.0d
+			subtitle: "制作一个熔化炉"
+			description: [
+				"我常常将焦褐砖扔进&6灵火中燃烧&r来制作&b焦黑砖&r。"
+				""
+				"我可以用它来制作&b熔化炉&r。"
+			]
+			dependencies: ["372AB62538B293D3"]
+			id: "2CD5241DDDC9F473"
+			tasks: [
+				{
+					id: "711B78BE33700FBE"
+					type: "item"
+					item: "tconstruct:seared_brick"
+				}
+				{
+					id: "5EBE866497D35475"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "0C8E73D1F5563CA5"
+					type: "item"
+					title: "熔化炉"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:seared_heater"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_fuel_tank"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:scorched_fuel_tank"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0749E5E2DDFF3957"
+					type: "item"
+					item: "tconstruct:seared_brick"
+					count: 8
+				}
+				{
+					id: "08E62693EA7FEA3D"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 8.5d
+			subtitle: "收集枪药珠"
+			description: [
+				"我可以&o（鼠标右键）&r&6用剪刀&r来采集枪药杆上的发光灯泡来收集&b枪药珠&r。"
+				""
+				"&o提示：我可以用金子从猪灵那里交易到剪刀的原材料。"
+			]
+			dependencies: [
+				"5C0BF701B0990D7C"
+				"00F31E1EFBD483B5"
+			]
+			dependency_requirement: "one_completed"
+			id: "00C118CB0E6B46C1"
+			tasks: [{
+				id: "3F3021D117ABDFD6"
+				type: "item"
+				item: "nethersdelight:propelpearl"
+			}]
+		}
+		{
+			title: "自爆"
+			x: 1.0d
+			y: 8.5d
+			subtitle: "观察枪药株植"
+			description: [
+				"&b枪药株植&r是一种植物。靠近它一步就会爆炸！寄了。"
+				""
+				"我能用剪刀来采集发光的&b枪药珠&r，然后接着用骨粉催熟它。"
+				""
+				"用小刀可以从上到下小心的把&b草杆&r噶下来。"
+				""
+				"&b枪药草茎&r可以通过一个草杆和绯红菌来制作。这样就可以把它种在别的地方。"
+			]
+			dependencies: ["25E90C8154CF725D"]
+			min_width: 275
+			id: "00F31E1EFBD483B5"
+			tasks: [{
+				id: "23F039913D8B3EED"
+				type: "observation"
+				title: "观察枪药株植"
+				icon: "nethersdelight:propelplant_stem"
+				timer: 0L
+				observe_type: 0
+				to_observe: "nethersdelight:propelplant_stem"
+			}]
+			rewards: [
+				{
+					id: "74D453FB1C9FD9F1"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+				}
+				{
+					id: "7FC0BA0CB9E8AD6A"
+					type: "item"
+					item: "engineersdecor:sign_firehazard"
+				}
+				{
+					id: "53E45B80A37EE07D"
+					type: "item"
+					item: "minecraft:crimson_roots"
+					count: 4
+				}
+				{
+					id: "5D97F007A528FB25"
+					type: "item"
+					item: "nethersdelight:propelplant_cane"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "修剪灯泡"
+			x: 8.5d
+			y: 6.5d
+			shape: "square"
+			subtitle: "修剪一下"
+			description: ["&b剪刀&r可以用铁圆板来制作，我可以用它来&6采集树叶，根和枪药珠&r！"]
+			dependencies: ["624DDC11A0969722"]
+			optional: true
+			id: "34F994C9B96032D3"
+			tasks: [{
+				id: "7CE48D428D814646"
+				type: "item"
+				item: {
+					id: "minecraft:shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6EFEA7D61ED8D5BC"
+				type: "item"
+				item: "nethersdelight:propelpearl"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 10.0d
+			subtitle: "制作一个堆肥桶"
+			description: [
+				"&b堆肥桶&r比原版堆肥桶更厉害。通过它我可以把植物转化为&6堆肥&r，也就意味着可以把它&6做成泥土&r。"
+				""
+				"这一切都是牺牲易用性换来的，堆肥桶比起原版速度更慢，而且它工作的时候不能打开。"
+			]
+			dependencies: ["40D4850B34EC5677"]
+			id: "377F03B6D2338EFD"
+			tasks: [{
+				id: "05B43D40FB61A2E9"
+				type: "item"
+				item: "minecolonies:barrel_block"
+			}]
+			rewards: [{
+				id: "63E753061021A33C"
+				type: "item"
+				item: "minecolonies:barrel_block"
+				count: 3
+			}]
+		}
+		{
+			title: "耕种之路"
+			x: 11.5d
+			y: 10.0d
+			shape: "hexagon"
+			subtitle: "虫子们进进出出找快感"
+			description: [
+				"我已经花了足够长的时间靠我在这个地方找到的剩菜过活了"
+				""
+				"多亏了堆肥，我可以开始从事一些真正的农业，种植一些作物来填饱我的肚子。"
+				""
+				"&o解锁章节&3暴食&r下的&5富集废料&r&o"
+			]
+			dependencies: ["377F03B6D2338EFD"]
+			size: 1.5d
+			id: "73FE8B3FDB173113"
+			tasks: [{
+				id: "2FBC05AF9051A70D"
+				type: "item"
+				item: "farmersdelight:organic_compost"
+			}]
+			rewards: [
+				{
+					id: "4E160FFA238DF066"
+					type: "item"
+					item: "farmersdelight:organic_compost"
+					count: 12
+				}
+				{
+					id: "26C67B62EAF9347C"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"富集废料 \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"暴食\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "原始科技"
+			icon: "tconstruct:scorched_brick"
+			x: 1.0d
+			y: 10.0d
+			subtitle: "制作一个焦褐砖"
+			description: [
+				"冶炼是踏入文明的第一步，&b焦褐砖&r则是我达成目的的第一步。"
+				""
+				"我可以把枪药珠转化为岩浆膏，这有数之不尽用之不竭的灵魂沙，以及我很确信在岩浆湖边上有一堆沙砾。"
+			]
+			dependencies: ["2A07F5A0F699F597"]
+			id: "372AB62538B293D3"
+			tasks: [{
+				id: "7B1DE755AB640C0B"
+				type: "item"
+				item: "tconstruct:scorched_brick"
+			}]
+			rewards: [{
+				id: "74A798AEABC6F3C7"
+				type: "item"
+				item: "tconstruct:scorched_brick"
+				count: 8
+			}]
+		}
+		{
+			title: "我想做的第一件事是……"
+			x: 8.5d
+			y: 12.5d
+			shape: "square"
+			subtitle: "制作一个时间之瓶"
+			description: [
+				"在这个地方有太多的事情要考验我的耐心。"
+				""
+				"我找到了一个方法去利用暗黑宝石的力量，这&6大大加快了许多琐碎的任务&r。"
+				""
+				"&b时间之瓶&r可以在不用的时候储存时间之力，我可以用它来加速绝大多数方块。"
+			]
+			dependencies: ["782C16B8A56859A2"]
+			optional: true
+			id: "7C8BDB0D2CB63311"
+			tasks: [{
+				id: "3BC4617CC0434EC0"
+				type: "item"
+				item: {
+					id: "tiab:time_in_a_bottle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "371EFE5B1138C445"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "45C66BE907B2706E"
+					type: "item"
+					item: "artifacts:panic_necklace"
+				}
+			]
+		}
+		{
+			title: "[刻意的游戏设计]"
 						tags: ["info"]
-                        x: 2.5d
-                        y: -3.0d
-                        shape: "gear"
-                        subtitle: "是的，那并没有改变"
-                        description: ["殖民地的人能睡在床上并不意味着你也能！"]
-                        id: "15E3F4B1635701D2"
-                        tasks: [{
-                                id: "45A3791DAF0633E2"
-                                type: "observation"
-                                title: "找到床"
-                                icon: "minecraft:red_bed"
-                                timer: 0L
-                                observe_type: 1
-                                to_observe: "minecraft:beds"
-                        }]
-                }
-                {
-                        title: "精英思维"
-                        x: 10.0d
-                        y: 4.5d
-                        shape: "square"
-                        subtitle: "履行你至高无上的权利"
-                        description: [
-                                "很显然，没有人教过疣猪们那句古话“&6不要恩将仇报&r。”&4看起来这必须得我来了。&r"
-                                ""
-                                "有趣的是，虽然他们喜欢绯红菌，但是它们&o讨厌&r&b诡异菌&r。它们不会接近它的（目测它们会保持&67米远&r）。"
-                        ]
-                        dependencies: ["7B68B8DCDA015BCF"]
-                        optional: true
-                        min_width: 275
-                        id: "771C03085DC07788"
-                        tasks: [{
-                                id: "716924CEBF8E3CF9"
-                                type: "item"
-                                item: "infernalexp:raw_hogchop"
-                                count: 8L
-                        }]
-                        rewards: [
-                                {
-                                        id: "4BF1883D6E66DF0F"
-                                        type: "item"
-                                        item: {
-                                                id: "reliquary:mob_charm"
-                                                Count: 1b
-                                                tag: {
-                                                        Damage: 0
-                                                        entity: "minecraft:hoglin"
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "06628D02932EE099"
-                                        type: "item"
-                                        item: "hexerei:animal_fat"
-                                        count: 16
-                                }
-                        ]
-                }
-                {
-                        title: "嗡嗡之路"
-                        x: 4.0d
-                        y: 8.5d
-                        shape: "hexagon"
-                        subtitle: "制作蜂巢"
-                        description: [
-                                "现在，我没有足够的资源来好好利用蜜蜂。然而，有一个简单的方法可以实现。"
-                                ""
-                                "&4在冶炼炉中熔炼蜜蜂&r可以收获其心血，&b蜂蜜&r。蜜蜂是一种很脆弱的生物，所以只值一小桶蜂蜜。一个&6营火&r可以延长它几乎两倍的寿命。"
-                                ""
-                                "把蜂蜜浇在诡异木板上就可以制作&b蜂箱&r，我很确信活下来的蜜蜂会感激我的。"
-                                ""
-                                "&o解锁章节&3暴食&r下的&5忙碌的蜜蜂&r&o"
-                        ]
-                        dependencies: [
-                                "6DF116C5D533A28D"
-                                "455D20C685FC8D0B"
-                        ]
-                        size: 1.5d
-                        min_width: 250
-                        id: "70391A24AA73AC40"
-                        tasks: [{
-                                id: "42D57BFFF3210695"
-                                type: "item"
-                                item: "minecraft:beehive"
-                        }]
-                        rewards: [
-                                {
-                                        id: "79969BCCADA6417F"
-                                        type: "item"
-                                        item: {
-                                                id: "capsule:capsule"
-                                                Count: 1b
-                                                tag: {
-                                                        yOffset: -1
-                                                        RepairCost: 0
-                                                        color: 0
-                                                        isReward: 1b
-                                                        oneUse: 1b
-                                                        structureName: "config/capsule/rewards/beehouse.nbt"
-                                                        author: "IRSMoh_"
-                                                        display: {
-                                                                color: 8388608
-                                                                Name: "{\"text\":\"蜂房胶囊\"}"
-                                                        }
-                                                        label: "Beehouse.nbt"
-                                                        size: 11
-                                                        state: 5
-                                                        canRotate: 0b
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "32157CB87CDC35E9"
-                                        type: "gamestage"
-                                        auto: "invisible"
-                                        stage: "naturesaura_unlocked"
-                                }
-                                {
-                                        id: "0ED84173872F0429"
-                                        type: "command"
-                                        auto: "invisible"
-                                        command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"忙碌的蜜蜂\",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"暴食\",\"color\":\"dark_aqua\"},\"!\"]"
-                                        player_command: false
-                                }
-                        ]
-                }
-                {
-                        title: "通往魔法之路"
-                        x: 11.5d
-                        y: 8.5d
-                        shape: "hexagon"
-                        subtitle: "收集黄金叶"
-                        description: [
-                                "将闪耀纤维穿过普通的树叶，就可以&6缓慢的把他们变成金黄色&r。它可以传染旁边的树叶，但这个过程不会很快。"
-                                ""
-                                "完全成熟的黄金树叶会掉落&b黄金叶&r。这些散发着&a自然光辉&r的东西不像任何我在这见到过的东西，它更像家的感觉。"
-                                ""
-                                "&o橡树叶可以在杂草丛生的群系里发现并且会像往常一样掉落树苗。&r"
-                                ""
-                                "&o解锁章节&3靡菲斯特的暴怒&r下的&5不自然灵气&r&o"
-                        ]
-                        dependencies: ["31A09404EDA92DD4"]
-                        size: 1.5d
-                        min_width: 275
-                        id: "0EC270EA1F87DDFD"
-                        tasks: [{
-                                id: "47645D56172FF10B"
-                                type: "item"
-                                item: "naturesaura:gold_leaf"
-                        }]
-                        rewards: [
-                                {
-                                        id: "5E49CEDB47266733"
-                                        type: "item"
-                                        item: "biomesoplenty:pink_cherry_sapling"
-                                        count: 4
-                                }
-                                {
-                                        id: "6DA86513A93D17DF"
-                                        type: "item"
-                                        item: "biomesoplenty:white_cherry_sapling"
-                                        count: 4
-                                }
-                                {
-                                        id: "177D6FB68DC83379"
-                                        type: "item"
-                                        item: "naturesaura:gold_fiber"
-                                        count: 8
-                                }
-                                {
-                                        id: "0CACD7A399BB4A34"
-                                        type: "command"
-                                        auto: "invisible"
-                                        command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"不自然灵气 \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"靡菲斯特的暴怒\",\"color\":\"dark_aqua\"},\"!\"]"
-                                        player_command: false
-                                }
-                        ]
-                }
-                {
-                        x: 8.5d
-                        y: 8.5d
-                        subtitle: "制作闪耀纤维"
-                        description: [
-                                "&b闪耀纤维&r是我迈向更多的&a德鲁伊艺术&r的第一步。这不是我理想的学校，但是我会尽我可能学会一切。"
-                                ""
-                                "&o切记，&6但丁神圣图书馆&r&o有所有你需要的指示书。&r"
-                        ]
-                        dependencies: ["70391A24AA73AC40"]
-                        id: "31A09404EDA92DD4"
-                        tasks: [{
-                                id: "138349CFEDB51DDA"
-                                type: "item"
-                                item: "naturesaura:gold_fiber"
-                        }]
-                        rewards: [
-                                {
-                                        id: "1577F142707CF336"
-                                        type: "item"
-                                        item: "minecraft:oak_sapling"
-                                        count: 4
-                                }
-                                {
-                                        id: "23BAE32CFDE5B7ED"
-                                        type: "item"
-                                        item: "farmersdelight:honey_cookie"
-                                }
-                        ]
-                }
-                {
-                        title: "来跳支舞嘛？"
-                        x: 4.0d
-                        y: 6.5d
-                        subtitle: "生成蜜蜂"
-                        description: [
-                                "用我最新学到的召唤怪物的能力，&b蜜蜂&r有个很高的优先级。"
-                                ""
-                                "在我的早期学习中，我学会了如何&6使蜜蜂变异&r，能够为我制造有用的材料并干某些事情。"
-                                ""
-                                "一些蜜蜂只需给它们一些特定的物品就可以变异，而另一些蜜蜂则必须杂交。"
-                                ""
-                                "&o切记，&6但丁神圣图书馆&r&o所有指示书都在里面&r"
-                        ]
-                        dependencies: ["4B52BBBF01CDF027"]
-                        min_width: 275
-                        id: "455D20C685FC8D0B"
-                        tasks: [{
-                                id: "11412FDFA00B9C45"
-                                type: "observation"
-                                title: "找到蜜蜂"
-                                icon: "minecraft:honeycomb"
-                                timer: 0L
-                                observe_type: 5
-                                to_observe: "minecraft:bee"
-                        }]
-                        rewards: [{
-                                id: "20A34D8F766A7D7D"
-                                type: "item"
-                                item: "productivebees:sturdy_bee_cage"
-                        }]
-                }
-                {
-                        title: "人类做好的伙伴"
-                        x: 4.0d
-                        y: 2.5d
-                        shape: "square"
-                        subtitle: "生成一头狼"
-                        description: ["我学到了一个方法来&b生成伙伴&r，这对我来说很有帮助。"]
-                        dependencies: ["4B52BBBF01CDF027"]
-                        id: "69F22F13C8B9FE2C"
-                        tasks: [{
-                                id: "2021F76B370E4720"
-                                type: "observation"
-                                title: "生成一头狼"
-                                icon: "minecraft:bone"
-                                timer: 0L
-                                observe_type: 5
-                                to_observe: "minecraft:wolf"
-                        }]
-                        rewards: [{
-                                id: "5762A873338D21B8"
-                                type: "item"
-                                item: "minecraft:bone"
-                                count: 16
-                        }]
-                }
-                {
-                        title: "不是所有人都能上天堂"
-                        icon: "tconstruct:bloodbone"
+			x: 2.5d
+			y: -3.0d
+			shape: "gear"
+			subtitle: "是的，那并没有改变"
+			description: ["殖民地的人能睡在床上并不意味着你也能！"]
+			id: "15E3F4B1635701D2"
+			tasks: [{
+				id: "45A3791DAF0633E2"
+				type: "observation"
+				title: "找到床"
+				icon: "minecraft:red_bed"
+				timer: 0L
+				observe_type: 1
+				to_observe: "minecraft:beds"
+			}]
+		}
+		{
+			title: "精英思维"
+			x: 10.0d
+			y: 4.5d
+			shape: "square"
+			subtitle: "履行你至高无上的权利"
+			description: [
+				"很显然，没有人教过疣猪们那句古话“&6不要恩将仇报&r。”&4看起来这必须得我来了。&r"
+				""
+				"有趣的是，虽然他们喜欢绯红菌，但是它们&o讨厌&r&b诡异菌&r。它们不会接近它的（目测它们会保持&67米远&r）。"
+			]
+			dependencies: ["7B68B8DCDA015BCF"]
+			optional: true
+			min_width: 275
+			id: "771C03085DC07788"
+			tasks: [{
+				id: "716924CEBF8E3CF9"
+				type: "item"
+				item: "infernalexp:raw_hogchop"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "4BF1883D6E66DF0F"
+					type: "item"
+					item: {
+						id: "reliquary:mob_charm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							entity: "minecraft:hoglin"
+						}
+					}
+				}
+				{
+					id: "06628D02932EE099"
+					type: "item"
+					item: "hexerei:animal_fat"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "嗡嗡之路"
+			x: 4.0d
+			y: 8.5d
+			shape: "hexagon"
+			subtitle: "制作蜂巢"
+			description: [
+				"现在，我没有足够的资源来好好利用蜜蜂。然而，有一个简单的方法可以实现。"
+				""
+				"&4在冶炼炉中熔炼蜜蜂&r可以收获其心血，&b蜂蜜&r。蜜蜂是一种很脆弱的生物，所以只值一小桶蜂蜜。一个&6营火&r可以延长它几乎两倍的寿命。"
+				""
+				"把蜂蜜浇在诡异木板上就可以制作&b蜂箱&r，我很确信活下来的蜜蜂会感激我的。"
+				""
+				"&o解锁章节&3暴食&r下的&5忙碌的蜜蜂&r&o"
+			]
+			dependencies: [
+				"6DF116C5D533A28D"
+				"455D20C685FC8D0B"
+			]
+			size: 1.5d
+			min_width: 250
+			id: "70391A24AA73AC40"
+			tasks: [{
+				id: "42D57BFFF3210695"
+				type: "item"
+				item: "minecraft:beehive"
+			}]
+			rewards: [
+				{
+					id: "79969BCCADA6417F"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/beehouse.nbt"
+							author: "IRSMoh_"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"蜂房胶囊\"}"
+							}
+							label: "Beehouse.nbt"
+							size: 11
+							state: 5
+							canRotate: 0b
+						}
+					}
+				}
+				{
+					id: "32157CB87CDC35E9"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "naturesaura_unlocked"
+				}
+				{
+					id: "0ED84173872F0429"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"忙碌的蜜蜂\",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"暴食\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "通往魔法之路"
+			x: 11.5d
+			y: 8.5d
+			shape: "hexagon"
+			subtitle: "收集黄金叶"
+			description: [
+				"将闪耀纤维穿过普通的树叶，就可以&6缓慢的把他们变成金黄色&r。它可以传染旁边的树叶，但这个过程不会很快。"
+				""
+				"完全成熟的黄金树叶会掉落&b黄金叶&r。这些散发着&a自然光辉&r的东西不像任何我在这见到过的东西，它更像家的感觉。"
+				""
+				"&o橡树叶可以在杂草丛生的群系里发现并且会像往常一样掉落树苗。&r"
+				""
+				"&o解锁章节&3靡菲斯特的暴怒&r下的&5不自然灵气&r&o"
+			]
+			dependencies: ["31A09404EDA92DD4"]
+			size: 1.5d
+			min_width: 275
+			id: "0EC270EA1F87DDFD"
+			tasks: [{
+				id: "47645D56172FF10B"
+				type: "item"
+				item: "naturesaura:gold_leaf"
+			}]
+			rewards: [
+				{
+					id: "5E49CEDB47266733"
+					type: "item"
+					item: "biomesoplenty:pink_cherry_sapling"
+					count: 4
+				}
+				{
+					id: "6DA86513A93D17DF"
+					type: "item"
+					item: "biomesoplenty:white_cherry_sapling"
+					count: 4
+				}
+				{
+					id: "177D6FB68DC83379"
+					type: "item"
+					item: "naturesaura:gold_fiber"
+					count: 8
+				}
+				{
+					id: "0CACD7A399BB4A34"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"不自然灵气 \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"靡菲斯特的暴怒\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 8.5d
+			subtitle: "制作闪耀纤维"
+			description: [
+				"&b闪耀纤维&r是我迈向更多的&a德鲁伊艺术&r的第一步。这不是我理想的学校，但是我会尽我可能学会一切。"
+				""
+				"&o切记，&6但丁神圣图书馆&r&o有所有你需要的指示书。&r"
+			]
+			dependencies: ["70391A24AA73AC40"]
+			id: "31A09404EDA92DD4"
+			tasks: [{
+				id: "138349CFEDB51DDA"
+				type: "item"
+				item: "naturesaura:gold_fiber"
+			}]
+			rewards: [
+				{
+					id: "1577F142707CF336"
+					type: "item"
+					item: "minecraft:oak_sapling"
+					count: 4
+				}
+				{
+					id: "23BAE32CFDE5B7ED"
+					type: "item"
+					item: "farmersdelight:honey_cookie"
+				}
+			]
+		}
+		{
+			title: "来跳支舞嘛？"
+			x: 4.0d
+			y: 6.5d
+			subtitle: "生成蜜蜂"
+			description: [
+				"用我最新学到的召唤怪物的能力，&b蜜蜂&r有个很高的优先级。"
+				""
+				"在我的早期学习中，我学会了如何&6使蜜蜂变异&r，能够为我制造有用的材料并干某些事情。"
+				""
+				"一些蜜蜂只需给它们一些特定的物品就可以变异，而另一些蜜蜂则必须杂交。"
+				""
+				"&o切记，&6但丁神圣图书馆&r&o所有指示书都在里面&r"
+			]
+			dependencies: ["4B52BBBF01CDF027"]
+			min_width: 275
+			id: "455D20C685FC8D0B"
+			tasks: [{
+				id: "11412FDFA00B9C45"
+				type: "observation"
+				title: "找到蜜蜂"
+				icon: "minecraft:honeycomb"
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:bee"
+			}]
+			rewards: [{
+				id: "20A34D8F766A7D7D"
+				type: "item"
+				item: "productivebees:sturdy_bee_cage"
+			}]
+		}
+		{
+			title: "人类做好的伙伴"
+			x: 4.0d
+			y: 2.5d
+			shape: "square"
+			subtitle: "生成一头狼"
+			description: ["我学到了一个方法来&b生成伙伴&r，这对我来说很有帮助。"]
+			dependencies: ["4B52BBBF01CDF027"]
+			id: "69F22F13C8B9FE2C"
+			tasks: [{
+				id: "2021F76B370E4720"
+				type: "observation"
+				title: "生成一头狼"
+				icon: "minecraft:bone"
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:wolf"
+			}]
+			rewards: [{
+				id: "5762A873338D21B8"
+				type: "item"
+				item: "minecraft:bone"
+				count: 16
+			}]
+		}
+		{
+			title: "不是所有人都能上天堂"
+			icon: "tconstruct:bloodbone"
 						tags: ["info"]
-                        x: 2.5d
-                        y: -2.0d
-                        shape: "gear"
-                        subtitle: "怪物生成"
-                        description: [
-                                "&6啥都不能在基岩上生成&r——除了我，(｡･∀･)ﾉﾞ嗨~"
-                                ""
-                                "但是怪物会在别的任何地方生成，在基岩层上建筑（或者挖下去）&b会给予怪物生成的温床&r。"
-                                ""
-                                "猎狐犬可以在你有抗火的时候喂煤炭来驯养！"
-                        ]
-                        min_width: 275
-                        id: "096F23F43370EA50"
-                        tasks: [{
-                                id: "5EC2447A0A44A459"
-                                type: "observation"
-                                title: "找到一个猎狐犬"
-                                icon: "quark:foxhound_spawn_egg"
-                                timer: 0L
-                                observe_type: 5
-                                to_observe: "quark:foxhound"
-                        }]
-                        rewards: [
-                                {
-                                        id: "7A0808C2DFF5A0D5"
-                                        type: "item"
-                                        item: "minecraft:coal"
-                                        count: 16
-                                }
-                                {
-                                        id: "0AC2538A118B2709"
-                                        type: "item"
-                                        item: {
-                                                id: "minecraft:splash_potion"
-                                                Count: 1b
-                                                tag: {
-                                                        Potion: "minecraft:long_fire_resistance"
-                                                }
-                                        }
-                                }
-                        ]
-                }
-                {
-                        title: "任务标记"
-                        icon: "ftbquests:book"
+			x: 2.5d
+			y: -2.0d
+			shape: "gear"
+			subtitle: "怪物生成"
+			description: [
+				"&6啥都不能在基岩上生成&r——除了我，(｡･∀･)ﾉﾞ嗨~"
+				""
+				"但是怪物会在别的任何地方生成，在基岩层上建筑（或者挖下去）&b会给予怪物生成的温床&r。"
+				""
+				"猎狐犬可以在你有抗火的时候喂煤炭来驯养！"
+			]
+			min_width: 275
+			id: "096F23F43370EA50"
+			tasks: [{
+				id: "5EC2447A0A44A459"
+				type: "observation"
+				title: "找到一个猎狐犬"
+				icon: "quark:foxhound_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "quark:foxhound"
+			}]
+			rewards: [
+				{
+					id: "7A0808C2DFF5A0D5"
+					type: "item"
+					item: "minecraft:coal"
+					count: 16
+				}
+				{
+					id: "0AC2538A118B2709"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "任务标记"
+			icon: "ftbquests:book"
 						tags: ["info"]
-                        x: 1.5d
-                        y: -3.0d
-                        shape: "gear"
-                        subtitle: "一个传奇，为了一个传奇，就是我。"
-                        description: [
-                                "{image:inferno:textures/quest/questicons.png width:200 height:100 align:1}"
-                                "为了避免混淆，我设计了一套形状系统来区分任务类型。"
-                                "• &b六边形&r是我的&6主要目标&r，表示要竭尽全力完成。"
-                                "• &b圆形&r标记意味着&6小一点的目标&r。"
-                                "• &b钻石形&r标记意味着&6会让我手上沾血&r。"
-                                "• &b方形&r标记意味着可选任务，不计入日志但是做就完事了。"
-                                "• &b齿轮&r标记意味着只是些&6有用的信息&r，可以不需要做。"
-                                ""
-                                "&o斜体字是“非正式的”，用来正经地解释游戏内容"
-                        ]
-                        min_width: 375
-                        id: "3FB11199B862B0ED"
-                        tasks: [{
-                                id: "0529F50AC1FAE03F"
-                                type: "checkmark"
-                        }]
-                        rewards: [
-                                {
-                                        id: "718A9BC4CF627763"
-                                        type: "item"
-                                        item: "create:builders_tea"
-                                }
-                                {
-                                        id: "5EF9071ADDD05966"
-                                        type: "xp_levels"
-                                        xp_levels: 5
-                                }
-                        ]
-                }
-                {
-                        title: "愚笨之死"
-                        icon: "minecraft:skeleton_skull"
+			x: 1.5d
+			y: -3.0d
+			shape: "gear"
+			subtitle: "一个传奇，为了一个传奇，就是我。"
+			description: [
+				"{image:inferno:textures/quest/questicons.png width:200 height:100 align:1}"
+				"为了避免混淆，我设计了一套形状系统来区分任务类型。"
+				"• &b六边形&r是我的&6主要目标&r，表示要竭尽全力完成。"
+				"• &b圆形&r标记意味着&6小一点的目标&r。"
+				"• &b钻石形&r标记意味着&6会让我手上沾血&r。"
+				"• &b方形&r标记意味着可选任务，不计入日志但是做就完事了。"
+				"• &b齿轮&r标记意味着只是些&6有用的信息&r，可以不需要做。"
+				""
+				"&o斜体字是“非正式的”，用来正经地解释游戏内容"
+			]
+			min_width: 375
+			id: "3FB11199B862B0ED"
+			tasks: [{
+				id: "0529F50AC1FAE03F"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "718A9BC4CF627763"
+					type: "item"
+					item: "create:builders_tea"
+				}
+				{
+					id: "5EF9071ADDD05966"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "愚笨之死"
+			icon: "minecraft:skeleton_skull"
 						tags: ["info"]
-                        x: -0.5d
-                        y: -1.5d
-                        shape: "gear"
-                        subtitle: "小心！"
-                        description: [
-                                "我需要小心，下界永远&c不是一个安全的地方&r。在这里，像我这样的裸屌，即使是原版也很危险。"
-                                ""
-                                "基岩顶是我最能感受到安全的地方，我在地表向下挖掘的时候必须格外小心&o-外科手术级的-&r&b挖掘隧道，躲避怪物，拿到我想要的然后出去。&c逃跑虽然可耻，但是有用。&r"
-                                ""
-                                "碰碰运气吧。"
-                        ]
-                        dependencies: ["1FAE864DC2E733BC"]
-                        size: 0.75d
-                        optional: true
-                        min_width: 225
-                        id: "54C3773415F19C53"
-                        tasks: [{
-                                id: "38F7580A165E4F6B"
-                                type: "checkmark"
-                        }]
-                }
-                {
-                        title: "指挥管乐队团"
-                        x: 4.5d
-                        y: 14.25d
-                        subtitle: "制作一个建筑工具"
-                        description: [
-                                "有了这个&b建筑工具&r，我就可以把我的愿望变成现实。有了它我就能&6命令建筑拔地而起&r。"
-                                ""
-                                "通过直接&6敲击基岩层&r，我甚至能通过我的设计击碎&o基岩层&r。"
-                                ""
-                                "&o更准确来说，建筑工具只允许你给你的建筑&6指定一个位置&r&o。但是&c不能放置方块&r。"
-                                ""
-                                "{image:inferno:textures/quest/build_tool.png width:225 height:156 align:1}"
-                                ""
-                                "&6中间按钮&r允许我&b移动，旋转，镜像&r结构。&a绿钩&r确认位置，并请求殖民地建筑工开始施工。&cX&r取消。"
-                                ""
-                                "&6左上角按钮&r允许我&b选择结构&r。大多数需要我身上有有主要方块（就像市政厅）。"
-                                ""
-                                "&6中间按钮&r可以让我选择建筑&b风格&r。在这里大多数都被限制为了诡异风。"
-                                ""
-                                "&6右侧按钮&r可以让我选择&b特殊示意图&r。这一般意味着&b建筑的不同等级&r。"
-                        ]
-                        dependencies: ["782C16B8A56859A2"]
-                        min_width: 350
-                        id: "7CE3248888AC5982"
-                        tasks: [{
-                                id: "407FDEC2C34A9D68"
-                                type: "item"
-                                item: "structurize:sceptergold"
-                        }]
-                        rewards: [
-                                {
-                                        id: "6C8A814F233DBD68"
-                                        type: "item"
-                                        auto: "enabled"
-                                        item: {
-                                                id: "minecolonies:supplycampdeployer"
-                                                Count: 1b
-                                                tag: {
-                                                        RepairCost: 0
-                                                        display: {
-                                                                Name: "{\"text\":\"炼狱补给营地\"}"
-                                                        }
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "335512C71D7668F5"
-                                        type: "item"
-                                        item: "inferno:bedrock"
-                                        count: 64
-                                }
-                        ]
-                }
-                {
-                        x: 3.0d
-                        y: 14.25d
-                        subtitle: "放置一个补给营地"
-                        description: [
-                                "这些地狱般的土地被无尽游荡的失落的灵魂所折磨。如果他们得到指引，也许他们可以从这个存在中找到意义，并证明他们是有价值的盟友。"
-                                ""
-                                "放置一个&b补给营地&r。这将创建一个包含我开始所需的一切的箱子。放置露营箱将使其成为可用之物，&c替换掉一切原本在这里的方块&r。包括基岩，保证让其与地面齐平。"
-                                ""
-                                "&6&l&n补给营地一定要在殖民地之前放置。&r里面的东西不重要，但是一定要放出来。"
-                        ]
-                        dependencies: ["7CE3248888AC5982"]
-                        min_width: 325
-                        id: "12F109B5B72694C3"
-                        tasks: [{
-                                id: "3D54334B06BA7C8B"
-                                type: "item"
-                                item: {
-                                        id: "minecolonies:supplycampdeployer"
-                                        Count: 1b
-                                        tag: {
-                                                RepairCost: 0
-                                                display: {
-                                                        Name: "{\"text\":\"炼狱补给营地\"}"
-                                                }
-                                        }
-                                }
-                        }]
-                        rewards: [
-                                {
-                                        id: "297888AAD50FFC0B"
-                                        type: "item"
-                                        item: {
-                                                id: "minecraft:golden_sword"
-                                                Count: 1b
-                                                tag: {
-                                                        RepairCost: 31
-                                                        Damage: 0
-                                                        Enchantments: [
-                                                                {
-                                                                        lvl: 1s
-                                                                        id: "evilcraft:unusing"
-                                                                }
-                                                                {
-                                                                        lvl: 8s
-                                                                        id: "minecraft:unbreaking"
-                                                                }
-                                                                {
-                                                                        lvl: 1s
-                                                                        id: "minecraft:mending"
-                                                                }
-                                                                {
-                                                                        lvl: 3s
-                                                                        id: "apotheosis:scavenger"
-                                                                }
-                                                                {
-                                                                        lvl: 5s
-                                                                        id: "minecraft:sharpness"
-                                                                }
-                                                        ]
-                                                        display: {
-                                                                Name: "{\"text\":\"镀金指挥之剑\"}"
-                                                        }
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "41E5EF745B26D9C2"
-                                        type: "item"
-                                        item: {
-                                                id: "minecraft:iron_block"
-                                                Count: 1b
-                                                tag: {
-                                                        RepairCost: 0
-                                                        display: {
-                                                                Name: "{\"text\":\"梅志克斯的讽刺\"}"
-                                                        }
-                                                }
-                                        }
-                                }
-                        ]
-                }
-                {
-                        title: "TL;DR"
-                        icon: "ftbquests:book"
+			x: -0.5d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "小心！"
+			description: [
+				"我需要小心，下界永远&c不是一个安全的地方&r。在这里，像我这样的裸屌，即使是原版也很危险。"
+				""
+				"基岩顶是我最能感受到安全的地方，我在地表向下挖掘的时候必须格外小心&o-外科手术级的-&r&b挖掘隧道，躲避怪物，拿到我想要的然后出去。&c逃跑虽然可耻，但是有用。&r"
+				""
+				"碰碰运气吧。"
+			]
+			dependencies: ["1FAE864DC2E733BC"]
+			size: 0.75d
+			optional: true
+			min_width: 225
+			id: "54C3773415F19C53"
+			tasks: [{
+				id: "38F7580A165E4F6B"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "指挥管乐队团"
+			x: 4.5d
+			y: 14.25d
+			subtitle: "制作一个建筑工具"
+			description: [
+				"有了这个&b建筑工具&r，我就可以把我的愿望变成现实。有了它我就能&6命令建筑拔地而起&r。"
+				""
+				"通过直接&6敲击基岩层&r，我甚至能通过我的设计击碎&o基岩层&r。"
+				""
+				"&o更准确来说，建筑工具只允许你给你的建筑&6指定一个位置&r&o。但是&c不能放置方块&r。"
+				""
+				"{image:inferno:textures/quest/build_tool.png width:225 height:156 align:1}"
+				""
+				"&6中间按钮&r允许我&b移动，旋转，镜像&r结构。&a绿钩&r确认位置，并请求殖民地建筑工开始施工。&cX&r取消。"
+				""
+				"&6左上角按钮&r允许我&b选择结构&r。大多数需要我身上有有主要方块（就像市政厅）。"
+				""
+				"&6中间按钮&r可以让我选择建筑&b风格&r。在这里大多数都被限制为了诡异风。"
+				""
+				"&6右侧按钮&r可以让我选择&b特殊示意图&r。这一般意味着&b建筑的不同等级&r。"
+			]
+			dependencies: ["782C16B8A56859A2"]
+			min_width: 350
+			id: "7CE3248888AC5982"
+			tasks: [{
+				id: "407FDEC2C34A9D68"
+				type: "item"
+				item: "structurize:sceptergold"
+			}]
+			rewards: [
+				{
+					id: "6C8A814F233DBD68"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "minecolonies:supplycampdeployer"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"炼狱补给营地\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "335512C71D7668F5"
+					type: "item"
+					item: "inferno:bedrock"
+					count: 64
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 14.25d
+			subtitle: "放置一个补给营地"
+			description: [
+				"这些地狱般的土地被无尽游荡的失落的灵魂所折磨。如果他们得到指引，也许他们可以从这个存在中找到意义，并证明他们是有价值的盟友。"
+				""
+				"放置一个&b补给营地&r。这将创建一个包含我开始所需的一切的箱子。放置露营箱将使其成为可用之物，&c替换掉一切原本在这里的方块&r。包括基岩，保证让其与地面齐平。"
+				""
+				"&6&l&n补给营地一定要在殖民地之前放置。&r里面的东西不重要，但是一定要放出来。"
+			]
+			dependencies: ["7CE3248888AC5982"]
+			min_width: 325
+			id: "12F109B5B72694C3"
+			tasks: [{
+				id: "3D54334B06BA7C8B"
+				type: "item"
+				item: {
+					id: "minecolonies:supplycampdeployer"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"炼狱补给营地\"}"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "297888AAD50FFC0B"
+					type: "item"
+					item: {
+						id: "minecraft:golden_sword"
+						Count: 1b
+						tag: {
+							RepairCost: 31
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 1s
+									id: "evilcraft:unusing"
+								}
+								{
+									lvl: 8s
+									id: "minecraft:unbreaking"
+								}
+								{
+									lvl: 1s
+									id: "minecraft:mending"
+								}
+								{
+									lvl: 3s
+									id: "apotheosis:scavenger"
+								}
+								{
+									lvl: 5s
+									id: "minecraft:sharpness"
+								}
+							]
+							display: {
+								Name: "{\"text\":\"镀金指挥之剑\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "41E5EF745B26D9C2"
+					type: "item"
+					item: {
+						id: "minecraft:iron_block"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"梅志克斯的讽刺\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "TL;DR"
+			icon: "ftbquests:book"
 						tags: ["info"]
-                        x: 1.5d
-                        y: -2.0d
-                        shape: "gear"
-                        subtitle: "章节和子标题"
-                        description: [
-                                "任务可以被分为&b章节&r，又可以被分为&b组&r。"
-                                ""
-                                "鼠标悬放在最左侧的位置可以查看章节条目。"
-                                ""
-                                "你可以&6悬停在章节上&r来查看它们的简述。"
-                        ]
-                        id: "13AC02EC122D2DA7"
-                        tasks: [{
-                                id: "3D01F47E58A97CCE"
-                                type: "checkmark"
-                        }]
-                }
-                {
-                        title: "咿呀咿呀哟~"
-                        icon: "minecraft:leather"
-                        x: 2.5d
-                        y: 5.0d
-                        shape: "square"
-                        subtitle: "召唤一些牲畜"
-                        description: [
-                                "&b我可以把牛&r，&b鸡&r，&b羊&r，和&b兔子&r召唤出来来用。"
-                                ""
-                                "他们要学会感激&4他们在这呆的时间可比我少多了。"
-                        ]
-                        dependencies: ["4B52BBBF01CDF027"]
-                        id: "79680158E7F5BA70"
-                        tasks: [
-                                {
-                                        id: "3074B9865F431B9D"
-                                        type: "observation"
-                                        title: "召唤一头牛"
-                                        icon: "minecraft:leather"
-                                        timer: 0L
-                                        observe_type: 5
-                                        to_observe: "minecraft:cow"
-                                }
-                                {
-                                        id: "17654B9AD1B5F555"
-                                        type: "observation"
-                                        title: "召唤一只鸡"
-                                        icon: "minecraft:feather"
-                                        timer: 0L
-                                        observe_type: 5
-                                        to_observe: "minecraft:chicken"
-                                }
-                                {
-                                        id: "4F8198BD6ADFDF46"
-                                        type: "observation"
-                                        title: "召唤一头羊"
-                                        icon: "minecraft:white_wool"
-                                        timer: 0L
-                                        observe_type: 5
-                                        to_observe: "minecraft:sheep"
-                                }
-                                {
-                                        id: "525DA529E65306B0"
-                                        type: "observation"
-                                        title: "召唤一只兔子"
-                                        icon: "minecraft:rabbit_hide"
-                                        timer: 0L
-                                        observe_type: 5
-                                        to_observe: "minecraft:rabbit"
-                                }
-                        ]
-                }
-                {
-                        title: "初始护甲"
-                        icon: {
-                                id: "tconstruct:travelers_chestplate"
-                                Count: 1b
-                                tag: {
-                                        tic_multipliers: { }
-                                        tic_stats: {
-                                                "tconstruct:durability": 160.0f
-                                                "tconstruct:armor": 5.0f
-                                        }
-                                        tic_broken: 0b
-                                        tic_modifiers: [ ]
-                                        Damage: 0
-                                        tic_persistent_data: {
-                                                abilities: 1
-                                                defense: 2
-                                                upgrades: 3
-                                        }
-                                }
-                        }
-                        x: -5.0d
-                        y: 6.5d
-                        shape: "square"
-                        subtitle: "制作一些护甲"
-                        description: [
-                                "我不会死在这。这压根不是一个选择。"
-                                ""
-                                "奇怪的是，&c原版护甲在这里都很脆弱&r。他们能很好的保护我，但是过不了多久就碎了。"
-                                ""
-                                "目前为止，&b旅行者护甲&r的功能非常合适。他额外&6可以魔改的&r插槽甚至能让他更厉害。"
-                                ""
-                                "在章节&3欲望&r下的&o&5保护没被保护的&r&o中解锁一些任务。"
-                                ""
-                                "疣猪皮革是用小刀杀死疣猪获得的。我可以用金子从猪灵那交易到一些刷怪蛋，然后或许做一个灵魂碎片（Soul Shard）来生成他们……"
-                        ]
-                        dependencies: ["5C0BF701B0990D7C"]
-                        min_width: 225
-                        id: "4907DE361AB24C96"
-                        tasks: [
-                                {
-                                        id: "630FB06A4087CE6F"
-                                        type: "item"
-                                        title: "旅行者护甲"
-                                        item: {
-                                                id: "itemfilters:or"
-                                                Count: 1b
-                                                tag: {
-                                                        items: [
-                                                                {
-                                                                        id: "tconstruct:travelers_helmet"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                tic_multipliers: { }
-                                                                                tic_stats: {
-                                                                                        "tconstruct:durability": 110.0f
-                                                                                        "tconstruct:armor": 1.0f
-                                                                                }
-                                                                                tic_broken: 0b
-                                                                                HideFlags: 3
-                                                                                tic_modifiers: [ ]
-                                                                                Damage: 0
-                                                                                tic_persistent_data: {
-                                                                                        abilities: 1
-                                                                                        defense: 2
-                                                                                        upgrades: 3
-                                                                                }
-                                                                        }
-                                                                }
-                                                                {
-                                                                        id: "tconstruct:travelers_chestplate"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                tic_multipliers: { }
-                                                                                tic_stats: {
-                                                                                        "tconstruct:durability": 160.0f
-                                                                                        "tconstruct:armor": 5.0f
-                                                                                }
-                                                                                tic_broken: 0b
-                                                                                HideFlags: 3
-                                                                                tic_modifiers: [ ]
-                                                                                Damage: 0
-                                                                                tic_persistent_data: {
-                                                                                        abilities: 1
-                                                                                        defense: 2
-                                                                                        upgrades: 3
-                                                                                }
-                                                                        }
-                                                                }
-                                                                {
-                                                                        id: "tconstruct:travelers_leggings"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                tic_multipliers: { }
-                                                                                tic_stats: {
-                                                                                        "tconstruct:durability": 150.0f
-                                                                                        "tconstruct:armor": 4.0f
-                                                                                }
-                                                                                tic_broken: 0b
-                                                                                HideFlags: 3
-                                                                                tic_modifiers: [ ]
-                                                                                Damage: 0
-                                                                                tic_persistent_data: {
-                                                                                        abilities: 1
-                                                                                        defense: 2
-                                                                                        upgrades: 3
-                                                                                }
-                                                                        }
-                                                                }
-                                                                {
-                                                                        id: "tconstruct:travelers_boots"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                tic_multipliers: { }
-                                                                                tic_stats: {
-                                                                                        "tconstruct:durability": 130.0f
-                                                                                        "tconstruct:armor": 1.0f
-                                                                                }
-                                                                                tic_broken: 0b
-                                                                                HideFlags: 3
-                                                                                tic_modifiers: [ ]
-                                                                                Damage: 0
-                                                                                tic_persistent_data: {
-                                                                                        abilities: 1
-                                                                                        defense: 2
-                                                                                        upgrades: 3
-                                                                                }
-                                                                        }
-                                                                }
-                                                        ]
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "37A858371841CDE7"
-                                        type: "item"
-                                        title: "可装饰的护甲"
-                                        item: {
-                                                id: "itemfilters:and"
-                                                Count: 1b
-                                                tag: {
-                                                        items: [
-                                                                {
-                                                                        id: "itemfilters:not"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                items: [{
-                                                                                        id: "minecraft:turtle_helmet"
-                                                                                        Count: 1b
-                                                                                        tag: {
-                                                                                                Damage: 0
-                                                                                        }
-                                                                                }]
-                                                                        }
-                                                                }
-                                                                {
-                                                                        id: "itemfilters:or"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                items: [
-                                                                                        {
-                                                                                                id: "itemfilters:id_regex"
-                                                                                                Count: 1b
-                                                                                                tag: {
-                                                                                                        value: "minecraft.*helmet"
-                                                                                                }
-                                                                                        }
-                                                                                        {
-                                                                                                id: "itemfilters:id_regex"
-                                                                                                Count: 1b
-                                                                                                tag: {
-                                                                                                        value: "minecraft.*chestplate"
-                                                                                                }
-                                                                                        }
-                                                                                        {
-                                                                                                id: "itemfilters:id_regex"
-                                                                                                Count: 1b
-                                                                                                tag: {
-                                                                                                        value: "minecraft.*leggings"
-                                                                                                }
-                                                                                        }
-                                                                                        {
-                                                                                                id: "itemfilters:id_regex"
-                                                                                                Count: 1b
-                                                                                                tag: {
-                                                                                                        value: "minecraft.*boots"
-                                                                                                }
-                                                                                        }
-                                                                                ]
-                                                                        }
-                                                                }
-                                                        ]
-                                                }
-                                        }
-                                }
-                        ]
-                }
-                {
-                        title: "金子罩着你"
-                        icon: {
-                                id: "minecraft:golden_helmet"
-                                Count: 1b
-                                tag: {
-                                        Damage: 0
-                                }
-                        }
-                        x: -5.0d
-                        y: 7.25d
-                        shape: "square"
-                        subtitle: "用金锭改良你的护甲"
-                        description: ["我能&b给我的护甲镀金&r来让猪灵对我保持中立！"]
-                        hide_dependency_lines: true
-                        dependencies: ["4907DE361AB24C96"]
-                        size: 0.5d
-                        optional: true
-                        id: "626F92AFD11CEA3C"
-                        tasks: [{
-                                id: "0FE2CBCF5FE1E832"
-                                type: "item"
-                                item: "minecraft:gold_ingot"
-                                count: 3L
-                        }]
-                }
-                {
-                        title: "七宗罪"
-                        icon: "minecraft:spawner"
-                        x: 4.0d
-                        y: 0.0d
-                        shape: "square"
-                        subtitle: "找到罪孽地牢"
-                        description: [
-                                "当我在无尽的基岩大陆探索的时候，我打赌发现了&b罪孽地牢&r的东西。"
-                                ""
-                                "一共有&67种类型&r，对应七宗罪，每个都有不一样的挑战和战利品。"
-                                ""
-                                "{image:inferno:textures/quest/sins.png width:279 height:150 align:1 fit:true}"
-                        ]
-                        hide_dependency_lines: true
-                        dependencies: ["4116046D3CB4AF2A"]
-                        min_width: 275
-                        id: "3C1FD52AB36E069A"
-                        tasks: [{
-                                id: "145E47B919278538"
-                                type: "structure"
-                                structure: "inferno:sins"
-                        }]
-                }
-                {
+			x: 1.5d
+			y: -2.0d
+			shape: "gear"
+			subtitle: "章节和子标题"
+			description: [
+				"任务可以被分为&b章节&r，又可以被分为&b组&r。"
+				""
+				"鼠标悬放在最左侧的位置可以查看章节条目。"
+				""
+				"你可以&6悬停在章节上&r来查看它们的简述。"
+			]
+			id: "13AC02EC122D2DA7"
+			tasks: [{
+				id: "3D01F47E58A97CCE"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "咿呀咿呀哟~"
+			icon: "minecraft:leather"
+			x: 2.5d
+			y: 5.0d
+			shape: "square"
+			subtitle: "召唤一些牲畜"
+			description: [
+				"&b我可以把牛&r，&b鸡&r，&b羊&r，和&b兔子&r召唤出来来用。"
+				""
+				"他们要学会感激&4他们在这呆的时间可比我少多了。"
+			]
+			dependencies: ["4B52BBBF01CDF027"]
+			id: "79680158E7F5BA70"
+			tasks: [
+				{
+					id: "3074B9865F431B9D"
+					type: "observation"
+					title: "召唤一头牛"
+					icon: "minecraft:leather"
+					timer: 0L
+					observe_type: 5
+					to_observe: "minecraft:cow"
+				}
+				{
+					id: "17654B9AD1B5F555"
+					type: "observation"
+					title: "召唤一只鸡"
+					icon: "minecraft:feather"
+					timer: 0L
+					observe_type: 5
+					to_observe: "minecraft:chicken"
+				}
+				{
+					id: "4F8198BD6ADFDF46"
+					type: "observation"
+					title: "召唤一头羊"
+					icon: "minecraft:white_wool"
+					timer: 0L
+					observe_type: 5
+					to_observe: "minecraft:sheep"
+				}
+				{
+					id: "525DA529E65306B0"
+					type: "observation"
+					title: "召唤一只兔子"
+					icon: "minecraft:rabbit_hide"
+					timer: 0L
+					observe_type: 5
+					to_observe: "minecraft:rabbit"
+				}
+			]
+		}
+		{
+			title: "初始护甲"
+			icon: {
+				id: "tconstruct:travelers_chestplate"
+				Count: 1b
+				tag: {
+					tic_multipliers: { }
+					tic_stats: {
+						"tconstruct:durability": 160.0f
+						"tconstruct:armor": 5.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [ ]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						defense: 2
+						upgrades: 3
+					}
+				}
+			}
+			x: -5.0d
+			y: 6.5d
+			shape: "square"
+			subtitle: "制作一些护甲"
+			description: [
+				"我不会死在这。这压根不是一个选择。"
+				""
+				"奇怪的是，&c原版护甲在这里都很脆弱&r。他们能很好的保护我，但是过不了多久就碎了。"
+				""
+				"目前为止，&b旅行者护甲&r的功能非常合适。他额外&6可以魔改的&r插槽甚至能让他更厉害。"
+				""
+				"在章节&3欲望&r下的&o&5保护没被保护的&r&o中解锁一些任务。"
+				""
+				"疣猪皮革是用小刀杀死疣猪获得的。我可以用金子从猪灵那交易到一些刷怪蛋，然后或许做一个灵魂碎片（Soul Shard）来生成他们……"
+			]
+			dependencies: ["5C0BF701B0990D7C"]
+			min_width: 225
+			id: "4907DE361AB24C96"
+			tasks: [
+				{
+					id: "630FB06A4087CE6F"
+					type: "item"
+					title: "旅行者护甲"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:travelers_helmet"
+									Count: 1b
+									tag: {
+										tic_multipliers: { }
+										tic_stats: {
+											"tconstruct:durability": 110.0f
+											"tconstruct:armor": 1.0f
+										}
+										tic_broken: 0b
+										HideFlags: 3
+										tic_modifiers: [ ]
+										Damage: 0
+										tic_persistent_data: {
+											abilities: 1
+											defense: 2
+											upgrades: 3
+										}
+									}
+								}
+								{
+									id: "tconstruct:travelers_chestplate"
+									Count: 1b
+									tag: {
+										tic_multipliers: { }
+										tic_stats: {
+											"tconstruct:durability": 160.0f
+											"tconstruct:armor": 5.0f
+										}
+										tic_broken: 0b
+										HideFlags: 3
+										tic_modifiers: [ ]
+										Damage: 0
+										tic_persistent_data: {
+											abilities: 1
+											defense: 2
+											upgrades: 3
+										}
+									}
+								}
+								{
+									id: "tconstruct:travelers_leggings"
+									Count: 1b
+									tag: {
+										tic_multipliers: { }
+										tic_stats: {
+											"tconstruct:durability": 150.0f
+											"tconstruct:armor": 4.0f
+										}
+										tic_broken: 0b
+										HideFlags: 3
+										tic_modifiers: [ ]
+										Damage: 0
+										tic_persistent_data: {
+											abilities: 1
+											defense: 2
+											upgrades: 3
+										}
+									}
+								}
+								{
+									id: "tconstruct:travelers_boots"
+									Count: 1b
+									tag: {
+										tic_multipliers: { }
+										tic_stats: {
+											"tconstruct:durability": 130.0f
+											"tconstruct:armor": 1.0f
+										}
+										tic_broken: 0b
+										HideFlags: 3
+										tic_modifiers: [ ]
+										Damage: 0
+										tic_persistent_data: {
+											abilities: 1
+											defense: 2
+											upgrades: 3
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "37A858371841CDE7"
+					type: "item"
+					title: "可装饰的护甲"
+					item: {
+						id: "itemfilters:and"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "itemfilters:not"
+									Count: 1b
+									tag: {
+										items: [{
+											id: "minecraft:turtle_helmet"
+											Count: 1b
+											tag: {
+												Damage: 0
+											}
+										}]
+									}
+								}
+								{
+									id: "itemfilters:or"
+									Count: 1b
+									tag: {
+										items: [
+											{
+												id: "itemfilters:id_regex"
+												Count: 1b
+												tag: {
+													value: "minecraft.*helmet"
+												}
+											}
+											{
+												id: "itemfilters:id_regex"
+												Count: 1b
+												tag: {
+													value: "minecraft.*chestplate"
+												}
+											}
+											{
+												id: "itemfilters:id_regex"
+												Count: 1b
+												tag: {
+													value: "minecraft.*leggings"
+												}
+											}
+											{
+												id: "itemfilters:id_regex"
+												Count: 1b
+												tag: {
+													value: "minecraft.*boots"
+												}
+											}
+										]
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "金子罩着你"
+			icon: {
+				id: "minecraft:golden_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -5.0d
+			y: 7.25d
+			shape: "square"
+			subtitle: "用金锭改良你的护甲"
+			description: ["我能&b给我的护甲镀金&r来让猪灵对我保持中立！"]
+			hide_dependency_lines: true
+			dependencies: ["4907DE361AB24C96"]
+			size: 0.5d
+			optional: true
+			id: "626F92AFD11CEA3C"
+			tasks: [{
+				id: "0FE2CBCF5FE1E832"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 3L
+			}]
+		}
+		{
+			title: "七宗罪"
+			icon: "minecraft:spawner"
+			x: 4.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "找到罪孽地牢"
+			description: [
+				"当我在无尽的基岩大陆探索的时候，我打赌发现了&b罪孽地牢&r的东西。"
+				""
+				"一共有&67种类型&r，对应七宗罪，每个都有不一样的挑战和战利品。"
+				""
+				"{image:inferno:textures/quest/sins.png width:279 height:150 align:1 fit:true}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4116046D3CB4AF2A"]
+			min_width: 275
+			id: "3C1FD52AB36E069A"
+			tasks: [{
+				id: "145E47B919278538"
+				type: "structure"
+				structure: "inferno:sins"
+			}]
+		}
+		{
 						title: "炼狱群岛"
-                        icon: "reliquary:infernal_chalice"
+			icon: "reliquary:infernal_chalice"
 						tags: ["info"]
-                        x: -2.0d
-                        y: -4.5d
-                        shape: "gear"
-                        subtitle: "全靠我们自己"
-                        description: [
-                                "如果你在多人服务器上游玩，你会发现身处一个大型的结构中。大厅中所有人都知道。你可以随时通过输入以下内容返回此处："
-                                ""
-                                "&3/ftbislands lobbby&r"
-                                ""
-                                "如果你是单人游玩，你将不会出现在FTB Island——大多时候的起始地。在多人游戏中，你应当与你的朋友（或者你自己）创建一个队伍，当你准备好后，请键入以下内容："
-                                ""
-                                "&3/ftbislands create&r"
-                                ""
-                                "这将将你传送到离大厅很远的地方，并为你们的多人游戏创建岛屿。"
-                                ""
-                                "除了&3/home&r指令，你还可以使用&3/ftbislands home&r指令，该指令无法更改位置，始终将你送回遗迹。"
-                        ]
-                        size: 1.5d
+			x: -2.0d
+			y: -4.5d
+			shape: "gear"
+			subtitle: "全靠我们自己"
+			description: [
+				"如果你在多人服务器上游玩，你会发现身处一个大型的结构中。大厅中所有人都知道。你可以随时通过输入以下内容返回此处："
+				""
+				"&3/ftbislands lobbby&r"
+				""
+				"如果你是单人游玩，你将不会出现在FTB Island——大多时候的起始地。在多人游戏中，你应当与你的朋友（或者你自己）创建一个队伍，当你准备好后，请键入以下内容："
+				""
+				"&3/ftbislands create&r"
+				""
+				"这将将你传送到离大厅很远的地方，并为你们的多人游戏创建岛屿。"
+				""
+				"除了&3/home&r指令，你还可以使用&3/ftbislands home&r指令，该指令无法更改位置，始终将你送回遗迹。"
+			]
+			size: 1.5d
 						min_width: 300
-                        id: "5F23A6966EA408C3"
-                        tasks: [{
-                                id: "70EAD5D192D881DB"
-                                type: "checkmark"
-                        }]
-                        rewards: [{
-                                id: "0FB267E15E5FCCE3"
-                                type: "xp_levels"
-                                xp_levels: 5
-                        }]
-                }
-        ]
+			id: "5F23A6966EA408C3"
+			tasks: [{
+				id: "70EAD5D192D881DB"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0FB267E15E5FCCE3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+	]
 }
