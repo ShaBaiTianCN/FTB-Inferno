@@ -195,7 +195,7 @@
 			y: -7.0d
 			subtitle: "建造堆肥小屋"
 			description: [
-				"在&b堆肥小屋&r里，堆肥机将把有机材料变成&6堆肥&r。"
+				"在&b堆肥小屋&r里，堆肥工将把有机材料变成&6堆肥&r。"
 				""
 				"我需要&6告诉他们可以用什么来堆肥&r。否则，他们会把他们能弄到的所有东西都做成堆肥，那些盲目痴愚之物。"
 			]
@@ -537,7 +537,7 @@
 			x: 10.125d
 			y: -1.5d
 			shape: "square"
-			subtitle: "获取生鱼块"
+			subtitle: "获取生鱼片"
 			description: ["&b生鱼片&r会是一个不错的选择，可以代替我一直吃的肉类食物。"]
 			hide_dependency_lines: true
 			dependencies: ["0A805E112018978C"]
@@ -547,7 +547,7 @@
 			tasks: [{
 				id: "538345A3BF3D8081"
 				type: "item"
-				title: "Raw Fish Cuts"
+				title: "生鱼片"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -860,13 +860,13 @@
 			icon: "nethersdelight:warped_fungus_colony"
 			x: 9.0d
 			y: -5.0d
-			subtitle: "种植蘑菇群"
+			subtitle: "种植蘑菇菌落"
 			description: [
-				"&b蘑菇群&r是一种需要精心培育的美味。"
+				"&b蘑菇菌落&r是一种需要精心培育的美味。"
 				""
 				"当普通蘑菇种植在&6肥沃的土壤&r上，并&6在黑暗中待上一段时间&r，它们就会长成菌落。"
 				""
-				"诡异菌群和绯红菌群生长，需要&6丰富的灵魂土壤&r。"
+				"诡异菌落和绯红菌落生长，需要&6肥沃灵魂土&r。"
 				""
 				"我需要用&6剪刀&r正确地收割它们。"
 			]
@@ -875,7 +875,7 @@
 			tasks: [{
 				id: "3B289CE45CDD519A"
 				type: "item"
-				title: "Mushroom Colonies"
+				title: "蘑菇菌落"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -911,7 +911,7 @@
 				{
 					id: "3B841D268E88C261"
 					type: "custom"
-					title: "amogus."
+					title: "阿莫古斯"
 					icon: "alexsmobs:spawn_egg_mungus"
 					auto: "invisible"
 				}
@@ -952,7 +952,7 @@
 			tasks: [{
 				id: "1F79D927E6151D1A"
 				type: "checkmark"
-				title: "研究需求！"
+				title: "需要研究！"
 			}]
 		}
 	]
