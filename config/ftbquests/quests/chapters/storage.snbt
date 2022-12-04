@@ -762,7 +762,7 @@
 			tasks: [{
 				id: "2B68948662BEE92D"
 				type: "item"
-				title: "ME Cables"
+				title: "ME线缆"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -836,7 +836,7 @@
 			}]
 		}
 		{
-			title: "Instantaneous Infernal Inception"
+			title: "瞬时地狱初始"
 			icon: "ae2:terminal"
 			x: 15.5d
 			y: 0.0d
@@ -910,7 +910,7 @@
 				{
 					id: "76BA71FE8D2BF3F2"
 					type: "item"
-					title: "Crafting Storage"
+					title: "合成存储器"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -1081,7 +1081,7 @@
 				{
 					id: "3A5706B354495191"
 					type: "item"
-					title: "Wireless Terminals"
+					title: "无线终端"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -1418,8 +1418,8 @@
 			x: 7.5d
 			y: -5.0d
 			shape: "square"
-			subtitle: "Make an Ender Chest"
-			description: ["&bEnder Chests&r harness the power of Endermen, allowing me to &6teleport items&r over any distance."]
+			subtitle: "制作一个末影箱"
+			description: ["&b末影箱&r利用末影人的力量，使我能够将物品传送到任何距离。"]
 			dependencies: ["55099E0F763B39CA"]
 			id: "6CF1F47FC1105B74"
 			tasks: [{
@@ -1437,8 +1437,8 @@
 			x: 7.0d
 			y: -5.0d
 			shape: "square"
-			subtitle: "Make an Ender Tank"
-			description: ["&bEnder Tanks&r of the same color frequency share their contents."]
+			subtitle: "制作一个末影蓄水槽"
+			description: ["相同颜色的&b末影蓄水槽&r共享其内容。"]
 			dependencies: ["40D4850B34EC5677"]
 			id: "4E1E0D39D0F581BB"
 			tasks: [{
@@ -1504,7 +1504,7 @@
 			tasks: [{
 				id: "4CF1F65E962C35F8"
 				type: "item"
-				title: "Clutch Collecting"
+				title: "收集器"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
