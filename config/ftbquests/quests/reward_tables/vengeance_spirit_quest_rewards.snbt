@@ -1,7 +1,7 @@
 {
 	id: "2A1E448BE7A0CFEC"
 	order_index: 8
-	title: "Vengeance Spirit quest rewards"
+	title: "复仇之魂奖励"
 	loot_size: 1
 	rewards: [
 		{
@@ -16,7 +16,7 @@
 						ShowParticles: 0b
 					}]
 					display: {
-						Name: "[{\"text\":\"Potion of Resistance III\"}]"
+						Name: "[{\"text\":\"抗性提升药水 III\"}]"
 					}
 				}
 			}
@@ -33,7 +33,7 @@
 						ShowParticles: 0b
 					}]
 					display: {
-						Name: "[{\"text\":\"Potion of Regeneration V\"}]"
+						Name: "[{\"text\":\"抗性提升药水 V\"}]"
 					}
 				}
 			}
