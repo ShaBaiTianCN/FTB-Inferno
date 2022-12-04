@@ -1284,7 +1284,7 @@
 			x: -3.5d
 			y: 1.5d
 			subtitle: "转化沙子"
-			description: ["似乎我可以&6通过灵火中燃烧邪恶之尘&r来制做&b沙子&r！"]
+			description: ["似乎我可以&6通过灵火中燃烧邪恶之尘&r来制作&b沙子&r！"]
 			dependencies: ["190D99BFDBA17B13"]
 			id: "40FB31F573CB41B9"
 			tasks: [{
