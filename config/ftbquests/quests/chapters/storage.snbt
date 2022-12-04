@@ -3,7 +3,7 @@
 	group: "3165B92DB1BC8401"
 	order_index: 4
 	filename: "storage"
-	title: "Tiamat's Horde"
+	title: "蒂亚马特部落"
 	icon: "ironchest:crystal_chest"
 	subtitle: ["存储和自动化"]
 	default_quest_shape: ""
@@ -163,7 +163,7 @@
 			y: 0.0d
 			subtitle: "制作一些电路"
 			description: [
-				"通过冥想，我想起了我在梦中看到的&b电路&r的设计图。."
+				"通过冥想，我想起了我在梦中看到的&b电路&r的设计图。"
 				""
 				"这些电路似乎是&6为一种陌生的能量而建造的&r，与我以前看到的完全不同。"
 			]
@@ -902,7 +902,7 @@
 			description: [
 				"我逐渐厌倦了依靠我的下属来制作物品。我的数字网络可以做得更好。"
 				""
-				"他的&b合成器CPU&r多方块是由&b合成器存储&r和&b并行处理单元&r构成, 并允许我&6要求我的网络自动制作物品/流体&r。"
+				"他的&b合成器CPU&r多方块是由&b合成器存储&r和&b并行处理单元&r构成，并允许我&6要求我的网络自动制作物品/流体&r。"
 			]
 			dependencies: ["3F7C6770BB85BCE4"]
 			id: "6AA8BEA8D7BC9C41"
@@ -1493,7 +1493,7 @@
 			x: 10.0d
 			y: -6.0d
 			shape: "square"
-			subtitle: "不要浪费一滴!"
+			subtitle: "不要浪费一滴！"
 			description: [
 				"&b物品收集器&r可以拾取预定范围内的所有物品，我可以在GUI中设置它。"
 				""
