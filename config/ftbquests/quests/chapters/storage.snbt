@@ -3,24 +3,24 @@
 	group: "3165B92DB1BC8401"
 	order_index: 4
 	filename: "storage"
-	title: "Tiamat's Horde"
+	title: "蒂亚马特部落"
 	icon: "ironchest:crystal_chest"
-	subtitle: ["Storage and automation"]
+	subtitle: ["存储和自动化"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Pipe Dream"
+			title: "管道之梦"
 			icon: "prettypipes:pipe"
 			x: 4.0d
 			y: -2.0d
-			subtitle: "Make Pipe"
+			subtitle: "制作管道"
 			description: [
-				"&bPipes&r are the base of all complex automation."
+				"&b管道&r是所有复杂自动化的基础。"
 				""
-				"Pipes by themselves do nothing. They do not pull and they do not push, nor can they be pushed into."
+				"管道本身毫无用处。他们不会输入或者输出物品。"
 				""
-				"&bModules&r must be installed on the inputs/outputs, to decide how they work."
+				"必须在输入/输出端安装&b升级模块&r，以决定它们如何工作。"
 				""
 				"{image:inferno:textures/quest/pretty_pipes.png width:1000 height:558 align:1 fit:true}"
 			]
@@ -36,7 +36,7 @@
 				{
 					id: "2EF2F4A94904A261"
 					type: "item"
-					title: "Extraction/Retrieval Modules"
+					title: "抽取/检索模块"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -92,17 +92,17 @@
 			]
 		}
 		{
-			title: "Blood Crystals"
+			title: "赛特斯石英水晶"
 			icon: "ae2:certus_quartz_crystal"
 			x: 10.5d
 			y: -1.5d
-			subtitle: "Grow Certus Quartz Crystals"
+			subtitle: "取得赛特斯石英水晶"
 			description: [
-				"I can bind the Dust into &bCertus Quartz Seeds&r, which crystallize in a water sollution. This happens at an &cunacceptably slow speed&r, however."
+				"我可以将赛特斯石英粉制成&b石英种子&r，在水溶液中结晶。然而，这种方式的速度慢得令人难以接受。"
 				""
-				"While pondering the problem, I felt a compulsion. In my stupor, &4I soaked the Seeds in Blood&r. I only snapped out of it when I felt the rapidly growing Crystals pierce my skin."
+				"在思索这个问题时，一股强烈的冲动占据了我的心绪。恍惚之间，我将种子泡进了&4血液&r里。直到疯长的晶体刺穿我的皮肤我才重新清醒过来。"
 				""
-				"&oRequires specifically Biomes o' Plenty's Blood&r"
+				"&o具体需要超多生物群系的血液&r"
 			]
 			dependencies: ["4C35566F7A3F95BE"]
 			min_width: 250
@@ -129,17 +129,17 @@
 		{
 			x: 8.5d
 			y: -1.5d
-			subtitle: "Make Silicon"
+			subtitle: "制作硅"
 			description: [
-				"While working, I was suddenly seized by a vision; a &5prophetic dream&r."
+				"在工作时，我突然被一个异象抓住了；一个&5预言性的梦&r。"
 				""
-				"I saw an advanced race lost to the darkness between worlds."
+				"我看到一个先进的种族迷失在世界间的黑暗中。"
 				""
-				"I saw a crystalline technology that rivaled magic itself."
+				"我看到了一种可与魔法本身相媲美的结晶技术。"
 				""
-				"I saw myself at the helm."
+				"我看到自己在掌舵。"
 				""
-				"This will be mine."
+				"这将是我的作品。"
 			]
 			dependencies: ["4C35566F7A3F95BE"]
 			min_width: 250
@@ -161,11 +161,11 @@
 			icon: "ae2:printed_logic_processor"
 			x: 9.5d
 			y: 0.0d
-			subtitle: "Print some Circuits"
+			subtitle: "制作一些电路"
 			description: [
-				"Through meditation, I've recalled the designs of the &bCircuits&r I saw in my dream."
+				"通过冥想，我想起了我在梦中看到的&b电路&r的设计图。"
 				""
-				"These Circuits seem to be &6built for an unfamiliar energy&r, unlike what I've seen before."
+				"这些电路似乎是&6为一种陌生的能量而建造的&r，与我以前看到的完全不同。"
 			]
 			dependencies: [
 				"0E7718635772A156"
@@ -207,16 +207,16 @@
 			]
 		}
 		{
-			title: "Any Sufficiently Advanced Technology..."
+			title: "一些十分先进的科技……"
 			x: 9.5d
 			y: -3.0d
-			subtitle: "Get Certus Quartz Dust"
+			subtitle: "获取塞特斯石英粉"
 			description: [
-				"While tinkering at the Mixing Cauldron, I've accidentally created... this."
+				"当我在混合锅前捣鼓的时候，我无意中创造了它……"
 				""
-				"This pile of &bCertus Quartz Dust&r absorbed a small amount of matter, and readily spat it back out when prompted."
+				"也许我把一些物品混合起来，再加上一点具有激发性的东西，就能做出&b赛特斯石英粉&r。"
 				""
-				"In this form, it's effectively a desk toy. It has massive potential, however."
+				"在这种形式下，它只是一个桌面玩具。然而，它有巨大的潜力。"
 			]
 			dependencies: ["105D0A853D0574B2"]
 			id: "4C35566F7A3F95BE"
@@ -233,15 +233,15 @@
 			}]
 		}
 		{
-			title: "Fluix"
+			title: "福鲁伊克斯"
 			icon: "ae2:fluix_crystal"
 			x: 12.5d
 			y: 1.5d
-			subtitle: "Grow a Fluix Crystal"
+			subtitle: "取得一个福鲁伊克斯水晶"
 			description: [
-				"Most of the technology I saw was made of &bFluix&r."
+				"我看到的大部分设备都是由&b福鲁伊克斯&r制成的。"
 				""
-				"Grown in the same way as Certus Quartz Crystals."
+				"这与赛特斯石英水晶的结晶方式相同。"
 			]
 			dependencies: ["4E3120210DC26A9E"]
 			id: "4C7077295A32CCA3"
@@ -259,19 +259,19 @@
 			]
 		}
 		{
-			title: "Time is Money"
+			title: "时间就是金钱"
 			icon: "prettypipes:low_speed_module"
 			x: 5.5d
 			y: -2.0d
 			shape: "square"
-			subtitle: "Make a Speed Increase Module"
-			description: ["&bSpeed Increase Modules&r can be used with Extraction Modules to &6make items exit much faster&r."]
+			subtitle: "制作一个提速模块"
+			description: ["&b增速模块&r可与提取模块一起使用以使&6物品抽取速度更快&r。"]
 			dependencies: ["2291F7197FD47DF2"]
 			id: "7C2173E4A80ED8D6"
 			tasks: [{
 				id: "17A388DAA6AEA324"
 				type: "item"
-				title: "Speed Increase Modules"
+				title: "提速模块"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -298,8 +298,8 @@
 			x: 4.0d
 			y: -0.5d
 			shape: "square"
-			subtitle: "Make a Pipe Pressurizer"
-			description: ["The &bPipe Pressurizer&r will &6increase the speed all items move&r, but requires FE."]
+			subtitle: "制作一个管道加压器"
+			description: ["&b管道加压器&r会&6提高所有物品的移动速度&r，但需要FE。"]
 			dependencies: ["2291F7197FD47DF2"]
 			id: "235C48FA155B898E"
 			tasks: [{
@@ -313,11 +313,11 @@
 			x: 5.5d
 			y: -0.5d
 			shape: "square"
-			subtitle: "Make a Sorting and a Filtering Module"
+			subtitle: "制作一个优先级模块和一个过滤模块"
 			description: [
-				"&bSorting Modules&r allow me to choose the order of inventories items try to go to."
+				"&b优先级模块&r允许我选择物品试图进入的容器顺序。"
 				""
-				"&bFiltering Modules&r allow me to choose what items are allowed to enter what inventories."
+				"&b过滤模块&r允许我选择哪些物品被允许进入哪些容器。"
 			]
 			dependencies: ["2291F7197FD47DF2"]
 			id: "32D0FCBCC414C781"
@@ -325,7 +325,7 @@
 				{
 					id: "18F474EFF8D91767"
 					type: "item"
-					title: "Sorting Modules"
+					title: "分类模块"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -370,7 +370,7 @@
 				{
 					id: "6CB875BB980E2BD6"
 					type: "item"
-					title: "Filtering Modules"
+					title: "过滤模块"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -407,21 +407,21 @@
 			]
 		}
 		{
-			title: "Crafting Terminal"
+			title: "合成终端"
 			x: 2.5d
 			y: -2.0d
 			shape: "square"
-			subtitle: "Make an Item Terminal"
+			subtitle: "制作一个合成终端"
 			description: [
-				"The &bCrafting Terminal&r allows me to &6access the contents of all inventories connected with Pipes&r."
+				"&b合成终端&r允许我访问与管道相连的&6所有箱子的内容&r。"
 				""
 				"{image:inferno:textures/quest/pp_item_terminal.png width:1000 height:558 align:1 fit:true}"
 				""
-				"The &bCrafting Terminal&r allows me to &6request crafting ingredients&r for recipes all at once, rather than requesting each item individually."
+				"&b合成终端&r允许我一次性&6请求配方的所有制作材料&r，而不是单独请求每件物品。"
 				""
-				"Crafting it is beyond me for now, but &6my Mechanic can craft it fine&r. Once they've done so, I'll reverse engineer it to craft more myself."
+				"我现在还无法制作它，但&6我的机械师可以制作它&r。一旦他们这样做了，我就会逆向工程，自己制作更多。"
 				""
-				"&oYou can use JEI's [+] button to set recipes&r"
+				"&o你可以使用JEI的[+]按钮来转移合成材料&r。"
 			]
 			dependencies: ["2291F7197FD47DF2"]
 			size: 1.25d
@@ -449,8 +449,8 @@
 			x: 2.5d
 			y: -0.5d
 			shape: "square"
-			subtitle: "Make a Stack Limiter Module"
-			description: ["The &bStack Limiter Module&r will &6stop items from entering if there's already a specific amount inside&r."]
+			subtitle: "制作一个堆叠限制模块"
+			description: ["&b堆叠限制模块&r将&6阻止物品进入，如果里面已经有一个特定的数量的物品&r。"]
 			dependencies: ["2291F7197FD47DF2"]
 			id: "59FA447ABB1D62CE"
 			tasks: [{
@@ -464,18 +464,18 @@
 			x: 4.0d
 			y: 1.5d
 			shape: "square"
-			subtitle: "Make a Drawer"
+			subtitle: "制作一个储物抽屉"
 			description: [
-				"&bDrawers&r excell at storing a large amount of a single item."
+				"&b储物抽屉&r善于储存大量的单一物品。"
 				""
-				"The more slots, the more unique items, but the lower max amount for each."
+				"槽位越多，独特的物品越多，每个槽位的最大存储数量越低。"
 			]
 			dependencies: ["55099E0F763B39CA"]
 			id: "4507C3F52A1129A2"
 			tasks: [{
 				id: "68B00795C4B6462F"
 				type: "item"
-				title: "Drawers"
+				title: "抽屉"
 				item: {
 					id: "itemfilters:and"
 					Count: 1b
@@ -514,11 +514,11 @@
 			x: 3.0d
 			y: 3.0d
 			shape: "square"
-			subtitle: "Make Compacting Drawers"
+			subtitle: "制作一个压缩抽屉"
 			description: [
-				"&bCompacting Drawers&r will store items in the &6block, ingot, and nugget forms&r, allowing instant conversion between."
+				"&b压缩抽屉&r将以&6块状、锭状和粒状&r的形式存储物品，允许在不同形式之间进行即时转换"
 				""
-				"This &cdoes not play well with automatic requesters&r like Item Terminals, however, as it falsely claims to hold all three at the same time."
+				"然而，这对像合成终端这样的&c自动请求者&r来说并不友好，因为它错误地声称同时持有这三样东西。"
 			]
 			dependencies: ["4507C3F52A1129A2"]
 			id: "5732AD9761689269"
@@ -532,11 +532,11 @@
 			x: 2.5d
 			y: 1.5d
 			shape: "square"
-			subtitle: "Make a Drawer Controller"
+			subtitle: "制作一个抽屉控制器"
 			description: [
-				"The &bDrawer Controller&r allows me to &6access all connected Drawers&r using Pipes etc."
+				"&b抽屉控制器&r允许我通过管道等等&6连接所有相连的抽屉&r。"
 				""
-				"When interacting with automation, the Drawer Controller pretends that it is a single inventory made of all the connected Drawers."
+				"当与自动化互动时，抽屉控制器假装它是一个由所有连接的抽屉组成的单一容器。"
 			]
 			dependencies: ["4507C3F52A1129A2"]
 			id: "2875E19DF0310A2A"
@@ -555,8 +555,8 @@
 			x: 5.5d
 			y: 1.5d
 			shape: "square"
-			subtitle: "Make a Drawer Key"
-			description: ["The &bDrawer Key&r allows me to &6lock Drawers&r, so they don't accept other items even when emptied."]
+			subtitle: "制作一个抽屉钥匙"
+			description: ["&b抽屉钥匙&r允许我&6锁定抽屉&r，以至于它们不接受其他物品，即使被清空了也不例外。"]
 			dependencies: ["4507C3F52A1129A2"]
 			id: "4164B7E476DE4814"
 			tasks: [{
@@ -569,11 +569,11 @@
 			x: 5.0d
 			y: 3.0d
 			shape: "square"
-			subtitle: "Make a Fluid Drawer"
+			subtitle: "制作一个流体抽屉"
 			description: [
-				"&bFluid Drawers&r store fluid like Drawers store items."
+				"&b流体抽屉&r存储流体如同储物抽屉存储物品"
 				""
-				"They accept (almost) all the same upgrades Drawers do."
+				"它们接受（几乎）所有的储物抽屉的升级方式。"
 			]
 			dependencies: ["4507C3F52A1129A2"]
 			id: "73EB2812798F71A7"
@@ -591,11 +591,11 @@
 			x: 4.5d
 			y: -6.0d
 			shape: "square"
-			subtitle: "Make a Chest"
+			subtitle: "制作一个箱子"
 			description: [
-				"The &bChest&r. A classic."
+				"&b箱子&r一个经典的箱子。"
 				""
-				"Has 27 slots."
+				"拥有27个槽位。"
 			]
 			dependencies: ["55099E0F763B39CA"]
 			id: "0EED25F2CDD72AE1"
@@ -615,8 +615,8 @@
 			x: 5.5d
 			y: -6.0d
 			shape: "square"
-			subtitle: "Make an Iron Chest"
-			description: ["The &bIron Chest&r has 54 slots."]
+			subtitle: "制作一个铁箱子"
+			description: ["&b铁箱子&r拥有54个槽位。"]
 			dependencies: ["0EED25F2CDD72AE1"]
 			id: "20CB93B209B43F52"
 			tasks: [{
@@ -635,8 +635,8 @@
 			x: 6.5d
 			y: -6.0d
 			shape: "square"
-			subtitle: "Make a Gold Chest"
-			description: ["The &bGold Chest&r has 81 slots."]
+			subtitle: "制作一个金箱子"
+			description: ["&b金箱子&r拥有81个槽位。"]
 			dependencies: ["20CB93B209B43F52"]
 			id: "76ACDCBC894D5529"
 			tasks: [{
@@ -655,8 +655,8 @@
 			x: 7.5d
 			y: -6.0d
 			shape: "square"
-			subtitle: "Make a Diamond Chest"
-			description: ["The &bDiamond Chest&r has 108 slots."]
+			subtitle: "制作一个钻石箱子"
+			description: ["&b钻石箱子&r拥有108个槽位。"]
 			dependencies: ["76ACDCBC894D5529"]
 			id: "37A9CC1267FBB5EB"
 			tasks: [{
@@ -675,8 +675,8 @@
 			x: 8.5d
 			y: -6.0d
 			shape: "square"
-			subtitle: "Make an Obsidian Chest"
-			description: ["The &bObsidian Chest&r has 108 slots, but is explosion-proof."]
+			subtitle: "制作一个黑曜石箱子"
+			description: ["&b黑曜石箱子&r拥有108个槽位，但是防爆。"]
 			dependencies: ["37A9CC1267FBB5EB"]
 			id: "3EBBE1DF784FD1A4"
 			tasks: [{
@@ -692,16 +692,16 @@
 			}]
 		}
 		{
-			title: "Matter to Energy"
+			title: "从物质到能量"
 			x: 9.5d
 			y: 1.5d
-			subtitle: "Make an Energy Acceptor"
+			subtitle: "制作一个能量接收器"
 			description: [
-				"I've implemented these Circuits into the &bEnergy Acceptor&r, which can &6converts the energy I know into this crystal energy&r."
+				"我已经将这些电路实现在&b能量接收器&r中，它可以将&6我所知道的能量转换为这种晶体能量&r。"
 				""
-				"These crystals, and the energy they provide, excell at &6converting matter to energy and back&r. As such, I've decided to name it &dMatter Energy&r! ME for short. Each ME is worth 2 FE."
+				"这些晶体，以及它们提供的能量，擅长&6将物品转化为能量和转化回物品&r。因此，我决定将其命名为&d物质能量&r！简称ME。每个ME值2个FE。"
 				""
-				"&oME energy is just AE energy renamed"
+				"&oME能源只是AE能源的改称。"
 			]
 			dependencies: ["70C8CB521B147252"]
 			min_width: 275
@@ -721,11 +721,11 @@
 		{
 			x: 11.0d
 			y: 1.5d
-			subtitle: "Make a Charger"
+			subtitle: "制作一个充能器"
 			description: [
-				"The &bCharger&r can &6empower certain items&r with ME."
+				"&b充能器&r可以通过ME&6增强某些物品&r。"
 				""
-				"This is particularly useful for &6Charged Certus Quartz&r."
+				"这对&6赛特斯石英水晶&r尤其有用。"
 			]
 			dependencies: ["464B540C593CE2A2"]
 			id: "4E3120210DC26A9E"
@@ -742,19 +742,19 @@
 			}]
 		}
 		{
-			title: "Transferance"
+			title: "传输"
 			icon: "ae2:fluix_glass_cable"
 			x: 12.5d
 			y: 0.0d
-			subtitle: "Make Fluix ME Glass Cable"
+			subtitle: "制作福鲁伊克斯色ME玻璃线缆"
 			description: [
-				"My early prototypes for &bME Cables&r were highly prone to interference. As such, my latest version splits connections into &6channels&r."
+				"我早期的&bME线缆&r的原型极易受到干扰。因此，我的最新版本将连接分成了几个&6频道&r。"
 				""
-				"Powered by the Energy Acceptor, basic Cables can support &6up to 32 channels&r. Each added device takes up a channel."
+				"由能量接收器供能，基本线缆可以支持&6多达32个频道&r。每增加一个设备就占用一个频道。"
 				""
-				"&bDense ME Cables&r can support &6up to 128 channels&r, but &ccannot connect to devices&r."
+				"&bME致密线缆&r可以支持&6多达128个频道&r，但是&c不能连接到设备上&r。"
 				""
-				"&oThe max amount of channels has been boosted by 4x!"
+				"&o频道的最大数量已经提高了4倍！"
 			]
 			dependencies: ["4C7077295A32CCA3"]
 			min_width: 250
@@ -762,7 +762,7 @@
 			tasks: [{
 				id: "2B68948662BEE92D"
 				type: "item"
-				title: "ME Cables"
+				title: "ME线缆"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -792,25 +792,25 @@
 			}]
 		}
 		{
-			title: "Assuming Direct Control"
+			title: "取得直接控制"
 			icon: "ae2:cable_interface"
 			x: 14.0d
 			y: 1.5d
 			shape: "square"
-			subtitle: "Make an ME Interface"
+			subtitle: "制作ME接口"
 			description: [
-				"The &bME Interface&r allows me to connect my ME network to interact with outside automation."
+				"&bME接口&r允许我连接我的ME网络，与外界的自动化互动。"
 				""
-				"I can place 9 items in the Config slots, and the Interface will keep those items on hand, available to be pulled out via Pipes and the like."
+				"我可以在配置槽中放置9个物品，界面将保持这些物品，可通过管道等抽出。"
 				""
-				"Any items inserted into the Interface from outside the network will enter the network's storage."
+				"任何从网络外输入接口的物品都将进入网络的存储。"
 			]
 			dependencies: ["2FF85191B27375BA"]
 			id: "1B7E082459567B7C"
 			tasks: [{
 				id: "16FC509945E0A218"
 				type: "item"
-				title: "ME Interface"
+				title: "ME接口"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -836,15 +836,15 @@
 			}]
 		}
 		{
-			title: "Instantaneous Infernal Inception"
+			title: "瞬时地狱初始"
 			icon: "ae2:terminal"
 			x: 15.5d
 			y: 0.0d
-			subtitle: "Make an ME Terminal"
+			subtitle: "制作ME终端"
 			description: [
-				"Now that I've connected my network into a centralized storage location, all that remains is to &6allow myself to access the contents&r."
+				"现在，我已经将我的网络连接到一个集中的存储位置，剩下的就是&6允许自己访问内容&r。"
 				""
-				"The &bME Terminal&r will &6display the contents of all inventories and tanks&r connected to the network. With just a thought, I can summon the items from their location to myself, as well as the opposite."
+				"&bME终端&r将显示连接到网络的&6所有容器和储罐&r的内容。只需一个念头，我就可以把物品从它们的位置召唤到自己身边，也可以反过来。"
 			]
 			dependencies: ["43B98C1A57C7301B"]
 			min_width: 225
@@ -893,16 +893,16 @@
 			]
 		}
 		{
-			title: "Crafting CPU"
+			title: "合成器CPU"
 			icon: "ae2:crafting_accelerator"
 			x: 17.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Make a Crafting CPU"
+			subtitle: "制作一个合成器CPU"
 			description: [
-				"I grow tired of relying on my minions to craft items. My digital network can do so much better."
+				"我逐渐厌倦了依靠我的下属来制作物品。我的数字网络可以做得更好。"
 				""
-				"The &bCrafting CPU&r multiblock is made of &bCrafting Storage&r and &bCrafting Co-Processing Units&r, and allows me to &6request my network craft items/fluids automatically&r."
+				"他的&b合成器CPU&r多方块是由&b合成器存储&r和&b并行处理单元&r构成，并允许我&6要求我的网络自动制作物品/流体&r。"
 			]
 			dependencies: ["3F7C6770BB85BCE4"]
 			id: "6AA8BEA8D7BC9C41"
@@ -910,7 +910,7 @@
 				{
 					id: "76BA71FE8D2BF3F2"
 					type: "item"
-					title: "Crafting Storage"
+					title: "合成存储器"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -958,15 +958,15 @@
 			x: 17.0d
 			y: 1.5d
 			shape: "square"
-			subtitle: "Make an ME Pattern Provider"
+			subtitle: "制作一个ME样板供应器"
 			description: [
-				"In order to actually craft a recipe, my network has to know what the recipe is."
+				"为了真正制作一个配方，我的网络必须知道配方是什么。"
 				""
-				"I can encode &6Patterns&r at the &6ME Pattern Encoding Terminal&r, and then insert them into an &bME Pattern Provider&r."
+				"我可以在&6ME样板终端&r对&6样板&r进行编码，然后将它们插入&bME样板供应器&r。"
 				""
-				"When my network requests that item be crafted, the Provider will send the ingredients to the adjacent inventory. Normal 3x3 crafting recipes should be sent to &bMolecular Assemblers&r."
+				"当我的网络要求制作该物品时，提供者将把原料送到邻近的容器。正常的3x3制作配方应该被发送到&b分子装配室&r。"
 				""
-				"For processing recipes (Furnaces, machines, etc), I will &6have to move the item back into the network&r. I can just use Pipes or the like to send them back to the Provider."
+				"对于加工配方（熔炉、机器等），我将&6必须将物品输回网络中&r。我可以直接使用管道或类似的方式将它们输回AE。"
 			]
 			dependencies: ["6AA8BEA8D7BC9C41"]
 			min_width: 275
@@ -975,7 +975,7 @@
 				{
 					id: "697EB1EC0C20F71A"
 					type: "item"
-					title: "ME Pattern Provider"
+					title: "ME样板供应器"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -1014,20 +1014,20 @@
 			]
 		}
 		{
-			title: "The Singularity Engine"
+			title: "物质聚合器"
 			icon: "ae2:singularity"
 			x: 15.5d
 			y: 1.5d
 			shape: "circle"
-			subtitle: "Make a Singularity"
+			subtitle: "制作一个奇点"
 			description: [
-				"A &bSingularity&r contains such mass that it collapses into a single point, where density is infinitely dense."
+				"一个&b奇点&r包含这样多的物质，它坍缩成一个点，密度是无限大的。"
 				""
-				"I can craft these in the &bMatter Condenser&r, which does not need power."
+				"我可以在&b物质聚合器&r中制作这些东西，它不需要电源。"
 				""
-				"I'll have to set it to output Singularities, and it needs a &6256k ME Storage Component&r to fill."
+				"我得把它设置为输出奇点，它需要一个&6256kME存储组件&r来填充。"
 				""
-				"The Condenser &6accepts fluids&r..."
+				"物质聚合器&6接受液体&r……"
 			]
 			dependencies: ["3F7C6770BB85BCE4"]
 			min_width: 225
@@ -1056,13 +1056,13 @@
 			x: 15.5d
 			y: -1.5d
 			shape: "square"
-			subtitle: "Make a Wireless ME setup"
+			subtitle: "制作一个无线终端"
 			description: [
-				"What's the point of centralizing all my storage if I still have to go there to access it?"
+				"如果我还得去终端那里访问，集中我所有的存储空间有什么意义？"
 				""
-				"The &bME Wireless Access Point&r emits an intangible stream of ME into the surroundings, ready to be harnessed by a &bWireless Terminal&r."
+				"&bME无线接入点&r向周围发射一种无形的ME流，可以被&b无线终端&r来利用。"
 				""
-				"An &bME Security Terminal&r is required for me to connect the Terminal to the network."
+				"我需要一个&bME安全终端&r来将终端连接到网络。"
 			]
 			dependencies: ["3F7C6770BB85BCE4"]
 			min_width: 275
@@ -1081,7 +1081,7 @@
 				{
 					id: "3A5706B354495191"
 					type: "item"
-					title: "Wireless Terminals"
+					title: "无线终端"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -1111,11 +1111,11 @@
 			x: 12.5d
 			y: -1.5d
 			shape: "square"
-			subtitle: "Make an ME Controller"
+			subtitle: "制作一个ME控制器"
 			description: [
-				"The &bME Controller&r is the brain of larger ME networks."
+				"&bME控制器&r可以构成更大的ME网络。"
 				""
-				"Each face of the ME Controller multiblock will &6add up to 128 channels&r to the network, assuming there's a direct path from the face to the device."
+				"假设有一个直接的路径从面到设备，ME控制器多方块的每一个面将&6增加多达128个通道&r到网络。"
 			]
 			dependencies: ["2FF85191B27375BA"]
 			id: "07D1F8651E94B7A5"
@@ -1137,13 +1137,13 @@
 		{
 			x: 14.0d
 			y: 0.0d
-			subtitle: "Make an ME Storage Bus"
+			subtitle: "制作一个ME存储总线"
 			description: [
-				"Try as I might, I simply &ccannot find a way to store items&r in energy form. Turning them to energy and back is simple as can be, but keeping them in that state is beyond me."
+				"尽管我很努力，但我&c根本找不到以能量形式储存物品的方法&r。将它们转化为能量并返回是非常简单的，但保持它们的状态是我无法做到的。"
 				""
-				"The &bStorage Bus&r is my workaround. Instead of storing items digitally, placing it on an inventory will allow me to digitize its items on demand, rematerializing them where needed."
+				"&b存储总线&r是我的变通办法。与其以数字方式存储物品，不如把它放在一个容器内，这样我就可以根据需要把它的物品数字化，在需要的地方重新物化它们。"
 				""
-				"I can &6attach this to my Warehouses&r to use them as my network's storage!"
+				"我可以把这个&6贴在我的容器上&r，把它们作为我的网络存储。"
 			]
 			dependencies: ["2FF85191B27375BA"]
 			min_width: 225
@@ -1175,18 +1175,18 @@
 			]
 		}
 		{
-			title: "Bringing it Together"
+			title: "将他们联系起来"
 			icon: "minecolonies:blockhutwarehouse"
 			x: -0.5d
 			y: 1.5d
 			shape: "hexagon"
-			subtitle: "Tie your Colony to your other automation"
+			subtitle: "将你的殖民地与你的其他自动化系统联系起来"
 			description: [
-				"Pipes and the like are able to &6connect with the Warehouse block&r to access all the items in all its Racks."
+				"管道等能够与&6仓库方块&r进行连接，以访问其所有货架中的所有项目。"
 				""
-				"The Warehouse is a bit cramped though, so I can use &6Entangled Blocks&r instead. I can &6connect that to my Pipe network&r to allow it to use the items in my colony!"
+				"但是仓库有点拥挤，所以我可以用&6纠缠方块&r来代替。我可以&6把它和我的管道网络&r连接起来，让它使用我的殖民地里的物品！"
 				""
-				"This allows me to create a logistics &oempire&r where I can provide the raw materials for my minions without a thought."
+				"这使我能够创建一个&o物流帝国&r，我可以不假思索地为我的下属提供原材料。"
 			]
 			hide_dependency_lines: true
 			min_required_dependencies: 2
@@ -1231,8 +1231,8 @@
 			x: 7.5d
 			y: 1.5d
 			shape: "hexagon"
-			subtitle: "Connect Dimensional Storage to other mods"
-			description: ["I can connect my &bDimensional Storage&r to other systems using the &6Item Terminal&r or the &6Storage Bus&r!"]
+			subtitle: "将维度存储连接到其他模组上"
+			description: ["我可以用&6物品终端&r或&6存储总线&r将我的&b维度存储&r与其他系统连接起来！"]
 			hide_dependency_lines: true
 			dependencies: ["2DD97E216BFC5744"]
 			size: 1.5d
@@ -1248,8 +1248,8 @@
 			x: 2.5d
 			y: -3.5d
 			shape: "square"
-			subtitle: "Make Conveyor Belts"
-			description: ["&bConveyor Belts&r are somewhat clunkier to use than Pipes, but have a certain &ostyle&r about them."]
+			subtitle: "制作沉浸的传送带"
+			description: ["&b传送带&r在使用上比管道更笨重，但有别样的&o风格&r。"]
 			dependencies: [
 				"51DDAEA8672B9CC0"
 				"4513CF899E60912A"
@@ -1259,7 +1259,7 @@
 			tasks: [{
 				id: "16D5B5D1BABC053C"
 				type: "item"
-				title: "Conveyor Belts"
+				title: "传送带"
 				item: {
 					id: "itemfilters:id_regex"
 					Count: 1b
@@ -1280,11 +1280,11 @@
 			x: 4.0d
 			y: -3.5d
 			shape: "square"
-			subtitle: "Make some Mechanical Belts"
+			subtitle: "制作机械动力的传送带"
 			description: [
-				"&bMechanical Belts&r use rotational energy to move items and other entities."
+				"&b机械动力的传送带&r使用应力来移动物品和其他实体。"
 				""
-				"&bFunnels&r allow items to enter and exit inventories."
+				"&b黄铜漏斗&r允许物品输入和输出容器。"
 			]
 			dependencies: ["1DA150B4F8F182EC"]
 			id: "44F22099EAE40BDD"
@@ -1321,13 +1321,13 @@
 			x: 9.5d
 			y: 2.5d
 			shape: "square"
-			subtitle: "Make a Vibration Chamber"
+			subtitle: "制作一个谐振仓"
 			description: [
-				"If I don't have any other power source to convert to ME, I can use &bVibration Chambers&r."
+				"如果我没有任何其他能量可以转换为ME，我可以使用&b谐振仓&r。"
 				""
-				"They aren't very powerful, I'll need at least five to provide any significant power."
+				"它不是很强大，我至少需要五个才能提供足够的能量。"
 				""
-				"I could probably &6connect some Bonsai Pots&r to keep these powered..."
+				"我也许可以连接一些&6盆栽盆&r来保持发电……"
 			]
 			dependencies: ["464B540C593CE2A2"]
 			optional: true
@@ -1349,13 +1349,13 @@
 			x: 1.0d
 			y: -3.5d
 			shape: "square"
-			subtitle: "Make a Tree Tap"
+			subtitle: "制作一个树龙头"
 			description: [
-				"While I can gather &6Latex&r simply by chopping Rubberwood trees, that's not optimal."
+				"虽然我可以通过砍伐橡胶木树来收集&6胶乳&r，但这并不是最佳选择。"
 				""
-				"I can attach a &bTree Tap&r to the side, and place a &bWooden Bowl&r beneath to slowly drain Latex."
+				"我可以在边上安装一个&b树龙头&r，并在下面放置一个&b木桶&r来慢慢排出乳胶。"
 				""
-				"When the Bowl is full, I can activate it to collect the Latex."
+				"当木桶满了，我可以通过它来获得乳胶。"
 			]
 			dependencies: ["51DDAEA8672B9CC0"]
 			optional: true
@@ -1384,14 +1384,14 @@
 			x: 5.5d
 			y: -3.5d
 			shape: "square"
-			subtitle: "Make Vector Plates"
-			description: ["&bVector Plates&r excell at moving entities extremely quickly. Sneaking allows me to resist the pull."]
+			subtitle: "制作向量板"
+			description: ["&b向量板&r擅长极快地移动实体。潜行使我能够抵御拉力。"]
 			dependencies: ["44F22099EAE40BDD"]
 			id: "07E39B9E0A0A2703"
 			tasks: [{
 				id: "5B7904BE0DEE803A"
 				type: "item"
-				title: "Vector Plates"
+				title: "向量板"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -1418,8 +1418,8 @@
 			x: 7.5d
 			y: -5.0d
 			shape: "square"
-			subtitle: "Make an Ender Chest"
-			description: ["&bEnder Chests&r harness the power of Endermen, allowing me to &6teleport items&r over any distance."]
+			subtitle: "制作一个末影箱"
+			description: ["&b末影箱&r利用末影人的力量，使我能够将物品传送到任何距离。"]
 			dependencies: ["55099E0F763B39CA"]
 			id: "6CF1F47FC1105B74"
 			tasks: [{
@@ -1434,11 +1434,11 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 7.0d
 			y: -5.0d
 			shape: "square"
-			subtitle: "Make an Ender Tank"
-			description: ["&bEnder Tanks&r of the same color frequency share their contents."]
+			subtitle: "制作一个末影蓄水槽"
+			description: ["相同颜色的&b末影蓄水槽&r共享其内容。"]
 			dependencies: ["40D4850B34EC5677"]
 			id: "4E1E0D39D0F581BB"
 			tasks: [{
@@ -1453,23 +1453,23 @@
 			}]
 		}
 		{
-			title: "Infinity and Beyond"
+			title: "无穷无尽和超越"
 			icon: "aeinfinitybooster:infinity_card"
 			x: 17.0d
 			y: -1.5d
 			shape: "square"
-			subtitle: "Make an advanced Range Booster"
+			subtitle: "制作高级的增幅卡"
 			description: [
-				"I can install the &bInfinity Range Booster&r into the ME WAP to &6access it from anywhere in the same dimension&r."
+				"我可以将&b无限范围增幅卡&r安装到ME无线访问节点中，以便从&6同一维度的任何地方访问它&r。"
 				""
-				"The &bDimension Card&r can be installed instead to remove that restriction."
+				"可以安装&b维度卡&r来解除这一限制。"
 			]
 			dependencies: ["7549B7F5E64F8759"]
 			id: "143E702A2622114F"
 			tasks: [{
 				id: "6CF1F6DF5A8C8613"
 				type: "item"
-				title: "Advanced Range Boosters"
+				title: "高级的增幅卡"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -1493,18 +1493,18 @@
 			x: 10.0d
 			y: -6.0d
 			shape: "square"
-			subtitle: "Don't waste a drop!"
+			subtitle: "不要浪费一滴！"
 			description: [
-				"&bItem Collectors&r can pick up all items in an area, which I can change in its GUI."
+				"&b物品收集器&r可以拾取预定范围内的所有物品，我可以在GUI中设置它。"
 				""
-				"I should make a few of these for my mob farms. With the &6Advanced&r one, I can even set up a black/whitelist!"
+				"我应该为我的怪物农场做一些这样的东西。同时，&6高级&r那款可以设置白名单或黑名单！"
 			]
 			dependencies: ["2F1E6BFBCD59CF57"]
 			id: "1EF3188DBE7823F6"
 			tasks: [{
 				id: "4CF1F65E962C35F8"
 				type: "item"
-				title: "Clutch Collecting"
+				title: "收集器"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b

@@ -3,24 +3,24 @@
 	group: "3165B92DB1BC8401"
 	order_index: 2
 	filename: "sanctuary"
-	title: "Sanctuary"
+	title: "避难所"
 	icon: "minecraft:soul_campfire"
-	subtitle: ["QoL, base building"]
+	subtitle: ["生活与基础设施"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "A Light in the Darkness"
+			title: "黑暗中的光"
 			icon: "minecraft:soul_campfire"
 			x: -0.5d
 			y: -7.5d
-			subtitle: "Surviving in the Nether"
+			subtitle: "在黑暗中生存"
 			description: [
-				"This world taxes the living to the point of breaking. There is no rest to be had here and wounds refuse to heal."
+				"这个世界会让你疯狂。在这个世界你无法睡觉，伤口也无法愈合。"
 				""
-				"&cNatural healing is much slower&r but the living can &6find respite in the warmth of a Campfire&r."
+				"&c自然回血要慢了很多&r但你可以在温暖的篝火旁得到短暂的生命恢复&r。"
 				""
-				"Eternal darkness fills every crevice of this realm. Among my \"friend's\" parting gifts is a &6Glowing Mushroom&r, which can be held or worn to light my surroundings."
+				"永恒的黑暗充斥这这个领域的每一个角落。在我的“朋友”的离别礼物中有一个&6发光蘑菇&r，将它带在身上或者装备可以照亮周围的环境。"
 			]
 			min_width: 300
 			id: "09057232EBCC8BAF"
@@ -38,7 +38,7 @@
 				{
 					id: "1DF039F45CAA4699"
 					type: "command"
-					title: "10 Minutes of Fire Resistance"
+					title: "10分钟防火"
 					icon: {
 						id: "ftbquests:custom_icon"
 						Count: 1b
@@ -53,7 +53,7 @@
 				{
 					id: "254FE64F7B9F0947"
 					type: "command"
-					title: "10 Minutes of Saturation"
+					title: "10分钟饱和"
 					icon: {
 						id: "ftbquests:custom_icon"
 						Count: 1b
@@ -68,7 +68,7 @@
 				{
 					id: "6C8F5F1EBA7AB6EC"
 					type: "command"
-					title: "10 Minutes of Resistance III"
+					title: "10分钟抗性提升III"
 					icon: {
 						id: "ftbquests:custom_icon"
 						Count: 1b
@@ -83,7 +83,7 @@
 				{
 					id: "7EAFE33A9A4F52A4"
 					type: "command"
-					title: "10 Minutes of Night Vision"
+					title: "10分钟夜视"
 					icon: {
 						id: "ftbquests:custom_icon"
 						Count: 1b
@@ -98,17 +98,17 @@
 			]
 		}
 		{
-			title: "Useful Things!"
+			title: "有用的物品！"
 			icon: "minecraft:crafting_table"
 			tags: ["info"]
 			x: -0.5d
 			y: -5.5d
 			shape: "gear"
-			subtitle: "About this chapter"
+			subtitle: "关于本章"
 			description: [
-				"This chapter will serve to &blist blocks useful for base-building&r that I've come across my time here."
+				"本章将列出我在这里遇到的对建造基地有用的物品。"
 				""
-				"These quests are not in any particular order, and may be visible way before you can actually get them."
+				"这些任务没有任何特定的顺序，而且可能在我解锁它们之前就已经可见。"
 			]
 			dependencies: ["55099E0F763B39CA"]
 			id: "344D961959A62F3A"
@@ -118,16 +118,16 @@
 			}]
 		}
 		{
-			title: "The World Over In An Instant"
+			title: "转瞬即逝的世界"
 			x: -1.5d
 			y: -1.5d
-			subtitle: "Make a Travel Anchor"
+			subtitle: "制作旅行锚"
 			description: [
-				"Travel here is dangerous and time-consuming. As awe-inspiring as these alien vistas are, I simply cannot afford to explore."
+				"在这里旅行即危险又耗时。尽管这些外星景象令人敬畏，但我根本没时间探索。"
 				""
-				"As such, I've devised a series of &6miniature teleportation circles&r, which I'm dubbing &bTravel Anchors&r."
+				"因此，我发明了一系列的&6微型传送器&r，并将它命名为&b旅行锚&r。"
 				""
-				"To use the Anchor, I have to name it and stand on another. I will be able to see it, even through walls, and right-clicking will teleport me to it."
+				"要使用旅行锚，我需要命名它并站在另一个旅行锚上面。这样我就能看到第一个旅行锚，甚至可以透过方块，然后右键单击就可以将我传送到它上面。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["344D961959A62F3A"]
@@ -157,11 +157,11 @@
 		{
 			x: 0.0d
 			y: -2.5d
-			subtitle: "Get a Diamond Magnum Torch"
+			subtitle: "获得钻石卓越火炬"
 			description: [
-				"The &bDiamond Magnum Torch&r will &6prevent monsters from spawning in a large radius&r."
+				"&b钻石卓越火炬&r能&6防止怪物在很大半径内生成&r。"
 				""
-				"I get my first one upon starting my colony, but additional ones must be crafted by an Enchanter."
+				"我在开始建造我的殖民地时得到了第一个，但其他的必须由附魔师制作。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["344D961959A62F3A"]
@@ -175,8 +175,8 @@
 		{
 			x: -0.5d
 			y: -1.5d
-			subtitle: "Make an Interdiction Torch"
-			description: ["The &bInterdiction Torch&r is repulsive to non-humans. They are &6pushed away&r, and kept at least 4 blocks away."]
+			subtitle: "制作结界火炬"
+			description: ["&b结界火炬&r对非玩家生物来说是非常讨厌的。他们会被&6推开&r，并保持4个区块的距离。"]
 			hide_dependency_lines: true
 			dependencies: ["344D961959A62F3A"]
 			id: "3DA8580002DC02FB"
@@ -189,8 +189,8 @@
 		{
 			x: 0.5d
 			y: -3.5d
-			subtitle: "Make an Iron Grate"
-			description: ["&bIron Grates&r will support myself and any other mobs, but will &6allow items to pass through&r."]
+			subtitle: "制作铁丝网"
+			description: ["我和生物可以站在&b铁丝网&r上，&6但物品不行&r。"]
 			hide_dependency_lines: true
 			dependencies: ["344D961959A62F3A"]
 			id: "57670FFCB9E72433"
@@ -204,18 +204,18 @@
 			icon: "minecraft:crimson_planks"
 			x: -0.5d
 			y: -3.5d
-			subtitle: "Get a fireproof wood"
+			subtitle: "获得一块抗燃原木"
 			description: [
-				"&cFire&r, it seems, is incredibly common here. While the locals do not mind, I do."
+				"&c火焰&r在这里似乎非常常见。虽然原住民不介意，但是我介意。"
 				""
-				"There are several &bfireproof woods&r I can use in building. Of course, I could use things other than wood."
+				"我可以在建筑中使用不同的&b抗燃原木&r。当然我也可以用其他的建筑材料。"
 			]
 			dependencies: ["344D961959A62F3A"]
 			id: "061EC97951B7A2B3"
 			tasks: [{
 				id: "670B2DF9DE939621"
 				type: "item"
-				title: "Fireproof Wood"
+				title: "抗燃原木"
 				item: {
 					id: "itemfilters:and"
 					Count: 1b
@@ -258,11 +258,11 @@
 			icon: "elevatorid:elevator_white"
 			x: -1.0d
 			y: -2.5d
-			subtitle: "Make an Elevator"
+			subtitle: "制作电梯"
 			description: [
-				"&bElevators&r harness the Endermen's power of teleportation, without requiring an Ender Pearl every time."
+				"&b电梯&r利用末影人的传送能力，不过不需要身上有末影珍珠。"
 				""
-				"&6Jumping&r on one teleports me to another above, and &6sneaking&r does the opposite."
+				"在电梯上&6跳跃&r可以将我传送到上面的电梯，而&6潜行&r则相反。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["344D961959A62F3A"]
@@ -270,7 +270,7 @@
 			tasks: [{
 				id: "78FF308E1E696A60"
 				type: "item"
-				title: "Elevators"
+				title: "电梯"
 				item: {
 					id: "itemfilters:mod"
 					Count: 1b
@@ -289,11 +289,11 @@
 		{
 			x: -2.0d
 			y: -2.5d
-			subtitle: "Make an Experience Obelisk"
+			subtitle: "制作一个经验方尖碑"
 			description: [
-				"The &bExperience Obelisk&r allows me to &6store experience in liquid form&r."
+				"&b经验方尖碑&r允许我以&6液态的形式储存经验&r。"
 				""
-				"It can also &6pick up experience orbs&r in the world."
+				"还可以&6收集附近的经验球&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["344D961959A62F3A"]
@@ -337,13 +337,13 @@
 		{
 			x: 0.5d
 			y: -1.5d
-			subtitle: "Make Glowcrystals"
+			subtitle: "制作发光晶体"
 			description: [
-				"&bGlowcrystals&r will &6light up a large area&r, removing the need to place Torches everywhere."
+				"&b发光晶体&r可以&6照亮大片区域&r，这样就不用放那么多火把了。"
 				""
-				"I can stack up to 4 Crystals together, lighting a 50x50 meter area."
+				"我发现最多可以叠加4个发光晶体的效果，能照亮50x50的区域。"
 				""
-				"Glowcrystals work by placing invisible light sources every 3 blocks (two empty blocks between). This &cmay interfere with certain things&r, and multiblocks like the Smeltery."
+				"发光晶体的工作原理是每3个区块放置一个不可见的光源（中间有两个空区块）。&c这可能会干扰某些东西&r，比如冶炼厂。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["344D961959A62F3A"]
@@ -366,8 +366,8 @@
 			disable_toast: true
 			x: -0.5d
 			y: -0.5d
-			subtitle: "Make a Shifting Sundial"
-			description: ["The &bShifting Sundial&r allows me to &6change the time&r! Especially useful as I am unable to sleep here."]
+			subtitle: "制作一个移位日晷"
+			description: ["&b移位日晷&r让我可以&6改变时间&r！这特别有用，因为我在这里无法睡觉。"]
 			hide_dependency_lines: true
 			dependencies: ["344D961959A62F3A"]
 			id: "4AAC56091DDF8043"
@@ -387,12 +387,12 @@
 			]
 		}
 		{
-			title: "Chipped"
+			title: "装饰！"
 			icon: "chipped:loom_table"
 			x: -1.5d
 			y: -3.5d
-			subtitle: "Chip some decorative blocks"
-			description: ["The &eChipped&r &bTables&r allow me to &6create thousands of decorative block variations&r"]
+			subtitle: "制作一些装饰性方块"
+			description: ["我可以在&e纹理&r&b桌&r制造&6上千种不同的装饰性方块&r"]
 			hide_dependency_lines: true
 			dependencies: ["344D961959A62F3A"]
 			id: "00F87824FABD054C"
@@ -400,7 +400,7 @@
 				{
 					id: "3ADE00372C7D4060"
 					type: "item"
-					title: "Tables"
+					title: "桌子"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -441,7 +441,7 @@
 				{
 					id: "7702DDB140C7E147"
 					type: "item"
-					title: "Decorative Blocks"
+					title: "装饰方块"
 					item: {
 						id: "itemfilters:and"
 						Count: 1b
@@ -527,15 +527,15 @@
 			]
 		}
 		{
-			title: "Beautiful Burning"
+			title: "燃烧的美"
 			x: -0.5d
 			y: -8.25d
 			shape: "square"
-			subtitle: "Avoid Burning Blossoms"
+			subtitle: "避开火焰花"
 			description: [
-				"&bBurning Blossoms&r can be found throughout the Nether, as well as certain building plans."
+				"我可以在整个下界以及某些建筑中找到&b火焰花&r"
 				""
-				"Though my &6minions are fire-proof&r, they still &cpanic anyway&r. I can avoid this by placing Trapdoors or other obstacles above the flower."
+				"尽管我的喽啰&6并不怕火&r，但他们仍会&c惊恐地跑开&r。我想在花上放活板门或其他障碍可以避免这种情况。"
 			]
 			dependencies: [
 				"09057232EBCC8BAF"
@@ -557,19 +557,22 @@
 			}]
 		}
 		{
-			title: "Soul Shards"
+			title: "灵魂碎片"
 			icon: "soulshards:soul_cage"
 			x: 1.0d
 			y: -2.5d
-			subtitle: "Make a Soul Shard"
+			subtitle: "制做一个灵魂碎片"
 			description: [
-				"One of the largest challenges I face here are &cconstant attacks from monsters&r, coming at me from all directions."
+				"我在这里面临的最大挑战就是&c来自四面八方的怪物无尽的攻击&r。"
 				""
-				"While I can prevent them with a &6Magnum Torch&r, what if I could harness them instead?"
+				"虽然可以用一个&6卓越火炬&r来防止他们生成，但是如果我可以利用他们呢？"
 				""
-				"Killing an entity with a &bSoul Shard&r in my inventory will bind it to that entity. Killing more of that enemy type adds their souls to the Shard. &6The more souls, the higher the tier.&r"
+
+
+  "利用库存中的&b灵魂碎片&r杀死一个实体将其绑定到碎片。杀死更多种类的敌人来将他们添加到灵魂碎片&6碎片越多，等级越高。&r"
+
 				""
-				"I can insert this Shard into a &bSoul Cage&r, which will &6spawn forth a limitless amount of that entity&r. The higher the tier, the more control I have, as well as mobs spawning more often and in greater numbers."
+			   "把这个碎片插入&b灵魂笼&r来&6无限生成该实体&r。等级越高，生成间隔越短，生成数量越多。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["344D961959A62F3A"]
