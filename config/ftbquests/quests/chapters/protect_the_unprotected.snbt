@@ -1,1053 +1,1053 @@
 {
-        id: "5F0F9E8B873EFD85"
-        group: "3ABD0072BF4C3677"
-        order_index: 3
-        filename: "protect_the_unprotected"
-        title: "保护平民"
-        icon: "minecolonies:blockhutarchery"
-        subtitle: ["守卫和斗争"]
-        default_quest_shape: ""
-        default_hide_dependency_lines: false
-        quests: [
-                {
-                        x: 3.0d
-                        y: -6.5d
-                        subtitle: "制作一个靶场"
-                        description: [
-                                "在&b靶场&r里，未来的弓箭手们可以&6提升他们的属性&r，变得更加强大。"
-                                ""
-                                "训练中的弓箭手&c不与怪物战斗&r。这样就能升级。"
-                                ""
-                                "如果我失去了我的弓箭手（或制造更多守卫塔），一个训练中的弓箭手将取代他们的位置。"
-                        ]
-                        dependencies: [
-                                "46A72493AFD256CA"
-                                "06CE7047869A2A71"
-                        ]
-                        id: "780F373ACC070F76"
-                        tasks: [{
-                                id: "3122072B872DA347"
-                                type: "item"
-                                item: "minecolonies:blockhutarchery"
-                        }]
-                        rewards: [
-                                {
-                                        id: "1E0C7E4240DB5271"
-                                        type: "loot"
-                                        table_id: 4864474103053531672L
-                                }
-                                {
-                                        id: "767BD93A0DB9DD65"
-                                        type: "item"
-                                        item: {
-                                                id: "minecraft:crossbow"
-                                                Count: 1b
-                                                tag: {
-                                                        RepairCost: 0
-                                                        Damage: 0
-                                                        Enchantments: [
-                                                                {
-                                                                        lvl: 3s
-                                                                        id: "minecraft:piercing"
-                                                                }
-                                                                {
-                                                                        lvl: 3s
-                                                                        id: "apotheosis:crescendo"
-                                                                }
-                                                        ]
-                                                        display: {
-                                                                Name: "{\"text\":\"Source Infused Auto-Crossbow\"}"
-                                                        }
-                                                }
-                                        }
-                                }
-                        ]
-                }
-                {
-                        title: "&m也试试FTB Academy吧&r"
-                        x: 0.0d
-                        y: -6.5d
-                        subtitle: "制作一个练兵场"
-                        description: [
-                                "在&b练兵场&r里，准骑士们可以&6提升他们的属性&r，变得更强。"
-                                ""
-                                "准骑士们在训练时&c不与怪物作战&r。这样就能升级。"
-                                ""
-                                "如果我失去了我的骑士（或制造更多守卫塔），一个训练中的骑士将取代他们的位置。"
-                        ]
-                        dependencies: [
-                                "46A72493AFD256CA"
-                                "06CE7047869A2A71"
-                        ]
-                        id: "1F536C436434F546"
-                        tasks: [{
-                                id: "4D93960643F6882A"
-                                type: "item"
-                                item: "minecolonies:blockhutcombatacademy"
-                        }]
-                        rewards: [
-                                {
-                                        id: "601FBD31FF79CB29"
-                                        type: "random"
-                                        table_id: 4864474103053531672L
-                                }
-                                {
-                                        id: "52BB878EC97D9EC3"
-                                        type: "item"
-                                        item: {
-                                                id: "ae2:certus_quartz_sword"
-                                                Count: 1b
-                                                tag: {
-                                                        RepairCost: 0
-                                                        Damage: 0
-                                                        Enchantments: [
-                                                                {
-                                                                        lvl: 3s
-                                                                        id: "minecraft:sharpness"
-                                                                }
-                                                                {
-                                                                        lvl: 2s
-                                                                        id: "apotheosis:capturing"
-                                                                }
-                                                                {
-                                                                        lvl: 2s
-                                                                        id: "apotheosis:life_mending"
-                                                                }
-                                                        ]
-                                                        display: {
-                                                                Name: "{\"text\":\"Spiritual Confinement Blade\"}"
-                                                        }
-                                                }
-                                        }
-                                }
-                        ]
-                }
-                {
-                        icon: {
-                                id: "thermal:hazmat_chestplate"
-                                Count: 1b
-                                tag: {
-                                        Damage: 0
-                                }
-                        }
-                        x: -1.5d
-                        y: -4.0d
-                        shape: "square"
-                        subtitle: "制作一级盔甲"
-                        description: [
-                                "一级盔甲分别是&b防化服套装&r和&b初学者法袍&r"
-                                ""
-                                "&6装甲等级有些随意。&r较低级别的盔甲通常可以获得的更早，但这取决于我选择的道路。"
-                        ]
-                        dependencies: ["4907DE361AB24C96"]
-                        id: "0756A3FFDE548C2F"
-                        tasks: [{
-                                id: "2590CB30DE761AF9"
-                                type: "item"
-                                title: "一级盔甲"
-                                item: {
-                                        id: "itemfilters:or"
-                                        Count: 1b
-                                        tag: {
-                                                items: [
-                                                        {
-                                                                id: "thermal:hazmat_helmet"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "thermal:hazmat_chestplate"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "thermal:hazmat_leggings"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "thermal:hazmat_boots"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "ars_nouveau:novice_hood"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "ars_nouveau:novice_robes"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "ars_nouveau:novice_leggings"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "ars_nouveau:novice_boots"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                ]
-                                        }
-                                }
-                        }]
-                        rewards: [{
-                                id: "4A8C44177DEF3FA3"
-                                type: "item"
-                                item: {
-                                        id: "travellersboots:travellersbootmki"
-                                        Count: 1b
-                                        tag: {
-                                                Damage: 0
-                                        }
-                                }
-                        }]
-                }
-                {
-                        icon: {
-                                id: "bloodmagic:livingplate"
-                                Count: 1b
-                                tag: {
-                                        Damage: 0
-                                        livingStats: {
-                                                maxPoints: 100
-                                                upgrades: [ ]
-                                        }
-                                }
-                        }
-                        x: 0.0d
-                        y: -4.0d
-                        shape: "square"
-                        subtitle: "制作二级盔甲"
-                        description: ["二级盔甲分别是&b植物学家套装&r，&b束灵套装&r，&b法师套装&r，&b钢套装&r，和&b巫师套装&r"]
-                        dependencies: ["4907DE361AB24C96"]
-                        id: "0D5482EF6B2185CB"
-                        tasks: [{
-                                id: "738368C8C52C77B0"
-                                type: "item"
-                                title: "二级盔甲"
-                                item: {
-                                        id: "itemfilters:or"
-                                        Count: 1b
-                                        tag: {
-                                                items: [
-                                                        {
-                                                                id: "naturesaura:infused_iron_helmet"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "naturesaura:infused_iron_chest"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "naturesaura:infused_iron_pants"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "naturesaura:infused_iron_shoes"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "bloodmagic:livinghelmet"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "bloodmagic:livingplate"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                        livingStats: {
-                                                                                maxPoints: 100
-                                                                                upgrades: [ ]
-                                                                        }
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "bloodmagic:livingleggings"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "bloodmagic:livingboots"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "ars_nouveau:apprentice_hood"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "ars_nouveau:apprentice_robes"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "ars_nouveau:apprentice_leggings"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "ars_nouveau:apprentice_boots"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "immersiveengineering:armor_steel_head"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "immersiveengineering:armor_steel_chest"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "immersiveengineering:armor_steel_legs"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "immersiveengineering:armor_steel_feet"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "hexerei:witch_helmet"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "hexerei:witch_chestplate"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "hexerei:witch_boots"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                ]
-                                        }
-                                }
-                        }]
-                }
-                {
-                        icon: {
-                                id: "ftbic:carbon_chestplate"
-                                Count: 1b
-                                tag: {
-                                        Damage: 0
-                                }
-                        }
-                        x: 1.5d
-                        y: -4.0d
-                        shape: "square"
-                        subtitle: "制作三级盔甲"
-                        description: ["三级盔甲分别是&b探天者套装&r，&b镶板套装&r，&b碳纤维套装&r，&b镀金下界合金套装&r，和&b大法师套装&r。"]
-                        dependencies: ["4907DE361AB24C96"]
-                        id: "62C114210D96CC95"
-                        tasks: [{
-                                id: "2F7F6E991065DECC"
-                                type: "item"
-                                title: "三级盔甲"
-                                item: {
-                                        id: "itemfilters:or"
-                                        Count: 1b
-                                        tag: {
-                                                items: [
-                                                        {
-                                                                id: "naturesaura:sky_helmet"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "naturesaura:sky_chest"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "naturesaura:sky_pants"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "naturesaura:sky_shoes"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "tconstruct:plate_helmet"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        tic_multipliers: { }
-                                                                        tic_stats: {
-                                                                                "tconstruct:armor_toughness": 2.0f
-                                                                                "tconstruct:knockback_resistance": 0.1f
-                                                                                "tconstruct:durability": 330.0f
-                                                                                "tconstruct:armor": 2.0f
-                                                                        }
-                                                                        tic_broken: 0b
-                                                                        HideFlags: 3
-                                                                        tic_modifiers: [ ]
-                                                                        Damage: 0
-                                                                        tic_persistent_data: {
-                                                                                abilities: 1
-                                                                                defense: 4
-                                                                                upgrades: 1
-                                                                        }
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "tconstruct:plate_chestplate"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        tic_multipliers: { }
-                                                                        tic_stats: {
-                                                                                "tconstruct:armor_toughness": 2.0f
-                                                                                "tconstruct:knockback_resistance": 0.1f
-                                                                                "tconstruct:durability": 480.0f
-                                                                                "tconstruct:armor": 7.0f
-                                                                        }
-                                                                        tic_broken: 0b
-                                                                        HideFlags: 3
-                                                                        tic_modifiers: [ ]
-                                                                        Damage: 0
-                                                                        tic_persistent_data: {
-                                                                                abilities: 1
-                                                                                defense: 4
-                                                                                upgrades: 1
-                                                                        }
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "tconstruct:plate_leggings"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        tic_multipliers: { }
-                                                                        tic_stats: {
-                                                                                "tconstruct:armor_toughness": 2.0f
-                                                                                "tconstruct:knockback_resistance": 0.1f
-                                                                                "tconstruct:durability": 450.0f
-                                                                                "tconstruct:armor": 5.0f
-                                                                        }
-                                                                        tic_broken: 0b
-                                                                        HideFlags: 3
-                                                                        tic_modifiers: [ ]
-                                                                        Damage: 0
-                                                                        tic_persistent_data: {
-                                                                                abilities: 1
-                                                                                defense: 4
-                                                                                upgrades: 1
-                                                                        }
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "tconstruct:plate_boots"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        tic_multipliers: { }
-                                                                        tic_stats: {
-                                                                                "tconstruct:armor_toughness": 2.0f
-                                                                                "tconstruct:knockback_resistance": 0.1f
-                                                                                "tconstruct:durability": 390.0f
-                                                                                "tconstruct:armor": 2.0f
-                                                                        }
-                                                                        tic_broken: 0b
-                                                                        HideFlags: 3
-                                                                        tic_modifiers: [ ]
-                                                                        Damage: 0
-                                                                        tic_persistent_data: {
-                                                                                abilities: 1
-                                                                                defense: 4
-                                                                                upgrades: 1
-                                                                        }
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "ftbic:carbon_helmet"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "ftbic:carbon_chestplate"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "ftbic:carbon_leggings"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "ftbic:carbon_boots"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "bygonenether:gilded_netherite_helmet"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "bygonenether:gilded_netherite_chestplate"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "bygonenether:gilded_netherite_leggings"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "bygonenether:gilded_netherite_boots"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "ars_nouveau:archmage_hood"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "ars_nouveau:archmage_robes"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "ars_nouveau:archmage_leggings"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "ars_nouveau:archmage_boots"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                ]
-                                        }
-                                }
-                        }]
-                        rewards: [{
-                                id: "2E66BF3EF7CE4987"
-                                type: "item"
-                                item: {
-                                        id: "tconstruct:creative_slot"
-                                        Count: 1b
-                                        tag: {
-                                                slot: "defense"
-                                        }
-                                }
-                                count: 2
-                        }]
-                }
-                {
-                        icon: {
-                                id: "cataclysm:ignitium_chestplate"
-                                Count: 1b
-                                tag: {
-                                        Damage: 0
-                                }
-                        }
-                        x: 3.0d
-                        y: -4.0d
-                        shape: "square"
-                        subtitle: "制作四级盔甲"
-                        description: ["四级盔甲分别是&b焰魔套装&r，&b量子套装&r，和&b板甲套装&r。"]
-                        dependencies: ["4907DE361AB24C96"]
-                        id: "10E4476B02B818D4"
-                        tasks: [{
-                                id: "2FFDAF0657C0DEE5"
-                                type: "item"
-                                title: "四级盔甲"
-                                item: {
-                                        id: "itemfilters:or"
-                                        Count: 1b
-                                        tag: {
-                                                items: [
-                                                        {
-                                                                id: "cataclysm:ignitium_helmet"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "cataclysm:ignitium_chestplate"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "cataclysm:ignitium_leggings"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "cataclysm:ignitium_boots"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "ftbic:quantum_helmet"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "ftbic:quantum_chestplate"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "ftbic:quantum_leggings"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "ftbic:quantum_boots"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "minecolonies:plate_armor_helmet"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "minecolonies:plate_armor_chest"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "minecolonies:plate_armor_legs"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                        {
-                                                                id: "minecolonies:plate_armor_boots"
-                                                                Count: 1b
-                                                                tag: {
-                                                                        Damage: 0
-                                                                }
-                                                        }
-                                                ]
-                                        }
-                                }
-                        }]
-                }
-                {
-                        icon: "avaritia:infinity_chestplate"
-                        x: 4.5d
-                        y: -4.0d
-                        shape: "square"
-                        subtitle: "制作一套无尽盔甲"
-                        description: ["&b无尽盔甲&r提供了&6完全的，完美的不死之身&r"]
-                        hide_dependency_lines: false
-                        dependencies: ["4907DE361AB24C96"]
-                        id: "59B9C6E375FBB363"
-                        tasks: [
-                                {
-                                        id: "10BEC1B2063666EF"
-                                        type: "item"
-                                        item: "avaritia:infinity_helmet"
-                                }
-                                {
-                                        id: "264A7A5B7A09CAE5"
-                                        type: "item"
-                                        item: "avaritia:infinity_chestplate"
-                                }
-                                {
-                                        id: "4A5BF81AF2687F82"
-                                        type: "item"
-                                        item: "avaritia:infinity_legs"
-                                }
-                                {
-                                        id: "24EACF714331D4CF"
-                                        type: "item"
-                                        item: "avaritia:infinity_boots"
-                                }
-                        ]
-                }
-                {
-                        title: "守卫的盔甲"
-                        icon: {
-                                id: "inferno:manyullyn_helmet"
-                                Count: 1b
-                                tag: {
-                                        Damage: 0
-                                }
-                        }
-                        x: 1.5d
-                        y: -8.0d
-                        shape: "square"
-                        subtitle: "为你的工人制作一套盔甲"
-                        description: [
-                                "如果我的守卫要保护我的工人，他们首先要保护好自己。"
-                                ""
-                                "我设计了&b四套盔甲&r，专门为我的工人量身定做的。"
-                                ""
-                                "它们将为我的工人&6提供一个独特的强化&r，但是&c不适合我穿着&r。穿任何一件衣服都会让我生病。"
-                        ]
-                        dependencies: ["7A356984A81D5C82"]
-                        min_width: 225
-                        id: "23ED71B12A25B7F6"
-                        tasks: [
-                                {
-                                        id: "0F5A568BF051A223"
-                                        type: "item"
-                                        title: "头盔"
-                                        item: {
-                                                id: "itemfilters:or"
-                                                Count: 1b
-                                                tag: {
-                                                        items: [
-                                                                {
-                                                                        id: "inferno:warped_helmet"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                Damage: 0
-                                                                        }
-                                                                }
-                                                                {
-                                                                        id: "inferno:crimson_helmet"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                Damage: 0
-                                                                        }
-                                                                }
-                                                                {
-                                                                        id: "inferno:corrupted_helmet"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                Damage: 0
-                                                                        }
-                                                                }
-                                                                {
-                                                                        id: "inferno:manyullyn_helmet"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                Damage: 0
-                                                                        }
-                                                                }
-                                                        ]
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "71C02C0BABA6BB2D"
-                                        type: "item"
-                                        title: "胸甲"
-                                        item: {
-                                                id: "itemfilters:or"
-                                                Count: 1b
-                                                tag: {
-                                                        items: [
-                                                                {
-                                                                        id: "inferno:warped_chestplate"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                Damage: 0
-                                                                        }
-                                                                }
-                                                                {
-                                                                        id: "inferno:crimson_chestplate"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                Damage: 0
-                                                                        }
-                                                                }
-                                                                {
-                                                                        id: "inferno:corrupted_chestplate"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                Damage: 0
-                                                                        }
-                                                                }
-                                                                {
-                                                                        id: "inferno:manyullyn_chestplate"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                Damage: 0
-                                                                        }
-                                                                }
-                                                        ]
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "0135983A366C96C0"
-                                        type: "item"
-                                        title: "裤子"
-                                        item: {
-                                                id: "itemfilters:or"
-                                                Count: 1b
-                                                tag: {
-                                                        items: [
-                                                                {
-                                                                        id: "inferno:warped_leggings"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                Damage: 0
-                                                                        }
-                                                                }
-                                                                {
-                                                                        id: "inferno:crimson_leggings"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                Damage: 0
-                                                                        }
-                                                                }
-                                                                {
-                                                                        id: "inferno:corrupted_leggings"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                Damage: 0
-                                                                        }
-                                                                }
-                                                                {
-                                                                        id: "inferno:manyullyn_leggings"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                Damage: 0
-                                                                        }
-                                                                }
-                                                        ]
-                                                }
-                                        }
-                                }
-                                {
-                                        id: "1EF491AF74E55973"
-                                        type: "item"
-                                        title: "鞋子"
-                                        item: {
-                                                id: "itemfilters:or"
-                                                Count: 1b
-                                                tag: {
-                                                        items: [
-                                                                {
-                                                                        id: "inferno:warped_boots"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                Damage: 0
-                                                                        }
-                                                                }
-                                                                {
-                                                                        id: "inferno:crimson_boots"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                Damage: 0
-                                                                        }
-                                                                }
-                                                                {
-                                                                        id: "inferno:corrupted_boots"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                Damage: 0
-                                                                        }
-                                                                }
-                                                                {
-                                                                        id: "inferno:manyullyn_boots"
-                                                                        Count: 1b
-                                                                        tag: {
-                                                                                Damage: 0
-                                                                        }
-                                                                }
-                                                        ]
-                                                }
-                                        }
-                                }
-                        ]
-                        rewards: [
-                                {
-                                        id: "487FD3D1B5A554BC"
-                                        type: "item"
-                                        item: "minecolonies:scroll_guard_help"
-                                        count: 4
-                                }
-                                {
-                                        id: "0D2F7ECBC88EE0E6"
-                                        type: "item"
-                                        item: {
-                                                id: "minecraft:splash_potion"
-                                                Count: 1b
-                                                tag: {
-                                                        Potion: "minecraft:strong_strength"
-                                                }
-                                        }
-                                }
-                        ]
-                }
-                {
-                        title: "危机四伏"
-                        icon: {
-                                id: "gateways:gate_pearl"
-                                Count: 1b
-                                tag: {
-                                        gateway: "gateways:bellringer_gate"
-                                }
-                        }
-                        x: 1.5357142857142705d
-                        y: -0.7446428571428569d
-                        shape: "hexagon"
-                        subtitle: "了解侵略"
-                        description: [
-                                "当我在大学完成我的&4炼狱研究&r，我的工人们得到了&6难以置信的裨益&r。"
-                                ""
-                                "然而，这并非没有后果。"
-                                ""
-                                "可能会发生&b入侵&r事件；每隔一段时间，&c成群的敌人就会被召集起来与我作战&r，无论我身在何处。"
-                                ""
-                                "谢天谢地，我提前得到了&6一分钟的预警&r，所以我可以做好准备。"
-                                ""
-                                "我研究得越深入，就会遇到&c越多危险的入侵&r。"
-                        ]
-                        dependencies: ["11159BF1C52963EC"]
-                        size: 1.75d
-                        min_width: 275
-                        id: "4DD464C43030D4D2"
-                        tasks: [{
-                                id: "67664E54A1761844"
-                                type: "checkmark"
-                        }]
-                }
-                {
-                        title: "队友们"
-                        icon: "minecraft:player_head"
-                        x: 1.5d
-                        y: 0.375d
-                        shape: "gear"
-                        subtitle: "关于入侵机制的数学"
-                        description: [
-                                "有四个&e游戏阶段&r决定入侵生成池。已拥有的阶段会限制入侵生成池。第一次进入世界时会被给予所有阶段，并随着研究的进行而移除。"
-                                ""
-                                "每10分钟，服务器随机检查1名符合条件的玩家，如果当前没有入侵就会生成一次入侵。"
-                                ""
-                                "玩家的入侵有&64小时的冷却时间&r，玩家每高一级，冷却时间就减半。"
-                                "•等级一：四个小时"
-                                "•等级二：二个小时"
-                                "•等级三：一个小时"
-                                "•等级四：三十分钟"
-                        ]
-                        hide_dependency_lines: true
-                        dependencies: ["4DD464C43030D4D2"]
-                        size: 0.75d
-                        min_width: 250
-                        id: "6BE69DB2246D4214"
-                        tasks: [{
-                                id: "3EE91A55AC1164B0"
-                                type: "checkmark"
-                        }]
-                }
-        ]
+	id: "5F0F9E8B873EFD85"
+	group: "3ABD0072BF4C3677"
+	order_index: 3
+	filename: "protect_the_unprotected"
+	title: "保护平民"
+	icon: "minecolonies:blockhutarchery"
+	subtitle: ["守卫和斗争"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 3.0d
+			y: -6.5d
+			subtitle: "制作一个靶场"
+			description: [
+				"在&b靶场&r里，未来的弓箭手们可以&6提升他们的属性&r，变得更加强大。"
+				""
+				"训练中的弓箭手&c不与怪物战斗&r。这样就能升级。"
+				""
+				"如果我失去了我的弓箭手（或制造更多守卫塔），一个训练中的弓箭手将取代他们的位置。"
+			]
+			dependencies: [
+				"46A72493AFD256CA"
+				"06CE7047869A2A71"
+			]
+			id: "780F373ACC070F76"
+			tasks: [{
+				id: "3122072B872DA347"
+				type: "item"
+				item: "minecolonies:blockhutarchery"
+			}]
+			rewards: [
+				{
+					id: "1E0C7E4240DB5271"
+					type: "loot"
+					table_id: 4864474103053531672L
+				}
+				{
+					id: "767BD93A0DB9DD65"
+					type: "item"
+					item: {
+						id: "minecraft:crossbow"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 3s
+									id: "minecraft:piercing"
+								}
+								{
+									lvl: 3s
+									id: "apotheosis:crescendo"
+								}
+							]
+							display: {
+								Name: "{\"text\":\"Source Infused Auto-Crossbow\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&m也试试FTB Academy吧&r"
+			x: 0.0d
+			y: -6.5d
+			subtitle: "制作一个练兵场"
+			description: [
+				"在&b练兵场&r里，准骑士们可以&6提升他们的属性&r，变得更强。"
+				""
+				"准骑士们在训练时&c不与怪物作战&r。这样就能升级。"
+				""
+				"如果我失去了我的骑士（或制造更多守卫塔），一个训练中的骑士将取代他们的位置。"
+			]
+			dependencies: [
+				"46A72493AFD256CA"
+				"06CE7047869A2A71"
+			]
+			id: "1F536C436434F546"
+			tasks: [{
+				id: "4D93960643F6882A"
+				type: "item"
+				item: "minecolonies:blockhutcombatacademy"
+			}]
+			rewards: [
+				{
+					id: "601FBD31FF79CB29"
+					type: "random"
+					table_id: 4864474103053531672L
+				}
+				{
+					id: "52BB878EC97D9EC3"
+					type: "item"
+					item: {
+						id: "ae2:certus_quartz_sword"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 3s
+									id: "minecraft:sharpness"
+								}
+								{
+									lvl: 2s
+									id: "apotheosis:capturing"
+								}
+								{
+									lvl: 2s
+									id: "apotheosis:life_mending"
+								}
+							]
+							display: {
+								Name: "{\"text\":\"Spiritual Confinement Blade\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "thermal:hazmat_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: -4.0d
+			shape: "square"
+			subtitle: "制作一级盔甲"
+			description: [
+				"一级盔甲分别是&b防化服套装&r和&b初学者法袍&r"
+				""
+				"&6装甲等级有些随意。&r较低级别的盔甲通常可以获得的更早，但这取决于我选择的道路。"
+			]
+			dependencies: ["4907DE361AB24C96"]
+			id: "0756A3FFDE548C2F"
+			tasks: [{
+				id: "2590CB30DE761AF9"
+				type: "item"
+				title: "一级盔甲"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "thermal:hazmat_helmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "thermal:hazmat_chestplate"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "thermal:hazmat_leggings"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "thermal:hazmat_boots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ars_nouveau:novice_hood"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ars_nouveau:novice_robes"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ars_nouveau:novice_leggings"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ars_nouveau:novice_boots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "4A8C44177DEF3FA3"
+				type: "item"
+				item: {
+					id: "travellersboots:travellersbootmki"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "bloodmagic:livingplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+					livingStats: {
+						maxPoints: 100
+						upgrades: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: -4.0d
+			shape: "square"
+			subtitle: "制作二级盔甲"
+			description: ["二级盔甲分别是&b植物学家套装&r，&b束灵套装&r，&b法师套装&r，&b钢套装&r，和&b巫师套装&r"]
+			dependencies: ["4907DE361AB24C96"]
+			id: "0D5482EF6B2185CB"
+			tasks: [{
+				id: "738368C8C52C77B0"
+				type: "item"
+				title: "二级盔甲"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "naturesaura:infused_iron_helmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "naturesaura:infused_iron_chest"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "naturesaura:infused_iron_pants"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "naturesaura:infused_iron_shoes"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "bloodmagic:livinghelmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "bloodmagic:livingplate"
+								Count: 1b
+								tag: {
+									Damage: 0
+									livingStats: {
+										maxPoints: 100
+										upgrades: [ ]
+									}
+								}
+							}
+							{
+								id: "bloodmagic:livingleggings"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "bloodmagic:livingboots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ars_nouveau:apprentice_hood"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ars_nouveau:apprentice_robes"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ars_nouveau:apprentice_leggings"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ars_nouveau:apprentice_boots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "immersiveengineering:armor_steel_head"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "immersiveengineering:armor_steel_chest"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "immersiveengineering:armor_steel_legs"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "immersiveengineering:armor_steel_feet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "hexerei:witch_helmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "hexerei:witch_chestplate"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "hexerei:witch_boots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "ftbic:carbon_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: -4.0d
+			shape: "square"
+			subtitle: "制作三级盔甲"
+			description: ["三级盔甲分别是&b探天者套装&r，&b镶板套装&r，&b碳纤维套装&r，&b镀金下界合金套装&r，和&b大法师套装&r。"]
+			dependencies: ["4907DE361AB24C96"]
+			id: "62C114210D96CC95"
+			tasks: [{
+				id: "2F7F6E991065DECC"
+				type: "item"
+				title: "三级盔甲"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "naturesaura:sky_helmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "naturesaura:sky_chest"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "naturesaura:sky_pants"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "naturesaura:sky_shoes"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "tconstruct:plate_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:armor_toughness": 2.0f
+										"tconstruct:knockback_resistance": 0.1f
+										"tconstruct:durability": 330.0f
+										"tconstruct:armor": 2.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [ ]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										defense: 4
+										upgrades: 1
+									}
+								}
+							}
+							{
+								id: "tconstruct:plate_chestplate"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:armor_toughness": 2.0f
+										"tconstruct:knockback_resistance": 0.1f
+										"tconstruct:durability": 480.0f
+										"tconstruct:armor": 7.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [ ]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										defense: 4
+										upgrades: 1
+									}
+								}
+							}
+							{
+								id: "tconstruct:plate_leggings"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:armor_toughness": 2.0f
+										"tconstruct:knockback_resistance": 0.1f
+										"tconstruct:durability": 450.0f
+										"tconstruct:armor": 5.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [ ]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										defense: 4
+										upgrades: 1
+									}
+								}
+							}
+							{
+								id: "tconstruct:plate_boots"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:armor_toughness": 2.0f
+										"tconstruct:knockback_resistance": 0.1f
+										"tconstruct:durability": 390.0f
+										"tconstruct:armor": 2.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [ ]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										defense: 4
+										upgrades: 1
+									}
+								}
+							}
+							{
+								id: "ftbic:carbon_helmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ftbic:carbon_chestplate"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ftbic:carbon_leggings"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ftbic:carbon_boots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "bygonenether:gilded_netherite_helmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "bygonenether:gilded_netherite_chestplate"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "bygonenether:gilded_netherite_leggings"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "bygonenether:gilded_netherite_boots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ars_nouveau:archmage_hood"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ars_nouveau:archmage_robes"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ars_nouveau:archmage_leggings"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ars_nouveau:archmage_boots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "2E66BF3EF7CE4987"
+				type: "item"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "defense"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			icon: {
+				id: "cataclysm:ignitium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.0d
+			y: -4.0d
+			shape: "square"
+			subtitle: "制作四级盔甲"
+			description: ["四级盔甲分别是&b焰魔套装&r，&b量子套装&r，和&b板甲套装&r。"]
+			dependencies: ["4907DE361AB24C96"]
+			id: "10E4476B02B818D4"
+			tasks: [{
+				id: "2FFDAF0657C0DEE5"
+				type: "item"
+				title: "四级盔甲"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "cataclysm:ignitium_helmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "cataclysm:ignitium_chestplate"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "cataclysm:ignitium_leggings"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "cataclysm:ignitium_boots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ftbic:quantum_helmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ftbic:quantum_chestplate"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ftbic:quantum_leggings"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "ftbic:quantum_boots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "minecolonies:plate_armor_helmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "minecolonies:plate_armor_chest"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "minecolonies:plate_armor_legs"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "minecolonies:plate_armor_boots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: "avaritia:infinity_chestplate"
+			x: 4.5d
+			y: -4.0d
+			shape: "square"
+			subtitle: "制作一套无尽盔甲"
+			description: ["&b无尽盔甲&r提供了&6完全的，完美的不死之身&r"]
+			hide_dependency_lines: false
+			dependencies: ["4907DE361AB24C96"]
+			id: "59B9C6E375FBB363"
+			tasks: [
+				{
+					id: "10BEC1B2063666EF"
+					type: "item"
+					item: "avaritia:infinity_helmet"
+				}
+				{
+					id: "264A7A5B7A09CAE5"
+					type: "item"
+					item: "avaritia:infinity_chestplate"
+				}
+				{
+					id: "4A5BF81AF2687F82"
+					type: "item"
+					item: "avaritia:infinity_legs"
+				}
+				{
+					id: "24EACF714331D4CF"
+					type: "item"
+					item: "avaritia:infinity_boots"
+				}
+			]
+		}
+		{
+			title: "守卫的盔甲"
+			icon: {
+				id: "inferno:manyullyn_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: -8.0d
+			shape: "square"
+			subtitle: "为你的工人制作一套盔甲"
+			description: [
+				"如果我的守卫要保护我的工人，他们首先要保护好自己。"
+				""
+				"我设计了&b四套盔甲&r，专门为我的工人量身定做的。"
+				""
+				"它们将为我的工人&6提供一个独特的强化&r，但是&c不适合我穿着&r。穿任何一件衣服都会让我生病。"
+			]
+			dependencies: ["7A356984A81D5C82"]
+			min_width: 225
+			id: "23ED71B12A25B7F6"
+			tasks: [
+				{
+					id: "0F5A568BF051A223"
+					type: "item"
+					title: "头盔"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "inferno:warped_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "inferno:crimson_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "inferno:corrupted_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "inferno:manyullyn_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "71C02C0BABA6BB2D"
+					type: "item"
+					title: "胸甲"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "inferno:warped_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "inferno:crimson_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "inferno:corrupted_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "inferno:manyullyn_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "0135983A366C96C0"
+					type: "item"
+					title: "裤子"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "inferno:warped_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "inferno:crimson_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "inferno:corrupted_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "inferno:manyullyn_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "1EF491AF74E55973"
+					type: "item"
+					title: "鞋子"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "inferno:warped_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "inferno:crimson_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "inferno:corrupted_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "inferno:manyullyn_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "487FD3D1B5A554BC"
+					type: "item"
+					item: "minecolonies:scroll_guard_help"
+					count: 4
+				}
+				{
+					id: "0D2F7ECBC88EE0E6"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "危机四伏"
+			icon: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:bellringer_gate"
+				}
+			}
+			x: 1.5357142857142705d
+			y: -0.7446428571428569d
+			shape: "hexagon"
+			subtitle: "了解侵略"
+			description: [
+				"当我在大学完成我的&4炼狱研究&r，我的工人们得到了&6难以置信的裨益&r。"
+				""
+				"然而，这并非没有后果。"
+				""
+				"可能会发生&b入侵&r事件；每隔一段时间，&c成群的敌人就会被召集起来与我作战&r，无论我身在何处。"
+				""
+				"谢天谢地，我提前得到了&6一分钟的预警&r，所以我可以做好准备。"
+				""
+				"我研究得越深入，就会遇到&c越多危险的入侵&r。"
+			]
+			dependencies: ["11159BF1C52963EC"]
+			size: 1.75d
+			min_width: 275
+			id: "4DD464C43030D4D2"
+			tasks: [{
+				id: "67664E54A1761844"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "队友们"
+			icon: "minecraft:player_head"
+			x: 1.5d
+			y: 0.375d
+			shape: "gear"
+			subtitle: "关于入侵机制的数学"
+			description: [
+				"有四个&e游戏阶段&r决定入侵生成池。已拥有的阶段会限制入侵生成池。第一次进入世界时会被给予所有阶段，并随着研究的进行而移除。"
+				""
+				"每10分钟，服务器随机检查1名符合条件的玩家，如果当前没有入侵就会生成一次入侵。"
+				""
+				"玩家的入侵有&64小时的冷却时间&r，玩家每高一级，冷却时间就减半。"
+				"•等级一：四个小时"
+				"•等级二：二个小时"
+				"•等级三：一个小时"
+				"•等级四：三十分钟"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4DD464C43030D4D2"]
+			size: 0.75d
+			min_width: 250
+			id: "6BE69DB2246D4214"
+			tasks: [{
+				id: "3EE91A55AC1164B0"
+				type: "checkmark"
+			}]
+		}
+	]
 }
