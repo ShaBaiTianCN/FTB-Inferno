@@ -1,815 +1,816 @@
 {
-	id: "6DA1FE2826148710"
-	group: "46A29AE1E3ACCC77"
-	order_index: 1
-	filename: "innovation"
-	title: "Innovation of Inconnu"
-	icon: "immersiveengineering:toolbox"
-	subtitle: ["Immersive Engineering"]
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
-	quests: [
-		{
-			title: "Time to Cook"
-			icon: "immersiveengineering:coke_oven"
-			x: 0.0d
-			y: -1.5d
-			subtitle: "Make a Coke Oven"
-			description: [
-				"The &bCoke Oven&r slowly refines Coal into &6Coal Coke&r, producing a bit of &6Creosote&r on the side."
-				""
-				"&oRemember, &6Dante's Divine Labram&r&o has all the guide books.&r"
-				""
-				"&oImmersive Engineering multiblock construction is visible in JEI&r."
-			]
-			dependencies: ["6DF116C5D533A28D"]
-			id: "1C37918ED5192363"
-			tasks: [
-				{
-					id: "085BA1D8A6305C7C"
-					type: "item"
-					item: "immersiveengineering:cokebrick"
-					count: 27L
-				}
-				{
-					id: "4CC1156F3CD4EC63"
-					type: "item"
-					item: {
-						id: "immersiveengineering:hammer"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "71418C31DB9BDBA5"
-					type: "item"
-					item: "minecraft:coal"
-					count: 16
-				}
-				{
-					id: "219826A3D6837331"
-					type: "item"
-					item: "immersiveengineering:coal_coke"
-					count: 16
-				}
-			]
-		}
-		{
-			title: "Objectively the Best Wood"
-			x: 0.0d
-			y: 0.0d
-			subtitle: "Make Treated Wood"
-			description: ["&bTreated Wood&r is a wonderful wood. It's useful in crafting while also being beautiful!"]
-			dependencies: ["1C37918ED5192363"]
-			id: "0A1FB047ECED73A2"
-			tasks: [{
-				id: "3C22A970A624DEFF"
-				type: "item"
-				item: "immersiveengineering:treated_wood_horizontal"
-			}]
-			rewards: [{
-				id: "6439970A75253448"
-				type: "item"
-				item: "immersiveengineering:treated_wood_horizontal"
-				count: 64
-			}]
-		}
-		{
-			x: -1.5d
-			y: -1.5d
-			shape: "square"
-			subtitle: "Make a Reservoir"
-			description: [
-				"Creosote has to be drained from the Coke Oven for it to work."
-				""
-				"Using Buckets for this is a pain, as that has to be done one at a time."
-				""
-				"Instead, I can use the &bReservoir&r! It holds as much as &620 buckets&r, and &6can be enchanted&r to hold even more!"
-			]
-			dependencies: ["1C37918ED5192363"]
-			min_width: 275
-			id: "38D22A3B05E53408"
-			tasks: [{
-				id: "59B49252CB810E7C"
-				type: "item"
-				item: {
-					id: "thermal:fluid_reservoir"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -1.5d
-			y: 0.0d
-			shape: "square"
-			subtitle: "Make a Wooden Storage Crate"
-			description: ["&bWooden Storage Crates&r hold as much as a Chest, and &6retain their items when broken&r."]
-			dependencies: ["0A1FB047ECED73A2"]
-			optional: true
-			id: "06859E0D272952CC"
-			tasks: [{
-				id: "2010E2823A984A1A"
-				type: "item"
-				item: "immersiveengineering:crate"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 3.0d
-			subtitle: "Make an Engineer's Workbench"
-			description: [
-				"At the &bEngineer's Workbench&r, I can &6craft items using Blueprints&r."
-				""
-				"The first has to be &6made by the Mechanic&r, but I can craft more once one has been made for me."
-			]
-			dependencies: ["72B5C8238CB44E96"]
-			id: "7E2E8703658E78AB"
-			tasks: [{
-				id: "770F1532C5D1BA0F"
-				type: "item"
-				item: "immersiveengineering:workbench"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 1.5d
-			subtitle: "Make an Engineer's Crafting Table"
-			description: [
-				"Treated Wood makes a nice addition to my workspace, in the &bEngineer's Crafting Table&r."
-				""
-				"I can leave crafting ingredients here, and store 18 additional items."
-			]
-			dependencies: ["0A1FB047ECED73A2"]
-			id: "72B5C8238CB44E96"
-			tasks: [{
-				id: "492E82F9480AE749"
-				type: "item"
-				item: "immersiveengineering:craftingtable"
-			}]
-			rewards: [
-				{
-					id: "32BA1C91884FCA1A"
-					type: "item"
-					item: "minecraft:cyan_wool"
-					count: 16
-				}
-				{
-					id: "61C3BFD74FBB4C8C"
-					type: "item"
-					item: "minecraft:redstone"
-					count: 16
-				}
-			]
-		}
-		{
-			title: "Crushing It"
-			x: 2.5d
-			y: 2.5d
-			subtitle: "Make a Crusher"
-			description: [
-				"Minions and Foliots are OK at their jobs, but are &cso slow&r."
-				""
-				"Now that I have power, I can construct the &bCrusher&r to &6automatically process ores&r!"
-				""
-				"Even better, it never tires; it never complains about food or illness or safety!"
-			]
-			dependencies: ["47D880CC9982A1FA"]
-			min_width: 275
-			id: "01980CE8E8162DFA"
-			tasks: [{
-				id: "3A9ECAEC12F070D2"
-				type: "observation"
-				title: "Observe a Crusher"
-				icon: "immersiveengineering:crusher"
-				timer: 0L
-				observe_type: 0
-				to_observe: "immersiveengineering:crusher"
-			}]
-			rewards: [
-				{
-					id: "30BA84FB415B12CC"
-					type: "item"
-					item: "minecraft:iron_ore"
-					count: 16
-				}
-				{
-					id: "3D3878733FF3923A"
-					type: "item"
-					item: "minecraft:gold_ore"
-					count: 16
-				}
-				{
-					id: "4CBAB68640C95942"
-					type: "item"
-					item: "minecraft:copper_ore"
-					count: 16
-				}
-				{
-					id: "0E35910A363FFCD5"
-					type: "item"
-					item: "thermal:silver_ore"
-					count: 16
-				}
-				{
-					id: "4E90080FB7057ECD"
-					type: "item"
-					item: "minecraft:cobblestone"
-					count: 64
-				}
-				{
-					id: "425FBC77C7D6F5E1"
-					type: "item"
-					item: "engineersdecor:small_electrical_furnace"
-					count: 3
-				}
-			]
-		}
-		{
-			title: "Better, Stronger"
-			icon: "immersiveengineering:blast_furnace"
-			x: 2.5d
-			y: -1.5d
-			subtitle: "Make Steel"
-			description: [
-				"Iron is a rather crude metal, unsuited for advanced uses. I need something better."
-				""
-				"The &bCrude Blast Furnace&r will slowly &6process Iron into Steel&r, using Coal Coke."
-			]
-			dependencies: ["1C37918ED5192363"]
-			id: "7FC5815931F8BD38"
-			tasks: [
-				{
-					id: "1FEF6A785F1D78CF"
-					type: "item"
-					item: "immersiveengineering:blastbrick"
-					count: 27L
-				}
-				{
-					id: "10252064D8A7D307"
-					type: "item"
-					item: "immersiveengineering:ingot_steel"
-				}
-			]
-			rewards: [
-				{
-					id: "3E94EBE1CCE55D85"
-					type: "item"
-					item: "immersiveengineering:steel_post"
-					count: 8
-				}
-				{
-					id: "70F37C8824048E37"
-					type: "item"
-					item: "immersiveengineering:lantern"
-					count: 8
-				}
-				{
-					id: "1BEABC16977D6BD4"
-					type: "item"
-					item: "immersiveengineering:ingot_steel"
-					count: 8
-				}
-			]
-		}
-		{
-			title: "Distributed Power"
-			icon: "immersiveengineering:connector_hv"
-			x: 2.5d
-			y: 1.0d
-			subtitle: "Make a Wire Connector, Relay, and Coil"
-			description: [
-				"The &6Alternator&r is creating power, but that's not worth much just sitting there. I'll need to craft a way to transfer it."
-				""
-				"&bWire Connectors&r are placed at the inputs and outputs; where I want to take power from or insert power into."
-				""
-				"&bWire Relays&r are placed between, connecting the connectors."
-				""
-				"&bWire Coils&r are what actually transmits the power between the other two."
-				""
-				"I'll have to be sure to &6insulate my live cables&r if I cannot keep them at a safe distance from myself or my minions."
-			]
-			dependencies: [
-				"6B7606A65BA8FE12"
-				"7FC5815931F8BD38"
-			]
-			min_width: 275
-			id: "47D880CC9982A1FA"
-			tasks: [
-				{
-					id: "7B2F9DBF12625EFD"
-					type: "item"
-					title: "Wire Connectors"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "immersiveengineering:connector_lv"
-									Count: 1b
-								}
-								{
-									id: "immersiveengineering:connector_mv"
-									Count: 1b
-								}
-								{
-									id: "immersiveengineering:connector_hv"
-									Count: 1b
-								}
-							]
-						}
-					}
-				}
-				{
-					id: "1BD28D62B4314AB4"
-					type: "item"
-					title: "Wire Relays"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "immersiveengineering:connector_lv_relay"
-									Count: 1b
-								}
-								{
-									id: "immersiveengineering:connector_mv_relay"
-									Count: 1b
-								}
-								{
-									id: "immersiveengineering:connector_hv_relay"
-									Count: 1b
-								}
-							]
-						}
-					}
-				}
-				{
-					id: "6B726ADDC4B5340B"
-					type: "item"
-					title: "Wire Coils"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "immersiveengineering:wirecoil_copper"
-									Count: 1b
-								}
-								{
-									id: "immersiveengineering:wirecoil_copper_ins"
-									Count: 1b
-								}
-								{
-									id: "immersiveengineering:wirecoil_electrum"
-									Count: 1b
-								}
-								{
-									id: "immersiveengineering:wirecoil_electrum_ins"
-									Count: 1b
-								}
-								{
-									id: "immersiveengineering:wirecoil_steel"
-									Count: 1b
-								}
-							]
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "0E43123573E81239"
-				type: "item"
-				item: "immersiveengineering:wirecoil_steel"
-				count: 4
-			}]
-		}
-		{
-			title: "Pressing Matters"
-			x: 4.5d
-			y: 1.0d
-			subtitle: "Construct a Metal Press"
-			description: [
-				"Several parts, like &6Wires&r, are &ctoo delicate for me to make&r with my bare hands."
-				""
-				"Instead, they must be made in the &bMetal Press&r. Using FE and a &6Metal Press Mold&r, it presses metals into the Mold's shape."
-			]
-			dependencies: ["47D880CC9982A1FA"]
-			id: "292ECA46B6E025CA"
-			tasks: [{
-				id: "43F561A26E058182"
-				type: "observation"
-				title: "Observe a Metal Press"
-				icon: "immersiveengineering:metal_press"
-				timer: 0L
-				observe_type: 0
-				to_observe: "immersiveengineering:metal_press"
-			}]
-			rewards: [
-				{
-					id: "3E8C9A81C18361BC"
-					type: "item"
-					item: "immersiveengineering:mold_wire"
-				}
-				{
-					id: "515F66FCE5F3BDEF"
-					type: "item"
-					item: "immersiveengineering:hemp_fabric"
-					count: 16
-				}
-			]
-		}
-		{
-			title: "Can This Make Lemonade?"
-			x: 4.5d
-			y: 2.5d
-			subtitle: "Construct a Mechanical Squeezer"
-			description: [
-				"The &bIndustrial Squeezer&r applies massive amounts of pressure to items."
-				""
-				"While this can be used to create Seed Oil, it can also create &6HOP Graphite Dust&r by super-compressing Coke Dust."
-			]
-			dependencies: ["292ECA46B6E025CA"]
-			id: "39F9D326A01ADD78"
-			tasks: [{
-				id: "1318D03765EA49D8"
-				type: "observation"
-				title: "Observe an Industrial Squeezer"
-				icon: "immersiveengineering:squeezer"
-				timer: 0L
-				observe_type: 0
-				to_observe: "immersiveengineering:squeezer"
-			}]
-			rewards: [
-				{
-					id: "047687BA35DB6BF8"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 8
-				}
-				{
-					id: "1291CC9BE4325CE3"
-					type: "item"
-					item: "immersiveengineering:heavy_engineering"
-					count: 2
-				}
-				{
-					id: "4E0F183B66D15A77"
-					type: "item"
-					item: "immersiveengineering:light_engineering"
-					count: 2
-				}
-			]
-		}
-		{
-			title: "Magic Smeltery Sticks!"
-			x: 3.5d
-			y: 3.5d
-			subtitle: "Make a Graphite Electrode"
-			description: [
-				"In order to &6flash-fuse more exotic materials&r, I need something capable of focusing high amounts of energy into a single point."
-				""
-				"&bGraphite Electrodes&r are &6intensely conductive&r, allowing massive amounts of power to pass through."
-				""
-				"I'll need to trade a toolsmith villager for this, the only way I'll be able to summon one is to master the aura to infuse iron and dip my toes into some &6Occultism&r. I should be able to then summon and cure a &4Zombie Villager&r."
-			]
-			dependencies: [
-				"39F9D326A01ADD78"
-				"6454DF379D047CB2"
-				"01980CE8E8162DFA"
-			]
-			id: "5F28970D36E4C0F1"
-			tasks: [{
-				id: "01838E235C5CAD57"
-				type: "item"
-				item: {
-					id: "immersiveengineering:graphite_electrode"
-					Count: 1b
-					tag: {
-						graphDmg: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "45983300E09AE2CE"
-				type: "item"
-				item: {
-					id: "immersiveengineering:graphite_electrode"
-					Count: 1b
-					tag: {
-						graphDmg: 0
-						Enchantments: [{
-							lvl: 8s
-							id: "minecraft:unbreaking"
-						}]
-					}
-				}
-				count: 3
-			}]
-		}
-		{
-			title: "Arc Furnace"
-			x: 3.5d
-			y: 5.0d
-			subtitle: "Eye protection recommended"
-			description: [
-				"Finally, my &bArc Furnace&r is complete! I can now use it to fuse exotic matter into &6revolutionary materials like Enderium&r!"
-				""
-				"It can also make Steel, I guess."
-				""
-				"&oUnlocks the chapter &5Deus Ex Machina&r&o under &3Prometheus' Heresy&r"
-			]
-			dependencies: ["5F28970D36E4C0F1"]
-			min_width: 250
-			id: "1AD7627CC2347FB2"
-			tasks: [{
-				id: "3C621D46E228FAD6"
-				type: "observation"
-				title: "Observe an Arc Furnace"
-				icon: "immersiveengineering:arc_furnace"
-				timer: 0L
-				observe_type: 0
-				to_observe: "immersiveengineering:arc_furnace"
-			}]
-			rewards: [
-				{
-					id: "077A6B6922778FA8"
-					type: "item"
-					item: "immersiveengineering:capacitor_hv"
-					count: 3
-				}
-				{
-					id: "5E0AA2471655120E"
-					type: "command"
-					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Deus Ex Machina\",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Prometheus' Heresy\",\"color\":\"dark_aqua\"},\"!\"]"
-					player_command: false
-				}
-			]
-		}
-		{
-			x: 3.5d
-			y: 6.5d
-			shape: "hexagon"
-			subtitle: "Make some Enderium"
-			description: [
-				"&bEnderium&r taps into the soul of Endermen, who &6retain a piece of the Void in their hearts&r."
-				""
-				"This will be vital to &5leaving this accursed place&r."
-				""
-				"&oUnlocks the chapter &5Violent Ends&r&o under &3Violent Delights&r"
-			]
-			dependencies: ["1AD7627CC2347FB2"]
-			size: 1.5d
-			id: "1833516DA3102958"
-			tasks: [{
-				id: "7267D313BE2FD3E6"
-				type: "item"
-				item: "ftbic:enderium_ingot"
-			}]
-			rewards: [
-				{
-					id: "5518BD0157E96894"
-					type: "item"
-					item: "ftbic:enderium_ingot"
-					count: 8
-				}
-				{
-					id: "688A038BE006D866"
-					type: "command"
-					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Violent Ends \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Violent Delights\",\"color\":\"dark_aqua\"},\"!\"]"
-					player_command: false
-				}
-			]
-		}
-		{
-			title: "Multiblock Madness"
-			x: 4.5d
-			y: -1.0d
-			shape: "square"
-			subtitle: "Where does that sheet metal go again?"
-			description: [
-				"Building these structures can be complicated and although I'll need to do it the first time myself I've created a device that can save the layout for future use. The copy/paste gadget and building gadgets can help me mass replicate many parts of my fortress now that I have access to the advanced materials to make and power them."
-				""
-			]
-			dependencies: ["292ECA46B6E025CA"]
-			id: "27620D190D15FBAF"
-			tasks: [{
-				id: "6002D992F8DFDD5E"
-				type: "item"
-				item: {
-					id: "buildinggadgets:gadget_building"
-					Count: 1b
-					tag: {
-						state: {
-							serializer: "buildinggadgets:dummy_serializer"
-							state: {
-								Name: "minecraft:air"
-							}
-							data: { }
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "6836160F382745EE"
-					type: "item"
-					item: "immersiveengineering:charging_station"
-				}
-				{
-					id: "05394F07B4764F85"
-					type: "item"
-					item: {
-						id: "buildinggadgets:gadget_copy_paste"
-						Count: 1b
-						tag: {
-							mode: 0b
-							template_id: [I;
-								873539397
-								-1332064847
-								-1313626010
-								-531428935
-							]
-							energy: 500000.0d
-						}
-					}
-				}
-			]
-		}
-		{
-			icon: "inferno:living_metal_geode"
-			x: 0.0d
-			y: 5.0d
-			shape: "square"
-			subtitle: "Summon a Mineral Deposit"
-			description: [
-				"Ok, limitless resources is great but going around looking for deposits is for the birds. I've devised a small ritual that will allow me to &6summon a mineral deposit&r by attuning the eldriched infused energies in &6The End&r. This will allow me to gather any type of resource I want with the &6Excavator&r in massive quantities."
-				""
-				"To do so, I must build this structure &c&nin the End&r:"
-				"{image:inferno:textures/quest/living_metal_geode.png width:186 height:100 align:1}"
-				""
-				"The center block defines what type of mineral deposit is summoned. "
-				""
-				"To complete the ritual, I must use a &bLiving Metal Geode&r on the center block."
-			]
-			dependencies: [
-				"302AE29C5545EB4A"
-				"75F01DEAE8BBAD9F"
-			]
-			min_width: 250
-			id: "709722660A44F303"
-			tasks: [
-				{
-					id: "45B07E8617311863"
-					type: "item"
-					title: "Mineral Deposits"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "minecraft:iron_block"
-									Count: 1b
-								}
-								{
-									id: "minecraft:copper_block"
-									Count: 1b
-								}
-								{
-									id: "minecraft:emerald_block"
-									Count: 1b
-								}
-								{
-									id: "minecraft:coal_block"
-									Count: 1b
-								}
-								{
-									id: "ftbic:tin_block"
-									Count: 1b
-								}
-								{
-									id: "minecraft:redstone_block"
-									Count: 1b
-								}
-								{
-									id: "ftbic:lead_block"
-									Count: 1b
-								}
-								{
-									id: "ftbic:aluminum_block"
-									Count: 1b
-								}
-								{
-									id: "minecraft:quartz_block"
-									Count: 1b
-								}
-								{
-									id: "thermal:nickel_block"
-									Count: 1b
-								}
-								{
-									id: "tconstruct:grout"
-									Count: 1b
-								}
-								{
-									id: "tconstruct:nether_grout"
-									Count: 1b
-								}
-								{
-									id: "create:zinc_block"
-									Count: 1b
-								}
-								{
-									id: "ftbic:uranium_block"
-									Count: 1b
-								}
-								{
-									id: "minecraft:netherite_block"
-									Count: 1b
-								}
-							]
-						}
-					}
-				}
-				{
-					id: "58F1CCB236318B00"
-					type: "item"
-					item: "cataclysm:void_stone"
-					count: 4L
-				}
-				{
-					id: "02DB202BE432773B"
-					type: "item"
-					item: "minecraft:crying_obsidian"
-					count: 4L
-				}
-				{
-					id: "575313E510A7ACBD"
-					type: "item"
-					item: "inferno:living_metal_geode"
-				}
-			]
-			rewards: [{
-				id: "7596A9505C99CA2F"
-				type: "item"
-				item: "inferno:living_metal_geode"
-				count: 4
-			}]
-		}
-		{
-			title: "Limitless Resources"
-			icon: "immersiveengineering:sample_drill"
-			x: 1.7380952380952337d
-			y: 5.017857142857139d
-			shape: "square"
-			subtitle: "Diggy Diggy Hole"
-			description: [
-				"There is a great amount of resources found below the world in the void between realms."
-				""
-				"I've devised a machine called an excavator that is capable of extracting these riches. I'll need to create use a core sampling device as well to determine what minerals are present before placing down my contraption but that shouldn't be too much work."
-				""
-				"Some of my later plans will require thousands of resources to catalyze, I should probably get started early."
-				""
-			]
-			dependencies: ["1AD7627CC2347FB2"]
-			id: "75F01DEAE8BBAD9F"
-			tasks: [{
-				id: "54A559BE5C691537"
-				type: "observation"
-				title: "Observe an Excavator"
-				icon: "immersiveengineering:sample_drill"
-				timer: 0L
-				observe_type: 3
-				to_observe: "immersiveengineering:excavator"
-			}]
-			rewards: [
-				{
-					id: "5BE9590060DA5719"
-					type: "item"
-					item: "immersiveengineering:sample_drill"
-				}
-				{
-					id: "68B20FB1C5838C57"
-					type: "item"
-					item: "immersiveengineering:capacitor_hv"
-				}
-				{
-					id: "3229DFCB84C85BCB"
-					type: "item"
-					item: "enderstorage:ender_chest"
-					count: 2
-				}
-			]
-		}
-	]
+    id: "6DA1FE2826148710"
+    group: "46A29AE1E3ACCC77"
+    order_index: 1
+    filename: "innovation"
+    title: "全新的革命"
+    icon: "immersiveengineering:toolbox"
+    subtitle: ["沉浸工程"]
+    default_quest_shape: ""
+    default_hide_dependency_lines: false
+    quests: [
+        {
+            title: "是时候开干了"
+            icon: "immersiveengineering:coke_oven"
+            x: 0.0d
+            y: -1.5d
+            subtitle: "搭建焦炉"
+            description: [
+                "&b焦炉&r把煤缓慢地精炼成&6焦炭&r，同时产生一点&6杂酚油&r。"
+                ""
+                "&o记住，&6但丁的神圣图书馆&r里有所有的指南书。&r"
+                ""
+                "&o沉浸工程多方块结构的建造方法可以在JEI查到。&r"
+            ]
+            dependencies: ["6DF116C5D533A28D"]
+            id: "1C37918ED5192363"
+            tasks: [
+                {
+                    id: "085BA1D8A6305C7C"
+                    type: "item"
+                    item: "immersiveengineering:cokebrick"
+                    count: 27L
+                }
+                {
+                    id: "4CC1156F3CD4EC63"
+                    type: "item"
+                    item: {
+                        id: "immersiveengineering:hammer"
+                        Count: 1b
+                        tag: {
+                            Damage: 0
+                        }
+                    }
+                }
+            ]
+            rewards: [
+                {
+                    id: "71418C31DB9BDBA5"
+                    type: "item"
+                    item: "minecraft:coal"
+                    count: 16
+                }
+                {
+                    id: "219826A3D6837331"
+                    type: "item"
+                    item: "immersiveengineering:coal_coke"
+                    count: 16
+                }
+            ]
+        }
+        {
+            title: "客观上最好的木材"
+            x: 0.0d
+            y: 0.0d
+            subtitle: "制作防腐木板"
+            description: ["&b防腐木板&r是一种很好的木材。它在合成中很有用，同时也很漂亮！"]
+            dependencies: ["1C37918ED5192363"]
+            id: "0A1FB047ECED73A2"
+            tasks: [{
+                id: "3C22A970A624DEFF"
+                type: "item"
+                item: "immersiveengineering:treated_wood_horizontal"
+            }]
+            rewards: [{
+                id: "6439970A75253448"
+                type: "item"
+                item: "immersiveengineering:treated_wood_horizontal"
+                count: 64
+            }]
+        }
+        {
+            x: -1.5d
+            y: -1.5d
+            shape: "square"
+            subtitle: "制作大桶"
+            description: [
+                "杂酚油必须从焦炉中排出才能让它继续工作。"
+                ""
+                "用铁桶来做这件事会很痛苦，因为必须一桶一桶舀。"
+                ""
+                "相反，我可以使用&b大桶&r！它的容积多达&620桶&r，并且还&6可以附魔&r来扩大容量！"
+            ]
+            dependencies: ["1C37918ED5192363"]
+            min_width: 275
+            id: "38D22A3B05E53408"
+            tasks: [{
+                id: "59B49252CB810E7C"
+                type: "item"
+                item: {
+                    id: "thermal:fluid_reservoir"
+                    Count: 1b
+                    tag: { }
+                }
+            }]
+        }
+        {
+            x: -1.5d
+            y: 0.0d
+            shape: "square"
+            subtitle: "制作木制储物箱"
+            description: ["&b木制储物箱&r的容量与普通箱子一致，并且&6被破坏还能保留其中的物品。&r"]
+            dependencies: ["0A1FB047ECED73A2"]
+            optional: true
+            id: "06859E0D272952CC"
+            tasks: [{
+                id: "2010E2823A984A1A"
+                type: "item"
+                item: "immersiveengineering:crate"
+            }]
+        }
+        {
+            x: 0.0d
+            y: 3.0d
+            subtitle: "制作工程师装配台"
+            description: [
+                "我可以在&b工程师装配台&r上&6用蓝图合成物品&r。"
+                ""
+                "第一个装配台必须由机械师制作，但有了第一个以后我就可以自己制作。"
+            ]
+            dependencies: ["72B5C8238CB44E96"]
+            id: "7E2E8703658E78AB"
+            tasks: [{
+                id: "770F1532C5D1BA0F"
+                type: "item"
+                item: "immersiveengineering:workbench"
+            }]
+        }
+        {
+            x: 0.0d
+            y: 1.5d
+            subtitle: "制作工程师工作台"
+            description: [
+                "用我的工程师工作台，我可以用防腐木板为我的工作间添置一些不错的点缀之物。"
+                ""
+                "我可以把制作材料保留在这里，并最多存储18组额外的物品。"
+            ]
+            dependencies: ["0A1FB047ECED73A2"]
+            id: "72B5C8238CB44E96"
+            tasks: [{
+                id: "492E82F9480AE749"
+                type: "item"
+                item: "immersiveengineering:craftingtable"
+            }]
+            rewards: [
+                {
+                    id: "32BA1C91884FCA1A"
+                    type: "item"
+                    item: "minecraft:cyan_wool"
+                    count: 16
+                }
+                {
+                    id: "61C3BFD74FBB4C8C"
+                    type: "item"
+                    item: "minecraft:redstone"
+                    count: 16
+                }
+            ]
+        }
+        {
+            title: "粉碎吧"
+            x: 2.5d
+            y: 2.5d
+            subtitle: "搭建粉碎机"
+            description: [
+                "我的仆从和魔精们能很好地完成它们的工作，但实在&c太慢了&r。"
+                ""
+                "现在我有了能源，我可以搭建&b粉碎机&r来&6自动处理矿物&r！"
+                ""
+                "更好的是，它永不疲倦；它从不抱怨食物、疾病或安全！"
+            ]
+            dependencies: ["47D880CC9982A1FA"]
+            min_width: 275
+            id: "01980CE8E8162DFA"
+            tasks: [{
+                id: "3A9ECAEC12F070D2"
+                type: "observation"
+                title: "观察一台粉碎机"
+                icon: "immersiveengineering:crusher"
+                timer: 0L
+                observe_type: 0
+                to_observe: "immersiveengineering:crusher"
+            }]
+            rewards: [
+                {
+                    id: "30BA84FB415B12CC"
+                    type: "item"
+                    item: "minecraft:iron_ore"
+                    count: 16
+                }
+                {
+                    id: "3D3878733FF3923A"
+                    type: "item"
+                    item: "minecraft:gold_ore"
+                    count: 16
+                }
+                {
+                    id: "4CBAB68640C95942"
+                    type: "item"
+                    item: "minecraft:copper_ore"
+                    count: 16
+                }
+                {
+                    id: "0E35910A363FFCD5"
+                    type: "item"
+                    item: "thermal:silver_ore"
+                    count: 16
+                }
+                {
+                    id: "4E90080FB7057ECD"
+                    type: "item"
+                    item: "minecraft:cobblestone"
+                    count: 64
+                }
+                {
+                    id: "425FBC77C7D6F5E1"
+                    type: "item"
+                    item: "engineersdecor:small_electrical_furnace"
+                    count: 3
+                }
+            ]
+        }
+        {
+            title: "更好，更强"
+            icon: "immersiveengineering:blast_furnace"
+            x: 2.5d
+            y: -1.5d
+            subtitle: "制作钢"
+            description: [
+                "铁是一种相当粗糙的金属，不适合作高级用途。我需要更好的东西。"
+                ""
+                "&b粗制高炉&r会用焦煤缓慢地&6把铁加工成钢&r。"
+            ]
+            dependencies: ["1C37918ED5192363"]
+            id: "7FC5815931F8BD38"
+            tasks: [
+                {
+                    id: "1FEF6A785F1D78CF"
+                    type: "item"
+                    item: "immersiveengineering:blastbrick"
+                    count: 27L
+                }
+                {
+                    id: "10252064D8A7D307"
+                    type: "item"
+                    item: "immersiveengineering:ingot_steel"
+                }
+            ]
+            rewards: [
+                {
+                    id: "3E94EBE1CCE55D85"
+                    type: "item"
+                    item: "immersiveengineering:steel_post"
+                    count: 8
+                }
+                {
+                    id: "70F37C8824048E37"
+                    type: "item"
+                    item: "immersiveengineering:lantern"
+                    count: 8
+                }
+                {
+                    id: "1BEABC16977D6BD4"
+                    type: "item"
+                    item: "immersiveengineering:ingot_steel"
+                    count: 8
+                }
+            ]
+        }
+        {
+            title: "分配电力"
+            icon: "immersiveengineering:connector_hv"
+            x: 2.5d
+            y: 1.0d
+            subtitle: "制作电线接线器，继电器和线圈"
+            description: [
+                "&6交流发电机&r正在发电，但让它只是留在发电机里无法发挥它的价值。我得想个办法把电传输出去。"
+                ""
+                "&b接线器&r用来放置在我想输出能源或输入能源的地方作为输入或输出的接口。"
+                ""
+                "&b继电器&r布置在接线器之间，用来将接线器用线缆连接在一起。"
+                ""
+                "&b线圈&r是实际上在其他两个器件之间传输能源的器件。"
+                ""
+                "如果我不能让带电电缆与我或我的仆从们保持安全距离，我就需要用绝缘线缆来确保安全。"
+            ]
+            dependencies: [
+                "6B7606A65BA8FE12"
+                "7FC5815931F8BD38"
+            ]
+            min_width: 275
+            id: "47D880CC9982A1FA"
+            tasks: [
+                {
+                    id: "7B2F9DBF12625EFD"
+                    type: "item"
+                    title: "电线接线器"
+                    item: {
+                        id: "itemfilters:or"
+                        Count: 1b
+                        tag: {
+                            items: [
+                                {
+                                    id: "immersiveengineering:connector_lv"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "immersiveengineering:connector_mv"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "immersiveengineering:connector_hv"
+                                    Count: 1b
+                                }
+                            ]
+                        }
+                    }
+                }
+                {
+                    id: "1BD28D62B4314AB4"
+                    type: "item"
+                    title: "电线继电器"
+                    item: {
+                        id: "itemfilters:or"
+                        Count: 1b
+                        tag: {
+                            items: [
+                                {
+                                    id: "immersiveengineering:connector_lv_relay"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "immersiveengineering:connector_mv_relay"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "immersiveengineering:connector_hv_relay"
+                                    Count: 1b
+                                }
+                            ]
+                        }
+                    }
+                }
+                {
+                    id: "6B726ADDC4B5340B"
+                    type: "item"
+                    title: "电线线圈"
+                    item: {
+                        id: "itemfilters:or"
+                        Count: 1b
+                        tag: {
+                            items: [
+                                {
+                                    id: "immersiveengineering:wirecoil_copper"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "immersiveengineering:wirecoil_copper_ins"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "immersiveengineering:wirecoil_electrum"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "immersiveengineering:wirecoil_electrum_ins"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "immersiveengineering:wirecoil_steel"
+                                    Count: 1b
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+            rewards: [{
+                id: "0E43123573E81239"
+                type: "item"
+                item: "immersiveengineering:wirecoil_steel"
+                count: 4
+            }]
+        }
+        {
+            title: "冲压，材料，很重要"
+            x: 4.5d
+            y: 1.0d
+            subtitle: "搭建金属冲压机"
+            description: [
+                "只用我的双手&c搓不出某些太精细的零件&r，比如&6电线&r之类的。"
+                ""
+                "相反，它们必须在金属冲压机里制造。它用FE和一个&6金属模具&r把金属压成模具的形状。"
+            ]
+            dependencies: ["47D880CC9982A1FA"]
+            id: "292ECA46B6E025CA"
+            tasks: [{
+                id: "43F561A26E058182"
+                type: "observation"
+                title: "观察一台金属冲压机"
+                icon: "immersiveengineering:metal_press"
+                timer: 0L
+                observe_type: 0
+                to_observe: "immersiveengineering:metal_press"
+            }]
+            rewards: [
+                {
+                    id: "3E8C9A81C18361BC"
+                    type: "item"
+                    item: "immersiveengineering:mold_wire"
+                }
+                {
+                    id: "515F66FCE5F3BDEF"
+                    type: "item"
+                    item: "immersiveengineering:hemp_fabric"
+                    count: 16
+                }
+            ]
+        }
+        {
+            title: "这个能做柠檬汁吗？"
+            x: 4.5d
+            y: 2.5d
+            subtitle: "搭建工业挤压机"
+            description: [
+                "&b工业挤压机&r能对物品施加巨大的压力。"
+                ""
+                "它既可以用来制作种子油，也可以通过压缩焦煤粉来制作&6高定向热解石墨粉&r"
+            ]
+            dependencies: ["292ECA46B6E025CA"]
+            id: "39F9D326A01ADD78"
+            tasks: [{
+                id: "1318D03765EA49D8"
+                type: "observation"
+                title: "观察工业挤压机"
+                icon: "immersiveengineering:squeezer"
+                timer: 0L
+                observe_type: 0
+                to_observe: "immersiveengineering:squeezer"
+            }]
+            rewards: [
+                {
+                    id: "047687BA35DB6BF8"
+                    type: "item"
+                    item: "immersiveengineering:steel_scaffolding_standard"
+                    count: 8
+                }
+                {
+                    id: "1291CC9BE4325CE3"
+                    type: "item"
+                    item: "immersiveengineering:heavy_engineering"
+                    count: 2
+                }
+                {
+                    id: "4E0F183B66D15A77"
+                    type: "item"
+                    item: "immersiveengineering:light_engineering"
+                    count: 2
+                }
+            ]
+        }
+        {
+            title: "冶炼厂里的魔法棒！"
+            x: 3.5d
+            y: 3.5d
+            subtitle: "制作石墨电极"
+            description: [
+                "为了&6熔合更多奇异的材料&r，我需要一种能把大量能量集中到一个点上的东西。"
+                ""
+                "&b石墨电极&r具有很强的导电性，可以同时通过大量的电流。"
+                ""
+                "我需要跟工具匠村民交易来获得，唯一能召唤一个村民的方法是掌握自然灵气来获得灌注铁锭，再发展一些&6神秘学&r。我应该就可以召唤并治愈一个&4僵尸村民&r了。"
+            ]
+            dependencies: [
+                "39F9D326A01ADD78"
+                "6454DF379D047CB2"
+                "01980CE8E8162DFA"
+            ]
+            id: "5F28970D36E4C0F1"
+            tasks: [{
+                id: "01838E235C5CAD57"
+                type: "item"
+                item: {
+                    id: "immersiveengineering:graphite_electrode"
+                    Count: 1b
+                    tag: {
+                        graphDmg: 0
+                    }
+                }
+            }]
+            rewards: [{
+                id: "45983300E09AE2CE"
+                type: "item"
+                item: {
+                    id: "immersiveengineering:graphite_electrode"
+                    Count: 1b
+                    tag: {
+                        graphDmg: 0
+                        Enchantments: [{
+                            lvl: 8s
+                            id: "minecraft:unbreaking"
+                        }]
+                    }
+                }
+                count: 3
+            }]
+        }
+        {
+            title: "电弧炉"
+            x: 3.5d
+            y: 5.0d
+            subtitle: "注意保护眼睛"
+            description: [
+                "终于，我的&b电弧炉&r完成了！我现在可以用它把奇异物质熔合成革命性的材料，就比如末影锭&r！"
+                ""
+                "我猜他也能用来炼钢。"
+                ""
+                "&o解锁章节：&5机械降神&r（&o于&3普罗米修斯的异端&r&o目录下）"
+            ]
+            dependencies: ["5F28970D36E4C0F1"]
+            min_width: 250
+            id: "1AD7627CC2347FB2"
+            tasks: [{
+                id: "3C621D46E228FAD6"
+                type: "observation"
+                title: "观察一台电弧炉"
+                icon: "immersiveengineering:arc_furnace"
+                timer: 0L
+                observe_type: 0
+                to_observe: "immersiveengineering:arc_furnace"
+            }]
+            rewards: [
+                {
+                    id: "077A6B6922778FA8"
+                    type: "item"
+                    item: "immersiveengineering:capacitor_hv"
+                    count: 3
+                }
+                {
+                    id: "5E0AA2471655120E"
+                    type: "command"
+                    auto: "invisible"
+                    command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"机械降神\",\"color\":\"dark_purple\"},\"（于\",{\"text\":\"普罗米修斯的异端\",\"color\":\"dark_aqua\"},\"目录下！\"]"
+                    player_command: false
+                }
+            ]
+        }
+        {
+            x: 3.5d
+            y: 6.5d
+            shape: "hexagon"
+            subtitle: "制作一些末影金属锭"
+            description: [
+                "&b末影金属&r触及了末影人的灵魂，他们的心中残存着一片虚空。"
+                ""
+                "这东西对离开这个该死的地方至关重要。"
+                ""
+                "&o解锁章节：5残暴的末地&r（&o于&3残暴的欢愉&r&o目录下）"
+            ]
+            dependencies: ["1AD7627CC2347FB2"]
+            size: 1.5d
+            id: "1833516DA3102958"
+            tasks: [{
+                id: "7267D313BE2FD3E6"
+                type: "item"
+                item: "ftbic:enderium_ingot"
+            }]
+            rewards: [
+                {
+                    id: "5518BD0157E96894"
+                    type: "item"
+                    item: "ftbic:enderium_ingot"
+                    count: 8
+                }
+                {
+                    id: "688A038BE006D866"
+                    type: "command"
+                    auto: "invisible"
+                    command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"残暴的末地 \",\"color\":\"dark_purple\"},\"（于 \",{\"text\":\"残暴的欢愉\",\"color\":\"dark_aqua\"},\"目录下！\"]"
+                    player_command: false
+                }
+            ]
+        }
+        {
+            title: "疯狂多方块"
+            x: 4.5d
+            y: -1.0d
+            shape: "square"
+            subtitle: "那些金属板要何去何从？"
+            description: [
+                "建造这些结构可能有点复杂，尽管第一次我需要自己来搭建，但一旦我搭出了一个设备，我就可以保存设计以供将来使用。既然我已经可以使用高级的材料来制作&6复制粘贴小帮手&r和&6建筑小帮手&r并且给它们提供能源了，它们就可以帮助我大量拷贝堡垒的许多部分。"
+                ""
+            ]
+            dependencies: ["292ECA46B6E025CA"]
+            id: "27620D190D15FBAF"
+            tasks: [{
+                id: "6002D992F8DFDD5E"
+                type: "item"
+                item: {
+                    id: "buildinggadgets:gadget_building"
+                    Count: 1b
+                    tag: {
+                        state: {
+                            serializer: "buildinggadgets:dummy_serializer"
+                            state: {
+                                Name: "minecraft:air"
+                            }
+                            data: { }
+                        }
+                    }
+                }
+            }]
+            rewards: [
+                {
+                    id: "6836160F382745EE"
+                    type: "item"
+                    item: "immersiveengineering:charging_station"
+                }
+                {
+                    id: "05394F07B4764F85"
+                    type: "item"
+                    item: {
+                        id: "buildinggadgets:gadget_copy_paste"
+                        Count: 1b
+                        tag: {
+                            mode: 0b
+                            template_id: [I;
+                                873539397
+                                -1332064847
+                                -1313626010
+                                -531428935
+                            ]
+                            energy: 500000.0d
+                        }
+                    }
+                }
+            ]
+        }
+        {
+            title: "矿床"
+            icon: "inferno:living_metal_geode"
+            x: 0.0d
+            y: 5.0d
+            shape: "square"
+            subtitle: "召唤一个矿床"
+            description: [
+                "的确无限的资源很了不起，但到处寻找矿藏是鸟才会干的事。我设计了一个小仪式，可以让我通过调谐在&6末地&r灌注的诡异能量来&6召唤一座矿床&r。这将允许我收集任意一种我想用&6挖掘机&r挖掘的资源类型。"
+                ""
+                "为了做到这一点，我必须&c&n在末地&r建造这个结构："
+                "{image:inferno:textures/quest/living_metal_geode.png width:186 height:100 align:1}"
+                ""
+                "中心的方块定义了被召唤的矿床类型。"
+                ""
+                "为了完成这个仪式，我必须在中心块上使用一个&b活体金属晶球&r。"
+            ]
+            dependencies: [
+                "302AE29C5545EB4A"
+                "75F01DEAE8BBAD9F"
+            ]
+            min_width: 250
+            id: "709722660A44F303"
+            tasks: [
+                {
+                    id: "45B07E8617311863"
+                    type: "item"
+                    title: "采矿场"
+                    item: {
+                        id: "itemfilters:or"
+                        Count: 1b
+                        tag: {
+                            items: [
+                                {
+                                    id: "minecraft:iron_block"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "minecraft:copper_block"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "minecraft:emerald_block"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "minecraft:coal_block"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "ftbic:tin_block"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "minecraft:redstone_block"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "ftbic:lead_block"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "ftbic:aluminum_block"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "minecraft:quartz_block"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "thermal:nickel_block"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "tconstruct:grout"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "tconstruct:nether_grout"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "create:zinc_block"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "ftbic:uranium_block"
+                                    Count: 1b
+                                }
+                                {
+                                    id: "minecraft:netherite_block"
+                                    Count: 1b
+                                }
+                            ]
+                        }
+                    }
+                }
+                {
+                    id: "58F1CCB236318B00"
+                    type: "item"
+                    item: "cataclysm:void_stone"
+                    count: 4L
+                }
+                {
+                    id: "02DB202BE432773B"
+                    type: "item"
+                    item: "minecraft:crying_obsidian"
+                    count: 4L
+                }
+                {
+                    id: "575313E510A7ACBD"
+                    type: "item"
+                    item: "inferno:living_metal_geode"
+                }
+            ]
+            rewards: [{
+                id: "7596A9505C99CA2F"
+                type: "item"
+                item: "inferno:living_metal_geode"
+                count: 4
+            }]
+        }
+        {
+            title: "无尽资源"
+            icon: "immersiveengineering:sample_drill"
+            x: 1.7380952380952337d
+            y: 5.017857142857139d
+            shape: "square"
+            subtitle: "挖 挖 挖"
+            description: [
+                "在世界下面的虚空中有大量的资源。"
+                ""
+                "我设计了一种叫做挖掘机的机器能够开采这些财富。在放下我的装置之前，我需要用一台岩芯钻井来确定地底下有什么矿物，不过那应该不是太麻烦的工作。"
+                ""
+                "我将需要成千上万的矿物资源来加快之后的一些计划，我也许应该早点开始这项工作。"
+                ""
+            ]
+            dependencies: ["1AD7627CC2347FB2"]
+            id: "75F01DEAE8BBAD9F"
+            tasks: [{
+                id: "54A559BE5C691537"
+                type: "observation"
+                title: "观察一台挖掘机"
+                icon: "immersiveengineering:sample_drill"
+                timer: 0L
+                observe_type: 3
+                to_observe: "immersiveengineering:excavator"
+            }]
+            rewards: [
+                {
+                    id: "5BE9590060DA5719"
+                    type: "item"
+                    item: "immersiveengineering:sample_drill"
+                }
+                {
+                    id: "68B20FB1C5838C57"
+                    type: "item"
+                    item: "immersiveengineering:capacitor_hv"
+                }
+                {
+                    id: "3229DFCB84C85BCB"
+                    type: "item"
+                    item: "enderstorage:ender_chest"
+                    count: 2
+                }
+            ]
+        }
+    ]
 }
