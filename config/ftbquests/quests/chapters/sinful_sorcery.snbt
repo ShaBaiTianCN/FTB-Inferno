@@ -10,7 +10,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "粉笔领域!"
+			title: "粉笔领域！"
 			x: 1.0d
 			y: -4.0d
 			subtitle: "合成一个白粉笔"
