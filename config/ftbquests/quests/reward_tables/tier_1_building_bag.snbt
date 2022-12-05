@@ -1,7 +1,7 @@
 {
 	id: "4382156C7397BA18"
 	order_index: 0
-	title: "Tier 1 Building Bag"
+	title: "1级建筑背包"
 	icon: {
 		id: "chiselsandbits:bit_bag"
 		Count: 1b

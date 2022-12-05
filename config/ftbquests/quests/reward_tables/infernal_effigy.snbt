@@ -1,7 +1,7 @@
 {
 	id: "38D3C82B9677B5C4"
 	order_index: 1
-	title: "Infernal Effigy"
+	title: "地狱雕像"
 	icon: "tconstruct:blaze_head"
 	loot_size: 1
 	use_title: true

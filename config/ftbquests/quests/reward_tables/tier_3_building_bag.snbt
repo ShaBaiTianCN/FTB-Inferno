@@ -1,7 +1,7 @@
 {
 	id: "34909CB36EDDE81D"
 	order_index: 3
-	title: "Tier 3 Building Bag"
+	title: "3级建筑背包"
 	loot_size: 11
 	rewards: [
 		{ item: "minecraft:lantern", count: 2, only_one: true }

@@ -5,7 +5,7 @@
 	loot_size: 1
 	rewards: [
 		{
-			title: "Impact"
+			title: "冲击"
 			item: {
 				id: "minecraft:enchanted_book"
 				Count: 1b
@@ -18,7 +18,7 @@
 			}
 		}
 		{
-			title: "Bullseye"
+			title: "靶心"
 			item: {
 				id: "minecraft:enchanted_book"
 				Count: 1b
@@ -31,7 +31,7 @@
 			}
 		}
 		{
-			title: "Sleight of Hand"
+			title: "熟能生巧"
 			item: {
 				id: "minecraft:enchanted_book"
 				Count: 1b
@@ -44,7 +44,7 @@
 			}
 		}
 		{
-			title: "Preserving"
+			title: "节约"
 			item: {
 				id: "minecraft:enchanted_book"
 				Count: 1b
