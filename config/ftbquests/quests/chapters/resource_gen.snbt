@@ -1345,34 +1345,34 @@
 			]
 		}
 		{
-		title: "生物群系蓝调"
-		x: -11.5d
-		y: -7.5d
-		shape: "square"
-		subtitle: "大胆地去……"
-		description: [
-			"我需要获取的、使我得以逃离的各种资源中，有很多分散在整个大陆上。"
-			""
-			"当然，我可以手动探索，我的地图可以非常好地绘制我去过的生物群系，但有时我需要找到一个特定的地形。"
-			""
-			"通过制作一个自然指南针，我可以将我的魔法用于精确定位资源的位置，从而在未来的日子里省去了很多弯路。"
-		]
-		dependencies: ["03A93EA45228E9C0"]
-		min_width: 300
-		id: "199213E533655B1C"
-		tasks: [{
-			id: "00580C867C6370B7"
-			type: "item"
-			item: {
-				id: "naturescompass:naturescompass"
-				Count: 1b
-				tag: { }
-			}
-		}]
-		rewards: [{
-			id: "5199A98CF47A83D9"
-			type: "item"
-			item: {
+			title: "生物群系蓝调"
+			x: -11.5d
+			y: -7.5d
+			shape: "square"
+			subtitle: "大胆地去……"
+			description: [
+				"我需要获取的、使我得以逃离的各种资源中，有很多分散在整个大陆上。"
+				""
+				"当然，我可以手动探索，我的地图可以非常好地绘制我去过的生物群系，但有时我需要找到一个特定的地形。"
+				""
+				"通过制作一个自然指南针，我可以将我的魔法用于精确定位资源的位置，从而在未来的日子里省去了很多弯路。"
+			]
+			dependencies: ["03A93EA45228E9C0"]
+			min_width: 300
+			id: "199213E533655B1C"
+			tasks: [{
+				id: "00580C867C6370B7"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5199A98CF47A83D9"
+				type: "item"
+				item: {
 					id: "ars_nouveau:warp_scroll"
 					Count: 1b
 					tag: { }
