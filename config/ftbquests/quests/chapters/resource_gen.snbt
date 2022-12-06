@@ -117,7 +117,7 @@
 			shape: "square"
 			subtitle: "做一个盆栽盆"
 			description: [
-				"这个&b盆栽盆&r用土壤和一个树苗自动地种植树（或树苗类似地植物）。"
+				"这个&b盆栽盆&r用土壤和一个树苗自动地种植树（或与树苗类似的植物）。"
 				""
 				"它能被特定物品升级。"
 			]
@@ -347,14 +347,14 @@
 				{
 					id: "1BF803B16DA00C10"
 					type: "item"
-					title: "1 诡异菌 | 权重 8"
+					title: "1诡异菌|权重8"
 					disable_toast: true
 					item: "minecraft:warped_fungus"
 				}
 				{
 					id: "4B0497B6BB5DEB2E"
 					type: "item"
-					title: "1 线 | 权重 4"
+					title: "1线|权重4"
 					disable_toast: true
 					item: "minecraft:string"
 				}
@@ -373,35 +373,35 @@
 				{
 					id: "45508907CD9E9FAA"
 					type: "item"
-					title: "1-3 末影珍珠 | 权重 8"
+					title: "1~3末影珍珠|权重8"
 					disable_toast: true
 					item: "minecraft:ender_pearl"
 				}
 				{
 					id: "3D1D485264107C44"
 					type: "item"
-					title: "1 铜锭 | 权重 15"
+					title: "1铜锭|权重15"
 					disable_toast: true
 					item: "minecraft:copper_ingot"
 				}
 				{
 					id: "1365B8529FE0F5CB"
 					type: "item"
-					title: "1-3 铜粒 | 权重 8"
+					title: "1~3铜粒|权重8"
 					disable_toast: true
 					item: "ftbic:copper_nugget"
 				}
 				{
 					id: "5111EDCC7EE3CB12"
 					type: "item"
-					title: "2-8 红石粉 | 权重 8"
+					title: "2~8红石粉|权重8"
 					disable_toast: true
 					item: "minecraft:redstone"
 				}
 				{
 					id: "14843DD874C94E52"
 					type: "item"
-					title: "2-8 青金石 | 权重 4"
+					title: "2~8青金石|权重4"
 					disable_toast: true
 					item: "minecraft:lapis_lazuli"
 				}
@@ -420,35 +420,35 @@
 				{
 					id: "42E80B65AF8B9954"
 					type: "item"
-					title: "1 皮革 | 权重 3"
+					title: "1皮革|权重3"
 					disable_toast: true
 					item: "minecraft:leather"
 				}
 				{
 					id: "4FE8F3C3B62D6E4C"
 					type: "item"
-					title: "1 绯红菌 | 权重 8"
+					title: "1绯红菌|权重8"
 					disable_toast: true
 					item: "minecraft:crimson_fungus"
 				}
 				{
 					id: "5981BCC34A163445"
 					type: "item"
-					title: "1 下界疣 | 权重 10"
+					title: "1下界疣|权重10"
 					disable_toast: true
 					item: "minecraft:nether_wart"
 				}
 				{
 					id: "200AE0083611DE05"
 					type: "item"
-					title: "1 线 | 权重 4"
+					title: "1线|权重4"
 					disable_toast: true
 					item: "minecraft:string"
 				}
 				{
 					id: "6ADD1E7949B3279F"
 					type: "item"
-					title: "1 熟猪排 | 权重 5"
+					title: "1熟猪排|权重5"
 					disable_toast: true
 					item: "minecraft:cooked_porkchop"
 				}
@@ -467,41 +467,41 @@
 				{
 					id: "08487988ADDC5CF9"
 					type: "item"
-					title: "1 金锭 | 权重 5"
+					title: "1金锭|权重5"
 					disable_toast: true
 					item: "minecraft:gold_ingot"
 				}
 				{
 					id: "4BC8DACF9A57BDBF"
 					type: "item"
-					title: "1 金粒 | 权重 15"
+					title: "1金粒|权重15"
 					item: "minecraft:gold_nugget"
 				}
 				{
 					id: "7C1BB31FC6829BBE"
 					type: "item"
-					title: "1 铜锭 | 权重 15"
+					title: "1铜锭|权重15"
 					disable_toast: true
 					item: "minecraft:copper_ingot"
 				}
 				{
 					id: "147E06231A9BB185"
 					type: "item"
-					title: "1-3 铜粒 | 权重 8"
+					title: "1~3铜粒|权重8"
 					disable_toast: true
 					item: "ftbic:copper_nugget"
 				}
 				{
 					id: "4FC9FA41C4E58E7A"
 					type: "item"
-					title: "2-8 红石粉 | 权重 8"
+					title: "2~8红石粉|权重8"
 					disable_toast: true
 					item: "minecraft:redstone"
 				}
 				{
 					id: "7D81C4A25DA4E8D6"
 					type: "item"
-					title: "2-8 青金石 | 权重 4"
+					title: "2~8青金石|权重4"
 					disable_toast: true
 					item: "minecraft:lapis_lazuli"
 				}
@@ -520,49 +520,49 @@
 				{
 					id: "34F67CC620D4600B"
 					type: "item"
-					title: "1 灵魂沙 | 权重 10"
+					title: "1灵魂沙|权重10"
 					disable_toast: true
 					item: "minecraft:soul_sand"
 				}
 				{
 					id: "6099999D1891A592"
 					type: "item"
-					title: "1 灵魂土 | 权重 10"
+					title: "1灵魂土|权重10"
 					disable_toast: true
 					item: "minecraft:soul_soil"
 				}
 				{
 					id: "325E18FB065EC396"
 					type: "item"
-					title: "1 玄武岩 | 权重 10"
+					title: "1玄武岩|权重10"
 					disable_toast: true
 					item: "minecraft:basalt"
 				}
 				{
 					id: "6F36501561DC284B"
 					type: "item"
-					title: "1 燧石 | 权重 5"
+					title: "1燧石|权重5"
 					disable_toast: true
 					item: "minecraft:flint"
 				}
 				{
 					id: "4FC1AB762FE2AC55"
 					type: "item"
-					title: "1 骨粉 | 权重 10"
+					title: "1骨粉|权重10"
 					disable_toast: true
 					item: "minecraft:bone_meal"
 				}
 				{
 					id: "387AEE319C79377B"
 					type: "item"
-					title: "1 火药 | 权重 8"
+					title: "1火药|权重8"
 					disable_toast: true
 					item: "minecraft:gunpowder"
 				}
 				{
 					id: "44E37CF4CCCEE46F"
 					type: "item"
-					title: "1 骨头 | 权重 10"
+					title: "1骨头|权重10"
 					disable_toast: true
 					item: "minecraft:bone"
 				}
@@ -581,42 +581,42 @@
 				{
 					id: "1C4526D6315A52C8"
 					type: "item"
-					title: "1 恶魂之泪 | 权重 4"
+					title: "1恶魂之泪|权重4"
 					disable_toast: true
 					item: "minecraft:ghast_tear"
 				}
 				{
 					id: "0592B973738F9C6B"
 					type: "item"
-					title: "1 骨块 | 权重 15"
+					title: "1骨块|权重15"
 					disable_toast: true
 					item: "minecraft:bone_block"
 				}
 				{
 					id: "155EEE88138434C6"
 					type: "item"
-					title: "1 铜锭 | 权重 15"
+					title: "1铜锭|权重15"
 					disable_toast: true
 					item: "minecraft:copper_ingot"
 				}
 				{
 					id: "1C51B7063AD2543A"
 					type: "item"
-					title: "1-3 铜粒 | 权重 8"
+					title: "1~3铜粒|权重8"
 					disable_toast: true
 					item: "ftbic:copper_nugget"
 				}
 				{
 					id: "764EF550C822BAC7"
 					type: "item"
-					title: "2-8 红石粉 | 权重 8"
+					title: "2~8红石粉|权重8"
 					disable_toast: true
 					item: "minecraft:redstone"
 				}
 				{
 					id: "641A40358E6C5D2B"
 					type: "item"
-					title: "2-8 青金石 | 权重 4"
+					title: "2~8青金石|权重4"
 					disable_toast: true
 					item: "minecraft:lapis_lazuli"
 				}
@@ -635,28 +635,28 @@
 				{
 					id: "0968E0C6C3E62488"
 					type: "item"
-					title: "1 铜锭 | 权重 15"
+					title: "1铜锭|权重15"
 					disable_toast: true
 					item: "minecraft:copper_ingot"
 				}
 				{
 					id: "4052DD5C9F074BDD"
 					type: "item"
-					title: "3-7 铜粒 | 权重 8"
+					title: "3~7铜粒|权重8"
 					disable_toast: true
 					item: "ftbic:copper_nugget"
 				}
 				{
 					id: "0E3155909F0BA97B"
 					type: "item"
-					title: "2-8 红石粉 | 权重 8"
+					title: "2~8红石粉|权重8"
 					disable_toast: true
 					item: "minecraft:redstone"
 				}
 				{
 					id: "0EEF686AAF723E99"
 					type: "item"
-					title: "2-8 青金石 | 权重 4"
+					title: "2~8青金石|权重4"
 					disable_toast: true
 					item: "minecraft:lapis_lazuli"
 				}
@@ -675,14 +675,14 @@
 				{
 					id: "3E6F0B655CF8D939"
 					type: "item"
-					title: "1 黑石 | 权重 5"
+					title: "1黑石|权重5"
 					disable_toast: true
 					item: "minecraft:blackstone"
 				}
 				{
 					id: "61D50CE343FC66C9"
 					type: "item"
-					title: "1 岩浆膏 | 权重 8"
+					title: "1岩浆膏|权重8"
 					disable_toast: true
 					item: "minecraft:magma_cream"
 				}
@@ -701,21 +701,21 @@
 				{
 					id: "0A20FD36BCF7A7F6"
 					type: "item"
-					title: "1 荧石粉 | 权重 5"
+					title: "1荧石粉|权重5"
 					disable_toast: true
 					item: "minecraft:glowstone_dust"
 				}
 				{
 					id: "5FBA462AF7CD8432"
 					type: "item"
-					title: "1 棕色蘑菇 | 权重 10"
+					title: "1棕色蘑菇|权重10"
 					disable_toast: true
 					item: "minecraft:brown_mushroom"
 				}
 				{
-					id: "5A12D34A8908612E"
+					id: "5A12D34A890861E"
 					type: "item"
-					title: "1 红色蘑菇 | 权重 10"
+					title: "1红色蘑菇|权重10"
 					disable_toast: true
 					item: "minecraft:red_mushroom"
 				}
@@ -734,35 +734,35 @@
 				{
 					id: "3F2501A850EF3BE4"
 					type: "item"
-					title: "1 下界石英 | 权重 15"
+					title: "1下界石英|权重15"
 					disable_toast: true
 					item: "minecraft:quartz"
 				}
 				{
 					id: "73D09000311FB1A9"
 					type: "item"
-					title: "1 铜锭 | 权重 15"
+					title: "1铜锭|权重15"
 					disable_toast: true
 					item: "ftbic:copper_nugget"
 				}
 				{
 					id: "3EACFF92BAC3CFAD"
 					type: "item"
-					title: "1-3 铜粒 | 权重 8"
+					title: "1~3铜粒|权重8"
 					disable_toast: true
 					item: "ftbic:copper_nugget"
 				}
 				{
 					id: "65DC21D6809816C9"
 					type: "item"
-					title: "2-8 红石粉 | 权重 8"
+					title: "2~8红石粉|权重8"
 					disable_toast: true
 					item: "minecraft:redstone"
 				}
 				{
 					id: "3A74B54F3C120D99"
 					type: "item"
-					title: "2-8 青金石 | 权重 4"
+					title: "2~8青金石|权重4"
 					disable_toast: true
 					item: "minecraft:lapis_lazuli"
 				}
@@ -784,49 +784,49 @@
 				{
 					id: "1AA9242C4553BB20"
 					type: "item"
-					title: "1-3 煤炭 | 权重 3"
+					title: "1~3煤炭|权重3"
 					disable_toast: true
 					item: "minecraft:coal"
 				}
 				{
 					id: "0FAF7C255802B0A7"
 					type: "item"
-					title: "1-7 红石粉 | 权重 15"
+					title: "1~7红石粉|权重15"
 					disable_toast: true
 					item: "minecraft:redstone"
 				}
 				{
 					id: "12296A320840F8AB"
 					type: "item"
-					title: "1 熔火核心 | 权重 1"
+					title: "1熔火核心|权重1"
 					disable_toast: true
 					item: "reliquary:molten_core"
 				}
 				{
 					id: "57A300E33DF1DFD4"
 					type: "item"
-					title: "1 火珊瑚扇 | 权重 3"
+					title: "1火珊瑚扇|权重3"
 					disable_toast: true
 					item: "minecraft:fire_coral_fan"
 				}
 				{
 					id: "710DFA65C77FCB9E"
 					type: "item"
-					title: "1 枪药珠 | 权重 3"
+					title: "1枪药珠|权重3"
 					disable_toast: true
 					item: "nethersdelight:propelpearl"
 				}
 				{
 					id: "03C1C261FC574A89"
 					type: "item"
-					title: "1-3 铜锭 | 权重 10"
+					title: "1~3铜锭|权重10"
 					disable_toast: true
 					item: "minecraft:copper_ingot"
 				}
 				{
 					id: "5BD3DAAEE4A3B9CC"
 					type: "item"
-					title: "1 烈焰粉 | 权重 2"
+					title: "1烈焰粉|权重2"
 					disable_toast: true
 					item: "minecraft:blaze_powder"
 				}
@@ -876,21 +876,21 @@
 				{
 					id: "0B98FD587604BFE7"
 					type: "item"
-					title: "1 烈焰棒 | 权重 15"
+					title: "1烈焰棒|权重15"
 					disable_toast: true
 					item: "minecraft:blaze_rod"
 				}
 				{
 					id: "0E37C7622EB31B33"
 					type: "item"
-					title: "1 铜锭 | 权重 15"
+					title: "1铜锭|权重15"
 					disable_toast: true
 					item: "minecraft:copper_ingot"
 				}
 				{
 					id: "50EA5B9379802528"
 					type: "item"
-					title: "1-3 铜粒 | 权重 8"
+					title: "1~3铜粒|权重8"
 					icon: "ftbic:copper_nugget"
 					disable_toast: true
 					item: {
@@ -904,14 +904,14 @@
 				{
 					id: "4BE17BCD18514B96"
 					type: "item"
-					title: "2-8 红石粉 | 权重 8"
+					title: "2~8红石粉|权重8"
 					disable_toast: true
 					item: "minecraft:redstone"
 				}
 				{
 					id: "06197B139F5DE64E"
 					type: "item"
-					title: "2-8 青金石 | 权重 4"
+					title: "2~8青金石|权重4"
 					disable_toast: true
 					item: "minecraft:lapis_lazuli"
 				}
@@ -1063,7 +1063,26 @@
 					id: "16D23212D8F4D691"
 					type: "item"
 					disable_toast: true
-					item: "reliquary:guardian_spike"
+										item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "reliquary:guardian_spike"
+									Count: 1b
+								}
+								{
+									id: "minecraft:prismarine_crystals"
+									Count: 1b
+								}
+								{
+									id: "minecraft:prismarine_shard"
+									Count: 1b
+								}
+							]
+						}
+					}
 				}
 				{
 					id: "79ECCE55FCA5144B"
@@ -1323,7 +1342,7 @@
 					item: "apotheosis:obsidian_arrow"
 					count: 32
 				}		
-		]
+			]
 	}
 	{
 		title: "生物群系蓝调"
