@@ -552,7 +552,7 @@
 			tasks: [{
 				id: "15DB89C4AA5C331D"
 				type: "item"
-				title: "Quantum Powerarmor"
+				title: "量子装甲"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
