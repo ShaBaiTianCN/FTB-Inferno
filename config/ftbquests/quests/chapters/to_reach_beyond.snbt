@@ -113,7 +113,7 @@
 				id: "1689C65749C6445F"
 				type: "command"
 				auto: "invisible"
-				command: "/tellraw @p [\"\",\"我应该确保在继续完成之前\",{\"text\":\"阅读我的日记\",\"color\":\"red\"},\".\"]"
+				command: "/tellraw @p [\"\",\"我应该确保在继续完成之前\",{\"text\":\"阅读我的日记\",\"color\":\"red\"},\"。\"]"
 				player_command: false
 			}]
 		}
