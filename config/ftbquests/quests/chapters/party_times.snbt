@@ -1,0 +1,702 @@
+{
+	id: "68F38C189C4143B4"
+	group: "3165B92DB1BC8401"
+	order_index: 3
+	filename: "party_times"
+	title: "Kali's Collectibles"
+	icon: "artifacts:feral_claws"
+	subtitle: ["Powerful items and trinkets"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "grapplemod:block_grapple_modifier"
+			x: 12.5d
+			y: -5.5d
+			shape: "square"
+			subtitle: "Make the Grappling Hook Modifier"
+			description: [
+				"The &bGrappling Hook Modifier&r allows me to &6upgrade my Grappling Hook&r!"
+				""
+				"First, I have to &6use the Upgrade on the Modifier block&r. Then, I can open the block to set the upgrade settings. Finally, using the Hook on the block will apply the upgrades."
+			]
+			dependencies: ["14B08C5E10D807BB"]
+			id: "033080535C35B1F3"
+			tasks: [
+				{
+					id: "03521244EE17151F"
+					type: "item"
+					item: "grapplemod:block_grapple_modifier"
+				}
+				{
+					id: "14720844C2617302"
+					type: "item"
+					title: "Grappling Hook Upgrades"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "grapplemod:doubleupgradeitem"
+									Count: 1b
+								}
+								{
+									id: "grapplemod:forcefieldupgradeitem"
+									Count: 1b
+								}
+								{
+									id: "grapplemod:magnetupgradeitem"
+									Count: 1b
+								}
+								{
+									id: "grapplemod:motorupgradeitem"
+									Count: 1b
+								}
+								{
+									id: "grapplemod:ropeupgradeitem"
+									Count: 1b
+								}
+								{
+									id: "grapplemod:staffupgradeitem"
+									Count: 1b
+								}
+								{
+									id: "grapplemod:swingupgradeitem"
+									Count: 1b
+								}
+								{
+									id: "grapplemod:throwupgradeitem"
+									Count: 1b
+								}
+								{
+									id: "grapplemod:limitsupgradeitem"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "66C09919555CC272"
+				type: "choice"
+				table_id: 5275143685766869728L
+			}]
+		}
+		{
+			title: "&oGrappling Hook!&r"
+			x: 12.0d
+			y: -6.5d
+			shape: "square"
+			subtitle: "Make a Grappling Hook"
+			description: [
+				"Ah, the &bGrappling Hook&r. It takes me back to my dungeon-delving days."
+				""
+				"When used, I can &6swing from blocks&r. Sneaking will allow me to move up and down the line, and jumping will let me leap off with speed."
+				""
+				"Falls still hurt, though!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6B8C45E705B89F5B"]
+			id: "14B08C5E10D807BB"
+			tasks: [{
+				id: "7EA99F6F6FC02A0C"
+				type: "item"
+				item: {
+					id: "grapplemod:grapplinghook"
+					Count: 1b
+					tag: {
+						Damage: 0
+						custom: {
+							doublehook: 0b
+							motor: 0b
+							phaserope: 0b
+							attract: 0b
+							rocket: 0b
+							hookgravity: 1.0d
+							repelforce: 1.0d
+							attractradius: 3.0d
+							pullbackwards: 1b
+							smartmotor: 0b
+							detachonkeyrelease: 0b
+							angle: 20.0d
+							crc32: 2252267022L
+							rocket_vertical_angle: 0.0d
+							rocket_force: 1.0d
+							rocket_refuel_ratio: 15.0d
+							motorwhencrouching: 0b
+							motorwhennotcrouching: 1b
+							motordampener: 0b
+							rocket_active_time: 0.5d
+							throwspeed: 2.0d
+							motoracceleration: 0.2d
+							enderstaff: 0b
+							oneropepull: 0b
+							sneakingverticalthrowangle: 0.0d
+							smartdoublemotor: 1b
+							repel: 0b
+							sneakingangle: 10.0d
+							motormaxspeed: 4.0d
+							playermovementmult: 1.0d
+							reelin: 1b
+							sticky: 0b
+							verticalthrowangle: 0.0d
+							maxlen: 30.0d
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Brace for Impact!"
+			x: 13.0d
+			y: -4.5d
+			shape: "square"
+			subtitle: "Make Long Fall Boots"
+			description: [
+				"&bLong Fall Boots&r &6completely negate fall damage&r!"
+				""
+				"They are crafted by &6using Diamond Boots with Feather Falling IV&r on the Grappling Hook Modifier."
+			]
+			dependencies: ["033080535C35B1F3"]
+			id: "054D3A7FDBC92310"
+			tasks: [{
+				id: "00AAA2B12961F95A"
+				type: "item"
+				item: {
+					id: "grapplemod:longfallboots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "With the Power of Friendship and This Gun I Found"
+			icon: {
+				id: "gunswithoutroses:gold_gun"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 11.5d
+			y: -5.5d
+			shape: "square"
+			subtitle: "Make a Gun and some Ammo"
+			description: [
+				"Swords are nice and personal; magic gives me self-worth. But sometimes, &4I want things dead&r."
+				""
+				"There are five &bGuns&r I can create from memory, and 4 &bAmmunitions&r to use with them."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6B8C45E705B89F5B"]
+			id: "39D54541B408330D"
+			tasks: [
+				{
+					id: "4EFA96070AD2F018"
+					type: "item"
+					title: "Guns"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "gunswithoutroses:iron_gun"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "gunswithoutroses:gold_gun"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "gunswithoutroses:diamond_shotgun"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "gunswithoutroses:diamond_sniper"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "gunswithoutroses:diamond_gatling"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "meetyourfight:phantasmal_rifle"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "meetyourfight:cocktail_shotgun"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "55ECE3F18B58F7E0"
+					type: "item"
+					title: "Ammo"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "gunswithoutroses:flint_bullet"
+									Count: 1b
+								}
+								{
+									id: "gunswithoutroses:iron_bullet"
+									Count: 1b
+								}
+								{
+									id: "gunswithoutroses:blaze_bullet"
+									Count: 1b
+								}
+								{
+									id: "gunswithoutroses:hunger_bullet"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "34ACE80F46942269"
+					type: "item"
+					item: "minecraft:rose_bush"
+				}
+				{
+					id: "6F9EEC7DA013F25A"
+					type: "choice"
+					table_id: 743252727512263483L
+				}
+			]
+		}
+		{
+			title: "Bits and Bobs"
+			icon: "minecraft:crafting_table"
+			tags: ["info"]
+			x: 11.5d
+			y: -8.0d
+			shape: "gear"
+			subtitle: "About this chapter"
+			description: [
+				"This chapter will serve to &blist useful items and trinkets&r that I've come across my time here."
+				""
+				"These quests are not in any particular order and may be visible before you can actually get them."
+			]
+			dependencies: ["55099E0F763B39CA"]
+			id: "6B8C45E705B89F5B"
+			tasks: [{
+				id: "20479226AB40DC06"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -4.5d
+			shape: "square"
+			subtitle: "Make a flying Broom"
+			description: ["&bBrooms&r are one of &6earliest ways I can attain flight&r. They &odo&r require a fair investment into certain magic schools, however."]
+			hide_dependency_lines: true
+			dependencies: ["6B8C45E705B89F5B"]
+			id: "2D0D729A4ADD78A7"
+			tasks: [{
+				id: "7B01550B460E6587"
+				type: "item"
+				title: "Brooms"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "hexerei:mahogany_broom"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "hexerei:willow_broom"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -4.5d
+			shape: "square"
+			subtitle: "Make a Magnetic Forcefield"
+			description: [
+				"The &bMagnetic Forcefield&r will &6violently repel me from blocks&r while active. Sneaking will lower the effect."
+				""
+				"This can be used as a form of flight, but I should be careful not to &csplatter on the ground&r or dunk myself in Lava."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6B8C45E705B89F5B"]
+			id: "3DA9C4803873F54E"
+			tasks: [{
+				id: "3389469B1D6D4C9C"
+				type: "item"
+				item: "grapplemod:repeller"
+			}]
+		}
+		{
+			icon: {
+				id: "tconstruct:ichor_slime_sling"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 11.0d
+			y: -6.5d
+			shape: "square"
+			subtitle: "Make a Slimesling"
+			description: [
+				"&bSlimeslings&r allow me to quickly traverse the landscape, in various ways."
+				""
+				"I may want to invest in some sort of fall protection first, though."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6B8C45E705B89F5B"]
+			id: "10246C1DF207BB09"
+			tasks: [{
+				id: "66423D1653CF3EFB"
+				type: "item"
+				title: "Slimeslings"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:earth_slime_sling"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "tconstruct:sky_slime_sling"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "tconstruct:ichor_slime_sling"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "tconstruct:ender_slime_sling"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C8441545C2F3936"
+				type: "item"
+				item: "tconstruct:flint_shuriken"
+				count: 16
+			}]
+		}
+		{
+			icon: "reliquary:fortune_coin"
+			x: 10.5d
+			y: -5.5d
+			shape: "square"
+			subtitle: "Make a misc Reliquary item"
+			description: [
+				"There are several &bHoly Relics&r that will help me greatly."
+				""
+				"Each item explains what it does in its tooltip."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6B8C45E705B89F5B"]
+			id: "01AF46F0C9523C02"
+			tasks: [{
+				id: "53268DE0D5F77C83"
+				type: "item"
+				title: "Holy Relics"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "reliquary:mercy_cross"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "reliquary:angelic_feather"
+								Count: 1b
+							}
+							{
+								id: "reliquary:angelheart_vial"
+								Count: 1b
+							}
+							{
+								id: "reliquary:aphrodite_potion"
+								Count: 1b
+							}
+							{
+								id: "reliquary:fertile_potion"
+								Count: 1b
+							}
+							{
+								id: "reliquary:fortune_coin"
+								Count: 1b
+							}
+							{
+								id: "reliquary:glacial_staff"
+								Count: 1b
+							}
+							{
+								id: "reliquary:glowing_water"
+								Count: 1b
+							}
+							{
+								id: "reliquary:holy_hand_grenade"
+								Count: 1b
+							}
+							{
+								id: "reliquary:handgun"
+								Count: 1b
+							}
+							{
+								id: "reliquary:hero_medallion"
+								Count: 1b
+							}
+							{
+								id: "reliquary:ice_magus_rod"
+								Count: 1b
+							}
+							{
+								id: "reliquary:infernal_chalice"
+								Count: 1b
+							}
+							{
+								id: "reliquary:infernal_claws"
+								Count: 1b
+							}
+							{
+								id: "reliquary:infernal_tear"
+								Count: 1b
+							}
+							{
+								id: "reliquary:midas_touchstone"
+								Count: 1b
+							}
+							{
+								id: "reliquary:phoenix_down"
+								Count: 1b
+							}
+							{
+								id: "reliquary:pyromancer_staff"
+								Count: 1b
+							}
+							{
+								id: "reliquary:sojourner_staff"
+								Count: 1b
+							}
+							{
+								ForgeCaps: {
+									Parent: {
+										Items: [ ]
+									}
+								}
+								id: "reliquary:void_tear"
+								Count: 1b
+							}
+							{
+								id: "reliquary:witherless_rose"
+								Count: 1b
+							}
+							{
+								id: "reliquary:lantern_of_paranoia"
+								Count: 1b
+							}
+							{
+								id: "reliquary:magicbane"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "reliquary:salamander_eye"
+								Count: 1b
+							}
+							{
+								id: "reliquary:serpent_staff"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "reliquary:shears_of_winter"
+								Count: 1b
+							}
+							{
+								id: "itemfilters:or"
+								Count: 1b
+								tag: {
+									items: [
+										{
+											id: "reliquary:twilight_cloak"
+											Count: 1b
+										}
+										{
+											id: "reliquary:glowing_bread"
+											Count: 1b
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0D89C539C554B6DF"
+				type: "item"
+				item: {
+					id: "reliquary:bullets/neutral_bullet"
+					Count: 1b
+					tag: {
+						effects: [{
+							duration: 150
+							name: "minecraft:regeneration"
+							potency: 1
+						}]
+					}
+				}
+				count: 8
+			}]
+		}
+		{
+			title: "Spoils of War"
+			icon: "meetyourfight:spectres_eye"
+			x: 10.0d
+			y: -4.5d
+			shape: "square"
+			subtitle: "Craft a boss item"
+			description: ["Defeating the various &4Overlords&r (summoned by &6Gate Pearls&r) drops an item that can be crafted into &bone of four powerful items&r."]
+			hide_dependency_lines: true
+			dependencies: ["6B8C45E705B89F5B"]
+			id: "294F85944E21ED63"
+			tasks: [{
+				id: "4C639900EB1D8A6E"
+				type: "item"
+				title: "Boss items"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "meetyourfight:passages_toll"
+								Count: 1b
+							}
+							{
+								id: "meetyourfight:spectres_eye"
+								Count: 1b
+							}
+							{
+								id: "meetyourfight:spectres_grasp"
+								Count: 1b
+							}
+							{
+								id: "meetyourfight:aether_glazed_cupcake"
+								Count: 1b
+							}
+							{
+								id: "meetyourfight:slicers_dice"
+								Count: 1b
+							}
+							{
+								id: "meetyourfight:ace_of_iron"
+								Count: 1b
+							}
+							{
+								id: "meetyourfight:cocktail_cutlass"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "meetyourfight:velvet_fortune"
+								Count: 1b
+							}
+							{
+								id: "meetyourfight:bone_raker"
+								Count: 1b
+							}
+							{
+								id: "meetyourfight:depth_star"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "meetyourfight:caged_heart"
+								Count: 1b
+							}
+							{
+								id: "meetyourfight:marshy_delight"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+	]
+}
