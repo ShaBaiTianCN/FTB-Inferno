@@ -861,7 +861,7 @@
 			}]
 		}
 		{
-			title: "Aura Transportation"
+			title: "灵气运输"
 			x: 6.0d
 			y: 0.5d
 			shape: "square"
