@@ -5,7 +5,7 @@
 	filename: "to_reach_beyond"
 	title: "大地之怒"
 	icon: "biomesoplenty:origin_grass_block"
-	subtitle: ["The Overworld"]
+	subtitle: ["主世界"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
