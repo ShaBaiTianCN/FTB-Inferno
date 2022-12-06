@@ -328,7 +328,7 @@
 			y: -4.5d
 			shape: "square"
 			subtitle: "制作一把飞行扫帚"
-			description: ["&b扫帚&r是&6我能获得的最早飞行办法&r之一。但是，它们们&o的确&r需要对某些魔法学校进行公平的投资。"]
+			description: ["&b扫帚&r是&6我能获得的最早飞行办法&r之一。但是，它们&o的确&r需要对特定的魔法学派进行公平的投资。"]
 			hide_dependency_lines: true
 			dependencies: ["6B8C45E705B89F5B"]
 			id: "2D0D729A4ADD78A7"
@@ -390,7 +390,7 @@
 			description: [
 				"&b黏液弹弓&r让我能够以各种方式快速穿越地形。"
 				""
-				"不过，我可能想先投资于某种防坠落装置。"
+				"不过，我可能想先投资某种防坠落的东西。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["6B8C45E705B89F5B"]
