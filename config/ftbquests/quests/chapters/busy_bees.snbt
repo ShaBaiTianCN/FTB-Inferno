@@ -3,26 +3,26 @@
 	group: "0674F87ECC0536DF"
 	order_index: 1
 	filename: "busy_bees"
-	title: "Busy Bees"
+	title: "忙碌的蜜蜂"
 	icon: "create:honeyed_apple"
-	subtitle: ["Productive Bees"]
+	subtitle: ["高产蜜蜂"]
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Honey, I'm Home!"
+			title: "亲爱的，我回来了！"
 			x: 1.5d
 			y: -2.25d
 			shape: "hexagon"
-			subtitle: "Make a Beehive"
+			subtitle: "制作一个蜂巢"
 			description: [
-				"These simple &bBeehives&r are functional but highly lacking. The bees cannot be monitored, and attack when I take my tithe."
+				"这些简易&b蜂窝&r是极其有用但却相当稀有的。这些蜜蜂不好看管，在我取走一小部分时会来袭击我。"
 				""
-				"A reminder on how Bees work:"
-				"• Bees leave their Hive and hover around flowers."
-				"• During this, they collect pollen. This fertilizes crops the bee flies over."
-				"• Afterwards, the Bee returns to the Hive and creates Honey."
-				"• Repeat."
+				"关于蜜蜂如何工作的留言："
+				"•蜜蜂离巢盘旋在花的周围。"
+				"•在此期间，它们采集花粉，在飞过时会催熟花朵。"
+				"•之后，蜜蜂会回到蜂巢并酿造蜂蜜。"
+				"•诸如以往。"
 			]
 			dependencies: ["70391A24AA73AC40"]
 			hide: true
@@ -42,15 +42,15 @@
 			}]
 		}
 		{
-			title: "Psst. I’m Bee-hind You"
+			title: "嘘。我在你后面哦"
 			icon: "productivebees:honeycomb_ghostly"
 			x: 4.5d
 			y: 3.5d
-			subtitle: "Get Ghostly Comb"
+			subtitle: "获得幽灵蜂巢"
 			description: [
-				"The light from a &6Soul Lantern&r will corrupt Bees into &bGhostly Bees&r."
+				"来自&6灵魂灯笼&r的光能使普通蜜蜂腐化成&b幽灵蜜蜂&r。"
 				""
-				"Their Combs produce &6Ghast Tears&r."
+				"它们的蜂巢产出&6恶魂之泪&r。"
 			]
 			dependencies: ["6E63506CA6262292"]
 			id: "04FA6C9E6E9B6F21"
@@ -66,14 +66,14 @@
 			}]
 		}
 		{
-			title: "Mind Your Own Beeswax"
+			title: "关注你的蜂蜡"
 			x: 1.5d
 			y: -0.5d
-			subtitle: "Make a Centrifuge"
+			subtitle: "制作一个离心机"
 			description: [
-				"At the &bCentrifuge&r, I can put my collect Honeycomb to use."
+				"我可以把收集到的蜜脾放在&离心机&r中处理。"
 				""
-				"Inserted Combs will slowly convert into its liquid and solid components."
+				"插入的蜜脾将慢慢转化为组成其的液体和固体。"
 			]
 			dependencies: ["2AE6B601E81DF243"]
 			hide: true
@@ -99,16 +99,16 @@
 			]
 		}
 		{
-			title: "Life Is Not All It’s Cracked Up To Bee"
+			title: "生活可没什么特大的期待，可能如蜂一般辛劳。"
 			x: 6.0d
 			y: 3.5d
-			subtitle: "Get Skeletal Comb"
+			subtitle: "获得骷髅蜂窝"
 			description: [
-				"I've tried to re-embody the Ghostly Bee, from the inside out. That means starting with &6Bones&r."
+				"我早已尽力重塑幽灵蜜蜂的身体，从里到外。那也就表示我开始能有&6骨粉使用了&r。"
 				""
-				"Rather than bringing it back to life, however, this has just brought it to a new form of undeath."
+				"不过，与让它复生不同，这仅仅是让它变成亡灵的形态罢了。"
 				""
-				"&bSkeletal Bees&r create &bSkeletal Combs&r which create Bonemeal."
+				"&b骷髅蜜蜂&r生产骷髅蜂窝&r能一步生产骨粉出来"
 			]
 			dependencies: ["04FA6C9E6E9B6F21"]
 			id: "6EA3E99BF1934AD4"
@@ -132,14 +132,14 @@
 			}]
 		}
 		{
-			title: "Mis-Bee-Having"
+			title: "蜂影无踪"
 			x: 4.5d
 			y: 5.0d
-			subtitle: "Get Ender Comb"
+			subtitle: "获得末影蜂巢"
 			description: [
-				"Oddly, the only way to bring the Ghostly Bee back to life is to infuse it with even more soul."
+				"很奇怪的是，能使得幽灵蜜蜂复生的唯一途径就是向他体内注射更多的灵魂。"
 				""
-				"This results in the &bEnder Bee&r, which &6keeps escaping my Bee room&r! I'll have to modify the Hive to prevent this."
+				"这也就造就了&b末影蜜蜂&r，这家伙&6一直逃出我的蜂房&r！我不得不改造蜂箱来避免这样。"
 			]
 			dependencies: ["04FA6C9E6E9B6F21"]
 			id: "3158D1E94F372613"
@@ -163,11 +163,11 @@
 			}]
 		}
 		{
-			title: "Put A Ring On It"
+			title: "戴上戒指"
 			x: 4.5d
 			y: 6.5d
-			subtitle: "Get Diamond Comb"
-			description: ["From Ender Bees, I've managed to breed &bDiamond Bees&r!"]
+			subtitle: "获得钻石蜂巢"
+			description: ["我设法通过末影蜜蜂繁殖了出&b钻石蜜蜂&r！"]
 			dependencies: ["3158D1E94F372613"]
 			id: "048A2EFCD2F57B26"
 			tasks: [{
@@ -190,11 +190,11 @@
 			}]
 		}
 		{
-			title: "Bee Wise"
+			title: "蜂蜂癫癫"
 			x: 6.0d
 			y: 6.5d
-			subtitle: "Get Ancient Comb"
-			description: ["Finally, from the Diamond Bee, I've created the &bAncient Bee&r."]
+			subtitle: "获得远古蜂巢"
+			description: ["最终，我通过钻石蜜蜂创造了&b远古蜜蜂&r。"]
 			dependencies: ["048A2EFCD2F57B26"]
 			id: "610060B3BC5380DF"
 			tasks: [{
@@ -206,7 +206,7 @@
 					tag: {
 						EntityTag: {
 							type: "productivebees:netherite"
-						}
+						
 					}
 				}
 			}]
@@ -226,14 +226,14 @@
 			]
 		}
 		{
-			title: "Withering Heights"
+			title: "凋灵山庄"
 			x: 7.5d
 			y: 3.5d
-			subtitle: "Get Withered Comb"
+			subtitle: "获得凋灵蜂巢"
 			description: [
-				"Corrupting the Skeletal Bee even further resulted in the &bWithering Bee&r."
+				"腐化骷髅蜜蜂进一步产生&b凋灵蜜蜂&r。"
 				""
-				"Unfortunately, it only makes Wither Skulls and not Nether Stars."
+				"不幸的是，它只生产凋灵头颅而不是下界之星。"
 			]
 			dependencies: ["6EA3E99BF1934AD4"]
 			id: "552B29EB2AD6A149"
@@ -257,14 +257,14 @@
 			}]
 		}
 		{
-			title: "Hot Stuff, Coming Through"
+			title: "物体滚烫，注意避让"
 			x: 4.5d
 			y: 2.0d
-			subtitle: "Get Magmatic Comb"
+			subtitle: "获得熔岩蜂巢"
 			description: [
-				"In an experiment to re-embody the Ghostly Bee, I've made the &bMagmatic Bee&r."
+				"在重现幽魂蜜蜂的实验中，我制作了&b熔岩蜜蜂&r。"
 				""
-				"Its Combs make &6Magma Cream&r."
+				"它的蜂巢可制作&6岩浆膏&r。"
 			]
 			dependencies: ["04FA6C9E6E9B6F21"]
 			id: "5731DC468B820B3C"
@@ -296,12 +296,12 @@
 			]
 		}
 		{
-			title: "Arm Pet"
+			title: "手臂宠物"
 			icon: "minecraft:crying_obsidian"
 			x: -1.5d
 			y: 3.5d
-			subtitle: "Make a Sweat Bee"
-			description: ["When a Nomad Bee is fed &bCrying Obsidian&r, its body temperature rapidly drops, converting into a &bSweat Bee&r."]
+			subtitle: "制作汗蜂"
+			description: ["若流浪者蜜蜂被喂食&b哭泣的黑曜石&r，它的体温会迅速下降，转化为&b汗蜂&r。"]
 			dependencies: ["3874307556D72539"]
 			id: "2D6DAE3B68710E72"
 			tasks: [{
@@ -316,14 +316,14 @@
 			}]
 		}
 		{
-			title: "Frizzbee"
+			title: "蜂盘"
 			x: -3.0d
 			y: 3.5d
-			subtitle: "Get Frosty Comb"
+			subtitle: "获得霜冻蜜蜂"
 			description: [
-				"By lowering the Sweat Bee's temperature even further, I can create &bFrosty Bees!"
+				"通过进一步降低汗蜂的体温，我可以创造&b霜冻蜜蜂&r！"
 				""
-				"To get my first bits of Snow, I could &6summong a Snow Golem&r."
+				"为了得到第一块雪，我可以&6召唤一个雪傀儡&r。"
 			]
 			dependencies: ["2D6DAE3B68710E72"]
 			id: "3CFE70276BEA391A"
@@ -348,12 +348,12 @@
 			}]
 		}
 		{
-			title: "No Cell Service"
+			title: "失去肉身"
 			icon: "hexerei:sage"
 			x: 0.0d
 			y: 3.5d
-			subtitle: "Convert a Bee into a Nomad Bee"
-			description: ["When fed with &bDried Sage&r, normal Bees will &6transmute into Nomad Bees&r."]
+			subtitle: "将蜜蜂转化为流浪者蜜蜂"
+			description: ["当用&b干鼠尾草&r喂食普通蜜蜂，它们会&6变成流浪者蜜蜂&r。"]
 			dependencies: ["6E63506CA6262292"]
 			id: "3874307556D72539"
 			tasks: [{
@@ -369,17 +369,17 @@
 			}]
 		}
 		{
-			title: "Hive Improvement"
+			title: "蜂巢升级"
 			icon: "productivebees:advanced_warped_beehive"
 			x: 1.5d
 			y: -4.0d
-			subtitle: "Make an Advanced Beehive"
+			subtitle: "制作高级蜂箱"
 			description: [
-				"These &bAdvanced Beehives&r are much better for my purposes."
+				"这些&b高级蜂箱&r对于我的目的来说要好得多。"
 				""
-				"Unlike normal ones, I &6can open these&r to retrieve their contents."
+				"不像普通的那些蜂箱，我&6可以打开这些蜂箱&r以检索其中的内容"
 				""
-				"Special Bees need special houses. They &cwon't produce resource Combs otherwise&r."
+				"特殊的蜜蜂需要特殊的房子。&c否则它们不会产出资源蜜脾&r。"
 			]
 			dependencies: ["2AE6B601E81DF243"]
 			hide: true
@@ -388,7 +388,7 @@
 			tasks: [{
 				id: "6FE0C0DA5D26D5AC"
 				type: "item"
-				title: "Advanced Beehives"
+				title: "高级蜂箱"
 				item: {
 					id: "itemfilters:id_regex"
 					Count: 1b
@@ -404,16 +404,16 @@
 			}]
 		}
 		{
-			title: "Rock Candy"
+			title: "岩糖"
 			x: 4.5d
 			y: -2.5d
-			subtitle: "Get Crystalline Comb"
+			subtitle: "获取晶化蜜脾"
 			description: [
-				"One of the first Bees I'll have to make is the &bCrystalline Bee&r."
+				"我首先需要培育的一批蜜蜂中就有&b晶化蜜蜂&r。"
 				""
-				"As it is created by mutating a Bee with a &6Block of Quartz&r, its &bCrystalline Combs&r create Nether Quartz."
+				"由于它是有一只带有&6石英块&r的蜜蜂变异而来，它的&b晶化蜜脾&r可以创造下界石英"
 				""
-				"&oSome resource bees don't pollinate with flowers, but with the resource block. An Iron Bee won't make Iron Combs if it can't access an Iron Block, etc."
+				"&o有些资源蜜蜂不是用花授粉，而是用资源块授粉。如果一只铁蜂不能进入铁块，它就不会制造铁蜜脾，诸如此类。"
 			]
 			dependencies: ["6E63506CA6262292"]
 			min_width: 225
@@ -438,17 +438,17 @@
 			}]
 		}
 		{
-			title: "No More Digging"
+			title: "没有更多的挖掘"
 			icon: "thermal:satchel"
 			x: 1.5d
 			y: 1.0d
-			subtitle: "Resource Bees"
+			subtitle: "资源蜜蜂"
 			description: [
-				"Tending to my Colony has taken up the majority of my focus. I simply &cdon't have time to hunt for resources&r."
+				"照料我的殖民地占据了我的大部分注意力。我只是&c没有时间寻找资源&r。"
 				""
-				"Maybe I can &bget my Bees to produce them instead&r?"
+				"也许我可以&b让我的蜜蜂们来生产资源&r？"
 				""
-				"&oSome bees only produce Combs if they pollinate on a specific block. See the Bee's uses in JEI"
+				"&o有些蜜蜂只有在特定方块上授粉才会生产蜂巢。请在JEI中查阅蜜蜂用途&o有些蜜蜂需要特定区域。请在JEI中查看蜜蜂的用途"
 			]
 			dependencies: ["3F36E50C28A504B6"]
 			hide: true
@@ -470,14 +470,14 @@
 			}]
 		}
 		{
-			title: "&o:clay::interrobang::interrobang:"
+			title: "&o粘土？！？！"
 			x: 6.0d
 			y: -2.5d
-			subtitle: "Get Clay Comb"
+			subtitle: "获得黏土蜂巢"
 			description: [
-				"Clay cannot be found in this environment, but I can make some myself with &6Blood Magic&r (or my minions can after some research)."
+				"在这种环境下无法找到黏土，但我可以用&6血魔法&r自己制造一些（或者我的仆从在研究后可以）。"
 				""
-				"&bClay bees&r make &bClay Combs&r which make &bClay&r. Very Balanced."
+				"&b黏土蜜蜂&r制造&b黏土蜂巢&r，可以制作&b黏土&r。非常平衡。"
 			]
 			dependencies: [
 				"0BEBDF5D45C3425F"
@@ -504,14 +504,14 @@
 			}]
 		}
 		{
-			title: "Arachnophobia"
+			title: "蛛网恐惧症"
 			x: 7.5d
 			y: -2.5d
-			subtitle: "Get Silky Comb"
+			subtitle: "获得丝滑蜂巢"
 			description: [
-				"Finally, I've eliminated the need for me to interact with the Spiders here."
+				"最后，我已经消除了在这里与蜘蛛互动的需要。"
 				""
-				"Instead, I can get my &6String&r from &bSilky Bees&r!"
+				"相反，我可以通过&b丝滑蜜蜂&r得到&6线&r！"
 			]
 			dependencies: ["192BD908D0490280"]
 			dependency_requirement: "one_started"
@@ -543,11 +543,11 @@
 			]
 		}
 		{
-			title: "Glitter Bug"
+			title: "闪闪发光的虫"
 			x: 4.5d
 			y: -4.0d
-			subtitle: "Get Glowing Comb"
-			description: ["The Crystalline Bee can be mutated with &6Glowstone&r to create the &bGlowing Bee&r."]
+			subtitle: "获得发光蜂巢"
+			description: ["结晶蜜蜂可以用&6荧石&r变异，创造&b发光蜜蜂&r。"]
 			dependencies: ["10361F5EB98FF639"]
 			id: "6AE4F0562D208882"
 			tasks: [{
@@ -578,11 +578,11 @@
 			]
 		}
 		{
-			title: "BeeDazzled"
+			title: "蜂鸣器"
 			x: 6.0d
 			y: -4.0d
-			subtitle: "Get Redstone Comb"
-			description: ["The &bRedstone Bee&r makes &bRedstone Combs&r."]
+			subtitle: "获得红石蜂巢"
+			description: ["&b红石蜜蜂&r产出&b红石蜂巢&r。"]
 			dependencies: ["6AE4F0562D208882"]
 			id: "3B62443251DC29C5"
 			tasks: [{
@@ -612,15 +612,15 @@
 			]
 		}
 		{
-			title: "The Birds and Bees, Sans Birds"
+			title: "两只小蜜蜂，飞在花丛中"
 			icon: "productivebees:catcher"
 			x: 0.0d
 			y: 1.0d
-			subtitle: "Make a Catcher"
+			subtitle: "制作捕捉器"
 			description: [
-				"I'll &6need a large amount of Bees&r to experiment on. I'll have to start breeding them."
+				"我需要大量蜜蜂来进行实验。我将不得不繁殖它们。"
 				""
-				"The &bCatcher&r will catch Bees into &bBee Cages&r, if they get close enough. They can be &6lured with a flower&r planted on top."
+				"&b捕捉器&r会在蜜蜂足够接近时，把它们抓进&b蜜蜂笼&r里。可以在顶上&6种花&r。"
 			]
 			dependencies: [
 				"6E63506CA6262292"
@@ -647,11 +647,11 @@
 			}]
 		}
 		{
-			title: "I've Pollen In Love"
+			title: "我坠入爱粉"
 			x: 1.5d
 			y: -5.5d
-			subtitle: "Make a Feeding Slab"
-			description: ["Certain bees may &6require feeding&r. This can be done by placing the feeding items into the &bFeeding Slab&r."]
+			subtitle: "制作饲养台阶"
+			description: ["某些蜜蜂可能&5需要喂食&r。这可以通过将喂食物放入&b饲养台阶&r来完成。"]
 			dependencies: ["66FD735570C5960E"]
 			hide: true
 			id: "632BA587721B96BD"
@@ -667,7 +667,7 @@
 			}]
 		}
 		{
-			title: "Heavy Metal"
+			title: "重金属"
 			icon: {
 				id: "productivebees:configurable_honeycomb"
 				Count: 1b
@@ -679,11 +679,11 @@
 			}
 			x: 4.5d
 			y: -1.0d
-			subtitle: "Get Iron, Copper, and Tin Combs"
+			subtitle: "获得铁、铜和锡蜂巢"
 			description: [
-				"Lazy minions need things like &osleep&r and &ofood&r, and won't mine without those."
+				"懒惰的仆从需要&o睡觉&r和&o食物&r，没有这些就不会挖矿。"
 				""
-				"Bees do not have this problem. I've managed to crossbreed bees that produce &bIron, Copper, and Tin Combs&r."
+				"蜜蜂没有这些问题。我已经成功地杂交出了能生产&b铁、铜和锡蜂巢&r的蜜蜂。"
 			]
 			dependencies: ["10361F5EB98FF639"]
 			min_width: 225
@@ -745,15 +745,15 @@
 			]
 		}
 		{
-			title: "Capitalism"
+			title: "资本主义"
 			icon: "reliquary:fortune_coin"
 			x: 6.0d
 			y: -1.0d
-			subtitle: "Get Gold and Silver Combs"
+			subtitle: "获得金、银蜂巢"
 			description: [
-				"I've bred Bees that produce &bGold and Silver Combs&r!"
+				"我培育的蜜蜂能生产&b金、银蜂巢&r！"
 				""
-				"I'd be &nrich&r if I wasn't stuck in this hellscape."
+				"如果我没有困在这个地狱，我就会很富有。"
 			]
 			dependencies: ["745ADB94CC001843"]
 			id: "6830F71EA658A539"
@@ -761,7 +761,7 @@
 				{
 					id: "4D701F20CC3645D0"
 					type: "item"
-					title: "Gold Comb"
+					title: "金蜂巢"
 					item: {
 						id: "productivebees:configurable_honeycomb"
 						Count: 1b
@@ -775,7 +775,7 @@
 				{
 					id: "5FF2A784D03251F2"
 					type: "item"
-					title: "Silver Comb"
+					title: "银蜂巢"
 					item: {
 						id: "productivebees:configurable_honeycomb"
 						Count: 1b
@@ -810,7 +810,7 @@
 			]
 		}
 		{
-			title: "Are You Ready To Gem....."
+			title: "准备好宝石……"
 			icon: {
 				id: "productivebees:configurable_honeycomb"
 				Count: 1b
@@ -822,8 +822,8 @@
 			}
 			x: 3.0d
 			y: 6.5d
-			subtitle: "To The Music?"
-			description: ["These jewel-encrusted buzzy buddies work much faster than any mining minion to produce precious stones not found here in the hellscape."]
+			subtitle: "来点音乐？"
+			description: ["这些镶嵌着珠宝的嗡嗡伙伴们工作起来比任何采矿的矿工都要快得多，可以生产出地狱里没有的珍贵宝石。"]
 			dependencies: [
 				"048A2EFCD2F57B26"
 				"62AE8C9FDBAF16D1"
@@ -832,7 +832,7 @@
 			tasks: [{
 				id: "65648890C6597E9C"
 				type: "item"
-				title: "Combs"
+				title: "蜂巢"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -874,7 +874,7 @@
 			]
 		}
 		{
-			title: "Jellies and Jam"
+			title: "果冻与果酱"
 			icon: {
 				id: "productivebees:configurable_honeycomb"
 				Count: 1b
@@ -886,11 +886,11 @@
 			}
 			x: 3.0d
 			y: 3.5d
-			subtitle: "Get Slimy Comb"
+			subtitle: "获得史莱姆蜂巢"
 			description: [
-				"Using Reed Bees as a base, I can make 4 kinds of &bSlimy Bee&r."
+				"以甘蔗蜜蜂为基础，我可以制作4种&b史莱姆蜜蜂&r。"
 				""
-				"Spawned with an Egg, their &bCombs&r can make the 4 varieties of Slime."
+				"通过喂鸡蛋给甘蔗蜜蜂就能得到史莱姆蜜蜂，他们的&b蜜脾&r可以用来合成4种粘液。"
 			]
 			dependencies: ["4C9C45971DFE037E"]
 			id: "62AE8C9FDBAF16D1"
@@ -898,7 +898,7 @@
 				{
 					id: "5F5151E36DCC0484"
 					type: "item"
-					title: "Slimy Combs"
+					title: "黏糊糊的蜜脾"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -947,7 +947,7 @@
 				{
 					id: "598511BA9DBA0A9C"
 					type: "item"
-					title: "Slimy Bee Spawn Eggs"
+					title: "史莱姆蜜蜂刷怪蛋"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -1008,14 +1008,14 @@
 			]
 		}
 		{
-			title: "BeeDeviled Eggs"
+			title: "蜜蜂魔鬼蛋"
 			x: 1.5d
 			y: 3.5d
-			subtitle: "Make a Reed Bee Spawn Egg"
+			subtitle: "制作甘蔗蜜蜂刷怪蛋"
 			description: [
-				"Not all species of Bee require mutating or breeding existing ones. Instead, I can &6make entirely new species from scratch&r."
+				"并非所有种类的蜜蜂都需要靠现有蜜蜂变异或繁殖。相反，可以&6从头开始制造全新物种&r。"
 				""
-				"Various species must be spawned from &bSpawn Eggs&r, such as the &bReed Bee&r."
+				"各个物种必须从&b刷怪蛋&r中生成，例如&b甘蔗蜜蜂&r。"
 			]
 			dependencies: ["6E63506CA6262292"]
 			id: "4C9C45971DFE037E"
@@ -1038,11 +1038,11 @@
 			]
 		}
 		{
-			title: "Liquid Gold"
+			title: "液态黄金"
 			x: 0.0d
 			y: -0.5d
-			subtitle: "Make a Bottler"
-			description: ["Placing the &bBottler&r adjacent to the Centrifuge will allow me to &6collect the liquid Honey into bottles&r."]
+			subtitle: "做个装瓶机"
+			description: ["在离心机旁放置&b装瓶机&r，&6就可以把液态蜂蜜收集到瓶子里&r。"]
 			dependencies: ["3F36E50C28A504B6"]
 			hide: true
 			id: "323F12FEB98B4F62"
@@ -1067,7 +1067,7 @@
 			]
 		}
 		{
-			title: "Barking Up The Right Tree"
+			title: "找对了目标"
 			icon: {
 				id: "productivebees:wood_chip"
 				Count: 1b
@@ -1077,13 +1077,13 @@
 			}
 			x: 1.5d
 			y: 5.0d
-			subtitle: "Get Wood Chips"
+			subtitle: "获得木屑"
 			description: [
-				"Reed Bees can be mutated into two types of &6Carpenter Bees&r which, when crossbred, create &bLumber Bees&r."
+				"甘蔗蜜蜂可以变异成两种类型的&6木匠蜜蜂&r，两者杂交时，会产生&b木料蜜蜂&r。"
 				""
-				"Lumber bees will &6feed off nearby Logs&r, producing &bWood Chips&r when they return to the Hive. I can also place them in a &6Feeding Slab&r."
+				"木料蜜蜂&6以附近的原木为食&r，回到蜂房时产出&b木屑&r。也可以把它们放在&6饲养台阶&r里。"
 				""
-				"9 Wood Chips make a Log. I can install the &6Upgrade: Block&r into the Hive, and the Bee will produce the Log instead of Chips!"
+				"9个木屑制作一个原木。可以在蜂房内安装&6升级：成块&r，然后蜜蜂就会生产原木而不是木屑！"
 			]
 			dependencies: ["4C9C45971DFE037E"]
 			min_width: 275
@@ -1091,7 +1091,7 @@
 			tasks: [{
 				id: "3D175411AD790565"
 				type: "item"
-				title: "Wood Chips"
+				title: "木屑"
 				item: {
 					id: "itemfilters:id_regex"
 					Count: 1b
@@ -1114,7 +1114,7 @@
 			]
 		}
 		{
-			title: "Taken for Granite"
+			title: "当成花岗岩"
 			icon: {
 				id: "productivebees:stone_chip"
 				Count: 1b
@@ -1124,18 +1124,18 @@
 			}
 			x: 1.5d
 			y: 6.5d
-			subtitle: "Don't Take Me For Granite"
+			subtitle: "别当我是花岗岩"
 			description: [
-				"Crossbreeding the &6Digger Bee&r with the &6Chocolate Mining Bee&r produces the &bQuarry Bee&r!"
+				"杂交&6挖掘蜜蜂&r和&6巧克力采掘蜜蜂&r可得&b采石蜜蜂&r！"
 				""
-				"Like the Lumber Bee, it generates &bChips&r from nearby Stone/Dirt/Gravel/etc-like blocks nearby."
+				"就像木料蜜蜂，它在石头/泥土/沙砾附近产出&b碎片&r。"
 			]
 			dependencies: ["6E63506CA6262292"]
 			id: "42DF558E9F1D033B"
 			tasks: [{
 				id: "37E7B72F558E33B4"
 				type: "item"
-				title: "Stone/Dirt Chips"
+				title: "石/泥屑"
 				item: {
 					id: "itemfilters:id_regex"
 					Count: 1b
@@ -1160,11 +1160,11 @@
 			]
 		}
 		{
-			title: "Silicomb Valley"
+			title: "硅巢"
 			x: 7.5d
 			y: 5.0d
-			subtitle: "Get Silicon Comb"
-			description: ["While I'm delegating, I might as well automate &bSilicon&r as well."]
+			subtitle: "获得硅蜂巢"
+			description: ["当我委派时，也可以自动化生产&b硅&r。"]
 			dependencies: [
 				"4C35566F7A3F95BE"
 				"3E392F9CDDC08B3E"
@@ -1199,14 +1199,14 @@
 			]
 		}
 		{
-			title: "May The Certus Quartz Bee With You"
+			title: "愿赛特斯石英蜜蜂与你同在"
 			x: 6.0d
 			y: 5.0d
-			subtitle: "Get Spatial Comb"
+			subtitle: "获得空间蜂巢"
 			description: [
-				"Making &6Certus Quartz&r in the Mixing Cauldron is much too laborious."
+				"在混合坩埚中制作&6赛特斯石英&r很费劲。"
 				""
-				"The &bSpatial Bee&r will create &6Certus Quartz Seeds&r for me to grow."
+				"&b空间蜜蜂&r会创造&6赛特斯石英种子&r供种植。"
 			]
 			dependencies: [
 				"3158D1E94F372613"
@@ -1233,11 +1233,11 @@
 			}]
 		}
 		{
-			title: "Digital Age"
+			title: "空间时代"
 			x: 9.0d
 			y: 5.0d
-			subtitle: "Get Fluix Comb"
-			description: ["While my normal Bees can only produce items from the natural world, my &bFluix Bee&r can create highly advanced technology!"]
+			subtitle: "获得福鲁伊克斯蜂巢"
+			description: ["虽然普通蜜蜂只能生产自然界里的物品，但&b福鲁伊克斯蜜蜂&r可以创造极先进的技术！"]
 			dependencies: ["5A5AA71C6F4E2C36"]
 			id: "5F792A2629A744EA"
 			tasks: [{
@@ -1269,14 +1269,14 @@
 			]
 		}
 		{
-			title: "It's Getting Hot In Here"
+			title: "这里变热了"
 			x: 0.0d
 			y: 5.0d
-			subtitle: "Get Blazing Comb"
+			subtitle: "获得烈焰蜂巢"
 			description: [
-				"When Nomad Bees are &6bred with Magmatic Bees&r, it results in a &bBlazing Bee&r."
+				"若流浪者蜜蜂&6与熔岩蜜蜂杂交&r，就会产生烈焰蜜蜂。"
 				""
-				"Their &bBlazing Combs&r are highly useful as they &6create Blaze Powder&r!"
+				"它们的&b烈焰蜂巢&r非常有用，可以制造&6烈焰粉&r！"
 			]
 			dependencies: ["3874307556D72539"]
 			id: "0F9D9709FCF34D04"
@@ -1300,14 +1300,14 @@
 			}]
 		}
 		{
-			title: "Fruits Of A Volcanic Passion"
+			title: "火山般热情的果实"
 			x: -1.5d
 			y: 5.0d
-			subtitle: "Get Obsidian Comb"
+			subtitle: "获得黑曜石蜂巢"
 			description: [
-				"It's not only the Nomads that are vying for the &6Magmatic Bees'&r affections."
+				"不只有流浪者蜜蜂在争夺&6熔岩蜜蜂&r的感情。"
 				""
-				"When bred with Sweat Bees, the resulting offspring generates &bObsidian Comb&r."
+				"若与汗蜂杂交，后代会生产&b黑曜石蜂巢&r。"
 			]
 			dependencies: ["2D6DAE3B68710E72"]
 			id: "0AA93EDE5993F0C8"
@@ -1332,11 +1332,11 @@
 			}]
 		}
 		{
-			title: "Productivibee"
+			title: "多产蜜蜂"
 			x: -1.5d
 			y: -5.0d
-			subtitle: "Make the Upgrade: Productivity"
-			description: ["The &bUpgrade: Productivity&r will &6more than double the Comb output&r of my bees! I can even install multiple!"]
+			subtitle: "制作升级：产量"
+			description: ["&b升级：产量&r将使蜜蜂&6产出超过两倍的蜂巢&r！甚至可以安装多个！"]
 			dependencies: ["15800C5913A3F4E4"]
 			id: "19900AFE2EF00451"
 			tasks: [{
@@ -1346,15 +1346,15 @@
 			}]
 		}
 		{
-			title: "Babee Monitor"
+			title: "幼蜂监测仪"
 			icon: "productivebees:upgrade_breeding"
 			x: -4.5d
 			y: -3.0d
-			subtitle: "Make the BaBee Upgrades"
+			subtitle: "制作幼蜂升级"
 			description: [
-				"The &bUpgrade: BaBee&r, when installed in Hives, will provide a chance of &6automatically breeding bees&r."
+				"&b升级：幼蜂&r安装在蜂巢中时，将提供&6自动繁殖蜜蜂&r的机会。"
 				""
-				"When installed in a Catcher, it will only catch baby Bees. The &bnot BaBee&r upgrade does the opposite."
+				"安装在捕捉器上时，它只会捕捉幼蜂。&b非幼蜂&r升级则相反。"
 			]
 			dependencies: ["15800C5913A3F4E4"]
 			id: "648318651A33AAE2"
@@ -1372,11 +1372,11 @@
 			]
 		}
 		{
-			title: "I Hive The Need, the Need for Speed"
+			title: "蜂房需要，需要速度"
 			x: -3.0d
 			y: -5.5d
-			subtitle: "Make the Upgrade: Speed"
-			description: ["The &bUpgrade: Speed&r will &6make machines faster&r, and make it so my bees &6spend less time in the hive, and more time pollinating&r."]
+			subtitle: "制作升级：速度"
+			description: ["&b升级：速度&r会&6让机器更快&r，还可以让蜜蜂&6花更少时间在蜂房里，花更多时间去授粉&r。"]
 			dependencies: ["15800C5913A3F4E4"]
 			id: "5981704F0FCD6A02"
 			tasks: [{
@@ -1386,12 +1386,12 @@
 			}]
 		}
 		{
-			title: "The Electric Stork"
+			title: "带电的送子鸟"
 			icon: "productivebees:incubator"
 			x: -1.5d
 			y: 1.0d
-			subtitle: "Make a BaBee Incubator"
-			description: ["The &bBaBee Incubator&r can &6rapidly age baby Bees&r, requiring FE and Honey Treats."]
+			subtitle: "制作幼蜂培育器"
+			description: ["&b幼蜂培育器&r能&6使幼蜂快速成熟&r，需要FE和蜂蜜小食。"]
 			dependencies: ["469639932B6829F8"]
 			hide: true
 			id: "00BBF38C1B05725F"
@@ -1416,7 +1416,7 @@
 			]
 		}
 		{
-			title: "Bee Positive"
+			title: "积极向上"
 			icon: {
 				id: "productivebees:configurable_honeycomb"
 				Count: 1b
@@ -1428,11 +1428,11 @@
 			}
 			x: 4.5d
 			y: 0.5d
-			subtitle: "Get Bloody Comb"
+			subtitle: "获得血腥蜂巢"
 			description: [
-				"You can more than Honey from a Bee, &4if you squeeze hard enough&r."
+				"你可以获得的比蜂蜜更多，&4如果你足够努力挤压&r。"
 				""
-				"The &bBloody Bee&r is a purely artificial species, containing no actual BNA. Instead, its Spawn Egg is created in the &6Blood Altar&r."
+				"&b血腥蜜蜂&r是纯粹的人造物种，不包含实际的BNA。相反，它的刷怪蛋是在&6血之祭坛&r中创造的。"
 			]
 			dependencies: ["6E63506CA6262292"]
 			id: "46B7955728697790"
@@ -1440,7 +1440,7 @@
 				{
 					id: "2208E62D54CF96CF"
 					type: "item"
-					title: "Bloody Comb"
+					title: "血腥蜂巢"
 					item: {
 						id: "productivebees:configurable_honeycomb"
 						Count: 1b
@@ -1486,7 +1486,7 @@
 			]
 		}
 		{
-			title: "Vlady The Impaler"
+			title: "穿刺王伏德勒"
 			icon: {
 				id: "productivebees:configurable_honeycomb"
 				Count: 1b
@@ -1498,13 +1498,13 @@
 			}
 			x: 6.0d
 			y: 0.5d
-			subtitle: "Get Hematophagous Comb"
+			subtitle: "获得吸血蜂巢"
 			description: [
-				"Blood is all well and good, very dramatic, but I need something more."
+				"血总是好的，很有戏剧性，但我需要更多别的。"
 				""
-				"The &bHematophagous Bee&r, created by soaking Ghostly Comb in &6Life Essence&r, creates an infinite supply of the stuff."
+				"&b吸血蜜蜂&r，通过将幽魂蜂巢浸泡在&6生命源质&r中，创造出一种无限供应的东西。"
 				""
-				"These bees will need a living sacrifice nearby as the flower for their production"
+				"需要在这些蜜蜂附近献祭，作为它们生产的花朵。"
 			]
 			dependencies: ["46B7955728697790"]
 			id: "1D0CA163CC6700CF"
@@ -1512,7 +1512,7 @@
 				{
 					id: "3C62081295BCD3A8"
 					type: "item"
-					title: "Hematophagous Comb"
+					title: "吸血蜂巢"
 					item: "inferno:lifeessence_comb"
 				}
 				{
@@ -1544,12 +1544,12 @@
 			]
 		}
 		{
-			title: "Snobby Bee Nobility"
+			title: "势利蜜蜂贵族"
 			icon: "productivebees:upgrade_bee_sampler"
 			x: -3.0d
 			y: -2.0d
-			subtitle: "Make the Upgrade: Pokey pokey gene sampler"
-			description: ["The &bPokey Pokey Gene Sampler&r upgrade will &6collect Gene Samples&r every time a Bee enters the Hive."]
+			subtitle: "制作升级：基因采样器"
+			description: ["&b基因采样器&r升级会在蜜蜂进入蜂房时&6采集基因样本&r。"]
 			dependencies: ["15800C5913A3F4E4"]
 			id: "0CC9A01BE449B7FC"
 			tasks: [{
@@ -1559,11 +1559,11 @@
 			}]
 		}
 		{
-			title: "Industrialization"
+			title: "工业化"
 			x: -1.5d
 			y: 2.25d
-			subtitle: "Make a Powered Centrifuge"
-			description: ["Once I have the power of, well, power, I can use it on the &bPowered Centrifuge&r."]
+			subtitle: "制作电力离心机"
+			description: ["一旦我有了电力，就可以在&b电力离心机&r上使用它。"]
 			dependencies: ["00BBF38C1B05725F"]
 			hide: true
 			optional: true
@@ -1589,17 +1589,17 @@
 			]
 		}
 		{
-			title: "Superior Bee Fortress"
+			title: "高级蜜蜂堡垒"
 			icon: "productivebees:expansion_box_warped"
 			x: -3.0d
 			y: -4.0d
-			subtitle: "Make an Expansion Box"
+			subtitle: "制作扩容盒"
 			description: [
-				"I can place an &bExpansion Box&r next to an Advanced Beehive to &6make it larger&r!"
+				"我可以在高级蜂房旁放置一个&b扩容盒&r，&6让它变大&r！"
 				""
-				"I can place it either on top of or next to the Hive, but I can only have one."
+				"我可以把它放在蜂房的顶部或侧边，但只能有一个。"
 				""
-				"With an Expansion Box installed, I can also &6install Upgrades&r!"
+				"安装扩展盒后，我还可以&6安装升级&r！"
 			]
 			dependencies: ["66FD735570C5960E"]
 			hide: true
@@ -1607,7 +1607,7 @@
 			tasks: [{
 				id: "192D8094C7671418"
 				type: "item"
-				title: "Expansion Boxes"
+				title: "扩容盒"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1623,19 +1623,19 @@
 			}]
 		}
 		{
-			title: "Vitamin Bee 1"
+			title: "维生素B1"
 			icon: "productivebees:gene_bottle"
 			x: -1.5d
 			y: -0.5d
-			subtitle: "Squash a Bee"
+			subtitle: "压碎蜜蜂"
 			description: [
-				"&6Every Bee is unique.&r Different bees have different attributes, which dictate how they bee-have."
+				"&6每只蜜蜂都是独一无二的。&r不同蜜蜂有不同属性，这决定了它们如何饲养。"
 				""
-				"For a full list, see the Genetics chapter of the &6Big Book of Bees&r."
+				"有关完整列表，请查阅&6Big Book of Bees&r的遗传学章节。"
 				""
-				"In order to transfer attributes from one bee to another, I'll have to &6collect the Genes&r that control them."
+				"为了将属性从一只蜜蜂转移到另一只蜜蜂，我必须&6收集控制它们的基因&r。"
 				""
-				"The first step to that is collecting... &bSmashed Bee Material&r. This is done with the following structure:"
+				"第一步是收集……&b压缩蜜蜂原料&r。这通过以下结构完成："
 				"{image:inferno:textures/quest/bee_bottler.png width:100 height:100 align:1}"
 			]
 			dependencies: ["323F12FEB98B4F62"]
@@ -1654,17 +1654,17 @@
 			}]
 		}
 		{
-			title: "Sim CiBee"
+			title: "模拟蜂房"
 			icon: "productivebees:upgrade_simulator"
 			x: -4.5d
 			y: -5.0d
-			subtitle: "Make the Upgrade: Simulator"
+			subtitle: "制作升级：模拟器"
 			description: [
-				"The &bUpgrade: Simulator&r &6removes the need for Bees to leave&r the Hive."
+				"&b升级：模拟器&r&6消除了蜜蜂离开&r蜂房&6的需要&r"
 				""
-				"Instead of pollinating with flowers in the world, they take from a &bFeeding Slab&r."
+				"它们不是为世界上的花朵授粉，而是从&b饲养台阶&r中获取。"
 				""
-				"The Feeding Slab must be placed like so:"
+				"饲养台阶必须按以下方式摆放："
 				"{image:inferno:textures/quest/bee_simulator.png width:100 height:100 align:1}"
 			]
 			dependencies: ["15800C5913A3F4E4"]
@@ -1684,7 +1684,7 @@
 			]
 		}
 		{
-			title: "Vitamin Bee12"
+			title: "维生素B12"
 			icon: {
 				id: "productivebees:gene"
 				Count: 1b
@@ -1696,13 +1696,13 @@
 			}
 			x: -3.0d
 			y: -0.5d
-			subtitle: "Collect a Gene Sample"
+			subtitle: "采集基因样本"
 			description: [
-				"I can collect &bGene Samples&r either by &6centrifuging Sqashed Bee Material&r, or by using the &6Pokey Pokey Gene Sampler&r Upgrade."
+				"我可以通过&6离心压缩蜜蜂原料&r或用&6基因采样器&r升级采集&b基因样本&r。"
 				""
-				"To transfer the collected Gene to a new Bee, I have to combine it with a &bHoney Treat&r and feed it to the Bee."
+				"为了将采集到的基因转移到新蜜蜂身上，我必须将其与&b蜂蜜小食&r结合起来，并喂给蜜蜂。"
 				""
-				"The higher the Gene purity, the more likely the gene will be accepted. Purity can be increased by combining Samples of the same Gene in the &bGene Indexer&r."
+				"基因纯度越高，被接受的可能性就越大。通过在&b基因检索器&r中合成同种基因样品，可以提高纯度。"
 			]
 			min_required_dependencies: 1
 			dependencies: [
@@ -1730,7 +1730,7 @@
 			}]
 		}
 		{
-			title: "Fly and Mighty"
+			title: "飞翔而强大"
 			icon: {
 				id: "productivebees:spawn_egg_configurable_bee"
 				Count: 1b
@@ -1742,8 +1742,8 @@
 			}
 			x: -3.0d
 			y: 1.0d
-			subtitle: "Craft a Bee Spawn Egg"
-			description: ["The BaBee Incubator has a secondary function: &6combining Eggs with Genes&r to make &bSpawn Eggs&r."]
+			subtitle: "合成蜜蜂刷怪蛋"
+			description: ["幼蜂培育器具有次要功能：&6将蛋与基因&r结合，以制作&b刷怪蛋&r。"]
 			dependencies: [
 				"15A607BCF6730944"
 				"00BBF38C1B05725F"
@@ -1752,7 +1752,7 @@
 			tasks: [{
 				id: "58728291956D4211"
 				type: "item"
-				title: "Bee Spawn Eggs"
+				title: "蜜蜂刷怪蛋"
 				item: {
 					id: "itemfilters:id_regex"
 					Count: 1b
@@ -1776,11 +1776,11 @@
 			}]
 		}
 		{
-			title: "R G Bee"
+			title: "R！G！Bee！"
 			x: 7.5d
 			y: -4.0d
-			subtitle: "Get Lapis Comb"
-			description: ["The &bLapis Bee&r makes &bLapis Combs&r."]
+			subtitle: "获得青金石蜂巢"
+			description: ["&b青金石蜜蜂&r制造&b青金石蜂巢&r。"]
 			dependencies: ["3B62443251DC29C5"]
 			id: "5FBE7996AC78B7CD"
 			tasks: [{
