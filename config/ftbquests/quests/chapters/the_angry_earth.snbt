@@ -3,9 +3,9 @@
 	group: "24F72A50D728E97E"
 	order_index: 0
 	filename: "the_angry_earth"
-	title: "To Reach Beyond"
+	title: "超越！"
 	icon: "create:handheld_worldshaper"
-	subtitle: ["Avaritia"]
+	subtitle: ["贪婪"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -13,8 +13,8 @@
 			x: -1.0d
 			y: 0.5d
 			shape: "square"
-			subtitle: "Make a Creative Blaze Cake"
-			description: ["The &bCreative Blaze Cake&r will &6permanently fuel my Blaze Burners&r."]
+			subtitle: "制作创造烈焰蛋糕"
+			description: ["&b创造烈焰蛋糕&r能&6永久地超级加热我的烈焰人燃烧室&r。"]
 			dependencies: [
 				"7FE9FAFBDB354644"
 				"652CA912545038EA"
@@ -27,12 +27,12 @@
 			}]
 		}
 		{
-			title: "Massive Molecular Energy"
+			title: "超多超多分子能量"
 			x: -2.0d
 			y: 0.5d
 			shape: "square"
-			subtitle: "Make a Creative Energy Cell"
-			description: ["The &bCreative Energy Cell&r will &6provide my ME network infinite power&r."]
+			subtitle: "制作创造能量单元"
+			description: ["&b创造能量单元&r能&6为我的ME网络提供无限能源&r。"]
 			dependencies: ["652CA912545038EA"]
 			id: "24E59E06D96DB266"
 			tasks: [{
@@ -45,8 +45,8 @@
 			x: -2.0d
 			y: 1.5d
 			shape: "square"
-			subtitle: "Make a Creative Source Jar"
-			description: ["The &bCreative Source Jar&r &6contains an infinite amount of Source&r."]
+			subtitle: "制作创造魔源罐"
+			description: ["&b创造魔源罐&r&6装载着无限的魔源&r。"]
 			dependencies: ["652CA912545038EA"]
 			id: "41F0E230BEB57D63"
 			tasks: [{
@@ -59,11 +59,11 @@
 			x: -3.0d
 			y: 0.5d
 			shape: "square"
-			subtitle: "Make a Creative Blood Drop"
+			subtitle: "制作创造血源"
 			description: [
-				"By combining the essence of gluttony with a near endless amount of LP, I've created the &bCreative Blood Drop&r."
+				"我将饕餮精华和巨量的LP组合在一起终于做出了&b创造血源&r。"
 				""
-				"This amazing item &6contains an infinite amount of blood&r, able to be drained continuously until the end of time."
+				"它可以&6容纳无限多的鲜血&r，多到能够一直使用到时间的尽头。"
 			]
 			dependencies: ["652CA912545038EA"]
 			id: "167E92A9F512EAB0"
@@ -91,15 +91,15 @@
 			}]
 		}
 		{
-			title: "Power Unending"
+			title: "无穷的力量"
 			x: -3.0d
 			y: 1.5d
 			shape: "square"
-			subtitle: "Make a Creative Spell Book"
+			subtitle: "制造一本创造模式咒语书"
 			description: [
-				"With the power of infinity, I can create a grimoire beyond any other."
+				"借助无限的力量，我可以创造出超越一切的魔典"
 				""
-				"The &bCreative Spell Book&r has &6access to every Glyph&r possible, as well as &6boosted max mana and mana regen&r."
+				"&b创造模式咒语书&r能够&6使用所有魔符&r，同时也让我有了&6最大的魔力与魔力再生速度&r。"
 			]
 			dependencies: ["652CA912545038EA"]
 			id: "3D53054987A2F5F0"
@@ -110,15 +110,15 @@
 			}]
 		}
 		{
-			title: "Perpetual Motion"
+			title: "永动机！"
 			x: -3.0d
 			y: 2.5d
 			shape: "square"
-			subtitle: "Make a Creative Motor"
+			subtitle: "制作创造模式马达"
 			description: [
-				"The &bCreative Motor&r is able to &6generate an infinite amount of rotational force&r."
+				"&b创造模式马达&r可以&6产生无限的旋转力&r。"
 				""
-				"I can use this to get &6infinite FE/:zap: using an Alternator&r!"
+				"我能用他配合交流发电机获得&6无限FE还是Zaps能量&r！"
 			]
 			dependencies: ["652CA912545038EA"]
 			id: "2F57328373DF4196"
@@ -129,12 +129,12 @@
 			}]
 		}
 		{
-			title: "Let's Get Creative!"
+			title: "让我们发挥创意！"
 			x: -2.0d
 			y: 2.5d
 			shape: "square"
-			subtitle: "Make a Creative Ability"
-			description: ["The &bCreative Ability&r can be applied to my Tinkers' tools to &6add an ability slot&r."]
+			subtitle: "制作一个创造能力强化"
+			description: ["&b创造能力强化&r可以给我的匠魂工具&6增加一个升级槽&r。"]
 			dependencies: ["652CA912545038EA"]
 			id: "42F524A88232672C"
 			tasks: [{
@@ -170,13 +170,13 @@
 			x: -1.0d
 			y: 2.5d
 			shape: "square"
-			subtitle: "Make a Creative Worldshaper"
+			subtitle: "制作一个创造模式环境塑形器"
 			description: [
-				"The &bCreative Worldshaper&r is the ultimate tool to bend the world to my will."
+				"&b创造模式环境塑形器&r可以让我按照我的意志来任意改造世界。"
 				""
-				"With it, I can &6place blocks freely&r, without having them in my inventory."
+				"我可以用它来&6随意放置任何方块&r，甚至我背包里都不需要有它们。"
 				""
-				"While placed blocks are not taken, &cbroken blocks are not given&r either. Blocks broken are permanently lost."
+				"但这个工具并不能真正做到无中生有，&c我不能获得它放置的方块&r，因为方块一旦被破坏，他们就永远消失了。"
 			]
 			dependencies: ["652CA912545038EA"]
 			id: "0966630DAB07735A"
@@ -194,8 +194,8 @@
 			x: -1.0d
 			y: 1.5d
 			shape: "square"
-			subtitle: "Make an Apotheotic Boss Summoner&r"
-			description: ["By using the &bApotheotic Boss Summoner&r, I am able to &6summon forth a boss enemy to fight&r."]
+			subtitle: "制作一个神化Boss召唤器&r"
+			description: ["使用&b神化Boss召唤器&r，我可以&6召唤一个Boss敌人来战斗&r。"]
 			dependencies: [
 				"7FE9FAFBDB354644"
 				"652CA912545038EA"
@@ -217,8 +217,8 @@
 			x: -2.0d
 			y: -0.5d
 			shape: "square"
-			subtitle: "Quantum Energy"
-			description: ["The Creative Battery can provide limitless Zaps Energy to a power supplier or keep charged equipment topped off indefinitely!"]
+			subtitle: "量子能量"
+			description: ["创造模式电池可以无限提供Zaps能量，也可以为你的装备进行充能！"]
 			dependencies: ["652CA912545038EA"]
 			optional: true
 			id: "6200E4452551CC6C"

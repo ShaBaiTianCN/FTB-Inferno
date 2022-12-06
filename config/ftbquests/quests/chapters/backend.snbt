@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 1
 	filename: "backend"
-	title: "Backend"
+	title: "后端"
 	icon: "minecraft:command_block"
 	always_invisible: true
 	default_quest_shape: ""
@@ -20,10 +20,10 @@
 			}]
 		}
 		{
-			title: "Iron unlocked"
+			title: "“铁器”阶段解锁"
 			x: -4.0d
 			y: -1.0d
-			description: ["For tooltips"]
+			description: ["工具提示"]
 			dependencies: [
 				"624DDC11A0969722"
 				"2CD5241DDDC9F473"
@@ -43,10 +43,10 @@
 			}]
 		}
 		{
-			title: "Bees unlocked"
+			title: "“忙碌的蜜蜂”阶段解锁"
 			x: -3.0d
 			y: -1.0d
-			description: ["For tooltips"]
+			description: ["工具提示"]
 			dependencies: [
 				"6DF116C5D533A28D"
 				"4B52BBBF01CDF027"
@@ -66,10 +66,10 @@
 			}]
 		}
 		{
-			title: "Summon a Foliot task"
+			title: "召唤魔精任务"
 			x: -4.5d
 			y: 0.0d
-			description: ["specifically checks if the TASK \"summon a foliot\" is completed, then completes the other task, as it isn't possible"]
+			description: ["尤其检查任务“召唤魔精”是否完成，然后完成另一个任务，尽管这可能性不大"]
 			dependencies: ["6B70D3FC43112609"]
 			id: "0164FBCDD69CB549"
 			tasks: [{
@@ -87,10 +87,10 @@
 			}]
 		}
 		{
-			title: "observe a familiar task"
+			title: "观察使魔任务"
 			x: -3.5d
 			y: 0.0d
-			description: ["specifically checks if the TASK \"observe a familiar\" is completed, then completes the other task, as it isn't possible"]
+			description: ["尤其检查任务“观察使魔”是否完成，然后完成另一个任务，尽管这可能性不大"]
 			dependencies: ["623CE6525A26D46F"]
 			id: "4D134821D6B0637F"
 			tasks: [{
@@ -107,7 +107,7 @@
 			}]
 		}
 		{
-			title: "Ars Unlocked"
+			title: "“Ars”阶段解锁"
 			x: -2.5d
 			y: 0.0d
 			dependencies: [
@@ -130,7 +130,7 @@
 			}]
 		}
 		{
-			title: "Faustian Bargains Unlocked"
+			title: "“浮士德式的交易”阶段解锁"
 			x: -4.0d
 			y: -2.0d
 			dependencies: [
@@ -150,12 +150,12 @@
 				id: "42A5632B118240F5"
 				type: "command"
 				auto: "invisible"
-				command: "/tellraw @p [\"\",\"Unlocked the chapter\",{\"text\":\"Faustian Bargains \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Mephistopheles' Anger\",\"color\":\"dark_aqua\"},\"!\"]"
+				command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"Faustian Bargains\",\"color\":\"dark_purple\"},\" under \",{\"text\":\"Mephistopheles' Anger\",\"color\":\"dark_aqua\"},\"!\"]"
 				player_command: false
 			}]
 		}
 		{
-			title: "Spellcrafting 101 Unlocked"
+			title: "“Spellcrafting_101”阶段解锁"
 			x: -3.0d
 			y: -2.0d
 			dependencies: [
@@ -173,12 +173,12 @@
 				id: "2211254156522D72"
 				type: "command"
 				auto: "invisible"
-				command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Spellcrafting 101\",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Mephistopheles' Anger\",\"color\":\"dark_aqua\"},\"!\"]"
+				command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"Spellcrafting 101\",\"color\":\"dark_purple\"},\" under \",{\"text\":\"Mephistopheles' Anger\",\"color\":\"dark_aqua\"},\"!\"]"
 				player_command: false
 			}]
 		}
 		{
-			title: "Kill Something"
+			title: "击杀生物"
 			x: 0.0d
 			y: -1.0d
 			id: "02DC6172CAC06ACB"
@@ -192,12 +192,12 @@
 		{
 			x: 1.0d
 			y: -1.0d
-			description: ["time in ticks"]
+			description: ["以tick（游戏刻）计算时长"]
 			id: "5599BD781752AE48"
 			tasks: [{
 				id: "0460BEDCE08DEF5F"
 				type: "stat"
-				title: "Play for 15 hours"
+				title: "游玩15个小时"
 				stat: "minecraft:play_time"
 				value: 1080000
 			}]
@@ -210,7 +210,7 @@
 				{
 					id: "02DEFCED32D1976B"
 					type: "command"
-					command: "/tellraw @p \"Have a friend!\""
+					command: "/tellraw @p \"送你一个朋友！\""
 					player_command: false
 				}
 			]

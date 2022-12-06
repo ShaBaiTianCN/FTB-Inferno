@@ -3,9 +3,9 @@
 	group: "7044F2C841148E69"
 	order_index: 5
 	filename: "djinns_and_dragons"
-	title: "Djinns and Dragons"
+	title: "神明与巨龙"
 	icon: "apotheosis:boss_summoner"
-	subtitle: ["Apotheosis, misc dungeon stuff"]
+	subtitle: ["神化与多样的地牢道具"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -13,11 +13,11 @@
 			x: -2.0d
 			y: 0.5d
 			shape: "square"
-			subtitle: "Make a Socket Sigil"
+			subtitle: "制作镶孔符石"
 			description: [
-				"The &bSocket Sigil&r is a magic tool that allows me to &6add Gem Sockets to tools&r."
+				"这个&b镶孔符石&r作为一件魔法道具允许我&6向工具添加宝石插槽&r。"
 				""
-				"I &6can reroll&r, but rerolling &ccan go down instead of up&r."
+				"我&6可以刷新它&r，但是刷新后也可能变得更糟&r。"
 			]
 			dependencies: [
 				"571BC20E3675397C"
@@ -37,24 +37,24 @@
 			}]
 		}
 		{
-			title: "Why Won't It End?"
+			title: "它为什么不肯停下？"
 			x: -3.25d
 			y: -1.5d
 			shape: "square"
-			subtitle: "Locate a Spawner"
+			subtitle: "找到一个刷怪笼"
 			description: [
-				"I &ccannot break&r these accursed &bSpawners&r, no matter how I try!"
+				"我&c无法破坏&r这些被诅咒的&b刷怪笼&r，无论我怎样去尝试！"
 				""
-				"If I want to disable these, I'll have to either cage them in, or &6use Soul Shards&r to empty the Spawner."
+				"如果我想要让它们停下来，我要么把它们封闭起来，或者&6使用灵魂碎片&r置空刷怪笼。"
 				""
-				"I can also &6move them with Transposers&r, once I'm able to make them."
+				"我也可以&6通过传送器移动刷怪笼&r，当我有能力制造的它的时候。"
 			]
 			dependencies: ["02DC6172CAC06ACB"]
 			id: "03DA4241BF911A29"
 			tasks: [{
 				id: "140D3257645D5419"
 				type: "observation"
-				title: "Observe a Spawner"
+				title: "观察一个刷怪笼"
 				icon: "minecraft:spawner"
 				timer: 0L
 				observe_type: 0
@@ -62,15 +62,15 @@
 			}]
 		}
 		{
-			title: "Apotheotic Enchanting"
+			title: "神化附魔"
 			x: -0.75d
 			y: -1.5d
 			shape: "square"
-			subtitle: "Make an Enchanting Table"
+			subtitle: "制作一个附魔台"
 			description: [
-				"I am learned enough to access deeper power from the &bEnchanting Table&r."
+				"我已经从&b附魔台&r中学到了足够多的知识从而获得更深层次的力量。"
 				""
-				"There are many new mechanics, which I can read about in &6Chronicles of Shadows&r &o(which can be found in Dante's Divine Libram)."
+				"它带给我许多新的附魔，我可以从&6阴影编年史&r中阅读相关的知识&o（可以从但丁的神圣图书馆中找到）。"
 			]
 			dependencies: ["4E4DCF7B00B213EC"]
 			id: "318744180DDAD470"
@@ -81,20 +81,20 @@
 			}]
 		}
 		{
-			title: "Enchanting Stats"
+			title: "附魔属性"
 			icon: "minecraft:pink_candle"
 			x: -1.0d
 			y: -0.75d
 			shape: "square"
-			subtitle: "Learn about enchanting stats"
+			subtitle: "学习附魔属性的知识"
 			description: [
-				"Enchantments are decided on more than just levels. There are certain stats that can be improved by placing certain blocks nearby:"
+				"附魔不仅仅取决于等级。在附魔台附近放置某些方块可以提升某些附魔属性："
 				""
-				"• &bEterna&r: Controls the level - &6the most important stat"
-				"• &bQuanta&r: Can randomly increase or decrease the level"
-				"• &bArcana&r: Makes rare enchantments more likely"
-				"• &bRecification&r: Function of Quanta, more is better"
-				"• &bEnchanting Clues&r: Shows more enchantments"
+				"• &b位阶&r：控制等级-&6最为重要的属性&r"
+				"• &b量子化&r：可以随机提升或降低最终附魔等级"
+				"• &b阿卡那&r：使稀有附魔更为常见"
+				"• &b校准&r：用于调整量子化的效果，越多越好"
+				"• &b魔咒线索&r：预览更多的附魔属性"
 			]
 			dependencies: ["318744180DDAD470"]
 			size: 0.5d
@@ -104,7 +104,7 @@
 				{
 					id: "40D6AEF17CB03C31"
 					type: "item"
-					title: "Eterna"
+					title: "位阶"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -205,7 +205,7 @@
 				{
 					id: "5171DD739838186A"
 					type: "item"
-					title: "Quanta"
+					title: "量子化"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -266,7 +266,7 @@
 				{
 					id: "4679722CA1BE310E"
 					type: "item"
-					title: "Arcana"
+					title: "阿卡那"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -375,7 +375,7 @@
 				{
 					id: "69875452D31A74E2"
 					type: "item"
-					title: "Rectification"
+					title: "校准"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -408,7 +408,7 @@
 				{
 					id: "655DEDFFBC3A5D70"
 					type: "item"
-					title: "Clues"
+					title: "线索"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -447,18 +447,18 @@
 			}]
 		}
 		{
-			title: "Tomes"
+			title: "宝典"
 			icon: "apotheosis:scrap_tome"
 			x: -0.5d
 			y: -0.75d
 			shape: "square"
-			subtitle: "Make a Tome"
+			subtitle: "制作一个宝典"
 			description: [
-				"&bEquipment Tomes&r can be enchanted like Books, but &6only accept enchantments of a specific type&r."
+				"&b装备宝典&r可以像书一样被附魔，但是&6只接受某种特殊类型的附魔&r。"
 				""
-				"Only Boot Enchantments can go on the Tome of Boots, etc."
+				"只有适配与靴子的附魔才能被附在靴子宝典上，其余同理。"
 				""
-				"The &bTome of Scrapping&r can be combined with an enchanted item in the Anvil to destroy it, &6removing half of the enchantments&r onto a new Book."
+				"&b拆解宝典&r可以与已附魔物品在铁砧上结合并将其摧毁，将&6半数的附魔&r移动到一本新的书上。"
 			]
 			dependencies: ["318744180DDAD470"]
 			size: 0.5d
@@ -467,7 +467,7 @@
 				{
 					id: "2874CE7365B1B3AB"
 					type: "item"
-					title: "Equipment Tomes"
+					title: "装备宝典"
 					item: {
 						id: "itemfilters:and"
 						Count: 1b
@@ -532,17 +532,17 @@
 			]
 		}
 		{
-			title: "Affixes"
+			title: "前缀"
 			x: -2.0d
 			y: -1.5d
 			shape: "square"
-			subtitle: "Defeat a Boss and get its Affix loot"
+			subtitle: "击败首领以获取带有前缀的战利品"
 			description: [
-				"While exploring, I was accosted by an &6incredibly dangerous, glowing foe&r. I felled it with great difficulty, and it dropped &bamazing items&r!"
+				"随着我的探索，我撞见了一个&6宏伟的地牢，伴随着闪烁着荧光的敌人&r。我使尽浑身解数才得以击败他们，然后它们掉落了一些&b令人惊讶的东西&r！"
 				""
-				"One of the items had an &bAffix&r, a modifier somewhat similar to an enchantment. They come in several tiers and types."
+				"其中之一拥有一项&b前缀&r，一种近似于附魔的修饰语。它们有几种不同的层次与类型。"
 				""
-				"I can learn more in &6Chronicle of Shadows&r &o(which can be found in Dante's Divine Libram)."
+				"我可以从&6阴影编年史&r中学习更多相关的知识&o（可以从但丁的神圣图书馆中找到）。"
 			]
 			dependencies: ["02DC6172CAC06ACB"]
 			min_width: 225
@@ -550,7 +550,7 @@
 			tasks: [{
 				id: "7ACB688C5DD4C8A7"
 				type: "custom"
-				title: "Get an item with an Affix"
+				title: "获取一个带有前缀的物品"
 				icon: {
 					id: "minecraft:golden_pickaxe"
 					Count: 1b
@@ -561,7 +561,7 @@
 			}]
 		}
 		{
-			title: "Crystal Gems"
+			title: "亮晶晶的宝石"
 			icon: {
 				id: "apotheosis:gem"
 				Count: 1b
@@ -584,11 +584,11 @@
 			x: -2.25d
 			y: -0.75d
 			shape: "square"
-			subtitle: "Find a Gem"
+			subtitle: "获得一个宝石"
 			description: [
-				"Certain Affix items have &6Sockets&r, which can have &bGems&r fitted into them."
+				"具有特定词缀的道具自带&6镶孔&r，可以使&b宝石&r镶嵌在其中。"
 				""
-				"Each Socket can hold a single Gem. Gems are inserted into socketed items using the &6Smithing Table&r."
+				"每个镶孔可以镶入一个宝石。将宝石镶入带镶孔的物品需要使用&6锻造台&r。"
 			]
 			hide_dependency_lines: true
 			min_required_dependencies: 1
@@ -601,7 +601,7 @@
 			tasks: [{
 				id: "6FC59B7C694BD9DA"
 				type: "item"
-				title: "Any Apotheosis Gem"
+				title: "任何神化宝石"
 				item: {
 					id: "apotheosis:gem"
 					Count: 1b
@@ -626,7 +626,7 @@
 			rewards: [{
 				id: "123925472F4C7387"
 				type: "command"
-				title: "Random Apotheosis Gem"
+				title: "随机神化宝石"
 				icon: {
 					id: "apotheosis:gem"
 					Count: 1b
@@ -655,8 +655,8 @@
 			x: -2.25d
 			y: -0.25d
 			shape: "square"
-			subtitle: "Make a Salvaging Table"
-			description: ["The &bSalvaging Table&r will allow me to &6descontruct an Affix tool&r into &bRarity Material&r of the appropriate tier."]
+			subtitle: "制作一个回收台"
+			description: ["&b回收台&r允许我将&6带词缀的物品拆解&r为适当层级的&b珍宝材料&r。"]
 			hide_dependency_lines: true
 			dependencies: ["5257158F43E74A41"]
 			size: 0.5d
@@ -670,7 +670,7 @@
 				{
 					id: "5652117645B7E5AA"
 					type: "item"
-					title: "Rarity Material"
+					title: "珍宝材料"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -716,13 +716,13 @@
 			x: -1.75d
 			y: -0.25d
 			shape: "square"
-			subtitle: "Make a Reforging Table"
+			subtitle: "制作一个重铸台"
 			description: [
-				"The &bReforging Table&r allows me to &6reroll the Affixes of an item&r."
+				"&b重铸台&r可以让我&6重置物品的前缀&r。"
 				""
-				"To do this, it needs some &6Gem Dust&r and 2 &6Rarity Material&r, as well as the item itself."
+				"为了实现这个，它需要一些&6宝石粉&r与两个&6珍宝材料&r，以及被重铸的物品。"
 				""
-				"Notably, I can &6reroll Affix-less items&r that I crafted myself!"
+				"尤其是我可以&6重铸&r我自己制作的&6前缀少的物品&r！"
 			]
 			dependencies: [
 				"55F26C7FB4538F7E"
@@ -759,8 +759,8 @@
 			x: -1.75d
 			y: -0.75d
 			shape: "square"
-			subtitle: "Collect Gem Dust"
-			description: ["&bGem Dust&r can be gathered by &6dropping an Anvil on a Gem&r."]
+			subtitle: "收集宝石尘"
+			description: ["&b宝石尘&r可以通过&6在宝石的上方让铁砧自由落体&r获取。"]
 			dependencies: ["68AB2F7E06DE90A2"]
 			size: 0.5d
 			id: "55F26C7FB4538F7E"

@@ -1,11 +1,11 @@
 {
 	id: "4935133BB94772E0"
 	order_index: 6
-	title: "Grapple Hook Mod Enchants"
+	title: "抓钩"
 	loot_size: 1
 	rewards: [
 		{
-			title: "Wall Running"
+			title: "飞檐走壁"
 			item: {
 				id: "minecraft:enchanted_book"
 				Count: 1b
@@ -18,7 +18,7 @@
 			}
 		}
 		{
-			title: "Double Jump"
+			title: "二段跳"
 			item: {
 				id: "minecraft:enchanted_book"
 				Count: 1b
@@ -31,7 +31,7 @@
 			}
 		}
 		{
-			title: "Sliding"
+			title: "滑行"
 			item: {
 				id: "minecraft:enchanted_book"
 				Count: 1b
