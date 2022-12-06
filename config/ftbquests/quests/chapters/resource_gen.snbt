@@ -144,15 +144,15 @@
 			dependencies: ["118612040F3AE9F7"]
 			id: "76D68C3A83E6317F"
 			tasks: [{
-			id: "3AC5A920BE7BD2EC"
-			type: "item"
-			item: "minecraft:hopper"
-			}]
-			rewards: [{
-			id: "4FD3625892EB3EC6"
-			type: "item"
-			item: "minecraft:hopper"
-			count: 4
+				id: "3AC5A920BE7BD2EC"
+				type: "item"
+				item: "minecraft:hopper"
+				}]
+				rewards: [{
+				id: "4FD3625892EB3EC6"
+				type: "item"
+				item: "minecraft:hopper"
+				count: 4
 			}]
 		}
 		{
@@ -970,66 +970,66 @@
 			subtitle: "没有什么比古朴的火山洞穴更让我喜欢了"
 			description: [
 				"看起来在熔岩垂钓和在水面垂钓有点类似。抛竿，等待咬钩，然后收竿。"
-				""
+				"" 	
 				"和在主世界类似，钓鱼有机会同时钩到&c垃圾&r和&6宝藏&r。似乎&b生物群系也是一个影响掉落的因素&r。"
 				""
 				"在左侧，我陈列出了所有不同的可以被钓到的&b垃圾&r以及它们所属的生物群系。在右侧，我以同样的方式陈列出了所有不同的可以被钓到的&b宝藏&r。"
 			]
-		dependencies: ["535BC7512F991B24"]
-		min_width: 275
-		id: "03A93EA45228E9C0"
-		tasks: [{
-		id: "28BB8F3D174C32DF"
-		type: "checkmark"
-		icon: "minecraft:lava_bucket"
-		}]
-		rewards: [{
-		id: "1617DDD95B219FA8"
-		type: "item"
-		item: {
-			id: "minecraft:splash_potion"
-			Count: 1b
-			tag: {
-			Potion: "minecraft:luck"
-			}
-		}
-		}]
-	}
-	{
-		title: "H2O，我的最爱"
-		x: -11.5d
-		y: 2.0d
-		shape: "square"
-		subtitle: "一杯冰水要我付什么钱……"
-			description: [
-				"虽然我第一次尝试将水吸到这个世界是失败的，但我知道成功就在眼前。事实证明，我的工人可以在他们的建筑物中模拟一种形式的水，因此我在渔夫小屋中稳定了一些水作为实验。"
-				""
-				"一旦我的工人通过&6渔夫小屋创造了稳定的水源&r，我的魔法将&6允许我的钓鱼竿通过这个伪水源进入我的正常现实世界&r。"
-				""
-				"不幸的是，我无法选择从哪里钓鱼或我的诱饵最终会进入哪个生物群系。不过，我会拿走我能得到的。"
-				""
-				"我已经编目了&6宝藏，垃圾和我能找到的其余东西&r的列表。"
-			]
 			dependencies: ["535BC7512F991B24"]
 			min_width: 275
-			id: "3D9659853F508B0C"
+			id: "03A93EA45228E9C0"
 			tasks: [{
-				id: "6A47F2C1BDB07B50"
+				id: "28BB8F3D174C32DF"
 				type: "checkmark"
-				icon: "minecraft:water_bucket"
+				icon: "minecraft:lava_bucket"
 			}]
-			rewards: [
-				{
-					id: "5D98A07BA1FBE07F"
-					type: "xp_levels"
-			xp_levels: 5
+			rewards: [{
+				id: "1617DDD95B219FA8"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+					Potion: "minecraft:luck"
+					}
 				}
-				{
-					id: "32905BBBBA15E777"
-					type: "item"
-					item: "farmersdelight:kelp_roll"
-				}
-			]
+			}]
+		}
+		{
+			title: "H2O，我的最爱"
+			x: -11.5d
+			y: 2.0d
+			shape: "square"
+			subtitle: "一杯冰水要我付什么钱……"
+				description: [
+					"虽然我第一次尝试将水吸到这个世界是失败的，但我知道成功就在眼前。事实证明，我的工人可以在他们的建筑物中模拟一种形式的水，因此我在渔夫小屋中稳定了一些水作为实验。"
+					""
+					"一旦我的工人通过&6渔夫小屋创造了稳定的水源&r，我的魔法将&6允许我的钓鱼竿通过这个伪水源进入我的正常现实世界&r。"
+					""
+					"不幸的是，我无法选择从哪里钓鱼或我的诱饵最终会进入哪个生物群系。不过，我会拿走我能得到的。"
+					""
+					"我已经编目了&6宝藏，垃圾和我能找到的其余东西&r的列表。"
+				]
+				dependencies: ["535BC7512F991B24"]
+				min_width: 275
+				id: "3D9659853F508B0C"
+				tasks: [{
+					id: "6A47F2C1BDB07B50"
+					type: "checkmark"
+					icon: "minecraft:water_bucket"
+				}]
+				rewards: [
+					{
+						id: "5D98A07BA1FBE07F"
+						type: "xp_levels"
+						xp_levels: 5
+					}
+					{
+						id: "32905BBBBA15E777"
+						type: "item"
+						item: "farmersdelight:kelp_roll"
+					}
+				]
 		}
 		{
 			title: "水中的宝藏"
