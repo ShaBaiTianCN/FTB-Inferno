@@ -3,24 +3,24 @@
 	group: "0674F87ECC0536DF"
 	order_index: 0
 	filename: "fertile_wastes"
-	title: "Fertile Wastes"
+	title: "富集废料"
 	icon: "farmersdelight:nether_salad"
-	subtitle: ["Crop farming"]
+	subtitle: ["作物种植"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: 8.0d
 			y: -4.5d
-			subtitle: "Literally watching grass grow."
+			subtitle: "让草生长出来（字面意思）"
 			description: [
-				"Like everything else here, Dirt is infertile. I have to convert it into &bRich Soil&r before it can be used for farming."
+				"就像这里的其他东西一样，泥土是不能再生的。在它被用来耕种之前，我必须把它变成&b沃土&r。"
 				""
-				"Organic Compost converts into Rich Soil over time. Surrounding it with &6Mycelium&r and the like will hurry this process up."
+				"随着时间的推移，有机堆肥会转化为沃土。用&6菌丝&r包围它会加速这个过程。"
 				""
-				"There's an alternative recipe that requires the Smeltery that I can use."
+				"这里有一种需要用到冶炼炉的替代配方可供我使用。"
 				""
-				"&oDon't forget to light up your farm plots!"
+				"&o不要忘记给你的农田照明！"
 			]
 			dependencies: ["73FE8B3FDB173113"]
 			min_width: 275
@@ -48,11 +48,11 @@
 		{
 			x: 7.0d
 			y: -5.0d
-			subtitle: "Get Wheat Seeds"
+			subtitle: "获取小麦种子"
 			description: [
-				"The &6Supply Camp&r that started my colony had some Hay Bales, I could break those down into Wheat and then &bWheat Seeds&r."
+				"在一开始我的殖民地中的&6补给营地&r有一些干草捆，我可以把它们分成小麦和&b小麦种子&r。"
 				""
-				"If that's been used up already, I can still try breaking grass."
+				"如果已经用完了，我还可以试着割草。"
 			]
 			dependencies: ["5C802D7F2DDC747D"]
 			id: "7DA23444A8774C7A"
@@ -83,11 +83,11 @@
 		{
 			x: 9.0d
 			y: -4.0d
-			subtitle: "Get a Carrot"
+			subtitle: "获得胡萝卜"
 			description: [
-				"&6Golden Carrots&r seem to be surprisingly common here. In addition to a surprisingly pleasant crunch, they provide me with &65 minutes of Night Vision&r!"
+				"&6金胡萝卜&r在这里似乎出奇地普遍。除了令人惊喜的美味，它们还为我提供了&65分钟的夜视效果&r！"
 				""
-				"Golden Carrots can be peeled on the &6Cutting Board&r to get the perfectly preserved &bCarrot&r inside. After that, it's just a matter of farming."
+				"金胡萝卜可以在&6砧板&r上被剥皮，里面的&b胡萝卜&r完好无损。毕竟，这很科学。"
 			]
 			dependencies: ["5C802D7F2DDC747D"]
 			min_width: 250
@@ -118,11 +118,11 @@
 			]
 		}
 		{
-			title: "Boil 'em, Mash 'em"
+			title:"煮熟，然后捣烂它们"
 			x: 7.0d
 			y: -4.0d
-			subtitle: "Get a Potato"
-			description: ["The &6Mixing Cauldron&r can make Poisonous Potatoes, which can be purified into &bPotatoes&r in the Spiritfire."]
+			subtitle: "获得马铃薯"
+			description: ["&6混合锅&r能够制作毒马铃薯，同样可以通过灵魂火缠魂&b马铃薯&r获得。"]
 			dependencies: ["5C802D7F2DDC747D"]
 			id: "38A51BC2BA48C69C"
 			tasks: [{
@@ -135,13 +135,13 @@
 			icon: "minecolonies:blockhutfarmer"
 			x: 9.0d
 			y: -7.0d
-			subtitle: "Make a Farm"
+			subtitle: "建造农场"
 			description: [
-				"Though these fools lack the minds for intelligent conversation, their simple nature means they don't complain when asked to tend the &bFarm&r."
+				"虽然这些笨蛋缺乏智慧对话的头脑，但他们简单的天性意味着当被要求照看&b农场&r。时，他们不会抱怨。"
 				""
-				"Without a source of water, tilling simple Dirt won't do. Tilled &6Rich Soil&r does not need water, and cannot be trampled."
+				"没有水源，耕种普通的泥土都是不行的。而耕种&6沃土&r不需要水，也不会被踩坏。"
 				""
-				"A Farm can have multiple &bFields&r, with a single crop each. The Field is placed in the center of the grow area. Set the farm plot size and the crop in its GUI."
+				"一个农场可以有多块&b农田&r，每块农田只种植一种作物。农田需要放置在种植区域的中心。在它的GUI中设置农场的面积和作物。"
 				""
 				"{image:inferno:textures/quest/mc_farmer.png width:186 height:100 align:1 fit:true}"
 			]
@@ -190,14 +190,14 @@
 			]
 		}
 		{
-			title: "And Thus, the Cycle of Life and Death Continues"
+			title: "生死轮回仍在继续。"
 			x: 8.0d
 			y: -7.0d
-			subtitle: "Make a Composter's Hut"
+			subtitle: "建造堆肥小屋"
 			description: [
-				"At the &bComposter's Hut&r, the Composter will turn organic materials into &6Compost&r."
+				"在&b堆肥小屋&r里，堆肥工将把有机材料变成&6堆肥&r。"
 				""
-				"I will have to &6tell them what they're allowed to compost&r. Otherwise, they'd compost everything they could get their hands on, the mindless things."
+				"我需要&6告诉他们可以用什么来堆肥&r。否则，他们会把他们能弄到的所有东西都做成堆肥，那些盲目痴愚之物。"
 			]
 			dependencies: [
 				"2A6CCA72F1D483D9"
@@ -234,8 +234,8 @@
 		{
 			x: 7.0d
 			y: -7.0d
-			subtitle: "Make a Plantation"
-			description: ["The &bPlantation&r can grow Sugar Cane, Bamboo, and Cactus. It can also do recipes related to those."]
+			subtitle: "建造种植园"
+			description: ["&b种植园&r可以种植甘蔗，竹子和仙人掌。它也可以做相关的食谱。"]
 			dependencies: ["7D5A4BF8413EC971"]
 			id: "0C3668DC5088CD31"
 			tasks: [{
@@ -262,14 +262,14 @@
 			]
 		}
 		{
-			title: "It's pronounced \"Aerith\""
+			title: "叫她“艾瑞丝”"
 			x: 8.0d
 			y: -9.0d
-			subtitle: "Make a Flower Shop"
+			subtitle: "建造花店"
 			description: [
-				"At the &bFlower Shop&r, flowers will be grown every day. A source of Compost is required to work."
+				"在&b花店&r，花儿每天都会生长。但需要提供堆肥才可以工作。"
 				""
-				"This building requires at least a Tier 2 University with the flower shop research completed under technology."
+				"这座建筑至少需要二级大学，且完成花店的科技研究。"
 			]
 			dependencies: ["7D5A4BF8413EC971"]
 			id: "5243D645CE4ABC1A"
@@ -299,16 +299,16 @@
 			]
 		}
 		{
-			title: "MiniBiosphere"
+			title: "迷你生物圈"
 			x: 8.0d
 			y: -10.5d
-			subtitle: "Make a Garden Cloche"
+			subtitle: "制作一本花园小册子"
 			description: [
-				"The &bGarden Cloche&r takes power and water, and uses it to grow plants."
+				"&b园艺玻璃罩&r需要能量和水，来用于种植植物。"
 				""
-				"The advantage to this is that it &6can grow just about anything&r, and does so very quickly."
+				"这样做的好处是它&6可以种几乎任何东西&r，而且速度非常快。"
 				""
-				"Even in my world these were fast, but here they're &64 times faster&r!"
+				"虽然在我生活的世界里它们长得也很快，但在这儿它们的生长速度&6快了4倍&r！"
 			]
 			dependencies: [
 				"7E2E8703658E78AB"
@@ -335,22 +335,22 @@
 			]
 		}
 		{
-			title: "Hell's Kitchen"
+			title: "地狱厨房"
 			icon: "farmersdelight:stove"
 			x: 8.0d
 			y: -2.5d
 			shape: "circle"
-			subtitle: "Make some basic kitchen implements"
+			subtitle: "制作一些厨房的基本用具"
 			description: [
-				"While I can &6cook Mushroom Stew in a Smeltery&r, it provides little nourishment."
+				"虽然我可以&6在冶炼厂煮蘑菇煲&r，但它提供的营养很少。"
 				""
-				"&6Summoning farm animals&r should be a high priority."
+				"所以&6召唤动物们&r应当是重中之重。"
 				""
-				"The &bStove&r is essentially a more civilized Campfire, functioning nearly identically."
+				"而&b炉灶&r本质上是一个更先进，功能更齐全的篝火。"
 				""
-				"The &bSkillet&r works heldheld or placed, so long as it's near enough to a heat source. It's 5x faster than the Campfire."
+				"还有在用&b煎锅&r时可以手持或者放下来，只要它离火源足够近。他的工作速度可以比篝火快5倍。"
 				""
-				"The &bCooking Pot&r requires a heat source, and has recipes exclusive to it. Some may require a container to serve."
+				"最后&b厨锅&r需要一个热源才能工作，并且它有自己独特的食谱。其中还有一些需要容器才能出锅。"
 			]
 			dependencies: ["16C79CB1537B7093"]
 			min_width: 250
@@ -359,7 +359,7 @@
 				{
 					id: "4764F16B6A565B48"
 					type: "item"
-					title: "Cookers"
+					title: "炊具"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -407,13 +407,13 @@
 			]
 		}
 		{
-			title: "Romaine Calm"
+			title: "蔬菜沙拉"
 			icon: "farmersdelight:rice"
 			x: 10.875d
 			y: -1.5d
 			shape: "square"
-			subtitle: "Vegan Options"
-			description: ["The &6Sifter&r's more advanced Sieves will be able to get me some more edible crops."]
+			subtitle: "素食选项（素食派对）"
+			description: ["给&6筛子&r用更好的筛网可以给我带来一些更加好吃的作物。"]
 			hide_dependency_lines: true
 			dependencies: ["0A805E112018978C"]
 			size: 0.75d
@@ -463,12 +463,12 @@
 			]
 		}
 		{
-			title: "Angus Who?"
+			title: "安格斯是谁？"
 			x: 10.125d
 			y: -2.25d
 			shape: "square"
-			subtitle: "Get Minced Beef"
-			description: ["&bMinced Beef&r is a staple ingredient in many recipes."]
+			subtitle:"获取剁碎的牛肉"
+			description: ["以&b碎牛肉&r为主可以制作很多美味佳肴。"]
 			hide_dependency_lines: true
 			dependencies: ["0A805E112018978C"]
 			size: 0.75d
@@ -486,12 +486,12 @@
 			}]
 		}
 		{
-			title: "Chicken Nuggies"
+			title: "鸡块"
 			x: 10.875d
 			y: -2.25d
 			shape: "square"
-			subtitle: "Get Raw Chicken Cuts"
-			description: ["Too much beef is giving my minions and I high cholesterol. I've ordered that &bChicken dishes&r be added to the lunch rotation."]
+			subtitle:"获取生鸡肉块"
+			description: ["吃太多牛肉会让我和我的手下胆固醇过高。我已经下令把&b鸡肉菜&r加到午餐轮换中。"]
 			hide_dependency_lines: true
 			dependencies: ["0A805E112018978C"]
 			size: 0.75d
@@ -509,12 +509,12 @@
 			}]
 		}
 		{
-			title: "The Other White Meat"
+			title: "另一种白肉"
 			x: 9.375d
 			y: -2.25d
 			shape: "square"
-			subtitle: "Get Raw Bacon"
-			description: ["Hoglin meat is tough and unpleasant. A &6Swineherd&r can help my gather &bPork&r."]
+			subtitle: "获取生培根"
+			description: ["霍格林肉又硬又不好吃。&6养猪人&r可以帮我获得&b生猪排&r。"]
 			hide_dependency_lines: true
 			dependencies: ["0A805E112018978C"]
 			size: 0.75d
@@ -532,13 +532,13 @@
 			}]
 		}
 		{
-			title: "Fillet O Fish"
+			title: "鱼片"
 			icon: "farmersdelight:salmon_slice"
 			x: 10.125d
 			y: -1.5d
 			shape: "square"
-			subtitle: "Get some Raw Fish Cuts"
-			description: ["Some &bRaw Fish&r would be a nice, lighter alternative to the meatier foods I've been eating."]
+			subtitle: "获取生鱼片"
+			description: ["&b生鱼片&r会是一个不错的选择，可以代替我一直吃的肉类食物。"]
 			hide_dependency_lines: true
 			dependencies: ["0A805E112018978C"]
 			size: 0.75d
@@ -547,7 +547,7 @@
 			tasks: [{
 				id: "538345A3BF3D8081"
 				type: "item"
-				title: "Raw Fish Cuts"
+				title: "生鱼片"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -576,12 +576,12 @@
 			}]
 		}
 		{
-			title: "My Kitchen Rules"
+			title: "我的厨房我做主"
 			x: 6.75d
 			y: -2.25d
 			shape: "square"
-			subtitle: "Make a Cooking Table"
-			description: ["The &bCooking Table&r will allow me to &6quickly craft foods&r that I have the ingredients for."]
+			subtitle: "制作烹饪桌"
+			description: ["这个&b烹饪桌&r可以让我快速制作我需要的食材。"]
 			hide_dependency_lines: true
 			dependencies: ["0A805E112018978C"]
 			size: 0.75d
@@ -626,17 +626,17 @@
 			]
 		}
 		{
-			title: "why do they call it oven when you of in the cold food of out hot eat the food"
+			title: "什么是烤箱？当你想吃热乎的食物时，可以用来烤制加热"
 			x: 6.75d
 			y: -1.5d
 			shape: "square"
-			subtitle: "Craft an Oven"
+			subtitle: "制作烤箱"
 			description: [
-				"An &bOven&r will allow me to &6quickly cook foods&r, and works from the Cooking Table!"
+				"有一个&b烤箱&r可以让我在烹饪桌上&6快速烹饪食物&r！"
 				""
-				"If I add a &6Heating Unit&r, I can power the Oven with FE instead of furnace fuel."
+				"如果我添加一个&6加热单元&r，我就可以用FE代替炉子燃料来给烤箱供电。"
 				""
-				"&oInstall Upgrades by right-clicking them on their block"
+				"&o通过右击方块安装升级"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0A805E112018978C"]
@@ -664,13 +664,13 @@
 			]
 		}
 		{
-			title: "Dont be a Blockhead"
+			title: "不要做一个傻瓜"
 			icon: "cookingforblockheads:counter"
 			x: 6.0d
 			y: -1.5d
 			shape: "square"
-			subtitle: "Make Kitchen Counter and Cabinets"
-			description: ["&bKitchen Counters and Cabinets&r provide my Cooking Table with &6extra storage&r, so I don't have to hold everything on my person."]
+			subtitle: "制作厨房柜台和橱柜"
+			description: ["&b厨房柜台和橱柜&r为我的烹饪桌提供了&6额外的存储空间&r，所以我不必把所有东西都放在身上。"]
 			hide_dependency_lines: true
 			dependencies: ["0A805E112018978C"]
 			size: 0.75d
@@ -707,12 +707,12 @@
 			]
 		}
 		{
-			title: "Perishables"
+			title: "容易腐烂？"
 			x: 5.25d
 			y: -2.25d
 			shape: "square"
-			subtitle: "Craft a Fridge"
-			description: ["The &bFridge&r is another storage location, but has two &6very useful upgrades&r. Their functions are in their tooltip."]
+			subtitle: "制作冰箱"
+			description: ["&b冰箱&r是另一个存储空间，并且有两个&6非常有用的升级&r。在工具小提示中可以看到。"]
 			hide_dependency_lines: true
 			dependencies: ["0A805E112018978C"]
 			size: 0.75d
@@ -738,12 +738,12 @@
 			]
 		}
 		{
-			title: "Udderly Delicious"
+			title: "美味的牛奶"
 			x: 5.25d
 			y: -1.5d
 			shape: "square"
-			subtitle: "Craft Cow in a Jar"
-			description: ["I can squish a &bCow&r into a &6Milk Jar&r using an anvil and gravity. Now my kitchen can produce all the milk I need."]
+			subtitle: "制作罐中奶牛"
+			description: ["我可以用铁砧和重力把一头&b奶牛&r挤进&6牛奶罐&r里。现在我的厨房可以生产我需要的所有牛奶。"]
 			hide_dependency_lines: true
 			dependencies: ["0A805E112018978C"]
 			size: 0.75d
@@ -797,15 +797,15 @@
 			]
 		}
 		{
-			title: "Kitchen Sinkn't"
+			title: "厨房水槽"
 			x: 6.0d
 			y: -2.25d
 			shape: "square"
-			subtitle: "Craft a Sink"
+			subtitle: "制作水槽"
 			description: [
-				"The &bSink&r will &6provide Water to the Cooking Table&r, if it has any."
+				"&b水槽&r会&6为烹饪桌提供水&r，如果有的话。"
 				""
-				"Though it &cdoes not refill itself&r, I can use an &6Infinite Water Block&r."
+				"虽然它&c不能自动补水&r，但我可以当&6无限水源&r来用。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0A805E112018978C"]
@@ -833,12 +833,12 @@
 			]
 		}
 		{
-			title: "A Mutton For Punishment"
+			title: "羊的惩罚"
 			x: 9.375d
 			y: -1.5d
 			shape: "square"
-			subtitle: "Get Raw Mutton Chops"
-			description: ["I've had an intense craving for gyros. I'll have to ask my &6Shepherd&r to butcher up some &bMutton&r for me."]
+			subtitle: "获取生羊排"
+			description: ["我特别想吃沙威玛。我得让&6牧羊人&r给我切些&b羊肉&r。"]
 			hide_dependency_lines: true
 			dependencies: ["0A805E112018978C"]
 			size: 0.75d
@@ -856,26 +856,26 @@
 			}]
 		}
 		{
-			title: "The Fungus Amongus"
+			title: "菌菇近在眼前"
 			icon: "nethersdelight:warped_fungus_colony"
 			x: 9.0d
 			y: -5.0d
-			subtitle: "Grow a Mushroom Colony"
+			subtitle: "种植蘑菇菌落"
 			description: [
-				"&bMushroom Colonies&r are a delicacy that requires careful nurturing."
+				"&b蘑菇菌落&r是一种需要精心培育的美味。"
 				""
-				"When normal Mushrooms are planted on &6Rich Soil&r and &6given time in the dark&r, they grow into Colonies."
+				"当普通蘑菇种植在&6肥沃的土壤&r上，并&6在黑暗中待上一段时间&r，它们就会长成菌落。"
 				""
-				"The warped and crimson variants required &6Rich Soul Soil&r instead."
+				"诡异菌落和绯红菌落生长，需要&6肥沃灵魂土&r。"
 				""
-				"I'll need to use &6Shears&r to harvest them properly."
+				"我需要用&6剪刀&r正确地收割它们。"
 			]
 			dependencies: ["5C802D7F2DDC747D"]
 			id: "4A536E1A6384936D"
 			tasks: [{
 				id: "3B289CE45CDD519A"
 				type: "item"
-				title: "Mushroom Colonies"
+				title: "蘑菇菌落"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -911,14 +911,14 @@
 				{
 					id: "3B841D268E88C261"
 					type: "custom"
-					title: "amogus."
+					title: "阿莫古斯"
 					icon: "alexsmobs:spawn_egg_mungus"
 					auto: "invisible"
 				}
 			]
 		}
 		{
-			title: "Master Chef"
+			title: "厨艺大师"
 			icon: {
 				id: "minecraft:potion"
 				Count: 1b
@@ -929,14 +929,14 @@
 			x: 8.0d
 			y: -1.5d
 			shape: "gear"
-			subtitle: "Food Buffs"
-			description: ["There are several foods I can make that &bprovide me with buffs&r, making me stronger in some way for a time."]
+			subtitle: "食物爱好者"
+			description: ["我可以做一些有&b特殊效果&r的食物，让我变得更强。"]
 			dependencies: ["0A805E112018978C"]
 			id: "2DE101B64C099246"
 			tasks: [{
 				id: "18954CAD371A1005"
 				type: "checkmark"
-				title: "Specialty Foods"
+				title: "特色食品"
 			}]
 		}
 		{
@@ -945,14 +945,14 @@
 			x: 8.0d
 			y: -6.0d
 			shape: "gear"
-			subtitle: "Higher Learning"
-			description: ["These structures will require me to have completed at least a &bTier 1 University&r, as well as the &6relevant research&r."]
+			subtitle: "高等教育"
+			description: ["这些建筑物要求我至少达到&b大学一级&r，并完成&6相关研究&r。"]
 			dependencies: ["46A72493AFD256CA"]
 			id: "77391C99929D964E"
 			tasks: [{
 				id: "1F79D927E6151D1A"
 				type: "checkmark"
-				title: "Research Required!"
+				title: "需要研究！"
 			}]
 		}
 	]
