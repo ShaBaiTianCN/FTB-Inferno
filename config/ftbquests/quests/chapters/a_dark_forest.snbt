@@ -76,41 +76,41 @@
 				id: "4EB484144E0ACC7F"
 				type: "item"
 				item: {
-						id: "tconstruct:pickaxe"
-						Count: 1b
-						tag: {
-							tic_multipliers: { }
-							tic_stats: {
-								"tconstruct:attack_speed": 1.2f
-								"tconstruct:mining_speed": 3.5f
-								"tconstruct:attack_damage": 1.4250001f
-								"tconstruct:harvest_tier": "minecraft:stone"
-								"tconstruct:durability": 72.0f
+					id: "tconstruct:pickaxe"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 3.5f
+							"tconstruct:attack_damage": 1.4250001f
+							"tconstruct:harvest_tier": "minecraft:stone"
+							"tconstruct:durability": 72.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:jagged"
+								level: 3s
 							}
-							tic_broken: 0b
-							tic_modifiers: [
-								{
-									name: "tconstruct:jagged"
-									level: 3s
-								}
-								{
-									name: "tconstruct:piercing"
-									level: 1s
-								}
-							]
-							Damage: 0
-							tic_materials: [
-								"tconstruct:flint"
-								"tconstruct:flint"
-								"tconstruct:flint"
-							]
-							tic_persistent_data: {
-								abilities: 1
-								upgrades: 3
+							{
+								name: "tconstruct:piercing"
+								level: 1s
 							}
+						]
+						Damage: 0
+						tic_materials: [
+							"tconstruct:flint"
+							"tconstruct:flint"
+							"tconstruct:flint"
+						]
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
 						}
 					}
-					only_from_crafting: false
+				}
+				only_from_crafting: false
 			}]
 			rewards: [{
 				id: "667DB9F7512D0CEC"
