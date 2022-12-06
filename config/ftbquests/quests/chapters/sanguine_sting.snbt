@@ -110,7 +110,7 @@
 			y: -2.5d
 			shape: "hexagon"
 			subtitle: "制作一个炼金术桌"
-			description: ["在&b炼金术桌&r，上我可以使用来自宝珠的LP来执行炼金术。"]
+			description: ["在&b炼金术桌&r上，我可以使用来自宝珠的LP来执行炼金术。"]
 			dependencies: ["711049B56861B200"]
 			id: "0BEBDF5D45C3425F"
 			tasks: [{
@@ -356,7 +356,7 @@
 			]
 		}
 		{
-			title: "Hypertension"
+			title: "高血压"
 			x: 0.0d
 			y: -0.5d
 			subtitle: "制作一个学徒气血宝珠"
@@ -762,7 +762,7 @@
 			tasks: [{
 				id: "70EFD82A0734278C"
 				type: "item"
-				title: "Sigils"
+				title: "印记"
 				item: {
 					id: "itemfilters:and"
 					Count: 1b
