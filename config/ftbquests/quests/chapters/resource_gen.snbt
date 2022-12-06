@@ -1063,7 +1063,26 @@
 					id: "16D23212D8F4D691"
 					type: "item"
 					disable_toast: true
-					item: "reliquary:guardian_spike"
+										item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "reliquary:guardian_spike"
+									Count: 1b
+								}
+								{
+									id: "minecraft:prismarine_crystals"
+									Count: 1b
+								}
+								{
+									id: "minecraft:prismarine_shard"
+									Count: 1b
+								}
+							]
+						}
+					}
 				}
 				{
 					id: "79ECCE55FCA5144B"
@@ -1323,7 +1342,7 @@
 					item: "apotheosis:obsidian_arrow"
 					count: 32
 				}		
-		]
+			]
 	}
 	{
 		title: "生物群系蓝调"
