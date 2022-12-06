@@ -3,9 +3,9 @@
 	group: "3165B92DB1BC8401"
 	order_index: 3
 	filename: "party_times"
-	title: "Kali's Collectibles"
+	title: "迦梨女神的收藏品"
 	icon: "artifacts:feral_claws"
-	subtitle: ["Powerful items and trinkets"]
+	subtitle: ["强大的物品和饰品"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -14,11 +14,11 @@
 			x: 12.5d
 			y: -5.5d
 			shape: "square"
-			subtitle: "Make the Grappling Hook Modifier"
+			subtitle: "制作抓钩调试台"
 			description: [
-				"The &bGrappling Hook Modifier&r allows me to &6upgrade my Grappling Hook&r!"
+				"&b抓钩调试台&r允许我&6升级我的抓钩&r！"
 				""
-				"First, I have to &6use the Upgrade on the Modifier block&r. Then, I can open the block to set the upgrade settings. Finally, using the Hook on the block will apply the upgrades."
+				"首先，我需要&6在调试台中使用升级&r。然后，我可以打开方块进行升级设置。最终，对方块使用抓钩可以应用这些升级。"
 			]
 			dependencies: ["14B08C5E10D807BB"]
 			id: "033080535C35B1F3"
@@ -31,7 +31,7 @@
 				{
 					id: "14720844C2617302"
 					type: "item"
-					title: "Grappling Hook Upgrades"
+					title: "抓钩升级"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -85,17 +85,19 @@
 			}]
 		}
 		{
-			title: "&oGrappling Hook!&r"
+			title: "&o抓钩！&r"
 			x: 12.0d
 			y: -6.5d
 			shape: "square"
-			subtitle: "Make a Grappling Hook"
+			subtitle: "制作一个抓钩"
 			description: [
-				"Ah, the &bGrappling Hook&r. It takes me back to my dungeon-delving days."
+				"啊！&b抓钩&r。这使我回忆起在地牢探险的日子了。"
 				""
-				"When used, I can &6swing from blocks&r. Sneaking will allow me to move up and down the line, and jumping will let me leap off with speed."
+				"当使用它的时候，我可以&6穿梭于方块之间&r。潜行将使我能够上下移动，而跳跃将让我以一定速度跃起。
+
+"
 				""
-				"Falls still hurt, though!"
+				"不过，下坠依旧会受伤。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["6B8C45E705B89F5B"]
@@ -149,15 +151,15 @@
 			}]
 		}
 		{
-			title: "Brace for Impact!"
+			title: "准备好迎接冲击！"
 			x: 13.0d
 			y: -4.5d
 			shape: "square"
-			subtitle: "Make Long Fall Boots"
+			subtitle: "制作缓降靴子"
 			description: [
-				"&bLong Fall Boots&r &6completely negate fall damage&r!"
+				"&b缓降靴子&r&6完全免疫下落伤害&r！"
 				""
-				"They are crafted by &6using Diamond Boots with Feather Falling IV&r on the Grappling Hook Modifier."
+				"它们是通过在抓钩调试台上&6使用摔落保护Ⅳ钻石靴子&r制作而成的。"
 			]
 			dependencies: ["033080535C35B1F3"]
 			id: "054D3A7FDBC92310"
@@ -174,7 +176,7 @@
 			}]
 		}
 		{
-			title: "With the Power of Friendship and This Gun I Found"
+			title: "凭借友谊之力和我找到的这把枪"
 			icon: {
 				id: "gunswithoutroses:gold_gun"
 				Count: 1b
@@ -185,11 +187,11 @@
 			x: 11.5d
 			y: -5.5d
 			shape: "square"
-			subtitle: "Make a Gun and some Ammo"
+			subtitle: "制作一把枪和一些弹药"
 			description: [
-				"Swords are nice and personal; magic gives me self-worth. But sometimes, &4I want things dead&r."
+				"剑很好，适合个人使用；魔法让我找到了个人的价值。但有的时候&4我希望他们去死&r。"
 				""
-				"There are five &bGuns&r I can create from memory, and 4 &bAmmunitions&r to use with them."
+				"有五把&b枪&r是我记忆中可以制造的，而且有四种&b弹药&r供它们使用。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["6B8C45E705B89F5B"]
@@ -198,7 +200,7 @@
 				{
 					id: "4EFA96070AD2F018"
 					type: "item"
-					title: "Guns"
+					title: "枪"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -260,7 +262,7 @@
 				{
 					id: "55ECE3F18B58F7E0"
 					type: "item"
-					title: "Ammo"
+					title: "弹药"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -302,17 +304,17 @@
 			]
 		}
 		{
-			title: "Bits and Bobs"
+			title: "零七八碎"
 			icon: "minecraft:crafting_table"
 			tags: ["info"]
 			x: 11.5d
 			y: -8.0d
 			shape: "gear"
-			subtitle: "About this chapter"
+			subtitle: "有关这一章"
 			description: [
-				"This chapter will serve to &blist useful items and trinkets&r that I've come across my time here."
+				"这一章将介绍我在这里遇到的&b有用的物品和小饰品&r。"
 				""
-				"These quests are not in any particular order and may be visible before you can actually get them."
+				"这些任务没有任何特定的顺序，可能在你真正能够得到物品之前就已经可见。"
 			]
 			dependencies: ["55099E0F763B39CA"]
 			id: "6B8C45E705B89F5B"
@@ -325,15 +327,15 @@
 			x: 11.0d
 			y: -4.5d
 			shape: "square"
-			subtitle: "Make a flying Broom"
-			description: ["&bBrooms&r are one of &6earliest ways I can attain flight&r. They &odo&r require a fair investment into certain magic schools, however."]
+			subtitle: "制作一把飞行扫帚"
+			description: ["&b扫帚&r是&6我能获得的最早飞行办法&r之一。但是，它们&o的确&r需要对特定的魔法学派进行公平的投资。"]
 			hide_dependency_lines: true
 			dependencies: ["6B8C45E705B89F5B"]
 			id: "2D0D729A4ADD78A7"
 			tasks: [{
 				id: "7B01550B460E6587"
 				type: "item"
-				title: "Brooms"
+				title: "扫帚"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -358,11 +360,11 @@
 			x: 12.0d
 			y: -4.5d
 			shape: "square"
-			subtitle: "Make a Magnetic Forcefield"
+			subtitle: "制作一个磁力场"
 			description: [
-				"The &bMagnetic Forcefield&r will &6violently repel me from blocks&r while active. Sneaking will lower the effect."
+				"&b磁力场&r在激活时会&6将我从方块中粗暴地排斥出来。&r潜行会降低该效果。"
 				""
-				"This can be used as a form of flight, but I should be careful not to &csplatter on the ground&r or dunk myself in Lava."
+				"这可以作为一种飞行方式，但我应该注意不要&c摔到地上&r，或者把自己浸在熔岩里。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["6B8C45E705B89F5B"]
@@ -384,11 +386,11 @@
 			x: 11.0d
 			y: -6.5d
 			shape: "square"
-			subtitle: "Make a Slimesling"
+			subtitle: "制作一把黏液弹弓"
 			description: [
-				"&bSlimeslings&r allow me to quickly traverse the landscape, in various ways."
+				"&b黏液弹弓&r让我能够以各种方式快速穿越地形。"
 				""
-				"I may want to invest in some sort of fall protection first, though."
+				"不过，我可能想先投资某种防坠落的东西。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["6B8C45E705B89F5B"]
@@ -396,7 +398,7 @@
 			tasks: [{
 				id: "66423D1653CF3EFB"
 				type: "item"
-				title: "Slimeslings"
+				title: "黏液弹弓"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -446,11 +448,11 @@
 			x: 10.5d
 			y: -5.5d
 			shape: "square"
-			subtitle: "Make a misc Reliquary item"
+			subtitle: "制作多奇的圣遗物"
 			description: [
-				"There are several &bHoly Relics&r that will help me greatly."
+				"有几个&b“圣遗物”&r将对我有很大帮助。"
 				""
-				"Each item explains what it does in its tooltip."
+				"每个物品都在其提示文本中解释了它的作用。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["6B8C45E705B89F5B"]
@@ -458,7 +460,7 @@
 			tasks: [{
 				id: "53268DE0D5F77C83"
 				type: "item"
-				title: "Holy Relics"
+				title: "“圣遗物”"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -620,20 +622,20 @@
 			}]
 		}
 		{
-			title: "Spoils of War"
+			title: "战利品"
 			icon: "meetyourfight:spectres_eye"
 			x: 10.0d
 			y: -4.5d
 			shape: "square"
-			subtitle: "Craft a boss item"
-			description: ["Defeating the various &4Overlords&r (summoned by &6Gate Pearls&r) drops an item that can be crafted into &bone of four powerful items&r."]
+			subtitle: "制作一个BOSS物品"
+			description: ["打败不同的&4霸主&r（由&6传送门珍珠&r召唤）可以掉落物品。它们被用于制作&b四个强大的物品之一&r。"]
 			hide_dependency_lines: true
 			dependencies: ["6B8C45E705B89F5B"]
 			id: "294F85944E21ED63"
 			tasks: [{
 				id: "4C639900EB1D8A6E"
 				type: "item"
-				title: "Boss items"
+				title: "Boss物品"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
