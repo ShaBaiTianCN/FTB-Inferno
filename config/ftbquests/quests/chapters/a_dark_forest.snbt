@@ -3,33 +3,33 @@
 	group: "3165B92DB1BC8401"
 	order_index: 0
 	filename: "a_dark_forest"
-	title: "A Dark Forest"
+	title: "黑暗森林"
 	icon: "minecraft:weeping_vines"
-	subtitle: ["Getting started"]
+	subtitle: ["开始"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "It's All Uphill From Here"
+			title: "从此刻开始，任重而道远。"
 			icon: "minecraft:flint"
 			x: -2.0d
 			y: -3.0d
-			subtitle: "Gather Flint"
+			subtitle: "收集燧石"
 			description: [
-				"Upon waking up, my first impressions were bleak."
+				"苏醒后，这个世界给我的第一感觉是荒凉。"
 				""
-				"Aside from this &6peculiar structure&r, I'm surrounded by nothing but &cimpenetrable Bedrock&r, with deposites of Blackstone and Flint."
+				"除了这个&6奇特的结构&r，就只有点缀着黑石与燧石块的&c不可跨越的基岩&r了。"
 				""
-				"Though Blackstone is too tough for my bare hands, I can shatter the &bFlint&r deposits easily."
+				"黑石对我来说太过坚硬，但我可以轻易地破坏&b燧石块&r。"
 				""
-				"It seems my &o\"friend\"&r doesn't hold a grudge at least, and has allowed me some &6parting gifts&r. These will certainly be of use."
+				"看来我的&o“朋友”&r至少不是一个记仇的人，还给了我一些&6离别礼物&r。这些肯定会有用的。"
 				""
-				"To Preview the starter effigies I can open JEI and &6ponder these blocks&r by holding w while hovering over the block:"
+				"我可以打开JEI，将鼠标悬停在以下物品上长按w键开始&6思索&r，以此预览这些初始结构。"
 				""
-				"Blood Fountain -> Flesh"
-				"Cozy Cottage -> Crimson Door"
-				"Lava Grotto -> Obsidian"
-				"Piglin Obelisk -> Piglin Head"
+				"血溶喷泉 -> 肉块"
+				"舒适小屋 -> 绯红木门"
+				"熔岩洞窟 -> 黑曜石"
+				"猪灵方碑 -> 猪灵头颅"
 			]
 			min_width: 275
 			id: "383507AC5D6EB0D8"
@@ -61,14 +61,14 @@
 			]
 		}
 		{
-			title: "Flint and Stones To Grind The Bones"
+			title: "用燧石和石头磨骨头"
 			x: -2.0d
 			y: -1.5d
-			subtitle: "Shoddy work, but it'll do"
+			subtitle: "粗制滥造，但还凑合"
 			description: [
-				"If I smash some flint together somehow I get a decent tool."
+				"如果我把燧石打碎，我就得到了一个不错的工具。"
 				""
-				"I can use this to dig through these veins of Blackstone to bypass this accursed Bedrock!"
+				"我可以用这个挖通黑石矿脉绕过这该死的基岩！"
 			]
 			dependencies: ["383507AC5D6EB0D8"]
 			id: "1FAE864DC2E733BC"
@@ -126,11 +126,11 @@
 			}]
 		}
 		{
-			title: "Flint and .... Blackstone?"
+			title: "燧石和……黑石？"
 			x: -1.0d
 			y: 0.0d
-			subtitle: "Burn! Burn people!"
-			description: ["It's made of Blackstone and not Steel. Whose idea of \"expert\" was this?"]
+			subtitle: "燃烧！焚尽众生！"
+			description: ["用黑石而不是铁锭来制作打火石。这是哪位“专家”的想法？"]
 			dependencies: ["1FAE864DC2E733BC"]
 			id: "3676C089D399390F"
 			tasks: [{
@@ -154,11 +154,11 @@
 		{
 			x: -3.0d
 			y: 0.0d
-			subtitle: "Turn Gold into something Demonic"
+			subtitle: "把黄金转化为魔鬼之物"
 			description: [
-				"I can cook Golden Apples in the Campfire to make &bDemon's Dream Fruit&r."
+				"我可以把金苹果在营火上烹饪来制作&b魔鬼之梦果&r。"
 				""
-				"I'm glad I didn't devour all my golden apples when I first got here, otherwise I'd have to use the safety quest above this entry..."
+				"我很高兴我没有在刚到这里的时候吃掉所有的金苹果，否则我就只能使用这个任务上方的应急任务了……"
 			]
 			id: "071E0ADF4D7C5678"
 			tasks: [{
@@ -174,16 +174,16 @@
 			}]
 		}
 		{
-			title: "Watching the World Burn"
+			title: "静看世界燃烧"
 			icon: "occultism:spirit_fire"
 			x: -2.0d
 			y: 1.5d
 			shape: "hexagon"
-			subtitle: "Gaze into Spiritfire"
+			subtitle: "凝视灵火"
 			description: [
-				"It seems I can set &6Demon's Dream Fruit&r on the ground and then &6light it on fire&r to imbue the flame with occultic energies."
+				"看起来我可以把&6魔鬼之梦果&r扔到地上用打火石把它&6点燃&r，以此为火焰注入神秘能量。"
 				""
-				"I wonder what would happen if I were to throw something else in?"
+				"我想知道如果我再扔点别的东西进去会怎么样？"
 			]
 			dependencies: [
 				"3676C089D399390F"
@@ -193,7 +193,7 @@
 			tasks: [{
 				id: "1975BC3591B1FD90"
 				type: "observation"
-				title: "Gaze into Spiritfire"
+				title: "凝视灵火"
 				icon: "occultism:spirit_fire"
 				timer: 0L
 				observe_type: 0
@@ -215,14 +215,14 @@
 			]
 		}
 		{
-			title: "Dead Dirt"
+			title: "死亡之土"
 			x: 1.0d
 			y: 0.0d
-			subtitle: "Collect some Soul Sand"
+			subtitle: "收集一些灵魂沙"
 			description: [
-				"I can feel the souls of the damned grasping at me when I walk over them."
+				"当我走过那些该死的灵魂时，我能感觉到他们在抓住我。"
 				""
-				"A bit macabre, but I didn't get here by being squeamish."
+				"有点吓人，但我不是为了被恶心才来这里的。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["1FAE864DC2E733BC"]
@@ -247,14 +247,14 @@
 			]
 		}
 		{
-			title: "Fungi Grass"
+			title: "菌丝"
 			x: 1.0d
 			y: 1.5d
-			subtitle: "Create Mycelium"
+			subtitle: "创造菌丝"
 			description: [
-				"Combining Soul Sand with Mushrooms has resulted in &bMycelium&r!"
+				"将灵魂沙和蘑菇合成在一起就产生了&b菌丝&r！"
 				""
-				"It seems Mushrooms can grow on Mycelium even during the day, or what passes for it here."
+				"看起来蘑菇甚至在白天也可以在菌丝上生长，或者是这里的啥。"
 			]
 			dependencies: ["4116046D3CB4AF2A"]
 			id: "4ED3EE383BEC4719"
@@ -273,11 +273,11 @@
 		{
 			x: 1.0d
 			y: 3.0d
-			subtitle: "Transmute Warped Nylium"
+			subtitle: "转化诡异菌岩"
 			description: [
-				"It seems burning Mycelium in the Spiritfire creates &bWarped Nylium&r!"
+				"似乎把菌丝扔进灵火可以合成&b诡异菌岩&r！"
 				""
-				"This appears similar to Grass, at least visually. Perhaps it functions the same too?"
+				"这看起来和草方块差不多，至少看起来是。也许它们有着一样的功能？"
 			]
 			dependencies: [
 				"4ED3EE383BEC4719"
@@ -299,13 +299,13 @@
 		{
 			x: -2.0d
 			y: 3.0d
-			subtitle: "Transmute Warped Fungus"
+			subtitle: "转化诡异菌"
 			description: [
-				"Burning Mushrooms in the Spiritfire has corrupted them into &bWarped Fungus&r."
+				"把蘑菇扔进灵火中炙烤，这会将它们腐蚀成&b诡异菌&r。"
 				""
-				"Perhaps it can be cultivated into something sturdier if planted on the right soil?"
+				"如果把它种在合适的土壤上，也许它可以被培育成更结实的东西？"
 				""
-				"If nothing else I figured out that I can smoke the brown or red mushrooms on the campfire to make delicious &6smoked mushrooms&r!"
+				"不出意外的话，我发现把棕色或是红色蘑菇在篝火上熏制，可以做出美味的&6烟熏蘑菇&r！"
 			]
 			dependencies: ["5C9BF1B7C5963186"]
 			dependency_requirement: "all_started"
@@ -337,14 +337,14 @@
 			]
 		}
 		{
-			title: "Wood! Finally, Some Return to Normalcy"
+			title: "原木！终于，一些事物开始回归正轨。"
 			x: -2.0d
 			y: 4.5d
-			subtitle: "Convince a Warped Fungus to grow"
+			subtitle: "催熟诡异菌"
 			description: [
-				"I don't like to share it, but a Dryad I used to date taught me how to grow plants by... &bdancing to them&r."
+				"我并不喜欢分享，但我曾经约会过的一个树精教过我如何催熟植物，通过……&b对着他们跳舞&r。"
 				""
-				"If anybody asks, I'm... sneaking. Yeah."
+				"如果有人问起。我在……潜行，是的。"
 			]
 			dependencies: [
 				"64856BBC8E05AAF0"
@@ -364,11 +364,11 @@
 			}]
 		}
 		{
-			title: "Boneless Bone Meal"
+			title: "没有骨头的骨粉"
 			x: -5.0d
 			y: 4.5d
-			subtitle: "Make a Composter"
-			description: ["I can compost any waste plant matter into Bone Meal here."]
+			subtitle: "合成一个堆肥桶"
+			description: ["在这里我可以把所有植物性废料做成骨粉。"]
 			dependencies: ["55099E0F763B39CA"]
 			id: "7833EAA6C05E4950"
 			tasks: [{
@@ -392,12 +392,12 @@
 			]
 		}
 		{
-			title: "Chop Chop!"
+			title: "麻溜点！"
 			icon: "farmersdelight:cutting_board"
 			x: 1.0d
 			y: 4.5d
-			subtitle: "Make a Cutting Board and Knife"
-			description: ["In addition to the obvious culinary uses, I can use a &bCutting Board&r and &bKnife&r to &6create Straw out of Mushrooms&r!"]
+			subtitle: "合成砧板和燧石刀"
+			description: ["除了显而易见的烹饪用途，我还可以用&b砧板&r和&b小刀&r把&6蘑菇做成草杆&r！"]
 			dependencies: ["55099E0F763B39CA"]
 			id: "25E90C8154CF725D"
 			tasks: [
@@ -425,15 +425,15 @@
 			}]
 		}
 		{
-			title: "In Absence of Grass, Touch Straw"
+			title: "没有草方块，那就触摸草杆"
 			icon: "farmersdelight:straw"
 			x: -0.5d
 			y: 6.5d
-			subtitle: "Craft Straw"
+			subtitle: "制造草杆"
 			description: [
-				"&bStraw&r can be crafted into many useful things."
+				"&b草杆&r可以被制作成许多有用的东西。"
 				""
-				"This will have to do until I get more sturdy fibers to use for threads. I wonder if I can set up something to automate this..."
+				"在我找到更结实的纤维做线之前，就只能这样了。或许我可以做一个自动化……"
 			]
 			dependencies: ["25E90C8154CF725D"]
 			id: "6967B3C43AC095A7"
@@ -452,7 +452,7 @@
 						tag: {
 							RepairCost: 0
 							display: {
-								Name: "{\"text\":\"Break for a Surprise!\"}"
+								Name: "{\"text\":\"打开它，有个大惊喜！\"}"
 							}
 						}
 					}
@@ -465,7 +465,7 @@
 			]
 		}
 		{
-			title: "Fishing Time, Fishing Rhyme"
+			title: "钓鱼时间，钓鱼韵律"
 			icon: {
 				id: "minecraft:fishing_rod"
 				Count: 1b
@@ -476,13 +476,13 @@
 			x: -2.0d
 			y: 6.5d
 			shape: "hexagon"
-			subtitle: "Make a Fishing Rod"
+			subtitle: "合成钓鱼竿"
 			description: [
-				"&oFish are like relatives. After two days, they stink!"
+				"&o鱼就像亲戚。两天后就臭了。"
 				""
-				"Fishing works largely the same here as it does topside. Just, you know, with Lava. I've expanded further in the &5Azriel's Acquisitions&r chapter."
+				"在这里钓鱼和在海上钓鱼级别上是一样的，只不过是在岩浆上。具体内容我在&5Azriel's Acquisitions&r一章中展开说明。"
 				""
-				"All I really need to get from fishing is a few &6copper ingots&r. Beyond that everything else I could fish up is either optional or helpful."
+				"我真正需要从钓鱼中获取的知识一些&6铜锭&r。除此之外的钓到的要么是可选择的要么是锦上添花的东西。"
 			]
 			dependencies: [
 				"55099E0F763B39CA"
@@ -542,22 +542,22 @@
 					id: "24DEFD56B78C95CB"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Azriel's Acquisitions \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Limbo\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"Azriel's Acquisitions \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"炼狱边界\",\"color\":\"dark_aqua\"},\"!\"]"
 					player_command: false
 				}
 			]
 		}
 		{
-			title: "An Apple a Day Keeps the Doctor Away!"
+			title: "一天一个苹果，医生远离我！"
 			icon: "minecraft:golden_apple"
 			x: -4.0d
 			y: -1.0d
 			shape: "square"
-			subtitle: "There's a reason it said \"Not for Eating!\""
+			subtitle: "上面写着“不是给你吃的！”是有原因的。"
 			description: [
-				"Those apples were just so shiny! I couldn't &onot&r eat them? How should I have known they were important?"
+				"那些苹果太闪亮了！我做不到&o不&r吃他们！我怎么知道它们很重要？"
 				""
-				"&oIf you ate your Golden Apples and are stuck, here's one more."
+				"&o如果你吃了你的金苹果并且卡关了。这里还有一个"
 			]
 			optional: true
 			id: "128FDA30BC29A493"
@@ -574,26 +574,26 @@
 					tag: {
 						RepairCost: 0
 						display: {
-							Name: "{\"text\":\"Not for Eating!\"}"
+							Name: "{\"text\":\"别吃！\"}"
 						}
 					}
 				}
 			}]
 		}
 		{
-			title: "Trusty friend for lava fishing"
+			title: "熔岩钓鱼的可靠朋友"
 			x: 2.5d
 			y: 3.5d
 			shape: "square"
-			subtitle: "Summon or find a Strider"
-			description: ["&bStriders&r, while unintelligent, do not mind acting as a steed."]
+			subtitle: "召唤或找到一只炽足兽"
+			description: ["&b炽足兽&r他虽然不聪明，但不介意当一匹骏马。"]
 			dependencies: ["4B52BBBF01CDF027"]
 			dependency_requirement: "one_started"
 			id: "5304141AB630CCF3"
 			tasks: [{
 				id: "1C83A1D169A37740"
 				type: "observation"
-				title: "Observe a Strider"
+				title: "观察炽足兽"
 				icon: "minecraft:saddle"
 				timer: 0L
 				observe_type: 5
@@ -623,7 +623,7 @@
 						tag: {
 							RepairCost: 0
 							display: {
-								Name: "{\"text\":\"Strider\"}"
+								Name: "{\"text\":\"火云邪神\"}"
 							}
 						}
 					}
@@ -636,19 +636,19 @@
 			]
 		}
 		{
-			title: "You Rang?"
+			title: "你打我电话？"
 			x: 4.0d
 			y: 4.5d
 			shape: "hexagon"
-			subtitle: "Make a Summoning Altar"
+			subtitle: "制作一个召唤祭坛"
 			description: [
-				"The &5Art of Summoning&r allows me to reach out and &6snatch beasties from the beyond&r."
+				"&5召唤术&r能够让我&6从远处抓住野兽&r。"
 				""
-				"By placing &6reagents&r into the &bSummoning Altar&r, and then applying a specific &6catalyst&r on it &olast&r, a creature will be summoned. I imagine I could even automate it in this regard."
+				"把&6试剂&r放入&b召唤祭坛&r，在&o最后&r，施加特定的&6催化剂&r来召唤一个生物。我想我甚至还可以把它自动化。"
 				""
-				"&oSee the Altar's uses in JEI to &6see what mobs can be summoned&r&o, using what recipes."
+				"&o在JEI中查看召唤祭坛的作用，&6有那些生物可以被召唤&r，&o召唤他们分别需要什么配方。"
 				""
-				"&oName Tags prevent mobs despawning."
+				"&o用命名牌给生物起名可以防止生物消失。"
 			]
 			dependencies: ["6004FB8F1A55EAA1"]
 			dependency_requirement: "one_started"
@@ -670,7 +670,7 @@
 						tag: {
 							RepairCost: 0
 							display: {
-								Name: "{\"text\":\"Hoglin\"}"
+								Name: "{\"text\":\"疣猪兽\"}"
 							}
 						}
 					}
@@ -685,7 +685,7 @@
 						tag: {
 							RepairCost: 0
 							display: {
-								Name: "{\"text\":\"Indentured Piglin \"}"
+								Name: "{\"text\":\"合同猪灵 \"}"
 							}
 						}
 					}
@@ -707,18 +707,18 @@
 			]
 		}
 		{
-			title: "What're Ya Buyin'?"
+			title: "想来点什么？"
 			x: 6.5d
 			y: 4.5d
-			subtitle: "These pig men have a healthy respect for wealth"
+			subtitle: "这些猪人对财富有一种合理的尊重"
 			description: [
-				"I've found a primitive tribal society, whom I've named the &bPiglins&r."
+				"我发现了一个原始社会，我把他们命名为&b猪灵&r。"
 				""
-				"While normally hostile, I've found them to be &6completely fascinated with gold&r."
+				"尽管他们通常充满敌意，但我发现他们&6对黄金异常着迷&r。"
 				""
-				"They do not attack me while I wear Gold, and I can even &btrade with them&r by tossing some Ingots their way."
+				"当我穿着金制装备时他们并不会攻击我。我甚至还可以向他们扔金锭来与他们&b进行交易&r。"
 				""
-				"I've noted a list of trades available with these piglins. I can check the items they will trade me by viewing the recipe for a &6gold ingot&r in JEI and looking at the &6information tab&r."
+				"我记下了一份交易清单。通过在JEI中查看&6金锭&r的配方和&6信息选项卡&r，我可以查看他们想要交易的物品。"
 			]
 			dependencies: ["452795D9520D03DF"]
 			dependency_requirement: "one_completed"
@@ -727,7 +727,7 @@
 			tasks: [{
 				id: "14A4BA55200B3E3C"
 				type: "observation"
-				title: "Meet a Piglin"
+				title: "遇见猪灵"
 				icon: "tconstruct:piglin_head"
 				timer: 0L
 				observe_type: 5
@@ -743,11 +743,11 @@
 		{
 			x: -2.0d
 			y: 10.0d
-			subtitle: "Gather Magma Cream"
+			subtitle: "收集岩浆膏"
 			description: [
-				"Propelpearls can be thrown into the Spiritfire to make &bMagma Cream&r."
+				"可以把枪药珠扔进灵魂火中来制作&b岩浆膏&r。"
 				""
-				"This would be a nice, less violent way to gather the stuff. Well, less violent if I'm good at harvesting it, at least."
+				"这样挺好的，一个更安全的方法获得东西，呃，如果我擅长的话才会安全，至少。"
 			]
 			dependencies: [
 				"5C0BF701B0990D7C"
@@ -764,11 +764,11 @@
 		{
 			x: -3.5d
 			y: 3.0d
-			subtitle: "Make a Furnace"
+			subtitle: "制作一个熔炉"
 			description: [
-				"Using the Blackstone poking through the Bedrock, I've been able to make a &bFurnace&r."
+				"用从基岩层上露出来的黑石，就能制作一个&b熔炉&r了。"
 				""
-				"The trees topside don't make the best fuel, but maybe I could use the ones below the surface?"
+				"地表的树不是最好的燃料，但也许可以试试地下的菌？"
 			]
 			dependencies: ["55099E0F763B39CA"]
 			id: "16C79CB1537B7093"
@@ -795,11 +795,11 @@
 		{
 			x: 6.5d
 			y: 6.5d
-			subtitle: "Trade with a Piglin"
+			subtitle: "和猪灵交易"
 			description: [
-				"Trading with Piglins is netting me some very nice materials."
+				"和猪灵交易能让我赚到一些好东西。"
 				""
-				"Significantly, this includes &bIron&r! Though it's not much use in this form, I can certainly find something for it."
+				"很显然，包括&b铁&r！尽管这个形态没啥大用，但是我一定能找到他的使用方法。"
 			]
 			dependencies: ["6004FB8F1A55EAA1"]
 			id: "624DDC11A0969722"
@@ -828,11 +828,11 @@
 			}]
 		}
 		{
-			title: "All That Glitters"
+			title: "贫矿！全是贫矿！"
 			x: 6.5d
 			y: 2.0d
-			subtitle: "Collect a Gold Ingot"
-			description: ["These ores, like most everything here, are &6not exactly charitable&r. Each one only drops a handful of nuggets."]
+			subtitle: "收集一个金锭"
+			description: ["这些矿石，和这边的大部分东西一样，并不完全是&6丰富的&r。每个矿石只会掉落一些粒。"]
 			dependencies: ["6D44BEC648E76C3E"]
 			id: "452795D9520D03DF"
 			tasks: [{
@@ -857,13 +857,13 @@
 		{
 			x: 6.5d
 			y: 10.0d
-			subtitle: "Make an Iron Ingot"
+			subtitle: "制作一个铁锭"
 			description: [
-				"I really would like to find out where the Piglin are getting their Iron, but so far that remains a mystery."
+				"我真的很想找出猪灵从哪里得到这些铁，但是目前还只是个未知的事情。"
 				""
-				"For the time being, I can just keep trading them for it. Now that I have the means to melt Plates down into &bIngots&r, they are of much more use."
+				"目前，我只能保持和他们交易以得到铁。现在我有方法把铁圆板融化成&b锭&r，他们更为实用。"
 				""
-				"These natives don't know the value of what they have, and I'm happy to exploit that."
+				"这些本地人并不知道他们的价值，我很开心能够利用这一点。"
 			]
 			dependencies: [
 				"624DDC11A0969722"
@@ -883,23 +883,23 @@
 			}]
 		}
 		{
-			title: "Goldhunting in the Nether"
+			title: "在地狱中淘金"
 			x: 6.5d
 			y: 0.0d
-			subtitle: "There's gold in them thar hills!"
+			subtitle: "要发财了！"
 			description: [
-				"There's not much of immediate use in this horrid wasteland, but there's a shocking amount of &bGold&r!"
+				"这个可怕的荒地目前并没有什么作用，但是这边黄金的量特别的多。"
 				""
-				"My immediate thought was something along the lines of &o\"gimme gimme gimme\"&r before remembering where exactly I am."
+				"在我想起来我在哪之前，我的第一反应是“gimme, gimme, gimme”之类的东西。"
 				""
-				"Might as well grab some anyway, for... sentimental reasons."
+				"不管怎样，顺便拿走一些吧，因为……我乐意。"
 			]
 			dependencies: ["4EB484144E0ACC7F"]
 			id: "6D44BEC648E76C3E"
 			tasks: [{
 				id: "16356F722CBC0748"
 				type: "observation"
-				title: "Find Nether Gold Ore"
+				title: "找到下界金矿"
 				icon: "minecraft:nether_gold_ore"
 				timer: 0L
 				observe_type: 0
@@ -925,24 +925,24 @@
 							}
 						]
 						display: {
-							Name: "{\"text\":\"Piglin Prospector\"}"
+							Name: "{\"text\":\"猪灵淘金者\"}"
 						}
 					}
 				}
 			}]
 		}
 		{
-			title: "I'm Smelting, I'm &oSmelting!&r"
+			title: "我在冶炼，我在&o冶炼！&r"
 			x: 4.0d
 			y: 10.0d
 			shape: "hexagon"
-			subtitle: "Make a Smeltery"
+			subtitle: "制作一个冶炼炉"
 			description: [
-				"Using Copper &6fished from the Lava oceans&r, I have upgraded my Melter to a &bSmeltery&r!"
+				"使用&6从岩浆湖里钓出来&r的铜锭，我把我的熔炉升级为了&b冶炼炉&r！"
 				""
-				"The Smeltery is advanced enough for me to create &6alloys&r."
+				"冶炼炉足够先进到可以制作&6合金&r。"
 				""
-				"&oUnlocks the chapter &5Innovation of Inconnu&r&o under &3Prometheus' Heresy&r"
+				"&o解锁章节&3普罗米修斯的异端&r下的&5无名者的革新&r&o"
 			]
 			dependencies: [
 				"2CD5241DDDC9F473"
@@ -983,7 +983,7 @@
 					id: "6A24EA5DD746BE52"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Innovation of Inconnu\",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Prometheus' Heresy\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"全新的革命\",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"普罗米修斯的异端\",\"color\":\"dark_aqua\"},\"!\"]"
 					player_command: false
 				}
 				{
@@ -1003,15 +1003,15 @@
 			]
 		}
 		{
-			title: "The Lord of All That is Golden"
+			title: "穿上它，你就是神中神"
 			x: 8.5d
 			y: 2.0d
 			shape: "square"
-			subtitle: "Make some Gold Armor"
+			subtitle: "制作金质装甲"
 			description: [
-				"The normally-hostile pig men show proper respect for me when I'm wearing &bGolden Armor&r."
+				"当我穿着&b金质盔甲&r时，那些平时凶恶的猪灵们才会友善的看待我。"
 				""
-				"While &c&lextremely fragile&r, this will hopefully let me explore with less trouble."
+				"虽然金质盔甲&c&l非常的脆弱&r，不过能使我的探索之旅顺利许多。"
 			]
 			dependencies: ["452795D9520D03DF"]
 			optional: true
@@ -1064,16 +1064,16 @@
 			]
 		}
 		{
-			title: "A Kiss from a Rose"
+			title: "玫瑰的青睐"
 			x: 4.0d
 			y: 11.5d
-			subtitle: "Tastes like magic"
+			subtitle: "啊，魔法的滋味"
 			description: [
-				"&bRose Gold&r is the backbone of reinforcement magic, that's Alchemistry 101."
+				"&b玫瑰金&r是附魔的基础。登神长阶第一阶&b玫瑰金&r。"
 				""
-				"Now that I've managed to get myself a source of it, I think it's high time I get started on some &oreal&r magics."
+				"虽说万事开头难，但我已经踏出了第一步，那么只需要不断向前道路就会不断延伸。是时候来点&o真正的&r魔法了。"
 				""
-				"&oSee the&r ▶ &oat the top right of this quest to see what it unlocks&r"
+				"&o点击右上角的&r▶&o来查看仍未解锁的项目&r"
 			]
 			dependencies: ["6DF116C5D533A28D"]
 			id: "34E8389197884E32"
@@ -1098,23 +1098,23 @@
 					id: "530248176BBD57C8"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Sanguine Sting \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Mephistopheles' Anger\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"染血之刺\",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"靡菲斯特的暴怒\",\"color\":\"dark_aqua\"},\"!\"]"
 					player_command: false
 				}
 			]
 		}
 		{
-			title: "I'm Gonna Put a Spell on You"
+			title: "嘿！麻瓜！看看这是啥？"
 			x: 6.5d
 			y: 11.5d
 			shape: "hexagon"
-			subtitle: "Hedge Magic, but it's a start."
+			subtitle: "虽然很简单且基础，但是货真价实的魔法。"
 			description: [
-				"With this Rose Gold in hand, I can start making some &6tinctures and concoctions&r in a &bMixing Cauldron&r."
+				"有了这些玫瑰金，我就可以使用&b混合锅&r来制作一些&6混合物和调剂&r。"
 				""
-				"I can distill what little life energies exist in the flora of this place into something more useful to me."
+				"我可以将这地方的植被的一点点生命能变成对我而言更重要的东西。"
 				""
-				"&oUnlocks the chapter &5Herbs and Hexes&r&o under &3Mephistopheles' Anger&r"
+				"&o解锁章节：&5草药与巫术&r&o下的&3靡菲斯特的暴怒&r"
 			]
 			dependencies: [
 				"34E8389197884E32"
@@ -1159,23 +1159,23 @@
 					id: "11CBDE8891D58780"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Herbs and Hexes\",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Mephistopheles' Anger\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"草药与诅咒\",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"靡菲斯特的暴怒\",\"color\":\"dark_aqua\"},\"!\"]"
 					player_command: false
 				}
 			]
 		}
 		{
-			title: "The Path to Something Dark"
+			title: "步入黑暗"
 			x: 6.5d
 			y: 14.25d
 			shape: "hexagon"
-			subtitle: "Dark Diamonds"
+			subtitle: "暗黑宝石"
 			description: [
-				"I've done it. I've created &ba Gem that absorbs the Darkness of this place&r."
+				"我做到了，我做出了&b我做出了汲取黑暗的宝石&r。"
 				""
-				"This will be &6the basis for a great many magics&r here. I imagine I can enhance these further, but that will require experimentation."
+				"这将是&6许多魔法的基础&r。我向我未来可以强化它，但是这需要经验。"
 				""
-				"&oUnlocks part of the chapter &5Sanguine Sting&r&o under &3Mephistopheles' Anger&r"
+				"&o解锁章节&5染血之刺&r&o下的&3靡菲斯特的暴怒&r"
 			]
 			dependencies: ["105D0A853D0574B2"]
 			size: 1.5d
@@ -1202,26 +1202,26 @@
 					id: "022385F221F00818"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Unlocked part of the chapter \",{\"text\":\"Sanguine Sting \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Mephistopheles' Anger\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"染血之刺 \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"靡菲斯特的暴怒\",\"color\":\"dark_aqua\"},\"!\"]"
 					player_command: false
 				}
 			]
 		}
 		{
-			title: "The Path of Leadership"
+			title: "领袖之路"
 			icon: "minecolonies:blockhuttownhall"
 			x: 1.0d
 			y: 14.25d
 			shape: "hexagon"
-			subtitle: "Make the Town Hall"
+			subtitle: "制作一个市政厅"
 			description: [
-				"The &bTown Hall&r is the centerpiece for creating your settlement. Once crafted, claim the quest rewards."
+				"&b市政厅&r是你所创建殖民地的中心。只要建造就绪，就可以领取任务奖励了。"
 				""
-				"MineColonies buildings do not work without a structure. Every quest has an included Capsule of the building for you."
+				"殖民地建筑没有成型前不会工作。每个任务都会为你准备一个建筑胶囊。"
 				""
-				"With the Supply Camp constructed, &6use the Town Hall Capsule&r to place the structure. Once placed, &6mine the Deepslate inside&r and place the &bTown Hall&r there."
+				"当补给营地建成的时候，&6使用市政厅胶囊&r来放置多方块结构。一旦放置好，&6挖掉里面的深板岩&r然后在原地放置&b市政厅&r。"
 				""
-				"&oUnlocks the chapter &5Want Not&r&o under &3Desires&r"
+				"&o解锁章节&o&3欲望&r下的&5吃穿不缺&r"
 			]
 			dependencies: ["12F109B5B72694C3"]
 			size: 1.5d
@@ -1254,7 +1254,7 @@
 							author: "FTB"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Town Hall Capsule\"}"
+								Name: "{\"text\":\"市政厅胶囊\"}"
 							}
 							label: "Townhall.nbt"
 							size: 23
@@ -1267,24 +1267,24 @@
 					id: "5D43ECBF47A0E70F"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Want Not \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Desires\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"吃穿不愁 \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"欲望\",\"color\":\"dark_aqua\"},\"!\"]"
 					player_command: false
 				}
 				{
 					id: "0427211B71C8BA37"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p {\"text\":\"You must place the Supply Camp before you can start your Colony\",\"bold\":true,\"underlined\":true,\"color\":\"red\"}"
+					command: "/tellraw @p {\"text\":\"你必须在放置殖民地之前放下补给营地\",\"bold\":true,\"underlined\":true,\"color\":\"red\"}"
 					player_command: false
 				}
 			]
 		}
 		{
-			title: "Soulless Sand"
+			title: "失魂沙子"
 			x: -3.5d
 			y: 1.5d
-			subtitle: "Transmute Sand"
-			description: ["It seems I can &6burn Vile Dust in Spiritfire&r to create &bSand&r!"]
+			subtitle: "转化沙子"
+			description: ["似乎我可以&6通过灵火中燃烧邪恶之尘&r来制作&b沙子&r！"]
 			dependencies: ["190D99BFDBA17B13"]
 			id: "40FB31F573CB41B9"
 			tasks: [{
@@ -1300,14 +1300,14 @@
 			}]
 		}
 		{
-			title: "Despicable Dust"
+			title: "卑鄙之尘"
 			x: -5.0d
 			y: 1.5d
-			subtitle: "Create Vile Dust"
+			subtitle: "制作一个邪恶之尘"
 			description: [
-				"Cooked up some bone meal and out popped this stuff. "
+				"烘烤骨粉就能获得这个东西。"
 				""
-				"This stuff had better be useful for something, otherwise I wasted my Bone Meal."
+				"这个东西最好有啥作用，不然这完全是浪费我的骨粉。"
 			]
 			dependencies: [
 				"16C79CB1537B7093"
@@ -1327,20 +1327,20 @@
 			}]
 		}
 		{
-			title: "The Other Other White Meat"
+			title: "另一种另类的白肉"
 			icon: "nethersdelight:plate_of_stuffed_hoglin_snout"
 			x: 8.5d
 			y: 4.5d
 			shape: "square"
-			subtitle: "Observe a Hoglin"
+			subtitle: "观察疣猪兽"
 			description: [
-				"&bHoglins&r are brutal, vicious beasts that roam the crimson planes."
+				"&b疣猪兽&r是一种会在绯红平原漫步的凶残、野蛮的野兽"
 				""
-				"They are very fond of &bCrimson Mushroom&r, and will even breed when fed it."
+				"他们非常喜爱&b绯红菌&r，甚至能通过其来繁殖。"
 				""
-				"While feeding them doesn't make them any friendlier, it does make them stay around while unattended."
+				"喂养它们不能让他们变得友善，所以在无人看管的时候还是把它们圈起来吧。"
 				""
-				"An Important note: I've found I can extract FAR more unique resources from the hoglin if I get the killing strike with a &6Knife&r. This seems to be a great source of the finer cuts of hoglin meat and hide."
+				"一个重要提示：如果我用&6小刀&r杀死疣猪兽我就能得到一种非常特殊的资源。这似乎是完美的疣猪皮和肉的来源。"
 			]
 			dependencies: ["6004FB8F1A55EAA1"]
 			optional: true
@@ -1349,7 +1349,7 @@
 			tasks: [{
 				id: "3A818C0343779379"
 				type: "observation"
-				title: "Observe a Hoglin"
+				title: "观察疣猪兽"
 				icon: "nethersdelight:hoglin_hide"
 				timer: 0L
 				observe_type: 5
@@ -1389,7 +1389,7 @@
 								}
 							]
 							display: {
-								Name: "{\"text\":\"Infernal Knife\"}"
+								Name: "{\"text\":\"炼狱之刃\"}"
 							}
 						}
 					}
@@ -1397,15 +1397,15 @@
 			]
 		}
 		{
-			title: "Seared Melter"
+			title: "焦黑熔化炉"
 			icon: "tconstruct:seared_melter"
 			x: 2.5d
 			y: 10.0d
-			subtitle: "Make a Melter"
+			subtitle: "制作一个熔化炉"
 			description: [
-				"Scorched Bricks can be &6burned in the Spiritfire&r to make the &bSeared Bricks&r I'm used to."
+				"我常常将焦褐砖扔进&6灵火中燃烧&r来制作&b焦黑砖&r。"
 				""
-				"I can use these to make a &bMelter&r."
+				"我可以用它来制作&b熔化炉&r。"
 			]
 			dependencies: ["372AB62538B293D3"]
 			id: "2CD5241DDDC9F473"
@@ -1423,7 +1423,7 @@
 				{
 					id: "0C8E73D1F5563CA5"
 					type: "item"
-					title: "Melter Fuelers"
+					title: "熔化炉"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -1464,11 +1464,11 @@
 		{
 			x: -2.0d
 			y: 8.5d
-			subtitle: "Collect Propelpearls"
+			subtitle: "收集枪药珠"
 			description: [
-				"I can harvest &bPropelpearls&r by using &o(with a right-click)&r &6Shears&r on the lit bulbs of the Propelplant Stalks."
+				"我可以&o（鼠标右键）&r&6用剪刀&r来采集枪药杆上的发光灯泡来收集&b枪药珠&r。"
 				""
-				"&oHint: I can get the materials for Shears by trading for Gold with Piglins."
+				"&o提示：我可以用金子从猪灵那里交易到剪刀的原材料。"
 			]
 			dependencies: [
 				"5C0BF701B0990D7C"
@@ -1483,18 +1483,18 @@
 			}]
 		}
 		{
-			title: "Explosive Personality"
+			title: "易爆的个性"
 			x: 1.0d
 			y: 8.5d
-			subtitle: "Observe a Propelplant"
+			subtitle: "观察枪药株植"
 			description: [
-				"&bPropelplants&r are one heck of a plant. One step too close and BOOM! Game Over."
+				"&b枪药株植&r是一种植物。靠近它一步就会爆炸！游戏结束。"
 				""
-				"I can harvest the glowing &bPropelpearls&r with Shears, and replenish them with Bone Meal."
+				"我能用剪刀来采集发光的&b枪药珠&r，然后接着用骨粉催熟它。"
 				""
-				"With a Knife, I can carefully harvest the &bCane&r from the top down."
+				"用小刀可以从上到下小心的把&b草杆&r割下来。"
 				""
-				"&bPropelplant Stems&r can be crafted using Canes and Crimson Roots. These can be planted elsewhere."
+				"&b枪药草茎&r可以通过一个草杆和绯红菌索来制作。这样就可以把它种在别的地方。"
 			]
 			dependencies: ["25E90C8154CF725D"]
 			min_width: 275
@@ -1502,7 +1502,7 @@
 			tasks: [{
 				id: "23F039913D8B3EED"
 				type: "observation"
-				title: "Observe a Propelplant Plant"
+				title: "观察枪药株植"
 				icon: "nethersdelight:propelplant_stem"
 				timer: 0L
 				observe_type: 0
@@ -1540,12 +1540,12 @@
 			]
 		}
 		{
-			title: "Shearing the Bulb"
+			title: "剪下“灯泡”"
 			x: 8.5d
 			y: 6.5d
 			shape: "square"
-			subtitle: "Make Shears"
-			description: ["&bShears&r can be made with Iron Rounds, and will let me &6harvest Leaves, Roots, and Propelpearls&r!"]
+			subtitle: "制作剪刀"
+			description: ["&b剪刀&r可以用铁圆板来制作，我可以用它来&6采集树叶，菌索和枪药珠&r！"]
 			dependencies: ["624DDC11A0969722"]
 			optional: true
 			id: "34F994C9B96032D3"
@@ -1569,11 +1569,11 @@
 		{
 			x: 8.5d
 			y: 10.0d
-			subtitle: "Make a Compost Barrel"
+			subtitle: "制作一个堆肥桶"
 			description: [
-				"The &bCompost Barrel&r is much more useful than the Composter. With it, I can turn plant matter into &6Compost&r, which can be &6crafted into Dirt&r."
+				"&b堆肥桶&r比原版堆肥桶更厉害。通过它我可以把植物转化为&6堆肥&r，也就意味着可以把它&6做成泥土&r。"
 				""
-				"This comes at a cost of useability, however. The Compost Barrel is much slower, and cannot be opened while it works."
+				"这一切都是牺牲易用性换来的，堆肥桶比起原版速度更慢，而且它工作的时候不能打开。"
 			]
 			dependencies: ["40D4850B34EC5677"]
 			id: "377F03B6D2338EFD"
@@ -1590,17 +1590,17 @@
 			}]
 		}
 		{
-			title: "The Path of Cultivation"
+			title: "耕种之路"
 			x: 11.5d
 			y: 10.0d
 			shape: "hexagon"
-			subtitle: "The worms crawl in, the Worms crawl out.."
+			subtitle: "虫子钻进去，虫子又钻出来……"
 			description: [
-				"I have spent long enough living off leftovers I have been finding all over this place"
+				"我已经花了足够长的时间靠我在这个地方找到的剩菜过活了"
 				""
-				"Thanks to the compost, I can start working on some actual farming and grow some crops to nourish me."
+				"多亏了堆肥，我可以开始从事一些真正的农业，种植一些作物来填饱我的肚子。"
 				""
-				"&oUnlocks the chapter &5Fertile Wastes&r&o under &3Gluttony&r"
+				"&o解锁章节&3暴食&r下的&5富集废料&r&o"
 			]
 			dependencies: ["377F03B6D2338EFD"]
 			size: 1.5d
@@ -1621,21 +1621,21 @@
 					id: "26C67B62EAF9347C"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Fertile Wastes \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Gluttony\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"富集废料 \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"暴食\",\"color\":\"dark_aqua\"},\"!\"]"
 					player_command: false
 				}
 			]
 		}
 		{
-			title: "Primitive Technology"
+			title: "原始科技"
 			icon: "tconstruct:scorched_brick"
 			x: 1.0d
 			y: 10.0d
-			subtitle: "Make Scorched Bricks"
+			subtitle: "制作一个焦褐砖"
 			description: [
-				"The Smeltery was the first step to civilization, and &bScorched Bricks&r are my first step to that."
+				"冶炼是踏入文明的第一步，&b焦褐砖&r则是我达成目的的第一步。"
 				""
-				"I can convert Magma creams from propelpearls. There is plenty of soul sand around and I'm pretty sure I've seen quite a lot of gravel near the edges of all the lava lakes."
+				"我可以把枪药珠转化为岩浆膏，这有数之不尽用之不竭的灵魂沙，以及我很确信在岩浆湖边上有一堆沙砾。"
 			]
 			dependencies: ["2A07F5A0F699F597"]
 			id: "372AB62538B293D3"
@@ -1652,17 +1652,17 @@
 			}]
 		}
 		{
-			title: "The First Thing That I'd Like to Do"
+			title: "我想做的第一件事是……"
 			x: 8.5d
 			y: 12.5d
 			shape: "square"
-			subtitle: "Make Time in a Bottle"
+			subtitle: "制作一个时间之瓶"
 			description: [
-				"Too many things in this realm try my patience."
+				"在这个地方有太多的事情要考验我的耐心。"
 				""
-				"I've found a way to utilize the energy of the dark gems to &6greatly accelerate many menial tasks&r."
+				"我找到了一个方法去利用暗黑宝石的力量，这&6大大加快了许多琐碎的任务&r。"
 				""
-				"The &bTime in a bottle&r stores time energy when not in use, and I can spend it to accelerate most blocks."
+				"&b时间之瓶&r可以在不用的时候储存时间之力，我可以用它来加速绝大多数方块。"
 			]
 			dependencies: ["782C16B8A56859A2"]
 			optional: true
@@ -1690,18 +1690,18 @@
 			]
 		}
 		{
-			title: "[Intentional Game Design]"
-			tags: ["info"]
+			title: "[刻意的游戏设计]"
+						tags: ["info"]
 			x: 2.5d
 			y: -3.0d
 			shape: "gear"
-			subtitle: "Yeah that wasn't changed"
-			description: ["Just because colonists can sleep in beds doesn't mean you can!"]
+			subtitle: "是的，那并没有改变"
+			description: ["殖民地的人能睡在床上并不意味着你也能！"]
 			id: "15E3F4B1635701D2"
 			tasks: [{
 				id: "45A3791DAF0633E2"
 				type: "observation"
-				title: "Find a bed"
+				title: "找到床"
 				icon: "minecraft:red_bed"
 				timer: 0L
 				observe_type: 1
@@ -1709,15 +1709,15 @@
 			}]
 		}
 		{
-			title: "Alpha Mindset"
+			title: "精英思维"
 			x: 10.0d
 			y: 4.5d
 			shape: "square"
-			subtitle: "Enforce your superiority"
+			subtitle: "履行你至高无上的权利"
 			description: [
-				"Apparently, nobody has taught Hoglins the phrase \"&6Don't bite the hand that feeds you&r.\" &4Looks like I'll have to.&r"
+				"很显然，没有人教过疣猪们那句古话“&6不要恩将仇报&r。”&4看起来这必须得我来了。&r"
 				""
-				"Interestingly, though they love Crimson Fungus, they &ohate&r &bWarped Fungus&r. They won't get near the stuff (eyeballing, they stay about &67 meters away&r)."
+				"有趣的是，虽然他们喜欢绯红菌，但是它们&o讨厌&r&b诡异菌&r。它们不会接近它的（目测它们会保持&67米远&r）。"
 			]
 			dependencies: ["7B68B8DCDA015BCF"]
 			optional: true
@@ -1751,19 +1751,19 @@
 			]
 		}
 		{
-			title: "The Path of Busy Bees"
+			title: "嗡嗡之路"
 			x: 4.0d
 			y: 8.5d
 			shape: "hexagon"
-			subtitle: "Make a Beehive"
+			subtitle: "制作蜂巢"
 			description: [
-				"Here, now, I do not have the resources to properly make use of Bees. However, there's a simple way to get there."
+				"现在，我没有足够的资源来好好利用蜜蜂。然而，有一个简单的方法可以实现。"
 				""
-				"&4Melting a Bee in a Smeltery&r will harvest its lifeblood, &bHoney&r. Bees are fragile creatures, and only net a single bucket's worth of Honey. A &6Campfire&r will prolong its vitality, allowing it to survive nearly twice as long."
+				"&4在冶炼炉中熔炼蜜蜂&r可以收获其心血，&b蜂蜜&r。蜜蜂是一种很脆弱的生物，所以只值一小桶蜂蜜。一个&6营火&r可以延长它几乎两倍的寿命。"
 				""
-				"Honey can be poured atop Warped Planks to make a &bBeehive&r, which I'm sure the surviving Bees will appreciate."
+				"把蜂蜜浇在诡异木板上就可以制作&b蜂箱&r，我很确信活下来的蜜蜂会感激我的。"
 				""
-				"&oUnlocks the chapter &5Busy Bees&r&o under &3Gluttony&r"
+				"&o解锁章节&3暴食&r下的&5忙碌的蜜蜂&r&o"
 			]
 			dependencies: [
 				"6DF116C5D533A28D"
@@ -1794,7 +1794,7 @@
 							author: "IRSMoh_"
 							display: {
 								color: 8388608
-								Name: "{\"text\":\"Bee Housing Capsule\"}"
+								Name: "{\"text\":\"蜂房胶囊\"}"
 							}
 							label: "Beehouse.nbt"
 							size: 11
@@ -1813,25 +1813,25 @@
 					id: "0ED84173872F0429"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Busy Bees \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Gluttony\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"忙碌的蜜蜂\",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"暴食\",\"color\":\"dark_aqua\"},\"!\"]"
 					player_command: false
 				}
 			]
 		}
 		{
-			title: "The Path to Something Magical"
+			title: "通往魔法之路"
 			x: 11.5d
 			y: 8.5d
 			shape: "hexagon"
-			subtitle: "Gather Gold Leaf"
+			subtitle: "收集黄金叶"
 			description: [
-				"Brilliant Fiber can be threaded into mundane Leaves, and will &6slowly turn them golden&r. This also spreads to nearby leaves, but it is not a fast process."
+				"将闪耀纤维穿过普通的树叶，就可以&6缓慢的把他们变成金黄色&r。它可以传染旁边的树叶，但这个过程不会很快。"
 				""
-				"Fully mature golden leaves drop themselves as &bGold Leaf&r. These glow with an &aaura of nature&r unlike anything else I've felt down here. It almost feels like home."
+				"完全成熟的黄金树叶会掉落&b黄金叶&r。这些散发着&a自然光辉&r的东西不像任何我在这见到过的东西，它更像家的感觉。"
 				""
-				"&oOak Leaves can be found in the Overgrown biome, and drop saplings as usual.&r"
+				"&o橡树叶可以在杂草丛生的群系里发现并且会像往常一样掉落树苗。&r"
 				""
-				"&oUnlocks the chapter &5Unnatural Aura&r&o under &3Mephistopheles' Anger&r"
+				"&o解锁章节&3靡菲斯特的暴怒&r下的&5不自然灵气&r&o"
 			]
 			dependencies: ["31A09404EDA92DD4"]
 			size: 1.5d
@@ -1865,7 +1865,7 @@
 					id: "0CACD7A399BB4A34"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Unnatural Aura \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Mephistopheles' Anger\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"不自然灵气 \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"靡菲斯特的暴怒\",\"color\":\"dark_aqua\"},\"!\"]"
 					player_command: false
 				}
 			]
@@ -1873,11 +1873,11 @@
 		{
 			x: 8.5d
 			y: 8.5d
-			subtitle: "Make Brilliant Fiber"
+			subtitle: "制作闪耀纤维"
 			description: [
-				"&bBrilliant Fiber&r is my first step to the more &adruidic arts&r. Not my preferred school, but I'll take anything I can use."
+				"&b闪耀纤维&r是我迈向更多的&a德鲁伊艺术&r的第一步。这不是我理想的学校，但是我会尽我可能学会一切。"
 				""
-				"&oRemember, &6Dante's Divine Labram&r&o has all the guide books in it.&r"
+				"&o切记，&6但丁的神圣图书馆&r&o有所有你需要的指示书。&r"
 			]
 			dependencies: ["70391A24AA73AC40"]
 			id: "31A09404EDA92DD4"
@@ -1901,18 +1901,18 @@
 			]
 		}
 		{
-			title: "Ya Like Jazz?"
+			title: "来跳支舞嘛？"
 			x: 4.0d
 			y: 6.5d
-			subtitle: "Summon a Bee"
+			subtitle: "生成蜜蜂"
 			description: [
-				"With my newfound ability to summon mobs, &bBees&r are a high priority."
+				"用我最新学到的召唤怪物的能力，&b蜜蜂&r有个很高的优先级。"
 				""
-				"Early in my teachings, I learned how to &6mutate Bees&r, capable of fabricating useful materials and performing certain actions for me."
+				"在我的早期学习中，我学会了如何&6使蜜蜂变异&r，能够为我制造有用的材料并干某些事情。"
 				""
-				"Some bees can mutate simply by giving them certain items, while others must be crossbred."
+				"一些蜜蜂只需给它们一些特定的物品就可以变异，而另一些蜜蜂则必须杂交。"
 				""
-				"&oRemember, &6Dante's Divine Labram&r&o has all the guide books in it.&r"
+				"&o切记，&6但丁神圣图书馆&r&o所有指示书都在里面&r"
 			]
 			dependencies: ["4B52BBBF01CDF027"]
 			min_width: 275
@@ -1920,7 +1920,7 @@
 			tasks: [{
 				id: "11412FDFA00B9C45"
 				type: "observation"
-				title: "Look a Bee in the eyes"
+				title: "找到蜜蜂"
 				icon: "minecraft:honeycomb"
 				timer: 0L
 				observe_type: 5
@@ -1933,18 +1933,18 @@
 			}]
 		}
 		{
-			title: "Man's Best Friend"
+			title: "人类做好的伙伴"
 			x: 4.0d
 			y: 2.5d
 			shape: "square"
-			subtitle: "Summon a Wolf"
-			description: ["I've learned a way to &bsummon a companion&r, which will be of great use to me here."]
+			subtitle: "生成一头狼"
+			description: ["我学到了一个方法来&b生成伙伴&r，这对我来说很有帮助。"]
 			dependencies: ["4B52BBBF01CDF027"]
 			id: "69F22F13C8B9FE2C"
 			tasks: [{
 				id: "2021F76B370E4720"
 				type: "observation"
-				title: "Summon a Wolf"
+				title: "生成一头狼"
 				icon: "minecraft:bone"
 				timer: 0L
 				observe_type: 5
@@ -1958,26 +1958,26 @@
 			}]
 		}
 		{
-			title: "Not All Dogs Go to Heaven"
+			title: "不是所有人都能上天堂"
 			icon: "tconstruct:bloodbone"
-			tags: ["info"]
+						tags: ["info"]
 			x: 2.5d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "Mob spawns"
+			subtitle: "怪物生成"
 			description: [
-				"&6Nothing spawns on the Bedrock&r - aside from me, that is!"
+				"&6啥都不能在基岩上生成&r——除了我，(｡･∀･)ﾉﾞ嗨~"
 				""
-				"However, mobs DO spawn everywhere else. Building on top of (or digging below) the Bedrock will &bgive mobs somewhere to spawn&r."
+				"但是怪物会在别的任何地方生成，在基岩层上建筑（或者挖下去）&b会给予怪物生成的温床&r。"
 				""
-				"Foxhounds can be tamed by feeding them Coal while you have Fire Resistance!"
+				"猎狐犬可以在你有抗火的时候喂煤炭来驯养！"
 			]
 			min_width: 275
 			id: "096F23F43370EA50"
 			tasks: [{
 				id: "5EC2447A0A44A459"
 				type: "observation"
-				title: "Look at a Foxhound"
+				title: "找到一个猎狐犬"
 				icon: "quark:foxhound_spawn_egg"
 				timer: 0L
 				observe_type: 5
@@ -2004,23 +2004,23 @@
 			]
 		}
 		{
-			title: "Quest Markers"
+			title: "任务标记"
 			icon: "ftbquests:book"
-			tags: ["info"]
+						tags: ["info"]
 			x: 1.5d
 			y: -3.0d
 			shape: "gear"
-			subtitle: "A Legend; For a Legend, Me."
+			subtitle: "一个传奇，为了一个传奇，就是我。"
 			description: [
 				"{image:inferno:textures/quest/questicons.png width:200 height:100 align:1}"
-				"To avoid confusion, I've devised a system of shapes to relay an entry's significance:"
-				"• &bHexagon&r markers are my &6major goals&r, signifying completion of an endeavor"
-				"• &bCircle&r markers are &6lesser goals&r"
-				"• &bDiamond&r markers are for when I need to &6get my hands dirty&r"
-				"• &bSquare&r markers are optional pursuits that don't count towards journal completion, but may be useful anyway"
-				"• &bGear&r markers signify &6useful information&r but are not inherently tasks"
+				"为了避免混淆，我设计了一套形状系统来区分任务类型。"
+				"• &b六边形&r是我的&6主要目标&r，表示要竭尽全力完成。"
+				"• &b圆形&r标记意味着&6小一点的目标&r。"
+				"• &b钻石形&r标记意味着&6会让我手上沾血&r。"
+				"• &b方形&r标记意味着可选任务，不计入日志但是做就完事了。"
+				"• &b齿轮&r标记意味着只是些&6有用的信息&r，可以不需要做。"
 				""
-				"&oItalicized paragraphs are \"non-canon,\" and explain game mechanics without any fluff."
+				"&o斜体字是“非正式的”，用来正经地解释游戏内容"
 			]
 			min_width: 375
 			id: "3FB11199B862B0ED"
@@ -2042,19 +2042,19 @@
 			]
 		}
 		{
-			title: "Dumb Ways to Die"
+			title: "愚笨之死"
 			icon: "minecraft:skeleton_skull"
-			tags: ["info"]
+						tags: ["info"]
 			x: -0.5d
 			y: -1.5d
 			shape: "gear"
-			subtitle: "Be careful!"
+			subtitle: "小心！"
 			description: [
-				"I need to be careful. The Nether is &cnot a safe place&r at the best of times. Being here, naked and unarmed as I am, would be dangerous even in vanilla."
+				"我需要小心，下界永远&c不是一个安全的地方&r。在这里，像我这样没有武器也没有盔甲，即使是在原版生存也很危险。"
 				""
-				"The Bedrock roof is the closest thing I have to safety. I must be extremely careful &o- surgical even -&r when digging down below the surface. &bDig tunnels, avoid mobs, get what I need, and get out. &cRunning away is always a valid option.&r"
+				"基岩顶是我最能感受到安全的地方，我在地表向下挖掘的时候必须格外小心&o——堪比做外科手术一样地——&r&b挖掘隧道，躲避怪物，拿到我想要的然后出去。&c逃跑虽然可耻，但是有用。&r"
 				""
-				"Here goes nothing. "
+				"没其它要说的了。"
 			]
 			dependencies: ["1FAE864DC2E733BC"]
 			size: 0.75d
@@ -2067,26 +2067,26 @@
 			}]
 		}
 		{
-			title: "Conducting the Orchestra"
+			title: "指挥管乐队团"
 			x: 4.5d
 			y: 14.25d
-			subtitle: "Make a Build Tool"
+			subtitle: "制作一个建筑工具"
 			description: [
-				"With this &bBuild Tool&r, I can channel my will into existence. With this, I can &6command structures to rise from the ground&r."
+				"有了这个&b建筑工具&r，我就可以把我的愿望变成现实。有了它我就能&6命令建筑拔地而起&r。"
 				""
-				"By &6striking the bedrock layer&r directly, I can make even the &oBedrock itself&r crumble before my designs."
+				"通过直接&6敲击基岩层&r，我甚至能通过我的设计击碎&o基岩层&r。"
 				""
-				"&oMore accurately, the Build Tool allows you to &6designate a location&r&o for a building. It &cdoes not place the blocks&r."
+				"&o更准确来说，建筑工具只允许你给你的建筑&6指定一个位置&r&o。但是&c不能放置方块&r。"
 				""
 				"{image:inferno:textures/quest/build_tool.png width:225 height:156 align:1}"
 				""
-				"The &6center buttons&r allow me to &bmove, rotate, and mirror&r the structure. The &agreen checkmark&r confirms the location, requesting Builder colonists to begin construction. The &cX&r cancels."
+				"&6中间按钮&r允许我&b移动，旋转，镜像&r结构。&a绿钩&r确认位置，并请求殖民地建筑工开始施工。&cX&r取消。"
 				""
-				"The &6top left dropdown&r lets me &bchoose the structure&r. Most require me to have the main block (like the Town Hall) in my inventory."
+				"&6左上角按钮&r允许我&b选择结构&r。大多数需要我身上有有主要方块（就像市政厅）。"
 				""
-				"The &6middle dropdown&r allows me to choose the &bstyle&r of the building. Here, it's almost always limited to Warped."
+				"&6中间按钮&r可以让我选择建筑&b风格&r。在这里大多数都被限制为了诡异风。"
 				""
-				"The &6right dropdown&r allows me to choose the &bspecific schematic&r. This usually means the &btier of the building&r."
+				"&6右侧按钮&r可以让我选择&b特殊示意图&r。这一般意味着&b建筑的不同等级&r。"
 			]
 			dependencies: ["782C16B8A56859A2"]
 			min_width: 350
@@ -2107,7 +2107,7 @@
 						tag: {
 							RepairCost: 0
 							display: {
-								Name: "{\"text\":\"Inferno Supply Camp\"}"
+								Name: "{\"text\":\"炼狱补给营地\"}"
 							}
 						}
 					}
@@ -2123,13 +2123,13 @@
 		{
 			x: 3.0d
 			y: 14.25d
-			subtitle: "Place the Supply Camp"
+			subtitle: "放置一个补给营地"
 			description: [
-				"These infernal lands are plagued by lost spirits that roam endlessly. If they were given direction, perhaps they could find meaning in this existence, and prove valuable allies."
+				"这些地狱般的土地被无尽游荡的失落的灵魂所折磨。如果他们得到指引，也许他们可以从这个存在中找到意义，并证明他们是有价值的盟友。"
 				""
-				"Place the &bSupply Camp&r. This will create a chest containing everything I'll need to get started. Placing the camp chest will materialize it into the world, &creplacing any blocks that are already there&r. This includes Bedrock. Make sure it is flush with the ground."
+				"放置一个&b补给营地&r。这将创建一个包含我开始所需的一切的箱子。放置露营箱将使其成为可用之物，&c替换掉一切原本在这里的方块&r。包括基岩，保证让其与地面齐平。"
 				""
-				"&6&l&nThe Supply Camp must be placed before I can start a Colony.&r The contents are not required, but placing it is a required step."
+				"&6&l&n补给营地一定要在殖民地之前放置。&r里面的东西不重要，但是一定要放出来。"
 			]
 			dependencies: ["7CE3248888AC5982"]
 			min_width: 325
@@ -2143,7 +2143,7 @@
 					tag: {
 						RepairCost: 0
 						display: {
-							Name: "{\"text\":\"Inferno Supply Camp\"}"
+							Name: "{\"text\":\"炼狱补给营地\"}"
 						}
 					}
 				}
@@ -2181,7 +2181,7 @@
 								}
 							]
 							display: {
-								Name: "{\"text\":\"Gilded Sword of Command\"}"
+								Name: "{\"text\":\"镀金指挥之剑\"}"
 							}
 						}
 					}
@@ -2195,7 +2195,7 @@
 						tag: {
 							RepairCost: 0
 							display: {
-								Name: "{\"text\":\"Matrixis' Irony\"}"
+								Name: "{\"text\":\"梅志克斯的讽刺\"}"
 							}
 						}
 					}
@@ -2205,17 +2205,17 @@
 		{
 			title: "TL;DR"
 			icon: "ftbquests:book"
-			tags: ["info"]
+						tags: ["info"]
 			x: 1.5d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "Chapters and subtitles"
+			subtitle: "章节和子标题"
 			description: [
-				"Quests are separated into &bchapters&r, which are separated into &bgroups&r."
+				"任务可以被分为&b章节&r，又可以被分为&b组&r。"
 				""
-				"Hover over the bar on the far left to see the list of chapters."
+				"鼠标悬放在最左侧的位置可以查看章节条目。"
 				""
-				"You can &6hover over chapters&r to see a small description of them."
+				"你可以&6悬停在章节上&r来查看它们的简述。"
 			]
 			id: "13AC02EC122D2DA7"
 			tasks: [{
@@ -2224,16 +2224,16 @@
 			}]
 		}
 		{
-			title: "E I E I O"
+			title: "咿呀咿呀哟~"
 			icon: "minecraft:leather"
 			x: 2.5d
 			y: 5.0d
 			shape: "square"
-			subtitle: "Summon some farm animals"
+			subtitle: "召唤一些牲畜"
 			description: [
-				"&bCows&r, &bChickens&r, &bSheep&r, and &bRabbits&r can be summoned to be used by me here."
+				"&b我可以把牛&r，&b鸡&r，&b羊&r，和&b兔子&r召唤出来来用。"
 				""
-				"They should be grateful. &4They'll be here a much shorter time than I will."
+				"他们要学会感激&4他们在这呆的时间可比我少多了。"
 			]
 			dependencies: ["4B52BBBF01CDF027"]
 			id: "79680158E7F5BA70"
@@ -2241,7 +2241,7 @@
 				{
 					id: "3074B9865F431B9D"
 					type: "observation"
-					title: "Summon a Cow"
+					title: "召唤一头牛"
 					icon: "minecraft:leather"
 					timer: 0L
 					observe_type: 5
@@ -2250,7 +2250,7 @@
 				{
 					id: "17654B9AD1B5F555"
 					type: "observation"
-					title: "Summon a Chicken"
+					title: "召唤一只鸡"
 					icon: "minecraft:feather"
 					timer: 0L
 					observe_type: 5
@@ -2259,7 +2259,7 @@
 				{
 					id: "4F8198BD6ADFDF46"
 					type: "observation"
-					title: "Summon a Sheep"
+					title: "召唤一头羊"
 					icon: "minecraft:white_wool"
 					timer: 0L
 					observe_type: 5
@@ -2268,7 +2268,7 @@
 				{
 					id: "525DA529E65306B0"
 					type: "observation"
-					title: "Summon a Rabbit"
+					title: "召唤一只兔子"
 					icon: "minecraft:rabbit_hide"
 					timer: 0L
 					observe_type: 5
@@ -2277,7 +2277,7 @@
 			]
 		}
 		{
-			title: "Tier 0 armors"
+			title: "初始装备"
 			icon: {
 				id: "tconstruct:travelers_chestplate"
 				Count: 1b
@@ -2300,17 +2300,17 @@
 			x: -5.0d
 			y: 6.5d
 			shape: "square"
-			subtitle: "Make some armor"
+			subtitle: "制作一些装备"
 			description: [
-				"I will not die here. That is not an option."
+				"我不会死在这。这压根不是一个选择。"
 				""
-				"Oddly, &cbasic armors do not seem to last very long&r. They protect me well enough, but they shatter much too quickly."
+				"奇怪的是，&c原版装备在这里都很脆弱&r。虽然目前它们足够能保护我，但是过不了多久就碎了。"
 				""
-				"For now, &bTraveler's Armor&r functions perfectly well. It has the added bonus of &6accepting modifications&r to make it work even better."
+				"目前为止，&b旅行者套装&r的功能非常合适。他额外&6可以魔改的&r插槽甚至能让他更厉害。"
 				""
-				"&oUnlocks several quests in &5Protect the Unprotected&r&o under &3Desires&r"
+				"在章节&3欲望&r下的&o&5保护没被保护的&r&o中解锁一些任务。"
 				""
-				"Hoglin hide is harvested from hoglins by getting the killing blow with a knife. I can trade some piglins gold in exchange for some spawn eggs and maybe make a soul shard spawner for them..."
+				"疣猪皮革是用小刀杀死疣猪获得的。我可以用金子从猪灵那交易到一些刷怪蛋，然后或许做一个灵魂碎片（Soul Shard）来生成他们……"
 			]
 			dependencies: ["5C0BF701B0990D7C"]
 			min_width: 225
@@ -2319,7 +2319,7 @@
 				{
 					id: "630FB06A4087CE6F"
 					type: "item"
-					title: "Traveler's Armor"
+					title: "旅行者套装"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -2412,7 +2412,7 @@
 				{
 					id: "37A858371841CDE7"
 					type: "item"
-					title: "Decorative armors"
+					title: "装饰性装备"
 					item: {
 						id: "itemfilters:and"
 						Count: 1b
@@ -2474,7 +2474,7 @@
 			]
 		}
 		{
-			title: "Covered in Gold"
+			title: "金子罩着你"
 			icon: {
 				id: "minecraft:golden_helmet"
 				Count: 1b
@@ -2485,8 +2485,8 @@
 			x: -5.0d
 			y: 7.25d
 			shape: "square"
-			subtitle: "Apply the Golden Modifier to your armor"
-			description: ["I can &bapply Gold to my Traveler's armor&r to make Piglins neutral to me!"]
+			subtitle: "用金锭改良你的装备"
+			description: ["我能&b给我的装备镀金&r来让猪灵对我保持中立！"]
 			hide_dependency_lines: true
 			dependencies: ["4907DE361AB24C96"]
 			size: 0.5d
@@ -2500,16 +2500,16 @@
 			}]
 		}
 		{
-			title: "Seven Deadly Sins"
+			title: "七宗罪"
 			icon: "minecraft:spawner"
 			x: 4.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Locate a Dungeon of Sin"
+			subtitle: "找到罪孽地牢"
 			description: [
-				"While exploring the infinite Bedrock plains, I've discovered several structures I've dubbed the &bDungeons of Sin&r."
+				"当我在无尽的基岩大陆探索的时候，我打赌发现了&b罪孽地牢&r的东西。"
 				""
-				"There are &67 types&r, for the 7 sins. Each has its own challenges and rewards."
+				"一共有&67种类型&r，对应七宗罪，每个都有不一样的挑战和战利品。"
 				""
 				"{image:inferno:textures/quest/sins.png width:279 height:150 align:1 fit:true}"
 			]
@@ -2524,24 +2524,28 @@
 			}]
 		}
 		{
-			title: "The Infernal Islands"
+						title: "炼狱群岛"
 			icon: "reliquary:infernal_chalice"
-			tags: ["info"]
+						tags: ["info"]
 			x: -2.0d
 			y: -4.5d
 			shape: "gear"
-			subtitle: "All by ourselves"
+			subtitle: "全靠我们自己"
 			description: [
-				"&6Server players&r will spawn in a &blobby&r structure. It is &nhighly reccommended&r to &cnot stay here&r."
+				"如果你在多人服务器上游玩，你会发现身处一个大型的结构中。大厅中所有人都知道。你可以随时通过输入以下内容返回此处："
 				""
-				"Server players should &bcreate or join a party&r with &eFTB Teams&r (using &3/ftbteams&r), and then use the command &3/ftbislands create&r."
+				"&3/ftbislands lobbby&r"
 				""
-				"This will teleport you away to a smaller temple structure, which is the intended start location."
+				"如果你是单人游玩，你将不会出现在FTB Island——大多时候的起始地。在多人游戏中，你应当与你的朋友（或者你自己）创建一个队伍，当你准备好后，请键入以下内容："
 				""
-				"While you can still use &3/sethome&r and &3/home&r, &3/ftbislands home&r will always send you to your party's temple."
+				"&3/ftbislands create&r"
+				""
+				"这将将你传送到离大厅很远的地方，并为你们的多人游戏创建岛屿。"
+				""
+				"除了&3/home&r指令，你还可以使用&3/ftbislands home&r指令，该指令无法更改位置，始终将你送回遗迹。"
 			]
 			size: 1.5d
-			min_width: 300
+						min_width: 300
 			id: "5F23A6966EA408C3"
 			tasks: [{
 				id: "70EAD5D192D881DB"
