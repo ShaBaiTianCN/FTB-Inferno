@@ -3,22 +3,22 @@
 	group: "3ABD0072BF4C3677"
 	order_index: 3
 	filename: "protect_the_unprotected"
-	title: "Protect the Unprotected"
+	title: "保护平民"
 	icon: "minecolonies:blockhutarchery"
-	subtitle: ["Guards and combat"]
+	subtitle: ["守卫和斗争"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: 3.0d
 			y: -6.5d
-			subtitle: "Make an Archery"
+			subtitle: "制作一个靶场"
 			description: [
-				"At the &bArchery&r, prospective Archers can &6train their stats&r, becoming more powerful."
+				"在&b靶场&r里，未来的弓箭手们可以&6提升他们的属性&r，变得更加强大。"
 				""
-				"Archers in Training &cdo not fight mobs&r. They level and that is it."
+				"训练中的弓箭手&c不与怪物战斗&r。这样就能升级。"
 				""
-				"If I lose my Archers (or make more Guard Towers), an Archer in Training will take their place."
+				"如果我失去了我的弓箭手（或制造更多守卫塔），一个训练中的弓箭手将取代他们的位置。"
 			]
 			dependencies: [
 				"46A72493AFD256CA"
@@ -64,16 +64,16 @@
 			]
 		}
 		{
-			title: "&mAlso try FTB Academy&r"
+			title: "&m也试试FTB Academy吧&r"
 			x: 0.0d
 			y: -6.5d
-			subtitle: "Make a Combat Academy"
+			subtitle: "制作一个练兵场"
 			description: [
-				"At the &bCombat Academy&r, prospective Knights can &6train their stats&r, becoming more powerful."
+				"在&b练兵场&r里，准骑士们可以&6提升他们的属性&r，变得更强。"
 				""
-				"Knights in Training &cdo not fight mobs&r. They level and that is it."
+				"准骑士们在训练时&c不与怪物作战&r。这样就能升级。"
 				""
-				"If I lose my Knights (or make more Guard Towers), a Knight in Training will take their place."
+				"如果我失去了我的骑士（或制造更多守卫塔），一个训练中的骑士将取代他们的位置。"
 			]
 			dependencies: [
 				"46A72493AFD256CA"
@@ -133,18 +133,18 @@
 			x: -1.5d
 			y: -4.0d
 			shape: "square"
-			subtitle: "Make a Tier 1 armor"
+			subtitle: "制作一级盔甲"
 			description: [
-				"The Tier 1 armor sets are the &bHazmat&r and &bNovice&r sets."
+				"一级盔甲分别是&b防化服套装&r和&b初学者法袍&r"
 				""
-				"&6Armor tiers are somewhat arbitrary.&r Lower tiers are generally available earlier, but it depends on the path I take."
+				"&6装甲等级有些随意。&r较低级别的盔甲通常可以获得的更早，但这取决于我选择的道路。"
 			]
 			dependencies: ["4907DE361AB24C96"]
 			id: "0756A3FFDE548C2F"
 			tasks: [{
 				id: "2590CB30DE761AF9"
 				type: "item"
-				title: "Tier 1 Armors"
+				title: "一级盔甲"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -237,14 +237,14 @@
 			x: 0.0d
 			y: -4.0d
 			shape: "square"
-			subtitle: "Make a Tier 2 armor"
-			description: ["The Tier 2 armor sets are the &bBotanist's&r, &bLiving&r, &bMage&r, &bSteel&r, and &bWitch's&r sets."]
+			subtitle: "制作二级盔甲"
+			description: ["二级盔甲分别是&b植物学家套装&r，&b束灵套装&r，&b法师套装&r，&b钢套装&r，和&b巫师套装&r"]
 			dependencies: ["4907DE361AB24C96"]
 			id: "0D5482EF6B2185CB"
 			tasks: [{
 				id: "738368C8C52C77B0"
 				type: "item"
-				title: "Tier 2 Armors"
+				title: "二级盔甲"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -403,14 +403,14 @@
 			x: 1.5d
 			y: -4.0d
 			shape: "square"
-			subtitle: "Make a Tier 3 armor"
-			description: ["The Tier 3 armor sets are the &bSkyseeker's&r, &bPlate&r, &bCarbon&r, &bGilded Netherite&r, and &bArchmage&r sets."]
+			subtitle: "制作三级盔甲"
+			description: ["三级盔甲分别是&b探天者套装&r，&b镶板套装&r，&b碳纤维套装&r，&b镀金下界合金套装&r，和&b大法师套装&r。"]
 			dependencies: ["4907DE361AB24C96"]
 			id: "62C114210D96CC95"
 			tasks: [{
 				id: "2F7F6E991065DECC"
 				type: "item"
-				title: "Tier 3 Armors"
+				title: "三级盔甲"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -644,14 +644,14 @@
 			x: 3.0d
 			y: -4.0d
 			shape: "square"
-			subtitle: "Make a Tier 4 armor"
-			description: ["The Tier 4 armor sets are the &bIgnitium&r, &bQuantum&r, and &bPlate Armor&r sets."]
+			subtitle: "制作四级盔甲"
+			description: ["四级盔甲分别是&b焰魔套装&r，&b量子套装&r，和&b板甲套装&r。"]
 			dependencies: ["4907DE361AB24C96"]
 			id: "10E4476B02B818D4"
 			tasks: [{
 				id: "2FFDAF0657C0DEE5"
 				type: "item"
-				title: "Tier 4 Armors"
+				title: "四级盔甲"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -751,8 +751,8 @@
 			x: 4.5d
 			y: -4.0d
 			shape: "square"
-			subtitle: "Make a set of Infinity armor"
-			description: ["&bInfinity Armor&r provides &6complete, perfect immortality&r while worn."]
+			subtitle: "制作一套无尽盔甲"
+			description: ["&b无尽盔甲&r提供了&6完全的，完美的不死之身&r"]
 			hide_dependency_lines: false
 			dependencies: ["4907DE361AB24C96"]
 			id: "59B9C6E375FBB363"
@@ -780,7 +780,7 @@
 			]
 		}
 		{
-			title: "Guard Armor"
+			title: "守卫的盔甲"
 			icon: {
 				id: "inferno:manyullyn_helmet"
 				Count: 1b
@@ -791,13 +791,13 @@
 			x: 1.5d
 			y: -8.0d
 			shape: "square"
-			subtitle: "Make a set of armor for your minions"
+			subtitle: "为你的工人制作一套盔甲"
 			description: [
-				"If my Guards are to protect my minions, they need to protect themselves first."
+				"如果我的守卫要保护我的工人，他们首先要保护好自己。"
 				""
-				"I've designed &bfour armor sets&r, specifically tailored to my minions' unique biology. "
+				"我设计了&b四套盔甲&r，专门为我的工人量身定做的。"
 				""
-				"They will &6provide a unique boost&r to my minions, but are &cinherently incompatible with myself&r. Wearing any piece will leave me incredibly ill."
+				"它们将为我的工人&6提供一个独特的强化&r，但是&c不适合我穿着&r。穿任何一件衣服都会让我生病。"
 			]
 			dependencies: ["7A356984A81D5C82"]
 			min_width: 225
@@ -806,7 +806,7 @@
 				{
 					id: "0F5A568BF051A223"
 					type: "item"
-					title: "Helmets"
+					title: "头盔"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -847,7 +847,7 @@
 				{
 					id: "71C02C0BABA6BB2D"
 					type: "item"
-					title: "Chestplates"
+					title: "胸甲"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -888,7 +888,7 @@
 				{
 					id: "0135983A366C96C0"
 					type: "item"
-					title: "Leggings"
+					title: "裤子"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -929,7 +929,7 @@
 				{
 					id: "1EF491AF74E55973"
 					type: "item"
-					title: "Boots"
+					title: "鞋子"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -989,7 +989,7 @@
 			]
 		}
 		{
-			title: "Nowhere Is Safe"
+			title: "危机四伏"
 			icon: {
 				id: "gateways:gate_pearl"
 				Count: 1b
@@ -1000,17 +1000,17 @@
 			x: 1.5357142857142705d
 			y: -0.7446428571428569d
 			shape: "hexagon"
-			subtitle: "Learn about invasions"
+			subtitle: "了解侵略"
 			description: [
-				"As I complete my &4Infernal Research&r at the University, my minions are granted &6incredible boons&r."
+				"当我在大学完成我的&4炼狱研究&r，我的工人们得到了&6难以置信的裨益&r。"
 				""
-				"However, this does not come without consequence."
+				"然而，这并非没有后果。"
 				""
-				"There is a chance of &binvasion&r; every so often, &chordes of enemies may be summoned to fight me&r, wherever I am."
+				"可能会发生&b入侵&r事件；每隔一段时间，&c成群的敌人就会被召集起来与我作战&r，无论我身在何处。"
 				""
-				"Thankfully, I have &6forewarning of a minute&r, so I may prepare myself."
+				"谢天谢地，我提前得到了&6一分钟的预警&r，所以我可以做好准备。"
 				""
-				"The deeper I research, the &cmore dangerous invasions&r I will encounter."
+				"我研究得越深入，就会遇到&c越多危险的入侵&r。"
 			]
 			dependencies: ["11159BF1C52963EC"]
 			size: 1.75d
@@ -1022,22 +1022,22 @@
 			}]
 		}
 		{
-			title: "The Numbers"
+			title: "队友们"
 			icon: "minecraft:player_head"
 			x: 1.5d
 			y: 0.375d
 			shape: "gear"
-			subtitle: "Invasion mechanic math"
+			subtitle: "关于入侵机制的数学"
 			description: [
-				"There are 4 &eGame Stages&r that decide the invasion spawn pool. Having the stage limits the pool. The Stages are given on first spawn, and removed with research."
+				"有四个&e游戏阶段&r决定入侵生成池。已拥有的阶段会限制入侵生成池。第一次进入世界时会被给予所有阶段，并随着研究的进行而移除。"
 				""
-				"Every ten minutes, the server chooses 1 random eligable player, and summons an invasion if there isn't already one."
+				"每10分钟，服务器随机检查1名符合条件的玩家，如果当前没有入侵就会生成一次入侵。"
 				""
-				"Players have a &64 hour cooldown&r on invasions, halving for every additional tier they have."
-				"• Tier 1: 4 hours"
-				"• Tier 2: 2 hours"
-				"• Tier 3: 1 hour"
-				"• Tier 4: 30 minutes"
+				"玩家的入侵有&64小时的冷却时间&r，玩家每高一级，冷却时间就减半。"
+				"•等级一：四个小时"
+				"•等级二：二个小时"
+				"•等级三：一个小时"
+				"•等级四：三十分钟"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4DD464C43030D4D2"]
