@@ -206,7 +206,7 @@
 					tag: {
 						EntityTag: {
 							type: "productivebees:netherite"
-						}
+						
 					}
 				}
 			}]
