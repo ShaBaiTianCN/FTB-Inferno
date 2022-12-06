@@ -1,19 +1,19 @@
 {
-	id: "72464C26AF8BCEB2"
+	id: "72464C26AF8BCEB2"1
 	group: "7044F2C841148E69"
 	order_index: 3
 	filename: "sanguine_sting"
-	title: "Sanguine Sting"
+	title: "染血之刺"
 	icon: "evilcraft:burning_gem_stone"
-	subtitle: ["Blood Magic \\& EvilCraft"]
+	subtitle: ["血魔法\\&邪恶工艺"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: 2.0d
 			y: 2.5d
-			subtitle: "Make a Dark Power Gem"
-			description: ["Darkness empowered with former life, the &bDark Power Gem&r allows for even stronger magical items."]
+			subtitle: "制作一个暗黑充能宝石"
+			description: ["黑暗被赐予了生者的力量，使&b暗黑充能宝石&r可以制作更加强大的魔法物品。"]
 			hide_dependency_lines: true
 			min_required_dependencies: 1
 			dependencies: [
@@ -28,19 +28,19 @@
 			}]
 		}
 		{
-			title: "Great Power Requires Sacrifice"
+			title: "强大的力量往往伴随着牺牲"
 			x: -2.0d
 			y: -4.5d
 			shape: "hexagon"
-			subtitle: "Make a Blood Altar"
+			subtitle: "建造一个血之祭坛"
 			description: [
-				"&4Life Essence.&r The very Will that pulses through everything that has ever, or will ever live."
+				"&4生命源质。&r正是这种意志贯穿了一切曾存在过或将要存在的事物。"
 				""
-				"I admit, it's darker magic than I'm used to. However, stuck in this hellhole as I am, there's little I won't resort to."
+				"我承认，这是比我习惯的更黑暗的魔法。然而，在被困在这种鬼地方，为了出去，我什么都愿意做。"
 				""
-				"I can &6subject living creatures to my Smeltery&r to extract their blood. Alloying that with Soul Sand will create &cLife Essence&r, enough to create a &bBlood Altar&r."
+				"我可以&6把生物塞进我的冶炼厂&r来获取他们的血液。然后将它于灵魂沙混合，这样我就获得了&c生命源质&r，这足以使我制作一个&b血之祭坛&r。"
 				""
-				"&oRemember, &6Dante's Divine Labram&r&o has all the guide books in it.&r"
+				"&o记住，&6但丁的神圣图书馆&r&o里有本书详细简绍此事。&r"
 			]
 			dependencies: ["34E8389197884E32"]
 			size: 1.25d
@@ -66,14 +66,14 @@
 			]
 		}
 		{
-			title: "Just a Small Prick..."
+			title: "仅仅一个小刺伤……"
 			x: -4.0d
 			y: -4.5d
-			subtitle: "Make a Sacrificial Knife"
+			subtitle: "制作一把牺牲匕首"
 			description: [
-				"With the Altar constructed, I can bloodlet in a more controlled manner using a &bSacrificial Knife&r."
+				"随着祭坛建造完成，我可以通过使用&b牺牲匕首&r来以一种更可控的方式放血。"
 				""
-				"It still hurts, but a &6Campfire&r nearby will help ease the pain."
+				"这很疼，但是如果附近有一个&6营火&r的话，就可以稍微减缓疼痛。"
 			]
 			dependencies: ["66240316682D0D18"]
 			id: "711049B56861B200"
@@ -109,8 +109,8 @@
 			x: -4.0d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "Make an Alchemy Table"
-			description: ["At the &bAlchemy Table&r, I can use LP from my Orb network to perform alchemy, providing &6unique recipes&r."]
+			subtitle: "制作一个炼金术桌"
+			description: ["在&b炼金术桌&r，上我可以使用来自宝珠的LP来执行炼金术。"]
 			dependencies: ["711049B56861B200"]
 			id: "0BEBDF5D45C3425F"
 			tasks: [{
@@ -149,27 +149,27 @@
 						Damage: 0
 						display: {
 							Lore: [
-								"{\"underlined\":true,\"color\":\"white\",\"text\":\"More of these\"}"
-								"{\"underlined\":true,\"color\":\"white\",\"text\":\"can be crafted!\"}"
+								"{\"underlined\":true,\"color\":\"white\",\"text\":\"能制作\"}"
+								"{\"underlined\":true,\"color\":\"white\",\"text\":\"更多了！\"}"
 							]
-							Name: "{\"text\":\"Infernal Flight Elixer\"}"
+							Name: "{\"text\":\"炼狱飞行灵药\"}"
 						}
 					}
 				}
 			}]
 		}
 		{
-			title: "Twisting the Essence of Life"
+			title: "扭曲生命源质"
 			x: -2.0d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "From the ash rises life."
+			subtitle: "在灰烬中降生。"
 			description: [
-				"&bArcane Ashes&r act as a conduit for a tiny amount of life energy. Enough to &6transmute physical objects&r from one form to another."
+				"&b奥术粉灰&r作为输送极少生命源质的管道。足以把&6转化物品&r从一种形式到另一种形式。"
 				""
-				"This works somewhat similar to the Spiritfire from so long ago. This process slowly consumes the Ashes, but I can create a great many things from it."
+				"这与很久之前的精灵之火有点相似，这个过程会缓慢的消耗粉灰，但我们从中创造很多东西。"
 				""
-				"&oUnlocks part of the chapter &5Sinful Sorcery&r&o under &3Mephistopheles' Anger&r"
+				"&o解锁部分章节&3靡菲斯特的暴怒&r下的&5罪恶之魔法&r&o"
 			]
 			dependencies: [
 				"68908252483EADB4"
@@ -203,22 +203,22 @@
 					id: "462BD5ACFAABEE37"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Sinful Sorcery \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Mephistopheles' Anger\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"罪恶之魔法 \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"靡菲斯特的愤怒\",\"color\":\"dark_aqua\"},\"!\"]"
 					player_command: false
 				}
 			]
 		}
 		{
-			title: "A Higher Tier Altar"
+			title: "一个更强大的祭坛"
 			x: 0.0d
 			y: -2.5d
-			subtitle: "Make a Tier II Blood Altar"
+			subtitle: "建造一个二阶的血之祭坛"
 			description: [
-				"Greater powers require I corrupt my soul beyond what I'm currently able to. I need to &bupgrade my Blood Altar&r."
+				"更强大的力量需要我们出卖（腐化）我们的灵魂超越目前我们所能我们需要&b提升血之祭坛&r。"
 				""
-				"Encircling the Blood Altar with a ring of &bRunes&r will take it to Tier 2."
+				"用一圈&b符文&r包围血之祭坛将使其进入第二阶。"
 				""
-				"The exact specifications can be seen in the &6Sanguine Scientiem&r, in my &oDivine Libram."
+				"详细内容见&6血染知书&r，在我的&o阿卡什宝典。"
 			]
 			dependencies: [
 				"66240316682D0D18"
@@ -253,16 +253,16 @@
 			]
 		}
 		{
-			title: "Sanguine Source"
+			title: "血染根源"
 			x: -2.0d
 			y: -0.5d
-			subtitle: "Make a Weak Blood Orb"
+			subtitle: "制作一个虚弱气血宝珠"
 			description: [
-				"The human body can only hold so much blood. At least, without some rather unfortunate leakage at inopportune times."
+				"人类的身体只能容纳这么多的血，至少，不会不合时宜的不幸泄露。"
 				""
-				"To remedy this, I've designed the &bBlood Orb&r, an &6extradimensional pocket&r to contain blood! Of course, I have to provide said blood myself. For now."
+				"为了解决这个问题我设计了&b气血宝珠&r，一个&6超大型（口袋）物品&r来储存血！当然，现在我们不得不提供自己所述的血液。"
 				""
-				"I cannot create the Orb on my own. I need to &6teach it to my Enchanter&r, and then &6request it from a Postbox&r."
+				"我们自己不能直接制作宝珠。我们需要&6教给附魔师&r，然后&6从邮箱中请求获得&r。"
 			]
 			hide_dependency_lines: false
 			dependencies: [
@@ -290,19 +290,19 @@
 			]
 		}
 		{
-			title: "A Sound Mind, and a Sound Body"
+			title: "健全的头脑和健全的身体"
 			x: 0.0d
 			y: -4.5d
 			shape: "hexagon"
-			subtitle: "Make a Soul Snare"
+			subtitle: "制作一个灵魂投网"
 			description: [
-				"By infusing mundane String with Life Essence, I've managed to create a &bSnare&r capable of &6weakening the spirit&r of hostile creatures."
+				"通过注入生命源质我成功地创造了一种能够&6削弱敌对生物精神&r的&b投网&r。"
 				""
-				"It &cisn't always effective&r, but when the Snare's curse takes hold, white particles will indicate a soul ready for harvest."
+				"它&c并不总是有效的&r，但当Snare的诅咒生效时，白色粒子将标志着灵魂准备好被收割了。"
 				""
-				"Upon their demise, the &6Demonic Will&r of the creature will remain."
+				"在它们死后，&6恶魔意志&r将继续存在。"
 				""
-				"&oUnlocks the chapter &5Sinful Sorcery&r&o under &3Mephistopheles' Anger&r"
+				"&o解锁&3靡菲斯特的暴怒&r下的&5罪恶之魔法&r&o。"
 			]
 			dependencies: ["66240316682D0D18"]
 			min_width: 225
@@ -320,17 +320,17 @@
 			}]
 		}
 		{
-			title: "...Stabbing You With a Knife"
+			title: "用刀刺伤你……"
 			x: -4.0d
 			y: -5.5d
 			shape: "square"
-			subtitle: "Make a Dagger of Sacrifice"
+			subtitle: "制作一把献祭刀"
 			description: [
-				"Blood Magic requires a sacrifice, but it &4doesn't have to be me&r."
+				"血魔法需要牺牲，但&4不一定是我&r。"
 				""
-				"With the &bDagger of Sacrifice&r, I can &6use the blood of others&r instead of my own to power my magics."
+				"有了&b献祭刀&r，我可以&6用别人的血&r代替我自己的血来增强我的魔法。"
 				""
-				"Unfortunately, it looks like I &ccan only sacrifice the innocent&r: animals, people, and the like. I suppose it's not much of a sacrifice if it's self-defense."
+				"不幸的是，看起来我只会牺牲无辜的人：动物、人等等。我想，如果是自卫，那就不算什么牺牲了。"
 			]
 			dependencies: ["711049B56861B200"]
 			size: 0.75d
@@ -359,11 +359,11 @@
 			title: "Hypertension"
 			x: 0.0d
 			y: -0.5d
-			subtitle: "Make an Apprentice Blood Orb"
+			subtitle: "制作一个学徒气血宝珠"
 			description: [
-				"In order to increase the storage and power of magics I can work with blood magic I'll need a more suitable focus. The apprentice blood orb can be crafted using a sphere of empowered darkness and should fit my needs nicely."
+				"为了增加魔法的储存和威力，我可以使用血魔法，我需要一个更合适的焦点。学徒气血宝珠可以用一个暗黑充能宝石制作，应该很适合我的需要。"
 				""
-				"With the &bApprentice Blood Orb&r, I've &6quintupled its LP storage&r, to a new maximum of 25,000."
+				"有了&b学徒气血宝珠&r，我已将其&6LP存储容量增加&r了，达到25000。"
 			]
 			dependencies: [
 				"68908252483EADB4"
@@ -378,15 +378,15 @@
 			}]
 		}
 		{
-			title: "Bigger and Better"
+			title: "更大更好"
 			x: 2.0d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "Make a Tier III Blood Altar"
+			subtitle: "建造一个三阶的血之祭坛"
 			description: [
-				"The &bTier III Blood Altar&r has spots for &628 Runes&r, 20 more than the previous tier."
+				"&b三阶的血之祭坛&r有&628块符文&r，比前一层多20块。"
 				""
-				"It also allows for more powerful recipes."
+				"它允许更强大的合成。"
 			]
 			dependencies: ["0E1B46B766608D33"]
 			id: "01684F54D75112D2"
@@ -402,16 +402,16 @@
 			}]
 		}
 		{
-			title: "Penultimate Blood Altar"
+			title: "四阶血之祭坛"
 			icon: "bloodmagic:largebloodstonebrick"
 			x: 4.0d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "Make a Tier IV Blood Altar"
+			subtitle: "建造一个四阶的血之祭坛"
 			description: [
-				"The &bTier IV Blood Altar&r has spots for &656 Runes&r, 28 more than the previous tier."
+				"&b四阶的血之祭坛&r有&656块符文&r，比前一层多28块。"
 				""
-				"With it comes much more powerful items and rituals."
+				"随之而来的是更强大的物品和仪式。"
 			]
 			dependencies: [
 				"01684F54D75112D2"
@@ -430,16 +430,15 @@
 			}]
 		}
 		{
-			title: "Ultimate Blood Altar"
+			title: "终极血之祭坛"
 			icon: "bloodmagic:dungeon_metal"
 			x: 6.0d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "Make a Tier V Blood Altar"
+			subtitle: "建造一个五阶的血之祭坛"
 			description: [
-				"The &bTier V Blood Altar&r has spots for &6108 Runes&r, 56 more than the previous tier."
-				""
-				"This tier is the pinnacle. There is no blood magic stronger than this."
+				"&b五阶的血之祭坛&r有&6108块符文&r，比前一层多52块。"
+				"这一层是顶峰。没有比这更强大的血魔法了。"
 			]
 			dependencies: [
 				"05ABC4381E5988E2"
@@ -453,18 +452,18 @@
 			}]
 		}
 		{
-			title: "Last Rites"
+			title: "终焉仪式"
 			icon: "bloodmagic:activationcrystalweak"
 			x: 2.0d
 			y: -6.5d
 			shape: "hexagon"
-			subtitle: "Make an Activation Crystal"
+			subtitle: "制作一个激活水晶"
 			description: [
-				"&6Rituals&r consume my LP to perform a variety of tasks."
+				"&6仪式&r消耗我的LP来执行各种任务"
 				""
-				"Rituals are created by placing a &bMaster Ritual Stone&r, placing Runes in a specific arrangement (preferably using a &6Ritual Diviner&r), and then using an &bActivation Crystal&r on it."
+				"仪式是通过放置一块&b主仪式石&r，将符文以特定的排列方式放置（最好使用&6仪式推测杖&r），然后在其上使用一块&b激活水晶&r来创建的。"
 				""
-				"Only the most important Rituals will be noted here. For the rest, I can read the &6Sanguine Scientiem&r."
+				"这里只会提到最重要的仪式。至于其余的可以阅读&6血染知书&r。"
 			]
 			dependencies: ["01684F54D75112D2"]
 			min_width: 275
@@ -483,7 +482,7 @@
 				{
 					id: "12996AE9F0AF025E"
 					type: "item"
-					title: "Inscription Tools"
+					title: "元素铭文工具"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -533,21 +532,21 @@
 			}]
 		}
 		{
-			title: "The World One Dream Away"
+			title: "梦外世界"
 			icon: "bloodmagic:inversion_pillar"
 			x: 3.0d
 			y: -6.5d
-			subtitle: "Travel to the Antechamber"
+			subtitle: "前往前厅"
 			description: [
-				"In my experiments with leaving this realm, I've attempted to pierce through using Blood Magic."
+				"在我离开这个世界的实验中，我曾尝试使用血魔法来穿透它。"
 				""
-				"I've managed to create the &bEdge of the Hidden Realm&r ritual. However, instead of taking me &oout&r, it's taken me &ceven deeper in&r."
+				"我成功地创造了能发现&b隐域之缘&r仪式。然而，它并没有让我&o离开&r，反而让我更加陷入。"
 				""
-				"It seems they were prepared for me here as well. There are locked doors requiring &6Iron Keys&r to pass through, and strong enemies to fight."
+				"看来他们在这里也为我做好了准备。需要&6铁钥匙&r打开上锁的门，并通过打败强大的敌人。"
 				""
-				"There's &6good loot&r to be had though, and the way back is unbarred. I'll foresee myself making return trips."
+				"不过这里可以获得&6不错的战利品&r，回去的路也畅通无阻。我可以预见自己的回程。"
 				""
-				"&cI have to redo the ritual to visit a new dungeon.&r Each Pillar opens the same dungeon."
+				"&c我需要重做仪式去访问一个新的地牢。&r每个柱子总是打开同一个地牢。"
 			]
 			dependencies: ["746DD4DDF7E7F94D"]
 			min_width: 275
@@ -555,7 +554,7 @@
 			tasks: [{
 				id: "1F27E19E31E90846"
 				type: "observation"
-				title: "Observe an Observation Pillar"
+				title: "观察一个观察柱"
 				icon: "bloodmagic:inversion_pillar"
 				timer: 0L
 				observe_type: 0
@@ -569,16 +568,16 @@
 			}]
 		}
 		{
-			title: "Suffering Eternal"
+			title: "永恒的折磨（苦难）"
 			x: 4.0d
 			y: 1.0d
-			subtitle: "Make an Inscription Tool: Dusk"
+			subtitle: "制作元素铭文工具：薄暮"
 			description: [
-				"The &6strongest rituals&r require Dusk Runes, which requires the &bInscription Tool: Dusk&r."
+				"&6最强大的仪式&r需要薄暮符文，这需要&b元素铭文工具：薄暮&r。"
 				""
-				"One such ritual is the &4Well of Suffering&r. This terrible ritual &6slowly saps the life force&r of all things within its boundaries, &6converting it to LP&r to fill a Blood Altar."
+				"其中一种仪式就是&4苦难之井&r。这个可怕的仪式会&6缓慢地消耗生它范围内所有事物的生命力&r，&6转化为LP&r来填满血之祭坛。"
 				""
-				"Incredibly powerful when used in conjunction with Soul Cages."
+				"当与灵魂笼子配合使用时威力惊人。"
 			]
 			dependencies: ["05ABC4381E5988E2"]
 			min_width: 250
@@ -596,11 +595,11 @@
 			}]
 		}
 		{
-			title: "Dark Magician Orb"
+			title: "黑暗法师宝珠"
 			x: 2.0d
 			y: -0.5d
-			subtitle: "Make a Magician's Blood Orb"
-			description: ["The &bMagician's Blood Orb&r has a &6max storage of 150,000 LP&r."]
+			subtitle: "制作一个法师气血宝珠"
+			description: ["&b法师气血宝珠&r的&6最大存储容量为150000LP&r。"]
 			dependencies: [
 				"62441F581D09D0D7"
 				"01684F54D75112D2"
@@ -615,8 +614,8 @@
 		{
 			x: 4.0d
 			y: -0.5d
-			subtitle: "Make a Master Blood Orb"
-			description: ["The &bMaster Blood Orb&r has a &6max storage of 1,000,000 LP&r."]
+			subtitle: "制作一个导师气血宝珠"
+			description: ["&b导师气血宝珠&r的&6最大存储容量为1000000LP&r。"]
 			dependencies: [
 				"302D7A433CE3A8F0"
 				"05ABC4381E5988E2"
@@ -632,13 +631,13 @@
 			title: "τππ"
 			x: 4.0d
 			y: -6.5d
-			subtitle: "Get Saturated Tau"
+			subtitle: "获得饱满血命果"
 			description: [
-				"While exploring the Antechamber, I've come across some sprigs of &bTau Fruit&r."
+				"在探索前厅的时候，我发现了一些&b血命果&r。"
 				""
-				"When I tried eating some, I discovered &4the juice inside was blood&r. Not very appetizing, for much more than the occasional snack at least."
+				"当我尝试吃的时候，我发现&4它的汁水都是血&r。看起来并不是很有食欲，至少比起偶尔吃的零食来说。"
 				""
-				"Tau, as well as &bSaturated Tau&r, are &6very useful in certain recipes&r however."
+				"然而，血命果以及&b饱满血命果&r在&6某些配方中非常有用&r。"
 			]
 			dependencies: ["3A795BF773CB8BE9"]
 			min_width: 225
@@ -656,11 +655,11 @@
 			}]
 		}
 		{
-			title: "Bloody Science"
+			title: "血腥的科学"
 			x: 2.0d
 			y: -4.5d
-			subtitle: "Make an Alchemic Reaction Chamber"
-			description: ["At the &bAlchemic Reaction Chamber&r, I can safely perform important alchemic reactions."]
+			subtitle: "建造炼金术反应室"
+			description: ["在&b炼金术反应室&r里，我们可以安全地进行重要的炼金反应。"]
 			dependencies: ["01684F54D75112D2"]
 			id: "0FC9FCD2E3E59525"
 			tasks: [{
@@ -683,8 +682,8 @@
 		{
 			x: 4.0d
 			y: -4.5d
-			subtitle: "Make Weak Blood Shards"
-			description: ["At the Alchemic Reaction Chamber, I'm able to purify Saturated Tau into &bWeak Blood Shards&r."]
+			subtitle: "制作虚弱气血碎片"
+			description: ["在炼金术反应室里，我们可以将血命果净化为&b虚弱气血碎片&r。"]
 			dependencies: [
 				"0FC9FCD2E3E59525"
 				"23EE65BDEC00414C"
@@ -705,8 +704,8 @@
 		{
 			x: 6.0d
 			y: -0.5d
-			subtitle: "Make the Archmage's Blood Orb"
-			description: ["The &bMaster Blood Orb&r has a &6max storage of 10,000,000 LP&r."]
+			subtitle: "制作Archmage气血宝珠"
+			description: ["&bArchmage气血宝珠&r的&6最大储存量为10000000LP&r。"]
 			dependencies: [
 				"61C97531051E2C83"
 				"0D5C0C9780D5615A"
@@ -719,14 +718,14 @@
 			}]
 		}
 		{
-			title: "Khazad-dûm"
+			title: "凯萨督姆"
 			x: 6.0d
 			y: -4.5d
-			subtitle: "Gather Demonite"
+			subtitle: "收集恶魔合金矿"
 			description: [
-				"The &6Pathway to the Endless Realm&r ritual takes me to a deeper level of the Dungeon. &cMuch more dangerous&r, but with &6much greater rewards&r."
+				"&6Pathway to the Endless Realm&r带我进入地牢的更深处，&c更危险&r，但同时伴随着&6更丰富的回报&r。"
 				""
-				"In some chests, I can find the &6Foreman's Key&r, which is required to enter &6The Mines&r. Here I can find a new ore, &bDemonite&r."
+				"在一些箱子中，我可以找到&6Foreman's Key&r，这是进入&6矿井房间&r所需要的。在这里，我可以找到一种新矿石&b恶魔合金矿&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["3AC787E68BA1CE40"]
@@ -752,11 +751,11 @@
 			}
 			x: -2.0d
 			y: 1.0d
-			subtitle: "Make a Sigil"
+			subtitle: "制作印记"
 			description: [
-				"&bSigils&r are magic items that &6draw LP to perform functions&r."
+				"&b印记&r是一种神奇的物品，可以通过&6消耗LP来实现某些功能&r。"
 				""
-				"The &6Sanguine Scientiem&r has a full list of their capabilities."
+				"&6血染知书&r列出了他们的所有能力。"
 			]
 			dependencies: ["68908252483EADB4"]
 			id: "1C77C53830EDC138"
@@ -809,11 +808,11 @@
 			x: 2.0d
 			y: 1.0d
 			shape: "square"
-			subtitle: "Make a set of Living Armor"
+			subtitle: "制作一套束灵护甲"
 			description: [
-				"Though it was a bit awkward at the start, &bLiving Armor&r is fully subservient to me, obeying my every command. "
+				"虽然一开始会有点尴尬，但&b束灵护甲&r完全服从于我，服从我的每一个命令。"
 				""
-				"As I wear it, it helps me become &6better at everything I do&r. Depending on the actions I take, it gains &6Upgrades&r. I can see the full list of upgrades in the &6Sanguine Scientiem&r."
+				"当我穿着它的时候，它会帮助我将&6每一件事做得更好&r。根据我采取的行动，它会获得&6升级&r。我可以在&6血染知书&r上看到完整的升级清单。"
 			]
 			dependencies: ["302D7A433CE3A8F0"]
 			min_width: 225
@@ -898,17 +897,17 @@
 			]
 		}
 		{
-			title: "Evil Potential"
+			title: "邪恶的潜能"
 			icon: "evilcraft:inverted_potentia_empowered"
 			x: 0.0d
 			y: 1.0d
-			subtitle: "Make Empowered Inverted Potentia"
+			subtitle: "制作充能的暗黑能量球"
 			description: [
-				"By combining some mundane materials with a bit of Glowstone, I've created a &6Potentia Sphere&r, a great conductor of magic."
+				"把一些普通的材料和一点荧石结合起来，我制作了一个&6神秘球&r，伟大的魔法指挥家。"
 				""
-				"In this form, it's not very useful to me. Surrounding it in Dark Gems and then &6striking it with Lightning&r will create an &bEmpowered Inverted Potentia&r, much more useful."
+				"这种形式对我用处不大，用暗黑宝石包裹它，然后用&6闪电击中它&r，就会产生一个更有用的&b充能的暗黑能量球&r。"
 				""
-				"The &bLightning Grenade&r will allow me to call lightning, even without clouds."
+				"即使没有云，&b雷击手榴弹&r也能让我召唤闪电。"
 			]
 			dependencies: ["3ABC87C8FA5907B7"]
 			min_width: 250
@@ -933,18 +932,18 @@
 			}]
 		}
 		{
-			title: "Thunder Struck"
+			title: "雷霆万钧"
 			x: 0.0d
 			y: 2.5d
-			subtitle: "Get a Thunderstruck Weather Controller"
+			subtitle: "获取雷雨天气控制器"
 			description: [
-				"At the temple I originally woke up in, there is a &6curious beam of energy&r."
+				"在我最初醒来的寺庙里，有一束&6奇怪的能量&r。"
 				""
-				"At first, I was clueless to its purpose. I've come to understand that it's coming from an &6Environmental Accumulator&r, and echoes the weather."
+				"起初，我对它的目的一无所知。后来，我渐渐明白它来自一个&6环境累加器&r，与天气相呼应。"
 				""
-				"Here, there is only one weather — that is, none. No weather &ois&r a weather though, and can be collected in the &bWeather Container&r by throwing it into the beam."
+				"在这里，只有一种天气——就是，没有天气。不过，没有天气&o本身是&r一种天气，把它扔到横梁上，就可以把它收集到&b天气容器&r里。"
 				""
-				"I can use this Clear Weather bottle to create Rainy and Stormy bottles."
+				"我可以用这个‘晴天’瓶子来制作‘雨天’和‘雷暴’瓶子"
 			]
 			dependencies: ["4E07E560443913CB"]
 			min_width: 275
@@ -991,16 +990,16 @@
 			]
 		}
 		{
-			title: "I See You!"
+			title: "我看见你了！"
 			x: 0.0d
 			y: 6.0d
-			subtitle: "Make a Vengeance Ring"
+			subtitle: "制作一个复仇指环"
 			description: [
-				"The &bVengeance Ring&r will allow me to &6see the spirits of those who've recently passed&r."
+				"&b复仇指环&r可以让我&6看到那些刚刚死去的人的灵魂&r。"
 				""
-				"It won't let me fight back, unfortunately."
+				"不幸的是，它不允许我攻击。"
 				""
-				"I can activate the ring to &6gain powers&r. However, this &ccauses more Vengeance Spirits to spawn&r."
+				"我可以激活这枚戒指来&6获得能量&r。然而，这会&c导致更多的复仇之魂生成&r。"
 			]
 			dependencies: [
 				"4400854E6FB51089"
@@ -1015,19 +1014,19 @@
 			}]
 		}
 		{
-			title: "Did Something Just Hit Me?"
+			title: "有什么东西伤害到我了吗？"
 			icon: "meetyourfight:phantoplasm"
 			x: -2.0d
 			y: 2.5d
-			subtitle: "Vengeance Spirits"
+			subtitle: "复仇之魂"
 			description: [
-				"After killing my first creature here, I was was &bhurt by some intangible force&r."
+				"在我杀死这里的第一个生物后，我被&b某种无形的力量伤害了&r。"
 				""
-				"I assumed it was something like guilt, but it keeps happening."
+				"我以为是内疚之类的东西，但它总是发生。"
 				""
-				"It appears that, on death, &6some part of them stays on&r. At least, for a time. I suppose they don't appreciate being killed."
+				"看来，在人死后，&6他们的一部分会留下来&r。至少在一段时间内是这样。我想他们不喜欢被杀死。"
 				""
-				"Maybe I'll eventually be able to make something to see them. Until then, I'll have to &cbe wary after killing things&r."
+				"也许我最终能做出一些东西来观察他们。在那之前，我在&c杀了东西后得小心了&r。"
 			]
 			dependencies: ["02DC6172CAC06ACB"]
 			min_width: 225
@@ -1035,7 +1034,7 @@
 			tasks: [{
 				id: "51171AC46282699B"
 				type: "custom"
-				title: "Get hit by a Vengeance Spirit"
+				title: "被复仇之魂伤害"
 				icon: "meetyourfight:phantoplasm"
 			}]
 			rewards: [
@@ -1048,14 +1047,14 @@
 					id: "71D5069599F274EF"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"You just got hit by a \",{\"text\":\"Vengeance Spirit\",\"color\":\"red\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"刚刚击中你的是 \",{\"text\":\"复仇之魂\",\"color\":\"red\"},\"！\"]"
 					player_command: false
 				}
 				{
 					id: "529245264AEA787C"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Check the chapter \",{\"text\":\"Sanguine Sting \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Mephistopheles' Anger\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"Check the chapter \",{\"text\":\"染血之刺 \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"靡菲斯特的愤怒\",\"color\":\"dark_aqua\"},\"！\"]"
 					player_command: false
 				}
 			]
@@ -1064,13 +1063,13 @@
 			icon: "evilcraft:box_of_eternal_closure"
 			x: 0.0d
 			y: 8.0d
-			subtitle: "Who you gonna call?"
+			subtitle: "你找谁呢？"
 			description: [
-				"Vengeance Spirits can be contained within the &bBox of Eternal Closure&r."
+				"复仇之魂可以被收容在&b永恒灵魂箱&r。"
 				""
-				"To do so, I have to use a &bVengeance Focus&r on a Spirit that is near the Box."
+				"要做到这一点，我必须对永恒灵魂箱附近的一个灵魂使用&b复仇之焦&r。"
 				""
-				"Doing so will release a beam, freezing the Spirit in place, and the Box will suck the Spirit in and lock it inside."
+				"这样做会释放一束光，将灵魂冻结在原地，然后永恒灵魂箱会将灵魂吸进去并锁在里面。"
 			]
 			dependencies: ["6432DBA95A7EEAF5"]
 			id: "4328DF563A31B8E2"
@@ -1090,8 +1089,8 @@
 		{
 			x: -2.0d
 			y: 4.0d
-			subtitle: "Get a Dark Gem"
-			description: ["With the &bDark Gem&r, I can start working on some of the less moral magical arts."]
+			subtitle: "获取暗黑宝石"
+			description: ["有了暗黑宝石，我就可以开始研究一些不那么道德的魔法了。"]
 			dependencies: ["782C16B8A56859A2"]
 			id: "10E38F1F0A1C9FF7"
 			tasks: [{
@@ -1101,16 +1100,16 @@
 			}]
 		}
 		{
-			title: "Blood for the Blood God"
+			title: "血祭血神"
 			x: 0.0d
 			y: 4.0d
-			subtitle: "Corrupt some Life Essence"
+			subtitle: "腐蚀一些生命源质"
 			description: [
-				"&4Blood&r is a highly powerful substance. As it is required for life, its removal allows for deadly magics."
+				"&4血&r是一种非常强大的物质。因为它是生命所必需的，消耗它可以使用致命的魔法。"
 				""
-				"The Dark Gem will &6corrupt Life Essence&r that it comes into contact with. By casting Life Essence onto the Gem, I can create a &bCondensed Blood&r, which can be used in bloody machines."
+				"暗黑宝石会&6腐蚀他所接触的生命源质&r。通过浇筑生命源质到暗黑宝石上，我可以制作出一个能够在血能机械中使用的&b凝结血液&r。"
 				""
-				"This process does not consume the Dark Gem."
+				"这个过程不会消耗暗黑宝石。"
 			]
 			dependencies: ["10E38F1F0A1C9FF7"]
 			min_width: 225
@@ -1138,11 +1137,11 @@
 			disable_toast: true
 			x: -2.0d
 			y: 6.0d
-			subtitle: "Get a Foliot to crush a Dark Gem"
+			subtitle: "召唤一个魔精来粉碎黑暗宝石"
 			description: [
-				"Most of my previous attempts to crush Dark Gems have &cresulted in failure&r, creating only a dull, inert powder."
+				"我以前粉碎暗黑宝石的大多数尝试都以&c失败告终&r，只产生了黯淡的，惰性的粉末。"
 				""
-				"However, as a being of darkness itself, the &6Foliot&r is able to maintain the aura of evil, successfully creating &bCrushed Dark Gem&r dust."
+				"然而，本身作为一个黑暗的存在，&6魔精&r能够保持邪恶的光环，成功的制作出&b粉碎暗黑宝石粉&r"
 			]
 			dependencies: ["10E38F1F0A1C9FF7"]
 			id: "415B8E563D2776BA"
@@ -1174,20 +1173,20 @@
 			x: -2.0d
 			y: 8.0d
 			shape: "square"
-			subtitle: "Make an Exalted Crafter"
+			subtitle: "制作一个合成包"
 			description: [
-				"The &bExalted Crafter&r allows me to &6craft items on the go&r."
+				"&b合成包&r让我可以&6随时制作物品&r。"
 				""
-				"The Wooden one has its own inventory, while the other uses my Ender Chest."
+				"木制的合成包有它自己的存储空间，而另一个则使用我的末影箱。"
 				""
-				"Being Empowered allows it to resist destruction, from outside sources as well as decay."
+				"它们被赋予力量抵抗外界来源的破坏与腐烂。"
 			]
 			dependencies: ["415B8E563D2776BA"]
 			id: "104F25FDDD00F7DC"
 			tasks: [{
 				id: "0F832D553BDDEA03"
 				type: "item"
-				title: "Exalted Crafters"
+				title: "合成包"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -1217,8 +1216,8 @@
 		{
 			x: 2.0d
 			y: 4.0d
-			subtitle: "Make a Blood Infusion Core"
-			description: ["The &bBlood Infusion Core&r is the heart (almost literally) of bloody machines."]
+			subtitle: "制作一个血能注入核心"
+			description: ["&b血能注入核心&r是血能机械的核心（字面义）。"]
 			dependencies: [
 				"31BC1CFAAFDF0005"
 				"11159BF1C52963EC"
@@ -1233,11 +1232,12 @@
 		{
 			x: 4.0d
 			y: 4.0d
-			subtitle: "Make a Blood Infuser"
+			subtitle: "制作一个血能注入器"
 			description: [
-				"The &bBlood Infuser&r allows me to extract the powers of Blood and insert them into items, creating something entirely new."
+				"
+&b血能注入器&r能让我从鲜血中提取能量，并把它们注入到各种物品中去，从而创造出一些全新的东西！"
 				""
-				"I can right-click the condensed blood I made onto the machine but I imagine that will get tedious in time. I can instead use a &5Click Machine&r to automate filling a blood tank and set the tank on top of my blood machines in auto output mode (control+right click changes the mode)"
+				"我发现我可以右键机器上制作的凝血，但一直右键实在太低效乏味了！或许我可以用一下&5自动连点器&r来帮我自动化填充血液。或许只需要把装血液的储罐放在需要血液的机器上，并把它设置成自动输出模式就好（听说ctrl+右键就可以改变模式）。"
 			]
 			dependencies: ["0137EA0E1018FB3E"]
 			id: "644F597940F79FF6"
@@ -1265,15 +1265,15 @@
 			}]
 		}
 		{
-			title: "Isn't That Where Blood Is Supposed to Be?"
+			title: "鲜血归处"
 			x: 1.5d
 			y: 6.0d
 			shape: "square"
-			subtitle: "Make a Blood Chest"
+			subtitle: "制作一个血能箱"
 			description: [
-				"The &bBlood Chest&r will &6repair damaged items using Blood&r."
+				"&b血能箱&r能&6用血能来修补物品耐久&r。"
 				""
-				"This comes with a chance of &capplying curses&r."
+				"但也有可能会&c遭到诅咒&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0137EA0E1018FB3E"]
@@ -1323,8 +1323,8 @@
 			x: 3.5d
 			y: 7.0d
 			shape: "square"
-			subtitle: "Make an Undead Sapling"
-			description: ["Infusing Blood into a Dead Fern has brought it to life, creating an &bUndead Sapling&r."]
+			subtitle: "制作一个亡灵树苗"
+			description: ["将血能注入到枯死的蕨类植物中可以使它“起死回生”——&b亡灵树苗&r就此诞生。"]
 			hide_dependency_lines: true
 			min_required_dependencies: 1
 			dependencies: [
@@ -1339,17 +1339,17 @@
 			}]
 		}
 		{
-			title: "Empty Promises"
+			title: "虚无的诺言"
 			icon: "evilcraft:promise_speed_0"
 			x: 4.0d
 			y: 6.0d
-			subtitle: "Make a Promise"
+			subtitle: "制作一个诺言"
 			description: [
-				"&bPromises&r are upgrades I can insert into bloody machines."
+				"&b诺言&r实际上是血能机器的升级套件。"
 				""
-				"Velocity and Productivity increase speed and decrease cost, respectively."
+				"速度诺言和效率诺言分别能够增加机器处理速度和减少机器消耗的血能"
 				""
-				"The three tiers of &bTenacity&r &6increase the machine's tier&r, allowing for more Promises, as well as access to more recipes."
+				"三个等级的&b韧性诺言&r能够&6提升机器的登记&r，从而能够承载更多的诺言并且解锁新的合成表。"
 			]
 			dependencies: ["644F597940F79FF6"]
 			min_width: 225
@@ -1397,11 +1397,11 @@
 			x: 2.5d
 			y: 6.0d
 			shape: "square"
-			subtitle: "Make a Purifier"
+			subtitle: "制作一个净化器"
 			description: [
-				"The &bPurifier&r will use Blood to &6strip Curses from items&r."
+				"&b净化器&r可以使用血能来&6去除物品的诅咒&r。"
 				""
-				"Placing a &6Blook&r inside with an enchanted item will transfer a random enchant from the item to the Blook."
+				"在机器里放置一个&6方块&r和一个附魔物品，这样可以将一个物品的一个随机的附魔转移到方块上。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0137EA0E1018FB3E"]
@@ -1451,11 +1451,11 @@
 			x: 1.5d
 			y: 7.0d
 			shape: "square"
-			subtitle: "Make a Pendant"
+			subtitle: "制作一个吊坠"
 			description: [
-				"The &bInvigorating Pendant&r uses Blood to &6remove negative effects&r."
+				"&b振奋吊坠&r可以用血能来&6去除负面状态&r。"
 				""
-				"The &bPrimed Pendant&r contains a Potion, and uses Blood to apply it regularly."
+				"&b装载吊坠&r手持状态右键打开，打开后可放入药水，在身上有血液的情况下，消耗血液持续产生药水效果，重复刷新药水效果（每次刷新为14秒），即使不装备，项链放背包也会持续生效。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0137EA0E1018FB3E"]
@@ -1515,8 +1515,8 @@
 			x: 2.5d
 			y: 8.0d
 			shape: "square"
-			subtitle: "Make an Effortless Ring"
-			description: ["While the &bEffortless Ring&r is anywhere in my inventory, it will &6boost my maneuverability&r."]
+			subtitle: "制作迅捷指环"
+			description: ["&b迅捷指环&r放在背包里即可生效，它能&6提高移动速度，跳跃高度&r。一格高的方块可以直接走过，不需跳跃，同时持有多个效果可叠加（移速提升仅限于在地面，不会提升飞行速度）。"]
 			hide_dependency_lines: true
 			dependencies: ["5D210E8AE88C3085"]
 			id: "29F5D8B8FF49650E"
@@ -1530,11 +1530,9 @@
 			x: 2.5d
 			y: 7.0d
 			shape: "square"
-			subtitle: "Make a Vengeance Pickaxe"
+			subtitle: "来一把复仇之镐"
 			description: [
-				"The &bVengeance Pickaxe&r is a very powerful mining tool."
-				""
-				"It comes pre-enchanted with &6Fortune V&r, but has a &cchance of spawning Vengeance Spirits&r when used."
+				"&6时运V&r！！！但有时好像会有脏东西跑出来&c（有几率召唤一个复仇之魂出来攻击我）&r。"
 			]
 			dependencies: ["7CC309573DDB01B4"]
 			id: "3C3DDA4AACA93877"
@@ -1561,11 +1559,11 @@
 			}]
 		}
 		{
-			title: "Just a Burning Memory"
+			title: "燃烧的记忆……"
 			x: 4.0d
 			y: 2.5d
-			subtitle: "Make a Burning GemStone"
-			description: ["While the &bBurning GemStone&r is in my inventory, &6Vengeance Spirit attacks will cause hunger&r instead of dealing damage."]
+			subtitle: "制作灼烧暗能宝石块"
+			description: ["只要&b灼烧暗能宝石块&r在我的背包里，&6复仇之魂将不会对我直接造成伤害，而是给我造成饥饿效果&r。"]
 			dependencies: ["00E0DB64568AA664"]
 			id: "41CEDCD59A9441EA"
 			tasks: [{
@@ -1577,11 +1575,11 @@
 		{
 			x: 6.0d
 			y: 2.5d
-			subtitle: "Make a Gemstone Torch"
+			subtitle: "制作暗黑火把"
 			description: [
-				"As seen with the GemStone, Vengeance Spirits dislike flame. Ironic, given where we are."
+				"复仇之魂不喜欢火焰"
 				""
-				"Crafting it into a &bGemstone Torch&r seems to &6entirely prevent them from spawning&r! A necessity in my mob farms."
+				"制作&b暗黑火把&r来&6阻止复仇之魂生成&r，我的刷怪场会需要这个的。"
 			]
 			dependencies: ["41CEDCD59A9441EA"]
 			id: "41403E8DA74547EC"
@@ -1595,17 +1593,17 @@
 			x: 6.0d
 			y: 8.0d
 			shape: "square"
-			subtitle: "Make a Spirit Furnace"
+			subtitle: "搭建灵魂炉（多方块结构）"
 			description: [
-				"I've discovered a way to &6reanimate Vengeance Spirits&r, though they are &chighly unstable&r."
+				"我找到一个&6复活复仇之魂&r的办法，虽然它们仍然&c十分不稳定&r。"
 				""
-				"I will have to make a cage of &6Dark Blood Brick&r, large enough to contain the mob, with the &bSpirit Furnace&r as a focal point."
+				"我得用&6暗黑血砖&r来搭建一个囚笼（至少3*4*3），并嵌入一个&b灵魂炉&r方块（位置自定）。"
 				""
-				"Using Blood, the Spirit Furnace will &6rapidly reanimate and &nde&r&6animate Vengeance Spirits&r, generating their drops."
+				"使用血能，灵魂炉将快速复活和激活复仇之魂，并生成他们的掉落物。"
 				""
-				"To set the mob, insert a &6filled Box of Eternal Closure&r."
+				"通过放入一个&6填满的永恒灵魂箱&r来设定灵魂炉对应处理的生物。"
 				""
-				"This device is extremely powerful and is even capable of reanimating some of my most powerful enemies including bosses, the wither and anything else that was once living!"
+				"灵魂炉可以用来获取几乎任何强大的敌人、Boss的掉落物！（但遇到混沌龙就会有BUG，可恶的混沌龙！）"
 			]
 			dependencies: ["5D210E8AE88C3085"]
 			size: 1.5d
@@ -1638,13 +1636,13 @@
 			x: 1.5d
 			y: 8.0d
 			shape: "square"
-			subtitle: "Make a Spirit Reanimator"
+			subtitle: "灵魂再生炉"
 			description: [
-				"The &bSpirit Reanimator&r technically does not reanimate the dead. Instead, it &6bring new life from it&r."
+				"&b灵魂再生炉&r实际上不是复活一个生物，而是&6给予新的生命&r！"
 				""
-				"Using Blood, it will &6create Spawn Eggs&r by combining a Spirit in a Box of Eternal Closure with an Egg."
+				"通过血能，我们能&6制作刷怪蛋&r。只需要把永恒灵魂箱里的灵魂和一个蛋放进去就好了！"
 				""
-				"The Spirit is lost in the process."
+				"当然，永恒灵魂箱里的灵魂也会被消耗。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1670,16 +1668,16 @@
 			}]
 		}
 		{
-			title: "What Is Dead May Die"
+			title: "请你再死一次"
 			x: 6.0d
 			y: 6.0d
-			subtitle: "Make a Piercing Vengeance Focus"
+			subtitle: "制作复仇刺穿透镜"
 			description: [
-				"These Vengeance Spirits are a serious pain; they can hurt me but I can do nothing to retaliate. At least, before now."
+				"之前被复仇之魂单方面霸凌，但现在，透镜会出手。"
 				""
-				"The beam the &bPiercing Vengeance Focus&r gives off is &6capable of killing Vengeance Spirits&r!"
+				"&b复仇刺穿透镜&r发出的光线能够&6杀死复仇之魂&r！"
 				""
-				"In addition to their normal drops, I can find &6Vengeance Essence&r, an &5incredibly powerful substance&r used in the strongest magics."
+				"被透镜杀死的复仇之魂除了掉落普通的掉落物外，还会掉落&6复仇精华&r。这可是好东西，许多最强的魔法都需要它！"
 			]
 			dependencies: ["5D210E8AE88C3085"]
 			min_width: 225
@@ -1696,13 +1694,13 @@
 			}]
 		}
 		{
-			title: "Wither Farm"
+			title: "凋灵农场"
 			icon: "minecraft:wither_skeleton_skull"
 			x: 6.0d
 			y: 9.0d
 			shape: "square"
-			subtitle: "Capture a Wither's Spirit"
-			description: ["I can &bcapture the Wither's Soul&r in the Box of Eternal Closure, and then &6infinitely harvest it for Nether Stars&r in the Spirit Furnace!"]
+			subtitle: "抓捕一个凋零的灵魂"
+			description: ["装凋零灵魂的永恒灵魂箱+灵魂炉=无限下界之星"]
 			dependencies: ["764A921F275D4C81"]
 			size: 0.75d
 			id: "19CA89B3EA96BF99"
@@ -1716,8 +1714,8 @@
 		{
 			x: 0.0d
 			y: -6.0d
-			subtitle: "Forged in souls of the damned"
-			description: ["I've found that certain areas seem to have concentrated demonic energy that creates an unseen will upon the area. I've devised a way to imbue this will into items and infused them with the living will. The will does unfortunately deplete from the area so I'll need to make a specialized gem to contain the will and a living sword that can draw it from enemies I kill with it. "]
+			subtitle: "在受诅的灵魂中锤炼"
+			description: ["我发现某些区域中有着积聚的恶魔能量，在这些区域中也包含着一种看不见的意志。我想，这些意志是不是可以被注入到某些物品中，并为它们注入活着的意志？这些意志似乎会从区域中耗尽，我需要一个容器来容纳这些意志，或者一个宝石可以做到。我或许还需要一把剑来从被杀死的敌人身上吸取意志。"]
 			dependencies: ["4CD6DCE22C556C2B"]
 			id: "571BC20E3675397C"
 			tasks: [{
