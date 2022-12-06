@@ -3,27 +3,27 @@
 	group: "3165B92DB1BC8401"
 	order_index: 1
 	filename: "resource_gen"
-	title: "Azriel's Acquisitions"
+	title: "阿兹瑞尔的收购"
 	icon: "minecraft:lava_bucket"
-	subtitle: ["Fishing, early farming"]
+	subtitle: ["钓鱼，早期的养殖业"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Cobblegen-a-tron-9000"
+			title: "造石加速器9000"
 			icon: "minecraft:cobblestone"
 			x: -5.0d
 			y: -5.0d
 			shape: "square"
-			subtitle: "Make a Cobblestone Genreator"
+			subtitle: "做一个造石机"
 			description: [
-				"Water and Lava combine into Cobble, but I &ccan't place water&r... normally."
+				"水和熔岩能结合成圆石，但是我&c不能放水&r……通常来说。"
 				""
-				"The &bCobblestone Genreator&r allows me to get around that inconvenient truth. It keeps the water contained within itself, deeply insulated from the Nether's heat."
+				"这个&b造石机&r能让我绕过这个不方便的事实。它保持水在体内，深深隔绝地狱的热。"
 				""
-				"Its generated Cobble is stored within, and &6must be pulled out&r via Hoppers, Pipes, or the like. It generates Cobble &6&ninsanely quickly&r."
+				"它生成的圆石是储存在里面的，然后&6必须要&r通过漏斗，管道或其他类似的&6抽出&r。它生成圆石&6&n非常快&r。"
 				""
-				"If I cannot yet &omake&r the Cobble Generator, I can &6siphon water from the Fisher's Hut&r to make Cobble, albeit.. slower."
+				"如果我甚至不能&o制造&r这个造石机，我能&6从渔夫小屋里抽水&r来生成圆石，虽然……更慢。"
 				"{image:inferno:textures/quest/cobble.png width:1000 height:674 align:1 fit:true}"
 			]
 			min_required_dependencies: 1
@@ -53,16 +53,16 @@
 			]
 		}
 		{
-			title: "Why so BaSalty?"
+			title: "为什么如此玄武咸？"
 			icon: "minecraft:basalt"
 			x: -6.0d
 			y: -4.0d
 			shape: "square"
-			subtitle: "Automate Basalt"
+			subtitle: "自动玄武岩机"
 			description: [
-				"I've been experimenting with the super-cool &bBlue Ice&r. Which I can &6transmute from Snow&r in the Alchemy Array. Perhaps I could &6summon a Snow Golem&r to harvest some..."
+				"我已经经历了极冷&b蓝冰&r。我能够&6从雪块转变而来&r在炼金矩阵里。我应该能&6召唤一个雪傀儡&r来获取一些……"
 				""
-				"If I allow &bLava&r to &6flow over &bSoul Soil&r while &6adjacent to Blue Ice&r, the three will combine to create &bBasalt&r."
+				"如果我让&b熔岩&r&6流经&b灵魂土&r当&6与蓝冰相邻&r，这三个会结合成&b玄武岩&r。"
 				""
 				"{image:inferno:textures/quest/resourcegen.png width:1000 height:739 align:1 fit:true}"
 			]
@@ -111,15 +111,15 @@
 			]
 		}
 		{
-			title: "Easy Tree Automation!"
+			title: "简单树场！"
 			x: -5.5d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Make a Bonsai Pot"
+			subtitle: "做一个盆栽盆"
 			description: [
-				"The &bBonsai Pot&r grows trees (and tree-adjacent plants) automatically, using soil and a sapling."
+				"这个&b盆栽盆&r用土壤和一个树苗自动地种植树（或与树苗类似的植物）。"
 				""
-				"It can be upgraded with certain items."
+				"它能被特定物品升级。"
 			]
 			dependencies: ["34E8389197884E32"]
 			id: "118612040F3AE9F7"
@@ -135,20 +135,20 @@
 			}]
 		}
 		{
-			title: "Bonsai Hoppers"
+			title: "盆栽漏斗"
 			x: -6.5d
 			y: 0.5d
 			shape: "square"
-			subtitle: "Get a Hopper"
-			description: ["A &bHopper&r will make the Pot output its items to the inventory below."]
+			subtitle: "获得一个漏斗"
+			description: ["一个&b漏斗&r能使盆栽盆输出物品到下方的容器。"]
 			dependencies: ["118612040F3AE9F7"]
 			id: "76D68C3A83E6317F"
 			tasks: [{
 				id: "3AC5A920BE7BD2EC"
 				type: "item"
 				item: "minecraft:hopper"
-			}]
-			rewards: [{
+				}]
+				rewards: [{
 				id: "4FD3625892EB3EC6"
 				type: "item"
 				item: "minecraft:hopper"
@@ -156,7 +156,7 @@
 			}]
 		}
 		{
-			title: "Axe-ual Automation"
+			title: "有斧头的自动机器"
 			icon: {
 				id: "minecraft:netherite_axe"
 				Count: 1b
@@ -167,20 +167,20 @@
 			x: -4.5d
 			y: 0.5d
 			shape: "square"
-			subtitle: "Make an Axe"
+			subtitle: "做一把斧头"
 			description: [
-				"An &bAxe&r can be added to make the Pot automatically harvest itself when grown."
+				"加一把&b斧头&r能使盆栽盆在长大后自动收获。"
 				""
-				"&6Fortune&r increases drops"
-				"&6Silk Touch&r applies Silk Touch"
-				"&6Efficiency&r decreases growth time"
+				"&6时运&r增加掉落"
+				"&6精准采集&r应用精准采集"
+				"&6效率&r减少生长时间"
 			]
 			dependencies: ["118612040F3AE9F7"]
 			id: "25CBB0FF1661D5B8"
 			tasks: [{
 				id: "064C26B5129011B1"
 				type: "item"
-				title: "Any Axe"
+				title: "任何斧头"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -209,23 +209,23 @@
 							}
 						]
 						display: {
-							Name: "{\"text\":\"Bonsai Buddy\"}"
+							Name: "{\"text\":\"盆栽知音\"}"
 						}
 					}
 				}
 			}]
 		}
 		{
-			title: "Fleeeessh"
+			title: "肉~"
 			icon: "biomesoplenty:flesh"
 			x: -4.0d
 			y: -6.0d
 			shape: "square"
-			subtitle: "Yess, yess... He will live again."
+			subtitle: "是，是……他将再次鲜活。"
 			description: [
-				"&6Lava&r will rapidly cauterize &6Blood&r into chunks of &bFlesh&r."
+				"&6熔岩&r会很快蒸干&6血&r变成&b肉块&r。"
 				""
-				"As grotesque as this is, I can find several ways to use it."
+				"像这样古怪，我能找到几种方式来使用它。"
 				""
 				"{image:inferno:textures/quest/resourcegen.png width:1000 height:739 align:1 fit:true}"
 			]
@@ -252,16 +252,16 @@
 			}]
 		}
 		{
-			title: "Coagulant"
+			title: "凝结剂"
 			icon: "tconstruct:blood_slime_sapling"
 			x: -6.0d
 			y: 1.5d
 			shape: "square"
-			subtitle: "Automate Ichor"
+			subtitle: "自动化“胶水”"
 			description: [
-				"&bIchor Balls&r are the closest thing to Slime I can get here. It's a bit sacrilegious, but I didn't get here by being pious."
+				"&b灵浆球&r是在这里我能得到最像黏液球的物品。它有一点亵渎神明，但我在这里不必虔诚。"
 				""
-				"For the Pot to actually harvest the Ichor, it has to have a Bee Hive."
+				"为了让盆栽盆能够收获灵浆球，它需要有一个蜂箱。"
 			]
 			dependencies: ["118612040F3AE9F7"]
 			id: "7ECA8AA3D7EF3D40"
@@ -285,15 +285,15 @@
 			}]
 		}
 		{
-			title: "How to Catch a Fish"
+			title: "如何抓鱼"
 			x: -11.5d
 			y: -1.0d
 			shape: "square"
-			subtitle: "Cast your Fishing Rod into the Lava"
+			subtitle: "把钓鱼竿投进熔岩里"
 			description: [
-				"I've seen all manner of life — if you can call it that — bubbling up from beneath the roiling lava that floods these lower plains. I've also seen &6glints of metals and other treasures&r that would greatly assist my escape from this place."
+				"我已经见过所有生活的方式——如果你能这样叫它的话——从淹没这些低矮平原的滚滚熔岩底部冒泡。我也已经见过&6闪亮的金属和其他宝藏&r，这将极大地帮助我从这个地方逃脱。"
 				""
-				"With a bit of concentration I can extend some of my power through the otherwise flammable threads to allow a mechanism to &bfish the lava&r depths. It's laborious, but there is always calm to be found in fishing, even here."
+				"只需要集中一点注意力，我就可以通过原本易燃的丝线释放一点力量，从而允许钓竿&b在岩浆深处钓鱼&r。这样做很费力，但在钓鱼中总能找到平静，在这里也一样。"
 			]
 			dependencies: ["5C0BF701B0990D7C"]
 			min_width: 325
@@ -335,7 +335,7 @@
 			]
 		}
 		{
-			title: "Warped Forest"
+			title: "诡异森林"
 			icon: "minecraft:warped_nylium"
 			disable_toast: true
 			x: -14.0d
@@ -347,21 +347,21 @@
 				{
 					id: "1BF803B16DA00C10"
 					type: "item"
-					title: "1 Warped Fungus | Weight 8"
+					title: "1诡异菌|权重8"
 					disable_toast: true
 					item: "minecraft:warped_fungus"
 				}
 				{
 					id: "4B0497B6BB5DEB2E"
 					type: "item"
-					title: "1 String | Weight 4"
+					title: "1线|权重4"
 					disable_toast: true
 					item: "minecraft:string"
 				}
 			]
 		}
 		{
-			title: "Warped Forest"
+			title: "诡异森林"
 			icon: "minecraft:warped_nylium"
 			disable_toast: true
 			x: -9.0d
@@ -373,42 +373,42 @@
 				{
 					id: "45508907CD9E9FAA"
 					type: "item"
-					title: "1-3 Ender Pearl | Weight 8"
+					title: "1~3末影珍珠|权重8"
 					disable_toast: true
 					item: "minecraft:ender_pearl"
 				}
 				{
 					id: "3D1D485264107C44"
 					type: "item"
-					title: "1 Copper Ingot | Weight 15"
+					title: "1铜锭|权重15"
 					disable_toast: true
 					item: "minecraft:copper_ingot"
 				}
 				{
 					id: "1365B8529FE0F5CB"
 					type: "item"
-					title: "1-3 Copper Nugget | Weight 8"
+					title: "1~3铜粒|权重8"
 					disable_toast: true
 					item: "ftbic:copper_nugget"
 				}
 				{
 					id: "5111EDCC7EE3CB12"
 					type: "item"
-					title: "2-8 Redstone | Weight 8"
+					title: "2~8红石粉|权重8"
 					disable_toast: true
 					item: "minecraft:redstone"
 				}
 				{
 					id: "14843DD874C94E52"
 					type: "item"
-					title: "2-8 Lapis Lazuli | Weight 4"
+					title: "2~8青金石|权重4"
 					disable_toast: true
 					item: "minecraft:lapis_lazuli"
 				}
 			]
 		}
 		{
-			title: "Crimson Forest"
+			title: "绯红森林"
 			icon: "minecraft:crimson_nylium"
 			disable_toast: true
 			x: -14.0d
@@ -420,42 +420,42 @@
 				{
 					id: "42E80B65AF8B9954"
 					type: "item"
-					title: "1 Leather | Weight 3"
+					title: "1皮革|权重3"
 					disable_toast: true
 					item: "minecraft:leather"
 				}
 				{
 					id: "4FE8F3C3B62D6E4C"
 					type: "item"
-					title: "1 Crimson Fungus | Weight 8"
+					title: "1绯红菌|权重8"
 					disable_toast: true
 					item: "minecraft:crimson_fungus"
 				}
 				{
 					id: "5981BCC34A163445"
 					type: "item"
-					title: "1 Nether Wart | Weight 10"
+					title: "1下界疣|权重10"
 					disable_toast: true
 					item: "minecraft:nether_wart"
 				}
 				{
 					id: "200AE0083611DE05"
 					type: "item"
-					title: "1 String | Weight 4"
+					title: "1线|权重4"
 					disable_toast: true
 					item: "minecraft:string"
 				}
 				{
 					id: "6ADD1E7949B3279F"
 					type: "item"
-					title: "1 Cooked Porkchop | Weight 5"
+					title: "1熟猪排|权重5"
 					disable_toast: true
 					item: "minecraft:cooked_porkchop"
 				}
 			]
 		}
 		{
-			title: "Crimson Forest"
+			title: "绯红森林"
 			icon: "minecraft:crimson_nylium"
 			disable_toast: true
 			x: -9.0d
@@ -467,48 +467,48 @@
 				{
 					id: "08487988ADDC5CF9"
 					type: "item"
-					title: "1 Gold Ingot | Weight 5"
+					title: "1金锭|权重5"
 					disable_toast: true
 					item: "minecraft:gold_ingot"
 				}
 				{
 					id: "4BC8DACF9A57BDBF"
 					type: "item"
-					title: "1 Gold Nugget | Weight 15"
+					title: "1金粒|权重15"
 					item: "minecraft:gold_nugget"
 				}
 				{
 					id: "7C1BB31FC6829BBE"
 					type: "item"
-					title: "1 Copper Ingot | Weight 15"
+					title: "1铜锭|权重15"
 					disable_toast: true
 					item: "minecraft:copper_ingot"
 				}
 				{
 					id: "147E06231A9BB185"
 					type: "item"
-					title: "1-3 Copper Nugget | Weight 8"
+					title: "1~3铜粒|权重8"
 					disable_toast: true
 					item: "ftbic:copper_nugget"
 				}
 				{
 					id: "4FC9FA41C4E58E7A"
 					type: "item"
-					title: "2-8 Redstone Dust | Weight 8"
+					title: "2~8红石粉|权重8"
 					disable_toast: true
 					item: "minecraft:redstone"
 				}
 				{
 					id: "7D81C4A25DA4E8D6"
 					type: "item"
-					title: "2-8 Lapis Lazuli | Weight 4"
+					title: "2~8青金石|权重4"
 					disable_toast: true
 					item: "minecraft:lapis_lazuli"
 				}
 			]
 		}
 		{
-			title: "Soul Sand Valley"
+			title: "灵魂沙峡谷"
 			icon: "minecraft:soul_sand"
 			disable_toast: true
 			x: -14.0d
@@ -520,56 +520,56 @@
 				{
 					id: "34F67CC620D4600B"
 					type: "item"
-					title: "1 Soul Sand | Weight 10"
+					title: "1灵魂沙|权重10"
 					disable_toast: true
 					item: "minecraft:soul_sand"
 				}
 				{
 					id: "6099999D1891A592"
 					type: "item"
-					title: "1 Soul Soil | Weight 10"
+					title: "1灵魂土|权重10"
 					disable_toast: true
 					item: "minecraft:soul_soil"
 				}
 				{
 					id: "325E18FB065EC396"
 					type: "item"
-					title: "1 Basalt | Weight 10"
+					title: "1玄武岩|权重10"
 					disable_toast: true
 					item: "minecraft:basalt"
 				}
 				{
 					id: "6F36501561DC284B"
 					type: "item"
-					title: "1 Flint | Weight 5"
+					title: "1燧石|权重5"
 					disable_toast: true
 					item: "minecraft:flint"
 				}
 				{
 					id: "4FC1AB762FE2AC55"
 					type: "item"
-					title: "1 Bonemeal | Weight 10"
+					title: "1骨粉|权重10"
 					disable_toast: true
 					item: "minecraft:bone_meal"
 				}
 				{
 					id: "387AEE319C79377B"
 					type: "item"
-					title: "1 Gunpowder | Weight 8"
+					title: "1火药|权重8"
 					disable_toast: true
 					item: "minecraft:gunpowder"
 				}
 				{
 					id: "44E37CF4CCCEE46F"
 					type: "item"
-					title: "1 Bone | Weight 10"
+					title: "1骨头|权重10"
 					disable_toast: true
 					item: "minecraft:bone"
 				}
 			]
 		}
 		{
-			title: "Soul Sand Valley"
+			title: "灵魂沙峡谷"
 			icon: "minecraft:soul_sand"
 			disable_toast: true
 			x: -9.0d
@@ -581,49 +581,49 @@
 				{
 					id: "1C4526D6315A52C8"
 					type: "item"
-					title: "1 Ghast Tear | Weight 4"
+					title: "1恶魂之泪|权重4"
 					disable_toast: true
 					item: "minecraft:ghast_tear"
 				}
 				{
 					id: "0592B973738F9C6B"
 					type: "item"
-					title: "1 Bone Block | Weight 15"
+					title: "1骨块|权重15"
 					disable_toast: true
 					item: "minecraft:bone_block"
 				}
 				{
 					id: "155EEE88138434C6"
 					type: "item"
-					title: "1 Copper Ingot | Weight 15"
+					title: "1铜锭|权重15"
 					disable_toast: true
 					item: "minecraft:copper_ingot"
 				}
 				{
 					id: "1C51B7063AD2543A"
 					type: "item"
-					title: "1-3 Copper Nuggets | Weight 8"
+					title: "1~3铜粒|权重8"
 					disable_toast: true
 					item: "ftbic:copper_nugget"
 				}
 				{
 					id: "764EF550C822BAC7"
 					type: "item"
-					title: "2-8 Redstone | Weight 8"
+					title: "2~8红石粉|权重8"
 					disable_toast: true
 					item: "minecraft:redstone"
 				}
 				{
 					id: "641A40358E6C5D2B"
 					type: "item"
-					title: "2-8 Lapis Lazuli | Weight 4"
+					title: "2~8青金石|权重4"
 					disable_toast: true
 					item: "minecraft:lapis_lazuli"
 				}
 			]
 		}
 		{
-			title: "Basalt Delta"
+			title: "玄武岩三角洲"
 			icon: "minecraft:basalt"
 			disable_toast: true
 			x: -9.0d
@@ -635,35 +635,35 @@
 				{
 					id: "0968E0C6C3E62488"
 					type: "item"
-					title: "1 Copper Ingot | Weight 15"
+					title: "1铜锭|权重15"
 					disable_toast: true
 					item: "minecraft:copper_ingot"
 				}
 				{
 					id: "4052DD5C9F074BDD"
 					type: "item"
-					title: "3-7 Copper Nuggets | Weight 8"
+					title: "3~7铜粒|权重8"
 					disable_toast: true
 					item: "ftbic:copper_nugget"
 				}
 				{
 					id: "0E3155909F0BA97B"
 					type: "item"
-					title: "2-8 Redstone Dust | Weight 8"
+					title: "2~8红石粉|权重8"
 					disable_toast: true
 					item: "minecraft:redstone"
 				}
 				{
 					id: "0EEF686AAF723E99"
 					type: "item"
-					title: "2-8 Lapis Lazuli | Weight 4"
+					title: "2~8青金石|权重4"
 					disable_toast: true
 					item: "minecraft:lapis_lazuli"
 				}
 			]
 		}
 		{
-			title: "Basalt Delta"
+			title: "玄武岩三角洲"
 			icon: "minecraft:basalt"
 			disable_toast: true
 			x: -14.0d
@@ -675,21 +675,21 @@
 				{
 					id: "3E6F0B655CF8D939"
 					type: "item"
-					title: "1 Blackstone | Weight 5"
+					title: "1黑石|权重5"
 					disable_toast: true
 					item: "minecraft:blackstone"
 				}
 				{
 					id: "61D50CE343FC66C9"
 					type: "item"
-					title: "1 Magma Cream | Weight 8"
+					title: "1岩浆膏|权重8"
 					disable_toast: true
 					item: "minecraft:magma_cream"
 				}
 			]
 		}
 		{
-			title: "Nether Waste"
+			title: "下界荒地"
 			icon: "minecraft:netherrack"
 			disable_toast: true
 			x: -14.0d
@@ -701,28 +701,28 @@
 				{
 					id: "0A20FD36BCF7A7F6"
 					type: "item"
-					title: "1 Glowstone Dust | Weight 5"
+					title: "1荧石粉|权重5"
 					disable_toast: true
 					item: "minecraft:glowstone_dust"
 				}
 				{
 					id: "5FBA462AF7CD8432"
 					type: "item"
-					title: "1 Brown Mushroom | Weight 10"
+					title: "1棕色蘑菇|权重10"
 					disable_toast: true
 					item: "minecraft:brown_mushroom"
 				}
 				{
-					id: "5A12D34A8908612E"
+					id: "5A12D34A890861E"
 					type: "item"
-					title: "1 Red Mushroom | Weight 10"
+					title: "1红色蘑菇|权重10"
 					disable_toast: true
 					item: "minecraft:red_mushroom"
 				}
 			]
 		}
 		{
-			title: "Nether Waste"
+			title: "下界荒地"
 			icon: "minecraft:netherrack"
 			disable_toast: true
 			x: -9.0d
@@ -734,49 +734,49 @@
 				{
 					id: "3F2501A850EF3BE4"
 					type: "item"
-					title: "1 Nether Quartz | Weight 15"
+					title: "1下界石英|权重15"
 					disable_toast: true
 					item: "minecraft:quartz"
 				}
 				{
 					id: "73D09000311FB1A9"
 					type: "item"
-					title: "1 Copper Nugget | Weight 15"
+					title: "1铜锭|权重15"
 					disable_toast: true
 					item: "ftbic:copper_nugget"
 				}
 				{
 					id: "3EACFF92BAC3CFAD"
 					type: "item"
-					title: "1-3 Copper Nugget | Weight 8"
+					title: "1~3铜粒|权重8"
 					disable_toast: true
 					item: "ftbic:copper_nugget"
 				}
 				{
 					id: "65DC21D6809816C9"
 					type: "item"
-					title: "2-8 Redstone Dust | Weight 8"
+					title: "2~8红石粉|权重8"
 					disable_toast: true
 					item: "minecraft:redstone"
 				}
 				{
 					id: "3A74B54F3C120D99"
 					type: "item"
-					title: "2-8 Lapis Lazuli | Weight 4"
+					title: "2~8青金石|权重4"
 					disable_toast: true
 					item: "minecraft:lapis_lazuli"
 				}
 			]
 		}
 		{
-			title: "Generic Junk"
+			title: "常规垃圾"
 			icon: "ftbic:empty_can"
 			disable_toast: true
 			x: -13.0d
 			y: -2.5d
 			shape: "square"
-			subtitle: "A learning experience"
-			description: ["After fishing for a whole day, I realized that instead of crafting new fishing rods, I can just add mending... Great."]
+			subtitle: "一个学到的经验"
+			description: ["在钓鱼一整天后，我意识到与其制作新的钓鱼杆，不如加上经验修补……好样的。"]
 			hide_dependency_lines: false
 			dependencies: ["03A93EA45228E9C0"]
 			id: "37183175A8DE74D3"
@@ -784,49 +784,49 @@
 				{
 					id: "1AA9242C4553BB20"
 					type: "item"
-					title: "1-3 Coal | Weight 3"
+					title: "1~3煤炭|权重3"
 					disable_toast: true
 					item: "minecraft:coal"
 				}
 				{
 					id: "0FAF7C255802B0A7"
 					type: "item"
-					title: "1-7 Redstone | Weight 15"
+					title: "1~7红石粉|权重15"
 					disable_toast: true
 					item: "minecraft:redstone"
 				}
 				{
 					id: "12296A320840F8AB"
 					type: "item"
-					title: "1 Molten Core | Weight 1"
+					title: "1熔火核心|权重1"
 					disable_toast: true
 					item: "reliquary:molten_core"
 				}
 				{
 					id: "57A300E33DF1DFD4"
 					type: "item"
-					title: "1 Fire Coral Fan | Weight 3"
+					title: "1火珊瑚扇|权重3"
 					disable_toast: true
 					item: "minecraft:fire_coral_fan"
 				}
 				{
 					id: "710DFA65C77FCB9E"
 					type: "item"
-					title: "1 Propelpearl | Weight 3"
+					title: "1枪药珠|权重3"
 					disable_toast: true
 					item: "nethersdelight:propelpearl"
 				}
 				{
 					id: "03C1C261FC574A89"
 					type: "item"
-					title: "1-3 Copper Ingot | Weight 10"
+					title: "1~3铜锭|权重10"
 					disable_toast: true
 					item: "minecraft:copper_ingot"
 				}
 				{
 					id: "5BD3DAAEE4A3B9CC"
 					type: "item"
-					title: "1 Blaze Powder | Weight 2"
+					title: "1烈焰粉|权重2"
 					disable_toast: true
 					item: "minecraft:blaze_powder"
 				}
@@ -862,35 +862,35 @@
 			}]
 		}
 		{
-			title: "Generic Treasure"
+			title: "常规宝藏"
 			icon: "reliquary:fortune_coin"
 			disable_toast: true
 			x: -10.0d
 			y: -2.5d
 			shape: "square"
-			subtitle: "Always a good time"
-			description: ["I can also find Enchanted Books with \"Soul Speed\", enchanted Bows, and Fishing Rods from this Pool!"]
+			subtitle: "总是好运"
+			description: ["我也总是能从这个池子里发现带有“灵魂疾行”的附魔书，附魔弓和钓鱼竿！"]
 			dependencies: ["03A93EA45228E9C0"]
 			id: "37B6F7FF6F4E1498"
 			tasks: [
 				{
 					id: "0B98FD587604BFE7"
 					type: "item"
-					title: "1 Blaze Rod | Weight 15"
+					title: "1烈焰棒|权重15"
 					disable_toast: true
 					item: "minecraft:blaze_rod"
 				}
 				{
 					id: "0E37C7622EB31B33"
 					type: "item"
-					title: "1 Copper Ingot | Weight 15"
+					title: "1铜锭|权重15"
 					disable_toast: true
 					item: "minecraft:copper_ingot"
 				}
 				{
 					id: "50EA5B9379802528"
 					type: "item"
-					title: "1-3 Copper Nugget | Weight 8"
+					title: "1~3铜粒|权重8"
 					icon: "ftbic:copper_nugget"
 					disable_toast: true
 					item: {
@@ -904,14 +904,14 @@
 				{
 					id: "4BE17BCD18514B96"
 					type: "item"
-					title: "2-8 Redstone Dust | Weight 8"
+					title: "2~8红石粉|权重8"
 					disable_toast: true
 					item: "minecraft:redstone"
 				}
 				{
 					id: "06197B139F5DE64E"
 					type: "item"
-					title: "2-8 Lapis Lazuli | Weight 4"
+					title: "2~8青金石|权重4"
 					disable_toast: true
 					item: "minecraft:lapis_lazuli"
 				}
@@ -930,17 +930,17 @@
 			}]
 		}
 		{
-			title: "Growing Ancient Magic"
+			title: "种植远古魔法"
 			x: -5.0d
 			y: 1.5d
 			shape: "square"
-			subtitle: "Learn how to grow non-nether trees"
+			subtitle: "学习如何在下界种树"
 			description: [
-				"Some of the flora in this realm &cdoesn't thrive enough to reproduce&r. Despite my efforts, they languish and decay."
+				"在这个领域的一些植物&c没有足够的生长能力去繁殖&r。尽管我付出了努力，它们还是枯萎了。"
 				""
-				"My &6Botany Pots&r contain &ojust&r enough magic to allow them to survive."
+				"我的&6植物盆栽&r刚好&o含有&r足够的魔力使它们生存下来。"
 				""
-				"&oSome trees (or tree-like things, like Coral) do not drop Saplings, but grow continuously in Bonsai Pots."
+				"&o一些树木（或类似于树木的东西，比如珊瑚）不会掉落树苗，只能在盆栽盆中不断生长。"
 			]
 			dependencies: ["118612040F3AE9F7"]
 			id: "1850C606348A5494"
@@ -963,17 +963,17 @@
 			]
 		}
 		{
-			title: "Lava Fishing"
+			title: "熔岩垂钓"
 			x: -11.5d
 			y: -5.0d
 			shape: "square"
-			subtitle: "Nothing I love more than a quaint volcano lair"
+			subtitle: "没有什么比古朴的火山洞穴更让我喜欢了"
 			description: [
-				"It seems fishing in Lava works somewhat similarly to fishing in Water. Cast the hook, wait for a bite, and reel it in."
+				"看起来在熔岩垂钓和在水面垂钓有点类似。抛竿，等待咬钩，然后收竿。"
+				"" 	
+				"和在主世界类似，钓鱼有机会同时钩到&c垃圾&r和&6宝藏&r。似乎&b生物群系也是一个影响掉落的因素&r。"
 				""
-				"Like the living world, fishing has a chance of grabbing both &cjunk&r and &6treasures&r. It also seems that &bthe biome is a factor&r in what is gathered."
-				""
-				"On the left, I've listed all the different &bJunk&r that can be found, as well as their biomes. On the right, I've done the same for &bTreasures&r."
+				"在左侧，我陈列出了所有不同的可以被钓到的&b垃圾&r以及它们所属的生物群系。在右侧，我以同样的方式陈列出了所有不同的可以被钓到的&b宝藏&r。"
 			]
 			dependencies: ["535BC7512F991B24"]
 			min_width: 275
@@ -990,25 +990,25 @@
 					id: "minecraft:splash_potion"
 					Count: 1b
 					tag: {
-						Potion: "minecraft:luck"
+					Potion: "minecraft:luck"
 					}
 				}
 			}]
 		}
 		{
-			title: "H2O my Beloved"
+			title: "H2O，我的最爱"
 			x: -11.5d
 			y: 2.0d
 			shape: "square"
-			subtitle: "What I wouldn't give for a glass of ice water..."
+			subtitle: "一杯冰水要我付什么钱……"
 			description: [
-				"While my first attempts at siphoning water to this realm have been failures, I know success is right around the corner. It turns out my minions can emulate a form of water in their building and as such I've stabilized some in the Fisher's Hut as an experiment."
+				"虽然我第一次尝试将水吸到这个世界是失败的，但我知道成功就在眼前。事实证明，我的工人可以在他们的建筑物中模拟一种形式的水，因此我在渔夫小屋中稳定了一些水作为实验。"
 				""
-				"Once my minions have created a stable source of water via a &6Fisher's Hut&r, my magic will &6allow my Fishing Rod to access my normal reality&r through this psuedo water."
+				"一旦我的工人通过&6渔夫小屋创造了稳定的水源&r，我的魔法将&6允许我的钓鱼竿通过这个伪水源进入我的正常现实世界&r。"
 				""
-				"Unfortunately, I can't choose where I fish from or what biome my lure will end up in. I'll take what I can get though."
+				"不幸的是，我无法选择从哪里钓鱼或我的诱饵最终会进入哪个生物群系。不过，我会拿走我能得到的。"
 				""
-				"I've cataloged lists of &6treasures, junks, and the rest&r that I can find."
+				"我已经编目了&6宝藏，垃圾和我能找到的其余东西&r的列表。"
 			]
 			dependencies: ["535BC7512F991B24"]
 			min_width: 275
@@ -1032,7 +1032,7 @@
 			]
 		}
 		{
-			title: "Treasures from Water"
+			title: "水中的宝藏"
 			icon: "reliquary:fortune_coin"
 			disable_toast: true
 			x: -9.5d
@@ -1063,7 +1063,7 @@
 					id: "16D23212D8F4D691"
 					type: "item"
 					disable_toast: true
-					item: {
+										item: {
 						id: "itemfilters:or"
 						Count: 1b
 						tag: {
@@ -1143,7 +1143,7 @@
 			]
 		}
 		{
-			title: "Junk from Water"
+			title: "水中的垃圾"
 			icon: "ftbic:empty_can"
 			disable_toast: true
 			x: -13.5d
@@ -1199,7 +1199,7 @@
 				id: "105B03FC4033D9EC"
 				type: "item"
 				item: {
-					id: "alexsmobs:flying_fish_boots"
+				id: "alexsmobs:flying_fish_boots"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -1208,7 +1208,7 @@
 			}]
 		}
 		{
-			title: "Common Finds"
+			title: "普通钓物"
 			icon: "alexsmobs:fish_bones"
 			disable_toast: true
 			x: -11.5d
@@ -1263,17 +1263,17 @@
 			]
 		}
 		{
-			title: "Barking Up the Wrong Tree"
+			title: "剥下错误的树的皮"
 			x: -6.0d
 			y: -6.0d
 			shape: "square"
-			subtitle: "Get Tree Bark"
+			subtitle: "得到树皮"
 			description: [
-				"The disorganized, vein-like appearance of the wood here is the opposite of appealing. I can scrape the &bTree Bark&r off with an Axe, which has the added benefit that it can be made into Paper."
+				"这里的树木杂乱无章，像静脉一样的外观完全没有吸引力。我可以用斧子剥下它们的&b树皮&r，我还可以把树皮做成纸。"
 				""
-				"I can also use a &6Cutting Board&r instead. I've made a rudimentary contraption to do the work for me, stored in this Capsule."
+				"我也可以用&6砧板&r代替。我做了一个基本的装置来为我工作，储存在这个胶囊里。"
 				""
-				"I suspect many other things could be similarly automated on this cutting board. "
+				"我猜想，许多其他事情在这个砧板上也可以实现类似的自动化。"
 			]
 			dependencies: ["25E90C8154CF725D"]
 			min_width: 325
@@ -1309,15 +1309,15 @@
 			}]
 		}
 		{
-			title: "Dragon Glass"
+			title: "龙玻璃"
 			x: -4.0d
 			y: -4.0d
 			shape: "square"
-			subtitle: "Hard as.. Glass?"
+			subtitle: "就像……玻璃一样硬？"
 			description: [
-				"When a Lava source makes contact with Water, it converts into &bObsidian&r."
+				"当岩浆源和水接触时，它会被转化成&b黑曜石&r。"
 				""
-				"Water does not last long here, at least when placed by me. I'll have to &6make a canal from the Fisher's Hut&r, to preserve the original sources."
+				"水在这里不会存留很长时间，至少我把水放进去的时候是这样。我不得不&6从渔夫的小屋那开凿出一条水渠&r来保护原始水源。"
 			]
 			dependencies: [
 				"4E07E560443913CB"
@@ -1341,21 +1341,21 @@
 					type: "item"
 					item: "apotheosis:obsidian_arrow"
 					count: 32
-				}
+				}		
 			]
 		}
 		{
-			title: "The Biome Blues"
+			title: "生物群系蓝调"
 			x: -11.5d
 			y: -7.5d
 			shape: "square"
-			subtitle: "To Boldly Go..."
+			subtitle: "大胆地去……"
 			description: [
-				"Many of the varied resources I will need to obtain to make my escape are scattered throughout the land. "
+				"我需要获取的、使我得以逃离的各种资源中，有很多分散在整个大陆上。"
 				""
-				"Sure, I can explore manually and my map does a great job of charting the biomes I've visited but sometimes I just need a specific terrain."
+				"当然，我可以手动探索，我的地图可以非常好地绘制我去过的生物群系，但有时我需要找到一个特定的地形。"
 				""
-				"By creating a biome compass I can channel my magic into pinpointing exactly where the resources are, saving me much frustration in the days to come."
+				"通过制作一个自然指南针，我可以将我的魔法用于精确定位资源的位置，从而在未来的日子里省去了很多弯路。"
 			]
 			dependencies: ["03A93EA45228E9C0"]
 			min_width: 300
@@ -1380,17 +1380,17 @@
 			}]
 		}
 		{
-			title: "But Not a Drop to Drink"
+			title: "然而一滴都不用来喝"
 			x: -5.0d
 			y: -3.0d
 			shape: "square"
-			subtitle: "Collect water"
+			subtitle: "收集水"
 			description: [
-				"Now that I have a stable source of &bWater&r from the &6Fisher's Hut&r, I can &6siphon little amounts using Bottles&r to not disturb the source block."
+				"现在我可以从渔民小屋获得稳定的&b水&r源，我可以&6用玻璃瓶少量地装取&r，以免搅乱水源方块。"
 				""
-				"I can then &6drain these Bottles in the Smeltery&r, where the Water is protected from their environment."
+				"接下来我可以&6在冶炼炉里把这些玻璃瓶倒空&r，那里的水受到保护，不受环境的影响。"
 				""
-				"From there, I can simply &6cast the Water into an empty Bucket&r."
+				"在那里，我可以很容易地&6将水倒入一个空的桶中&r。"
 				""
 			]
 			dependencies: ["4E07E560443913CB"]
