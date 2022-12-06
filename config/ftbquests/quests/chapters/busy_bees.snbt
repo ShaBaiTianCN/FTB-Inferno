@@ -1513,7 +1513,15 @@
 					id: "3C62081295BCD3A8"
 					type: "item"
 					title: "吸血蜂巢"
-					item: "inferno:lifeessence_comb"
+					item: {
+						id: "productivebees:configurable_honeycomb"
+						Count: 1b
+						tag: {
+							EntityTag: {
+								type: "productivebees:hematophagous"
+							}
+						}
+					}
 				}
 				{
 					id: "6E2032E1EAA7040A"
