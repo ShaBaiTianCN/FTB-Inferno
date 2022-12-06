@@ -203,7 +203,7 @@
 					id: "462BD5ACFAABEE37"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"罪恶之魔法 \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"靡菲斯特的愤怒\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"靡菲斯特的愤怒 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"罪恶之魔法 \",\"color\":\"dark_purple\"},\"!\"]"
 					player_command: false
 				}
 			]
@@ -1054,7 +1054,7 @@
 					id: "529245264AEA787C"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Check the chapter \",{\"text\":\"染血之刺 \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"靡菲斯特的愤怒\",\"color\":\"dark_aqua\"},\"！\"]"
+					command: "/tellraw @p [\"\",\"详细内容请请查看：\",{\"text\":\"靡菲斯特的愤怒 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"染血之刺 \",\"color\":\"dark_purple\"},\"！\"]"
 					player_command: false
 				}
 			]

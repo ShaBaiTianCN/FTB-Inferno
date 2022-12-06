@@ -822,7 +822,7 @@
 					id: "69EDD5FDD163E719"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Cambion Creations\",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Prometheus' Heresy\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"普罗米修斯的异端 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"坎比翁之造物\",\"color\":\"dark_purple\"},\"！\"]"
 					player_command: false
 				}
 			]

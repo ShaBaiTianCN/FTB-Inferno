@@ -524,7 +524,7 @@
                 ""
                 "我猜他也能用来炼钢。"
                 ""
-                "&o解锁章节：&5机械降神&r（&o于&3普罗米修斯的异端&r&o目录下）"
+                "&o解锁章节：&3普罗米修斯的异端&r&o下的&5机械降神"
             ]
             dependencies: ["5F28970D36E4C0F1"]
             min_width: 250
@@ -549,7 +549,7 @@
                     id: "5E0AA2471655120E"
                     type: "command"
                     auto: "invisible"
-                    command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"机械降神\",\"color\":\"dark_purple\"},\"（于\",{\"text\":\"普罗米修斯的异端\",\"color\":\"dark_aqua\"},\"目录下！\"]"
+                    command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"普罗米修斯的异端 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"机械降神\",\"color\":\"dark_purple\"},\"！\"]"
                     player_command: false
                 }
             ]
@@ -564,7 +564,7 @@
                 ""
                 "这东西对离开这个该死的地方至关重要。"
                 ""
-                "&o解锁章节：5残暴的末地&r（&o于&3残暴的欢愉&r&o目录下）"
+                "&o解锁章节：&3残暴的欢愉&r&o下的&5残暴的末路之地&r"
             ]
             dependencies: ["1AD7627CC2347FB2"]
             size: 1.5d
@@ -585,7 +585,7 @@
                     id: "688A038BE006D866"
                     type: "command"
                     auto: "invisible"
-                    command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"残暴的末地 \",\"color\":\"dark_purple\"},\"（于 \",{\"text\":\"残暴的欢愉\",\"color\":\"dark_aqua\"},\"目录下！\"]"
+                    command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"残暴的欢愉 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"残暴的末路之地\",\"color\":\"dark_purple\"},\"！\"]"
                     player_command: false
                 }
             ]
