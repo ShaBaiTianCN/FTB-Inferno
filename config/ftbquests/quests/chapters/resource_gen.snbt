@@ -1001,35 +1001,35 @@
 			y: 2.0d
 			shape: "square"
 			subtitle: "一杯冰水要我付什么钱……"
-				description: [
-					"虽然我第一次尝试将水吸到这个世界是失败的，但我知道成功就在眼前。事实证明，我的工人可以在他们的建筑物中模拟一种形式的水，因此我在渔夫小屋中稳定了一些水作为实验。"
-					""
-					"一旦我的工人通过&6渔夫小屋创造了稳定的水源&r，我的魔法将&6允许我的钓鱼竿通过这个伪水源进入我的正常现实世界&r。"
-					""
-					"不幸的是，我无法选择从哪里钓鱼或我的诱饵最终会进入哪个生物群系。不过，我会拿走我能得到的。"
-					""
-					"我已经编目了&6宝藏，垃圾和我能找到的其余东西&r的列表。"
-				]
-				dependencies: ["535BC7512F991B24"]
-				min_width: 275
-				id: "3D9659853F508B0C"
-				tasks: [{
-					id: "6A47F2C1BDB07B50"
-					type: "checkmark"
-					icon: "minecraft:water_bucket"
-				}]
-				rewards: [
-					{
-						id: "5D98A07BA1FBE07F"
-						type: "xp_levels"
-						xp_levels: 5
-					}
-					{
-						id: "32905BBBBA15E777"
-						type: "item"
-						item: "farmersdelight:kelp_roll"
-					}
-				]
+			description: [
+				"虽然我第一次尝试将水吸到这个世界是失败的，但我知道成功就在眼前。事实证明，我的工人可以在他们的建筑物中模拟一种形式的水，因此我在渔夫小屋中稳定了一些水作为实验。"
+				""
+				"一旦我的工人通过&6渔夫小屋创造了稳定的水源&r，我的魔法将&6允许我的钓鱼竿通过这个伪水源进入我的正常现实世界&r。"
+				""
+				"不幸的是，我无法选择从哪里钓鱼或我的诱饵最终会进入哪个生物群系。不过，我会拿走我能得到的。"
+				""
+				"我已经编目了&6宝藏，垃圾和我能找到的其余东西&r的列表。"
+			]
+			dependencies: ["535BC7512F991B24"]
+			min_width: 275
+			id: "3D9659853F508B0C"
+			tasks: [{
+				id: "6A47F2C1BDB07B50"
+				type: "checkmark"
+				icon: "minecraft:water_bucket"
+			}]
+			rewards: [
+				{
+					id: "5D98A07BA1FBE07F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "32905BBBBA15E777"
+					type: "item"
+					item: "farmersdelight:kelp_roll"
+				}
+			]
 		}
 		{
 			title: "水中的宝藏"
@@ -1343,8 +1343,8 @@
 					count: 32
 				}		
 			]
-	}
-	{
+		}
+		{
 		title: "生物群系蓝调"
 		x: -11.5d
 		y: -7.5d
