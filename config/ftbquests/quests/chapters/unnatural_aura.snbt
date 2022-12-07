@@ -180,7 +180,7 @@
 			x: 5.5d
 			y: -1.5d
 			subtitle: "收集一些苍穹锭"
-			description: ["&苍穹锭&r是自然灵气所提供的最强大的金属之一。它被用于多个魔法流派的&6强大物品的配方&r中。"]
+			description: ["&b苍穹锭&r是自然灵气所提供的最强大的金属之一。它被用于多个魔法流派的&6强大物品的配方&r中。"]
 			dependencies: ["3D0F0A989EF18326"]
 			id: "2708CC826E342879"
 			tasks: [{
@@ -566,7 +566,7 @@
 			y: 1.0d
 			shape: "square"
 			subtitle: "制作最后机会之指环"
-			description: ["&最后机会之戒&r本质上就是一个在身上&6任意位置都可以生效的不死图腾&r。"]
+			description: ["&b最后机会之戒&r本质上就是一个在身上&6任意位置都可以生效的不死图腾&r。"]
 			hide_dependency_lines: true
 			dependencies: ["2708CC826E342879"]
 			size: 0.5d
@@ -861,7 +861,7 @@
 			}]
 		}
 		{
-			title: "Aura Transportation"
+			title: "灵气运输"
 			x: 6.0d
 			y: 0.5d
 			shape: "square"
@@ -871,7 +871,7 @@
 				""
 				"当矿车经过&6激活铁轨&r时，就会开始&6吸收灵气&r。"
 				""
-				"当矿车再次经过激活铁轨时，就会&6释放灵气&r。在这个过程中会有一定的&灵气损失&r。"
+				"当矿车再次经过激活铁轨时，就会&6释放灵气&r。在这个过程中会有一定的&6灵气损失&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["2708CC826E342879"]

@@ -71,7 +71,7 @@
 			y: -0.5d
 			subtitle: "制作一个离心机"
 			description: [
-				"我可以把收集到的蜜脾放在&离心机&r中处理。"
+				"我可以把收集到的蜜脾放在&b离心机&r中处理。"
 				""
 				"插入的蜜脾将慢慢转化为组成其的液体和固体。"
 			]
@@ -206,7 +206,7 @@
 					tag: {
 						EntityTag: {
 							type: "productivebees:netherite"
-						
+						}
 					}
 				}
 			}]
@@ -301,7 +301,7 @@
 			x: -1.5d
 			y: 3.5d
 			subtitle: "制作汗蜂"
-			description: ["若流浪者蜜蜂被喂食&b哭泣的黑曜石&r，它的体温会迅速下降，转化为&b汗蜂&r。"]
+			description: ["若牧游蜜蜂被喂食&b哭泣的黑曜石&r，它的体温会迅速下降，转化为&b汗蜂&r。"]
 			dependencies: ["3874307556D72539"]
 			id: "2D6DAE3B68710E72"
 			tasks: [{
@@ -352,8 +352,8 @@
 			icon: "hexerei:sage"
 			x: 0.0d
 			y: 3.5d
-			subtitle: "将蜜蜂转化为流浪者蜜蜂"
-			description: ["当用&b干鼠尾草&r喂食普通蜜蜂，它们会&6变成流浪者蜜蜂&r。"]
+			subtitle: "将蜜蜂转化为牧游蜜蜂"
+			description: ["当用&b干鼠尾草&r喂食普通蜜蜂，它们会&6变成牧游蜜蜂&r。"]
 			dependencies: ["6E63506CA6262292"]
 			id: "3874307556D72539"
 			tasks: [{
@@ -650,8 +650,8 @@
 			title: "我坠入爱粉"
 			x: 1.5d
 			y: -5.5d
-			subtitle: "制作饲养台阶"
-			description: ["某些蜜蜂可能&5需要喂食&r。这可以通过将喂食物放入&b饲养台阶&r来完成。"]
+			subtitle: "制作饲养板"
+			description: ["某些蜜蜂可能&5需要喂食&r。这可以通过将喂食物放入&b饲养板&r来完成。"]
 			dependencies: ["66FD735570C5960E"]
 			hide: true
 			id: "632BA587721B96BD"
@@ -1274,7 +1274,7 @@
 			y: 5.0d
 			subtitle: "获得烈焰蜂巢"
 			description: [
-				"若流浪者蜜蜂&6与熔岩蜜蜂杂交&r，就会产生烈焰蜜蜂。"
+				"若牧游蜜蜂&6与熔岩蜜蜂杂交&r，就会产生烈焰蜜蜂。"
 				""
 				"它们的&b烈焰蜂巢&r非常有用，可以制造&6烈焰粉&r！"
 			]
@@ -1305,7 +1305,7 @@
 			y: 5.0d
 			subtitle: "获得黑曜石蜂巢"
 			description: [
-				"不只有流浪者蜜蜂在争夺&6熔岩蜜蜂&r的感情。"
+				"不只有牧游蜜蜂在争夺&6熔岩蜜蜂&r的感情。"
 				""
 				"若与汗蜂杂交，后代会生产&b黑曜石蜂巢&r。"
 			]
@@ -1513,7 +1513,15 @@
 					id: "3C62081295BCD3A8"
 					type: "item"
 					title: "吸血蜂巢"
-					item: "inferno:lifeessence_comb"
+					item: {
+						id: "productivebees:configurable_honeycomb"
+						Count: 1b
+						tag: {
+							EntityTag: {
+								type: "productivebees:hematophagous"
+							}
+						}
+					}
 				}
 				{
 					id: "6E2032E1EAA7040A"

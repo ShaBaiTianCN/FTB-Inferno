@@ -1,5 +1,5 @@
 {
-	id: "72464C26AF8BCEB2"1
+	id: "72464C26AF8BCEB2"
 	group: "7044F2C841148E69"
 	order_index: 3
 	filename: "sanguine_sting"
@@ -110,7 +110,7 @@
 			y: -2.5d
 			shape: "hexagon"
 			subtitle: "制作一个炼金术桌"
-			description: ["在&b炼金术桌&r，上我可以使用来自宝珠的LP来执行炼金术。"]
+			description: ["在&b炼金术桌&r上，我可以使用来自宝珠的LP来执行炼金术。"]
 			dependencies: ["711049B56861B200"]
 			id: "0BEBDF5D45C3425F"
 			tasks: [{
@@ -203,7 +203,7 @@
 					id: "462BD5ACFAABEE37"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"罪恶之魔法 \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"靡菲斯特的愤怒\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"靡菲斯特的愤怒 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"罪恶之魔法 \",\"color\":\"dark_purple\"},\"!\"]"
 					player_command: false
 				}
 			]
@@ -356,7 +356,7 @@
 			]
 		}
 		{
-			title: "Hypertension"
+			title: "高血压"
 			x: 0.0d
 			y: -0.5d
 			subtitle: "制作一个学徒气血宝珠"
@@ -762,7 +762,7 @@
 			tasks: [{
 				id: "70EFD82A0734278C"
 				type: "item"
-				title: "Sigils"
+				title: "印记"
 				item: {
 					id: "itemfilters:and"
 					Count: 1b
@@ -1054,7 +1054,7 @@
 					id: "529245264AEA787C"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Check the chapter \",{\"text\":\"染血之刺 \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"靡菲斯特的愤怒\",\"color\":\"dark_aqua\"},\"！\"]"
+					command: "/tellraw @p [\"\",\"详细内容请请查看：\",{\"text\":\"靡菲斯特的愤怒 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"染血之刺 \",\"color\":\"dark_purple\"},\"！\"]"
 					player_command: false
 				}
 			]
@@ -1234,8 +1234,7 @@
 			y: 4.0d
 			subtitle: "制作一个血能注入器"
 			description: [
-				"
-&b血能注入器&r能让我从鲜血中提取能量，并把它们注入到各种物品中去，从而创造出一些全新的东西！"
+				"&b血能注入器&r能让我从鲜血中提取能量，并把它们注入到各种物品中去，从而创造出一些全新的东西！"
 				""
 				"我发现我可以右键机器上制作的凝血，但一直右键实在太低效乏味了！或许我可以用一下&5自动连点器&r来帮我自动化填充血液。或许只需要把装血液的储罐放在需要血液的机器上，并把它设置成自动输出模式就好（听说ctrl+右键就可以改变模式）。"
 			]

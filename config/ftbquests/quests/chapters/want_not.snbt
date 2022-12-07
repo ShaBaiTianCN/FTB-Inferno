@@ -388,14 +388,14 @@
 					id: "2CBDB1FC2D13B4E4"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"解锁该章节\",{\"text\":\"在服务内\",\"color\":\"dark_purple\"},\"under \",{\"text\":\"欲望\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"欲望 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"在服务区内\",\"color\":\"dark_purple\"},\"!\"]"
 					player_command: false
 				}
 				{
 					id: "70A269DE0D358022"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"解锁该章节\",{\"text\":\"给他一条鱼\",\"color\":\"dark_purple\"},\"under \",{\"text\":\"欲望\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"欲望 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"给他一条鱼\",\"color\":\"dark_purple\"},\"!\"]"
 					player_command: false
 				}
 			]
@@ -1299,7 +1299,7 @@
 					id: "2EB87AB4CF572B22"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"详细内容请请查看\",{\"text\":\"保护平民\",\"color\":\"dark_purple\"},\"under \",{\"text\":\"章节中的任务。\",\"color\":\"dark_aqua\"}]"
+					command: "/tellraw @p [\"\",\"详细内容请请查看：\",{\"text\":\"欲望 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"保护平民\",\"color\":\"dark_purple\"}]"
 					player_command: false
 				}
 			]

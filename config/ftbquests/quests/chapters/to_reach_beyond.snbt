@@ -5,7 +5,7 @@
 	filename: "to_reach_beyond"
 	title: "大地之怒"
 	icon: "biomesoplenty:origin_grass_block"
-	subtitle: ["The Overworld"]
+	subtitle: ["主世界"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -113,7 +113,7 @@
 				id: "1689C65749C6445F"
 				type: "command"
 				auto: "invisible"
-				command: "/tellraw @p [\"\",\"我应该确保在继续完成之前\",{\"text\":\"阅读我的日记\",\"color\":\"red\"},\".\"]"
+				command: "/tellraw @p [\"\",\"我应该确保在继续完成之前\",{\"text\":\"阅读我的日记\",\"color\":\"red\"},\"。\"]"
 				player_command: false
 			}]
 		}

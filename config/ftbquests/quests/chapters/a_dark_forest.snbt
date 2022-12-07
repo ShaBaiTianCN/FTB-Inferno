@@ -480,7 +480,7 @@
 			description: [
 				"&o鱼就像亲戚。两天后就臭了。"
 				""
-				"在这里钓鱼和在海上钓鱼级别上是一样的，只不过是在岩浆上。具体内容我在&5Azriel's Acquisitions&r一章中展开说明。"
+				"在这里钓鱼和在海上钓鱼级别上是一样的，只不过是在岩浆上。具体内容我在&5阿兹瑞尔的收购&r一章中展开说明。"
 				""
 				"我真正需要从钓鱼中获取的知识一些&6铜锭&r。除此之外的钓到的要么是可选择的要么是锦上添花的东西。"
 			]
@@ -542,7 +542,7 @@
 					id: "24DEFD56B78C95CB"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"Azriel's Acquisitions \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"炼狱边界\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"炼狱边界 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"阿兹瑞尔的收购\",\"color\":\"dark_purple\"},\"！\"]"
 					player_command: false
 				}
 			]
@@ -942,7 +942,7 @@
 				""
 				"冶炼炉足够先进到可以制作&6合金&r。"
 				""
-				"&o解锁章节&3普罗米修斯的异端&r下的&5无名者的革新&r&o"
+				"&o解锁章节&3普罗米修斯的异端&r下的&5全新的革命&r&o"
 			]
 			dependencies: [
 				"2CD5241DDDC9F473"
@@ -983,7 +983,7 @@
 					id: "6A24EA5DD746BE52"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"全新的革命\",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"普罗米修斯的异端\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"普罗米修斯的异端 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"全新的革命\",\"color\":\"dark_purple\"},\"！\"]"
 					player_command: false
 				}
 				{
@@ -1098,7 +1098,7 @@
 					id: "530248176BBD57C8"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"染血之刺\",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"靡菲斯特的暴怒\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"靡菲斯特的暴怒 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"染血之刺\",\"color\":\"dark_purple\"},\"！\"]"
 					player_command: false
 				}
 			]
@@ -1114,7 +1114,7 @@
 				""
 				"我可以将这地方的植被的一点点生命能变成对我而言更重要的东西。"
 				""
-				"&o解锁章节：&5草药与巫术&r&o下的&3靡菲斯特的暴怒&r"
+				"&o解锁章节：&3靡菲斯特的暴怒&r&o下的&5草药与巫术&r"
 			]
 			dependencies: [
 				"34E8389197884E32"
@@ -1159,7 +1159,7 @@
 					id: "11CBDE8891D58780"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"草药与诅咒\",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"靡菲斯特的暴怒\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"靡菲斯特的暴怒 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"草药与诅咒\",\"color\":\"dark_purple\"},\"！\"]"
 					player_command: false
 				}
 			]
@@ -1175,7 +1175,7 @@
 				""
 				"这将是&6许多魔法的基础&r。我向我未来可以强化它，但是这需要经验。"
 				""
-				"&o解锁章节&5染血之刺&r&o下的&3靡菲斯特的暴怒&r"
+				"&o解锁章节&3靡菲斯特的暴怒&r&o下的&5染血之刺&r"
 			]
 			dependencies: ["105D0A853D0574B2"]
 			size: 1.5d
@@ -1202,7 +1202,7 @@
 					id: "022385F221F00818"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"染血之刺 \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"靡菲斯特的暴怒\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"染血之刺 \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"靡菲斯特的暴怒\",\"color\":\"dark_aqua\"},\"！\"]"
 					player_command: false
 				}
 			]
@@ -1221,7 +1221,7 @@
 				""
 				"当补给营地建成的时候，&6使用市政厅胶囊&r来放置多方块结构。一旦放置好，&6挖掉里面的深板岩&r然后在原地放置&b市政厅&r。"
 				""
-				"&o解锁章节&o&3欲望&r下的&5吃穿不缺&r"
+				"&o解锁章节&o&3欲望&r下的&5达咩&r"
 			]
 			dependencies: ["12F109B5B72694C3"]
 			size: 1.5d
@@ -1267,7 +1267,7 @@
 					id: "5D43ECBF47A0E70F"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"吃穿不愁 \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"欲望\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"欲望 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"达咩\",\"color\":\"dark_purple\"},\"！\"]"
 					player_command: false
 				}
 				{
@@ -1621,7 +1621,7 @@
 					id: "26C67B62EAF9347C"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"富集废料 \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"暴食\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"暴食 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"富集废料\",\"color\":\"dark_purple\"},\"！\"]"
 					player_command: false
 				}
 			]
@@ -1813,7 +1813,7 @@
 					id: "0ED84173872F0429"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"忙碌的蜜蜂\",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"暴食\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"暴食 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"忙碌的蜜蜂\",\"color\":\"dark_purple\"},\"！\"]"
 					player_command: false
 				}
 			]
@@ -1865,7 +1865,7 @@
 					id: "0CACD7A399BB4A34"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"解锁章节 \",{\"text\":\"不自然灵气 \",\"color\":\"dark_purple\"},\"下的 \",{\"text\":\"靡菲斯特的暴怒\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"靡菲斯特的暴怒 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"不自然灵气\",\"color\":\"dark_purple\"},\"！\"]"
 					player_command: false
 				}
 			]
@@ -1933,7 +1933,7 @@
 			}]
 		}
 		{
-			title: "人类做好的伙伴"
+			title: "人类最好的伙伴"
 			x: 4.0d
 			y: 2.5d
 			shape: "square"

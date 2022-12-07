@@ -552,7 +552,7 @@
 			tasks: [{
 				id: "15DB89C4AA5C331D"
 				type: "item"
-				title: "Quantum Powerarmor"
+				title: "量子装甲"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -596,7 +596,7 @@
 			x: -4.571428571428569d
 			y: 5.017857142857139d
 			shape: "hexagon"
-			subtitle: "Magiteck Crystals"
+			subtitle: "反物质晶体"
 			description: [
 				"所有这些奇怪的科技让我得到了我真正需要的东西。一种具有湮灭能力的纯净晶体，它同时被下界之星完美的包含和稳定。 "
 				""

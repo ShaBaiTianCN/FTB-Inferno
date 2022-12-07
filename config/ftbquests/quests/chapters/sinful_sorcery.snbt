@@ -325,7 +325,7 @@
 				""
 				"终于，一些回报！把我困住这里是吧，现在轮到我了！"
 				""
-				"不过，我不会犯同样的错误两次，我将从&6小事&做起。&b魔精&r是一种很愚蠢的小生物，我可以利用它们&6解决&r一些&6简单且重复的劳动&r并且对我也没有威胁。"
+				"不过，我不会犯同样的错误两次，我将从&6小事&r做起。&b魔精&r是一种很愚蠢的小生物，我可以利用它们&6解决&r一些&6简单且重复的劳动&r并且对我也没有威胁。"
 				""
 				"将魔灵全典与&b绑定之书：魔精&r一起合成就能把一个&6魔精的真名刻在&r绑定之书上。"
 			]
@@ -822,7 +822,7 @@
 					id: "69EDD5FDD163E719"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Cambion Creations\",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Prometheus' Heresy\",\"color\":\"dark_aqua\"},\"!\"]"
+					command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"普罗米修斯的异端 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"坎比翁之造物\",\"color\":\"dark_purple\"},\"！\"]"
 					player_command: false
 				}
 			]
