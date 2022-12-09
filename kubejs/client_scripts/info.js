@@ -9,18 +9,18 @@ onEvent('jei.information', (info) => {
 		'试着对你的渔夫小屋水塘下的岩石施用骨粉。',
 	])
 	info.add('ae2:certus_crystal_seed', [
-		'把种子丢进血池里（超多生物群系的血）将会很快地长为赛特斯石英晶体。',
+		'种子丢进血池（超多生物群系的血）里后会很快地生长为赛特斯石英水晶',
 	])
 	info.add('ae2:fluix_crystal_seed', [
-		'把种子丢进血池里（超多生物群系的血）将会很快地长为赛特斯石英晶体。',
+		'种子丢进血池（超多生物群系的血）里后会很快地生长为赛特斯石英水晶',
 	])
 	info.add(
 		['ae2:certus_quartz_crystal', 'ae2:fluix_crystal'],
-		["在超多生物群系的血中生长更快。"]
+		["在超多生物群系的血中生长更快"]
 	)
 	info.add(
 		['immersiveengineering:generator'],
-		['在配方解锁前必须前往末地城获取。']
+		['在配方解锁前必须前往末地城获取']
 	)
 	info.add(
 		['ftbic:antimatter'],
@@ -35,7 +35,7 @@ onEvent('jei.information', (info) => {
 			'immersiveengineering:toolupgrade_shield_shock',
 		],
 		[
-			"使用工程师工作台来给重型盾牌应用这些升级。",
+			"使用工程师装配台来给重型盾牌应用这些升级。",
 		]
 	)
 	info.add(
