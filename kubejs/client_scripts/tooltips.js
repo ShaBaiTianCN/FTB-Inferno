@@ -29,50 +29,49 @@ onEvent('item.tooltip', (event) => {
 	}
 	tooltip(
 		'ars_nouveau:starbuncle_shards',
-		'Wild starbuncles can be summoned with the Altar of Birthing'
+		'野生星宝石兽可以用降生祭坛召唤'
 	)
-	tooltip('minecraft:amethyst_shard', 'Found in the Hidden Realm')
+	tooltip('minecraft:amethyst_shard', '可以在隐域之缘找到')
 	tooltip(
 		['minecraft:soul_campfire', 'minecraft:campfire'],
-		'Sets spawnpoint and heals you.'
+		'可设置重生点并治疗你。'
 	)
-	tooltip('nethersdelight:stuffed_hoglin', 'Grants +2 Looting for 2 minutes.')
-	tooltip('avaritia:neutron_collector', 'Do *NOT* Attempt to time in a bottle.')
-	tooltip('minecraft:golden_carrot', 'Grants 5 Minutes of Night Vision.')
+	tooltip('nethersdelight:stuffed_hoglin', '给予2分钟的+2抢夺效果。')
+	tooltip('avaritia:neutron_collector', '*千万*不要试图对其使用时间之瓶。')
+	tooltip('minecraft:golden_carrot', '给予5分钟的夜视效果。')
 	tooltip('structurize:sceptergold', [
-		'This tool is capable of mining',
-		'Bedrock and End Portal Frames',
+		'这把工具能够用来挖掘',
+		'基岩和末地传送门框架',
 	])
 	tooltip('nomoretorchspam:glow_crystal', [
-		'Stacks up to 4x for 50 light radius.',
-		'Creates invisible light sources with',
-		'two blocks between',
+		'最多堆叠4x来获得50格半径的光照。',
+		'每隔一个区块制造一个不可见光源。',
 	])
 	tooltip(
 		'hexerei:blood_sigil',
-		'Disabled. Use life essence for recipes instead.'
+		'已禁用。在合成配方内使用生命源质作为替代。'
 	)
 	tooltip(
 		'evilcraft:spiked_plate',
-		'Disabled, use life essence or other means of killing.'
+		'已禁用。使用生命源质或杀死生物的方式作为替代。'
 	)
 	tooltip('occultism:datura', [
-		'Grown from demon seeds,',
-		'or transmuted from golden apples',
+		'由魔鬼之梦种子长成，',
+		'或由金苹果异变而来',
 	])
 	tooltip('biomesoplenty:hellbark_sapling', 'Found in the undergarden biome.')
 	tooltip(/kubejs.*ladder/, [
-		"Due to a bug, Quark's",
-		'Ladders do not show in JEI',
+		"由于一个BUG，夸克的",
+		'梯子在JEI无法显示',
 		' ',
-		'This item can crafted into',
-		'the real ladder',
+		'这个物品可以被合成为',
+		'真正的梯子',
 	])
-	tooltip('inferno:bedrock', 'Aesthetics only!')
-	tooltip('prettypipes:item_terminal', 'Disabled, use the crafting terminal')
+	tooltip('inferno:bedrock', '只作装饰用途！')
+	tooltip('prettypipes:item_terminal', '已禁用，使用合成终端')
 	tooltip('@itemfilters', 'For pack dev only')
-	tooltip('ae2:certus_crystal_seed', 'Grows faster in BOP Blood')
-	tooltip('ae2:fluix_crystal_seed', 'Grows faster in BOP Blood')
+	tooltip('ae2:certus_crystal_seed', '在超多生物群系的血中生长更快')
+	tooltip('ae2:fluix_crystal_seed', '在超多生物群系的血中生长更快')
 	event.add(
 		[
 			'minecolonies:blockhutbarrackstower',
@@ -87,7 +86,7 @@ onEvent('item.tooltip', (event) => {
 			'create:water_wheel',
 			/ae2:portable/,
 		],
-		Text.red('Disabled')
+		Text.red('已禁用')
 	)
 	event.add(
 		[
@@ -100,54 +99,53 @@ onEvent('item.tooltip', (event) => {
 			'ftbic:mv_solar_panel',
 		],
 		[
-			Text.red('Disabled'),
-			Text.red('Use the FE Transformer or'),
-			Text.red('the Nuclear Reactor instead'),
+			Text.red('已禁用'),
+			Text.red('使用FE Transformer或'),
+			Text.red('核反应堆作为替代'),
 		]
 	)
 
 	event.add(
 		['evilcraft:blood_extractor'],
-		Text.red('Disabled, use Condensed Blood')
+		Text.red('已禁用，使用凝固的血块')
 	)
 
 	//Grapple Hook upgrades
-	tooltip('grapplemod:baseupgradeitem', 'Recipe ingredient')
+	tooltip('grapplemod:baseupgradeitem', '配方原料')
 	tooltip('grapplemod:doubleupgradeitem', [
-		'Grapple Hook has two hooks',
-		'à la 3D Maneuver Gear',
+		'抓钩有两个抓钩',
+		'3D立体机动装置了属于是',
 	])
 	tooltip('grapplemod:forcefieldupgradeitem', [
-		'User is repelled from nearby',
-		'blocks when swinging',
+		'当使用者在空中飞荡时',
+		'会被临近的方块排斥',
 	])
 	tooltip('grapplemod:magnetupgradeitem', [
-		'Hook is attracted to nearby',
-		'blocks when thrown',
+		'当抓钩被扔出时',
+		'会吸附到临近的方块上',
 	])
-	tooltip('grapplemod:motorupgradeitem', 'Pulls player towards Hook')
+	tooltip('grapplemod:motorupgradeitem', '将玩家拉向抓钩')
 	tooltip('grapplemod:ropeupgradeitem', [
-		'Adds options:',
-		'• Rope Length',
-		'• Rope phases through blocks',
-		'• Rope attaches at bend points',
+		'添加配置选项：',
+		'• 绳索长度',
+		'• 绳索分阶段穿过方块',
+		'• 粘性绳索',
 	])
-	tooltip('grapplemod:staffupgradeitem', 'Left click launches player forward')
+	tooltip('grapplemod:staffupgradeitem', '单击左键使玩家向前移动')
 	tooltip('grapplemod:swingupgradeitem', [
-		'Allows user to configure',
-		'swing speed',
+		'允许使用者配置',
+		'摆荡速度',
 	])
 	tooltip('grapplemod:throwupgradeitem', [
-		'Allows user to configure options',
-		'related to throwing the hook',
+		'允许使用者配置',
+		'投掷抓钩相关选项',
 	])
 	tooltip('grapplemod:limitsupgradeitem', [
-		'Increases upper limits of',
-		'other upgrade options',
+		'增加其他升级的选项上限',
 	])
 	tooltip(
 		'grapplemod:rocketupgradeitem',
-		'Propels player forward with left-click'
+		'单击左键向前推动玩家'
 	)
 	tooltip('evilcraft:origins_of_darkness', 'Some information inaccurate')
 
@@ -164,7 +162,7 @@ onEvent('item.tooltip', (event) => {
 			'ae2:fluid_storage_cell_4k',
 			'ae2:fluid_storage_cell_1k',
 		],
-		[Text.red('Disabled'), Text.red('Use the Storage Bus')]
+		[Text.red('已禁用'), Text.red('使用存储总线')]
 	)
 
 	let vanillaArmorMats = [
@@ -182,19 +180,19 @@ onEvent('item.tooltip', (event) => {
 			event.addAdvanced(theItem, (item, advanced, text) => {
 				//Moving enchantments
 				if (item.nbt.Enchantments != null) {
-					text.add(1, Text.yellow('Enchants can be moved to other items'))
-					text.add(2, Text.yellow('using the Tome of Scrapping'))
+					text.add(1, Text.yellow('使用拆解宝典可以'))
+					text.add(2, Text.yellow('将附魔转移到其他物品上'))
 				}
 
 				//Moving affixes
 				if (item.nbt.affix_data != null) {
-					text.add(1, Text.red('Vanilla armor with Affixes are').bold(true))
+					text.add(1, Text.red('带有词缀的原版物品').bold(true))
 					text.add(
 						2,
-						Text.red('best put through the Salvaging Table').bold(true)
+						Text.red('最好直接丢到回收台').bold(true)
 					)
 				}
-				text.add(1, Text.red('Very low durability'))
+				text.add(1, Text.red('耐久非常低'))
 			})
 		})
 	})
@@ -205,7 +203,7 @@ onEvent('item.tooltip', (event) => {
 			'naturesaura:end_city_finder',
 			'naturesaura:outpost_finder',
 		],
-		[Text.red("Doesn't work in"), Text.red('current mod version')]
+		[Text.red("在当前mod版本"), Text.red('没有作用')]
 	)
 
 	console.info('Added initial tooltips')
@@ -213,8 +211,8 @@ onEvent('item.tooltip', (event) => {
 	//witherwarning
 	tooltip(
 		['minecraft:wither_skeleton_skull', 'bygonenether:soul_stone'],
-		'Wither is summoned with Soul Stone',
-		'not Soul Sand'
+		'凋零可以用灵魂石召唤',
+		'而非灵魂沙'
 	)
 	console.info('Added wither tooltips')
 
@@ -228,7 +226,7 @@ onEvent('item.tooltip', (event) => {
 	noWorkInNether.forEach((theItem) => {
 		event.addAdvanced(theItem, (item, advanced, text) => {
 			if (Client.player.level.dimension == 'minecraft:the_nether') {
-				text.add(1, Text.red('Nonfunctional in Nether'))
+				text.add(1, Text.red('在下界无效'))
 			}
 		})
 	})
@@ -238,7 +236,7 @@ onEvent('item.tooltip', (event) => {
 		'productivebees:spawn_egg_reed_bee',
 	]
 	beesCustomRecipes.forEach((item) => {
-		tooltip(item, 'Has crafting recipe')
+		tooltip(item, '有合成配方')
 	})
 
 	let beeTooltip = (species, tooltip) => {
@@ -274,9 +272,9 @@ onEvent('item.tooltip', (event) => {
 		'bloody',
 	]
 	beesCustomRecipesNBT.forEach((species) => {
-		beeTooltip(species, Text.gray('Has crafting recipe'))
+		beeTooltip(species, Text.gray('有合成配方'))
 	})
-	beeTooltip('arcane', [Text.gray('Only obtainable in loot chests in the End')])
+	beeTooltip('arcane', [Text.gray('只能在末地的战利品箱中获取')])
 
 	console.info('staging tooltips')
 })
