@@ -1,31 +1,31 @@
 onEvent('jei.information', (info) => {
-	info.add('minecraft:fern', ['Obtain by Bonemealing Podzol'])
-	info.add('ars_nouveau:starbuncle_shards',['Obtained by giving a wild starbuncle a gold nugget.', 'Wild starbuncles can be summoned with the Altar of Birthing.'])
+	info.add('minecraft:fern', ['可以通过对灰化土施用骨粉来获得。'])
+	info.add('ars_nouveau:starbuncle_shards',['可通过给予野生星宝石兽金粒获得。', '野生星宝石兽可在降生祭坛召唤。'])
 	info.add('avaritia:neutron_collector', [
-		'Do NOT attempt to time in a bottle...',
+		'请勿尝试用时间瓶加速……',
 	])
 	info.add('minecraft:seagrass', [
-		'Bonemealing a block underwater will spawn seagrass.',
-		'Try bonemealing the rocks below the water in your fishering hut.',
+		'对水下的方块施用骨粉可以获得海草。',
+		'试着对你的渔夫小屋水塘下的岩石施用骨粉。',
 	])
 	info.add('ae2:certus_crystal_seed', [
-		'Dropping this seed in a pool of blood (Biomes o Plenty) will rapidly grow it to its fully crystalized form',
+		'种子丢进血池（超多生物群系的血）里后会很快地生长为赛特斯石英水晶',
 	])
 	info.add('ae2:fluix_crystal_seed', [
-		'Dropping this seed in a pool of blood (Biomes o Plenty) will rapidly grow it to its fully crystalized form',
+		'种子丢进血池（超多生物群系的血）里后会很快地生长为赛特斯石英水晶',
 	])
 	info.add(
 		['ae2:certus_quartz_crystal', 'ae2:fluix_crystal'],
-		["Grows much faster in Blood from Biomes o' Plenty"]
+		["在超多生物群系的血中生长更快"]
 	)
 	info.add(
 		['immersiveengineering:generator'],
-		['Must be looted from End City before the recipe unlocks']
+		['在配方解锁前必须前往末地城获取']
 	)
 	info.add(
 		['ftbic:antimatter'],
 		[
-			'Created in the Antimatter constructor by giving it power and optionally scrap.',
+			'通过给反物质构建机提供能量和废料（可选）来制作。',
 		]
 	)
 	info.add(
@@ -35,7 +35,7 @@ onEvent('jei.information', (info) => {
 			'immersiveengineering:toolupgrade_shield_shock',
 		],
 		[
-			"Use an Engineer's Workbench to apply these upgrades to the Heavy Plated Shield.",
+			"使用工程师装配台来给重型盾牌应用这些升级。",
 		]
 	)
 	info.add(
@@ -57,7 +57,7 @@ onEvent('jei.information', (info) => {
 			'alexsmobs:emu_leggings',
 			'minecraft:golden_pickaxe',
 		],
-		['Loot Only.']
+		['战利品获取限定。']
 	)
 
 	info.add(
@@ -71,7 +71,7 @@ onEvent('jei.information', (info) => {
 			'tconstruct:pig_iron_ingot',
 			'minecraft:hoglin_spawn_egg'
 		],
-		['Piglin Trading.']
+		['猪灵交易获取。']
 	)
 
 	info.add(
@@ -85,71 +85,71 @@ onEvent('jei.information', (info) => {
 			'ftbic:mv_solar_panel',
 			'ftbic:nuclear_reactor',
 		],
-		['Zaps only generated in the Nuclear Reactor, or using the FE Transformer']
+		['Zaps只能由核反应堆产生或FE Transformer转换得到。']
 	)
 	info.add('minecraft:bell', ['Dropped as loot from the Bellringer boss.'])
 	info.add('meetyourfight:phantoplasm', [
-		'Craft a Bellringer Gateway Pearl and summon the Bellringer to fight for this drop.',
+		'制作一个Bellringer Gateway Pearl，召唤敲钟人并打败它来获得其掉落物。',
 	])
 	info.add('meetyourfight:fortunes_favor', [
-		'Craft a Fortuna Gateway Pearl and summon Dame Fortuna to fight for this drop.',
+		'制作一个Bellringer Gateway Pearl，召唤敲钟人并打败它来获得其掉落物。',
 	])
 	info.add('meetyourfight:mossy_tooth', [
-		'Craft a Swampjaw Gateway Pearl and summon Swampjaw to fight for this drop.',
+		'制作一个Bellringer Gateway Pearl，召唤敲钟人并打败它来获得其掉落物。',
 	])
 	info.add(
 		'minecraft:obsidian',
-		'Can be alloyed in a smeltery with lava and water.'
+		'可以通过融合水和熔岩来获得。'
 	)
 	info.add(
 		['minecraft:flowering_azalea', 'minecraft:azalea'],
-		'Bonemeal a Moss Block, and each block in a 3x3 to 7x7 area has a 15% chance of growing an Azalea and a 5% chance of growing a Flowering Azalea'
+		'对苔石块施加骨粉，在3x3到7x7的范围内的每一个方块都有15%的几率生成杜鹃花丛，并且有5%的几率生成一个盛开的杜鹃花丛。'
 	)
 	info.add(
 		['minecraft:oak_leaves', 'minecraft:oak_sapling'],
-		['Can be found growing on Brambles in the Undergrowth biome.']
+		['可以在地底花园群系的荆棘上找到橡树树叶。']
 	)
 	info.add(
 		['minecraft:snowball', 'minecraft:snow_block', 'minecraft:snow'],
-		['You can summon a Snow Golem with the Summoning Altar']
+		['你可以在召唤祭坛召唤一个雪傀儡。']
 	)
 	info.add('minecraft:ender_pearl', [
-		'Dropped by Warpbeetles, which spawn in Warped Forests',
+		'由生成在诡异森林的诡异甲虫掉落。',
 	])
 	info.add(
 		['nethersdelight:propelplant_stem', 'nethersdelight:propelplant_cane'],
-		['Most commonly found in Crimson Forests']
+		['常见于绯红森林。']
 	)
 	info.add('nethersdelight:propelpearl', [
 		'Requires harvesting from Propelplants using Shears',
-		'Most commonly found in Crimson Forests',
+		'常见于绯红森林。',
 	])
 
 	info.add('biomesoplenty:rose_quartz_shard', [
-		'Can be found in the Crystalline Chasm biome',
+		'可以在晶簇裂隙找到。',
 	])
 	info.add('minecolonies:supplycampdeployer', [
-		'Given as a reward for the Build Tool quest',
+		'作为建造工具任务的奖励获得。',
 		' ',
-		'Use it before you lose it',
+		'在你遗失它之前使用掉它。',
 	])
 	info.add('hexerei:animal_fat', ['Drops from farm animals'])
 	info.add('naturesaura:gold_leaf', [
-		'Drops from Leaves imbued with Golden Thread',
+		'破坏黄金树叶（用闪耀纤维注入树叶）掉落获得。',
 		' ',
-		'It takes a while for the Thread to work before the Leaves can be harvested',
+		'用闪耀纤维注入以后需要等一会才能收获到黄金叶。',
 	])
 	info.add(
 		Item.of('naturesaura:aura_bottle', '{stored_type:"naturesaura:nether"}'),
-		'Use a Bottle and Cork in the Nether'
+		'在下界使用瓶与塞。'
 	)
 	info.add(
 		Item.of('naturesaura:aura_bottle', '{stored_type:"naturesaura:overworld"}'),
-		'Use a Bottle and Cork in the Overworld (or craft otherwise)'
+		'在主世界使用瓶与塞（或直接合成制作）。'
 	)
 	info.add(
 		Item.of('naturesaura:aura_bottle', '{stored_type:"naturesaura:end"}'),
-		'Use a Bottle and Cork in the End'
+		'在末地使用瓶与塞。'
 	)
 
 	//fishing
@@ -167,8 +167,8 @@ onEvent('jei.information', (info) => {
 			'minecraft:lapis_lazuli',
 		],
 		[
-			'Can result from lava fishing anywhere',
-			'See "Azriel\'s Acquisitions" quest chapter',
+			'在任何群系进行熔岩垂钓均可获得。',
+			'可查阅《阿兹瑞尔的收购》章节的任务',
 		]
 	)
 	info.add(
@@ -182,8 +182,8 @@ onEvent('jei.information', (info) => {
 			'minecraft:lapis_lazuli',
 		],
 		[
-			'Can result from lava fishing in Warped Forests',
-			'See "Azriel\'s Acquisitions" quest chapter',
+			'可在诡异森林进行熔岩垂钓获得。',
+			'可查阅《阿兹瑞尔的收购》章节的任务',
 		]
 	)
 	info.add(
@@ -200,8 +200,8 @@ onEvent('jei.information', (info) => {
 			'minecraft:lapis_lazuli',
 		],
 		[
-			'Can result from lava fishing in Crimson Forests',
-			'See "Azriel\'s Acquisitions" quest chapter',
+			'可在绯红森林进行熔岩垂钓获得。',
+			'可查阅《阿兹瑞尔的收购》章节的任务',
 		]
 	)
 	info.add(
@@ -221,8 +221,8 @@ onEvent('jei.information', (info) => {
 			'minecraft:lapis_lazuli',
 		],
 		[
-			'Can result from lava fishing in Soul Sand Valleys',
-			'See "Azriel\'s Acquisitions" quest chapter',
+			'可在灵魂沙峡谷进行熔岩垂钓获得。',
+			'可查阅《阿兹瑞尔的收购》章节的任务',
 		]
 	)
 	info.add(
@@ -235,8 +235,8 @@ onEvent('jei.information', (info) => {
 			'minecraft:lapis_lazuli',
 		],
 		[
-			'Can result from lava fishing in Basalt Deltas',
-			'See "Azriel\'s Acquisitions" quest chapter',
+			'可在玄武岩三角洲进行熔岩垂钓获得。',
+			'可查阅《阿兹瑞尔的收购》章节的任务',
 		]
 	)
 	info.add(
@@ -250,8 +250,8 @@ onEvent('jei.information', (info) => {
 			'minecraft:lapis_lazuli',
 		],
 		[
-			'Can result from lava fishing in Nether Wastes',
-			'See "Azriel\'s Acquisitions" quest chapter',
+			'可在下界荒地进行熔岩垂钓获得。',
+			'可查阅《阿兹瑞尔的收购》章节的任务',
 		]
 	)
 	info.add(
@@ -261,9 +261,9 @@ onEvent('jei.information', (info) => {
 			Fluid.of('minecraft:water'),
 		],
 		[
-			'The Fisher Hut from Minecolonies generates with a pool of water',
+			'模拟殖民地的渔夫小屋会伴随生成一个水池。',
 			' ',
-			'Water does not regenerate, but you can safely collect it with Glass Bottles',
+			'水源不可再生，但你可以用水瓶安全地收集。',
 		]
 	)
 
@@ -274,28 +274,28 @@ onEvent('jei.information', (info) => {
 			'occultism:datura_seeds',
 			'immersiveengineering:seed',
 		],
-		'Drops from Grass'
+		'打草掉落。'
 	)
 	info.add('hexerei:sage', 'Grows from Sage Seeds')
 	info.add('hexerei:mahogany_sapling', [
-		'Given as a quest reward',
+		'作为任务奖励获得。',
 		' ',
-		'Can also be found as loot in chests (in dungeons and fortresses, etc)',
+		'也可以在战利品箱子找到（在地牢和堡垒等建筑）。',
 	])
 
 	info.add(
 		[Item.of('immersiveengineering:blueprint', '{blueprint:"electrode"}')],
-		'Can be bought from the Toolsmith villager'
+		'可以在工具匠职业村民处交易获得。'
 	)
 
 	info.add(
 		'nethersdelight:hoglin_hide',
-		'Obtained by killing a hoglin with a knife'
+		'通过用小刀杀死疣猪兽获得。'
 	)
 	info.add('quark:dragon_scale', [
-		'Found in End City chests',
+		'在末地城箱子里可以找到。',
 		' ',
-		'Also drops from the Ender Dragon',
+		'末影龙同样掉落。',
 	])
 
 	let luckyOres = [
@@ -320,48 +320,48 @@ onEvent('jei.information', (info) => {
 		let ore = o[0]
 		let weight = o[1]
 		info.add(ore, [
-			'Sometimes generated by the Minecolonies Miner',
+			'有时模拟殖民地的矿工也会生成。',
 			' ',
-			'Has a weight of ' + weight + '/' + luckyOresTotalWeight,
+			'拥有 ' + weight + '/' + luckyOresTotalWeight + '的权重。',
 		])
 	})
 
-	info.add('naturesaura:end_flower', 'Grows when the Ender Dragon is killed')
-	info.add('ae2:singularity', 'Created in the Matter Condenser')
+	info.add('naturesaura:end_flower', '在末影龙死后生长。')
+	info.add('ae2:singularity', '由物质聚合器制作。')
 	info.add('bloodmagic:weak_tau', [
-		'Found in Simple Dungeons (see "The Antechamber" in the Sanguine Scientem)',
+		'在简单地牢中找到（参见 "The Antechamber" in the Sanguine Scientem）。',
 		' ',
-		'Can be farmed on Farmland',
+		'可以在耕地上种植。',
 	])
 	info.add('bloodmagic:strong_tau', [
-		'Can be rarely found in Simple Dungeons (see "The Antechamber" in the Sanguine Scientem)',
+		'可以在简单地牢中比较少见地找到（参见 "The Antechamber" in the Sanguine Scientem）。',
 		' ',
-		'If normal Tau Fruit grows while an animal is standing on top, it grows into Saturated Tau instead',
+		'如果普通血命果生长时一只动物站在它上面，它会生长为饱满血命果。',
 	])
 	info.add('productivebees:gene_bottle', [
-		'Place a Bottler, and insert Bottles',
+		'放置一个装瓶器，然后放入瓶子。',
 		' ',
-		'Place a downwards-facing Piston 2 blocks above',
+		'在其上方两格高的位置放置一个面朝下的活塞。',
 		' ',
-		'With a Bee between, power the Piston',
+		'将蜜蜂置于中间，然后激活活塞。',
 	])
 	info.add('productivebees:gene', [
-		'Place Squashed Bee Material in the Centrifuge',
+		'将压榨蜜蜂材料放到离心机里。',
 	])
 	info.add('evilcraft:origins_of_darkness', [
-		'Obtain by feeding a Darkened Apple to a mob, and throwing a Book at the resulting anomaly',
+		'通过将黑苹果喂给一只怪物，然后将一本书扔向变异怪物来获得。',
 	])
 	info.add('evilcraft:vengeance_essence', [
-		'Drops from killing Vengeance Spirits',
+		'杀死复仇之魂掉落。',
 	])
-	info.add('evilcraft:hardened_blood', ['Coagulates from poured Blood'])
-	info.add('evilcraft:hardened_blood_shard', ['Drops from Hardened Blood'])
+	info.add('evilcraft:hardened_blood', ['将倒出的血液凝固得到。'])
+	info.add('evilcraft:hardened_blood_shard', ['破坏凝固的血块得到。'])
 	info.add(
 		Item.of(
 			'evilcraft:broom',
 			'{Fluid:{Amount:10000,FluidName:"evilcraft:blood"}}'
 		),
-		['Craft a Bare Brush, Bare Cap, and Bare Rod together']
+		['用裸刷，裸端和裸杆合成。']
 	)
 
 	info.add(
@@ -374,19 +374,19 @@ onEvent('jei.information', (info) => {
 			'hexerei:mandrake_flower',
 			'myrtrees:rubberwood_sapling',
 		],
-		['Has a chance of mutating from Mutandis']
+		['有一定概率由转生粉变异获得。']
 	)
 	info.add('inferno:mutandis', [
-		'Used to transmute certain crops to certain other crops.',
+		'用来将特定作物转变为另一种特定作物。',
 		' ',
-		'Can transmute between these blocks, chosen at random:',
-		'• Oak Sapling',
-		'• Sage',
-		'• Belladonna',
-		'• Mugwort',
-		'• Yellow Dock',
-		'• Mandrake',
-		'• Rubberwood',
+		'可以在以下作物中互相变异',
+		'•橡树树苗',
+		'•鼠尾草',
+		'•颠茄花',
+		'•艾蒿灌木',
+		'•黄色酸模灌木',
+		'•曼德拉花',
+		'•橡胶树树苗',
 	])
 	info.add(
 		[
@@ -396,34 +396,34 @@ onEvent('jei.information', (info) => {
 			'nethersdelight:warped_fungus_colony',
 		],
 		[
-			'Grows from the appropriate Mushroom when it is planted on Rich Soil',
+			'当种植在肥沃土壤中时由合适的蘑菇种类生长而来',
 			' ',
-			'Requires darkness and time',
+			'需要黑暗和时间',
 			' ',
-			'Left-click Shears to harvest whole, right-click Shears to harvest parts',
+			'用剪刀左键收获整个菌落，右键收获部分菌落。',
 		]
 	)
 
 	info.add('apotheosis:gem_dust', ['Drop an Anvil on an Apotheosis Gem'])
 	info.add('avaritia:neutron_pile', [
-		'Generated by the Neutron Collector',
+		'由中子素收集器产生',
 		' ',
-		'Each Collector generates one Pile per 3 minutes',
+		'每个中子素收集器每三分钟产生一个中子素尘埃',
 	])
 
 	info.add('witherstormmod:command_block_book', [
-		'Dropped by the Withered Symbiont',
+		'由凋零共生体掉落',
 		' ',
-		"Symbionts spawn at the end the Wither Storm's fifth stage, which can only be damaged with hits to its back",
+		"共生体生成于凋零风暴的的第五阶段末尾，只能通过攻击它的背后来造成伤害",
 	])
 	info.add('witherstormmod:withered_nether_star', [
-		'Dropped from the fully-evolved Wither Storm',
+		'由完全进化的凋零风暴掉落',
 	])
 	info.add('witherstormmod:withered_bone', [
-		'Dropped by Wither-Sickened Skeletons',
+		'由凋零骷髅掉落',
 	])
 	info.add('witherstormmod:withered_flesh', [
-		'Dropped by Wither-Sickened Zombies',
+		'由凋零僵尸掉落',
 	])
 
 	console.info('Added jei pages')
