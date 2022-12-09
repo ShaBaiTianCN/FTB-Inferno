@@ -2047,11 +2047,11 @@
 			x: 2.0d
 			y: 1.5d
 			shape: "square"
-			subtitle: "制作一个Apple of Eden"
+			subtitle: "制作一个伊甸苹果"
 			description: [
 				"被诅咒的苹果赶走了亚当和夏娃，并将他们的棍子变成了蛇，关闭了红海，厄里斯用它引发了特洛伊战争，伐木工用它把水变成了酒。"
 				""
-				"有了&bApple of Eden&r之后，我的研究人员能到达&6飞升&r的境界，我的工人都将变成神。"
+				"有了&b伊甸苹果&r之后，我的研究人员能到达&6飞升&r的境界，我的工人都将变成神。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["7FF70F90D7134D53"]
