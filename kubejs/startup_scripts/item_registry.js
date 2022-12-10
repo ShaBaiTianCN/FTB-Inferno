@@ -55,28 +55,28 @@ onEvent('item.registry', (event) => {
 
 	//custom colonist armors
 	//Warped Armor
-	event.create('inferno:warped_helmet', 'helmet').tier('warped')
-	event.create('inferno:warped_chestplate', 'chestplate').tier('warped')
-	event.create('inferno:warped_leggings', 'leggings').tier('warped')
-	event.create('inferno:warped_boots', 'boots').tier('warped')
+	event.create('inferno:warped_helmet', 'helmet').tier('warped').displayName('诡异木头盔')
+	event.create('inferno:warped_chestplate', 'chestplate').tier('warped').displayName('诡异木胸甲')
+	event.create('inferno:warped_leggings', 'leggings').tier('warped').displayName('诡异木护腿')
+	event.create('inferno:warped_boots', 'boots').tier('warped').displayName('诡异木靴子')
 
 	//Crimson Armor
-	event.create('inferno:crimson_helmet', 'helmet').tier('crimson')
-	event.create('inferno:crimson_chestplate', 'chestplate').tier('crimson')
-	event.create('inferno:crimson_leggings', 'leggings').tier('crimson')
-	event.create('inferno:crimson_boots', 'boots').tier('crimson')
+	event.create('inferno:crimson_helmet', 'helmet').tier('crimson').displayName('绯红木头盔')
+	event.create('inferno:crimson_chestplate', 'chestplate').tier('crimson').displayName('绯红木胸甲')
+	event.create('inferno:crimson_leggings', 'leggings').tier('crimson').displayName('绯红木护腿')
+	event.create('inferno:crimson_boots', 'boots').tier('crimson').displayName('绯红木靴子')
 
 	//Corrupted Armor
-	event.create('inferno:corrupted_helmet', 'helmet').tier('corrupted')
-	event.create('inferno:corrupted_chestplate', 'chestplate').tier('corrupted')
-	event.create('inferno:corrupted_leggings', 'leggings').tier('corrupted')
-	event.create('inferno:corrupted_boots', 'boots').tier('corrupted')
+	event.create('inferno:corrupted_helmet', 'helmet').tier('corrupted').displayName('腐化金属头盔')
+	event.create('inferno:corrupted_chestplate', 'chestplate').tier('corrupted').displayName('腐化金属胸甲')
+	event.create('inferno:corrupted_leggings', 'leggings').tier('corrupted').displayName('腐化金属护腿')
+	event.create('inferno:corrupted_boots', 'boots').tier('corrupted').displayName('腐化金属靴子')
 
 	//Manyullyn Armor
-	event.create('inferno:manyullyn_helmet', 'helmet').tier('manyullyn')
-	event.create('inferno:manyullyn_chestplate', 'chestplate').tier('manyullyn')
-	event.create('inferno:manyullyn_leggings', 'leggings').tier('manyullyn')
-	event.create('inferno:manyullyn_boots', 'boots').tier('manyullyn')
+	event.create('inferno:manyullyn_helmet', 'helmet').tier('manyullyn').displayName('玛玉灵头盔')
+	event.create('inferno:manyullyn_chestplate', 'chestplate').tier('manyullyn').displayName('玛玉灵胸甲')
+	event.create('inferno:manyullyn_leggings', 'leggings').tier('manyullyn').displayName('玛玉灵护腿')
+	event.create('inferno:manyullyn_boots', 'boots').tier('manyullyn').displayName('玛玉灵靴子')
 
 	//crude enderium
 	event.create('inferno:crude_enderium_dust').displayName('粗制末影粉')
