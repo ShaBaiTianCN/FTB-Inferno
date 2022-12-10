@@ -197,7 +197,7 @@ onEvent('item.registry', (event) => {
 	//demon will infused source gems
 	event
 		.create('inferno:willinfusedsource')
-		.displayName('将灌注魔源宝石')
+		.displayName('灌注恶魔意志的魔源宝石')
 
 	//doping agent
 	event.create('inferno:steeldopingagent').displayName('钢掺杂剂')
