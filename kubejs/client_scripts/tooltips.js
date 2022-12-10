@@ -59,7 +59,7 @@ onEvent('item.tooltip', (event) => {
 		'由魔鬼之梦种子长成，',
 		'或由金苹果异变而来',
 	])
-	tooltip('biomesoplenty:hellbark_sapling', 'Found in the undergarden biome.')
+	tooltip('biomesoplenty:hellbark_sapling', '在地底花园可以找到')
 	tooltip(/kubejs.*ladder/, [
 		"由于一个BUG，夸克的",
 		'梯子在JEI无法显示',
@@ -147,7 +147,7 @@ onEvent('item.tooltip', (event) => {
 		'grapplemod:rocketupgradeitem',
 		'单击左键向前推动玩家'
 	)
-	tooltip('evilcraft:origins_of_darkness', 'Some information inaccurate')
+	tooltip('evilcraft:origins_of_darkness', '一些信息不太准确')
 
 	event.add(
 		[

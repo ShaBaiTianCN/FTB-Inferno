@@ -17,20 +17,20 @@ onEvent('item.tooltip', (event) => {
 	stageTips(
 		'water_unlocked',
 		['minecraft:water_bucket'],
-		"Locked behind the Fisher's Hut"
+		"在渔夫小屋之后解锁"
 	)
 	stageTips('iron_unlocked', 'minecraft:iron_ingot', [
-		'Locked behind Piglin trading',
-		'and the Smeltery',
+		'在猪灵交易和',
+		'冶炼厂之后解锁',
 	])
 	stageTips('bees_unlocked', 'minecraft:beehive', [
-		'Locked behind the Smeltery',
-		'and the Summoning Altar',
+		'在冶炼厂和',
+		'召唤祭坛之后解锁',
 	])
 	stageTips(
 		'fishing_unlocked',
 		['minecraft:copper_ingot', 'minecraft:redstone', 'minecraft:lapis_lazuli'],
-		'Locked behind Lava fishing'
+		'在熔岩钓鱼之后解锁'
 	)
 	stageTips(
 		'enchanting_unlocked',
@@ -40,32 +40,32 @@ onEvent('item.tooltip', (event) => {
 			'apotheosis:seashelf',
 			'apotheosis:endshelf',
 		],
-		"Locked behind the Enchanter's Tower"
+		"在附魔师之塔之后解锁"
 	)
 	stageTips(
 		'mechanic_unlocked',
 		'create:mechanical_crafter',
-		"Locked behind the Mechanist's Hut"
+		"在机械师小屋之后解锁"
 	)
 	stageTips(
 		'blacksmith_unlocked',
 		'create:steam_engine',
-		"Locked behind the Blacksmith's Hut"
+		"在铁匠小屋之后解锁"
 	)
 	stageTips(
 		'smeltery_crafted',
 		['@immersiveengineering', '@bloodmagic'],
-		'Mod (mostly) locked behind the Smeltery'
+		'该模组（大部分）在冶炼厂之后解锁'
 	)
 	stageTips(
 		'mixing_cauldron_crafted',
 		['@minecolonies', '@ae2'],
-		'Mod (mostly) locked behind the Mixing Cauldron'
+		'该模组（大部分）在混合锅之后解锁'
 	)
 	stageTips(
 		'naturesaura_unlocked',
 		'@naturesaura',
-		'Mod (mostly) locked behind the Beehive'
+		'该模组（大部分）在蜂箱之后解锁'
 	)
 	stageTips(
 		'dimensional_mineshaft',
@@ -80,16 +80,16 @@ onEvent('item.tooltip', (event) => {
 			'thermal:cinnabar_ore',
 			'minecraft:diamond_ore',
 		],
-		'Locked behind the Dimensional Mineshaft'
+		'该模组在采矿维度之后解锁'
 	)
 	stageTips('ars_unlocked', '@ars_nouveau', [
-		'Mod (mostly) locked behind',
-		'Blood Magic, Occultism,',
-		'and Natures Aura',
+		'该模组（大部分）在',
+		'血魔法，神秘学，',
+		'和自然灵气之后解锁',
 	])
 	stageTips('dimensional_mineshaft', '@create', [
-		'Mod (mostly) locked behind the',
-		'Dimensional Mineshaft',
+		'该模组（大部分）在',
+		'采矿维度之后解锁',
 	])
 	stageTips(
 		'dragon_defeated',
@@ -98,6 +98,6 @@ onEvent('item.tooltip', (event) => {
 			'inferno:purifiedinfernalessence',
 			'quark:dragon_scale',
 		],
-		['Requires killing the Ender Dragon']
+		['需要击杀末影龙']
 	)
 })
