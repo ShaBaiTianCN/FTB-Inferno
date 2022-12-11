@@ -1159,7 +1159,7 @@
 					id: "11CBDE8891D58780"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"靡菲斯特的暴怒 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"草药与诅咒\",\"color\":\"dark_purple\"},\"！\"]"
+					command: "/tellraw @p [\"\",\"解锁章节：\",{\"text\":\"靡菲斯特的暴怒 \",\"color\":\"dark_aqua\"},\"下的 \",{\"text\":\"草药与巫术\",\"color\":\"dark_purple\"},\"！\"]"
 					player_command: false
 				}
 			]
