@@ -89,13 +89,13 @@ onEvent('jei.information', (info) => {
 	)
 	info.add('minecraft:bell', ['Dropped as loot from the Bellringer boss.'])
 	info.add('meetyourfight:phantoplasm', [
-		'制作一个Bellringer Gateway Pearl，召唤敲钟人并打败它来获得其掉落物。',
+		'制作一个敲钟人传送门珍珠，召唤敲钟人并打败它来获得其掉落物。',
 	])
 	info.add('meetyourfight:fortunes_favor', [
-		'制作一个Bellringer Gateway Pearl，召唤敲钟人并打败它来获得其掉落物。',
+		'制作一个敲钟人传送门珍珠，召唤敲钟人并打败它来获得其掉落物。',
 	])
 	info.add('meetyourfight:mossy_tooth', [
-		'制作一个Bellringer Gateway Pearl，召唤敲钟人并打败它来获得其掉落物。',
+		'制作一个敲钟人传送门珍珠，召唤敲钟人并打败它来获得其掉落物。',
 	])
 	info.add(
 		'minecraft:obsidian',
