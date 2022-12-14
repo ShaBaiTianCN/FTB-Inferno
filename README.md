@@ -7,9 +7,50 @@
 [![Downloads](https://shields.io/github/downloads/ShaBaiTianCN/FTB-Inferno/total?label=Downloads)](https://github.com/ShaBaiTianCN/FTB-Inferno/releases)
 [![Release](https://shields.io/github/v/release/ShaBaiTianCN/FTB-Inferno?display_name=tag&include_prereleases&label=Release)](https://github.com/ShaBaiTianCN/FTB-Inferno/releases/latest)
 
-## 仓库说明
+## 说明
 
 这里是 FTB Inferno 整合包简体中文汉化仓库。
+
+## 作者
+
+- [Annijang](https://github.com/Annijang)
+- [AnzhiZhang](https://github.com/AnzhiZhang)
+- [BlackkkkTea](https://github.com/BlackkkkTea)
+- [Cactusstudent](https://github.com/Cactusstudent)
+- [DrunkFire](https://github.com/DrunkFire)
+- [EtherealSky](https://github.com/EtherealSky)
+- [GlassWalls0](https://github.com/GlassWalls0)
+- [HanemaruYuuki](https://github.com/HanemaruYuuki)
+- [JavaNuLi](https://github.com/JavaNuLi)
+- [Kanzaki-snail](https://github.com/Kanzaki-snail)
+- [Koguring](https://github.com/Koguring)
+- [LANLAN233](https://github.com/LANLAN233)
+- [MeMoXrisE](https://github.com/MeMoXrisE)
+- [NotCaiden](https://github.com/NotCaiden)
+- [QingjinLapis](https://github.com/QingjinLapis)
+- [RainCnya](https://github.com/RainCnya)
+- [Rasilia](https://github.com/Rasilia)
+- [Ricky-fight](https://github.com/Ricky-fight)
+- [SeeleVol](https://github.com/SeeleVol)
+- [Shengding0820](https://github.com/Shengding0820)
+- [SipengXie](https://github.com/SipengXie)
+- [Sylvia-10](https://github.com/Sylvia-10)
+- [autumn404](https://github.com/autumn404)
+- [consker](https://github.com/consker)
+- [enao2cher](https://github.com/enao2cher)
+- [inomo](https://github.com/inomo)
+- [invisibility233](https://github.com/invisibility233)
+- [leekinger](https://github.com/leekinger)
+- [lomyu](https://github.com/lomyu)
+- [luo-2233](https://github.com/luo-2233)
+- [mmoyuin](https://github.com/mmoyuin)
+- [moyaoneself](https://github.com/moyaoneself)
+- [mudapi](https://github.com/mudapi)
+- [nai200](https://github.com/nai200)
+- [winskyx](https://github.com/winskyx)
+- [xinyihl](https://github.com/xinyihl)
+
+## 安装
 
 ![汉化补丁食用说明](汉化补丁食用说明.jpg)
 
